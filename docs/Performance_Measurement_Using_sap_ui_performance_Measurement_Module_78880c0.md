@@ -23,14 +23,10 @@ You can measure the categories that are used by the OpenUI5 core classes as list
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Description
 
 `javascript` \(default\)
 
-
-
 </td>
 <td valign="top">
 
 Default measurement category if no category is provided
-
-
 
 </td>
 </tr>
@@ -55,14 +47,10 @@ Default measurement category if no category is provided
 
 `require` 
 
-
-
 </td>
 <td valign="top">
 
 Identifies the duration of `sap.ui.require` for lazy loading of JavaScipt classes including the loading and parsing times for a class
-
-
 
 </td>
 </tr>
@@ -71,14 +59,10 @@ Identifies the duration of `sap.ui.require` for lazy loading of JavaScipt classe
 
 `xmlhttprequest` 
 
-
-
 </td>
 <td valign="top">
 
 Identifies the duration of an `jQuery.ajax` call
-
-
 
 </td>
 </tr>
@@ -87,16 +71,12 @@ Identifies the duration of an `jQuery.ajax` call
 
 `render` 
 
-
-
 </td>
 <td valign="top">
 
 Used for all rendering-related measurements that trigger core rendering of controls within the `RenderManager` class
 
 With the `render` category there comes an additional set of categories to distinguish between different phases of rendering
-
-
 
 </td>
 </tr>
@@ -105,14 +85,10 @@ With the `render` category there comes an additional set of categories to distin
 
 `control` 
 
-
-
 </td>
 <td valign="top">
 
 Identifies the duration for HTML rendering provided with the `ControlRender.render` method
-
-
 
 </td>
 </tr>
@@ -121,14 +97,10 @@ Identifies the duration for HTML rendering provided with the `ControlRender.rend
 
 `after` 
 
-
-
 </td>
 <td valign="top">
 
 Identifies the duration for calls on the control's `onAfterRendering` method
-
-
 
 </td>
 </tr>
@@ -137,14 +109,10 @@ Identifies the duration for calls on the control's `onAfterRendering` method
 
 `preserve` 
 
-
-
 </td>
 <td valign="top">
 
 Identifies the duration needed to find out whether rendering can be preserved
-
-
 
 </td>
 </tr>
@@ -185,15 +153,11 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
     <th valign="top">
 
     Action
-
-
     
     </th>
     <th valign="top">
 
     Method
-
-
     
     </th>
     </tr>
@@ -201,15 +165,11 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
     <td valign="top">
     
     Start measurement
-
-
     
     </td>
     <td valign="top">
     
     `Measurement.start(sId,sInfo,[categories])` 
-
-
     
     </td>
     </tr>
@@ -217,15 +177,11 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
     <td valign="top">
     
     End measurement
-
-
     
     </td>
     <td valign="top">
     
     `Measurement.end(sId)` 
-
-
     
     </td>
     </tr>
@@ -233,15 +189,11 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
     <td valign="top">
     
     Pause
-
-
     
     </td>
     <td valign="top">
     
     `Measurement.pause(sId)` 
-
-
     
     </td>
     </tr>
@@ -249,15 +201,11 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
     <td valign="top">
     
     Resume
-
-
     
     </td>
     <td valign="top">
     
     `Measurement.resume(sId)` 
-
-
     
     </td>
     </tr>
@@ -302,14 +250,10 @@ You can retrieve the results via API with one of the following commands:
 
 Command
 
-
-
 </th>
 <th valign="top">
 
 Returns
-
-
 
 </th>
 </tr>
@@ -318,14 +262,10 @@ Returns
 
 `Measurement.getAllMeasurements()` 
 
-
-
 </td>
 <td valign="top">
 
 Array of all measures \(running and completed\)
-
-
 
 </td>
 </tr>
@@ -334,14 +274,10 @@ Array of all measures \(running and completed\)
 
 `Measurement.getAllMeasurements(true)` 
 
-
-
 </td>
 <td valign="top">
 
 Array of completed measures
-
-
 
 </td>
 </tr>
@@ -350,14 +286,10 @@ Array of completed measures
 
 `Measurement.getAllMeasurements(false)` 
 
-
-
 </td>
 <td valign="top">
 
 Array of running \(not completed\) measures
-
-
 
 </td>
 </tr>
@@ -366,14 +298,10 @@ Array of running \(not completed\) measures
 
 `Measurement.getMeasurement(string)` 
 
-
-
 </td>
 <td valign="top">
 
 One specific measurement by ID
-
-
 
 </td>
 </tr>
@@ -382,14 +310,10 @@ One specific measurement by ID
 
 `Measurement.filterMeasurements(func)` 
 
-
-
 </td>
 <td valign="top">
 
 Array of all measures based on the result of the filter function \(running and completed\)
-
-
 
 </td>
 </tr>
@@ -398,14 +322,10 @@ Array of all measures based on the result of the filter function \(running and c
 
 `Measurement.filterMeasurements(func, true)` 
 
-
-
 </td>
 <td valign="top">
 
 Array of completed measures based on the result of the filter function
-
-
 
 </td>
 </tr>
@@ -414,14 +334,10 @@ Array of completed measures based on the result of the filter function
 
 `Measurement.filterMeasurements(func, false)` 
 
-
-
 </td>
 <td valign="top">
 
 Array of running measures based on the result of the filter function
-
-
 
 </td>
 </tr>

@@ -155,28 +155,20 @@ There are OPA5 rules that limit the ways you can use busy controls. Some OPA5 fe
 
 `OPA5.config` `autoWait` 
 
-
-
 </th>
 <th valign="top" align="center">
 
 `waitFor` actions
-
-
 
 </th>
 <th valign="top" align="center">
 
 `waitFor` `autoWait` 
 
-
-
 </th>
 <th valign="top" align="center">
 
 verify busy control
-
-
 
 </th>
 </tr>
@@ -185,28 +177,20 @@ verify busy control
 
 ✓
 
-
-
 </td>
 <td valign="top" align="center">
 
 ✓
-
-
 
 </td>
 <td valign="top" align="center">
 
 any
 
-
-
 </td>
 <td valign="top" align="center">
 
 X
-
-
 
 </td>
 </tr>
@@ -215,28 +199,20 @@ X
 
 ✓
 
-
-
 </td>
 <td valign="top" align="center">
 
 X
-
-
 
 </td>
 <td valign="top" align="center">
 
 true / not modified
 
-
-
 </td>
 <td valign="top" align="center">
 
 X
-
-
 
 </td>
 </tr>
@@ -245,28 +221,20 @@ X
 
 ✓
 
-
-
 </td>
 <td valign="top" align="center">
 
 X
-
-
 
 </td>
 <td valign="top" align="center">
 
 false
 
-
-
 </td>
 <td valign="top" align="center">
 
 ✓
-
-
 
 </td>
 </tr>
@@ -275,28 +243,20 @@ false
 
 X
 
-
-
 </td>
 <td valign="top" align="center">
 
 ✓
-
-
 
 </td>
 <td valign="top" align="center">
 
 any
 
-
-
 </td>
 <td valign="top" align="center">
 
 X
-
-
 
 </td>
 </tr>
@@ -305,28 +265,20 @@ X
 
 X
 
-
-
 </td>
 <td valign="top" align="center">
 
 X
-
-
 
 </td>
 <td valign="top" align="center">
 
 false / not modified
 
-
-
 </td>
 <td valign="top" align="center">
 
 ✓
-
-
 
 </td>
 </tr>
@@ -335,28 +287,20 @@ false / not modified
 
 X
 
-
-
 </td>
 <td valign="top" align="center">
 
 X
-
-
 
 </td>
 <td valign="top" align="center">
 
 true
 
-
-
 </td>
 <td valign="top" align="center">
 
 X
-
-
 
 </td>
 </tr>

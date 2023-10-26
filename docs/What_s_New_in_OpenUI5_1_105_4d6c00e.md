@@ -26,49 +26,35 @@ With this release OpenUI5 is upgraded from version 1.104 to 1.105.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -77,28 +63,20 @@ Available as of
 
 1.105 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.List`** 
-
-
 
 </td>
 <td valign="top">
@@ -117,21 +95,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.105</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-08-11
-
-
 
 </td>
 </tr>
@@ -140,28 +112,20 @@ Info Only
 
 1.105 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecations** 
-
-
 
 </td>
 <td valign="top">
@@ -172,21 +136,15 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 <sub>Deprecated•Feature•Info Only•1.105</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-08-11
-
-
 
 </td>
 </tr>
@@ -195,28 +153,20 @@ Info Only
 
 1.105 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -227,21 +177,15 @@ We have introduced the `tooltip` property, which is used to provide more informa
 
 <sub>Changed•Control•Info Only•1.105</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-08-11
-
-
 
 </td>
 </tr>
@@ -250,28 +194,20 @@ Info Only
 
 1.105 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IllustratedMessage`** 
-
-
 
 </td>
 <td valign="top">
@@ -282,21 +218,15 @@ We have enabled vertical responsiveness for the control. The `sap.m.IllustratedM
 
 <sub>Changed•Control•Info Only•1.105</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-08-11
-
-
 
 </td>
 </tr>
@@ -305,28 +235,20 @@ Info Only
 
 1.105 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Dialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -337,21 +259,15 @@ We have enabled a new keyboard shortcut for `sap.m.Dialog` with a footer button 
 
 <sub>Changed•Control•Info Only•1.105</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-08-11
-
-
 
 </td>
 </tr>
@@ -360,28 +276,20 @@ Info Only
 
 1.105 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -394,21 +302,15 @@ For more information, see [Recursive Hierarchy](Extension_for_Data_Aggregation_7
 
 <sub>Changed•Feature•Info Only•1.105</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-08-11
-
-
 
 </td>
 </tr>
@@ -417,28 +319,20 @@ Info Only
 
 1.105 
 
-
-
 </td>
 <td valign="top">
 
 UI Changed 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **Stricter Validation of Decimal and Grouping Separators** 
-
-
 
 </td>
 <td valign="top">
@@ -452,21 +346,15 @@ If a user added grouping separators when entering a number, the parsing logic ig
 
 <sub>UI Changed•Announcement•Info Only•1.105</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-08-11
-
-
 
 </td>
 </tr>
@@ -475,28 +363,20 @@ Info Only
 
 1.105 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **Deactivation of Default Time Zone Configuration Feature** 
-
-
 
 </td>
 <td valign="top">
@@ -529,21 +409,15 @@ We plan to bring this feature back in a different form at a later point in time.
 
 <sub>Changed•Announcement•Info Only•1.105</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-08-11
-
-
 
 </td>
 </tr>

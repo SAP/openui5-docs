@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.40 to 1.42.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.DynamicPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -122,21 +100,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 <sub>New•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -145,28 +117,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **Acceleration of OpenUI5 Cloud Deployment** 
-
-
 
 </td>
 <td valign="top">
@@ -177,21 +141,15 @@ We now deploy new versions of OpenUI5 earlier to `https://sdk.openui5.org/`. As 
 
 <sub>New•Announcement•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -200,28 +158,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.LightBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -234,21 +184,15 @@ The `LightBox` control is used to display an image in its original size. When th
 
 <sub>New•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -257,28 +201,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Tree`** 
-
-
 
 </td>
 <td valign="top">
@@ -289,21 +225,15 @@ The `Tree` control provides a tree structure for displaying data in a hierarchy.
 
 <sub>New•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -312,28 +242,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Carousel`** 
-
-
 
 </td>
 <td valign="top">
@@ -353,21 +275,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -376,28 +292,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Combobox`** 
-
-
 
 </td>
 <td valign="top">
@@ -408,21 +316,15 @@ The `Combobox` control now automatically scrolls to the selected element, so tha
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -431,28 +333,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.FeedListItem`** 
-
-
 
 </td>
 <td valign="top">
@@ -463,21 +357,15 @@ The `FeedListItem` control now incorporates the `sap.m.FormattedText` control th
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -486,28 +374,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.FlexBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -518,21 +398,15 @@ The render type `Bare` has been added to the `FlexBox` control. It allows flex i
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -541,28 +415,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IconTabBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -580,21 +446,15 @@ For more information, see the API Reference for [sap.m.IconTabHeaderMode](https:
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -603,28 +463,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MultiComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -635,21 +487,15 @@ We have implemented touch support on mobile devices for the `MultiComboBox` cont
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -658,28 +504,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Slider / sap.m.RangeSlider`** 
-
-
 
 </td>
 <td valign="top">
@@ -697,21 +535,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -720,28 +552,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ObjectListItem / sap.m.ObjectHeader`** 
-
-
 
 </td>
 <td valign="top">
@@ -752,21 +576,15 @@ These controls can now display all markers of type `sap.m.ObjectMarker` with the
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -775,28 +593,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ObjectMarker`** 
-
-
 
 </td>
 <td valign="top">
@@ -805,21 +615,15 @@ With the use of a new `additionalInfo` property, you can now add descriptive tex
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -828,28 +632,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.UploadCollection`** 
-
-
 
 </td>
 <td valign="top">
@@ -867,21 +663,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -890,28 +680,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ViewSettingsDialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -922,21 +704,15 @@ You can now customize the search behavior in the filter details page with the us
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -945,28 +721,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.layout.BlockLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -977,21 +745,15 @@ The `BlockLayout` control has been updated to comply to the new SAP Fiori 2.0 de
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -1000,28 +762,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.uxap.ObjectPageLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -1032,21 +786,15 @@ You can set the footer with the footer aggregation and toggle its visibility usi
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -1055,28 +803,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Behavior-Driven Development with Gherkin** 
-
-
 
 </td>
 <td valign="top">
@@ -1087,21 +827,15 @@ OpenUI5 now supports behavior-driven development \(BDD\) with Gherkin. Gherkin a
 
 <sub>Changed•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -1110,28 +844,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -1152,21 +878,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -1175,28 +895,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **One Page Acceptance Tests \(OPA5\)** 
-
-
 
 </td>
 <td valign="top">
@@ -1227,21 +939,15 @@ Feature
 
 <sub>Changed•Feature•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -1250,28 +956,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Navigation and Routing** 
-
-
 
 </td>
 <td valign="top">
@@ -1282,21 +980,15 @@ You can now use the `title` property for targets and a `titleTarget` for routes 
 
 <sub>Changed•Feature•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -1305,28 +997,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **New Icons** 
-
-
 
 </td>
 <td valign="top">
@@ -1337,21 +1021,15 @@ We have 10 new icons - check out the [Icon Explorer](https://sdk.openui5.org/tes
 
 <sub>Changed•Feature•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -1360,28 +1038,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.suite.ui.commons`** 
-
-
 
 </td>
 <td valign="top">
@@ -1392,21 +1062,15 @@ The `HeaderCell` and `HeaderCellItem` controls have been deprecated with this re
 
 <sub>Deprecated•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -1415,28 +1079,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.comp.navpopover.SemanticObjectController`** 
-
-
 
 </td>
 <td valign="top">
@@ -1447,21 +1103,15 @@ The `prefetchNavigationTargets` property and the `prefetchDone` event of `sap.ui
 
 <sub>Deprecated•Control•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>
@@ -1470,28 +1120,20 @@ Info Only
 
 1.42 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **QUnit Testing Documentation** 
-
-
 
 </td>
 <td valign="top">
@@ -1509,21 +1151,15 @@ We have updated the following tutorials:
 
 <sub>Changed•User Documentation•Info Only•1.42</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-11-11
-
-
 
 </td>
 </tr>

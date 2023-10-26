@@ -47,21 +47,15 @@ The following text type classifications exist:
 
 Text type
 
-
-
 </th>
 <th valign="top">
 
 Related S2X type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -70,21 +64,15 @@ Description
 
 `XACT`
 
-
-
 </td>
 <td valign="top">
 
 accessibility
 
-
-
 </td>
 <td valign="top">
 
 Accessibility
-
-
 
 </td>
 </tr>
@@ -93,21 +81,15 @@ Accessibility
 
 `XALT`
 
-
-
 </td>
 <td valign="top">
 
 alternativetext
 
-
-
 </td>
 <td valign="top">
 
 Alternative text
-
-
 
 </td>
 </tr>
@@ -116,21 +98,15 @@ Alternative text
 
 `XBCB`
 
-
-
 </td>
 <td valign="top">
 
 breadcrumbstep
 
-
-
 </td>
 <td valign="top">
 
 Breadcrumb step
-
-
 
 </td>
 </tr>
@@ -139,21 +115,15 @@ Breadcrumb step
 
 `XBLI`
 
-
-
 </td>
 <td valign="top">
 
 listitem
 
-
-
 </td>
 <td valign="top">
 
 Bullet list item text
-
-
 
 </td>
 </tr>
@@ -162,21 +132,15 @@ Bullet list item text
 
 `XBUT`
 
-
-
 </td>
 <td valign="top">
 
 button
 
-
-
 </td>
 <td valign="top">
 
 Button text
-
-
 
 </td>
 </tr>
@@ -185,21 +149,15 @@ Button text
 
 `XCAP`
 
-
-
 </td>
 <td valign="top">
 
 caption
 
-
-
 </td>
 <td valign="top">
 
 Caption
-
-
 
 </td>
 </tr>
@@ -208,21 +166,15 @@ Caption
 
 `XCEL`
 
-
-
 </td>
 <td valign="top">
 
 cell
 
-
-
 </td>
 <td valign="top">
 
 Cell
-
-
 
 </td>
 </tr>
@@ -231,21 +183,15 @@ Cell
 
 `XCKL`
 
-
-
 </td>
 <td valign="top">
 
 checkbox
 
-
-
 </td>
 <td valign="top">
 
 Checkbox
-
-
 
 </td>
 </tr>
@@ -254,21 +200,15 @@ Checkbox
 
 `XCOL`
 
-
-
 </td>
 <td valign="top">
 
 tableColumnHeading
 
-
-
 </td>
 <td valign="top">
 
 Column header
-
-
 
 </td>
 </tr>
@@ -277,21 +217,15 @@ Column header
 
 `XCRD`
 
-
-
 </td>
 <td valign="top">
 
 tabStrip
 
-
-
 </td>
 <td valign="top">
 
 Tabstrip
-
-
 
 </td>
 </tr>
@@ -300,21 +234,15 @@ Tabstrip
 
 `XDAT`
 
-
-
 </td>
 <td valign="top">
 
 datanavigationtext
 
-
-
 </td>
 <td valign="top">
 
 Data navigation text
-
-
 
 </td>
 </tr>
@@ -323,21 +251,15 @@ Data navigation text
 
 `XFLD`
 
-
-
 </td>
 <td valign="top">
 
 label
 
-
-
 </td>
 <td valign="top">
 
 Label
-
-
 
 </td>
 </tr>
@@ -346,21 +268,15 @@ Label
 
 `XFRM`
 
-
-
 </td>
 <td valign="top">
 
 frame
 
-
-
 </td>
 <td valign="top">
 
 Frame
-
-
 
 </td>
 </tr>
@@ -369,21 +285,15 @@ Frame
 
 `XGLS`
 
-
-
 </td>
 <td valign="top">
 
 term
 
-
-
 </td>
 <td valign="top">
 
 Term
-
-
 
 </td>
 </tr>
@@ -392,21 +302,15 @@ Term
 
 `XGRP`
 
-
-
 </td>
 <td valign="top">
 
 grouptitle
 
-
-
 </td>
 <td valign="top">
 
 Group title
-
-
 
 </td>
 </tr>
@@ -415,21 +319,15 @@ Group title
 
 `XHED`
 
-
-
 </td>
 <td valign="top">
 
 heading
 
-
-
 </td>
 <td valign="top">
 
 Heading
-
-
 
 </td>
 </tr>
@@ -438,21 +336,15 @@ Heading
 
 `XLGD`
 
-
-
 </td>
 <td valign="top">
 
 legendtext
 
-
-
 </td>
 <td valign="top">
 
 Legend text
-
-
 
 </td>
 </tr>
@@ -461,21 +353,15 @@ Legend text
 
 `XLNK`
 
-
-
 </td>
 <td valign="top">
 
 hyperlink
 
-
-
 </td>
 <td valign="top">
 
 Hyperlink text
-
-
 
 </td>
 </tr>
@@ -484,21 +370,15 @@ Hyperlink text
 
 `XLOG`
 
-
-
 </td>
 <td valign="top">
 
 logentry
 
-
-
 </td>
 <td valign="top">
 
 Log entry
-
-
 
 </td>
 </tr>
@@ -507,21 +387,15 @@ Log entry
 
 `XLST`
 
-
-
 </td>
 <td valign="top">
 
 listbox
 
-
-
 </td>
 <td valign="top">
 
 List box item
-
-
 
 </td>
 </tr>
@@ -530,21 +404,15 @@ List box item
 
 `XMEN`
 
-
-
 </td>
 <td valign="top">
 
 menu
 
-
-
 </td>
 <td valign="top">
 
 Menu header
-
-
 
 </td>
 </tr>
@@ -553,21 +421,15 @@ Menu header
 
 `XMIT`
 
-
-
 </td>
 <td valign="top">
 
 menuitem
 
-
-
 </td>
 <td valign="top">
 
 Menu item
-
-
 
 </td>
 </tr>
@@ -576,21 +438,15 @@ Menu item
 
 `XMSG`
 
-
-
 </td>
 <td valign="top">
 
 messagetext
 
-
-
 </td>
 <td valign="top">
 
 Message text
-
-
 
 </td>
 </tr>
@@ -599,21 +455,15 @@ Message text
 
 `XRBL`
 
-
-
 </td>
 <td valign="top">
 
 radio
 
-
-
 </td>
 <td valign="top">
 
 Radio button
-
-
 
 </td>
 </tr>
@@ -622,21 +472,15 @@ Radio button
 
 `XRMP`
 
-
-
 </td>
 <td valign="top">
 
 roadMapStep
 
-
-
 </td>
 <td valign="top">
 
 Roadmap step
-
-
 
 </td>
 </tr>
@@ -645,21 +489,15 @@ Roadmap step
 
 `XROW`
 
-
-
 </td>
 <td valign="top">
 
 tableRowHeading
 
-
-
 </td>
 <td valign="top">
 
 Table row heading
-
-
 
 </td>
 </tr>
@@ -668,21 +506,15 @@ Table row heading
 
 `XSEL`
 
-
-
 </td>
 <td valign="top">
 
 selectiontext
 
-
-
 </td>
 <td valign="top">
 
 Selection text
-
-
 
 </td>
 </tr>
@@ -691,21 +523,15 @@ Selection text
 
 `XTBS`
 
-
-
 </td>
 <td valign="top">
 
 tab
 
-
-
 </td>
 <td valign="top">
 
 Tab strip text
-
-
 
 </td>
 </tr>
@@ -714,21 +540,15 @@ Tab strip text
 
 `XTIT`
 
-
-
 </td>
 <td valign="top">
 
 tableTitle
 
-
-
 </td>
 <td valign="top">
 
 Table title
-
-
 
 </td>
 </tr>
@@ -737,21 +557,15 @@ Table title
 
 `XTND`
 
-
-
 </td>
 <td valign="top">
 
 treeNode
 
-
-
 </td>
 <td valign="top">
 
 Tree node text
-
-
 
 </td>
 </tr>
@@ -760,21 +574,15 @@ Tree node text
 
 `XTOL`
 
-
-
 </td>
 <td valign="top">
 
 quickInfo
 
-
-
 </td>
 <td valign="top">
 
 Quick info text
-
-
 
 </td>
 </tr>
@@ -783,21 +591,15 @@ Quick info text
 
 `XTXT`
 
-
-
 </td>
 <td valign="top">
 
 generaltext
 
-
-
 </td>
 <td valign="top">
 
 General text
-
-
 
 </td>
 </tr>
@@ -812,21 +614,15 @@ General text
 
 Text type
 
-
-
 </th>
 <th valign="top">
 
 Related S2X type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -835,21 +631,15 @@ Description
 
 `YACT`
 
-
-
 </td>
 <td valign="top">
 
 accessibilitylong
 
-
-
 </td>
 <td valign="top">
 
 Accessibility \(long\)
-
-
 
 </td>
 </tr>
@@ -858,21 +648,15 @@ Accessibility \(long\)
 
 `YBLI`
 
-
-
 </td>
 <td valign="top">
 
 list
 
-
-
 </td>
 <td valign="top">
 
 Bullet list item text
-
-
 
 </td>
 </tr>
@@ -881,21 +665,15 @@ Bullet list item text
 
 `YDEF`
 
-
-
 </td>
 <td valign="top">
 
 definition
 
-
-
 </td>
 <td valign="top">
 
 Definition
-
-
 
 </td>
 </tr>
@@ -904,21 +682,15 @@ Definition
 
 `YDES`
 
-
-
 </td>
 <td valign="top">
 
 description
 
-
-
 </td>
 <td valign="top">
 
 Description
-
-
 
 </td>
 </tr>
@@ -927,21 +699,15 @@ Description
 
 `YEXP`
 
-
-
 </td>
 <td valign="top">
 
 explanation
 
-
-
 </td>
 <td valign="top">
 
 Explanation
-
-
 
 </td>
 </tr>
@@ -950,21 +716,15 @@ Explanation
 
 `YFAA`
 
-
-
 </td>
 <td valign="top">
 
 faqa
 
-
-
 </td>
 <td valign="top">
 
 FAQ answer
-
-
 
 </td>
 </tr>
@@ -973,21 +733,15 @@ FAQ answer
 
 `YFAQ`
 
-
-
 </td>
 <td valign="top">
 
 faq
 
-
-
 </td>
 <td valign="top">
 
 FAQ
-
-
 
 </td>
 </tr>
@@ -996,21 +750,15 @@ FAQ
 
 `YGLS`
 
-
-
 </td>
 <td valign="top">
 
 glossarydefinition
 
-
-
 </td>
 <td valign="top">
 
 Glossary definition
-
-
 
 </td>
 </tr>
@@ -1019,21 +767,15 @@ Glossary definition
 
 `YINF`
 
-
-
 </td>
 <td valign="top">
 
 informationtextlong
 
-
-
 </td>
 <td valign="top">
 
 Information
-
-
 
 </td>
 </tr>
@@ -1042,21 +784,15 @@ Information
 
 `YINS`
 
-
-
 </td>
 <td valign="top">
 
 instruction
 
-
-
 </td>
 <td valign="top">
 
 Instruction
-
-
 
 </td>
 </tr>
@@ -1065,21 +801,15 @@ Instruction
 
 `YLOG`
 
-
-
 </td>
 <td valign="top">
 
 logEntrylong
 
-
-
 </td>
 <td valign="top">
 
 Log entry
-
-
 
 </td>
 </tr>
@@ -1088,21 +818,15 @@ Log entry
 
 `YMSE`
 
-
-
 </td>
 <td valign="top">
 
 errorMessage
 
-
-
 </td>
 <td valign="top">
 
 Error message
-
-
 
 </td>
 </tr>
@@ -1111,21 +835,15 @@ Error message
 
 `YMSG`
 
-
-
 </td>
 <td valign="top">
 
 messagetextlong
 
-
-
 </td>
 <td valign="top">
 
 Message text \(long\)
-
-
 
 </td>
 </tr>
@@ -1134,21 +852,15 @@ Message text \(long\)
 
 `YMSI`
 
-
-
 </td>
 <td valign="top">
 
 informationMessage
 
-
-
 </td>
 <td valign="top">
 
 Information message long
-
-
 
 </td>
 </tr>
@@ -1157,21 +869,15 @@ Information message long
 
 `YMSW`
 
-
-
 </td>
 <td valign="top">
 
 warningMessage
 
-
-
 </td>
 <td valign="top">
 
 Warning message
-
-
 
 </td>
 </tr>
@@ -1180,21 +886,15 @@ Warning message
 
 `YTEC`
 
-
-
 </td>
 <td valign="top">
 
 technicaltextlong
 
-
-
 </td>
 <td valign="top">
 
 Technical text
-
-
 
 </td>
 </tr>
@@ -1203,21 +903,15 @@ Technical text
 
 `YTIC`
 
-
-
 </td>
 <td valign="top">
 
 ticker
 
-
-
 </td>
 <td valign="top">
 
 Ticker / Marquee
-
-
 
 </td>
 </tr>
@@ -1226,21 +920,15 @@ Ticker / Marquee
 
 `YTXT`
 
-
-
 </td>
 <td valign="top">
 
 generaltextlong
 
-
-
 </td>
 <td valign="top">
 
 General text long
-
-
 
 </td>
 </tr>

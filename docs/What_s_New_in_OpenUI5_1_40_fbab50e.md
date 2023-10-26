@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.38 to 1.40.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **New Belize Theme \(SAP Fiori 2.0 Design\)** 
-
-
 
 </td>
 <td valign="top">
@@ -114,21 +92,15 @@ The new Belize theme \(`sap_belize`\) has been introduced and replaces Blue Crys
 
 <sub>New•Announcement•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -137,28 +109,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Deleted 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **Older jQuery Versions Removed** 
-
-
 
 </td>
 <td valign="top">
@@ -169,21 +133,15 @@ As of this version, OpenUI5 only contains one version of jQuery \(the current ve
 
 <sub>Deleted•Announcement•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -192,28 +150,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **XML View Cache** 
-
-
 
 </td>
 <td valign="top">
@@ -226,21 +176,15 @@ Parts of this feature are currently still experimental! For more information, se
 
 <sub>New•Feature•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -249,28 +193,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -297,21 +233,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -320,28 +250,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.GenericTile`** 
-
-
 
 </td>
 <td valign="top">
@@ -352,21 +274,15 @@ The `GenericTile` control can be implemented as slide tile. The animated content
 
 <sub>Changed•Control•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -375,28 +291,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IconTabHeaderMode`** 
-
-
 
 </td>
 <td valign="top">
@@ -407,21 +315,15 @@ A new `IconTabBar` property, `headerMode`, has been introduced. It accepts `sap.
 
 <sub>Changed•Control•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -430,28 +332,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Page`** 
-
-
 
 </td>
 <td valign="top">
@@ -462,21 +356,15 @@ The `Page` control now offers a floating footer. This new feature helps unify th
 
 <sub>Changed•Control•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -485,28 +373,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.OverflowToolbar`** 
-
-
 
 </td>
 <td valign="top">
@@ -517,21 +397,15 @@ The overflow menu is now configurable to remain open if the selected element tri
 
 <sub>Changed•Control•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -540,28 +414,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.RangeSlider`** 
-
-
 
 </td>
 <td valign="top">
@@ -575,21 +441,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -598,28 +458,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Text`** 
-
-
 
 </td>
 <td valign="top">
@@ -630,21 +482,15 @@ Line breaks \(`\r\n`, `\n\r`, `\r`, `\n`\) are always visualized now. You can di
 
 <sub>Changed•Control•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -653,28 +499,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.TimePicker`** 
-
-
 
 </td>
 <td valign="top">
@@ -685,21 +523,15 @@ The `TimePicker` control now has configurable step precision for minutes and sec
 
 <sub>Changed•Control•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -708,28 +540,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.core.format.NumberFormat`** 
-
-
 
 </td>
 <td valign="top">
@@ -740,21 +564,15 @@ You can now use the `shortRefNumber` option to calculate all numbers in one scre
 
 <sub>Changed•Control•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>
@@ -763,28 +581,20 @@ Info Only
 
 1.40 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **Documentation Structure** 
-
-
 
 </td>
 <td valign="top">
@@ -795,21 +605,15 @@ Since the *Control-specific Information* was not easy to find, we decided to mov
 
 <sub>Changed•User Documentation•Info Only•1.40</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2016-08-24
-
-
 
 </td>
 </tr>

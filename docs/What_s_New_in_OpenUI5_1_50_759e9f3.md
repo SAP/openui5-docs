@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.48 to 1.50.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.50 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **New Demo Kit \(already available as of version 1.48.5\)** 
-
-
 
 </td>
 <td valign="top">
@@ -121,21 +99,15 @@ The new Demo Kit contains the following sections:
 
 <sub>New•Feature•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -144,28 +116,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Unicode Common Locale Data Repository \(CLDR\)** 
-
-
 
 </td>
 <td valign="top">
@@ -178,21 +142,15 @@ The correct plural category for a given number is now handled by the locale-spec
 
 <sub>New•Feature•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -201,28 +159,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Date Interval Types** 
-
-
 
 </td>
 <td valign="top">
@@ -242,21 +192,15 @@ For more information, see [sap.ui.model.type.DateTimeInterval](sap_ui_model_type
 
 <sub>New•Feature•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -265,28 +209,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **`animationMode`** 
-
-
 
 </td>
 <td valign="top">
@@ -297,21 +233,15 @@ The configuration option `animationMode` replaces `animation`, which is now depr
 
 <sub>New•Feature•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -320,28 +250,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PlanningCalendarLegend`** 
-
-
 
 </td>
 <td valign="top">
@@ -354,21 +276,15 @@ Control
 
 <sub>New•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -377,28 +293,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -434,21 +342,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -457,28 +359,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Support Assistant: OPA Test Sample Added** 
-
-
 
 </td>
 <td valign="top">
@@ -493,21 +387,15 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
 
 <sub>Changed•Feature•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -516,28 +404,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.DynamicPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -555,21 +435,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -578,28 +452,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.semantic.SemanticPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -617,21 +483,15 @@ For more information, see [Semantic Page \(sap.f\)](Semantic_Page_sap_f_47dc868.
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -640,28 +500,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Label`** 
-
-
 
 </td>
 <td valign="top">
@@ -681,21 +533,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -704,28 +550,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MessageStrip`** 
-
-
 
 </td>
 <td valign="top">
@@ -736,21 +574,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -759,28 +591,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Panel`** 
-
-
 
 </td>
 <td valign="top">
@@ -791,21 +615,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -814,28 +632,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -851,21 +661,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -874,28 +678,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ProgressIndicator`** 
-
-
 
 </td>
 <td valign="top">
@@ -906,21 +702,15 @@ You can now set the control in a display-only state using the new `displayOnly` 
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -929,28 +719,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.RatingIndicator`** 
-
-
 
 </td>
 <td valign="top">
@@ -963,21 +745,15 @@ A new state can be set using the `displayOnly` property. It enables visually dis
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -986,28 +762,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.semantic.SemanticPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -1018,21 +786,15 @@ You can now set the background color of the page using the new `backgroundDesign
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -1041,28 +803,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.UploadCollection`** 
-
-
 
 </td>
 <td valign="top">
@@ -1073,21 +827,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -1096,28 +844,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Tree`** 
-
-
 
 </td>
 <td valign="top">
@@ -1128,21 +868,15 @@ The `toggleOpenState` event has been added. For more information, see the [API R
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -1151,28 +885,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.Calendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -1183,21 +909,15 @@ The days of the previous/next month are no longer visible whenever the `sap.ui.u
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>
@@ -1206,28 +926,20 @@ Info Only
 
 1.50
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.layout.form.Form/sap.ui.layout.form.SimpleForm`** 
-
-
 
 </td>
 <td valign="top">
@@ -1238,21 +950,15 @@ The samples, including the descriptions, have been simplified and are now more c
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-11-09
-
-
 
 </td>
 </tr>

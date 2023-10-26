@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.118 to 1.119.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.p13n.Popup`** 
-
-
 
 </td>
 <td valign="top">
@@ -104,21 +82,15 @@ To select all columns in the personalization dialog, the user can now use the *S
 
 <sub>Changed•Control•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -127,28 +99,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.table.AnalyticalTable, sap.ui.table.Table, sap.ui.table.TreeTable`** 
-
-
 
 </td>
 <td valign="top">
@@ -162,21 +126,15 @@ Feature
 
 <sub>Changed•Feature•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -185,28 +143,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.plugins.CopyProvider`** 
-
-
 
 </td>
 <td valign="top">
@@ -217,21 +167,15 @@ Users can now copy a cell block they have selected. To provide the required sett
 
 <sub>Changed•Feature•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -240,28 +184,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecations** 
-
-
 
 </td>
 <td valign="top">
@@ -285,21 +221,15 @@ We have deprecated the following entities for `sap.ui.table*`:
 
 <sub>Deprecated•Feature•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -308,28 +238,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.mdc.Table` \(experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -340,21 +262,15 @@ Drag and drop has been enabled for the rows of the \(experimental\) `sap.ui.mdc.
 
 <sub>Changed•Control•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -363,28 +279,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`valueHelpOnly` functionality** 
-
-
 
 </td>
 <td valign="top">
@@ -395,21 +303,15 @@ We have deprecated the `valueHelpOnly` functionality in the `sap.m.Input` contro
 
 <sub>Deprecated•Control•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -418,28 +320,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 Data Types** 
-
-
 
 </td>
 <td valign="top">
@@ -455,21 +349,15 @@ The `getPlaceholderText` method is no longer experimental and can be used produc
 
 <sub>Changed•Feature•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -478,28 +366,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 Client Models** 
-
-
 
 </td>
 <td valign="top">
@@ -512,21 +392,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 <sub>Changed•Feature•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -535,28 +409,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -567,21 +433,15 @@ For the `tokenHandling` parameter of the `v2.ODataModel`, we now support the add
 
 <sub>Changed•Feature•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -590,28 +450,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -631,21 +483,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -654,28 +500,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MenuButton`** 
-
-
 
 </td>
 <td valign="top">
@@ -686,21 +524,15 @@ The `beforeMenuOpen` event, which was previously fired in split button mode only
 
 <sub>Changed•Control•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -709,28 +541,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -741,21 +565,15 @@ We have introduced a new `rowHeaderPress` event that is fired when the row heade
 
 <sub>Changed•Control•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>
@@ -764,28 +582,20 @@ Info Only
 
 1.119 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -801,21 +611,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.119</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-10-05
-
-
 
 </td>
 </tr>

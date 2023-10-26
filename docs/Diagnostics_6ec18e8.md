@@ -205,16 +205,12 @@ Before you can use this feature, restart your app in Support Mode \(with the `sa
 
 You can display XML metadata by expanding the related nodes in the tree. This helps you to better understand how the data is stored in the back end and which properties it has. This is especially important when investigating binding issues.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/loio449fff480c114f278f2aefcdf3fb6c09_LowRes.png)
 
 XML metadata of a service with three main entity sets: `Product`, `ProductCategory`, and `FeaturedProduct`
-
-
 
 </td>
 </tr>
@@ -254,8 +250,6 @@ You can choose the following options for this view:
 
 ![](images/loioe95cf067be054a2591e979a5047e7322_LowRes.png)
 
-
-
 </td>
 </tr>
 <tr>
@@ -283,8 +277,6 @@ When you select a control in the code, the following information is displayed:
 <td valign="top">
 
 ![](images/loio8b3a0c29ca8b42ee847bfcf739bcfd56_LowRes.png)
-
-
 
 </td>
 </tr>

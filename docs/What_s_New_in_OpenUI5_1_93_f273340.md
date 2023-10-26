@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.92 to 1.93.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **New Theme Available for SAP Fiori User Experience \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -109,21 +87,15 @@ We have introduced a new theme with 1.93.3, the preview version of the *Horizon*
 
 <sub>New•Feature•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -132,28 +104,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 Data Types** 
-
-
 
 </td>
 <td valign="top">
@@ -164,21 +128,15 @@ The new version of OpenUI5 introduces a new `skipDecimalsValidation` constraint 
 
 <sub>Changed•Feature•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -187,28 +145,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -224,21 +174,15 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -247,28 +191,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -284,21 +220,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -307,28 +237,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.DynamicPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -339,21 +261,15 @@ With the new `headerPinned` property and `headerContentPinnedStateChange` event,
 
 <sub>Changed•Control•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -362,28 +278,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IconTabBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -405,21 +313,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -428,28 +330,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`** 
-
-
 
 </td>
 <td valign="top">
@@ -460,21 +354,15 @@ We have provided a new toggle option in multi-selection mode for these controls:
 
 <sub>Changed•Control•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -483,28 +371,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MultiComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -515,21 +395,15 @@ We have the range selection functionality in `sap.m.MultiComboBox`. Two new para
 
 <sub>Changed•Control•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -538,28 +412,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -573,21 +439,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -596,28 +456,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SelectDialog`, `sap.m.TableSelectDialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -628,21 +480,15 @@ The `updateStarted`, `updateFinished`, and `selectionChange` events from an inne
 
 <sub>Changed•Control•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -651,28 +497,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.tnt.ToolPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -683,21 +521,15 @@ We have added a new `subHeader` aggregation to the control. You can use it to cr
 
 <sub>Changed•Control•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -706,28 +538,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -741,21 +565,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -764,28 +582,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.uxap.ObjectPageLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -796,21 +606,15 @@ With the new `headerContentPinned` property and `pinnedStateChange` event, you c
 
 <sub>Changed•Control•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>
@@ -819,28 +623,20 @@ Info Only
 
 1.93 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit Change Version Dialog** 
-
-
 
 </td>
 <td valign="top">
@@ -853,21 +649,15 @@ We have improved the *Change Version* dialog to help you find the desired versio
 
 <sub>Changed•Feature•Info Only•1.93</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-08-12
-
-
 
 </td>
 </tr>

@@ -81,14 +81,10 @@ When using the Hungarian notation, use the prefixes highlighted below and contin
 
 Sample
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 </tr>
@@ -97,14 +93,10 @@ Type
 
 **s**Id
 
-
-
 </td>
 <td valign="top">
 
 string
-
-
 
 </td>
 </tr>
@@ -113,14 +105,10 @@ string
 
 **o**DomRef
 
-
-
 </td>
 <td valign="top">
 
 object
-
-
 
 </td>
 </tr>
@@ -129,14 +117,10 @@ object
 
 **$**DomRef
 
-
-
 </td>
 <td valign="top">
 
 jQuery object
-
-
 
 </td>
 </tr>
@@ -145,14 +129,10 @@ jQuery object
 
 **i**Count
 
-
-
 </td>
 <td valign="top">
 
 int
-
-
 
 </td>
 </tr>
@@ -161,14 +141,10 @@ int
 
 **m**Parameters
 
-
-
 </td>
 <td valign="top">
 
 map / assoc. array
-
-
 
 </td>
 </tr>
@@ -177,14 +153,10 @@ map / assoc. array
 
 **a**Entries
 
-
-
 </td>
 <td valign="top">
 
 array
-
-
 
 </td>
 </tr>
@@ -193,14 +165,10 @@ array
 
 **d**Today
 
-
-
 </td>
 <td valign="top">
 
 date
-
-
 
 </td>
 </tr>
@@ -209,14 +177,10 @@ date
 
 **f**Decimal
 
-
-
 </td>
 <td valign="top">
 
 float
-
-
 
 </td>
 </tr>
@@ -225,14 +189,10 @@ float
 
 **b**Enabled
 
-
-
 </td>
 <td valign="top">
 
 boolean
-
-
 
 </td>
 </tr>
@@ -241,14 +201,10 @@ boolean
 
 **r**Pattern
 
-
-
 </td>
 <td valign="top">
 
 RegExp
-
-
 
 </td>
 </tr>
@@ -257,14 +213,10 @@ RegExp
 
 **fn**Function
 
-
-
 </td>
 <td valign="top">
 
 function
-
-
 
 </td>
 </tr>
@@ -273,14 +225,10 @@ function
 
 **v**Variant
 
-
-
 </td>
 <td valign="top">
 
 variant types
-
-
 
 </td>
 </tr>
@@ -289,14 +237,10 @@ variant types
 
 **p**Dialog
 
-
-
 </td>
 <td valign="top">
 
 promise
-
-
 
 </td>
 </tr>
@@ -313,14 +257,10 @@ The following IDs are currently used:
 
 ID
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -329,14 +269,10 @@ Description
 
 `sap-ui-bootstrap`
 
-
-
 </td>
 <td valign="top">
 
 ID of the bootstrap script tag
-
-
 
 </td>
 </tr>
@@ -345,14 +281,10 @@ ID of the bootstrap script tag
 
 `sap-ui-library-*`
 
-
-
 </td>
 <td valign="top">
 
 Prefix for UI libraries script tags
-
-
 
 </td>
 </tr>
@@ -361,14 +293,10 @@ Prefix for UI libraries script tags
 
 `sap-ui-theme-*`
 
-
-
 </td>
 <td valign="top">
 
 Prefix for theme stylesheets link tags
-
-
 
 </td>
 </tr>
@@ -377,14 +305,10 @@ Prefix for theme stylesheets link tags
 
 `sap-ui-highlightrect`
 
-
-
 </td>
 <td valign="top">
 
 ID of the highlight rect for controls in TestSuite
-
-
 
 </td>
 </tr>
@@ -393,14 +317,10 @@ ID of the highlight rect for controls in TestSuite
 
 `sap-ui-blindlayer-*`
 
-
-
 </td>
 <td valign="top">
 
 ID for `BlockLayer`
-
-
 
 </td>
 </tr>
@@ -409,14 +329,10 @@ ID for `BlockLayer`
 
 `sap-ui-static`
 
-
-
 </td>
 <td valign="top">
 
 ID of the static popup area of UI5
-
-
 
 </td>
 </tr>
@@ -425,14 +341,10 @@ ID of the static popup area of UI5
 
 `sap-ui-TraceWindowRoot`
 
-
-
 </td>
 <td valign="top">
 
 ID of the `TraceWindowRoot`
-
-
 
 </td>
 </tr>
@@ -441,14 +353,10 @@ ID of the `TraceWindowRoot`
 
 `sap-ui-xmldata`
 
-
-
 </td>
 <td valign="top">
 
 ID of the `XML Data Island`
-
-
 
 </td>
 </tr>

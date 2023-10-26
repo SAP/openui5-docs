@@ -25,14 +25,10 @@ Auto-complete is available for one dimensional editing only.
 
 Key combination
 
-
-
 </th>
 <th valign="top">
 
 Behavior
-
-
 
 </th>
 </tr>
@@ -41,8 +37,6 @@ Behavior
 
 Any printable character
 
-
-
 </td>
 <td valign="top">
 
@@ -50,16 +44,12 @@ Adds the corresponding character. If text is selected, it gets overwritten.
 
 Triggers autocomplete, if available.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 [Right arrow\] or [Down arrow\]
-
-
 
 </td>
 <td valign="top">
@@ -72,8 +62,6 @@ If caret is at the rightmost position, do nothing.
 
 If autocomplete is currently available, take over changes. Move caret to the right of the changed text.
 
-
-
 </td>
 </tr>
 <tr>
@@ -81,14 +69,10 @@ If autocomplete is currently available, take over changes. Move caret to the rig
 
 [Enter\]
 
-
-
 </td>
 <td valign="top">
 
 If autocomplete is currently available, take over changes. Move caret to the right of the changed text.
-
-
 
 </td>
 </tr>
@@ -97,14 +81,10 @@ If autocomplete is currently available, take over changes. Move caret to the rig
 
 [Tab\]
 
-
-
 </td>
 <td valign="top">
 
 Move focus to next element. Take over autocomplete, if available.
-
-
 
 </td>
 </tr>
@@ -123,14 +103,10 @@ Use the following keys and key combinations to trigger value help:
 
 Key combination
 
-
-
 </th>
 <th valign="top">
 
 Behavior
-
-
 
 </th>
 </tr>
@@ -139,14 +115,10 @@ Behavior
 
 [Alt\] + [Down arrow\]  or [Alt\] + [Up arrow\]  or [F4\] 
 
-
-
 </td>
 <td valign="top">
 
 Open the value help dialog.
-
-
 
 </td>
 </tr>

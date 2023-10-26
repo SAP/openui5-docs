@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.103 to 1.104.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.104 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Link`** 
-
-
 
 </td>
 <td valign="top">
@@ -104,21 +82,15 @@ We have provided a new API in the control, and now app developers can change the
 
 <sub>Changed•Control•Info Only•1.104</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-07-14
-
-
 
 </td>
 </tr>
@@ -127,28 +99,20 @@ Info Only
 
 1.104 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -166,21 +130,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.104</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-07-14
-
-
 
 </td>
 </tr>

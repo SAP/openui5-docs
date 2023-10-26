@@ -209,14 +209,10 @@ If you use a component that is embedded in a library, and the application declar
 
 Old Code
 
-
-
 </th>
 <th valign="top">
 
 Recommended Code
-
-
 
 </th>
 </tr>

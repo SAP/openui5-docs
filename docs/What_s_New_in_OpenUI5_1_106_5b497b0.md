@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.105 to 1.106.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.106 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecations** 
-
-
 
 </td>
 <td valign="top">
@@ -104,21 +82,15 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 <sub>Deprecated•Feature•Info Only•1.106</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-09-08
-
-
 
 </td>
 </tr>
@@ -127,28 +99,20 @@ Info Only
 
 1.106 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -173,21 +137,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.106</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-09-08
-
-
 
 </td>
 </tr>
@@ -196,28 +154,20 @@ Info Only
 
 1.106 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.uxap.ObjectPageSection`** 
-
-
 
 </td>
 <td valign="top">
@@ -228,21 +178,15 @@ We have introduced a new `heading` aggregation that allows you to include conten
 
 <sub>Changed•Control•Info Only•1.106</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-09-08
-
-
 
 </td>
 </tr>
@@ -251,28 +195,20 @@ Info Only
 
 1.106 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Image` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -283,21 +219,15 @@ We have enabled inline rendering of SVG files, so that they can be themeable and
 
 <sub>Changed•Control•Info Only•1.106</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-09-08
-
-
 
 </td>
 </tr>
@@ -306,28 +236,20 @@ Info Only
 
 1.106 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **Deactivation of Default Time Zone Configuration Feature** 
-
-
 
 </td>
 <td valign="top">
@@ -357,21 +279,15 @@ We plan to bring this feature back in a different form at a later point in time.
 
 <sub>Changed•Announcement•Info Only•1.106</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-09-08
-
-
 
 </td>
 </tr>

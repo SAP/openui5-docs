@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.106 to 1.107.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.107 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecations** 
-
-
 
 </td>
 <td valign="top">
@@ -104,21 +82,15 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 <sub>Deprecated•Feature•Info Only•1.107</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-10-06
-
-
 
 </td>
 </tr>
@@ -127,28 +99,20 @@ Info Only
 
 1.107 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`** 
-
-
 
 </td>
 <td valign="top">
@@ -159,21 +123,15 @@ To improve performance, we have now made the initial rendering faster: Table, tr
 
 <sub>Changed•Control•Info Only•1.107</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-10-06
-
-
 
 </td>
 </tr>
@@ -182,28 +140,20 @@ Info Only
 
 1.107 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.upload.UploadSet`** 
-
-
 
 </td>
 <td valign="top">
@@ -214,21 +164,15 @@ We've introduced directory \(folder\) uploads using the `UploadSet` control. It 
 
 <sub>Changed•Control•Info Only•1.107</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-10-06
-
-
 
 </td>
 </tr>
@@ -237,28 +181,20 @@ Info Only
 
 1.107 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -269,21 +205,15 @@ We now provide the `sap.ui.model.odata.v4.ODataModel#getServiceUrl`, `sap.ui.mod
 
 <sub>Changed•Feature•Info Only•1.107</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-10-06
-
-
 
 </td>
 </tr>
@@ -292,28 +222,20 @@ Info Only
 
 1.107 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 ***Edit on GitHub* Button** 
-
-
 
 </td>
 <td valign="top">
@@ -326,21 +248,15 @@ We have enabled external collaboration for our documentation through `github.com
 
 <sub>Changed•Feature•Info Only•1.107</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-10-06
-
-
 
 </td>
 </tr>
@@ -349,28 +265,20 @@ Info Only
 
 1.107 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.uxap.ObjectPageSection`** 
-
-
 
 </td>
 <td valign="top">
@@ -381,21 +289,15 @@ We have added a new `wrapTitle` property. It allows long titles to wrap into mul
 
 <sub>Changed•Control•Info Only•1.107</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-10-06
-
-
 
 </td>
 </tr>
@@ -404,28 +306,20 @@ Info Only
 
 1.107 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **Documentation now open for contributions on GitHub** 
-
-
 
 </td>
 <td valign="top">
@@ -440,21 +334,15 @@ For more information, see [Open Documentation Initiative for SAPUI5 and SAP Fior
 
 <sub>New•Announcement•Info Only•1.107</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-10-06
-
-
 
 </td>
 </tr>
@@ -463,28 +351,20 @@ Info Only
 
 1.107 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -504,21 +384,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.107</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-10-06
-
-
 
 </td>
 </tr>

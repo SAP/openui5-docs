@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.65 to 1.66.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -120,21 +98,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>
@@ -143,28 +115,20 @@ Info Only
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Support for New Era in the Japanese Calendar** 
-
-
 
 </td>
 <td valign="top">
@@ -175,21 +139,15 @@ Starting May 1, 2019, OpenUI5 supports a new era in the Japanese calendar, due t
 
 <sub>Changed•Feature•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>
@@ -198,28 +156,20 @@ Info Only
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.GridContainer` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -239,21 +189,15 @@ For more information, see [sap.f.GridContainer](sap_f_GridContainer_cca5ee5.md) 
 
 <sub>Changed•Control•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>
@@ -262,28 +206,20 @@ Info Only
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ComboBox / sap.m.MultiComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -294,21 +230,15 @@ The options list used in these controls is now instantiated lazily. The list is 
 
 <sub>Changed•Control•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>
@@ -317,28 +247,20 @@ Info Only
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DateRangeSelection`** 
-
-
 
 </td>
 <td valign="top">
@@ -358,21 +280,15 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Date
 
 <sub>Changed•Control•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>
@@ -381,28 +297,20 @@ Info Only
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input`** 
-
-
 
 </td>
 <td valign="top">
@@ -413,21 +321,15 @@ We have adjusted the value state text for the `sap.m.Input` control. The value s
 
 <sub>Changed•Control•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>
@@ -436,28 +338,20 @@ Info Only
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ObjectStatus`** 
-
-
 
 </td>
 <td valign="top">
@@ -468,21 +362,15 @@ You can now switch the background and text colors using the new `inverted` prope
 
 <sub>Changed•Control•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>
@@ -491,28 +379,20 @@ Info Only
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Select`** 
-
-
 
 </td>
 <td valign="top">
@@ -523,21 +403,15 @@ To be better aligned with the other input controls, we have implemented a new `e
 
 <sub>Changed•Control•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>
@@ -546,28 +420,20 @@ Info Only
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -585,21 +451,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>
@@ -608,28 +468,20 @@ Info Only
 
 1.66 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **OData V2 Messaging Documentation** 
-
-
 
 </td>
 <td valign="top">
@@ -640,21 +492,15 @@ The OData V2 Messaging documentation has been enhanced and improved. See [Error,
 
 <sub>Changed•Control•Info Only•1.66</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-05-22
-
-
 
 </td>
 </tr>

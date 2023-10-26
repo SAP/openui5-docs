@@ -173,14 +173,10 @@ Here, we add the text for the rating panel title and the labels for the ARIA reg
 
 ![](images/loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/loiof38dee2624c2437d8977de70575b3eae_HiRes.png)
-
-
 
 </td>
 </tr>
@@ -189,14 +185,10 @@ Here, we add the text for the rating panel title and the labels for the ARIA reg
 
 **Landmarks on the overview page - before**
 
-
-
 </td>
 <td valign="top">
 
 **Landmarks on the overview page - after**
-
-
 
 </td>
 </tr>

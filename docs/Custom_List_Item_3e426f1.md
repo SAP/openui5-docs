@@ -25,14 +25,10 @@ OpenUI5 contains several list items that are used with the `sap.m.List` control 
 
 List Item
 
-
-
 </th>
 <th valign="top">
 
 Used for...
-
-
 
 </th>
 </tr>
@@ -41,14 +37,10 @@ Used for...
 
 `sap.m.StandardListItem` 
 
-
-
 </td>
 <td valign="top">
 
 Displaying list content with a title description, icon and info
-
-
 
 </td>
 </tr>
@@ -57,14 +49,10 @@ Displaying list content with a title description, icon and info
 
 `sap.m.DisplayListItem` 
 
-
-
 </td>
 <td valign="top">
 
 Displaying name/value pairs
-
-
 
 </td>
 </tr>
@@ -73,14 +61,10 @@ Displaying name/value pairs
 
 `sap.m.InputListItem` 
 
-
-
 </td>
 <td valign="top">
 
 Building a form-like user interface on phones
-
-
 
 </td>
 </tr>
@@ -89,14 +73,10 @@ Building a form-like user interface on phones
 
 `sap.m.ActionListItem` 
 
-
-
 </td>
 <td valign="top">
 
 Triggering an action directly from a list
-
-
 
 </td>
 </tr>
@@ -105,14 +85,10 @@ Triggering an action directly from a list
 
 `sap.m.FeedListItem` 
 
-
-
 </td>
 <td valign="top">
 
 Displaying a standard UI for feeds. For more information, see [Feed List Item](Feed_List_Item_14a9900.md) 
-
-
 
 </td>
 </tr>
@@ -121,14 +97,10 @@ Displaying a standard UI for feeds. For more information, see [Feed List Item](F
 
 `sap.m.ObjectListItem` 
 
-
-
 </td>
 <td valign="top">
 
 Providing a quick overview for an object within a list
-
-
 
 </td>
 </tr>
@@ -137,14 +109,10 @@ Providing a quick overview for an object within a list
 
 `sap.m.ColumnListItem` 
 
-
-
 </td>
 <td valign="top">
 
 Providing responsive table design in combination with `sap.m.Table` 
-
-
 
 </td>
 </tr>
@@ -153,14 +121,10 @@ Providing responsive table design in combination with `sap.m.Table`
 
 `sap.m.CustomListItem` 
 
-
-
 </td>
 <td valign="top">
 
 Creating custom list items if none of the list items above are suitable
-
-
 
 </td>
 </tr>

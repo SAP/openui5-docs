@@ -33,21 +33,15 @@ Every new version of OpenUI5 implies a new version of the app descriptor. In the
 
 App Descriptor Release
 
-
-
 </th>
 <th valign="top">
 
 OpenUI5 Version
 
-
-
 </th>
 <th valign="top">
 
 \_version
-
-
 
 </th>
 </tr>
@@ -56,21 +50,15 @@ OpenUI5 Version
 
 Version 2
 
-
-
 </td>
 <td valign="top">
 
 \>=1.30
 
-
-
 </td>
 <td valign="top">
 
 1.1.0
-
-
 
 </td>
 </tr>
@@ -79,21 +67,15 @@ Version 2
 
 Version 3
 
-
-
 </td>
 <td valign="top">
 
 \>=1.32
 
-
-
 </td>
 <td valign="top">
 
 1.2.0
-
-
 
 </td>
 </tr>
@@ -102,21 +84,15 @@ Version 3
 
 Version 4
 
-
-
 </td>
 <td valign="top">
 
 \>=1.34
 
-
-
 </td>
 <td valign="top">
 
 1.3.0
-
-
 
 </td>
 </tr>
@@ -125,21 +101,15 @@ Version 4
 
 Version 5
 
-
-
 </td>
 <td valign="top">
 
 \>=1.38
 
-
-
 </td>
 <td valign="top">
 
 1.4.0
-
-
 
 </td>
 </tr>
@@ -148,21 +118,15 @@ Version 5
 
 Version 6
 
-
-
 </td>
 <td valign="top">
 
 \>=1.42
 
-
-
 </td>
 <td valign="top">
 
 1.5.0
-
-
 
 </td>
 </tr>
@@ -171,21 +135,15 @@ Version 6
 
 Version 7
 
-
-
 </td>
 <td valign="top">
 
 \>=1.46
 
-
-
 </td>
 <td valign="top">
 
 1.6.0
-
-
 
 </td>
 </tr>
@@ -194,21 +152,15 @@ Version 7
 
 Version 8
 
-
-
 </td>
 <td valign="top">
 
 \>=1.48
 
-
-
 </td>
 <td valign="top">
 
 1.7.0
-
-
 
 </td>
 </tr>
@@ -217,21 +169,15 @@ Version 8
 
 Version 9
 
-
-
 </td>
 <td valign="top">
 
 \>=1.50
 
-
-
 </td>
 <td valign="top">
 
 1.8.0
-
-
 
 </td>
 </tr>
@@ -240,21 +186,15 @@ Version 9
 
 Version 10
 
-
-
 </td>
 <td valign="top">
 
 \>=1.52
 
-
-
 </td>
 <td valign="top">
 
 1.9.0
-
-
 
 </td>
 </tr>
@@ -263,21 +203,15 @@ Version 10
 
 Version 11
 
-
-
 </td>
 <td valign="top">
 
 \>=1.54
 
-
-
 </td>
 <td valign="top">
 
 1.10.0
-
-
 
 </td>
 </tr>
@@ -286,21 +220,15 @@ Version 11
 
 Version 12
 
-
-
 </td>
 <td valign="top">
 
 \>=1.56
 
-
-
 </td>
 <td valign="top">
 
 1.11.0
-
-
 
 </td>
 </tr>
@@ -309,21 +237,15 @@ Version 12
 
 Version 13
 
-
-
 </td>
 <td valign="top">
 
 \>=1.58
 
-
-
 </td>
 <td valign="top">
 
 1.12.0
-
-
 
 </td>
 </tr>
@@ -332,21 +254,15 @@ Version 13
 
 Version 14
 
-
-
 </td>
 <td valign="top">
 
 \>=1.61
 
-
-
 </td>
 <td valign="top">
 
 1.13.0
-
-
 
 </td>
 </tr>
@@ -355,21 +271,15 @@ Version 14
 
 Version 15
 
-
-
 </td>
 <td valign="top">
 
 \>=1.62
 
-
-
 </td>
 <td valign="top">
 
 1.14.0
-
-
 
 </td>
 </tr>
@@ -378,21 +288,15 @@ Version 15
 
 Version 16
 
-
-
 </td>
 <td valign="top">
 
 \>=1.66
 
-
-
 </td>
 <td valign="top">
 
 1.15.0
-
-
 
 </td>
 </tr>
@@ -401,21 +305,15 @@ Version 16
 
 Version 17
 
-
-
 </td>
 <td valign="top">
 
 \>=1.70
 
-
-
 </td>
 <td valign="top">
 
 1.16.0
-
-
 
 </td>
 </tr>
@@ -424,21 +322,15 @@ Version 17
 
 Version 18
 
-
-
 </td>
 <td valign="top">
 
 \>=1.71
 
-
-
 </td>
 <td valign="top">
 
 1.17.0
-
-
 
 </td>
 </tr>
@@ -447,21 +339,15 @@ Version 18
 
 Version 19
 
-
-
 </td>
 <td valign="top">
 
 \>=1.74
 
-
-
 </td>
 <td valign="top">
 
 1.18.0
-
-
 
 </td>
 </tr>
@@ -470,21 +356,15 @@ Version 19
 
 Version 20
 
-
-
 </td>
 <td valign="top">
 
 \>=1.75
 
-
-
 </td>
 <td valign="top">
 
 1.19.0
-
-
 
 </td>
 </tr>
@@ -493,21 +373,15 @@ Version 20
 
 Version 21
 
-
-
 </td>
 <td valign="top">
 
 \>=1.76
 
-
-
 </td>
 <td valign="top">
 
 1.20.0
-
-
 
 </td>
 </tr>
@@ -516,21 +390,15 @@ Version 21
 
 Version 22
 
-
-
 </td>
 <td valign="top">
 
 \>=1.77
 
-
-
 </td>
 <td valign="top">
 
 1.21.0
-
-
 
 </td>
 </tr>
@@ -539,21 +407,15 @@ Version 22
 
 Version 23
 
-
-
 </td>
 <td valign="top">
 
 \>=1.78
 
-
-
 </td>
 <td valign="top">
 
 1.22.0
-
-
 
 </td>
 </tr>
@@ -562,21 +424,15 @@ Version 23
 
 Version 24
 
-
-
 </td>
 <td valign="top">
 
 \>=1.79
 
-
-
 </td>
 <td valign="top">
 
 1.23.0
-
-
 
 </td>
 </tr>
@@ -585,21 +441,15 @@ Version 24
 
 Version 25
 
-
-
 </td>
 <td valign="top">
 
 \>=1.80
 
-
-
 </td>
 <td valign="top">
 
 1.24.0
-
-
 
 </td>
 </tr>
@@ -608,21 +458,15 @@ Version 25
 
 Version 26
 
-
-
 </td>
 <td valign="top">
 
 \>=1.81
 
-
-
 </td>
 <td valign="top">
 
 1.25.0
-
-
 
 </td>
 </tr>
@@ -631,21 +475,15 @@ Version 26
 
 Version 27
 
-
-
 </td>
 <td valign="top">
 
 \>=1.82
 
-
-
 </td>
 <td valign="top">
 
 1.26.0
-
-
 
 </td>
 </tr>
@@ -654,21 +492,15 @@ Version 27
 
 Version 28
 
-
-
 </td>
 <td valign="top">
 
 \>=1.83 \(OpenUI5 1.83 was not released, see [2979657](https://me.sap.com/notes/2979657)\)
 
-
-
 </td>
 <td valign="top">
 
 1.27.0
-
-
 
 </td>
 </tr>
@@ -677,21 +509,15 @@ Version 28
 
 Version 29
 
-
-
 </td>
 <td valign="top">
 
 \>=1.84
 
-
-
 </td>
 <td valign="top">
 
 1.28.0
-
-
 
 </td>
 </tr>
@@ -700,21 +526,15 @@ Version 29
 
 Version 30
 
-
-
 </td>
 <td valign="top">
 
 \>=1.85
 
-
-
 </td>
 <td valign="top">
 
 1.29.0
-
-
 
 </td>
 </tr>
@@ -723,21 +543,15 @@ Version 30
 
 Version 31
 
-
-
 </td>
 <td valign="top">
 
 \>=1.86
 
-
-
 </td>
 <td valign="top">
 
 1.30.0
-
-
 
 </td>
 </tr>
@@ -746,21 +560,15 @@ Version 31
 
 Version 32
 
-
-
 </td>
 <td valign="top">
 
 \>=1.87
 
-
-
 </td>
 <td valign="top">
 
 1.31.0
-
-
 
 </td>
 </tr>
@@ -769,21 +577,15 @@ Version 32
 
 Version 33
 
-
-
 </td>
 <td valign="top">
 
 \>=1.88
 
-
-
 </td>
 <td valign="top">
 
 1.32.0
-
-
 
 </td>
 </tr>
@@ -792,21 +594,15 @@ Version 33
 
 Version 34
 
-
-
 </td>
 <td valign="top">
 
 \>=1.90
 
-
-
 </td>
 <td valign="top">
 
 1.33.0
-
-
 
 </td>
 </tr>
@@ -815,21 +611,15 @@ Version 34
 
 Version 35
 
-
-
 </td>
 <td valign="top">
 
 \>=1.92
 
-
-
 </td>
 <td valign="top">
 
 1.34.0
-
-
 
 </td>
 </tr>
@@ -838,21 +628,15 @@ Version 35
 
 Version 36
 
-
-
 </td>
 <td valign="top">
 
 \>=1.93
 
-
-
 </td>
 <td valign="top">
 
 1.35.0
-
-
 
 </td>
 </tr>
@@ -861,21 +645,15 @@ Version 36
 
 Version 37
 
-
-
 </td>
 <td valign="top">
 
 \>=1.95
 
-
-
 </td>
 <td valign="top">
 
 1.36.0
-
-
 
 </td>
 </tr>
@@ -884,21 +662,15 @@ Version 37
 
 Version 38
 
-
-
 </td>
 <td valign="top">
 
 \>=1.96
 
-
-
 </td>
 <td valign="top">
 
 1.37.0
-
-
 
 </td>
 </tr>
@@ -907,21 +679,15 @@ Version 38
 
 Version 39
 
-
-
 </td>
 <td valign="top">
 
 \>=1.98
 
-
-
 </td>
 <td valign="top">
 
 1.38.0
-
-
 
 </td>
 </tr>
@@ -930,21 +696,15 @@ Version 39
 
 Version 40
 
-
-
 </td>
 <td valign="top">
 
 \>=1.99
 
-
-
 </td>
 <td valign="top">
 
 1.39.0
-
-
 
 </td>
 </tr>
@@ -953,21 +713,15 @@ Version 40
 
 Version 41
 
-
-
 </td>
 <td valign="top">
 
 \>=1.100
 
-
-
 </td>
 <td valign="top">
 
 1.40.0
-
-
 
 </td>
 </tr>
@@ -976,21 +730,15 @@ Version 41
 
 Version 42
 
-
-
 </td>
 <td valign="top">
 
 \>=1.101
 
-
-
 </td>
 <td valign="top">
 
 1.41.0
-
-
 
 </td>
 </tr>
@@ -999,21 +747,15 @@ Version 42
 
 Version 43
 
-
-
 </td>
 <td valign="top">
 
 \>=1.102
 
-
-
 </td>
 <td valign="top">
 
 1.42.0
-
-
 
 </td>
 </tr>
@@ -1022,21 +764,15 @@ Version 43
 
 Version 44
 
-
-
 </td>
 <td valign="top">
 
 \>=1.103
 
-
-
 </td>
 <td valign="top">
 
 1.43.0
-
-
 
 </td>
 </tr>
@@ -1045,21 +781,15 @@ Version 44
 
 Version 45
 
-
-
 </td>
 <td valign="top">
 
 \>=1.104
 
-
-
 </td>
 <td valign="top">
 
 1.44.0
-
-
 
 </td>
 </tr>
@@ -1068,21 +798,15 @@ Version 45
 
 Version 46
 
-
-
 </td>
 <td valign="top">
 
 \>=1.105
 
-
-
 </td>
 <td valign="top">
 
 1.45.0
-
-
 
 </td>
 </tr>
@@ -1091,21 +815,15 @@ Version 46
 
 Version 47
 
-
-
 </td>
 <td valign="top">
 
 \>=1.106
 
-
-
 </td>
 <td valign="top">
 
 1.46.0
-
-
 
 </td>
 </tr>
@@ -1114,21 +832,15 @@ Version 47
 
 Version 48
 
-
-
 </td>
 <td valign="top">
 
 \>=1.107
 
-
-
 </td>
 <td valign="top">
 
 1.47.0
-
-
 
 </td>
 </tr>
@@ -1137,21 +849,15 @@ Version 48
 
 Version 49
 
-
-
 </td>
 <td valign="top">
 
 \>=1.108
 
-
-
 </td>
 <td valign="top">
 
 1.48.0
-
-
 
 </td>
 </tr>
@@ -1160,21 +866,15 @@ Version 49
 
 Version 50
 
-
-
 </td>
 <td valign="top">
 
 \>=1.109
 
-
-
 </td>
 <td valign="top">
 
 1.49.0
-
-
 
 </td>
 </tr>
@@ -1183,21 +883,15 @@ Version 50
 
 Version 51
 
-
-
 </td>
 <td valign="top">
 
 \>=1.110
 
-
-
 </td>
 <td valign="top">
 
 1.50.0
-
-
 
 </td>
 </tr>
@@ -1206,21 +900,15 @@ Version 51
 
 Version 52
 
-
-
 </td>
 <td valign="top">
 
 \>=1.111
 
-
-
 </td>
 <td valign="top">
 
 1.51.0
-
-
 
 </td>
 </tr>
@@ -1229,21 +917,15 @@ Version 52
 
 Version 53
 
-
-
 </td>
 <td valign="top">
 
 \>=1.112
 
-
-
 </td>
 <td valign="top">
 
 1.52.0
-
-
 
 </td>
 </tr>
@@ -1252,21 +934,15 @@ Version 53
 
 Version 54
 
-
-
 </td>
 <td valign="top">
 
 \>=1.113
 
-
-
 </td>
 <td valign="top">
 
 1.53.0
-
-
 
 </td>
 </tr>
@@ -1275,21 +951,15 @@ Version 54
 
 Version 55
 
-
-
 </td>
 <td valign="top">
 
 \>=1.114
 
-
-
 </td>
 <td valign="top">
 
 1.54.0
-
-
 
 </td>
 </tr>
@@ -1298,21 +968,15 @@ Version 55
 
 Version 56
 
-
-
 </td>
 <td valign="top">
 
 \>=1.115
 
-
-
 </td>
 <td valign="top">
 
 1.55.0
-
-
 
 </td>
 </tr>
@@ -1321,21 +985,15 @@ Version 56
 
 Version 57
 
-
-
 </td>
 <td valign="top">
 
 \>=1.116
 
-
-
 </td>
 <td valign="top">
 
 1.56.0
-
-
 
 </td>
 </tr>
@@ -1344,21 +1002,15 @@ Version 57
 
 Version 58
 
-
-
 </td>
 <td valign="top">
 
 \>=1.117
 
-
-
 </td>
 <td valign="top">
 
 1.57.0
-
-
 
 </td>
 </tr>
@@ -1367,21 +1019,15 @@ Version 58
 
 Version 59
 
-
-
 </td>
 <td valign="top">
 
 \>=1.118
 
-
-
 </td>
 <td valign="top">
 
 1.58.0
-
-
 
 </td>
 </tr>
@@ -1390,21 +1036,15 @@ Version 59
 
 Version 60
 
-
-
 </td>
 <td valign="top">
 
 \>=1.119
 
-
-
 </td>
 <td valign="top">
 
 1.59.0
-
-
 
 </td>
 </tr>
@@ -1413,21 +1053,15 @@ Version 60
 
 Version 61
 
-
-
 </td>
 <td valign="top">
 
 \>=1.120
 
-
-
 </td>
 <td valign="top">
 
 1.60.0
-
-
 
 </td>
 </tr>
@@ -1601,14 +1235,10 @@ The content for the descriptor is contained in the following namespaces: `withou
 
 Attribute
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1617,14 +1247,10 @@ Description
 
 `start_url` 
 
-
-
 </td>
 <td valign="top">
 
 Start page of your app, if available
-
-
 
 </td>
 </tr>
@@ -1633,14 +1259,10 @@ Start page of your app, if available
 
 `$schema` 
 
-
-
 </td>
 <td valign="top">
 
 JSON schema URI
-
-
 
 </td>
 </tr>
@@ -1661,14 +1283,10 @@ JSON schema URI
 
 Attribute
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -1676,8 +1294,6 @@ Description
 <td valign="top">
 
 `id` 
-
-
 
 </td>
 <td valign="top">
@@ -1714,8 +1330,6 @@ It's used as a reference point for most operations involving the app descriptor.
 
 `type` 
 
-
-
 </td>
 <td valign="top">
 
@@ -1739,8 +1353,6 @@ Possible values:
 
 `i18n` 
 
-
-
 </td>
 <td valign="top">
 
@@ -1758,8 +1370,6 @@ The i18n property is an **optional** attribute and contains one of the following
 
 If the manifest contains placeholders in `{{...}}` syntax, but no `i18n` attribute has been provided, the default value `i18n/i18n.properties` is used to request a ResourceBundle.
 
-
-
 </td>
 </tr>
 <tr>
@@ -1767,14 +1377,10 @@ If the manifest contains placeholders in `{{...}}` syntax, but no `i18n` attribu
 
 `applicationVersion` 
 
-
-
 </td>
 <td valign="top">
 
 Mandatory version of the app \(semantic version with the following format **`major.minor.patch`**\)
-
-
 
 </td>
 </tr>
@@ -1783,14 +1389,10 @@ Mandatory version of the app \(semantic version with the following format **`maj
 
 `embeds` 
 
-
-
 </td>
 <td valign="top">
 
 Array of relative paths to the nested `manifest.json` files; attribute is mandatory if a nested `manifest.json` exists
-
-
 
 </td>
 </tr>
@@ -1799,14 +1401,10 @@ Array of relative paths to the nested `manifest.json` files; attribute is mandat
 
 `embeddedBy` 
 
-
-
 </td>
 <td valign="top">
 
 Relative path back to the `manifest.json` file of an embedding component or library; attribute is mandatory for a nested `manifest.json` 
-
-
 
 </td>
 </tr>
@@ -1815,14 +1413,10 @@ Relative path back to the `manifest.json` file of an embedding component or libr
 
 `title` 
 
-
-
 </td>
 <td valign="top">
 
 Mandatory attribute; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` 
-
-
 
 </td>
 </tr>
@@ -1831,14 +1425,10 @@ Mandatory attribute; to make this property language dependent \(recommended\), u
 
 `subTitle` 
 
-
-
 </td>
 <td valign="top">
 
 Subtitle; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` 
-
-
 
 </td>
 </tr>
@@ -1847,14 +1437,10 @@ Subtitle; to make this property language dependent \(recommended\), use a key in
 
 `shortTitle` 
 
-
-
 </td>
 <td valign="top">
 
 Short version of the title; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` 
-
-
 
 </td>
 </tr>
@@ -1863,14 +1449,10 @@ Short version of the title; to make this property language dependent \(recommend
 
 `info` 
 
-
-
 </td>
 <td valign="top">
 
 Needed for CDM \(Common Data Model\) conversion of tiles; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` 
-
-
 
 </td>
 </tr>
@@ -1879,14 +1461,10 @@ Needed for CDM \(Common Data Model\) conversion of tiles; to make this property 
 
 `description` 
 
-
-
 </td>
 <td valign="top">
 
 Description; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` 
-
-
 
 </td>
 </tr>
@@ -1894,8 +1472,6 @@ Description; to make this property language dependent \(recommended\), use a key
 <td valign="top">
 
 `tags` 
-
-
 
 </td>
 <td valign="top">
@@ -1915,8 +1491,6 @@ Contains the following:
 <td valign="top">
 
 `dataSources` 
-
-
 
 </td>
 <td valign="top">
@@ -1959,16 +1533,12 @@ Unique key/alias for specifying the used data sources; contains the following in
 
 `cdsViews` 
 
-
-
 </td>
 <td valign="top">
 
 Array of directly used CDS views
 
 This attribute is optional and only added if used via INA protocol directly, not if used via OData service.
-
-
 
 </td>
 </tr>
@@ -1977,14 +1547,10 @@ This attribute is optional and only added if used via INA protocol directly, not
 
 `offline` 
 
-
-
 </td>
 <td valign="top">
 
 Indicates whether the app is running offline; default is `false` \(online\)
-
-
 
 </td>
 </tr>
@@ -1992,8 +1558,6 @@ Indicates whether the app is running offline; default is `false` \(online\)
 <td valign="top">
 
 `sourceTemplate` 
-
-
 
 </td>
 <td valign="top">
@@ -2016,8 +1580,6 @@ If an app has been generated from a template, this attribute is filled automatic
 
 `openSourceComponents` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2039,16 +1601,12 @@ Array of directly used open source libraries for documentation purposes; not use
 
 `resources` 
 
-
-
 </td>
 <td valign="top">
 
 Relative URL as a reference to a file \(naming convention is `resources.json`\) that contains a list of all resources needed by the app \(all resources inside the app\); the file is generated in an SAP Fiori tools \(in SAP Business Application Studio\) build step.
 
 For a description of `resources.json`, see [The resources.json File](The_resources_json_File_adcbcf8.md).
-
-
 
 </td>
 </tr>
@@ -2069,14 +1627,10 @@ For a description of `resources.json`, see [The resources.json File](The_resourc
 
 Attribute
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -2085,14 +1639,10 @@ Description
 
 `technology` 
 
-
-
 </td>
 <td valign="top">
 
 Specifies the UI technology; value is `UI5` 
-
-
 
 </td>
 </tr>
@@ -2100,8 +1650,6 @@ Specifies the UI technology; value is `UI5`
 <td valign="top">
 
 `icons` 
-
-
 
 </td>
 <td valign="top">
@@ -2128,8 +1676,6 @@ Contains object with app-specific icons, which are:
 
 `deviceTypes` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2148,14 +1694,10 @@ Mandatory; contains objects with device types on which the app is running, such 
 
 `fullWidth` 
 
-
-
 </td>
 <td valign="top">
 
 Indicates whether an app shall run in full screen mode \(`true`\), or not \(`false`\)
-
-
 
 </td>
 </tr>
@@ -2178,14 +1720,10 @@ The `sap.ui5` namespace is aligned with the former concept of component metadata
 
 Attribute
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -2193,8 +1731,6 @@ Description
 <td valign="top">
 
 `resources` 
-
-
 
 </td>
 <td valign="top">
@@ -2222,8 +1758,6 @@ Two settings can be defined per resource:
 
 `dependencies` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2238,16 +1772,12 @@ Mandatory; specifies the external dependencies that are loaded by the OpenUI5 co
 
 For more information, see [Descriptor Dependencies to Libraries and Components](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `componentUsages` 
-
-
 
 </td>
 <td valign="top">
@@ -2265,16 +1795,12 @@ Specifies the used components with the a unique key/alias. Contains the followin
 
 For more information see:[Using and Nesting Components](Using_and_Nesting_Components_346599f.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `models` 
-
-
 
 </td>
 <td valign="top">
@@ -2322,14 +1848,10 @@ Defines models that should be created or destroyed along the component's lifecyc
 
 `rootView` 
 
-
-
 </td>
 <td valign="top">
 
 Specifies the root view that shall be opened; can be the view name as a string for XML views, or the view configuration object with `viewName` for the view name as a string \(see [sap.ui.core.mvc.View.create](https://sdk.openui5.org/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create)\) and `type` for the type \(enumeration of [sap.ui.core.mvc.ViewType](https://sdk.openui5.org/api/sap.ui.core.mvc.ViewType)\), **id**, **async**, and other properties of `sap.ui.core.mvc.view`.
-
-
 
 </td>
 </tr>
@@ -2338,16 +1860,12 @@ Specifies the root view that shall be opened; can be the view name as a string f
 
 `autoPrefixId` 
 
-
-
 </td>
 <td valign="top">
 
 true, false \(default\), Enables the auto prefixing for the UIComponent for IDs of ManagedObjects \(controls or elements\) which are created in the context of the `createContent` function, or any other invocation of the `Component.prototype.runAsOwner()` function \(for example a component’s router uses this method when creating new views\).
 
 In former OpenUI5 releases this prefixing of the ID needed to be done with `oComponent.createId` by overwriting the method `getAutoPrefixId`. The same can now be achieved declaratively by setting `autoPrefixId` to true.
-
-
 
 </td>
 </tr>
@@ -2356,14 +1874,10 @@ In former OpenUI5 releases this prefixing of the ID needed to be done with `oCom
 
 `handleValidation` 
 
-
-
 </td>
 <td valign="top">
 
 Possible values: `true` or `false` \(default\); used to enable or disable validation handling by the message manager for this component, see [Error, Warning, and Info Messages](Error_Warning_and_Info_Messages_62b1481.md) 
-
-
 
 </td>
 </tr>
@@ -2372,14 +1886,10 @@ Possible values: `true` or `false` \(default\); used to enable or disable valida
 
 `config` 
 
-
-
 </td>
 <td valign="top">
 
 Static configuration; specify the name-value pairs that you need in your component.
-
-
 
 </td>
 </tr>
@@ -2388,14 +1898,10 @@ Static configuration; specify the name-value pairs that you need in your compone
 
 `routing` 
 
-
-
 </td>
 <td valign="top">
 
 Provides configuration parameters for route and router, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) 
-
-
 
 </td>
 </tr>
@@ -2403,8 +1909,6 @@ Provides configuration parameters for route and router, see [Routing and Navigat
 <td valign="top">
 
 `extends` 
-
-
 
 </td>
 <td valign="top">
@@ -2427,8 +1931,6 @@ Used to extend another component.
 
 `contentDensities` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2447,8 +1949,6 @@ Mandatory; contains an object with the content density modes that the app suppor
 <td valign="top">
 
 `resourceRoots` 
-
-
 
 </td>
 <td valign="top">
@@ -2469,14 +1969,10 @@ This attribute is intended for actual sub-packages of the component only, meanin
 
 `componentName` 
 
-
-
 </td>
 <td valign="top">
 
 An optional attribute that only has to be provided if your project is a variant of an existing application. In this case the `componentName` has to contain the `sap.app/id` of the existing application which is the basis of your variant.
-
-
 
 </td>
 </tr>
@@ -2484,8 +1980,6 @@ An optional attribute that only has to be provided if your project is a variant 
 <td valign="top">
 
 `library/i18n` 
-
-
 
 </td>
 <td valign="top">
@@ -2511,8 +2005,6 @@ An object value can contain additional resource bundle configuration, e.g. termi
 
 `commands` 
 
-
-
 </td>
 <td valign="top">
 
@@ -2522,8 +2014,6 @@ Specifies provided commands with a unique key/alias. Contains:
 
 
 The name of the command that contains the `shortcut` definition acts as a prerequisite for using the `command` property of the [sap/ui/core/CommandExecution](https://sdk.openui5.org/api/sap.ui.core.CommandExecution) module.
-
-
 
 </td>
 </tr>
@@ -2544,14 +2034,10 @@ The name of the command that contains the `shortcut` definition acts as a prereq
 
 Attribute
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -2560,14 +2046,10 @@ Description
 
 `type` 
 
-
-
 </td>
 <td valign="top">
 
 Describes the card type; possible values are `list` and `analytical` 
-
-
 
 </td>
 </tr>
@@ -2576,14 +2058,10 @@ Describes the card type; possible values are `list` and `analytical`
 
 `header` 
 
-
-
 </td>
 <td valign="top">
 
 Specifies the card’s header area
-
-
 
 </td>
 </tr>
@@ -2592,14 +2070,10 @@ Specifies the card’s header area
 
 `content` 
 
-
-
 </td>
 <td valign="top">
 
 Specifies the type-dependent card content
-
-
 
 </td>
 </tr>

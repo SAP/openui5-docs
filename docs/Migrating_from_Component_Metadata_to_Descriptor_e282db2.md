@@ -26,21 +26,15 @@ For compatibility reasons, the mapping to the `manifest.json` file is done autom
 
 Metadata
 
-
-
 </th>
 <th valign="top">
 
 Descriptor
 
-
-
 </th>
 <th valign="top">
 
 Comment
-
-
 
 </th>
 </tr>
@@ -49,21 +43,15 @@ Comment
 
 Component namespace
 
-
-
 </td>
 <td valign="top">
 
 `sap.app/id` 
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
 
 </td>
 </tr>
@@ -72,21 +60,15 @@ Component namespace
 
 `version` 
 
-
-
 </td>
 <td valign="top">
 
 `sap.app/applicationVersion/version` 
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
 
 </td>
 </tr>
@@ -95,21 +77,15 @@ Component namespace
 
 `config` 
 
-
-
 </td>
 <td valign="top">
 
 `sap.ui5/config` 
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
 
 </td>
 </tr>
@@ -118,21 +94,15 @@ Component namespace
 
 `dependencies` 
 
-
-
 </td>
 <td valign="top">
 
 `sap.ui5/dependencies` 
 
-
-
 </td>
 <td valign="top">
 
 Different format, see *Dependencies* section below
-
-
 
 </td>
 </tr>
@@ -141,21 +111,15 @@ Different format, see *Dependencies* section below
 
 `customizing` 
 
-
-
 </td>
 <td valign="top">
 
 `sap.ui5/extends/extensions` 
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
 
 </td>
 </tr>
@@ -164,21 +128,15 @@ Different format, see *Dependencies* section below
 
 `handleValidation` 
 
-
-
 </td>
 <td valign="top">
 
 `sap.ui5/handleValidation` 
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
 
 </td>
 </tr>
@@ -187,21 +145,15 @@ Different format, see *Dependencies* section below
 
 `includes` 
 
-
-
 </td>
 <td valign="top">
 
 `sap.ui5/resources` 
 
-
-
 </td>
 <td valign="top">
 
 Different format, see *Resources* section below
-
-
 
 </td>
 </tr>
@@ -210,21 +162,15 @@ Different format, see *Resources* section below
 
 `rootView` 
 
-
-
 </td>
 <td valign="top">
 
 `sap.ui5/rootView` 
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
 
 </td>
 </tr>
@@ -233,21 +179,15 @@ Different format, see *Resources* section below
 
 `routing` 
 
-
-
 </td>
 <td valign="top">
 
 `sap.ui5/routing` 
 
-
-
 </td>
 <td valign="top">
 
 \-
-
-
 
 </td>
 </tr>

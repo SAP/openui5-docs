@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.64 to 1.65.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **New Theme Available** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ For more information, see [Supported Combinations of Themes and Libraries](Suppo
 
 <sub>New•Feature•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.GridContainer (Experimental)`** 
-
-
 
 </td>
 <td valign="top">
@@ -165,21 +129,15 @@ For more information, see [sap.f.GridContainer](sap_f_GridContainer_cca5ee5.md),
 
 <sub>New•Control•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -188,28 +146,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -232,21 +182,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -255,28 +199,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Test Automation** 
-
-
 
 </td>
 <td valign="top">
@@ -289,21 +225,15 @@ For more information, see [Installing Karma for Automated Testing](Test_Automati
 
 <sub>Changed•Feature•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -312,28 +242,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.Avatar`** 
-
-
 
 </td>
 <td valign="top">
@@ -344,21 +266,15 @@ With the new `fallbackIcon` property, you can define a fallback icon to be displ
 
 <sub>Changed•ControlControl•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -367,28 +283,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.DynamicPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -402,21 +310,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -425,28 +327,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.ShellBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -457,21 +351,15 @@ The control is no longer experimental. To comply with the latest UX guidelines, 
 
 <sub>Changed•Control•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -480,28 +368,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Select`** 
-
-
 
 </td>
 <td valign="top">
@@ -512,21 +392,15 @@ We have improved the `sap.m.Select` control to display the text set in the `valu
 
 <sub>Changed•Control•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -535,28 +409,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -578,21 +444,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -601,28 +461,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ToolbarSeparator`** 
-
-
 
 </td>
 <td valign="top">
@@ -633,21 +485,15 @@ We have enabled the control to move to the overflow area of `sap.m.OverflowToolb
 
 <sub>Changed•Control•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -656,28 +502,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.core.hyphenation.Hyphenation`** 
-
-
 
 </td>
 <td valign="top">
@@ -688,21 +526,15 @@ We have changed the `leftmin` and `rightmin` properties for all languages, with 
 
 <sub>Changed•Control•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -711,28 +543,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -751,21 +575,15 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 
 <sub>Changed•Control•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -774,28 +592,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.uxap.ObjectPageHeader`** 
-
-
 
 </td>
 <td valign="top">
@@ -808,21 +618,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -831,28 +635,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **New openSAP Course: Evolved Web Apps with SAPUI5** 
-
-
 
 </td>
 <td valign="top">
@@ -876,21 +672,15 @@ For more information and to enroll, see [https://open.sap.com/courses/ui52](http
 
 <sub>New•User Documentation•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>
@@ -899,28 +689,20 @@ Info Only
 
 1.65 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit Search** 
-
-
 
 </td>
 <td valign="top">
@@ -933,21 +715,15 @@ We have improved the global search capabilities in the Demo Kit app by migrating
 
 <sub>Changed•Feature•Info Only•1.65</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-04-25
-
-
 
 </td>
 </tr>

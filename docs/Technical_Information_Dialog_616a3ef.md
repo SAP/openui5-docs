@@ -92,14 +92,10 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 
 ![Technical Information in Mobile App](images/loiof11a08225adf4264a9ec9cbc2daad467_LowRes.jpg)
 
-
-
 </td>
 <td valign="top">
 
 ![Technical Information in Mobile App](images/loiod1e10c1bbf3d4983b8c2e39db7dbcdb0_LowRes.jpg)
-
-
 
 </td>
 </tr>
@@ -108,14 +104,10 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 
 ![Technical Information in Mobile App](images/loioca7ba5f050484b99bede25b6c720ce30_LowRes.jpg)
 
-
-
 </td>
 <td valign="top">
 
 ![Technical Information in Mobile App](images/loiofc573fe3283d4e6da322a54e70bda756_LowRes.jpg)
-
-
 
 </td>
 </tr>

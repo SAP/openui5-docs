@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.114 to 1.115.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.p13n.Engine`** 
-
-
 
 </td>
 <td valign="top">
@@ -104,21 +82,15 @@ We have added more samples for the `Engine` and deprecated the following entitie
 
 <sub>Changed•Feature•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>
@@ -127,28 +99,20 @@ Info Only
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
-
-
 
 </td>
 <td valign="top">
@@ -159,21 +123,15 @@ We have deprecated the `editable` property. For more information, see the [API R
 
 <sub>Deprecated•Control•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>
@@ -182,28 +140,20 @@ Info Only
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Introduction of `sap.ui.mdc` library \(experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -214,21 +164,15 @@ We have introduced the `sap.ui.mdc` library experimentally. This library contain
 
 <sub>New•Feature•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>
@@ -237,28 +181,20 @@ Info Only
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -278,21 +214,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>
@@ -301,28 +231,20 @@ Info Only
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData Types** 
-
-
 
 </td>
 <td valign="top">
@@ -347,21 +269,15 @@ For more information, see, for example, the [API Reference](https://sdk.openui5.
 
 <sub>Changed•Feature•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>
@@ -370,28 +286,20 @@ Info Only
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -409,21 +317,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>
@@ -432,28 +334,20 @@ Info Only
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **sap.m.Button** 
-
-
 
 </td>
 <td valign="top">
@@ -466,21 +360,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>
@@ -489,28 +377,20 @@ Info Only
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **sap.m.DynamicDateRange** 
-
-
 
 </td>
 <td valign="top">
@@ -523,21 +403,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>
@@ -546,28 +420,20 @@ Info Only
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **sap.m.Wizard** 
-
-
 
 </td>
 <td valign="top">
@@ -578,21 +444,15 @@ We have provided an API that will allow the application to change the H level ba
 
 <sub>Changed•Control•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>
@@ -601,28 +461,20 @@ Info Only
 
 1.115 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **sap.f.SidePanel** 
-
-
 
 </td>
 <td valign="top">
@@ -635,21 +487,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 <sub>Changed•Control•Info Only•1.115</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-06-15
-
-
 
 </td>
 </tr>

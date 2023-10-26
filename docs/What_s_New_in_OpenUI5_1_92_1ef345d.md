@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.91 to 1.92.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.92 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DynamicDateRange` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ The new \(experimental\) `DynamicDateRange` control enables users to select abso
 
 <sub>New•Control•Info Only•1.92</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-07-15
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.92 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -168,21 +132,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.92</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-07-15
-
-
 
 </td>
 </tr>
@@ -191,28 +149,20 @@ Info Only
 
 1.92 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Dialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -223,21 +173,15 @@ We have updated the colors of value-state status icons. Now, they have better co
 
 <sub>Changed•Control•Info Only•1.92</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-07-15
-
-
 
 </td>
 </tr>
@@ -246,28 +190,20 @@ Info Only
 
 1.92 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`** 
-
-
 
 </td>
 <td valign="top">
@@ -278,21 +214,15 @@ We have provided the new `requestItems` method that lets you load more data in a
 
 <sub>Changed•Control•Info Only•1.92</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-07-15
-
-
 
 </td>
 </tr>
@@ -301,28 +231,20 @@ Info Only
 
 1.92 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.QuickViewPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -333,21 +255,15 @@ The control now supports avatars, which display business objects, images, initia
 
 <sub>Changed•Control•Info Only•1.92</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-07-15
-
-
 
 </td>
 </tr>
@@ -356,28 +272,20 @@ Info Only
 
 1.92 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -395,21 +303,15 @@ For more information, see the [Analytical Card](https://sdk.openui5.org/test-res
 
 <sub>Changed•Control•Info Only•1.92</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-07-15
-
-
 
 </td>
 </tr>
@@ -418,28 +320,20 @@ Info Only
 
 1.92 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.layout.ResponsiveSplitter`** 
-
-
 
 </td>
 <td valign="top">
@@ -450,21 +344,15 @@ We have added a new `resize` event, fired when the contents of the `sap.ui.layou
 
 <sub>Changed•Control•Info Only•1.92</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-07-15
-
-
 
 </td>
 </tr>
@@ -473,28 +361,20 @@ Info Only
 
 1.92 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecation of String-Based Rendering** 
-
-
 
 </td>
 <td valign="top">
@@ -505,21 +385,15 @@ String-based rendering \(also known as "apiVersion 1" of a renderer\) has been d
 
 <sub>Deprecated•Feature•Info Only•1.92</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-07-15
-
-
 
 </td>
 </tr>

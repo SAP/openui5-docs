@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.63 to 1.64.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -110,21 +88,15 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 
 <sub>New•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -133,28 +105,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -170,21 +134,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -193,28 +151,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.DynamicPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -225,21 +175,15 @@ We have redesigned the content area of the `DynamicPageTitle` control so that th
 
 <sub>Changed•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -248,28 +192,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.ShellBar` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -284,21 +220,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 <sub>Changed•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -307,28 +237,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -344,21 +266,15 @@ In case a `sap.ui.core.SeparatorItem` without a defined text property is inserte
 
 <sub>Changed•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -367,28 +283,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DatePicker`** 
-
-
 
 </td>
 <td valign="top">
@@ -399,21 +307,15 @@ With the new `isValidValue` function, you can receive information on the validit
 
 <sub>Changed•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -422,28 +324,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input / sap.m.ComboBoxBase` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -454,21 +348,15 @@ We have introduced a new experimental method `showItems(fnFilter)`. It enables y
 
 <sub>Changed•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -477,28 +365,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input / sap.m.MultiInput`** 
-
-
 
 </td>
 <td valign="top">
@@ -509,21 +389,15 @@ We have introduced grouping for the suggestions of `sap.m.Input` and `sap.m.Mult
 
 <sub>Changed•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -532,28 +406,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -569,21 +435,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -592,28 +452,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -627,21 +479,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -650,28 +496,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.uxap.ObjectPageLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -682,21 +520,15 @@ We have implemented the option to provide a simple, single-line title that takes
 
 <sub>Changed•Control•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>
@@ -705,28 +537,20 @@ Info Only
 
 1.64 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit API Reference** 
-
-
 
 </td>
 <td valign="top">
@@ -742,21 +566,15 @@ Feature
 
 <sub>Changed•Feature•Info Only•1.64</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-03-28
-
-
 
 </td>
 </tr>

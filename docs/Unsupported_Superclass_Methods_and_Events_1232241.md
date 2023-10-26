@@ -23,14 +23,10 @@ The following methods and events are affected by this. For more information, see
 
 Class
 
-
-
 </th>
 <th valign="top">
 
 Method
-
-
 
 </th>
 </tr>
@@ -40,8 +36,6 @@ Method
 `sap.ui.model.odata.v4.ODataMetaModel`
 
 \(See [sap.ui.model.odata.v4.ODataMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)
-
-
 
 </td>
 <td valign="top">
@@ -56,8 +50,6 @@ Method
 
 `setLegacySyntax`
 
-
-
 </td>
 </tr>
 <tr>
@@ -66,8 +58,6 @@ Method
 `sap.ui.model.odata.v4.ODataModel`
 
 \(See [sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
-
-
 
 </td>
 <td valign="top">
@@ -86,8 +76,6 @@ Method
 
 `setLegacySyntax`
 
-
-
 </td>
 </tr>
 <tr>
@@ -96,8 +84,6 @@ Method
 `sap.ui.model.odata.v4.ODataContextBinding`
 
 \(See [sap.ui.model.odata.v4.ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding) in the Demo Kit\)
-
-
 
 </td>
 <td valign="top">
@@ -110,8 +96,6 @@ Method
 
 `suspend` \(limited support only\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -120,8 +104,6 @@ Method
 `sap.ui.model.odata.v4.ODataListBinding`
 
 \(See [sap.ui.model.odata.v4.ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit\)
-
-
 
 </td>
 <td valign="top">
@@ -136,8 +118,6 @@ Method
 
 `suspend` \(limited support only\)
 
-
-
 </td>
 </tr>
 <tr>
@@ -146,8 +126,6 @@ Method
 `sap.ui.model.odata.v4.ODataPropertyBinding`
 
 \(See [sap.ui.model.odata.v4.ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding) in the Demo Kit\)
-
-
 
 </td>
 <td valign="top">
@@ -162,8 +140,6 @@ Method
 
 `suspend`
 
-
-
 </td>
 </tr>
 </table>
@@ -177,14 +153,10 @@ Method
 
 Class
 
-
-
 </th>
 <th valign="top">
 
 Event
-
-
 
 </th>
 </tr>
@@ -194,8 +166,6 @@ Event
 `sap.ui.model.odata.v4.ODataMetaModel`
 
 \(See [sap.ui.model.odata.v4.ODataMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)
-
-
 
 </td>
 <td valign="top">
@@ -210,8 +180,6 @@ Event
 
 `requestSent`
 
-
-
 </td>
 </tr>
 <tr>
@@ -220,8 +188,6 @@ Event
 `sap.ui.model.odata.v4.ODataModel`
 
 \(See [sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
-
-
 
 </td>
 <td valign="top">
@@ -233,8 +199,6 @@ Event
 `requestFailed`
 
 `requestSent`
-
-
 
 </td>
 </tr>

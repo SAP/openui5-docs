@@ -29,14 +29,10 @@ As there is no W3C specification for how to use the placeholder property, browse
 
 Browser
 
-
-
 </th>
 <th valign="top">
 
 Situation
-
-
 
 </th>
 </tr>
@@ -45,16 +41,12 @@ Situation
 
 Google Chrome
 
-
-
 </td>
 <td valign="top">
 
 Google Chrome supports the native placeholder property and displays multiple lines along with a scrollbar
 
 ![](images/loiof4a1a89df08f4634b70163f18dd33c55_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -63,16 +55,12 @@ Google Chrome supports the native placeholder property and displays multiple lin
 
 Mozilla Firefox
 
-
-
 </td>
 <td valign="top">
 
 Mozilla Firefox supports the native placeholder property but does not display a scrollbar or an ellipsis, instead it simply truncates the placeholder text string
 
 ![](images/loioc8b3985181a4450fb1252f4f81a25af2_LowRes.png)
-
-
 
 </td>
 </tr>

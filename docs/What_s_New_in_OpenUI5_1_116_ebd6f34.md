@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.115 to 1.116.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.116 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecations** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 <sub>Deprecated•Feature•Info Only•1.116</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-07-13
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.116 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **TypeScript: Supported productively** 
-
-
 
 </td>
 <td valign="top">
@@ -163,21 +127,15 @@ For more information, see [TypeScript Support](TypeScript_Support_a7ee961.md).
 
 <sub>New•Feature•Info Only•OpenUI5</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-07-13
-
-
 
 </td>
 </tr>
@@ -186,28 +144,20 @@ Info Only
 
 1.116 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -218,21 +168,15 @@ We have \(experimentally\) introduced a new input field in the Object Card that 
 
 <sub>Changed•Control•Info Only•1.116</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-07-13
-
-
 
 </td>
 </tr>
@@ -241,28 +185,20 @@ Info Only
 
 1.116 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Menu`** 
-
-
 
 </td>
 <td valign="top">
@@ -273,21 +209,15 @@ Disabled items in the menu are now focusable. This way they can be accessed by s
 
 <sub>Changed•Control•Info Only•1.116</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-07-13
-
-
 
 </td>
 </tr>
@@ -296,28 +226,20 @@ Info Only
 
 1.116 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m` library: Date- and time-related controls** 
-
-
 
 </td>
 <td valign="top">
@@ -328,21 +250,15 @@ We have improved the placeholders of these controls in cases when the placeholde
 
 <sub>Changed•Control•Info Only•1.116</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-07-13
-
-
 
 </td>
 </tr>
@@ -351,28 +267,20 @@ Info Only
 
 1.116 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit: Index of Deprecated APIs with new sorting order** 
-
-
 
 </td>
 <td valign="top">
@@ -385,21 +293,15 @@ For more information, see the [Index of Deprecated APIs](https://sdk.openui5.org
 
 <sub>Changed•Feature•Info Only•1.116</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-07-13
-
-
 
 </td>
 </tr>
@@ -408,28 +310,20 @@ Info Only
 
 1.116 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit: Editable code samples** 
-
-
 
 </td>
 <td valign="top">
@@ -442,21 +336,15 @@ For more information, see the [Samples](https://sdk.openui5.org/controls).
 
 <sub>Changed•Feature•Info Only•1.116</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-07-13
-
-
 
 </td>
 </tr>
@@ -465,28 +353,20 @@ Info Only
 
 1.116 
 
-
-
 </td>
 <td valign="top">
 
 Deleted 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **End of Cloud Provisioning for OpenUI5 Versions \(Q2/2023\)** 
-
-
 
 </td>
 <td valign="top">
@@ -531,21 +411,15 @@ For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sa
 
 <sub>Deleted•Announcement•Required•1.116</sub>
 
-
-
 </td>
 <td valign="top">
 
 Required 
 
-
-
 </td>
 <td valign="top">
 
 2023-07-13
-
-
 
 </td>
 </tr>
@@ -554,28 +428,20 @@ Required
 
 1.116 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Modern ECMAScript Support in OpenUI5** 
-
-
 
 </td>
 <td valign="top">
@@ -590,21 +456,15 @@ For more information, see [Upgrade Your Tools for Modern ECMAScript in UI5](http
 
 <sub>Changed•Feature•Required•1.116</sub>
 
-
-
 </td>
 <td valign="top">
 
 Required 
 
-
-
 </td>
 <td valign="top">
 
 2023-07-13
-
-
 
 </td>
 </tr>

@@ -41,63 +41,45 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 Platform
 
-
-
 </th>
 <th valign="top" align="center">
 
 Device Category
-
-
 
 </th>
 <th valign="top" align="center">
 
 Platform Version
 
-
-
 </th>
 <th valign="top" align="center">
 
 Safari
-
-
 
 </th>
 <th valign="top" align="center">
 
 Web View
 
-
-
 </th>
 <th valign="top" align="center">
 
 Microsoft Edge \(Chromium\)<sup>2</sup>
-
-
 
 </th>
 <th valign="top" align="center">
 
 Google Chrome
 
-
-
 </th>
 <th valign="top" align="center">
 
 Mozilla Firefox
 
-
-
 </th>
 <th valign="top" align="center">
 
 SAP Fiori Client
-
-
 
 </th>
 </tr>
@@ -106,14 +88,10 @@ SAP Fiori Client
 
 Windows<sup>1</sup>
 
-
-
 </td>
 <td valign="top">
 
 Desktop
-
-
 
 </td>
 <td valign="top">
@@ -122,49 +100,35 @@ Windows 10
 
 Windows 11
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
 
+</td>
+<td valign="top">
 
+Latest version
 
 </td>
 <td valign="top">
 
 Latest version
 
-
-
 </td>
 <td valign="top">
 
 Latest version
-
-
-
-</td>
-<td valign="top">
-
-Latest version
-
-
 
 </td>
 <td valign="top" rowspan="2">
 
 Latest version and latest Extended Support Release \(ESR\)
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
-
-
 
 </td>
 </tr>
@@ -173,8 +137,6 @@ Latest version and latest Extended Support Release \(ESR\)
 
 Touch<sup>5</sup>
 
-
-
 </td>
 <td valign="top">
 
@@ -182,42 +144,30 @@ Windows 10
 
 Windows 11
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
 
+</td>
+<td valign="top">
 
+Latest version
 
 </td>
 <td valign="top">
 
 Latest version
 
-
-
 </td>
 <td valign="top">
 
 Latest version
 
-
-
 </td>
 <td valign="top">
 
 Latest version
-
-
-
-</td>
-<td valign="top">
-
-Latest version
-
-
 
 </td>
 </tr>
@@ -226,63 +176,45 @@ Latest version
 
 macOS
 
-
-
 </td>
 <td valign="top">
 
 Desktop
-
-
 
 </td>
 <td valign="top">
 
 Latest 2 versions
 
-
-
 </td>
 <td valign="top">
 
 Latest version
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
-
-
 
 </td>
 <td valign="top">
 
 Latest version <sup>5</sup>
 
-
-
 </td>
 <td valign="top">
 
 Latest version<sup>5</sup>
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
-
-
 
 </td>
 </tr>
@@ -291,63 +223,45 @@ Latest version<sup>5</sup>
 
 iOS & iPadOS<sup>3</sup>
 
-
-
 </td>
 <td valign="top">
 
 Phone and Tablet<sup>5</sup>
 
+</td>
+<td valign="top">
 
+Latest version
 
 </td>
 <td valign="top">
 
 Latest version
 
-
-
 </td>
 <td valign="top">
 
 Latest version
-
-
-
-</td>
-<td valign="top">
-
-Latest version
-
-
 
 </td>
 <td valign="top" align="center">
 
 \-
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
-
-
 
 </td>
 <td valign="top">
 
 Latest version
-
-
 
 </td>
 </tr>
@@ -356,63 +270,45 @@ Latest version
 
 Android<sup>4</sup>
 
-
-
 </td>
 <td valign="top">
 
 Phone and Tablet<sup>5</sup>
-
-
 
 </td>
 <td valign="top">
 
 Latest 3 versions supported by Google
 
+</td>
+<td valign="top" align="center">
 
+\-
 
 </td>
 <td valign="top" align="center">
 
 \-
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
-
-
-
-</td>
-<td valign="top" align="center">
-
-\-
-
-
 
 </td>
 <td valign="top">
 
 Latest version
 
-
-
 </td>
 <td valign="top" align="center">
 
 \-
 
-
-
 </td>
 <td valign="top">
 
 Latest version
-
-
 
 </td>
 </tr>

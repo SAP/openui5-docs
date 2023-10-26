@@ -28,21 +28,15 @@ The following table gives an overview of form controls and their usage:
 
 Form [\(`sap.ui.layout.form.Form`\)](https://sdk.openui5.org/api/sap.ui.layout.form.Form) 
 
-
-
 </th>
 <th valign="top">
 
 Simple Form [\(`sap.ui.layout.form.SimpleForm`\)](https://sdk.openui5.org/api/sap.ui.layout.form.SimpleForm) 
 
-
-
 </th>
 <th valign="top">
 
 Smart Form [\(`sap.ui.comp.smartform.SmartForm`\)](https://sdk.openui5.org/api/sap.ui.comp.smartform.SmartForm) 
-
-
 
 </th>
 </tr>
@@ -51,28 +45,20 @@ Smart Form [\(`sap.ui.comp.smartform.SmartForm`\)](https://sdk.openui5.org/api/s
 
 Flexibility
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 2
-
-
 
 </td>
 </tr>
@@ -81,28 +67,20 @@ Flexibility
 
 Simplicity
 
-
-
 </td>
 <td valign="top">
 
 3
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 2
-
-
 
 </td>
 </tr>
@@ -111,28 +89,20 @@ Simplicity
 
 Performance
 
-
-
 </td>
 <td valign="top">
 
 1
-
-
 
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 2
-
-
 
 </td>
 </tr>
@@ -141,28 +111,20 @@ Performance
 
 Automatic responsive design
 
+</td>
+<td valign="top">
 
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -171,28 +133,20 @@ Automatic responsive design
 
 Accessible design
 
+</td>
+<td valign="top">
 
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -201,28 +155,20 @@ Accessible design
 
 Controls inside are OData-bindable
 
-
-
 </td>
 <td valign="top">
 
-![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
+</td>
+<td valign="top">
 
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -231,28 +177,20 @@ Controls inside are OData-bindable
 
 Granular structure of a form control
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -316,9 +254,9 @@ Use `sap.ui.layout.form.SimpleForm` if you want to do the following:
 
 Use `sap.ui.comp.smartform.SmartForm` if you want to do the following:
 
--   Bind a control to an OData entity within your form
-
 -   Create and edit forms for SAP applications
+
+-   Work with `SmartField` controls inside the form
 
 -   Leverage the built-in data validation of OpenUI5 based on the OData model's metadata
 

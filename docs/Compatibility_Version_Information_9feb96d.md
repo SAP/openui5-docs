@@ -48,29 +48,21 @@ The compatibility version configuration works as follows:
     <th valign="top">
 
     data-sap-ui-compatVersion
-
-
     
     </th>
     <th valign="top">
 
     data-sap-ui-compatVersion-xyz
-
-
     
     </th>
     <th valign="top">
 
     Default feature xyz
-
-
     
     </th>
     <th valign="top">
 
     Resulting compatibility version
-
-
     
     </th>
     </tr>
@@ -78,29 +70,21 @@ The compatibility version configuration works as follows:
     <td valign="top">
     
     \--
-
-
     
     </td>
     <td valign="top">
     
     \--
-
-
     
     </td>
     <td valign="top">
     
     1.14
-
-
     
     </td>
     <td valign="top">
     
     1.14
-
-
     
     </td>
     </tr>
@@ -108,29 +92,21 @@ The compatibility version configuration works as follows:
     <td valign="top">
     
     1.16
-
-
     
     </td>
     <td valign="top">
     
     \--
-
-
     
     </td>
     <td valign="top">
     
     1.14
-
-
     
     </td>
     <td valign="top">
     
     1.16
-
-
     
     </td>
     </tr>
@@ -138,29 +114,21 @@ The compatibility version configuration works as follows:
     <td valign="top">
     
     \--
-
-
     
     </td>
     <td valign="top">
     
     1.16
-
-
     
     </td>
     <td valign="top">
     
     1.14
-
-
     
     </td>
     <td valign="top">
     
     1.16
-
-
     
     </td>
     </tr>
@@ -168,29 +136,21 @@ The compatibility version configuration works as follows:
     <td valign="top">
     
     1.18
-
-
     
     </td>
     <td valign="top">
     
     1.16
-
-
     
     </td>
     <td valign="top">
     
     1.14
-
-
     
     </td>
     <td valign="top">
     
     1.16
-
-
     
     </td>
     </tr>
@@ -198,29 +158,21 @@ The compatibility version configuration works as follows:
     <td valign="top">
     
     edge
-
-
     
     </td>
     <td valign="top">
     
     ..
-
-
     
     </td>
     <td valign="top">
     
     1.14
-
-
     
     </td>
     <td valign="top">
     
     1.18
-
-
     
     </td>
     </tr>
@@ -236,14 +188,10 @@ OpenUI5 supports the following compatibility version flags:
 
 Flag
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -252,16 +200,12 @@ Description
 
 `data-sap-ui-compatVersion-sapMeTabContainer`
 
-
-
 </td>
 <td valign="top">
 
 The `TabContainer` was deprecated in 1.15. When the compatibility version is 1.16 or higher, an error is logged to the console indicating that `sap.m.IconTabBar` should be used instead.
 
 Default value: 1.14
-
-
 
 </td>
 </tr>
@@ -270,14 +214,10 @@ Default value: 1.14
 
 `data-sap-ui-compatVersion-sapMeProgessIndicator`
 
-
-
 </td>
 <td valign="top">
 
 \--
-
-
 
 </td>
 </tr>
@@ -286,14 +226,10 @@ Default value: 1.14
 
 `data-sap-ui-compatVersion-sapMGrowingList`
 
-
-
 </td>
 <td valign="top">
 
 \--
-
-
 
 </td>
 </tr>
@@ -302,14 +238,10 @@ Default value: 1.14
 
 `data-sap-ui-compatVersion-sapMListAsTable`
 
-
-
 </td>
 <td valign="top">
 
 \--
-
-
 
 </td>
 </tr>
@@ -318,16 +250,12 @@ Default value: 1.14
 
 `data-sap-ui-compatVersion-sapMDialogWithPadding`
 
-
-
 </td>
 <td valign="top">
 
 By default, the content area of `Dialog` had paddings. To make the padding consistent with other popups, the padding is removed for compatibility versions 1.16 or higher. If the padding is still needed inside the content area of `Dialog`, you can use the [Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md).
 
 Default value: 1.14
-
-
 
 </td>
 </tr>
@@ -336,16 +264,12 @@ Default value: 1.14
 
 `data-sap-ui-bindingSyntax`
 
-
-
 </td>
 <td valign="top">
 
 This configuration parameter defines whether the simple or the complex binding syntax is used. The parameter only affects bindings that are defined as strings, for example in the constructor of a control, or when specifying a binding in a declarative view, such as an XML view.
 
 For versions lower than 1.28, the default value is `default` which only has very limited features. As of version 1.28, the default is `complex`.
-
-
 
 </td>
 </tr>

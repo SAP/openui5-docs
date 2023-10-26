@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.90 to 1.91.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.91 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ A `Content-ID` header has been added to all non-read requests in a batch request
 
 <sub>Changed•Feature•Info Only•1.91</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2021-06-17
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.91 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -166,21 +130,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.91</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-06-17
-
-
 
 </td>
 </tr>
@@ -189,28 +147,20 @@ Info Only
 
 1.91 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.App`** 
-
-
 
 </td>
 <td valign="top">
@@ -221,21 +171,15 @@ Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the 
 
 <sub>Changed•Control•Info Only•1.91</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-06-17
-
-
 
 </td>
 </tr>
@@ -244,28 +188,20 @@ Info Only
 
 1.91 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ExpandableText`** 
-
-
 
 </td>
 <td valign="top">
@@ -276,21 +212,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.91</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-06-17
-
-
 
 </td>
 </tr>
@@ -299,28 +229,20 @@ Info Only
 
 1.91 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Table`** 
-
-
 
 </td>
 <td valign="top">
@@ -331,21 +253,15 @@ We introduced the `ColumnResizer` plugin that handles column resizing for a resp
 
 <sub>Changed•Control•Info Only•1.91</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-06-17
-
-
 
 </td>
 </tr>
@@ -354,28 +270,20 @@ Info Only
 
 1.91 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Table` Documentation Enhancement** 
-
-
 
 </td>
 <td valign="top">
@@ -388,21 +296,15 @@ For more information, see [Configuring Responsive Behavior of a Table](Configuri
 
 <sub>Changed•User Documentation•Info Only•1.91</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-06-17
-
-
 
 </td>
 </tr>

@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.62 to 1.63.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Custom Currencies** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ For more information, see [Currency Formatting](Currency_Formatting_e978728.md).
 
 <sub>New•Feature•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **UI5 Web Components** 
-
-
 
 </td>
 <td valign="top">
@@ -167,21 +131,15 @@ For more information, see the [UI5 Web Components](https://sap.github.io/ui5-web
 
 <sub>New•Feature•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -190,28 +148,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.ShellBar` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -226,21 +176,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 <sub>New•Control•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -249,28 +193,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.upload.UploadSet`** 
-
-
 
 </td>
 <td valign="top">
@@ -283,21 +219,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>New•Control•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -306,28 +236,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -350,21 +272,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -373,28 +289,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.Avatar`** 
-
-
 
 </td>
 <td valign="top">
@@ -405,21 +313,15 @@ We have introduced a fallback image behavior that handles situations when the pr
 
 <sub>Changed•Control•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -428,28 +330,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.DynamicPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -460,21 +354,15 @@ We have implemented the option to provide a simple, single-line title that takes
 
 <sub>Changed•Control•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -483,28 +371,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.semantic.SemanticPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -515,21 +395,15 @@ We have implemented the option to provide a simple, single-line title that takes
 
 <sub>Changed•Control•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -538,28 +412,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ObjectNumber / sap.m.ObjectStatus`** 
-
-
 
 </td>
 <td valign="top">
@@ -570,21 +436,15 @@ You can now display both controls with a large font size, thus meeting the SAP F
 
 <sub>Changed•Control•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -593,28 +453,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Select`** 
-
-
 
 </td>
 <td valign="top">
@@ -625,21 +477,15 @@ To ensure that the value states are displayed in all situations and devices, the
 
 <sub>Changed•Control•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -648,28 +494,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.layout.cssgrid.CSSGrid`** 
-
-
 
 </td>
 <td valign="top">
@@ -680,21 +518,15 @@ You can now set the `CSSGrid` breakpoints \(large, medium, or small\) to depend 
 
 <sub>Changed•Control•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>
@@ -703,28 +535,20 @@ Info Only
 
 1.63 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit API Reference Tree** 
-
-
 
 </td>
 <td valign="top">
@@ -737,21 +561,15 @@ We have improved the *API Reference* tree to use proper nesting of the OpenUI5 s
 
 <sub>Changed•Feature•Info Only•1.63</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-02-27
-
-
 
 </td>
 </tr>

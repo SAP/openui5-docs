@@ -23,14 +23,10 @@ The following keys and key combinations are used for selecting one or multiple i
 
 Key combination
 
-
-
 </th>
 <th valign="top">
 
 Behavior
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Behavior
 
 [Spacebar\]
 
-
-
 </td>
 <td valign="top">
 
 If focus is on an item, selects the item and deselects all others.
-
-
 
 </td>
 </tr>
@@ -63,14 +55,10 @@ If focus is on an item, selects the item and deselects all others.
 
 Key combination
 
-
-
 </th>
 <th valign="top">
 
 Behavior
-
-
 
 </th>
 </tr>
@@ -79,14 +67,10 @@ Behavior
 
 [Spacebar\]
 
-
-
 </td>
 <td valign="top">
 
 If focus is on an item, selects the item in addition to all previously selected items.
-
-
 
 </td>
 </tr>
@@ -95,14 +79,10 @@ If focus is on an item, selects the item in addition to all previously selected 
 
 [Shift\] + [Up arrow\] 
 
-
-
 </td>
 <td valign="top">
 
 If focus is on an item, changes selection state \(selected/ not selected\) to the item above.
-
-
 
 </td>
 </tr>
@@ -111,14 +91,10 @@ If focus is on an item, changes selection state \(selected/ not selected\) to th
 
 [Shift\] + [Down arrow\] 
 
-
-
 </td>
 <td valign="top">
 
 If focus is on an item, changes selection state \(selected/ not selected\) to the item below.
-
-
 
 </td>
 </tr>
@@ -126,8 +102,6 @@ If focus is on an item, changes selection state \(selected/ not selected\) to th
 <td valign="top">
 
 [Ctrl\] + [A\] 
-
-
 
 </td>
 <td valign="top">
@@ -138,16 +112,12 @@ If all items are selected, deselects all items.
 
 This is the default behavior of a list.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 [Ctrl\] + [Shift\] + [A\] 
-
-
 
 </td>
 <td valign="top">
@@ -157,8 +127,6 @@ Deselects all items which the user can reach in the current view by scrolling or
 To select items , you can no longer use [Ctrl\][A\]. You have to use [Spacebar\] for single selection or [Shift\] + [Up arrow\]  or [Down arrow\] for multiple selection.
 
 This is the behavior if `multiSelectMode` is set to `ClearAll` for a list.
-
-
 
 </td>
 </tr>

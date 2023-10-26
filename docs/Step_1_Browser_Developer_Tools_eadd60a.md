@@ -116,14 +116,10 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 > 
 > OpenUI5 Control
 > 
-> 
-> 
 > </th>
 > <th valign="top">
 > 
 > DOM Element
-> 
-> 
 > 
 > </th>
 > </tr>
@@ -132,14 +128,10 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 > 
 > `sap.ui.getCore().byId("container-HeapOfShards---app--myButton")` 
 > 
-> 
-> 
 > </td>
 > <td valign="top">
 > 
 > `jQuery("#container-HeapOfShards---app--myButton")` 
-> 
-> 
 > 
 > </td>
 > </tr>

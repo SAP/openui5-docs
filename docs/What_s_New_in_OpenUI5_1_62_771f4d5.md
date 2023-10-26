@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.61 to 1.62.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.GenericTag`** 
-
-
 
 </td>
 <td valign="top">
@@ -123,21 +101,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>New•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -146,28 +118,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -197,21 +161,15 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 
 <sub>New•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -220,28 +178,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Routing in Nested Components** 
-
-
 
 </td>
 <td valign="top">
@@ -254,21 +204,15 @@ For details, see [Enabling Routing in Nested Components](Enabling_Routing_in_Nes
 
 <sub>Changed•Feature•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -277,28 +221,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -334,21 +270,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -357,28 +287,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Carousel`** 
-
-
 
 </td>
 <td valign="top">
@@ -389,21 +311,15 @@ The control can now display several items at once. This functionality is impleme
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -412,28 +328,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Column`** 
-
-
 
 </td>
 <td valign="top">
@@ -444,21 +352,15 @@ The `sortIndicator` property now shows a sort icon when a column is sorted. For 
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -467,28 +369,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -499,21 +393,15 @@ In order for the `ComboBox` to be aligned with the rest of the input controls an
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -522,28 +410,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ListBase`** 
-
-
 
 </td>
 <td valign="top">
@@ -554,21 +434,15 @@ You can now use more values for the `highlight` property. These values are provi
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -577,28 +451,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.OverflowToolbar`** 
-
-
 
 </td>
 <td valign="top">
@@ -612,21 +478,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -635,28 +495,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -672,21 +524,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -695,28 +541,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.StandardListItem`** 
-
-
 
 </td>
 <td valign="top">
@@ -727,21 +565,15 @@ The new `information` value in the `sap.ui.core.ValueState` enumeration is now s
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -750,28 +582,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.tnt.SideNavigation`** 
-
-
 
 </td>
 <td valign="top">
@@ -782,21 +606,15 @@ We have implemented a `selectedKey` property of `sap.tnt.SideNavigation`, with w
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -805,28 +623,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.core.support.RuleEngineOpaExtension`** 
-
-
 
 </td>
 <td valign="top">
@@ -837,21 +647,15 @@ The rule engine OPA extension, which allows Support Assistant checks, has been e
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -860,28 +664,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.table.AnalyticalTable / sap.ui.table.Table / sap.ui.table.TreeTable`** 
-
-
 
 </td>
 <td valign="top">
@@ -892,21 +688,15 @@ You can now use more values for the `highlight` property. These values are provi
 
 <sub>Changed•Control•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>
@@ -915,28 +705,20 @@ Info Only
 
 1.62 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit Improvements** 
-
-
 
 </td>
 <td valign="top">
@@ -958,21 +740,15 @@ You can now switch the *Content Density* of the Demo Kit samples to *Condensed*.
 
 <sub>Changed•Feature•Info Only•1.62</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-01-31
-
-
 
 </td>
 </tr>

@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.88 to 1.89.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.89 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit Feedback** 
-
-
 
 </td>
 <td valign="top">
@@ -117,21 +95,15 @@ Here are some Demo Kit improvements that we implemented based on your feedback:
 
 <sub>Changed•Feature•Info Only•1.89</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2021-04-22
-
-
 
 </td>
 </tr>
@@ -140,28 +112,20 @@ Info Only
 
 1.89 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -172,21 +136,15 @@ You can now provide unit and currency customizing for the `sap.ui.model.odata.ty
 
 <sub>Changed•Feature•Info Only•1.89</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-04-22
-
-
 
 </td>
 </tr>
@@ -195,28 +153,20 @@ Info Only
 
 1.89 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -227,21 +177,15 @@ Additional targets are now supported for [server messages](Server_Messages_in_th
 
 <sub>Changed•Feature•Info Only•1.89</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-04-22
-
-
 
 </td>
 </tr>
@@ -250,28 +194,20 @@ Info Only
 
 1.89 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 Data Types** 
-
-
 
 </td>
 <td valign="top">
@@ -295,21 +231,15 @@ However, in some cases it can be necessary to display a value with fewer decimal
 
 <sub>Changed•Feature•Info Only•1.89</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-04-22
-
-
 
 </td>
 </tr>
@@ -318,28 +248,20 @@ Info Only
 
 1.89 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Link, sap.m.ObjectIdentifier, sap.m.ObjectNumber, sap.m.ObjectStatus, and sap.ui.unified.Currency`** 
-
-
 
 </td>
 <td valign="top">
@@ -350,21 +272,15 @@ Similar to the `sap.m.Text` control, these controls now also implement the new `
 
 <sub>Changed•Control•Info Only•1.89</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-04-22
-
-
 
 </td>
 </tr>
@@ -373,28 +289,20 @@ Info Only
 
 1.89 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.layout.form.Form`, `sap.ui.layout.form.SimpleForm`** 
-
-
 
 </td>
 <td valign="top">
@@ -405,21 +313,15 @@ You can now define up to six columns in extra-large size in a form. For more inf
 
 <sub>Changed•Control•Info Only•1.89</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-04-22
-
-
 
 </td>
 </tr>

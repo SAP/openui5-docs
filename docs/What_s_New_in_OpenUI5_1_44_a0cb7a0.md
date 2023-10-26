@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.42 to 1.44.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Navigation and Routing** 
-
-
 
 </td>
 <td valign="top">
@@ -104,21 +82,15 @@ In the routing configuration, you can now define a `homeRoute` for the generic h
 
 <sub>Changed•Feature•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -127,28 +99,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Formatting and Parsing of Week Info for All Calendar Types** 
-
-
 
 </td>
 <td valign="top">
@@ -159,21 +123,15 @@ The calculation of calendar weeks is now based on minimal days in first week com
 
 <sub>Changed•Feature•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -182,28 +140,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -237,21 +187,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -260,28 +204,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -292,21 +228,15 @@ For OData V2 models, the V2 annotation `‘sap:visible=”false”’` is now al
 
 <sub>Changed•Feature•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -315,28 +245,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **One Page Acceptance Tests \(OPA5\)** 
-
-
 
 </td>
 <td valign="top">
@@ -347,21 +269,15 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
 
 <sub>Changed•Feature•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -370,28 +286,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.DynamicPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -402,21 +310,15 @@ Using the new property `toggleHeaderOnTitleClick`, you can now disable the featu
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -425,28 +327,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Dialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -457,21 +351,15 @@ We have enabled custom handling for the *Close* button. App developers can check
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -480,28 +368,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.GenericTile`** 
-
-
 
 </td>
 <td valign="top">
@@ -512,21 +392,15 @@ With the new `LineMode`, you can switch the visualization of the Generic Tile on
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -535,28 +409,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.HeaderContainer`** 
-
-
 
 </td>
 <td valign="top">
@@ -567,21 +433,15 @@ The `HeaderContainer` control has been moved from the `sap.suite.ui.commons` lib
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -590,28 +450,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IconTabBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -627,21 +479,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -650,28 +496,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.List / sap.m.Table`** 
-
-
 
 </td>
 <td valign="top">
@@ -682,21 +520,15 @@ You can now highlight items, for example to indicate an error. For more informat
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -705,28 +537,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.NotificationListItem / sap.m.NotificationListGroup`** 
-
-
 
 </td>
 <td valign="top">
@@ -748,21 +572,15 @@ For more information, see the samples [Notification List Item](https://sdk.openu
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -771,28 +589,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -803,21 +613,15 @@ A new `week` view is now available for the `PlanningCalendar` control. It displa
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -826,28 +630,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Slider / sap.m.RangeSlider`** 
-
-
 
 </td>
 <td valign="top">
@@ -860,21 +656,15 @@ We have implemented responsive tickmarks for the slider controls. The tickmarks 
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -883,28 +673,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.UploadCollection`** 
-
-
 
 </td>
 <td valign="top">
@@ -915,21 +697,15 @@ The sorting and filtering feature has been enhanced. You can now also display th
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -938,28 +714,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.table.*`** 
-
-
 
 </td>
 <td valign="top">
@@ -975,21 +743,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -998,28 +760,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **Testing Tutorial** 
-
-
 
 </td>
 <td valign="top">
@@ -1030,21 +784,15 @@ The **Testing** tutorial has been enhanced with two additional steps. For more i
 
 <sub>Changed•User Documentation•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>
@@ -1053,28 +801,20 @@ Info Only
 
 1.44 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit Improvements** 
-
-
 
 </td>
 <td valign="top">
@@ -1099,21 +839,15 @@ The Demo Kit now has the following new features:
 
 <sub>Changed•Feature•Info Only•1.44</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-01-19
-
-
 
 </td>
 </tr>

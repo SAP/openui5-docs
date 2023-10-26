@@ -23,14 +23,10 @@ The following themes are available in OpenUI5:
 
 Theme Name
 
-
-
 </th>
 <th valign="top">
 
 Technical Name
-
-
 
 </th>
 </tr>
@@ -39,14 +35,10 @@ Technical Name
 
 *Blue Crystal* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_bluecrystal` 
-
-
 
 </td>
 </tr>
@@ -55,14 +47,10 @@ Technical Name
 
 *High Contrast Black* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_hcb` 
-
-
 
 </td>
 </tr>
@@ -71,14 +59,10 @@ Technical Name
 
 *Belize* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_belize` 
-
-
 
 </td>
 </tr>
@@ -87,14 +71,10 @@ Technical Name
 
 *Belize Deep* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_belize_plus` 
-
-
 
 </td>
 </tr>
@@ -103,14 +83,10 @@ Technical Name
 
 *High Contrast Black* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_belize_hcb` 
-
-
 
 </td>
 </tr>
@@ -119,14 +95,10 @@ Technical Name
 
 *High Contrast White* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_belize_hcw` 
-
-
 
 </td>
 </tr>
@@ -135,14 +107,10 @@ Technical Name
 
 *Quartz Light* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_fiori_3` 
-
-
 
 </td>
 </tr>
@@ -151,14 +119,10 @@ Technical Name
 
 *Quartz Dark* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_fiori_3_dark` 
-
-
 
 </td>
 </tr>
@@ -167,14 +131,10 @@ Technical Name
 
 *High Contrast Black* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_fiori_3_hcb` 
-
-
 
 </td>
 </tr>
@@ -183,14 +143,10 @@ Technical Name
 
 *High Contrast White* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_fiori_3_hcw` 
-
-
 
 </td>
 </tr>
@@ -199,14 +155,10 @@ Technical Name
 
 *Morning Horizon* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_horizon` 
-
-
 
 </td>
 </tr>
@@ -215,14 +167,10 @@ Technical Name
 
 *Evening Horizon* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_horizon_dark` 
-
-
 
 </td>
 </tr>
@@ -231,14 +179,10 @@ Technical Name
 
 *High Contrast Black* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_horizon_hcb` 
-
-
 
 </td>
 </tr>
@@ -247,14 +191,10 @@ Technical Name
 
 *High Contrast White* 
 
-
-
 </td>
 <td valign="top">
 
 `sap_horizon_hcw` 
-
-
 
 </td>
 </tr>

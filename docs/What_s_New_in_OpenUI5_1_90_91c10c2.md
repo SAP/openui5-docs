@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.89 to 1.90.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.NotificationList`** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ The control provides a container for `sap.m.NotificationListGroup` and `sap.m.No
 
 <sub>New•Control•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **One Page Acceptance Tests \(OPA5\)** 
-
-
 
 </td>
 <td valign="top">
@@ -161,21 +125,15 @@ You can now simulate scroll in controls that provide a scrollable area. For more
 
 <sub>Changed•Feature•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>
@@ -184,28 +142,20 @@ Info Only
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.IllustratedMessage` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -221,21 +171,15 @@ We have implemented two new samples for specific scenarios:
 
 <sub>Changed•Control•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>
@@ -244,28 +188,20 @@ Info Only
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.gantt`** 
-
-
 
 </td>
 <td valign="top">
@@ -276,21 +212,15 @@ Key users can now use the new customization feature to make changes to the user 
 
 <sub>Changed•Control•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>
@@ -299,28 +229,20 @@ Info Only
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Dialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -331,21 +253,15 @@ The control adopts the `setWithinArea` feature of `sap.ui.core.Popup`. Now, when
 
 <sub>Changed•Control•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>
@@ -354,28 +270,20 @@ Info Only
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IconTabBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -386,21 +294,15 @@ We have introduced a new `TabsOverflowMode` property, which defines the overflow
 
 <sub>Changed•Control•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>
@@ -409,28 +311,20 @@ Info Only
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input`, `sap.m.MultiInput`** 
-
-
 
 </td>
 <td valign="top">
@@ -441,21 +335,15 @@ We have introduced a new property called `enableTableAutoPopinMode`. The propert
 
 <sub>Changed•Control•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>
@@ -464,28 +352,20 @@ Info Only
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.InputBase`** 
-
-
 
 </td>
 <td valign="top">
@@ -496,21 +376,15 @@ We have introduced a new association called `ariaDescribedBy`. The association i
 
 <sub>Changed•Control•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>
@@ -519,28 +393,20 @@ Info Only
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.TimePicker`** 
-
-
 
 </td>
 <td valign="top">
@@ -555,21 +421,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>
@@ -578,28 +438,20 @@ Info Only
 
 1.90 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -613,21 +465,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.90</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-05-20
-
-
 
 </td>
 </tr>

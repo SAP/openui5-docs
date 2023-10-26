@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.44 to 1.46.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **New Themes** 
-
-
 
 </td>
 <td valign="top">
@@ -104,21 +82,15 @@ The High Contrast White \(HCW\) and High Contrast Black \(HCB\) themes \(`sap_be
 
 <sub>New•Feature•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -127,28 +99,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Support for Persian Calendar** 
-
-
 
 </td>
 <td valign="top">
@@ -163,21 +127,15 @@ The Persian calendar year begins around March 21st of each Gregorian year and en
 
 <sub>New•Feature•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -186,28 +144,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.Avatar`** 
-
-
 
 </td>
 <td valign="top">
@@ -226,21 +176,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 <sub>New•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -249,28 +193,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.FlexibleColumnLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -287,21 +223,15 @@ For more information, see [Building an App with the Flexible Column Layout and R
 
 <sub>New•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -310,28 +240,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.semantic.SemanticPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -358,21 +280,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 <sub>New•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -381,28 +297,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.codeeditor.CodeEditor`** 
-
-
 
 </td>
 <td valign="top">
@@ -413,21 +321,15 @@ You can use this control to visualize source code of various types, with syntax 
 
 <sub>New•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -436,28 +338,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -493,21 +387,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -516,28 +404,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -552,21 +432,15 @@ For more information, see [Meta Model for OData V2](OData_V2_Model_6c47b2b.md#lo
 
 <sub>Changed•Feature•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -575,28 +449,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **One Page Acceptance Tests \(OPA5\)** 
-
-
 
 </td>
 <td valign="top">
@@ -607,21 +473,15 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 
 <sub>Changed•Feature•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -630,28 +490,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -665,21 +517,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -688,28 +534,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DatePicker`** 
-
-
 
 </td>
 <td valign="top">
@@ -720,21 +558,15 @@ We have introduced a new `navigate` event. While navigating in the calendar popu
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -743,28 +575,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.GenericTile`** 
-
-
 
 </td>
 <td valign="top">
@@ -775,21 +599,15 @@ The new `Actions` `scope` property was added to provide an editing option for th
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -798,28 +616,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input`** 
-
-
 
 </td>
 <td valign="top">
@@ -834,21 +644,15 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Inpu
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -857,28 +661,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MessageBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -889,21 +685,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -912,28 +702,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MultiComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -944,21 +726,15 @@ The delay for text validation in the `sap.m.MultiComboBox` has been changed in o
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -967,28 +743,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MultiInput`** 
-
-
 
 </td>
 <td valign="top">
@@ -999,21 +767,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -1022,28 +784,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.NotificationListItem / sap.m.NotificationListGroup`** 
-
-
 
 </td>
 <td valign="top">
@@ -1065,21 +819,15 @@ For more information, see the samples [Notification List Item](https://sdk.openu
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -1088,28 +836,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -1120,21 +860,15 @@ We have introduced a new `rowHeaderClick` event. You can now receive an event wh
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -1143,28 +877,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.QuickView / sap.m.QuickViewCard`** 
-
-
 
 </td>
 <td valign="top">
@@ -1175,21 +901,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -1198,28 +918,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Slider / sap.m.RangeSlider`** 
-
-
 
 </td>
 <td valign="top">
@@ -1232,21 +944,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -1255,28 +961,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Table`** 
-
-
 
 </td>
 <td valign="top">
@@ -1287,21 +985,15 @@ Screen reader support for `sap.m.Table` has been improved. For more information,
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -1310,28 +1002,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.UploadCollection`** 
-
-
 
 </td>
 <td valign="top">
@@ -1342,21 +1026,15 @@ To add an item to the upload list, you can also use drag & drop on your desktop 
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -1365,28 +1043,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.layout.form.Form`** 
-
-
 
 </td>
 <td valign="top">
@@ -1397,21 +1067,15 @@ The samples in the Demo Kit have been improved.
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -1420,28 +1084,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.table.*`** 
-
-
 
 </td>
 <td valign="top">
@@ -1457,21 +1113,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>
@@ -1480,28 +1130,20 @@ Info Only
 
 1.46 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit Improvements** 
-
-
 
 </td>
 <td valign="top">
@@ -1526,21 +1168,15 @@ Feature
 
 <sub>Changed•Feature•Info Only•1.46</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-05-04
-
-
 
 </td>
 </tr>

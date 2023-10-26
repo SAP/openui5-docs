@@ -36,28 +36,20 @@ The following tables give an overview of what each demo app shows.
 
 Demo App
 
-
-
 </th>
 <th valign="top">
 
 Feature
-
-
 
 </th>
 <th valign="top">
 
 Layouts
 
-
-
 </th>
 <th valign="top">
 
 Specific Topic
-
-
 
 </th>
 </tr>
@@ -65,8 +57,6 @@ Specific Topic
 <td valign="top">
 
 *Shopping Cart*
-
-
 
 </td>
 <td valign="top">
@@ -81,8 +71,6 @@ Specific Topic
 
 Input validation \(see [Validation Messages](Validation_Messages_a90d93d.md)\)
 
-
-
 </td>
 <td valign="top">
 
@@ -91,8 +79,6 @@ Input validation \(see [Validation Messages](Validation_Messages_a90d93d.md)\)
 `sap.ui.layout.VerticalLayout`
 
 `sap.ui.layout.form.SimpleForm`
-
-
 
 </td>
 <td valign="top">
@@ -109,16 +95,12 @@ Formatting
 
 Local storage
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Browse Orders*
-
-
 
 </td>
 <td valign="top">
@@ -131,8 +113,6 @@ Local storage
 
 [Expression Binding](Expression_Binding_daf6852.md)
 
-
-
 </td>
 <td valign="top">
 
@@ -141,8 +121,6 @@ Local storage
 `sap.ui.layout.form.SimpleForm`
 
 `sap.f.FlexibleColumnLayout`
-
-
 
 </td>
 <td valign="top">
@@ -155,16 +133,12 @@ Formatting
 
 [Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Shop Administration Tool*
-
-
 
 </td>
 <td valign="top">
@@ -179,8 +153,6 @@ Formatting
 
 [Custom Controls](Developing_Controls_8dcab00.md)
 
-
-
 </td>
 <td valign="top">
 
@@ -190,14 +162,10 @@ Formatting
 
 `sap.uxap.ObjectPageLayout`
 
-
-
 </td>
 <td valign="top">
 
 Formatting
-
-
 
 </td>
 </tr>
@@ -206,21 +174,15 @@ Formatting
 
 *Employee Directory*
 
-
-
 </td>
 <td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
-
-
 </td>
 <td valign="top">
 
 `sap.ui.layout.form.SimpleForm`
-
-
 
 </td>
 <td valign="top">
@@ -229,16 +191,12 @@ Formatting
 
 [Routing and Navigation](Routing_and_Navigation_3d18f20.md)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Bulletin Board*
-
-
 
 </td>
 <td valign="top">
@@ -247,14 +205,10 @@ Formatting
 
 [Busy Indicators](Busy_Indicators_0dd2110.md)
 
-
-
 </td>
 <td valign="top">
 
 `sap.ui.layout.form.SimpleForm`
-
-
 
 </td>
 <td valign="top">
@@ -267,8 +221,6 @@ Formatting
 
 Custom type
 
-
-
 </td>
 </tr>
 <tr>
@@ -276,16 +228,12 @@ Custom type
 
 *Manage Products*
 
-
-
 </td>
 <td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
 [Busy Indicators](Busy_Indicators_0dd2110.md)
-
-
 
 </td>
 <td valign="top">
@@ -300,8 +248,6 @@ Sorting
 Formatting
 
 [Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
-
-
 
 </td>
 </tr>
@@ -320,28 +266,20 @@ Formatting
 
 Demo App
 
-
-
 </th>
 <th valign="top">
 
 `sap.m`
-
-
 
 </th>
 <th valign="top">
 
 `sap.m.semantic`
 
-
-
 </th>
 <th valign="top">
 
 Other Libraries
-
-
 
 </th>
 </tr>
@@ -349,8 +287,6 @@ Other Libraries
 <td valign="top">
 
 *Shopping Cart*
-
-
 
 </td>
 <td valign="top">
@@ -391,21 +327,15 @@ Other Libraries
 
 `Wizard`
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -413,8 +343,6 @@ Other Libraries
 <td valign="top">
 
 *Browse Orders*
-
-
 
 </td>
 <td valign="top">
@@ -435,8 +363,6 @@ Other Libraries
 
 `Table`
 
-
-
 </td>
 <td valign="top">
 
@@ -448,14 +374,10 @@ Other Libraries
 
 `SendEmailAction`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -463,8 +385,6 @@ Other Libraries
 <td valign="top">
 
 *Shop Administration Tool*
-
-
 
 </td>
 <td valign="top">
@@ -487,8 +407,6 @@ Other Libraries
 
 `Toolbar`
 
-
-
 </td>
 <td valign="top">
 
@@ -505,16 +423,12 @@ Other Libraries
 
 D3 charts \([https://d3js.org](https://d3js.org)\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Employee Directory*
-
-
 
 </td>
 <td valign="top">
@@ -527,8 +441,6 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 `Toolbar`
 
-
-
 </td>
 <td valign="top">
 
@@ -539,8 +451,6 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
  
 
-
-
 </td>
 </tr>
 <tr>
@@ -548,14 +458,10 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 *Hello World*
 
-
-
 </td>
 <td valign="top">
 
 `App`
-
-
 
 </td>
 <td valign="top">
@@ -574,8 +480,6 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 *Bulletin Board*
 
-
-
 </td>
 <td valign="top">
 
@@ -587,8 +491,6 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 `Toolbar`
 
-
-
 </td>
 <td valign="top">
 
@@ -596,14 +498,10 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 `SendEmailAction`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -612,8 +510,6 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 *Manage Products*
 
-
-
 </td>
 <td valign="top">
 
@@ -621,16 +517,12 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 `Toolbar`
 
-
-
 </td>
 <td valign="top">
 
 `FullscreenPage`
 
 `SendEmailAction`
-
-
 
 </td>
 <td valign="top">

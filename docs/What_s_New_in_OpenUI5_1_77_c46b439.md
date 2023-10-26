@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.76 to 1.77.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Supported Locales and Fallback** 
-
-
 
 </td>
 <td valign="top">
@@ -108,21 +86,15 @@ In addition, a new configuration allows you to explicitly set the fallback local
 
 <sub>New•Feature•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -131,28 +103,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Terminologies** 
-
-
 
 </td>
 <td valign="top">
@@ -163,21 +127,15 @@ By defining terminologies together with additional resource bundles, you can ada
 
 <sub>New•Feature•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -186,28 +144,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -232,21 +182,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -255,28 +199,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Team Calendar** 
-
-
 
 </td>
 <td valign="top">
@@ -287,21 +223,15 @@ This demo app is now enhanced with improvements in the navigation and available 
 
 <sub>Changed•Feature•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -310,28 +240,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.FlexibleColumnLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -342,21 +264,15 @@ We’ve introduced the `restoreFocusOnBackNavigation` property. If the property 
 
 <sub>Changed•Control•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -365,28 +281,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Avatar`** 
-
-
 
 </td>
 <td valign="top">
@@ -397,21 +305,15 @@ You can now display visual affordance as a badge icon at the bottom-end corner o
 
 <sub>Changed•Control•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -420,28 +322,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Button`** 
-
-
 
 </td>
 <td valign="top">
@@ -452,21 +346,15 @@ We have added a new `Attention` button type to the `sap.m.ButtonType` enum. This
 
 <sub>Changed•Control•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -475,28 +363,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IconTabBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -507,21 +387,15 @@ This control is now updated according to the latest SAP Fiori design guidelines.
 
 <sub>Changed•Control•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -530,28 +404,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SearchField`** 
-
-
 
 </td>
 <td valign="top">
@@ -562,21 +428,15 @@ We have introduced a new `change` event, fired when the user changes the value o
 
 <sub>Changed•Control•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -585,28 +445,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Table`** 
-
-
 
 </td>
 <td valign="top">
@@ -617,21 +469,15 @@ The automatic pop-in mode for the responsive table has been expanded: The new `h
 
 <sub>Changed•Control•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -640,28 +486,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.tnt.SideNavigation`** 
-
-
 
 </td>
 <td valign="top">
@@ -672,21 +510,15 @@ We have added a UI adaptation at runtime \(RTA\) `rename` action for the `sap.tn
 
 <sub>Changed•Control•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -695,28 +527,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -735,21 +559,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>
@@ -758,28 +576,20 @@ Info Only
 
 1.77 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.uxap.ObjectPageLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -793,21 +603,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.77</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-04-23
-
-
 
 </td>
 </tr>

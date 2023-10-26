@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.80 to 1.81.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Consuming SAP Icon Font in a Non-UI5 Environment** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ You can now consume the predefined `SAP-icons` icon font in an environment where
 
 <sub>New•Feature•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Incompatible jQuery Security Fix** 
-
-
 
 </td>
 <td valign="top">
@@ -163,21 +127,15 @@ For checking and, if required, fixing your applications and libraries, see [thes
 
 <sub>New•Feature•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -186,28 +144,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Special URL Prefixes in App Descriptor** 
-
-
 
 </td>
 <td valign="top">
@@ -222,21 +172,15 @@ Find more details about the usage of such URL prefixes and an example in the [do
 
 <sub>New•Feature•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -245,28 +189,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -296,21 +232,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -319,28 +249,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.GridContainer`** 
-
-
 
 </td>
 <td valign="top">
@@ -355,21 +277,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 <sub>Changed•Control•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -378,28 +294,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Button`** 
-
-
 
 </td>
 <td valign="top">
@@ -410,21 +318,15 @@ Visualization of shortcut hints on focus and hover is now available. For example
 
 <sub>Changed•Control•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -433,28 +335,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DatePicker`, `sap.m.DateTimePicker`, and `sap.m.TimePicker`** 
-
-
 
 </td>
 <td valign="top">
@@ -465,21 +359,15 @@ We have aligned the visualization of the full-screen dialog in mobile view for t
 
 <sub>Changed•Control•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -488,28 +376,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MessageView`** 
-
-
 
 </td>
 <td valign="top">
@@ -520,21 +400,15 @@ The grouping functionality in the `sap.m.MessageView` shows the messages in the 
 
 <sub>Changed•Control•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -543,28 +417,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -578,21 +444,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -601,28 +461,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -636,21 +488,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -659,28 +505,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.Calendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -691,21 +529,15 @@ We have added a new property to the `DateTypeRange` class, called `secondaryType
 
 <sub>Changed•Control•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -714,28 +546,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.FileUploader`** 
-
-
 
 </td>
 <td valign="top">
@@ -746,21 +570,15 @@ We have added a new `httpRequestMethod` \(experimental\) property to enable the 
 
 <sub>Changed•Control•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>
@@ -769,28 +587,20 @@ Info Only
 
 1.81 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit Samples** 
-
-
 
 </td>
 <td valign="top">
@@ -803,21 +613,15 @@ We have added a new *Pattern* category in the *Samples* section of the Demo Kit 
 
 <sub>Changed•Feature•Info Only•1.81</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-08-13
-
-
 
 </td>
 </tr>

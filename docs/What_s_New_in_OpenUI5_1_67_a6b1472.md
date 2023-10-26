@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.66 to 1.67.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.67 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -118,21 +96,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.67</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2019-06-20
-
-
 
 </td>
 </tr>
@@ -141,28 +113,20 @@ Info Only
 
 1.67 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.ShellBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -185,21 +149,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.67</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-06-20
-
-
 
 </td>
 </tr>
@@ -208,28 +166,20 @@ Info Only
 
 1.67 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.OverflowToolbar`** 
-
-
 
 </td>
 <td valign="top">
@@ -240,21 +190,15 @@ To improve the control's performance, we have introduced a new `asyncMode` prope
 
 <sub>Changed•Control•Info Only•1.67</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-06-20
-
-
 
 </td>
 </tr>
@@ -263,28 +207,20 @@ Info Only
 
 1.67 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -295,21 +231,15 @@ We have created new examples of the different use cases for `sap.m.SinglePlannin
 
 <sub>Changed•Control•Info Only•1.67</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-06-20
-
-
 
 </td>
 </tr>
@@ -318,28 +248,20 @@ Info Only
 
 1.67 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.StandardListItem`** 
-
-
 
 </td>
 <td valign="top">
@@ -350,21 +272,15 @@ You can now use the `wrapping` property to enable the wrapping of titles and des
 
 <sub>Changed•Control•Info Only•1.67</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-06-20
-
-
 
 </td>
 </tr>
@@ -373,28 +289,20 @@ Info Only
 
 1.67 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -410,21 +318,15 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 
 <sub>Changed•Control•Info Only•1.67</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-06-20
-
-
 
 </td>
 </tr>
@@ -433,28 +335,20 @@ Info Only
 
 1.67 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.table.AnalyticalTable / sap.ui.table.Table / sap.ui.table.TreeTable`** 
-
-
 
 </td>
 <td valign="top">
@@ -465,21 +359,15 @@ The `MultiSelectionPlugin` class is now available: It provides a plugin to suppo
 
 <sub>Changed•Control•Info Only•1.67</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-06-20
-
-
 
 </td>
 </tr>
@@ -488,28 +376,20 @@ Info Only
 
 1.67 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.uxap.ObjectPageLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -520,21 +400,15 @@ The control header can now be snapped \(collapsed\) and no scroll bar is display
 
 <sub>Changed•Control•Info Only•1.67</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2019-06-20
-
-
 
 </td>
 </tr>

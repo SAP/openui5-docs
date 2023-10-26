@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.81 to 1.82.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.82 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **Third-Party Library Upgrades** 
-
-
 
 </td>
 <td valign="top">
@@ -112,21 +90,15 @@ We have upgraded the third-party jQuery library from jQuery 2.2.3 to jQuery 3.5.
 
 <sub>Changed•Announcement•Info Only•1.82</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2020-09-17
-
-
 
 </td>
 </tr>
@@ -135,28 +107,20 @@ Info Only
 
 1.82 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Badge Implementation** 
-
-
 
 </td>
 <td valign="top">
@@ -176,21 +140,15 @@ Badges display very short and important information that attracts the user’s a
 
 <sub>New•Feature•Info Only•1.82</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-09-17
-
-
 
 </td>
 </tr>
@@ -199,28 +157,20 @@ Info Only
 
 1.82 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Five New Icons Available in the *SAP Fiori Tools* Icon Font** 
-
-
 
 </td>
 <td valign="top">
@@ -233,21 +183,15 @@ Find the icon that fits your needs via the [OpenUI5 Icon Explorer](https://sdk.o
 
 <sub>Changed•Feature•Info Only•1.82</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-09-17
-
-
 
 </td>
 </tr>
@@ -256,28 +200,20 @@ Info Only
 
 1.82 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -290,21 +226,15 @@ Depending on their format options, some composite types, such as `sap.ui.model.t
 
 <sub>Changed•Feature•Info Only•1.82</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-09-17
-
-
 
 </td>
 </tr>
@@ -313,28 +243,20 @@ Info Only
 
 1.82 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -355,21 +277,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.82</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-09-17
-
-
 
 </td>
 </tr>
@@ -378,28 +294,20 @@ Info Only
 
 1.82 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -410,21 +318,15 @@ We have updated the UI5 Web Components dependency of the Adaptive Cards to the v
 
 <sub>Changed•Control•Info Only•1.82</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-09-17
-
-
 
 </td>
 </tr>

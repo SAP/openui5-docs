@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.110 to 1.111.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input`, `sap.m.MultiInput`, `sap.m.ComboBox`, `sap.m.MultiComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -104,21 +82,15 @@ The type-ahead \(autocomplete\) functionality is updated to always suggest the e
 
 <sub>Changed•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -127,28 +99,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.NavContainer`** 
-
-
 
 </td>
 <td valign="top">
@@ -159,21 +123,15 @@ We have introduced a new `navigationFinished` event. The event is fired when nav
 
 <sub>Changed•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -182,28 +140,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IllustratedMessage`** 
-
-
 
 </td>
 <td valign="top">
@@ -214,21 +164,15 @@ We have introduced a new `enableDefaultTitleAndDescription` property. It provide
 
 <sub>Changed•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -237,28 +181,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ActionSelect`** 
-
-
 
 </td>
 <td valign="top">
@@ -269,21 +205,15 @@ We have deprecated the `sap.m.ActionSelect` control.
 
 <sub>Deprecated•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -292,28 +222,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.Calendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -324,21 +246,15 @@ We have implemented the `initialFocusedDate` property in `sap.ui.unified.Calenda
 
 <sub>Changed•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -347,28 +263,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.CalendarLegend`** 
-
-
 
 </td>
 <td valign="top">
@@ -379,21 +287,15 @@ The `sap.ui.unified.CalendarLegend` control offers a new functionality. If an in
 
 <sub>Changed•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -402,28 +304,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DynamicDateRange`** 
-
-
 
 </td>
 <td valign="top">
@@ -434,21 +328,15 @@ We have implemented a new `calendarWeekNumbering` property in the `sap.m.Dynamic
 
 <sub>Changed•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -457,28 +345,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DynamicDateRange`** 
-
-
 
 </td>
 <td valign="top">
@@ -489,21 +369,15 @@ We have implemented new options in the `sap.m.DynamicDateRange` control for `Min
 
 <sub>Changed•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -512,28 +386,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -563,21 +429,15 @@ For more information, see the API Reference for
 
 <sub>Changed•Feature•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -586,28 +446,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Dates, Times, Timestamps, and Time Zones** 
-
-
 
 </td>
 <td valign="top">
@@ -642,21 +494,15 @@ The new version of OpenUI5 introduces the following features for time zone confi
 
 <sub>Changed•Feature•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -665,28 +511,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SelectDialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -697,21 +535,15 @@ To improve the accessibility of the control, the initial focus is now set on the
 
 <sub>Changed•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>
@@ -720,28 +552,20 @@ Info Only
 
 1.111 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -755,21 +579,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.111</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-02-23
-
-
 
 </td>
 </tr>

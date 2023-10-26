@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.109 to 1.110.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.p13n.Engine`** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ We have provided a new entity that allows custom control developers and applicat
 
 <sub>New•Feature•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Copy-to-Clipboard Feature for Tables** 
-
-
 
 </td>
 <td valign="top">
@@ -161,21 +125,15 @@ Users can copy selected table content to the clipboard and use it anywhere insid
 
 <sub>New•Feature•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -184,28 +142,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecations** 
-
-
 
 </td>
 <td valign="top">
@@ -216,21 +166,15 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 <sub>Deprecated•Feature•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -239,28 +183,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.table.ColumnMenu`** 
-
-
 
 </td>
 <td valign="top">
@@ -284,21 +220,15 @@ These features are available in a menu that users can choose in the column heade
 
 <sub>New•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -307,28 +237,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Header Bar in Key User Adaptation** 
-
-
 
 </td>
 <td valign="top">
@@ -352,21 +274,15 @@ The following screenshot shows an example:
 
 <sub>Changed•Feature•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -375,28 +291,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 ****`sap.m.PlanningCalendar, sap.m.SinglePlanningCalendar`**, and **`sap.ui.core.format.DateFormat`**** 
-
-
 
 </td>
 <td valign="top">
@@ -409,21 +317,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -432,28 +334,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ObjectStatus`** 
-
-
 
 </td>
 <td valign="top">
@@ -466,21 +360,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -489,28 +377,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.core.ScrollEnablement`** 
-
-
 
 </td>
 <td valign="top">
@@ -521,21 +401,15 @@ We have added a new option to the `scrollToElement` API method of the `sap.ui.co
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -544,28 +418,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IllustratedMessage`** 
-
-
 
 </td>
 <td valign="top">
@@ -578,21 +444,15 @@ For more information, see the [Samples](https://sdk.openui5.org/entity/sap.m.Ill
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -601,28 +461,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -633,21 +485,15 @@ We have updated the behavior of the `loadItems` API. Now, when the picker is ope
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -656,28 +502,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit: Improved main theme selection** 
-
-
 
 </td>
 <td valign="top">
@@ -688,21 +526,15 @@ We have added the latest high contrast themes to the main theme selector in the 
 
 <sub>Changed•Feature•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -711,28 +543,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -748,21 +572,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -771,28 +589,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SelectDialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -805,21 +615,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -828,28 +632,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Dialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -860,21 +656,15 @@ We have added a new `footer` aggregation of type `sap.m.Toolbar` to the control.
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -883,28 +673,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Carousel`** 
-
-
 
 </td>
 <td valign="top">
@@ -915,21 +697,15 @@ Using the new `backgroundDesign` property, you can now set the carousel’s back
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -938,28 +714,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 ****OpenUI5 Formatters**** 
-
-
 
 </td>
 <td valign="top">
@@ -974,21 +742,15 @@ The new version of OpenUI5 introduces the following formatting features:
 
 <sub>Changed•Feature•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>
@@ -997,28 +759,20 @@ Info Only
 
 1.110 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -1034,21 +788,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.110</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-01-26
-
-
 
 </td>
 </tr>

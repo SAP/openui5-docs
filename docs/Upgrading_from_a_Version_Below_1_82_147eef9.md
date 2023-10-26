@@ -50,28 +50,20 @@ The following table contains some important differences between jQuery 2.2.3 and
 
 API \(and what has changed\)
 
-
-
 </th>
 <th valign="top">
 
 jQuery 2.x
-
-
 
 </th>
 <th valign="top">
 
 jQuery 3.x
 
-
-
 </th>
 <th valign="top">
 
 jQuery 3.x + Compat. Layer = jQuery 2.x
-
-
 
 </th>
 </tr>
@@ -80,28 +72,20 @@ jQuery 3.x + Compat. Layer = jQuery 2.x
 
 **`jQuery.fn.size()`** 
 
-
-
 </td>
 <td valign="top">
 
 function exists
-
-
 
 </td>
 <td valign="top">
 
 removed
 
-
-
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -112,28 +96,20 @@ removed
 
 must have at least one valid DOM element, otherwise it throws an error
 
-
-
 </td>
 <td valign="top">
 
 doesn't throw error
-
-
 
 </td>
 <td valign="top">
 
 throws an error
 
-
-
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -144,28 +120,20 @@ throws an error
 
 when a jQuery object is created from a node \(like in our `oControl.$()` call\), it no longer has the `context` property set
 
-
-
 </td>
 <td valign="top">
 
 `context` property exists
-
-
 
 </td>
 <td valign="top">
 
 `context` property has been removed
 
-
-
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -176,28 +144,20 @@ when a jQuery object is created from a node \(like in our `oControl.$()` call\),
 
 function was removed; jQuery proposes to use`jQuery.fn.addBack()` instead.
 
-
-
 </td>
 <td valign="top">
 
 exists
-
-
 
 </td>
 <td valign="top">
 
 removed
 
-
-
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -208,28 +168,20 @@ removed
 
 return value type changed
 
-
-
 </td>
 <td valign="top">
 
 returns integer
-
-
 
 </td>
 <td valign="top">
 
 returns float
 
-
-
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -240,28 +192,20 @@ returns float
 
 in case of an empty jQuery element, the return value was changed from `null` to `undefined`
 
-
-
 </td>
 <td valign="top">
 
 returns `null` \(can be automatically cast to 0 when compared to a number\)
-
-
 
 </td>
 <td valign="top">
 
 returns `undefined` \(cast to `NaN`\)
 
-
-
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -270,28 +214,20 @@ returns `undefined` \(cast to `NaN`\)
 
 **`jQuery.event.props`** and **`jQuery.event.fixHooks`** 
 
-
-
 </td>
 <td valign="top">
 
 exist
-
-
 
 </td>
 <td valign="top">
 
 removed
 
-
-
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -300,28 +236,20 @@ removed
 
 **`jQuery.Deferred.then(function A() {})`** 
 
-
-
 </td>
 <td valign="top">
 
 Function `A` is called immediately within the same call stack
-
-
 
 </td>
 <td valign="top">
 
 Function `A` is called after the current call stack is finished
 
-
-
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -332,28 +260,20 @@ Function `A` is called after the current call stack is finished
 
 `this` context that is set by
 
-
-
 </td>
 <td valign="top">
 
 `this` context is set to the promise of the `Deferred` object
-
-
 
 </td>
 <td valign="top">
 
 `this` context is undefined
 
-
-
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -372,21 +292,15 @@ Some incompatible changes that are introduced with jQuery 3.5.1 aren't restored 
 
 API
 
-
-
 </th>
 <th valign="top">
 
 jQuery 2.x
 
-
-
 </th>
 <th valign="top">
 
 jQuery 3.x
-
-
 
 </th>
 </tr>
@@ -397,14 +311,10 @@ jQuery 3.x
 
 doesn't include the scrollbar width if there is one
 
-
-
 </td>
 <td valign="top">
 
 includes the width or height of the scrollbar, if there is one
-
-
 
 </td>
 <td valign="top">
@@ -413,8 +323,6 @@ doesn't include the scrollbar width if there is one
 
 Use `jQuery.fn.[outerWidth|outerHeight]` instead. Also works in jQuery 2.x
 
-
-
 </td>
 </tr>
 <tr>
@@ -422,21 +330,15 @@ Use `jQuery.fn.[outerWidth|outerHeight]` instead. Also works in jQuery 2.x
 
 **`jQuery.animation`** 
 
-
-
 </td>
 <td valign="top">
 
 uses `setInterval()` 
 
-
-
 </td>
 <td valign="top">
 
 uses `requestAnimationFrame()`
-
-
 
 </td>
 </tr>
@@ -447,21 +349,15 @@ uses `requestAnimationFrame()`
 
 for multiple response header values that have the same header name
 
-
-
 </td>
 <td valign="top">
 
 only returns the first header value
 
-
-
 </td>
 <td valign="top">
 
 merges multiple header values into a string, separated by ", "
-
-
 
 </td>
 </tr>
@@ -472,21 +368,15 @@ merges multiple header values into a string, separated by ", "
 
 callback is delayed even if the `DOM Ready` event already occurred
 
-
-
 </td>
 <td valign="top">
 
 Function `A` is called immediately within the current call stack
 
-
-
 </td>
 <td valign="top">
 
 Function `A` is called after the current call stack has finished
-
-
 
 </td>
 </tr>
@@ -495,21 +385,15 @@ Function `A` is called after the current call stack has finished
 
 **`jQuery.swap()`** 
 
-
-
 </td>
 <td valign="top">
 
 exists
 
-
-
 </td>
 <td valign="top">
 
 *removed, because it's an undocumented internal method!*
-
-
 
 </td>
 </tr>
@@ -520,21 +404,15 @@ exists
 
 in case the key contains a dash "-"
 
-
-
 </td>
 <td valign="top">
 
 see [https://jquery.com/upgrade-guide/3.0/\#data](https://jquery.com/upgrade-guide/3.0/#data) 
 
-
-
 </td>
 <td valign="top">
 
 see [https://jquery.com/upgrade-guide/3.0/\#data](https://jquery.com/upgrade-guide/3.0/#data) 
-
-
 
 </td>
 </tr>
@@ -545,21 +423,15 @@ see [https://jquery.com/upgrade-guide/3.0/\#data](https://jquery.com/upgrade-gui
 
 unreliable pseudo-selector has been removed
 
-
-
 </td>
 <td valign="top">
 
 concatenates the selector property after further tree traversal calls, for example `jQuery.fn.filter` \(see [https://api.jquery.com/category/traversing/tree-traversal/](https://api.jquery.com/category/traversing/tree-traversal/)\)
 
-
-
 </td>
 <td valign="top">
 
 according to jQuery documentation, it was never reliable and thus removed with 3.0: [https://api.jquery.com/selector/](https://api.jquery.com/selector/)
-
-
 
 </td>
 </tr>
@@ -570,21 +442,15 @@ according to jQuery documentation, it was never reliable and thus removed with 3
 
 see [https://jquery.com/upgrade-guide/3.0/\#deprecated-additional-easing-function-parameters](https://jquery.com/upgrade-guide/3.0/#deprecated-additional-easing-function-parameters)
 
-
-
 </td>
 <td valign="top">
 
 function accepts multiple arguments
 
-
-
 </td>
 <td valign="top">
 
 function accepts only one argument
-
-
 
 </td>
 </tr>
@@ -597,21 +463,15 @@ function accepts only one argument
 
 see also the table below
 
-
-
 </td>
 <td valign="top">
 
 automatically add a `<tbody>` element to a `<table>` element, if none is present
 
-
-
 </td>
 <td valign="top">
 
 adding elements to a table does **not** create an additional `<tbody>` element
-
-
 
 </td>
 </tr>
@@ -626,21 +486,15 @@ adding elements to a table does **not** create an additional `<tbody>` element
 
 see also the table below
 
-
-
 </td>
 <td valign="top">
 
 some jQuery APIs in certain contexts call the `htmlPrefilter()` method, which replaces self-closing HTML tags with properly closed HTML elements \(e.g. <div/\> is replaced by <div\></div\>\)
 
-
-
 </td>
 <td valign="top">
 
 the `htmlPrefilter()` method returns the passed string unmodified
-
-
 
 </td>
 </tr>
@@ -661,28 +515,20 @@ The following table describes these behavior changes and gives recommendations h
 
 Changed Behavior
 
-
-
 </th>
 <th valign="top">
 
 in OpenUI5 < 1.82
-
-
 
 </th>
 <th valign="top">
 
 in OpenUI5 \>= 1.82
 
-
-
 </th>
 <th valign="top">
 
 Recommendation
-
-
 
 </th>
 </tr>
@@ -693,8 +539,6 @@ Recommendation
 
 see also the table above
 
-
-
 </td>
 <td valign="top">
 
@@ -702,14 +546,10 @@ OpenUI5 Controls using a string-based rendering approach in their renderer modul
 
 Whenever you flush a `<tr>` element into a `<table>` element without an already existing `<tbody>` element, the UI5 Core RenderManager implicitly creates a `<tbody>` element.
 
-
-
 </td>
 <td valign="top">
 
 flushing a `<tr>` element into a `<table>` element from within a string-based OpenUI5 control renderer does **not** automatically create a `<tbody>` element
-
-
 
 </td>
 <td valign="top">
@@ -717,8 +557,6 @@ flushing a `<tr>` element into a `<table>` element from within a string-based Op
 If your application or control code depends on a `<tbody>` element being present in the DOM, you should add it manually to your rendering code and your CSS styling rules.
 
 Adding the `<tbody>` element in this way is backward-compatible to older OpenUI5 and jQuery versions.
-
-
 
 </td>
 </tr>
@@ -728,8 +566,6 @@ Adding the `<tbody>` element in this way is backward-compatible to older OpenUI5
 **Self-Closing HTML Tags**
 
 see also the table above
-
-
 
 </td>
 <td valign="top">
@@ -762,16 +598,12 @@ The updated jQuery 2.2.3 variant is contained in the following OpenUI5 versions:
 
 jQuery no longer closes self-closing tags for non-void HTML elements in the `htmlPrefilter()` method. Instead, the browser will automatically close the self-closing HTML element based on the DOM hierarchy, which could very likely occur at the wrong place.
 
-
-
 </td>
 <td valign="top">
 
 You should properly close non-void HTML elements. For detailed instructions for identifying affected code and fixing it, see [these instructions](https://github.com/SAP/openui5/blob/master/docs/self_closing_tags_fix_instructions.md).
 
 Properly closing non-void HTML elements in this way is backward-compatible to older OpenUI5 and jQuery versions.
-
-
 
 </td>
 </tr>

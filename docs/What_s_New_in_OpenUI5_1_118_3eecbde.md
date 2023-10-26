@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.117 to 1.118.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.118 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DynamicDateRange`** 
-
-
 
 </td>
 <td valign="top">
@@ -104,21 +82,15 @@ With the new `addGroup` method, you can now easily create custom groups and cust
 
 <sub>Changed•Control•Info Only•1.118</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-09-07
-
-
 
 </td>
 </tr>
@@ -127,28 +99,20 @@ Info Only
 
 1.118 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -159,21 +123,15 @@ The control now displays the row-header images using size S avatars with a circl
 
 <sub>Changed•Control•Info Only•1.118</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-09-07
-
-
 
 </td>
 </tr>
@@ -182,28 +140,20 @@ Info Only
 
 1.118 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -214,21 +164,15 @@ We have added documentation and a sample that demonstrate how you can bundle all
 
 <sub>Changed•User Documentation•Info Only•1.118</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-09-07
-
-
 
 </td>
 </tr>
@@ -237,28 +181,20 @@ Info Only
 
 1.118 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -278,21 +214,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.118</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-09-07
-
-
 
 </td>
 </tr>
@@ -301,28 +231,20 @@ Info Only
 
 1.118 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MessageToast`** 
-
-
 
 </td>
 <td valign="top">
@@ -335,21 +257,15 @@ This allows them to keep the message on the screen for as long as they need.
 
 <sub>Changed•Control•Info Only•1.118</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-09-07
-
-
 
 </td>
 </tr>
@@ -358,28 +274,20 @@ Info Only
 
 1.118 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.mdc.Table`** 
-
-
 
 </td>
 <td valign="top">
@@ -390,21 +298,15 @@ You can now use the context menu also for this control. The `contextMenu` aggreg
 
 <sub>Changed•Control•Info Only•1.118</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-09-07
-
-
 
 </td>
 </tr>
@@ -413,28 +315,20 @@ Info Only
 
 1.118 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Sample for `sap.ui.mdc` library** 
-
-
 
 </td>
 <td valign="top">
@@ -445,21 +339,15 @@ You can now test the field and value help features of the \(experimental\) `sap.
 
 <sub>New•Feature•Info Only•1.118</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-09-07
-
-
 
 </td>
 </tr>
@@ -468,28 +356,20 @@ Info Only
 
 1.118 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecations** 
-
-
 
 </td>
 <td valign="top">
@@ -511,21 +391,15 @@ We have introduced the `group` event in `AnalyticalTable` and the `grouped` prop
 
 <sub>Deprecated•Feature•Info Only•1.118</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-09-07
-
-
 
 </td>
 </tr>
@@ -534,28 +408,20 @@ Info Only
 
 1.118 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Table`** 
-
-
 
 </td>
 <td valign="top">
@@ -566,21 +432,15 @@ To improve accessibility, we have completely reworked the screen reader support 
 
 <sub>Changed•Control•Info Only•1.118</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-09-07
-
-
 
 </td>
 </tr>

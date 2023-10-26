@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.95 to 1.96.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.96 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Enabling Apps to Comply with a Content Security Policy \(CSP\) without `eval()` and Inline Styles** 
-
-
 
 </td>
 <td valign="top">
@@ -109,21 +87,15 @@ The OpenUI5 framework now allows you to run applications in environments with st
 
 <sub>New•Feature•Info Only•1.96</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-11-04
-
-
 
 </td>
 </tr>
@@ -132,28 +104,20 @@ Info Only
 
 1.96 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **New Theme Available for SAP Fiori User Experience \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -167,21 +131,15 @@ We have introduced a new theme, the preview version of the *Horizon* visual them
 
 <sub>New•Feature•Info Only•1.96</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-11-04
-
-
 
 </td>
 </tr>
@@ -190,28 +148,20 @@ Info Only
 
 1.96 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 Models** 
-
-
 
 </td>
 <td valign="top">
@@ -222,21 +172,15 @@ We have provided the new `sap.ui.model.ListBinding#getFilters` method. It is ava
 
 <sub>Changed•Feature•Info Only•1.96</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-11-04
-
-
 
 </td>
 </tr>
@@ -245,28 +189,20 @@ Info Only
 
 1.96 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -277,21 +213,15 @@ We have introduced the new `sap.ui.model.odata.v2.Context#created` method. For c
 
 <sub>Changed•Feature•Info Only•1.96</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-11-04
-
-
 
 </td>
 </tr>
@@ -300,28 +230,20 @@ Info Only
 
 1.96 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -339,21 +261,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.96</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-11-04
-
-
 
 </td>
 </tr>
@@ -362,28 +278,20 @@ Info Only
 
 1.96 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MaskInput`** 
-
-
 
 </td>
 <td valign="top">
@@ -394,21 +302,15 @@ We have introduced the `showClearIcon` property. If set to `true`, when there is
 
 <sub>Changed•Control•Info Only•1.96</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-11-04
-
-
 
 </td>
 </tr>
@@ -417,28 +319,20 @@ Info Only
 
 1.96 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MultiComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -449,21 +343,15 @@ We have implemented a checkbox that allows users to select all options, placed o
 
 <sub>Changed•Control•Info Only•1.96</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-11-04
-
-
 
 </td>
 </tr>
@@ -472,28 +360,20 @@ Info Only
 
 1.96 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -511,21 +391,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.96</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-11-04
-
-
 
 </td>
 </tr>

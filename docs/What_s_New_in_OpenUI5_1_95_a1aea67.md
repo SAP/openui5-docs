@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.94 to 1.95.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.95 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -111,21 +89,15 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.95</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-10-07
-
-
 
 </td>
 </tr>
@@ -134,28 +106,20 @@ Info Only
 
 1.95 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -173,21 +137,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.95</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-10-07
-
-
 
 </td>
 </tr>
@@ -196,28 +154,20 @@ Info Only
 
 1.95 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Button`** 
-
-
 
 </td>
 <td valign="top">
@@ -228,21 +178,15 @@ We have improved the accessibility of the control, and the screen readers now an
 
 <sub>Changed•Control•Info Only•1.95</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-10-07
-
-
 
 </td>
 </tr>
@@ -251,28 +195,20 @@ Info Only
 
 1.95 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DatePicker, sap.m.DateRangeSelection, sap.m.DateTimePicker, and sap.ui.unified.Calendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -283,21 +219,15 @@ These controls now have the new property `showCurrentDateButton`, which displays
 
 <sub>Changed•Control•Info Only•1.95</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-10-07
-
-
 
 </td>
 </tr>
@@ -306,28 +236,20 @@ Info Only
 
 1.95 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 <code><b>sap.m.StandardListItem</b></code> 
-
-
 
 </td>
 <td valign="top">
@@ -338,21 +260,15 @@ Information texts in lists can now also be wrapped if wrapping is enabled for th
 
 <sub>Changed•Control•Info Only•1.95</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-10-07
-
-
 
 </td>
 </tr>
@@ -361,28 +277,20 @@ Info Only
 
 1.95 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -400,21 +308,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.95</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-10-07
-
-
 
 </td>
 </tr>

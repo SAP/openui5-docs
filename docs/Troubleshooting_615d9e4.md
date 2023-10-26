@@ -27,21 +27,15 @@ OpenUI5 also provides you with support tools that help you troubleshoot and solv
 
 Tool
 
-
-
 </th>
 <th valign="top">
 
 Use Case Examples
 
-
-
 </th>
 <th valign="top">
 
 How to Open
-
-
 
 </th>
 </tr>
@@ -50,14 +44,10 @@ How to Open
 
 [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) 
 
-
-
 </td>
 <td valign="top">
 
 Use the *Technical Information*dialog to enable debug sources and to check which OpenUI5 version is currently running.
-
-
 
 </td>
 <td valign="top">
@@ -80,21 +70,15 @@ Gesture on mobile device:
 
 [Support Assistant](Support_Assistant_57ccd7d.md) 
 
-
-
 </td>
 <td valign="top">
 
 Use the Support Assistant to check whether the application is built according to the best practices for building OpenUI5 apps.
 
-
-
 </td>
 <td valign="top">
 
 From the *Technical Information* dialog or with the URL parameter `sap-ui-support=true` 
-
-
 
 </td>
 </tr>
@@ -103,14 +87,10 @@ From the *Technical Information* dialog or with the URL parameter `sap-ui-suppor
 
 [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6) 
 
-
-
 </td>
 <td valign="top">
 
 Use the *Diagnostics* window to enable debug sources, display the control tree, and to view and change control properties and bindings.
-
-
 
 </td>
 <td valign="top">
@@ -119,8 +99,6 @@ Use the *Diagnostics* window to enable debug sources, display the control tree, 
 
 [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [S\] 
 
-
-
 </td>
 </tr>
 <tr>
@@ -128,21 +106,15 @@ Use the *Diagnostics* window to enable debug sources, display the control tree, 
 
 [UI5 Inspector](UI5_Inspector_b24e724.md) 
 
-
-
 </td>
 <td valign="top">
 
 Use the UI5 inspector to display the control tree, and to view and change control properties and bindings on-the-fly.
 
-
-
 </td>
 <td valign="top">
 
 Available as add-on for Google Chrome browser only
-
-
 
 </td>
 </tr>
@@ -157,14 +129,10 @@ Available as add-on for Google Chrome browser only
 
 Tool
 
-
-
 </th>
 <th valign="top">
 
 Use Case Examples
-
-
 
 </th>
 </tr>
@@ -173,14 +141,10 @@ Use Case Examples
 
 [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sap_ui_performance_Measurement_Module_78880c0.md) 
 
-
-
 </td>
 <td valign="top">
 
 Measures the performance of your JavaScript code.
-
-
 
 </td>
 </tr>
@@ -189,14 +153,10 @@ Measures the performance of your JavaScript code.
 
 [Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md) 
 
-
-
 </td>
 <td valign="top">
 
 Identifies performance issues in your application by tracking the interaction that is performed on the UI
-
-
 
 </td>
 </tr>

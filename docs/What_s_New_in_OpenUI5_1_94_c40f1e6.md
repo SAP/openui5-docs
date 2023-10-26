@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.93 to 1.94.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.94 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ We now provide the `sap.ui.model.odata.v2.Context#isTransient` method, which ret
 
 <sub>Changed•Feature•Info Only•1.94</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2021-09-09
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.94 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -168,21 +132,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.94</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-09-09
-
-
 
 </td>
 </tr>
@@ -191,28 +149,20 @@ Info Only
 
 1.94 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Whitespaces Visualization** 
-
-
 
 </td>
 <td valign="top">
@@ -223,21 +173,15 @@ We have created a new sample pattern that showcases how whitespaces can be enabl
 
 <sub>Changed•Feature•Info Only•1.94</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-09-09
-
-
 
 </td>
 </tr>
@@ -246,28 +190,20 @@ Info Only
 
 1.94 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IconTabBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -278,21 +214,15 @@ We have updated the colors of value-state status icons. Now, they have better co
 
 <sub>Changed•Control•Info Only•1.94</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-09-09
-
-
 
 </td>
 </tr>
@@ -301,28 +231,20 @@ Info Only
 
 1.94 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input`, `sap.m.MultiInput`** 
-
-
 
 </td>
 <td valign="top">
@@ -333,21 +255,15 @@ We have introduced the `showClearIcon` property. If set to true, when there is t
 
 <sub>Changed•Control•Info Only•1.94</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-09-09
-
-
 
 </td>
 </tr>
@@ -356,28 +272,20 @@ Info Only
 
 1.94 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.List`** 
-
-
 
 </td>
 <td valign="top">
@@ -388,21 +296,15 @@ You can now adapt the default wrapping behavior for titles and descriptions in l
 
 <sub>Changed•Control•Info Only•1.94</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-09-09
-
-
 
 </td>
 </tr>
@@ -411,28 +313,20 @@ Info Only
 
 1.94 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MenuButton`** 
-
-
 
 </td>
 <td valign="top">
@@ -443,21 +337,15 @@ We have introduced a new `beforeMenuOpen` event, fired when the arrow button of 
 
 <sub>Changed•Control•Info Only•1.94</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-09-09
-
-
 
 </td>
 </tr>
@@ -466,28 +354,20 @@ Info Only
 
 1.94 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -498,21 +378,15 @@ The new `firstDayOfWeek` property enables developers to set the first day of wee
 
 <sub>Changed•Control•Info Only•1.94</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-09-09
-
-
 
 </td>
 </tr>
@@ -521,28 +395,20 @@ Info Only
 
 1.94 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -553,21 +419,15 @@ We have updated the Microsoft Adaptive Cards SDK from version 1.2.3 to version 2
 
 <sub>Changed•Control•Info Only•1.94</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-09-09
-
-
 
 </td>
 </tr>

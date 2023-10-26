@@ -26,49 +26,35 @@ With this release OpenUI5 is upgraded from version 1.112 to 1.113.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -77,28 +63,20 @@ Available as of
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.p13n*`** 
-
-
 
 </td>
 <td valign="top">
@@ -109,21 +87,15 @@ We have further improved the usability and accessibility of the *View Settings* 
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -132,28 +104,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecations** 
-
-
 
 </td>
 <td valign="top">
@@ -164,21 +128,15 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 <sub>Deprecated•Feature•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -187,28 +145,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Code Coverage Powered by `Istanbul`** 
-
-
 
 </td>
 <td valign="top">
@@ -221,21 +171,15 @@ To start taking advantage of the more future-proof and feature-rich `Istanbul` s
 
 <sub>Changed•Feature•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -244,28 +188,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 Date and Time Formatting** 
-
-
 
 </td>
 <td valign="top">
@@ -283,21 +219,15 @@ The new version of OpenUI5 introduces the following formatting features:
 
 <sub>Changed•Feature•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -306,28 +236,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -351,21 +273,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -374,28 +290,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -408,21 +316,15 @@ For more information, see the API Reference for [`hasPendingChanges`](https://sd
 
 <sub>Changed•Feature•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -431,28 +333,20 @@ Info Only
 
 1.112
 
-
-
 </td>
 <td valign="top">
 
 Deleted 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **End of Cloud Provisioning for OpenUI5 Versions \(Q1/2023\)** 
-
-
 
 </td>
 <td valign="top">
@@ -493,21 +387,15 @@ For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sa
 
 <sub>Deleted•Announcement•Required•1.112</sub>
 
-
-
 </td>
 <td valign="top">
 
 Required 
 
-
-
 </td>
 <td valign="top">
 
 2023-03-31
-
-
 
 </td>
 </tr>
@@ -516,28 +404,20 @@ Required
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -558,21 +438,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -581,28 +455,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.test.Opa5`** 
-
-
 
 </td>
 <td valign="top">
@@ -613,21 +479,15 @@ We have introduced a new `fetchWaiter`, which checks for currently ongoing fetch
 
 <sub>Changed•Feature•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -636,28 +496,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SuggestionsPopover`** 
-
-
 
 </td>
 <td valign="top">
@@ -668,21 +520,15 @@ We have restricted the width of input suggestions to a maximum of 40 rem for opt
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -691,28 +537,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IllustratedMessage`** 
-
-
 
 </td>
 <td valign="top">
@@ -723,21 +561,15 @@ We have introduced a new `Survey` illustration type and four new illustrations t
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -746,28 +578,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.FileUploader`** 
-
-
 
 </td>
 <td valign="top">
@@ -780,21 +604,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -803,28 +621,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.SidePanel`** 
-
-
 
 </td>
 <td valign="top">
@@ -837,21 +647,15 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.f.Side
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>
@@ -860,28 +664,20 @@ Info Only
 
 1.113 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -894,21 +690,15 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Sing
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-04-20
-
-
 
 </td>
 </tr>

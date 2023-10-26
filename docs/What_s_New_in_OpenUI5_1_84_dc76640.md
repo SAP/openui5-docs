@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.82 to 1.84.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Asynchronous Loading of XML Content in Fragments** 
-
-
 
 </td>
 <td valign="top">
@@ -108,21 +86,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 <sub>Changed•Feature•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -131,28 +103,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Card Explorer** 
-
-
 
 </td>
 <td valign="top">
@@ -166,21 +130,15 @@ Feature
 
 <sub>Changed•Feature•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -189,28 +147,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Navigation with Dynamic Targets** 
-
-
 
 </td>
 <td valign="top">
@@ -223,21 +173,15 @@ Note that the static definition remains the preferred solution as it allows for 
 
 <sub>Changed•Feature•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -246,28 +190,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -281,21 +217,15 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -304,28 +234,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -347,21 +269,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -370,28 +286,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.GridContainer`** 
-
-
 
 </td>
 <td valign="top">
@@ -402,21 +310,15 @@ You can now drag and drop items using the keyboard into an empty container. For 
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -425,28 +327,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Button`** 
-
-
 
 </td>
 <td valign="top">
@@ -457,21 +351,15 @@ The new `ariaHasPopup` property allows the `aria-haspopup` attribute to be set f
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -480,28 +368,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -512,21 +392,15 @@ We have updated the behavior of the control regarding the `selectedKey` and `val
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -535,28 +409,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IconTabBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -567,21 +433,15 @@ The control now supports the badge feature. You can use it to indicate that some
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -590,28 +450,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input`** 
-
-
 
 </td>
 <td valign="top">
@@ -622,21 +474,15 @@ We have introduced a new `valueHelpIconSrc` property. It allows you to set a cus
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -645,28 +491,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.List`** 
-
-
 
 </td>
 <td valign="top">
@@ -677,21 +515,15 @@ The new `accDescription` property allows applications to define their own applic
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -700,28 +532,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ObjectStatus`** 
-
-
 
 </td>
 <td valign="top">
@@ -738,21 +562,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -761,28 +579,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ProgressIndicator`** 
-
-
 
 </td>
 <td valign="top">
@@ -793,21 +603,15 @@ We have improved the control behavior when the available width is not enough and
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -816,28 +620,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SearchField`** 
-
-
 
 </td>
 <td valign="top">
@@ -848,21 +644,15 @@ The icon of the Refresh button in the `sap.m.SearchField` is now changed from sa
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -871,28 +661,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Wizard` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -903,21 +685,15 @@ We have enhanced the `sap.m.Wizard` to support rendering of the steps as separat
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>
@@ -926,28 +702,20 @@ Info Only
 
 1.84 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -962,21 +730,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.84</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-11-20
-
-
 
 </td>
 </tr>

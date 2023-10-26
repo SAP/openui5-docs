@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.98 to 1.99.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.99 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -117,21 +95,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.99</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2022-02-22
-
-
 
 </td>
 </tr>
@@ -140,28 +112,20 @@ Info Only
 
 1.99 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Carousel`** 
-
-
 
 </td>
 <td valign="top">
@@ -172,21 +136,15 @@ The control now shows `sap.m.illustratedMessage` in use cases where there’s no
 
 <sub>Changed•Control•Info Only•1.99</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-02-22
-
-
 
 </td>
 </tr>
@@ -195,28 +153,20 @@ Info Only
 
 1.99 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DynamicDateRange` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -236,21 +186,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.99</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-02-22
-
-
 
 </td>
 </tr>
@@ -259,28 +203,20 @@ Info Only
 
 1.99 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -291,21 +227,15 @@ We have introduced new behavior – an option to zoom in and zoom out to make th
 
 <sub>Changed•Control•Info Only•1.99</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-02-22
-
-
 
 </td>
 </tr>
@@ -314,28 +244,20 @@ Info Only
 
 1.99 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.upload.UploadSet`** 
-
-
 
 </td>
 <td valign="top">
@@ -348,21 +270,15 @@ The `itemDragStart` and `itemDrop` events are also being exposed. These events r
 
 <sub>Changed•Control•Info Only•1.99</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-02-22
-
-
 
 </td>
 </tr>
@@ -371,28 +287,20 @@ Info Only
 
 1.99 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -410,21 +318,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.99</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2022-02-22
-
-
 
 </td>
 </tr>

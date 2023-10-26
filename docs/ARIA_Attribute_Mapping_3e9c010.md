@@ -27,14 +27,10 @@ The mapping of HTML attributes to ARIA attributes is described in the following 
 
 HTML Attribute
 
-
-
 </th>
 <th valign="top">
 
 ARIA Attribute
-
-
 
 </th>
 </tr>
@@ -43,14 +39,10 @@ ARIA Attribute
 
 `editable` 
 
-
-
 </td>
 <td valign="top">
 
 `aria-readonly` 
-
-
 
 </td>
 </tr>
@@ -59,14 +51,10 @@ ARIA Attribute
 
 `enabled` 
 
-
-
 </td>
 <td valign="top">
 
 `aria-disabled` 
-
-
 
 </td>
 </tr>
@@ -75,14 +63,10 @@ ARIA Attribute
 
 `visible` 
 
-
-
 </td>
 <td valign="top">
 
 `aria-hidden` 
-
-
 
 </td>
 </tr>
@@ -91,14 +75,10 @@ ARIA Attribute
 
 `required` 
 
-
-
 </td>
 <td valign="top">
 
 `aria-required` 
-
-
 
 </td>
 </tr>
@@ -107,14 +87,10 @@ ARIA Attribute
 
 `checked` 
 
-
-
 </td>
 <td valign="top">
 
 `aria-checked` 
-
-
 
 </td>
 </tr>
@@ -123,14 +99,10 @@ ARIA Attribute
 
 `selected` 
 
-
-
 </td>
 <td valign="top">
 
 `aria-selected` 
-
-
 
 </td>
 </tr>

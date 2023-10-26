@@ -136,14 +136,10 @@ The following table provides a list of languages supported by the third-party to
 
 Language
 
-
-
 </th>
 <th valign="top">
 
 Code
-
-
 
 </th>
 </tr>
@@ -152,14 +148,10 @@ Code
 
 Bulgarian
 
-
-
 </td>
 <td valign="top">
 
 bg
-
-
 
 </td>
 </tr>
@@ -168,14 +160,10 @@ bg
 
 Catalan
 
-
-
 </td>
 <td valign="top">
 
 ca
-
-
 
 </td>
 </tr>
@@ -184,14 +172,10 @@ ca
 
 Croatian
 
-
-
 </td>
 <td valign="top">
 
 hr
-
-
 
 </td>
 </tr>
@@ -200,14 +184,10 @@ hr
 
 Danish
 
-
-
 </td>
 <td valign="top">
 
 da
-
-
 
 </td>
 </tr>
@@ -216,14 +196,10 @@ da
 
 Dutch
 
-
-
 </td>
 <td valign="top">
 
 nl
-
-
 
 </td>
 </tr>
@@ -232,14 +208,10 @@ nl
 
 English \(US\)
 
-
-
 </td>
 <td valign="top">
 
 en
-
-
 
 </td>
 </tr>
@@ -248,14 +220,10 @@ en
 
 Estonian
 
-
-
 </td>
 <td valign="top">
 
 et
-
-
 
 </td>
 </tr>
@@ -264,14 +232,10 @@ et
 
 Finnish
 
-
-
 </td>
 <td valign="top">
 
 fi
-
-
 
 </td>
 </tr>
@@ -280,14 +244,10 @@ fi
 
 French \(FR\)
 
-
-
 </td>
 <td valign="top">
 
 fr
-
-
 
 </td>
 </tr>
@@ -296,14 +256,10 @@ fr
 
 German
 
-
-
 </td>
 <td valign="top">
 
 de
-
-
 
 </td>
 </tr>
@@ -312,14 +268,10 @@ de
 
 Greek
 
-
-
 </td>
 <td valign="top">
 
 el
-
-
 
 </td>
 </tr>
@@ -328,14 +280,10 @@ el
 
 Hindi
 
-
-
 </td>
 <td valign="top">
 
 hi
-
-
 
 </td>
 </tr>
@@ -344,14 +292,10 @@ hi
 
 Hungarian
 
-
-
 </td>
 <td valign="top">
 
 hu
-
-
 
 </td>
 </tr>
@@ -360,14 +304,10 @@ hu
 
 Italian
 
-
-
 </td>
 <td valign="top">
 
 it
-
-
 
 </td>
 </tr>
@@ -376,14 +316,10 @@ it
 
 Lithuanian
 
-
-
 </td>
 <td valign="top">
 
 lt
-
-
 
 </td>
 </tr>
@@ -392,14 +328,10 @@ lt
 
 Norwegian
 
-
-
 </td>
 <td valign="top">
 
 no
-
-
 
 </td>
 </tr>
@@ -408,14 +340,10 @@ no
 
 Portuguese \(BR\)
 
-
-
 </td>
 <td valign="top">
 
 pt
-
-
 
 </td>
 </tr>
@@ -424,14 +352,10 @@ pt
 
 Russian
 
-
-
 </td>
 <td valign="top">
 
 ru
-
-
 
 </td>
 </tr>
@@ -440,14 +364,10 @@ ru
 
 Slovenian
 
-
-
 </td>
 <td valign="top">
 
 sl
-
-
 
 </td>
 </tr>
@@ -456,14 +376,10 @@ sl
 
 Spanish \(ES\)
 
-
-
 </td>
 <td valign="top">
 
 es
-
-
 
 </td>
 </tr>
@@ -472,14 +388,10 @@ es
 
 Swedish
 
-
-
 </td>
 <td valign="top">
 
 sv
-
-
 
 </td>
 </tr>
@@ -488,14 +400,10 @@ sv
 
 Thai
 
-
-
 </td>
 <td valign="top">
 
 th
-
-
 
 </td>
 </tr>
@@ -504,14 +412,10 @@ th
 
 Turkish
 
-
-
 </td>
 <td valign="top">
 
 tr
-
-
 
 </td>
 </tr>
@@ -520,14 +424,10 @@ tr
 
 Ukrainian
 
-
-
 </td>
 <td valign="top">
 
 uk
-
-
 
 </td>
 </tr>

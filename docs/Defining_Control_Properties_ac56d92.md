@@ -44,14 +44,10 @@ MyControl.prototype.setShowLogoutButton = function(show) {
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -60,14 +56,10 @@ Description
 
 `boolean` 
 
-
-
 </td>
 <td valign="top">
 
 Can either be `true` or `false`. Properties of that type should not be set to `undefined` or `null`. The default value is `false`.
-
-
 
 </td>
 </tr>
@@ -76,14 +68,10 @@ Can either be `true` or `false`. Properties of that type should not be set to `u
 
 `int` 
 
-
-
 </td>
 <td valign="top">
 
 JavaScript primitive values of type `number` and that don’t have a fractional part. To keep the implementation efficient, the constraint is not enforced. Declaring a property as type `int` is rather for information reasons. The corresponding object expects any given value to be an integer value. The default value of the type is the number `0`.
-
-
 
 </td>
 </tr>
@@ -92,14 +80,10 @@ JavaScript primitive values of type `number` and that don’t have a fractional 
 
 `float` 
 
-
-
 </td>
 <td valign="top">
 
 JavaScript primitive values of type `number` that can have a fractional part. It is named `float` instead of `number` to differentiate it from type `int` . The default value is the number `0`.
-
-
 
 </td>
 </tr>
@@ -108,14 +92,10 @@ JavaScript primitive values of type `number` that can have a fractional part. It
 
 `string` 
 
-
-
 </td>
 <td valign="top">
 
 JavaScript string literal \(`typeof value === "string"`\) or a `String` object \(`value instanceof String`\). The default value is an empty string.
-
-
 
 </td>
 </tr>
@@ -124,16 +104,12 @@ JavaScript string literal \(`typeof value === "string"`\) or a `String` object \
 
 `object` 
 
-
-
 </td>
 <td valign="top">
 
 Plain JavaScript object \(an object whose constructor is `Object`\). Most of the time, other objects are accepted as well, but deserializers \(e.g. for XML views\) will try to convert the object from or to a JSON string. The default value is `null`.
 
 Don't mix this type up with the `any` type! \(Sorry, we maybe should have named it „`serializable`“ or „`JSON`“ or something like that, to make this more clear...\).
-
-
 
 </td>
 </tr>
@@ -142,14 +118,10 @@ Don't mix this type up with the `any` type! \(Sorry, we maybe should have named 
 
 `any` 
 
-
-
 </td>
 <td valign="top">
 
 Any valid Javascript value \(including primitives, objects, functions, regular expressions, and native objects\). The support in serialized formats is quite limited. Valid JSON strings will be deserialized to an object. The default value is `null`.
-
-
 
 </td>
 </tr>
@@ -157,8 +129,6 @@ Any valid Javascript value \(including primitives, objects, functions, regular e
 <td valign="top">
 
 `function` 
-
-
 
 </td>
 <td valign="top">
@@ -183,14 +153,10 @@ Can be any JavaScript function.
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -198,8 +164,6 @@ Description
 <td valign="top">
 
 regular expression \(RegExp\)
-
-
 
 </td>
 <td valign="top">
@@ -225,16 +189,12 @@ If `mSettings` contains an implementation for `isValid`, then the validity check
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.base.DataType). 
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 enumeration \(enum\)
-
-
 
 </td>
 <td valign="top">
@@ -295,8 +255,6 @@ properties: {
 
 array
 
-
-
 </td>
 <td valign="top">
 
@@ -323,8 +281,6 @@ The type of an element in an array is called the component type \(`int` in the f
 The `DataType` object for an array type has a method `getComponentType` to retrieve the component `type`. For non-array types, this method returns `null`.
 
 The default value for any array type is the empty array.
-
-
 
 </td>
 </tr>

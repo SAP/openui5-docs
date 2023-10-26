@@ -26,49 +26,35 @@ With this release OpenUI5 is upgraded from version 1.116 to 1.117.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -77,28 +63,20 @@ Available as of
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Deprecations** 
-
-
 
 </td>
 <td valign="top">
@@ -124,21 +102,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Deprecated•Feature•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -147,28 +119,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`** 
-
-
 
 </td>
 <td valign="top">
@@ -181,21 +145,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -204,28 +162,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.mdc.Table` \(experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -238,21 +188,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/module
 
 <sub>Changed•Control•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -261,28 +205,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 ****Sample for `sap.ui.mdc` library**** 
-
-
 
 </td>
 <td valign="top">
@@ -293,21 +229,15 @@ You can now test the table and filter bar features of the \(experimental\) `sap.
 
 <sub>New•Feature•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -316,28 +246,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.layout.form.SimpleForm`** 
-
-
 
 </td>
 <td valign="top">
@@ -348,21 +270,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -371,28 +287,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Modern ECMAScript Support in OpenUI5** 
-
-
 
 </td>
 <td valign="top">
@@ -405,21 +313,15 @@ For more information, see [ECMAScript Support](ECMAScript_Support_0cb44d7.md). P
 
 <sub>Changed•Feature•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -428,28 +330,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Theme-Dependent Custom Icon Fonts** 
-
-
 
 </td>
 <td valign="top">
@@ -462,21 +356,15 @@ For more information and an example, see [Icon and Icon Pool](Icon_and_Icon_Pool
 
 <sub>Changed•Feature•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -485,28 +373,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -530,21 +410,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -553,28 +427,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **TypeScript Tutorial** 
-
-
 
 </td>
 <td valign="top">
@@ -585,21 +451,15 @@ You are familiar with OpenUI5 app development, but do you want to learn how to d
 
 <sub>New•User Documentation•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -608,28 +468,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Menu` and `sap.ui.unified.Menu`** 
-
-
 
 </td>
 <td valign="top">
@@ -640,21 +492,15 @@ We have introduced a new `isOpen` method that indicates whether the menu is curr
 
 <sub>Changed•Control•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -663,28 +509,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -695,21 +533,15 @@ Users can now select a whole week from the Month view if they click on the week 
 
 <sub>Changed•Control•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -718,28 +550,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SelectDialog` and `sap.m.TableSelectDialog`** 
-
-
 
 </td>
 <td valign="top">
@@ -750,21 +574,15 @@ To improve the accessibility of these controls, we have introduced a new `initia
 
 <sub>Changed•Control•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -773,28 +591,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OPA Framework** 
-
-
 
 </td>
 <td valign="top">
@@ -805,21 +615,15 @@ We have enhanced the OPA framework to now perform comprehensive checks for compo
 
 <sub>Changed•Feature•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>
@@ -828,28 +632,20 @@ Info Only
 
 1.117 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Panel`** 
-
-
 
 </td>
 <td valign="top">
@@ -860,21 +656,15 @@ We have introduced the `stickyHeader` property. When set to `true`, the header o
 
 <sub>Changed•Control•Info Only•1.117</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-08-10
-
-
 
 </td>
 </tr>

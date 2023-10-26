@@ -64,14 +64,10 @@ To embed a path containing a closing curly brace into an expression binding, use
 
 Syntax Element
 
-
-
 </th>
 <th valign="top">
 
 Symbol
-
-
 
 </th>
 </tr>
@@ -79,8 +75,6 @@ Symbol
 <td valign="top">
 
 Literal
-
-
 
 </td>
 <td valign="top">
@@ -97,8 +91,6 @@ string, for example `'foo'`
 
 `false`
 
-
-
 </td>
 </tr>
 <tr>
@@ -106,14 +98,10 @@ string, for example `'foo'`
 
 Grouping
 
-
-
 </td>
 <td valign="top">
 
 \(...\), for example `3 * (4 + 10)` 
-
-
 
 </td>
 </tr>
@@ -121,8 +109,6 @@ Grouping
 <td valign="top">
 
 Unary operator
-
-
 
 </td>
 <td valign="top">
@@ -135,16 +121,12 @@ Unary operator
 
 `typeof`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Multiplicative operator
-
-
 
 </td>
 <td valign="top">
@@ -155,16 +137,12 @@ Multiplicative operator
 
 `%`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Additive operator
-
-
 
 </td>
 <td valign="top">
@@ -173,16 +151,12 @@ Additive operator
 
 `-`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Relational operator
-
-
 
 </td>
 <td valign="top">
@@ -195,16 +169,12 @@ Relational operator
 
 `>=`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Strict equality operator
-
-
 
 </td>
 <td valign="top">
@@ -213,16 +183,12 @@ Strict equality operator
 
 `!==`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Binary logical operator
-
-
 
 </td>
 <td valign="top">
@@ -231,8 +197,6 @@ Binary logical operator
 
 `||`
 
-
-
 </td>
 </tr>
 <tr>
@@ -240,14 +204,10 @@ Binary logical operator
 
 Conditional operator
 
-
-
 </td>
 <td valign="top">
 
 `?` 
-
-
 
 </td>
 </tr>
@@ -255,8 +215,6 @@ Conditional operator
 <td valign="top">
 
 Member access operator with the `.` operator
-
-
 
 </td>
 <td valign="top">
@@ -274,8 +232,6 @@ Member access operator with the `.` operator
 <td valign="top">
 
 Function call
-
-
 
 </td>
 <td valign="top">
@@ -298,14 +254,10 @@ Example:
 
 Array literals
 
-
-
 </td>
 <td valign="top">
 
 `[...]`, for example `[2,3,5,7,11]` 
-
-
 
 </td>
 </tr>
@@ -314,14 +266,10 @@ Array literals
 
 Property/array access
 
-
-
 </td>
 <td valign="top">
 
 `o[...]`, for example `'foo/bar'.split('/')[1]` 
-
-
 
 </td>
 </tr>
@@ -330,14 +278,10 @@ Property/array access
 
 `in` operator
 
-
-
 </td>
 <td valign="top">
 
 `'PI' in Math` \(true\) or `0 in []` \(false\)
-
-
 
 </td>
 </tr>
@@ -345,8 +289,6 @@ Property/array access
 <td valign="top">
 
 Global symbol
-
-
 
 </td>
 <td valign="top">

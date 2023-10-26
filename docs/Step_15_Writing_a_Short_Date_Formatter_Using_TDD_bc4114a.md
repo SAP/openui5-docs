@@ -33,21 +33,15 @@ Depending on the current date, we distinguish four different formatting categori
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Sample Input
 
-
-
 </th>
 <th valign="top">
 
 Expected Output \(for `en-US`\)
-
-
 
 </th>
 </tr>
@@ -56,21 +50,15 @@ Expected Output \(for `en-US`\)
 
 Today
 
-
-
 </td>
 <td valign="top">
 
 `2013/02/13 12:05:20` 
 
-
-
 </td>
 <td valign="top">
 
 ***12:05 PM*** 
-
-
 
 </td>
 </tr>
@@ -79,21 +67,15 @@ Today
 
 Yesterday
 
-
-
 </td>
 <td valign="top">
 
 `2013/02/12 12:05:20` 
 
-
-
 </td>
 <td valign="top">
 
 ***Yesterday*** 
-
-
 
 </td>
 </tr>
@@ -102,21 +84,15 @@ Yesterday
 
 Last 7 days
 
-
-
 </td>
 <td valign="top">
 
 `2013/02/08 12:05:20` 
 
-
-
 </td>
 <td valign="top">
 
 ***Friday*** 
-
-
 
 </td>
 </tr>
@@ -125,21 +101,15 @@ Last 7 days
 
 Others
 
-
-
 </td>
 <td valign="top">
 
 `2011/02/05 12:05:20` 
 
-
-
 </td>
 <td valign="top">
 
 ***Dec 5, 2011*** 
-
-
 
 </td>
 </tr>

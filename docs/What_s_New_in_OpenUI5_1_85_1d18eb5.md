@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.84 to 1.85.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.85 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -115,21 +93,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.85</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2020-12-03
-
-
 
 </td>
 </tr>
@@ -138,28 +110,20 @@ Info Only
 
 1.85 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Special Messaging Support for Visually Impaired Users** 
-
-
 
 </td>
 <td valign="top">
@@ -170,21 +134,15 @@ The `sap.ui.core.InvisibleMessage` class is no longer experimental. This class i
 
 <sub>Changed•Feature•Info Only•1.85</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-12-03
-
-
 
 </td>
 </tr>
@@ -193,28 +151,20 @@ Info Only
 
 1.85 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.GridContainer`** 
-
-
 
 </td>
 <td valign="top">
@@ -225,21 +175,15 @@ We have improved the two-dimensional keyboard navigation. Now navigation using t
 
 <sub>Changed•Control•Info Only•1.85</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-12-03
-
-
 
 </td>
 </tr>
@@ -248,28 +192,20 @@ Info Only
 
 1.85 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Bar`** 
-
-
 
 </td>
 <td valign="top">
@@ -280,21 +216,15 @@ We have added a new `titleAlignment` property. It enables developers to create c
 
 <sub>Changed•Control•Info Only•1.85</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-12-03
-
-
 
 </td>
 </tr>
@@ -303,28 +233,20 @@ Info Only
 
 1.85 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ColorPalette`, `sap.m.ColorPalettePopover`, and `sap.ui.unified.ColorPickerPopover`** 
-
-
 
 </td>
 <td valign="top">
@@ -335,21 +257,15 @@ A `liveChange` event is now available in these controls, which are using the `sa
 
 <sub>Changed•Control•Info Only•1.85</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-12-03
-
-
 
 </td>
 </tr>
@@ -358,28 +274,20 @@ Info Only
 
 1.85 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SinglePlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -390,21 +298,15 @@ The `specialDates` aggregation, which allows you to define special dates for the
 
 <sub>Changed•Control•Info Only•1.85</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-12-03
-
-
 
 </td>
 </tr>
@@ -413,28 +315,20 @@ Info Only
 
 1.85 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Table`** 
-
-
 
 </td>
 <td valign="top">
@@ -452,21 +346,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.85</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-12-03
-
-
 
 </td>
 </tr>
@@ -475,28 +363,20 @@ Info Only
 
 1.85 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -510,21 +390,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.85</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-12-03
-
-
 
 </td>
 </tr>

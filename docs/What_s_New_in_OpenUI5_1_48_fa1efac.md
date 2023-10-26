@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.46 to 1.48.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **Third-Party Library Upgrades** 
-
-
 
 </td>
 <td valign="top">
@@ -116,21 +94,15 @@ Announcement
 
 <sub>Changed•Announcement•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -139,28 +111,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Support Assistant and Other Support Tools** 
-
-
 
 </td>
 <td valign="top">
@@ -186,21 +150,15 @@ We have also redesigned the other support tools, *Technical Information Dialog* 
 
 <sub>New•Feature•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -209,28 +167,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Reuse Components** 
-
-
 
 </td>
 <td valign="top">
@@ -245,21 +195,15 @@ For more information, see [Using and Nesting Components](Using_and_Nesting_Compo
 
 <sub>New•Feature•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -268,28 +212,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Theme Parameter Tool** 
-
-
 
 </td>
 <td valign="top">
@@ -306,21 +242,15 @@ To find the tool, see [Demo Apps](https://sdk.openui5.org/demoapps).
 
 <sub>New•Feature•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -329,28 +259,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.MessageView`** 
-
-
 
 </td>
 <td valign="top">
@@ -365,21 +287,15 @@ Displays a summarized list of different types of messages. The `MessageView` is 
 
 <sub>New•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -388,28 +304,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.CustomTreeItem`** 
-
-
 
 </td>
 <td valign="top">
@@ -420,21 +328,15 @@ Similar to `sap.m.CustomListItem` for the `sap.m.List` control, the `sap.m.Custo
 
 <sub>New•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -443,28 +345,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PDFViewer`** 
-
-
 
 </td>
 <td valign="top">
@@ -477,21 +371,15 @@ Control
 
 <sub>New•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -500,28 +388,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Improved Script Loading** 
-
-
 
 </td>
 <td valign="top">
@@ -532,21 +412,15 @@ If loading a resource fails, a second retry is done.
 
 <sub>Changed•Feature•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -555,28 +429,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Date Intervals** 
-
-
 
 </td>
 <td valign="top">
@@ -587,21 +453,15 @@ The `DateFormat` can format two dates as an interval. For more information, see 
 
 <sub>Changed•Feature•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -610,28 +470,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -663,21 +515,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -686,28 +532,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **One Page Acceptance Tests \(OPA5\)** 
-
-
 
 </td>
 <td valign="top">
@@ -721,21 +559,15 @@ Feature
 
 <sub>Changed•Feature•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -744,28 +576,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.Avatar`** 
-
-
 
 </td>
 <td valign="top">
@@ -776,21 +600,15 @@ With the use of the new `detailBox` aggregation, you can automatically open a `s
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -799,28 +617,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.DynamicPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -831,21 +641,15 @@ It is now possible to initialize the control with collapsed header. To enable th
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -854,28 +658,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ComboBox`** 
-
-
 
 </td>
 <td valign="top">
@@ -886,21 +682,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -909,28 +699,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.DatePicker`** 
-
-
 
 </td>
 <td valign="top">
@@ -943,21 +725,15 @@ For more information, see the [sample](https://sdk.openui5.org/sample/sap.m.samp
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -966,28 +742,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.GenericTile`** 
-
-
 
 </td>
 <td valign="top">
@@ -1000,21 +768,15 @@ With a new overflow concept that allows more flexibility in the layout of the ti
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1023,28 +785,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.PlanningCalendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -1060,21 +814,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1083,28 +831,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.TextArea`** 
-
-
 
 </td>
 <td valign="top">
@@ -1115,21 +855,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1138,28 +872,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.UploadCollection`** 
-
-
 
 </td>
 <td valign="top">
@@ -1170,21 +896,15 @@ When grouping of `UploadCollectionItems` you can now provide the grouping featur
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1193,28 +913,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Wizard`** 
-
-
 
 </td>
 <td valign="top">
@@ -1225,21 +937,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1248,28 +954,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.layout.BlockLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -1287,21 +985,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1310,28 +1002,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.tnt.ToolPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -1349,21 +1033,15 @@ For more information, see the [sample](https://sdk.openui5.org/sample/sap.tnt.sa
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1372,28 +1050,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.table`** 
-
-
 
 </td>
 <td valign="top">
@@ -1404,21 +1074,15 @@ You can now highlight items in the tables of the `sap.ui.table` library \(`sap.u
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1427,28 +1091,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.Calendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -1466,21 +1122,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1489,28 +1139,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.ColorPicker`** 
-
-
 
 </td>
 <td valign="top">
@@ -1523,21 +1165,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 <sub>Changed•Control•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>
@@ -1546,28 +1182,20 @@ Info Only
 
 1.48 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **Documentation Updates** 
-
-
 
 </td>
 <td valign="top">
@@ -1583,21 +1211,15 @@ In addition to the documentation for new features, the following changes have be
 
 <sub>Changed•User Documentation•Info Only•1.48</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2017-08-02
-
-
 
 </td>
 </tr>

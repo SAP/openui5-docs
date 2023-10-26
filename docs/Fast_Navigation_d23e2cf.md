@@ -51,14 +51,10 @@ The following image describes this behavior. Groups are highlighted in blue, ele
 
 Fast Navigation Step
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -67,14 +63,10 @@ Description
 
 0
 
-
-
 </td>
 <td valign="top">
 
 The focus is on Control 1, which is the first control in the tab chain of the first group.
-
-
 
 </td>
 </tr>
@@ -83,14 +75,10 @@ The focus is on Control 1, which is the first control in the tab chain of the fi
 
 i
 
-
-
 </td>
 <td valign="top">
 
 The focus moves to Control 2, which is the next control in the tab chain belonging to a different group \(in this case, a group nested within the previous group\).
-
-
 
 </td>
 </tr>
@@ -99,14 +87,10 @@ The focus moves to Control 2, which is the next control in the tab chain belongi
 
 ii
 
-
-
 </td>
 <td valign="top">
 
 The focus moves to Control 3, which is the next control in the tab chain belonging to a different group. Since the focus moves back up from the nested group to the original group, Control 3 is in the same group as Control 1 focused previously.
-
-
 
 </td>
 </tr>
@@ -115,14 +99,10 @@ The focus moves to Control 3, which is the next control in the tab chain belongi
 
 iii
 
-
-
 </td>
 <td valign="top">
 
 The focus moves to Control 4, which is the next control in the tab chain belonging to a different group \(another group nested within the previous group\).
-
-
 
 </td>
 </tr>
@@ -131,14 +111,10 @@ The focus moves to Control 4, which is the next control in the tab chain belongi
 
 iv
 
-
-
 </td>
 <td valign="top">
 
 The focus is moved to the next control in the tab chain belonging to a different group. Because all adjacent controls not belonging to any group form their own group, Control 5, which is the first control in the tab chain of this group, is focused.
-
-
 
 </td>
 </tr>
@@ -147,14 +123,10 @@ The focus is moved to the next control in the tab chain belonging to a different
 
 v
 
-
-
 </td>
 <td valign="top">
 
 A search for the next control to focus on reaches the end of the tab chain and starts over from the beginning. Now Control 1 has the focus again.
-
-
 
 </td>
 </tr>

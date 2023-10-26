@@ -46,21 +46,15 @@ OpenUI5 provides several bootstrap URLs for different use cases. The following t
 
 Resource
 
-
-
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Usage
-
-
 
 </th>
 </tr>
@@ -69,21 +63,15 @@ Usage
 
 UI5 Tooling
 
-
-
 </td>
 <td valign="top">
 
 You can access the libraries hosted by UI5 Tooling under `resources/sap-ui-core.js`<sup>1</sup>.
 
-
-
 </td>
 <td valign="top">
 
 Development
-
-
 
 </td>
 </tr>
@@ -92,8 +80,6 @@ Development
 
 Content Delivery Network \(CDN\)
 
-
-
 </td>
 <td valign="top">
 
@@ -101,14 +87,10 @@ You can access the libraries externally from a CDN, which can be either an SAP-h
 
 For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 
-
-
 </td>
 <td valign="top">
 
 Development/productive applications
-
-
 
 </td>
 </tr>
@@ -117,8 +99,6 @@ Development/productive applications
 
 Cache Buster for OpenUI5 
 
-
-
 </td>
 <td valign="top">
 
@@ -126,14 +106,10 @@ You can access the libraries consuming the cache buster for OpenUI5 under `resou
 
 For more information, see [Cache Buster for OpenUI5](Cache_Buster_for_OpenUI5_91f0809.md).
 
-
-
 </td>
 <td valign="top">
 
 Productive applications with available cache buster deployed
-
-
 
 </td>
 </tr>
@@ -156,14 +132,10 @@ OpenUI5 provides several bootstrap files for different use cases. The following 
 
 Resource
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -172,16 +144,12 @@ Description
 
 `sap-ui-core.js`
 
-
-
 </td>
 <td valign="top">
 
 This is the standard bootstrap file, which we recommend to use for typical use cases. It already contains jQuery, `jquery-ui-position` and only the minimum required parts of the core library \(`sap.ui.core`\). Required files are loaded dynamically using XMLHttpRequest \(XHR\).
 
 For more information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
-
-
 
 </td>
 </tr>
@@ -190,8 +158,6 @@ For more information, see [Standard Variant for Bootstrapping](Standard_Variant_
 
 `sap-ui-core-nojQuery.js`
 
-
-
 </td>
 <td valign="top">
 
@@ -199,16 +165,12 @@ You use this bootstrap file for applications with their own jQuery version. It a
 
 For more information, see [noJQuery Variant for Bootstrapping](noJQuery_Variant_for_Bootstrapping_91f1dd0.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `sap/ui/core/library-preload.js`
-
-
 
 </td>
 <td valign="top">
@@ -220,16 +182,12 @@ This file contains most of the modules that are contained in the `sap.ui.core` l
 
 For more information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 `sap-ui-core-lean.js`
-
-
 
 </td>
 <td valign="top">
@@ -247,8 +205,6 @@ This bootstrap file is similar to the `sap-ui-core.js` file, but in this use cas
 <td valign="top">
 
 `sap-ui-custom*.js`
-
-
 
 </td>
 <td valign="top">

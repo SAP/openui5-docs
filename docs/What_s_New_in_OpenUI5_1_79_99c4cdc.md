@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.78 to 1.79.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.79 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Browser and Platform Support** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ OpenUI5 used PhantomJS in the past to test the framework, even though PhantomJS 
 
 <sub>Changed•Feature•Info Only•1.79</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2020-06-18
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.79 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V2 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -165,21 +129,15 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 
 <sub>Changed•Feature•Info Only•1.79</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-06-18
-
-
 
 </td>
 </tr>
@@ -188,28 +146,20 @@ Info Only
 
 1.79 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -228,21 +178,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.79</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-06-18
-
-
 
 </td>
 </tr>
@@ -251,28 +195,20 @@ Info Only
 
 1.79 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.GridContainer`, `sap.f.GridList`** 
-
-
 
 </td>
 <td valign="top">
@@ -283,21 +219,15 @@ We have improved the accessibility of these controls by providing better navigat
 
 <sub>Changed•Control•Info Only•1.79</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-06-18
-
-
 
 </td>
 </tr>
@@ -306,28 +236,20 @@ Info Only
 
 1.79 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.IconTabBar`** 
-
-
 
 </td>
 <td valign="top">
@@ -339,21 +261,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.79</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-06-18
-
-
 
 </td>
 </tr>
@@ -362,28 +278,20 @@ Info Only
 
 1.79 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input`, `sap.m.MultiInput`** 
-
-
 
 </td>
 <td valign="top">
@@ -394,21 +302,15 @@ When the controls are used with tabular suggestions, the column headers are now 
 
 <sub>Changed•Control•Info Only•1.79</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-06-18
-
-
 
 </td>
 </tr>
@@ -417,28 +319,20 @@ Info Only
 
 1.79 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.InputBase` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -449,21 +343,15 @@ We are extending the set of controls that support the possibility to add links a
 
 <sub>Changed•Control•Info Only•1.79</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-06-18
-
-
 
 </td>
 </tr>
@@ -472,28 +360,20 @@ Info Only
 
 1.79 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Panel`** 
-
-
 
 </td>
 <td valign="top">
@@ -504,21 +384,15 @@ We have enhanced the control by making the whole header clickable to allow users
 
 <sub>Changed•Control•Info Only•1.79</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-06-18
-
-
 
 </td>
 </tr>
@@ -527,28 +401,20 @@ Info Only
 
 1.79 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -560,21 +426,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.79</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2020-06-18
-
-
 
 </td>
 </tr>

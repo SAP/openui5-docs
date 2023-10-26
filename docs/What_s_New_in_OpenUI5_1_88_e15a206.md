@@ -23,49 +23,35 @@ With this release OpenUI5 is upgraded from version 1.87 to 1.88.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -74,28 +60,20 @@ Available as of
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Announcement 
 
-
-
 </td>
 <td valign="top">
 
 **End of Support for Microsoft Internet Explorer 11** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ Starting with version 1.88, OpenUI5 no longer supports Microsoft Internet Explor
 
 <sub>Deprecated•Announcement•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit Feedback** 
-
-
 
 </td>
 <td valign="top">
@@ -172,21 +136,15 @@ We have improved the following Demo Kit areas:
 
 <sub>Changed•Feature•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -195,28 +153,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.IllustratedMessage` \(Experimental\)** 
-
-
 
 </td>
 <td valign="top">
@@ -231,21 +181,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 <sub>New•Control•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -254,28 +198,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 Models** 
-
-
 
 </td>
 <td valign="top">
@@ -286,21 +222,15 @@ The new version of OpenUI5 introduces a new `sap.ui.model.Binding#getResolvedPat
 
 <sub>Changed•Feature•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -309,28 +239,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -343,21 +265,15 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <sub>Changed•Feature•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -366,28 +282,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Test Recorder** 
-
-
 
 </td>
 <td valign="top">
@@ -398,21 +306,15 @@ We've introduced the option to generate code snippets with assertions. Assertion
 
 <sub>Changed•Feature•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -421,28 +323,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.GridContainer`** 
-
-
 
 </td>
 <td valign="top">
@@ -453,21 +347,15 @@ We have added a new `columnsChange` event, fired when the count of grid columns 
 
 <sub>Changed•Control•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -476,28 +364,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.gantt`** 
-
-
 
 </td>
 <td valign="top">
@@ -508,21 +388,15 @@ We have improved the usability of the Gantt chart with the large interval/label 
 
 <sub>Changed•Control•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -531,28 +405,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Deprecated 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.UploadCollection`** 
-
-
 
 </td>
 <td valign="top">
@@ -563,21 +429,15 @@ As of version 1.88, the `UploadCollection` control is deprecated. You can use th
 
 <sub>Deprecated•Control•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -586,28 +446,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -622,21 +474,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>
@@ -645,28 +491,20 @@ Info Only
 
 1.88 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.Currency`** 
-
-
 
 </td>
 <td valign="top">
@@ -677,21 +515,15 @@ As an app developer you can now define custom currency names with a length of up
 
 <sub>Changed•Control•Info Only•1.88</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2021-03-25
-
-
 
 </td>
 </tr>

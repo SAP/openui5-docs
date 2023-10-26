@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.113 to 1.114.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.114 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.integration.widgets.Card`** 
-
-
 
 </td>
 <td valign="top">
@@ -106,21 +84,15 @@ List, Table, Object, and the other declarative card types automatically show a c
 
 <sub>Changed•Control•Info Only•1.114</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-05-18
-
-
 
 </td>
 </tr>
@@ -129,28 +101,20 @@ Info Only
 
 1.114 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **FLP Time Zone Support in OpenUI5** 
-
-
 
 </td>
 <td valign="top">
@@ -165,21 +129,15 @@ For more information, see [Dates, Times, Timestamps, and Time Zones](Dates_Times
 
 <sub>Changed•Feature•Required•1.114</sub>
 
-
-
 </td>
 <td valign="top">
 
 Required 
 
-
-
 </td>
 <td valign="top">
 
 2023-05-18
-
-
 
 </td>
 </tr>
@@ -188,28 +146,20 @@ Required
 
 1.114 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.SearchField`** 
-
-
 
 </td>
 <td valign="top">
@@ -222,21 +172,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>Changed•Control•Info Only•1.114</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-05-18
-
-
 
 </td>
 </tr>
@@ -245,28 +189,20 @@ Info Only
 
 1.114 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Accessibility** 
-
-
 
 </td>
 <td valign="top">
@@ -277,21 +213,15 @@ We are now using JAWS 2023 as a reference testing environment in OpenUI5. For mo
 
 <sub>Changed•Feature•Info Only•1.114</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2023-05-18
-
-
 
 </td>
 </tr>

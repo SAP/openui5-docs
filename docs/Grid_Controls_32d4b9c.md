@@ -57,35 +57,25 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 
 **Feature Supported?** 
 
-
-
 </th>
 <th valign="top">
 
 `sap.f.GridContainer` 
-
-
 
 </th>
 <th valign="top">
 
 `sap.f.GridList` 
 
-
-
 </th>
 <th valign="top">
 
 `sap.ui.layout.cssgrid.CSSGrid` 
 
-
-
 </th>
 <th valign="top">
 
 `sap.ui.layout.Grid` 
-
-
 
 </th>
 </tr>
@@ -94,35 +84,25 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 
 **Complies with the grid specification according to the HTML Standard** 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -131,35 +111,25 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 
 **Number of columns supported** 
 
+</td>
+<td valign="top">
 
+Unlimited
 
 </td>
 <td valign="top">
 
 Unlimited
 
-
-
 </td>
 <td valign="top">
 
 Unlimited
-
-
-
-</td>
-<td valign="top">
-
-Unlimited
-
-
 
 </td>
 <td valign="top">
 
 Up to 12
-
-
 
 </td>
 </tr>
@@ -168,35 +138,25 @@ Up to 12
 
 **Can configure row height, column width, and gap dimensions** 
 
+</td>
+<td valign="top">
 
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -205,35 +165,25 @@ Up to 12
 
 **Supports auto calculation of rows per item** 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
+</td>
+<td valign="top">
 
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -242,35 +192,25 @@ Up to 12
 
 **Can fill empty spaces in the grid** 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -279,35 +219,25 @@ Up to 12
 
 **Items flow direction** 
 
-
-
 </td>
 <td valign="top">
 
 Horizontal only
-
-
 
 </td>
 <td valign="top">
 
 Horizontal and vertical
 
-
-
 </td>
 <td valign="top">
 
 Horizontal and vertical
 
-
-
 </td>
 <td valign="top">
 
 Horizontal only
-
-
 
 </td>
 </tr>
@@ -316,35 +246,25 @@ Horizontal only
 
 **Can configure item position** 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -355,35 +275,25 @@ Horizontal only
 
 The ability to define how many rows and columns an item should take.
 
+</td>
+<td valign="top">
 
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -392,35 +302,25 @@ The ability to define how many rows and columns an item should take.
 
 **Supports columns breathing** 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
+</td>
+<td valign="top">
 
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -431,35 +331,25 @@ The ability to define how many rows and columns an item should take.
 
 The possibility to use one of the predefined layout templates or to create a custom template for specific layouts.
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -468,35 +358,25 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 **Supports screen-size breakpoints** 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -505,35 +385,25 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 **Supports container-size breakpoints** 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -542,35 +412,25 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 **Supports indentation** 
 
+</td>
+<td valign="top">
 
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -579,35 +439,25 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 **Can control items visibility based on breakpoints** 
 
+</td>
+<td valign="top">
 
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -616,35 +466,25 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 **Supports keyboard handling** 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -653,35 +493,25 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 **Supports growing** 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -690,35 +520,25 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 **Supports sorting, filtering and grouping** 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -727,35 +547,25 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 **Supports headers and footer**s
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -764,35 +574,25 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 **Supports selection and highlighting** 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>

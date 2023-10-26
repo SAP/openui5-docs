@@ -21,49 +21,35 @@ With this release OpenUI5 is upgraded from version 1.60 to 1.61.
 
 Version
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Category
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -72,28 +58,20 @@ Available as of
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Enabling Applications to Comply with the Content Security Policy \(CSP\)** 
-
-
 
 </td>
 <td valign="top">
@@ -107,21 +85,15 @@ The OpenUI5 framework now allows you to run applications in an environment in wh
 
 <sub>New•Feature•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -130,28 +102,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 New 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 <code><b><code>sap.m.SinglePlanningCalendar</code></b></code> 
-
-
 
 </td>
 <td valign="top">
@@ -176,21 +140,15 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 <sub>New•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -199,28 +157,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **OpenUI5 OData V4 Model** 
-
-
 
 </td>
 <td valign="top">
@@ -243,21 +193,15 @@ Note that we have introduced this change to support message processing.
 
 <sub>Changed•Feature•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -266,28 +210,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.DynamicPage`/`sap.f.semantic.SemanticPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -300,21 +236,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -323,28 +253,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.f.GridList`** 
-
-
 
 </td>
 <td valign="top">
@@ -355,21 +277,15 @@ We have implemented a regressive enhancement \(polyfill\) that enables the `sap.
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -378,28 +294,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Input`** 
-
-
 
 </td>
 <td valign="top">
@@ -410,21 +318,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -433,28 +335,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Label`** 
-
-
 
 </td>
 <td valign="top">
@@ -465,21 +359,15 @@ We have changed the color for labels whose `displayOnly` property is set to `tru
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -488,28 +376,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.ObjectHeader`** 
-
-
 
 </td>
 <td valign="top">
@@ -520,21 +400,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -543,28 +417,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Select`/`sap.m.SelectList`** 
-
-
 
 </td>
 <td valign="top">
@@ -575,21 +441,15 @@ The `sap.m.Select` and `sap.m.SelectList` controls can now display icons before 
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -598,28 +458,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.semantic.DetailPage`/`sap.m.semantic.SemanticPage`** 
-
-
 
 </td>
 <td valign="top">
@@ -630,21 +482,15 @@ We have enabled the controls to be a droppable area. For more information, see [
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -653,28 +499,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.m.Table`** 
-
-
 
 </td>
 <td valign="top">
@@ -685,21 +523,15 @@ The `sortIndicator` property, which indicates that a column is sorted, is now av
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -708,28 +540,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.layout.cssgrid.CSSGrid`** 
-
-
 
 </td>
 <td valign="top">
@@ -740,21 +564,15 @@ We have added new samples to demonstrate different use cases. For more informati
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -763,28 +581,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.ui.unified.Calendar`** 
-
-
 
 </td>
 <td valign="top">
@@ -795,21 +605,15 @@ The `sap.ui.unified.Calendar` control now has aligned keyboard navigation when u
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -818,28 +622,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Control 
 
-
-
 </td>
 <td valign="top">
 
 **`sap.uxap.ObjectPageLayout`** 
-
-
 
 </td>
 <td valign="top">
@@ -857,21 +653,15 @@ Control
 
 <sub>Changed•Control•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -880,28 +670,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Apps/Tutorials** 
-
-
 
 </td>
 <td valign="top">
@@ -920,21 +702,15 @@ Some of these concepts use new APIs that have been available since OpenUI5 relea
 
 <sub>Changed•User Documentation•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -943,28 +719,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 User Documentation 
 
-
-
 </td>
 <td valign="top">
 
 **New Quick Start Tutorial** 
-
-
 
 </td>
 <td valign="top">
@@ -975,21 +743,15 @@ We have replaced the Hello World! tutorial with a new Quick Start tutorial that 
 
 <sub>Changed•User Documentation•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>
@@ -998,28 +760,20 @@ Info Only
 
 1.61 
 
-
-
 </td>
 <td valign="top">
 
 Changed 
-
-
 
 </td>
 <td valign="top">
 
 Feature 
 
-
-
 </td>
 <td valign="top">
 
 **Demo Kit Tools Page** 
-
-
 
 </td>
 <td valign="top">
@@ -1030,21 +784,15 @@ We have updated the *Tools* page and added two more blocks about the *Support As
 
 <sub>Changed•Feature•Info Only•1.61</sub>
 
-
-
 </td>
 <td valign="top">
 
 Info Only 
 
-
-
 </td>
 <td valign="top">
 
 2018-12-20
-
-
 
 </td>
 </tr>

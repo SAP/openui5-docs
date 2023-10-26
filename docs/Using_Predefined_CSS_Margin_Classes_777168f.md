@@ -59,8 +59,6 @@ Here are the classes we provide for single-sided margins:
 
 `sapUiTinyMarginEnd`
 
-
-
 </td>
 <td valign="top">
 
@@ -71,8 +69,6 @@ Here are the classes we provide for single-sided margins:
 `sapUiSmallMarginBegin`
 
 `sapUiSmallMarginEnd`
-
-
 
 </td>
 <td valign="top">
@@ -85,8 +81,6 @@ Here are the classes we provide for single-sided margins:
 
 `sapUiMediumMarginEnd`
 
-
-
 </td>
 <td valign="top">
 
@@ -97,8 +91,6 @@ Here are the classes we provide for single-sided margins:
 `sapUiLargeMarginBegin`
 
 `sapUiLargeMarginEnd`
-
-
 
 </td>
 </tr>
@@ -119,16 +111,12 @@ If you’d like to clear the space to the left and right or top and bottom of yo
 
 `sapUiTinyMarginTopBottom`
 
-
-
 </td>
 <td valign="top">
 
 `sapUiSmallMarginBeginEnd`
 
 `sapUiSmallMarginTopBottom`
-
-
 
 </td>
 <td valign="top">
@@ -137,16 +125,12 @@ If you’d like to clear the space to the left and right or top and bottom of yo
 
 `sapUiMediumMarginTopBottom`
 
-
-
 </td>
 <td valign="top">
 
 `sapUiLargeMarginBeginEnd`
 
 `sapUiLargeMarginTopBottom`
-
-
 
 </td>
 </tr>
@@ -161,28 +145,20 @@ We've also provided a set of negative margin classes that add a two-sided \(`Beg
 
 `sapUiTinyNegativeMarginBeginEnd` 
 
-
-
 </td>
 <td valign="top">
 
 `sapUiSmallNegativeMarginBeginEnd` 
-
-
 
 </td>
 <td valign="top">
 
 `sapUiMediumNegativeMarginBeginEnd` 
 
-
-
 </td>
 <td valign="top">
 
 `sapUiLargeNegativeMarginBeginEnd` 
-
-
 
 </td>
 </tr>
@@ -201,14 +177,10 @@ If your application is supposed to run on smartphone, tablet and desktop, it can
 
 Screen Width
 
-
-
 </th>
 <th valign="top">
 
 Example
-
-
 
 </th>
 </tr>
@@ -217,14 +189,10 @@ Example
 
 Screen width less than 600px \(smartphones\): For devices such as these, `sapUiResponsiveMargin` provides a 16px \(1rem\) bottom margin to your control. Each of the panels shown in the screenshot is using `sapUiResponsiveMargin`. As a result, they're all clearing the same 16px area of space below them.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/loio9520013705d3494383c587b737336856_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -233,14 +201,10 @@ Screen width less than 600px \(smartphones\): For devices such as these, `sapUiR
 
 Between 600px and 1023px \(tablets and small desktops\): For these, `sapUiResponsiveMargin` provides a 16px \(1rem\) margin all around your control, as you can see in the screenshot.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/loioca3e0cc3e25246d1ae50e67a1a497235_LowRes.png)
-
-
 
 </td>
 </tr>
@@ -249,14 +213,10 @@ Between 600px and 1023px \(tablets and small desktops\): For these, `sapUiRespon
 
 Larger than 1023px \(large desktops\): For these, `sapUiResponsiveMargin` provides 16px \(1 rem\) top and bottom margin as well as a 32px \(2 rem\) left and right margin, as shown in the screenshot.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/loiof76b0b343adf440684fcd968861fba01_LowRes.png)
-
-
 
 </td>
 </tr>

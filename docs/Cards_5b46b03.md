@@ -33,16 +33,12 @@ The following table provides an overview of the two main types of card controls 
 
 **Feature Supported** 
 
-
-
 </th>
 <th valign="top" colspan="2">
 
 \(Integration Card\)
 
 **<code><a href="Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card">sap.ui.integration.widgets.Card</a></code>**
-
-
 
 </th>
 <th valign="top" rowspan="2">
@@ -51,8 +47,6 @@ The following table provides an overview of the two main types of card controls 
 
 **<code><a href="Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_sap_f_card">sap.f.Card</a></code>**
 
-
-
 </th>
 </tr>
 <tr>
@@ -60,14 +54,10 @@ The following table provides an overview of the two main types of card controls 
 
 Adaptive, Analytical, List, Object, Table, and Timeline cards
 
-
-
 </th>
 <th valign="top">
 
 Component card
-
-
 
 </th>
 </tr>
@@ -76,28 +66,20 @@ Component card
 
 **Fiori 3 card UX** 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -106,28 +88,20 @@ Component card
 
 **Cross product integration** 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -136,28 +110,20 @@ Component card
 
 **Cross HTML product integration** 
 
+</td>
+<td valign="top">
 
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
-
-</td>
-<td valign="top">
-
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -166,28 +132,20 @@ Component card
 
 **FLP / cFLP integration** 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
-
-
 
 </td>
 </tr>
@@ -196,28 +154,20 @@ Component card
 
 **Independent of OpenUI5 runtime** 
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -226,28 +176,20 @@ Component card
 
 **Can implement application logic** 
 
-
-
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-
-
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-
 
 </td>
 </tr>
@@ -300,14 +242,10 @@ Cards can be transactional \(list, table, object, unstructured content, timeline
 
 Card Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -316,14 +254,10 @@ Description
 
 Adaptive card
 
-
-
 </td>
 <td valign="top">
 
 Used to visualize and reuse cards that are created using the Microsoft Adaptive Cards specification and manifest.
-
-
 
 </td>
 </tr>
@@ -332,14 +266,10 @@ Used to visualize and reuse cards that are created using the Microsoft Adaptive 
 
 Analytical card<sup>1</sup>
 
-
-
 </td>
 <td valign="top">
 
 Used for data visualization. Typically, it is defined by a numeric header and analytical data content. For example, chart types, such as line chart, donut chart, \(stacked\) column chart, \(stacked\) bar chart. For more information on the analytical card, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/analytical-card/).
-
-
 
 </td>
 </tr>
@@ -347,8 +277,6 @@ Used for data visualization. Typically, it is defined by a numeric header and an
 <td valign="top">
 
 Component card \(Experimental\)
-
-
 
 </td>
 <td valign="top">
@@ -367,14 +295,10 @@ Displays multiple controls and is used as a custom approach for use cases which 
 
 List card
 
-
-
 </td>
 <td valign="top">
 
 Displays multiple list items of all kind. Aggregated information can also be visualized with a line item. The counter in the header area is required for this type of card.
-
-
 
 </td>
 </tr>
@@ -383,14 +307,10 @@ Displays multiple list items of all kind. Aggregated information can also be vis
 
 Object card
 
-
-
 </td>
 <td valign="top">
 
 Displays the basic details for an object, for example, a person or a sales order.
-
-
 
 </td>
 </tr>
@@ -399,14 +319,10 @@ Displays the basic details for an object, for example, a person or a sales order
 
 Table card
 
-
-
 </td>
 <td valign="top">
 
 Displays a set of items in table format. For more information on the table card, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/overview-page-table-card/).
-
-
 
 </td>
 </tr>
@@ -415,14 +331,10 @@ Displays a set of items in table format. For more information on the table card,
 
 Timeline card<sup>2</sup>
 
-
-
 </td>
 <td valign="top">
 
 Displays time-related content.
-
-
 
 </td>
 </tr>
