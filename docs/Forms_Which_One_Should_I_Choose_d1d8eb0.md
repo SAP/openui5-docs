@@ -36,7 +36,7 @@ Simple Form [\(`sap.ui.layout.form.SimpleForm`\)](https://sdk.openui5.org/api/sa
 </th>
 <th valign="top">
 
-Smart Form [\(`sap.ui.comp.smartform.SmartForm`\)](https://sdk.openui5.org/api/sap.ui.comp.smartform.SmartForm) 
+`SmartForm` \(not available in OpenUI5\)
 
 </th>
 </tr>
@@ -58,7 +58,7 @@ Flexibility
 </td>
 <td valign="top">
 
-2
+n/a
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Simplicity
 </td>
 <td valign="top">
 
-2
+n/a
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ Performance
 </td>
 <td valign="top">
 
-2
+
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Automatic responsive design
 </td>
 <td valign="top">
 
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+n/a
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Accessible design
 </td>
 <td valign="top">
 
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+n/a
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ Controls inside are OData-bindable
 </td>
 <td valign="top">
 
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+n/a
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ Granular structure of a form control
 </td>
 <td valign="top">
 
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+n/a
 
 </td>
 </tr>
@@ -246,21 +246,6 @@ Use `sap.ui.layout.form.SimpleForm` if you want to do the following:
 -   Create a form quickly and easily
 
 -   Use a form that is automatically responsive
-
-
-***
-
-#### Smart Form
-
-Use `sap.ui.comp.smartform.SmartForm` if you want to do the following:
-
--   Create and edit forms for SAP applications
-
--   Work with `SmartField` controls inside the form
-
--   Leverage the built-in data validation of OpenUI5 based on the OData model's metadata
-
--   Work with OData services and automatically generate form fields
 
 
 ***

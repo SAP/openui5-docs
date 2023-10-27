@@ -10,12 +10,22 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f2d0
 
 ## Configuration Options and URL Parameters
 
-The complete list of configuration options available in OpenUI5 can be found in the *API Reference* under `sap.ui.core.Configuration`. The following table shows a subset of the available configuration options.
+The following tables show available configuration options.
 
 > ### Note:  
-> -   A subset of these configuration parameters can also be set via URL parameters \(if "**by URL parameter**" is: "![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)"\). URL parameter names are composed of the `sap-ui-` prefix together with the name of the configuration option, for example: `sap-ui-debug=true`.
-> 
-> -   Some of the information provided here assumes that the `compatVersion` configuration option is set to its expected value; check it for more details.
+> In earlier framework versions, the configuration options available in OpenUI5 could be found in the [API Reference under `sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration). This legacy module has been deprecated with OpenUI5 1.120 and replaced by a modular, future-proof solution for configuration handling.
+
+The available configuration options are below the topic they belong to, e.g. **Localization**, **Theming**, etc. Often, these topics correspond to modules with the same name, which provide methods to retrieve and set the values of their associated configuration options.
+
+Some configuration options can also be set via URL parameters, which is indicated by an entry in the corresponding column in the tables below. URL parameter names are composed of the `sap-ui-` prefix together with the name of the configuration option, for example: `sap-ui-log-level=ALL`. An application may set the `ignore-url-parameters` option to `true` to disable configuration URL parameters.
+
+Typically, configuration options are evaluated when booting OpenUI5. After that, all changes to these options are ignored. For some configuration options, specific APIs exist that allow you to modify their values at runtime. This is indicated by an entry in the corresponding column in the tables below, which usually also provides a link to the respective API method.
+
+***
+
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_mpr_v1v_fzb"/>
+
+### Localization
 
 
 <table>
@@ -27,12 +37,541 @@ Option
 </th>
 <th valign="top">
 
-Type
+Description
 
 </th>
 <th valign="top">
 
-[pre-boot](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+by URL parameter
+
+</th>
+<th valign="top">
+
+[by API](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`active-terminologies`
+
+</td>
+<td valign="top">
+
+Type: `string[]`
+
+Default value: `undefined`
+
+List of active terminologies provided via URL parameter, bootstrap or [`sap.ui.core.Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create) API.
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`language`
+
+</td>
+<td valign="top">
+
+Type: `string | sap.ui.core.Locale`
+
+Default value: `user settings / language`
+
+Defines the language that shall be used for localized texts, formatting, and so on. For more information, see [Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md).
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Localization.setLanguage`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setLanguage)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`rtl`
+
+</td>
+<td valign="top">
+
+Type: `boolean`
+
+Default value: `false`
+
+If set to `true`, all controls are rendered in right-to-left \(RTL\) mode.
+
+Typically, the RTL mode is derived from the current language, which is usually picked automatically based on the locale configuration of the user’s browser or profile data. Particularly for testing purposes, it might be handy to set the mode explicitly.
+
+Modifiable at runtime with restrictions. For more information, see the [API Reference: `Localization.setLanguage`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setLanguage) .
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Localization.setRTL`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setRTL)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`timezone`
+
+</td>
+<td valign="top">
+
+Type: `string`
+
+Default value: the browser's local time zone
+
+The configured time zone is used for `sap.ui.core.date.UI5Date` instances and to convert dates when using `sap.ui.core.format.DateFormat` instances. The time zone should be an IANA time zone ID, e.g. "America/New\_York". In addition to the `sap-ui-timezone` URL parameter, an alternative `sap-timezone` parameter can also be used to set the time zone.
+
+For more information, see [Date Format](Date_Format_91f2eba.md).
+
+> ### Caution:  
+> Setting the time zone via the configuration API has to be done at the earliest possible point in time when launching an OpenUI5 application. It is preferably even set by shells or launchpads, such as the SAP Fiori launchpad, before launching the application. Using the API in running applications can lead to unexpected data inconsistencies, because any created date objects could still be related to the previously configured time zone. Generally, **an app should be completely restarted after changing the time zone**.
+> 
+> The OpenUI5 configuration is applied globally and not application-specific; it therefore affects **all** apps inside the shell or launchpad, for example.
+
+
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Localization.setTimezone`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setTimezone)
+
+</td>
+</tr>
+</table>
+
+***
+
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_ins_2bv_fzb"/>
+
+### Formatting
+
+
+<table>
+<tr>
+<th valign="top">
+
+Option
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+by URL parameter
+
+</th>
+<th valign="top">
+
+[by API](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`calendar-type`
+
+</td>
+<td valign="top">
+
+Type: `sap.ui.core.CalendarType`
+
+Default value: If there is no value defined, the actual value is determined from the locale data for the configured locale.
+
+Defines the calendar type that is used for locale-dependent, date-related features \(for example, formatting or parsing date and time\).
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Formatting.setCalendarType`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setCalendarType)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`calendar-week-numbering`
+
+</td>
+<td valign="top">
+
+Type: `sap.ui.core.date.CalendarWeekNumbering`
+
+Default value: `Default`
+
+Defines the calendar week numbering algorithm that is used to determine the first day of the week and the first calendar week of the year.
+
+For more information, see the [API Reference: `sap.ui.core.date.CalendarWeekNumbering`](https://sdk.openui5.org/api/sap.ui.core.date.CalendarWeekNumbering)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Formatting.setCalendarWeekNumbering`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setCalendarWeekNumbering)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`format-locale`
+
+</td>
+<td valign="top">
+
+Type: `string | sap.ui.core.Locale`
+
+Default value: `null`
+
+Defines the locale used for formatting purposes; the default values for the locale are derived from the language.
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Formatting.setLanguageTag`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setLanguageTag)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`trailing-currency-code`
+
+</td>
+<td valign="top">
+
+Type: `boolean`
+
+Default value: `true`
+
+By default the currency codes are shown after the amount. If set to `false`, the currency code will be shown as configured by the locale-specific patterns of the Common Locale Data Repository \(CLDR\).
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Formatting.setTrailingCurrencyCode`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setTrailingCurrencyCode)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ABAP-date-format`
+
+</td>
+<td valign="top">
+
+Type: `string`
+
+Default value: `''`
+
+Specifies one of the ABAP date formats.
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Formatting.setABAPDateFormat`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.ABAPDateFormat)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ABAP-time-format`
+
+</td>
+<td valign="top">
+
+Type: `string`
+
+Default value: `''`
+
+Specifies one of the ABAP time formats.
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Formatting.setABAPTimeFormat`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setABAPTimeFormat)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ABAP-number-format`
+
+</td>
+<td valign="top">
+
+Type: `string`
+
+Default value: `''`
+
+Specifies one of the ABAP number formats.
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Formatting.setABAPNumberFormat`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setABAPNumberFormat)
+
+</td>
+</tr>
+</table>
+
+***
+
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_svv_cbv_fzb"/>
+
+### Theming
+
+
+<table>
+<tr>
+<th valign="top">
+
+Option
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+by URL parameter
+
+</th>
+<th valign="top">
+
+[by API](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`theme`
+
+</td>
+<td valign="top">
+
+Type: `string`
+
+Default value: `base`
+
+Defines the theme that shall be used.
+
+**Theme Root:** When the theme string contains an at-sign \(`@`\), anything before the `@` is assumed to denote the ID of the theme, while anything after the `@` is assumed to represent the URL location of the theme. To defend against XSS attacks, only tthe server-relative part of the URL is used.
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Theming.setTheme`](https://sdk.openui5.org/api/module:sap/ui/core/Theming%23methods/sap/ui/core/Theming.setTheme)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`theme-roots`
+
+</td>
+<td valign="top">
+
+Type: `object`
+
+Default value: undefined
+
+Defines the location of themes.
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`preload-lib-css`
+
+</td>
+<td valign="top">
+
+Type: `string[]`
+
+Default value: `[ ]`
+
+Specifies a list of UI libraries using the same syntax as the `libs` property, for which the OpenUI5 core does not include the `library.css` stylesheet in the head of the page. If the list starts with an exclamation mark \(!\), no stylesheet is loaded at all for the specified libs. In this case, it is assumed that the application takes care of loading CSS, for example, a manually merged, single CSS file. Otherwise, the framework instructs the back end to create a merged CSS for the specified libs. In both cases, if the first libraries name is an asterisk \(\*\), it will be expanded to the list of already configured libraries.
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`versioned-lib-css`
+
+</td>
+<td valign="top">
+
+Type: `boolean`
+
+Default value: `false`
+
+If set to `true`, the version parameters are included in requests to the library theme resource \(for example, the parameter `library.css?version=1.0.1&sap-ui-dist-version=1.0.2` is added. `version` contains the library version and `sap-ui-dist-version` the version of the OpenUI5 distribution .
+
+This applies to the following resources:
+
+-   `library(-RTL).css` \(or any other variation\)
+
+-   `library-parameters.json` 
+
+
+URLs within the CSS or parameters are not modified.
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+</table>
+
+***
+
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_c33_gbv_fzb"/>
+
+### Control Behavior and UI Integration
+
+
+<table>
+<tr>
+<th valign="top">
+
+Option
+
+</th>
+<th valign="top">
+
+Description
 
 </th>
 <th valign="top">
@@ -68,11 +607,6 @@ If set to `true`, the OpenUI5 controls are rendered for or running in accessibil
 </td>
 <td valign="top">
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
 ![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
@@ -80,67 +614,16 @@ If set to `true`, the OpenUI5 controls are rendered for or running in accessibil
 <tr>
 <td valign="top">
 
-`activeTerminologies`
+`animation-mode`
 
 </td>
 <td valign="top">
 
-Type: `string[]`
-
-Default value: `undefined`
-
-List of active terminologies provided via URL parameter, bootstrap or `sap.ui.core.Component` API.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`animationMode`
-
-</td>
-<td valign="top">
-
-Type: `string`
+Type: `sap.ui.core.Configuration.AnimationMode`
 
 Default value: `full`
 
-The following animation modes are available:
-
--   `full`: all animations are shown
-
--   `basic`: a reduced, more light-weight set of animations
-
--   `minimal`: no animations are shown, except animations of fundamental functionality
-
--   `none`: deactivates the animation completely
-
-
-This parameter replaces the deprecated Boolean `animation` parameter.
-
-For all controls that implement the `animation` parameter, the `animationMode` is set as follows:
-
--   If `animation` is set to `true`, this is interpreted as `animationMode` `full`
-
--   If `animation` is set to `false`, this is interpreted as `animationMode` `minimal`
-
-
-
+Sets the animation behavior according to the values and description provided by the [`AnimationMode`](https://sdk.openui5.org/api/sap.ui.core.Configuration.AnimationMode) enumeration, e.g. `full`, `basic`, `minimal` or`none`.
 
 </td>
 <td valign="top">
@@ -152,159 +635,81 @@ For all controls that implement the `animation` parameter, the `animationMode` i
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+[`ControlBehavior.setAnimationMode`](https://sdk.openui5.org/api/module:sap/ui/core/ControlBehavior%23methods/sap/ui/core/ControlBehavior.setAnimationMode)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`appCacheBuster`
-
-</td>
-<td valign="top">
-
-Type: `boolean | string[]`
-
-Default value: \[ \]
-
-Modifiable at runtime via the `AppCacheBuster` API \(see [Application Cache Buster: Enhanced Concept](Application_Cache_Buster_Enhanced_Concept_94e0c33.md)\).
-
-If set to a non-empty list of URLs, the `AppCacheBuster` will be activated and will load component version info files from the configured set of URLs \(see [Application Cache Buster](Application_Cache_Buster_ff7aced.md)\).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`areas`
-
-</td>
-<td valign="top">
-
-Type: `string[]`
-
-Default value: `null`
-
-This configuration parameter defines UI areas that shall be created in advance; use `` to create new UI areas and `sap.ui.getCore().getUIArea(id).destroy()` to delete existing UI areas at runtime.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`async`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-This configuration setting enables the module loader to load both modules and library-preload files asynchronously. Activating this feature requires intensive application-side cooperation and testing to ensure a stable and fully working application. In case you encounter issues, or if you want to prepare your application in advance, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`autoAriaBodyRole`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Determines whether the framework automatically adds the ARIA role `application` to the HTML body.
-
-As of OpenUI5 version 1.78, `autoAriaBodyRole` has a default value `false` in order to conform to the ARIA 1.1 recommendations. Role application on body level is not recommended, as the screen reader would then interpret the entire application as one big custom control.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`bindingSyntax`
+`uid-prefix`
 
 </td>
 <td valign="top">
 
 Type: `string`
 
-Default value: `complex`
+Default value: '--'
 
-This configuration parameter defines whether the simple or the complex binding syntax is used. The parameter only affects bindings that are defined as strings, for example in the constructor of a control, or when specifying a binding in a declarative view, such as an XML view.
+Prefix to be used for automatically generated control IDs; must be chosen carefully to avoid conflicts with IDs defined by the application or DOM IDs.
 
 </td>
 <td valign="top">
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+</table>
+
+***
+
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_trk_3bv_fzb"/>
+
+### Security
+
+
+<table>
+<tr>
+<th valign="top">
+
+Option
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+by URL parameter
+
+</th>
+<th valign="top">
+
+[by API](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`allowlist-service` 
+
+</td>
+<td valign="top">
+
+Type: `string`
+
+Default value: `null`
+
+URL to an allowlist service; see [Allowlist Service](Allowlist_Service_d04a6d4.md).
 
 </td>
 <td valign="top">
@@ -321,66 +726,114 @@ This configuration parameter defines whether the simple or the complex binding s
 <tr>
 <td valign="top">
 
-`calendarType`
+`frame-options` 
 
 </td>
 <td valign="top">
 
-Type: `sap.ui.core.CalendarType`
+Type: `string`
 
-Default value: If there is no value defined, the actual value is determined from the locale data for the configured locale.
+Default value: `default`
 
-Defines the calendar type that is used for locale-dependent, date-related features \(for example, formatting or parsing date and time\).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+Frame options mode; for more information, see [Frame Options](Frame_Options_62d9c4d.md).
 
 </td>
 <td valign="top">
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`calendarWeekNumbering`
+`frame-options-config` 
 
 </td>
 <td valign="top">
 
-Type: `sap.ui.core.date.CalendarWeekNumbering`
+Type: `object`
 
-Default value: `Default`
+Default value: undefined
 
-Defines the calendar week numbering algorithm that is used to determine the first day of the week and the first calendar week of the year.
+Advanced frame options configuration; for more information, see [Frame Options](Frame_Options_62d9c4d.md).
 
-For more information, see the [API Reference: `sap.ui.core.date.CalendarWeekNumbering`](https://sdk.openui5.org/api/sap.ui.core.date.CalendarWeekNumbering)
+</td>
+<td valign="top">
+
+![](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+<td valign="top">
+
+![](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`security-token-handlers`
+
+</td>
+<td valign="top">
+
+Type: `function[]`
+
+Each of these functions is called by the OData V4 model to retrieve the security tokens instead of using the default "X-CSRF-Token".
+
+For more information, see [Security Token Handling](Model_Instantiation_and_Data_Access_9613f1f.md#loio9613f1f2d88747cab21896f7216afdac__section_STH).
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+[`Security.setSecurityTokenHandlers`](https://sdk.openui5.org/api/module:sap/ui/security/Security%23methods/sap/ui/security/Security.setSecurityTokenHandlers)
 
 </td>
-<td valign="top">
+</tr>
+</table>
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+***
 
-</td>
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_zy1_kbv_fzb"/>
+
+### Supportability
+
+
+<table>
+<tr>
+<th valign="top">
+
+Option
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+by URL parameter
+
+</th>
+<th valign="top">
+
+[by API](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -428,11 +881,6 @@ You can use the following patterns:
 </td>
 <td valign="top">
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
 ![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
@@ -440,164 +888,7 @@ You can use the following patterns:
 <tr>
 <td valign="top">
 
-`excludeJQueryCompat`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-A compatibility layer restores several incompatibly changed APIs in jQuery v3 back to their old behavior in jQuery v2. It may be excluded via this setting. For more information, see [Upgrading from a Version Below 1.82](Upgrading_from_a_Version_Below_1_82_147eef9.md).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`formatLocale`
-
-</td>
-<td valign="top">
-
-Type: `string | sap.ui.core.Locale`
-
-Default value: `null`
-
-This configuration parameter defines the locale used for formatting purposes; the default values for the locale are derived from the language.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`formatSettings`
-
-</td>
-<td valign="top">
-
-Type: `sap.ui.core.Configuration.FormatSettings`
-
-Encapsulates configuration settings that are related to data formatting / parsing. When format configuration settings are modified through this class, UI5 only ensures that formatter objects created after that point in time will honor the modifications. To be on the safe side, applications should do any modifications early in their lifecycle or recreate any model/UI that is locale dependent.
-
-Example usage: `sap.ui.getCore().getConfiguration().getFormatSettings().setCustomUnits(...)`
-
-For more information, see the [API Reference: `sap.ui.core.Configuration.FormatSettings`](https://sdk.openui5.org/api/sap.ui.core.Configuration.FormatSettings)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`frameOptions` 
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: `default`
-
-Frame options mode; for more information, see [Frame Options](Frame_Options_62d9c4d.md).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`frameOptionsConfig` 
-
-</td>
-<td valign="top">
-
-Type: `object`
-
-Default value: undefined
-
-Advanced frame options configuration; for more information, see [Frame Options](Frame_Options_62d9c4d.md).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`ignoreUrlParams`
+`ignore-url-params`
 
 </td>
 <td valign="top">
@@ -607,11 +898,6 @@ Type: `boolean`
 Default value: `false`
 
 Security-relevant parameter that allows applications to disable configuration modifications via URL parameters.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -647,11 +933,6 @@ If set to `true`, the `sap-ui-debug.js` module is included and provides some sup
 </td>
 <td valign="top">
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
 ![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
@@ -659,73 +940,7 @@ If set to `true`, the `sap-ui-debug.js` module is included and provides some sup
 <tr>
 <td valign="top">
 
-`language`
-
-</td>
-<td valign="top">
-
-Type: `string | sap.ui.core.Locale`
-
-Default value: `user settings / language`
-
-This configuration parameter defines the language that shall be used for localized texts, formatting, and so on. For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setLanguage) and [Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`libs`
-
-</td>
-<td valign="top">
-
-Type: `string[]`
-
-Default value: `[ ]`
-
-This configuration parameter defines a list of libraries that shall be loaded initially; use the `loadLibrary()` method to load further libraries.
-
-For more information, see: [loadLibrary](https://sdk.openui5.org/api/sap.ui.core.Core/methods/loadLibrary)
-
-All libraries provided using the configuration option `libs` are merged into the configuration option `modules`.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`logLevel`
+`log-level`
 
 </td>
 <td valign="top">
@@ -748,386 +963,7 @@ Options: `0|1|2|3|4|5|6|NONE|FATAL|ERROR|WARNING|INFO|DEBUG|ALL`
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`manifestFirst`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Modifiable at runtime by using the `sap.ui.core.Component.create` component factory.
-
-If set to `true`, the descriptor for a component is read and evaluated first, before loading the component code \(`Component.js`\).
-
-For more information, see: [`sap.ui.core.Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component/methods/sap.ui.core.Component.create)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`modules`
-
-</td>
-<td valign="top">
-
-Type: `string[]`
-
-Default value: `[ ]`
-
-This configuration parameter defines a list of JavaScript modules that shall be loaded after the core has been initialized.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`noConflict`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-If set to `true`, OpenUI5 forces jQuery into `noConflict` mode.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`noDuplicateIds`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `true`
-
-If set to `true`, this configuration parameter enforces that the same IDs are **not** used for multiple controls; we highly recommend this check as duplicate IDs may cause unforeseeable issues and side effects.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`onInit`
-
-</td>
-<td valign="top">
-
-Type: `code | string`
-
-Default value: `undefined`
-
-This configuration setting defines code that has to be executed after the initialization.
-
-If you define a `string`, this can be a reference to a function or a name of a module. Functions are resolved from the global namespace \(like `"myapp.initFunction"`\). Modules are indicated by the prefix `module:` \(like `"module:myapp/main/Module").` The module will be loaded and executed after the initialization.
-
-With `sap.ui.getCore().attachInit()` multiple handlers can be attached.
-
-The `onInit` callbacks are executed in the following order:
-
-1.  [\[onInit function/module\]](Standard_Variant_for_Bootstrapping_91f1f45.md)
-2.  [\[sap.ui.getCore\(\).attachInit\]](Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070)
-
-
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`originInfo`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-If set to `true`, additional information for text resources is provided that allows to determine the origin of a translated text on the UI.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`preload`
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: `auto`
-
-This configuration parameter defines the loading behaviour of the so-called preload files. They contain all modules of a library. The contained modules are only loaded, but not executed until they are used by the application.
-
-The values are used as follows:
-
--   When set to `auto`, OpenUI5 runtime automatically uses `preload=sync` when the `async` bootstrap configuration parameter is set to false \(`async=false`\) or not set at all. The `preload` files are loaded asynchronously in case `async=true` is set.
--   When set to `sync`, the preload files for the declared libraries are loaded synchronously.
--   When set to `async`, the preload files are loaded asynchronously. However, we recommend to use the `async=true` configuration parameter in the bootstrap instead, because it switches more module/related APIs to `async` including the loading behaviour of the preload files.
--   For any other value \(for example blank\), the preload feature is deactivated and modules are loaded on demand.
-
-
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`preloadLibCss`
-
-</td>
-<td valign="top">
-
-Type: `string[]`
-
-Default value: `[ ]`
-
-This configuration setting specifies a list of UI libraries using the same syntax as the `libs` property, for which the OpenUI5 core does not include the `library.css` stylesheet in the head of the page. If the list starts with an exclamation mark \(!\), no stylesheet is loaded at all for the specified libs. In this case, it is assumed that the application takes care of loading CSS, for example, a manually merged, single CSS file. Otherwise, the Core instructs the back end to create a merged CSS for the specified libs. In both cases, if the first libraries name is an asterisk \(\*\), it will be expanded to the list of already configured libraries.
-
-> ### Note:  
-> The `merge` feature is currently only available for Java and only for apps that include the additional back-end component `resource-ext`. Without the merge, applications can include their own merged CSS file and suppress the loading of the standard`library.css`.
-
-
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`resourceRoots`
-
-</td>
-<td valign="top">
-
-Type: `object`
-
-Default value: undefined
-
-With `sap.ui.loader.config({paths: ...})` a map can be used to define locations for resources. See the [API Reference: `sap.ui.loader`](https://sdk.openui5.org/api/sap.ui.loader)
-
-To provide a URL location that is **not** overwritten by a component later on, `final` can be set to `true`, for example: `{url: '/that/is/the/prefix/', final: true}`
-
-For more information, see the [API Reference: `sap.ui.loader.config`](https://sdk.openui5.org/api/sap.ui.loader/methods/sap.ui.loader.config)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`rtl`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-If set to `true`, all controls are rendered in right-to-left \(RTL\) mode; not yet determined automatically.
-
-Modifiable at runtime with restrictions. For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setLanguage) and [API Reference: `sap.ui.core.Configuration.setRTL`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setRTL) 
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`securityTokenHandlers`
-
-</td>
-<td valign="top">
-
-Type: `function[]`
-
-Each of these functions is called by the OData V4 model to retrieve the security tokens instead of using the default "X-CSRF-Token".
-
-For more information, see [Security Token Handling](Model_Instantiation_and_Data_Access_9613f1f.md#loio9613f1f2d88747cab21896f7216afdac__section_STH).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+[`Log.setLevel`](https://sdk.openui5.org/api/module:sap/base/Log%23methods/sap/base/Log.setLevel)
 
 </td>
 </tr>
@@ -1144,11 +980,6 @@ Type: `boolean`
 Default value: `false`
 
 Activates end-to-end traces and measurement of response times For more information, see [Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -1186,11 +1017,6 @@ Options: `true | silent | window`
 </td>
 <td valign="top">
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
 ![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
@@ -1198,7 +1024,7 @@ Options: `true | silent | window`
 <tr>
 <td valign="top">
 
-`testRecorder`
+`test-recorder`
 
 </td>
 <td valign="top">
@@ -1219,319 +1045,6 @@ Options: `true | silent | window`
 </td>
 <td valign="top">
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`theme`
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: `base`
-
-This configuration parameter defines the theme that shall be used for the current page; you can change the theme at runtime by calling `sap.ui.getCore().applyTheme()`
-
-**Theme Root:**
-
-When the theme string contains an at-sign \(`@`\), anything before the `@` is assumed to denote the ID of the theme, while anything after the `@` is assumed to represent the URL location of the theme. To defend against XSS attacks, only tthe server-relative part of the URL is used. Any host or port prefix will be ignored.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`themeRoots`
-
-</td>
-<td valign="top">
-
-Type: `object`
-
-Default value: undefined
-
-Modifiable at runtime via `sap.ui.getCore().setThemeRoot()`
-
-This configuration parameter defines the location of themes.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`timezone`
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: the browser's local time zone
-
-The configured time zone is used for `sap.ui.core.date.UI5Date` instances and to convert dates when using `sap.ui.core.format.DateFormat` instances. The time zone should be an IANA time zone ID, e.g. "America/New\_York". In addition to the `sap-ui-timezone` URL parameter, an alternative `sap-timezone` parameter can also be used to set the time zone.
-
-For more information, see [Date Format](Date_Format_91f2eba.md).
-
-> ### Caution:  
-> Setting the time zone via the configuration API has to be done at the earliest possible point in time when launching an OpenUI5 application. It is preferably even set by shells or launchpads, such as the SAP Fiori launchpad, before launching the application. Using the API in running applications can lead to unexpected data inconsistencies, because any created date objects could still be related to the previously configured time zone. Generally, **an app should be completely restarted after changing the time zone**.
-> 
-> The OpenUI5 configuration is applied globally and not application-specific; it therefore affects **all** apps inside the shell or launchpad, for example.
-
-
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`trace`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Defines whether a trace view should be shown.
-
-Has only an effect when the `sap-ui-debug.js` module has been loaded, either explicitly or by setting the `debug` option to `true`.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`trailingCurrencyCode`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `true`
-
-By default the currency codes are shown after the amount. If set to `false`, the currency code will be shown as configured by the locale-specific patterns of the Common Locale Data Repository \(CLDR\).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`uidPrefix`
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: '--'
-
-Prefix to be used for automatically generated control IDs; must be chosen carefully to avoid conflicts with IDs defined by the application or DOM IDs.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`versionedLibCss`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-If set to `true`, the version parameters are included in requests to the library theme resource \(for example, the parameter `library.css?version=1.0.1&sap-ui-dist-version=1.0.2` is added. `version` contains the library version and `sap-ui-dist-version` the version of the OpenUI5 distribution .
-
-This applies to the following resources:
-
--   `library(-RTL).css` \(or any other variation\)
-
--   `library-parameters.json` 
-
-
-URLs within the CSS or parameters are not modified.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`allowlistService` 
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: `null`
-
-URL to an allowlist service; see [Allowlist Service](Allowlist_Service_d04a6d4.md).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`compatVersion` 
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: `1.14`
-
-> ### Note:  
-> Applications must set this option to `edge`. **Other version definitions are deprecated.**
-
-For more information, see [Compatibility Version Information](Compatibility_Version_Information_9feb96d.md).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
 ![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
@@ -1540,12 +1053,9 @@ For more information, see [Compatibility Version Information](Compatibility_Vers
 
 ***
 
-### Experimental Options
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_dq2_mbv_fzb"/>
 
-The options listed in the table below are 'experimental'. They may be removed in future versions, or their definition or behavior may change in an incompatible way. Experimental options are identified by the name prefix `xx-`. Experimental configuration options are used for support scenarios where OpenUI5 development needs the freedom to evolve supportability features over time. Others are related to experimental features where the underlying feature still may change. When an experimental configuration option becomes mature, the `xx-` prefix is removed from the definition. For compatibility reasons, the old name with the `xx-` prefix will still be supported.
-
-> ### Note:  
-> The features listed below are experimental features and may be modified or removed in future versions.
+### Loading and Integration
 
 
 <table>
@@ -1557,12 +1067,7 @@ Option
 </th>
 <th valign="top">
 
-Type
-
-</th>
-<th valign="top">
-
-[pre-boot](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+Description
 
 </th>
 <th valign="top">
@@ -1579,23 +1084,44 @@ by URL parameter
 <tr>
 <td valign="top">
 
-`xx-appCacheBusterMode`
+`app-cache-buster`
 
 </td>
 <td valign="top">
 
-Type: `string`
+Type: `boolean | string[]`
 
-Default value: `sync`
+Default value: \[ \]
 
-The loading mode of the AppCacheBuster.
+Modifiable at runtime via the `AppCacheBuster` API \(see [Application Cache Buster: Enhanced Concept](Application_Cache_Buster_Enhanced_Concept_94e0c33.md)\).
 
-Options: `sync | async | batch`.
+If set to a non-empty list of URLs, the `AppCacheBuster` will be activated and will load component version info files from the configured set of URLs \(see [Application Cache Buster](Application_Cache_Buster_ff7aced.md)\).
 
 </td>
 <td valign="top">
 
-![](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`exclude-jquery-compat`
+
+</td>
+<td valign="top">
+
+Type: `boolean`
+
+Default value: `false`
+
+A compatibility layer restores several incompatibly changed APIs in jQuery v3 back to their old behavior in jQuery v2. It may be excluded via this setting. For more information, see [Upgrading from a Version Below 1.82](Upgrading_from_a_Version_Below_1_82_147eef9.md).
 
 </td>
 <td valign="top">
@@ -1612,26 +1138,166 @@ Options: `sync | async | batch`.
 <tr>
 <td valign="top">
 
-`xx-appCacheBusterHooks`
+`libs`
+
+</td>
+<td valign="top">
+
+Type: `string[]`
+
+Default value: `[ ]`
+
+Defines a list of libraries that shall be loaded initially.
+
+To load further libraries, the `Lib.load()` method may be used. For more information, see: [Lib.load](https://sdk.openui5.org/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.load)
+
+All libraries provided using the configuration option `libs` are merged into the configuration option `modules`.
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`modules`
+
+</td>
+<td valign="top">
+
+Type: `string[]`
+
+Default value: `[ ]`
+
+Defines a list of JavaScript modules that shall be loaded after the core has been initialized.
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`no-conflict`
+
+</td>
+<td valign="top">
+
+Type: `boolean`
+
+Default value: `false`
+
+If set to `true`, OpenUI5 forces jQuery into `noConflict` mode.
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`on-init`
+
+</td>
+<td valign="top">
+
+Type: `string`
+
+Default value: `undefined`
+
+Defines code that has to be executed after the initialization.
+
+The value is the name of a module indicated by the prefix `module:` \(like `"module:myapp/main/Module").` The module will be loaded and executed after initialization.
+
+**Deprecation:** As of UI5 1.120, only module names can be provided. Code or references to functions can no longer be provided.
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`preload`
+
+</td>
+<td valign="top">
+
+Type: `string`
+
+Default value: `auto`
+
+Defines the loading behaviour of the so-called preload files. They contain all modules of a library. The contained modules are only loaded, but not executed until they are used by the application.
+
+The values are used as follows:
+
+-   When set to `auto`, the runtime loads preload files asynchronously if the bootstrap configuration parameter `async` is set as `async=true`. We recommend to use the `async=true` configuration parameter in the bootstrap, as it switches many module-related APIs to `async`, including the loading behaviour of the preload files.
+-   Preload files for the declared libraries are loaded synchronously when the `async` bootstrap configuration parameter is set to`false` \(`async=false`\) or not set at all. Best practices discourage such behavior.
+-   For any other value \(for example blank\), the preload feature is deactivated and modules are loaded on demand.
+
+
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`resource-roots`
 
 </td>
 <td valign="top">
 
 Type: `object`
 
-Default value: `undefined`
+Default value: undefined
 
-Object defining the callback hooks for the AppCacheBuster like e.g. `handleURL`, `onIndexLoad` or `onIndexLoaded`.
+With `sap.ui.loader.config({paths: ...})` a map can be used to define locations for resources. See the [API Reference: `sap.ui.loader`](https://sdk.openui5.org/api/sap.ui.loader)
 
-</td>
-<td valign="top">
+To provide a URL location that is **not** overwritten by a component later on, `final` can be set to `true`, for example: `{url: '/that/is/the/prefix/', final: true}`
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+For more information, see the [API Reference: `sap.ui.loader.config`](https://sdk.openui5.org/api/sap.ui.loader/methods/sap.ui.loader.config)
 
 </td>
 <td valign="top">
@@ -1639,772 +1305,19 @@ Object defining the callback hooks for the AppCacheBuster like e.g. `handleURL`,
 ![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-avoidAriaApplicationRole`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `true`
-
-Prevents the framework from automatically adding the ARIA role application to the HTML body.
-
-</td>
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-cache-excludedKeys`
-
-</td>
-<td valign="top">
-
-Type: `string[]`
-
-Default value: `[]`
-
-A list of all keys that the Cache Manager will ignore when setting or getting values.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-cache-serialization`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Whether the Cache Manager serialization support is switched on.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-cache-use`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `true`
-
-Whether the Cache Manager is switched on.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-componentPreload`
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: same as `preload`
-
-Allows to suppress the preload of component resources \(`Component-preload.js`\). By default, the component resources are automatically preloaded when preloads are active in general \(e.g. when running against the optimized OpenUI5 runtime and not running in debug mode\). With this parameter, the preload can be switched off without affecting the library preload. `sync` or `async` have no meaning; both are accepted to be compatible with the library preload, but the code that creates a component decides whether this happens synchronously or asynchronously.
-
-Options: `sync | async | off`.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-cssVariables`
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: `false`
-
-Enable usage of CSS variables.
-
-Options: `false | true | additional`.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-debugModuleLoading`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-When set to `true`, the OpenUI5 module loading feature produces `DEBUG` output for every required, executed, or required but already loaded module. This can help to analyse issues with dependency order, and so on.
-
-By default, the log level is the same as for the standard log, but not higher than `INFO`.
-
-With the experimental config option `xx-debugModuleLoading`, it can be raised to `DEBUG`.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-debugRendering`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-When set to `true`, some components of the OpenUI5 rendering system \(`RenderManager`, `UIArea`\) create a far more verbose debug output for rendering steps, for example:
-
--   Which controls have to be rendered?
-
--   Who invalidated the control? \(stacktrace\)
-
--   Was one rendering run sufficient, or have there been multiple runs?
-
-
-
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-depCache`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Whether dependency cache info files should be loaded instead of preload files.
-
-This experimental feature is intended for HTTP/2 scenarios.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-designMode`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Whether the design mode is active or not.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-disableCustomizing`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Whether the customizing is disabled or not.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-handleValidation`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Whether type validation is handled by the Core.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-hyphenation`
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: `''`
-
-Force hyphenation to use only browser-native or only third-party.
-
-Options: `native | thirdparty | disable`.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-lesssupport`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Enable `LessSupport`.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-libraryPreloadFiles`
-
-</td>
-<td valign="top">
-
-Type: `string[]`
-
-Default value: `both`
-
-Allows to enforce the use of a specific preload file type:
-
--   for all libraries: `?sap-ui-xx-libraryPreloadFiles=json`
-
--   for individual libraries \(might be a comma separated list\): `?sap-ui-xx-libraryPreloadFiles=sap.m:none,sap.ui.layout:json`
-
--   for a combination of both: `?sap-ui-xx-libraryPreloadFiles=both,sap.m:none,sap.ui.layout:js` 
-
-
-Possible values for the file types are
-
--   `none` \(no preload at all\)
-
--   `json` \(only try to load `library-preload.json`\)
-
--   `js` \(only try to load `library-preload.js`\)
-
--   `both` \(first try `js`, then `json`\).
-
-
-Any other value will be ignored. The default is `both` for all libraries.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-noless`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Only useful at development time: when set to `true`, the browser-based compilation of LESS theming files is suppressed. Only the CSS that is created at build-time will be loaded.
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-nosync`
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-When set to `warn`, any use of synchronous XHRs will be reported with a warning in the console. When set to `true`, such calls will cause an error.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-supportedLanguages`
-
-</td>
-<td valign="top">
-
-Type: `string[]`
-
-Default value: `[]`
-
-With this option the client can be instructed to limit its back-end requests for translatable texts to the configured set of languages. An empty value or the value `*` allows any language. The value `default` limits the requests to the set of languages that are delivered with OpenUI5.
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-self-closing-check`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-Only useful for development / support: Issues a warning if a non-void HTML element is written in self-closing syntax. For more information, see [Upgrading from a Version Below 1.82](Upgrading_from_a_Version_Below_1_82_147eef9.md).
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-suppressDeactivationOfControllerCode`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-rootComponentNode`
-
-</td>
-<td valign="top">
-
-Type: `string` 
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-viewCache`
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `true`
-
-Allows to disable the view caching, for example, during development \(see [XML View Cache](XML_View_Cache_3d85d5e.md)\).
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`xx-waitForTheme`
-
-</td>
-<td valign="top">
-
-Type: `string`
-
-Default value: `undefined`
-
-Possible values are:
-
--   `undefined` \(default\)
-
-    By default neither the initialization of the OpenUI5 Core nor the first rendering wait for the configured theme to be loaded.
-
--   `rendering`
-
-    The first \(initial\) rendering of the application will be delayed until the theme has been loaded and applied \(until `Core.isThemeApplied()`\). Helps to avoid FOUC \(flash of unstyled content\).
-
--   `init`
-
-    Same as `rendering`, but additionally delays the `init` event of theOpenUI5 Core until the configured theme has been loaded. Application code that waits for this event can then rely on the theming information to be present, e.g. for calling [`sap.ui.core.theming.Parameters.get`](https://sdk.openui5.org/api/sap.ui.core.theming.Parameters/methods/sap.ui.core.theming.Parameters.get)
-
-    See also:
-
-    -   [`onInit` function/module](Standard_Variant_for_Bootstrapping_91f1f45.md)
-    -   [`sap.ui.getCore().attachInit`](Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070)
-
-
-
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
 </table>
+
+***
+
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_dfr_j2x_fzb"/>
+
+### Related Information
+
+For lists of deprecated and experimental configuration options, see [Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md).
 

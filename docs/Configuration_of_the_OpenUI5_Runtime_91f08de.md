@@ -18,7 +18,6 @@ A typical bootstrap script looks like this:
 
 ```html
 <script id="sap-ui-bootstrap"
-            type="text/javascript"
             src="resources/sap-ui-core.js"
             data-sap-ui-compatVersion="edge">
 </script>
@@ -34,7 +33,7 @@ You can provide additional configuration information in the following ways:
 
 ### Available Configuration Options
 
-UI5 supports different possibilities to provide values for the available configuration parameters. Options 2 to 5 require you to provide them before the application boots up \(in **pre-boot**\). They are technically equivalent, however at runtime they will be evaluated in the order given below. The list below is therefore sorted in ascending order of precedence:
+UI5 supports different possibilities to provide values for the available configuration parameters. Options 2 to 6 require you to provide them before the application boots up. They are technically equivalent, however at runtime they will be evaluated in the order given below. The list below is therefore sorted in ascending order of precedence:
 
 1.  Effective framework default values
 2.  UI5-supported configuration options provided in `globalThis["sap-ui-config"]`
@@ -48,7 +47,7 @@ UI5 supports different possibilities to provide values for the available configu
 7.  Individual `sap-ui-<config-option-supported-by-UI5>` URL parameters
 8.  Specific APIs allowing a configuration change during runtime
 
-Configuration options must be provided in kebab-case notation and start with the `sap-ui` prefix, which serves to separate UI5 config options from options defined by other frameworks. If a configuration option is defined multiple times, the first match will be applied.
+Configuration options must be provided in kebab-case notation, i.e. as hyphenated names, starting with the `sap-ui` prefix, which serves to distinguish UI5 configuration options from options defined by others. If a configuration option is defined multiple times, the first match will be applied.
 
 > ### Note:  
 > The `sap-ui` prefix must be omitted for options provided in `globalThis["sap-ui-config"]`. The options given there are prefixed with `sap-ui` implicitly.
@@ -69,7 +68,7 @@ The comprehensive list of [Configuration Options and URL Parameters](Configurati
 
 The easiest way to specify a configuration value is **not to specify** it. The OpenUI5 runtime contains a default value for each configuration option. As long as you don't have to change the value, simply don't specify it.
 
-The effective default values can be found either in the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Configuration) or in the complete list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
+The effective default values can be found in the complete list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 ***
 
@@ -135,18 +134,17 @@ This option is activated by setting `globalThis["sap-ui-config"]` to an arbitrar
 
 The bootstrap attribute `data-sap-ui-config` enables you to provide a single attribute with the configuration information for the OpenUI5 runtime.
 
-You can use this attribute instead of attaching individual options with individual configuration attributes to the script tag. Its content is similar to the Global Configuration Object but without the enclosing parentheses: It is a comma-separated list of key-value pairs.
+You can use this attribute instead of attaching individual options with individual configuration attributes to the script tag. Its content is similar to the Global Configuration Object but without the enclosing parentheses; it is a comma-separated list of key-value pairs.
 
 > ### Note:  
 > The usual HTML escape mechanisms must be used if the value contains specific HTML characters \(<, \>, &\) or the quote character that is used to enclose the attribute value.
 
 ```html
 <script id="sap-ui-bootstrap"
-	type="text/javascript"
 	src="resources/sap-ui-core.js"
 	data-sap-ui-config="
-		theme:'sap_belize',
-		libs:'sap.m'
+		\"anmination-mode\":\"full\",
+		\"compat-version\":\"edge\"
 	">
 </script>
 ```
@@ -166,11 +164,10 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     Element attributes in HTML have a `string` value by definition. For configuration options of type `string`, the attribute value is equivalent to the value of the option.
 
     > ### Note:  
-    > If the value contains specific HTML characters, such as '<' or '\>', or if the value contains the same quote character that is used to wrap the attribute value, the usual HTML escape mechanisms must be used: Use entities for the specific HTML characters, for example `&lt;` instead of `<`, and switch the type of quotes from single to double or vice versa.
+    > If the value contains specific HTML characters, such as `<` or `>`, or if the value contains the same quote character that is used to wrap the attribute value, the usual HTML escape mechanisms must be used: Use entities for the specific HTML characters, for example `&lt;` instead of `<`, and switch the type of quotes from single to double or vice versa.
 
     ```html
     <script id="sap-ui-bootstrap"
-                type="text/javascript"
                 src="resources/sap-ui-core.js"
                 data-sap-ui-compatVersion="edge">
     </script>
@@ -189,10 +186,10 @@ For each configuration option, you can add a meta tag. These attributes must pro
 
 -   Value
 
-    Element attributes in HTML have a `string` value by definition. For configuration options of type `string`, the attribute value is equivalent to the value of the option. The attribute name must be provided within the `content` attribute of the meta tag.
+    Element attributes in HTML have a `string` value by definition. For configuration options of type `string`, the attribute value is equivalent to the value of the option. The attribute value must be provided within the `content` attribute of the meta tag.
 
     > ### Note:  
-    > If the value contains specific HTML characters, such as '<' or '\>', or if the value contains the same quote character that is used to wrap the attribute value, the usual HTML escape mechanisms must be used: Use entities for the specific HTML characters, for example `&lt;` instead of `<`, and switch the type of quotes from single to double or vice versa.
+    > If the value contains specific HTML characters, such as `<` or `>`, or if the value contains the same quote character that is used to wrap the attribute value, the usual HTML escape mechanisms must be used: Use entities for the specific HTML characters, for example `&lt;` instead of `<`, and switch the type of quotes from single to double or vice versa.
 
     ```html
     <meta name="sap-ui-compat-version" content="edge">
@@ -224,10 +221,10 @@ For a limited set of configuration options, specific APIs exist that allow you t
 
 You can find these APIs in [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
--   **[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md "The complete list of configuration options available in OpenUI5 can be found in the
-			API Reference under sap.ui.core.Configuration.
-		The following table shows a subset of the available configuration options.")**  
-The complete list of configuration options available in OpenUI5 can be found in the *API Reference* under `sap.ui.core.Configuration`. The following table shows a subset of the available configuration options.
+-   **[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md "The following tables show available configuration options.")**  
+The following tables show available configuration options.
+-   **[Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md "The following tables show deprecated and experimental configuration options.")**  
+The following tables show deprecated and experimental configuration options.
 -   **[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in
 			OpenUI5.")**  
 Compatibility version flags allow applications to react to incompatible changes in OpenUI5.

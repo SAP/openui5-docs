@@ -5,6 +5,9 @@
 			"What's New in OpenUI5": {
 				"link": "What_s_New_in_OpenUI5_99ac68a.md",
 				"items": {
+					"What's New in OpenUI5 1.120": {
+						"link": "What_s_New_in_OpenUI5_1_120_2359b63.md"
+					},
 					"What's New in OpenUI5 1.119": {
 						"link": "What_s_New_in_OpenUI5_1_119_0b1903a.md"
 					},
@@ -954,6 +957,9 @@
 								"items": {
 									"Configuration Options and URL Parameters": {
 										"link": "Configuration_Options_and_URL_Parameters_91f2d03.md"
+									},
+									"Deprecated and Experimental Configuration Options": {
+										"link": "Deprecated_and_Experimental_Configuration_Options_b474a71.md"
 									},
 									"Compatibility Version Information": {
 										"link": "Compatibility_Version_Information_9feb96d.md"
