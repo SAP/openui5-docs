@@ -12,6 +12,9 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f08d
 
 OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available configuration options are described in detail.
 
+> ### Note:  
+> In earlier framework versions, the configuration options available in OpenUI5 could be found in the [API Reference via the `sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration). This legacy module has been deprecated with OpenUI5 1.120 and replaced by a modular, future-proof solution for configuration handling.
+
 When the OpenUI5 bootstrap script is included in a page, the OpenUI5 runtime will automatically be initialized as soon as the script is loaded and executed by the browser. For simple use cases and for a default OpenUI5 installation, this should already be sufficient to build and run UI5 applications. The only configuration option you should specify is `data-sap-ui-compat-version="edge"` to run OpenUI5 with the latest feature set.
 
 A typical bootstrap script looks like this:
@@ -111,7 +114,6 @@ The following code snippets show an example how to add a configuration before bo
 > ```html
 > <script src="config.js"></script>
 > <script id="sap-ui-bootstrap"
->             type="text/javascript"
 >             src="resources/sap-ui-core.js">
 > </script>
 > ```

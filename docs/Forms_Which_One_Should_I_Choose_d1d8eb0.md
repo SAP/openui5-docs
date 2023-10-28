@@ -34,11 +34,6 @@ Form [\(`sap.ui.layout.form.Form`\)](https://sdk.openui5.org/api/sap.ui.layout.f
 Simple Form [\(`sap.ui.layout.form.SimpleForm`\)](https://sdk.openui5.org/api/sap.ui.layout.form.SimpleForm) 
 
 </th>
-<th valign="top">
-
-`SmartForm` \(not available in OpenUI5\)
-
-</th>
 </tr>
 <tr>
 <td valign="top">
@@ -54,11 +49,6 @@ Flexibility
 <td valign="top">
 
 3
-
-</td>
-<td valign="top">
-
-n/a
 
 </td>
 </tr>
@@ -78,11 +68,6 @@ Simplicity
 1
 
 </td>
-<td valign="top">
-
-n/a
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -98,11 +83,6 @@ Performance
 <td valign="top">
 
 3
-
-</td>
-<td valign="top">
-
-
 
 </td>
 </tr>
@@ -122,11 +102,6 @@ Automatic responsive design
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
-<td valign="top">
-
-n/a
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -142,11 +117,6 @@ Accessible design
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-</td>
-<td valign="top">
-
-n/a
 
 </td>
 </tr>
@@ -166,11 +136,6 @@ Controls inside are OData-bindable
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
-<td valign="top">
-
-n/a
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -186,11 +151,6 @@ Granular structure of a form control
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-</td>
-<td valign="top">
-
-n/a
 
 </td>
 </tr>

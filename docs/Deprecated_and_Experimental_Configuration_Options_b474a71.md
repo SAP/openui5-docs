@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b474a7
 The following tables show deprecated and experimental configuration options.
 
 > ### Note:  
-> In earlier framework versions, the configuration options available in OpenUI5 could be found in the [API Reference under `sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration). This legacy module has been deprecated with OpenUI5 1.120 and replaced by a modular, future-proof solution for configuration handling.
+> In earlier framework versions, the configuration options available in OpenUI5 could be found in the [API Reference via the `sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration). This legacy module has been deprecated with OpenUI5 1.120 and replaced by a modular, future-proof solution for configuration handling.
 
 ***
 
@@ -106,7 +106,7 @@ This configuration setting enables the module loader to load both modules and li
 <tr>
 <td valign="top">
 
-`autoAriaBodyRole`
+`auto-aria-body-role`
 
 \(deprecated\)
 
@@ -136,7 +136,7 @@ As of OpenUI5 version 1.78, `autoAriaBodyRole` has a default value `false` in or
 <tr>
 <td valign="top">
 
-`bindingSyntax`
+`binding-syntax`
 
 \(deprecated\)
 
@@ -164,7 +164,7 @@ This configuration parameter defines whether the simple or the complex binding s
 <tr>
 <td valign="top">
 
-`compatVersion`
+`compat-version`
 
 \(deprecated\)
 
@@ -195,7 +195,7 @@ For more information, see [Compatibility Version Information](Compatibility_Vers
 <tr>
 <td valign="top">
 
-`formatSettings`
+`format-settings`
 
 \(deprecated\)
 
@@ -225,7 +225,7 @@ For more information, see the [API Reference: `sap.ui.core.Configuration.FormatS
 <tr>
 <td valign="top">
 
-`manifestFirst`
+`manifest-first`
 
 \(deprecated\)
 
@@ -257,7 +257,7 @@ For more information, see: [`sap.ui.core.Component.create`](https://sdk.openui5.
 <tr>
 <td valign="top">
 
-`noDuplicateIds`
+`no-duplicate-ids`
 
 \(deprecated\)
 
@@ -285,7 +285,7 @@ If set to `true`, this configuration parameter enforces that the same IDs are **
 <tr>
 <td valign="top">
 
-`originInfo`
+`origin-info`
 
 \(deprecated\)
 

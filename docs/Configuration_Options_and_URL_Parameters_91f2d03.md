@@ -13,9 +13,9 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f2d0
 The following tables show available configuration options.
 
 > ### Note:  
-> In earlier framework versions, the configuration options available in OpenUI5 could be found in the [API Reference under `sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration). This legacy module has been deprecated with OpenUI5 1.120 and replaced by a modular, future-proof solution for configuration handling.
+> In earlier framework versions, the configuration options available in OpenUI5 could be found in the [API Reference via the `sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration). This legacy module has been deprecated with OpenUI5 1.120 and replaced by a modular, future-proof solution for configuration handling.
 
-The available configuration options are below the topic they belong to, e.g. **Localization**, **Theming**, etc. Often, these topics correspond to modules with the same name, which provide methods to retrieve and set the values of their associated configuration options.
+The available configuration options are given below the topic they belong to, e.g. **Localization**, **Theming**, etc. Often, these topics correspond to modules with the same name, which provide methods to retrieve and set the values of their associated configuration options.
 
 Some configuration options can also be set via URL parameters, which is indicated by an entry in the corresponding column in the tables below. URL parameter names are composed of the `sap-ui-` prefix together with the name of the configuration option, for example: `sap-ui-log-level=ALL`. An application may set the `ignore-url-parameters` option to `true` to disable configuration URL parameters.
 
@@ -488,7 +488,7 @@ Defines the location of themes.
 </td>
 <td valign="top">
 
-![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -623,7 +623,7 @@ Type: `sap.ui.core.Configuration.AnimationMode`
 
 Default value: `full`
 
-Sets the animation behavior according to the values and description provided by the [`AnimationMode`](https://sdk.openui5.org/api/sap.ui.core.Configuration.AnimationMode) enumeration, e.g. `full`, `basic`, `minimal` or`none`.
+Sets the animation behavior according to the values and description provided by the [`AnimationMode`](https://sdk.openui5.org/api/sap.ui.core.Configuration.AnimationMode) enumeration, e.g. `full`, `basic`, `minimal` or `none`.
 
 </td>
 <td valign="top">

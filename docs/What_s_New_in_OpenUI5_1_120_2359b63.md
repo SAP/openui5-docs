@@ -327,7 +327,7 @@ Feature
 
 **Updated Configuration of the OpenUI5 Runtime**
 
-We have deprecated the legacy `sap.ui.core.Configuration` module and replaced it with a modular, future-proof solution for configuration handling. To reflect these deprecations and the entities replacing them, the API Reference has been updated accordingly; the documentation will be gradually updated as well. For an updated list of configuration options, see [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
+We have implemented a modular, future-proof solution for configuration handling and deprecated the legacy `sap.ui.core.Configuration` module. To reflect these deprecations and the entities replacing them, the API Reference has been updated accordingly; the documentation will be gradually updated as well. For an updated list of configuration options, see [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Configuration).
 
@@ -415,7 +415,7 @@ Feature
 
 We now use the localization content of the Unicode Common Locale Data Repository \(CLDR\) version 43.0.0.
 
-<sub>ChangedFeature•Info Only•1.120</sub>
+<sub>Changed•Feature•Info Only•1.120</sub>
 
 </td>
 <td valign="top">
@@ -447,9 +447,7 @@ Feature
 </td>
 <td valign="top">
 
-**OpenUI5 OData V2 Model**
-
-•
+**OpenUI5 OData V2 Model** 
 
 </td>
 <td valign="top">
