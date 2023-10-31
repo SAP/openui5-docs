@@ -22,7 +22,7 @@ A typical bootstrap script looks like this:
 ```html
 <script id="sap-ui-bootstrap"
             src="resources/sap-ui-core.js"
-            data-sap-ui-compatVersion="edge">
+            data-sap-ui-compat-version="edge">
 </script>
 ```
 
@@ -171,7 +171,7 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     ```html
     <script id="sap-ui-bootstrap"
                 src="resources/sap-ui-core.js"
-                data-sap-ui-compatVersion="edge">
+                data-sap-ui-compat-version="edge">
     </script>
     ```
 

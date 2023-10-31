@@ -230,5 +230,5 @@ Using any other form or layout control \(for example,  `HBox`\) as children of
 
 #### Use different form controls for different application requirements
 
-Use the `Form` for performance-critical applications and also to have the most flexible design.. Use the `SimpleForm` if you want the least complexity.
+Use the `Form` for performance-critical applications and also to have the most flexible design. Use the `SimpleForm` if you want the least complexity.
 
