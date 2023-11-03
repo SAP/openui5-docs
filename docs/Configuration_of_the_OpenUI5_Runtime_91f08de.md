@@ -41,13 +41,10 @@ UI5 supports different possibilities to provide values for the available configu
 1.  Effective framework default values
 2.  UI5-supported configuration options provided in `globalThis["sap-ui-config"]`
 3.  **\[DEPRECATED\]** Server-wide defaults, read from `sap-ui-config.json`
-
-    This option is activated by setting `globalThis["sap-ui-config"]` to an arbitrary string value.
-
 4.  **\[DEPRECATED\]** A configuration string in the `data-sap-ui-config` attribute of the bootstrap tag
-5.  Individual `data-sap-ui-<config-option-supported-by-UI5>` attributes of the bootstrap tag
-6.  Individual `<meta name="sap-ui-<config-option-supported-by-UI5>" content="<value>">` tags
-7.  Individual `sap-ui-<config-option-supported-by-UI5>` URL parameters
+5.  Individual <code>data-sap-ui-&lt;<i>UI5-supported-config-option</i>&gt;</code> attributes of the bootstrap tag
+6.  Individual <code>&lt;meta name="sap-ui-&lt;<i>UI5-supported-config-option</i>&gt;" content="&lt;<i>value</i>&gt;"&gt;</code> tags
+7.  Individual <code>sap-ui-&lt;<i>UI5-supported-config-option</i>&gt;</code> URL parameters
 8.  Specific APIs allowing a configuration change during runtime
 
 Configuration options must be provided in kebab-case notation, i.e. as hyphenated names, starting with the `sap-ui` prefix, which serves to distinguish UI5 configuration options from options defined by others. If a configuration option is defined multiple times, the first match will be applied.
@@ -153,7 +150,7 @@ You can use this attribute instead of attaching individual options with individu
 
 ***
 
-#### \[5\] Individual `data-sap-ui-<config-option-supported-by-UI5>` attributes of the bootstrap tag
+#### \[5\] Individual <code>data-sap-ui-&lt;<i>UI5-supported-config-option</i>&gt;</code> attributes of the bootstrap tag
 
 For each configuration option, you can have one attribute in the bootstrap script tag. These attributes must provide the following information:
 

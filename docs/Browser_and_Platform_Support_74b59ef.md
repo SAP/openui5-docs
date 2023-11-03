@@ -135,7 +135,7 @@ Latest version and latest Extended Support Release \(ESR\)
 <tr>
 <td valign="top">
 
-Touch<sup>5</sup>
+Touch<sup>5, 6</sup>
 
 </td>
 <td valign="top">
@@ -226,7 +226,7 @@ iOS & iPadOS<sup>3</sup>
 </td>
 <td valign="top">
 
-Phone and Tablet<sup>5</sup>
+Phone and Tablet<sup>5,6</sup>
 
 </td>
 <td valign="top">
@@ -273,7 +273,7 @@ Android<sup>4</sup>
 </td>
 <td valign="top">
 
-Phone and Tablet<sup>5</sup>
+Phone and Tablet<sup>5,6</sup>
 
 </td>
 <td valign="top">
@@ -319,6 +319,7 @@ Latest version
  3\) We use current Apple iPhone and iPad devices for testing and reproducing the reported issues.  
  4\) Android-based devices are very fragmented in matters of operating system variants and hardware diversity. We use current Samsung Galaxy S and Galaxy Tab S series devices for testing and reproducing the reported issues.  
  5\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
+ 6\)  Not supported for `sap.sac.df`.  
 
 
 ***
