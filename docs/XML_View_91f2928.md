@@ -33,7 +33,7 @@ Each control or element is represented by an XML tag with the name of the contro
 
 You can create a context binding for the control by using the `binding` attribute. For more information, see [Context Binding \(Element Binding\)](Context_Binding_Element_Binding_91f05e8.md).
 
-You can refer to a style class for the control by using the `class` attribute. For more information, see [Using CSS Style Sheets in XML Views](Using_CSS_Style_Sheets_in_XML_Views_b564935.md).
+You can refer to a style class for the control by using the `class` attribute. For more information, see [Using CSS Style Sheets in XML Views \(deprecated\)](Using_CSS_Style_Sheets_in_XML_Views_deprecated_b564935.md).
 
 -   **[Namespaces in XML Views](Namespaces_in_XML_Views_2421a2c.md "The names of the OpenUI5 control libraries and the related subpackages are mapped to XML
 		namespaces.")**  
@@ -42,9 +42,9 @@ The names of the OpenUI5 control libraries and the related subpackages are mappe
 In XML views, aggregated child controls can be added as child tags.
 -   **[Control Properties and Associations in XML Views](Control_Properties_and_Associations_in_XML_Views_5ee3be4.md "")**  
 
--   **[Using Native HTML in XML Views](Using_Native_HTML_in_XML_Views_be54950.md "The use of native HTML in XML views depends on the XHTML feature set.")**  
+-   **[Using Native HTML in XML Views \(deprecated\)](Using_Native_HTML_in_XML_Views_deprecated_be54950.md "The use of native HTML in XML views depends on the XHTML feature set.")**  
 The use of native HTML in XML views depends on the XHTML feature set.
--   **[Using CSS Style Sheets in XML Views](Using_CSS_Style_Sheets_in_XML_Views_b564935.md "Style sheets are included in XML views in the same way as plain HTML. To add further
+-   **[Using CSS Style Sheets in XML Views \(deprecated\)](Using_CSS_Style_Sheets_in_XML_Views_deprecated_b564935.md "Style sheets are included in XML views in the same way as plain HTML. To add further
 		CSS classes to OpenUI5 controls,
 		use the class attribute.")**  
 Style sheets are included in XML views in the same way as plain HTML. To add further CSS classes to OpenUI5 controls, use the `class` attribute.

@@ -42,6 +42,13 @@ You can view and download all files at [OData V4 - Step 7](https://sdk.openui5.o
 ...
 		onInit: function () {
 			...
+				oViewModel = new JSONModel({
+					busy : false,
+					hasUIChanges : false,
+					usernameEmpty : false,
+					order : 0
+				});
+			...
 		},
 		onCreate : function () {
 			var oList = this.byId("peopleList"),

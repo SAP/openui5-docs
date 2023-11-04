@@ -1059,11 +1059,11 @@
 											"Control Properties and Associations in XML Views": {
 												"link": "Control_Properties_and_Associations_in_XML_Views_5ee3be4.md"
 											},
-											"Using Native HTML in XML Views": {
-												"link": "Using_Native_HTML_in_XML_Views_be54950.md"
+											"Using Native HTML in XML Views \\(deprecated\\)": {
+												"link": "Using_Native_HTML_in_XML_Views_deprecated_be54950.md"
 											},
-											"Using CSS Style Sheets in XML Views": {
-												"link": "Using_CSS_Style_Sheets_in_XML_Views_b564935.md"
+											"Using CSS Style Sheets in XML Views \\(deprecated\\)": {
+												"link": "Using_CSS_Style_Sheets_in_XML_Views_deprecated_b564935.md"
 											},
 											"Handling Events in XML Views": {
 												"link": "Handling_Events_in_XML_Views_b0fb4de.md"

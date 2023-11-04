@@ -161,7 +161,7 @@ End user messages contain the following information:
 
 -   `transition`
 
--   `numericSeverity` - specifies a m – classification of end user messages; allowed values: 1 \(success\), 2 \(info\), 3 \(warning\), 4 \(error\); `numericSeverity` is mapped to the specific `sap.ui.core.MessageType`
+-   `numericSeverity` – classification of end user messages; allowed values: 1 \(success\), 2 \(info\), 3 \(warning\), 4 \(error\); `numericSeverity` is mapped to the specific `sap.ui.core.MessageType`
 
 -   `longtextUrl` – optional; is omitted if there is no long text available for the corresponding message.
 

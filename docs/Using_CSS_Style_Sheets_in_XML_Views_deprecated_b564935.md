@@ -8,11 +8,14 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b564935324f449209354c7e2f9903f22) | [demo kit latest release](https://sdk.openui5.org/topic/b564935324f449209354c7e2f9903f22)</div>
 
-## Using CSS Style Sheets in XML Views
+## Using CSS Style Sheets in XML Views \(deprecated\)
 
 Style sheets are included in XML views in the same way as plain HTML. To add further CSS classes to OpenUI5 controls, use the `class` attribute.
 
 ***
+
+> ### Caution:  
+> Deprecated as of OpenUI5 version 1.120. Refer to an external style sheet instead.
 
 > ### Tip:  
 > We recommend to carefully choose the elements that you style as the CSS always affects the whole page and is **not** restricted to the view.
