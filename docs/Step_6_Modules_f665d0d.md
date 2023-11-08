@@ -16,11 +16,7 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
 ### Preview
 
-  
-  
-**A message toast displays the "Hello World" message**
-
-![](images/loio2f629a95211f49afa367b60d233fb390_LowRes.png "A message toast displays the "Hello World" message")
+![A message toast displays the Hello World message](images/loio2f629a95211f49afa367b60d233fb390_LowRes.png)
 
 ***
 

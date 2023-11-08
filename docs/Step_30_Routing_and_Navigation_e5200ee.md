@@ -22,7 +22,7 @@ In this step, we will use the OpenUI5 navigation features to load and show a sep
   
 **A second page is added to display the invoice**
 
-![](images/loio94152a595fe24d45b12223e0abcccb9c_LowRes.png "A second page is added to display the invoice")
+![A page consisting of Walkthrough - Details header and Invoice as body text](images/loio94152a595fe24d45b12223e0abcccb9c_LowRes.png "A second page is added to display the invoice")
 
 ***
 

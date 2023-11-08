@@ -22,7 +22,7 @@ This system is the so-called back-end system that we will now simulate with an O
   
 **The list of invoices is now served by the Mock Server**
 
-![](images/loiofe1403346ce9499f8bb102beaa4986d5_LowRes.png "The list of invoices is now served by the Mock Server")
+![The graphic has an explanatory text.](images/loiofe1403346ce9499f8bb102beaa4986d5_LowRes.png "The list of invoices is now served by the Mock Server")
 
 ***
 
@@ -204,7 +204,7 @@ sap.ui.define([
 	"use strict";
 
 	return {
-		init: () {
+		init() {
 			// create
 			const oMockServer = new MockServer({
 				rootUri: sap.ui.require.toUrl("ui5/walkthrough") + "/V2/Northwind/Northwind.svc/"

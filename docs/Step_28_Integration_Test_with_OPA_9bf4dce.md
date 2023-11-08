@@ -25,7 +25,7 @@ We haven’t thought about testing our interaction with the app yet, so in this 
   
 **An OPA test opens the "Hello" dialog from step 16**
 
-![](images/loio250d5b92921d44a4b432cc0fade88cc9_LowRes.png "An OPA test opens the "Hello" dialog from step 16")
+![The graphic has an explanatory text.](images/loio250d5b92921d44a4b432cc0fade88cc9_LowRes.png "An OPA test opens the "Hello" dialog from step 16")
 
 ***
 
@@ -37,7 +37,7 @@ You can view and download all files at [Walkthrough - Step 28](https://sdk.openu
   
 **Folder Structure for this Step**
 
-![](images/loio72406abd1014466fb961d4c4dd1ade58_LowRes.png "Folder Structure for this Step")
+![The graphic has an explanatory text.](images/loio72406abd1014466fb961d4c4dd1ade58_LowRes.png "Folder Structure for this Step")
 
 We add a new folder `integration` below the `test` folder, where we put our new test cases. Page objects that help structuring such integration tests are put in the `pages` subfolder that we also create now.
 

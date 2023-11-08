@@ -81,7 +81,7 @@ If you can't fix the problem, try downloading the solution of the previews or cu
 
 If you want to see some practical examples for OpenUI5 apps, check out our [Demo Apps](https://sdk.openui5.org/demoapps). These are fully-functional apps that showcase certain floorplans, control libraries, or other OpenUI5 features. You can also download the source code of each demo app to find out how everything works together. Feel free to explore!
 
--   **[Quick Start Tutorial](Quick_Start_Tutorial_592f36f.md "Unleash your OpenUI5 skills with this simple three-step tutorial. We start
+-   **[Quickstart Tutorial](Quickstart_Tutorial_592f36f.md "Unleash your OpenUI5 skills with this simple three-step tutorial. We start
 		with a simple &quot;Hello World&quot; example, and convert it to a minimalist two-page app.")**  
 Unleash your OpenUI5 skills with this simple three-step tutorial. We start with a simple "Hello World" example, and convert it to a minimalist two-page app.
 -   **[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")**  

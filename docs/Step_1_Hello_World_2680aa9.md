@@ -16,11 +16,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 
 ### Preview
 
-  
-  
-**The browser shows the text "Hello World"**
-
-![The graphic has an explanatory text.](images/loio1dd456361379431aab7e5bcdaaeff00f_LowRes.png "The browser shows the text "Hello World"")
+![The browser shows the text "Hello World"](images/loio1dd456361379431aab7e5bcdaaeff00f_LowRes.png)
 
 ***
 

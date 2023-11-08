@@ -20,7 +20,7 @@ Our panel content is getting more and more complex and now it is time to move th
   
 **The panel content is now refactored to a separate view \(No visual changes to last step\)**
 
-![](images/loiof3724d2f97e94a78b27d8ab01ff9c37d_LowRes.png "The panel content is now refactored to a separate view (No visual changes to last
+![The graphic has an explanatory text.](images/loiof3724d2f97e94a78b27d8ab01ff9c37d_LowRes.png "The panel content is now refactored to a separate view (No visual changes to last
                step)")
 
 ***

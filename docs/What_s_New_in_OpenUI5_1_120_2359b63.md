@@ -562,6 +562,8 @@ Feature
 
 We have deprecated all entities of `sap.ui.core.Core`, except the `ready` method.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Core).
 
+For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
+
 <sub>Deprecated•Feature•Info Only•1.120</sub>
 
 </td>

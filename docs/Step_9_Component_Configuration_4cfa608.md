@@ -22,7 +22,7 @@ In this step, we will encapsulate all UI assets in a component that is independe
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
-![](images/loiocac9bcfa902c44c496d115acd7ee7376_LowRes.png "An input field and a description displaying the value of the input field (No
+![The graphic has an explanatory text](images/loiocac9bcfa902c44c496d115acd7ee7376_LowRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)")
 
 ***
@@ -35,7 +35,7 @@ You can view and download all files at [Walkthrough - Step 9](https://sdk.openui
   
 **Folder Structure for this Step**
 
-![](images/loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step")
+![The graphic has an explanatory text](images/loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step")
 
 After this step your project structure will look like the figure above. We will create the `Component.js` file now and modify the related files in the app.
 

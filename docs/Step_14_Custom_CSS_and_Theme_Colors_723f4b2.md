@@ -20,7 +20,7 @@ Sometimes we need to define some more fine-granular layouts and this is when we 
   
 **The space between the button and the input field is now smaller and the output text is bold**
 
-![](images/loiod9a40e539b7c49c485be821efbd3821f_LowRes.png "The space between the button and the input field is now smaller and the
+![The graphic has an explanatory text.](images/loiod9a40e539b7c49c485be821efbd3821f_LowRes.png "The space between the button and the input field is now smaller and the
 					output text is bold")
 
 > ### Caution:  

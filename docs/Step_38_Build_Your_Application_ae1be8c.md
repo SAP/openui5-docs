@@ -20,7 +20,7 @@ In this step we're going to build our application and consume the speed of a bui
   
 **The UI5 application is built and served**
 
-![](images/loiofb12cea5ac9b45bb9007aac5a1a8689f_LowRes.png "The UI5 application is built and served")
+![The overview page of the application. Contains a Hello World header with buttons and a text input. The lower part shows list of invoices with details, grouped by vendor names.](images/loiofb12cea5ac9b45bb9007aac5a1a8689f_LowRes.png "The UI5 application is built and served")
 
 ***
 

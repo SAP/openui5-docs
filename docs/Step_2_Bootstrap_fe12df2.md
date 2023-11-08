@@ -16,11 +16,7 @@ Before we can do something with OpenUI5, we need to load and initialize it. This
 
 ### Preview
 
-  
-  
-**An alert "UI5 is ready" is displayed**
-
-![](images/loio0f6b6b9dc46a474da9287c382c8d3456_LowRes.png "An alert "UI5 is ready" is displayed")
+![An alert "UI5 is ready" is displayed](images/loio0f6b6b9dc46a474da9287c382c8d3456_LowRes.png)
 
 ***
 

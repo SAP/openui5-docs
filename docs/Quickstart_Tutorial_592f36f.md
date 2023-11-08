@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/592f36fd077b45349a67dcb3efb46ab1) | [demo kit latest release](https://sdk.openui5.org/topic/592f36fd077b45349a67dcb3efb46ab1)</div>
 
-## Quick Start Tutorial
+## Quickstart Tutorial
 
 Unleash your OpenUI5 skills with this simple three-step tutorial. We start with a simple "Hello World" example, and convert it to a minimalist two-page app.
 

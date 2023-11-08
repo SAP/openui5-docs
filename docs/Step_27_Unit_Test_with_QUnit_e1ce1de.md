@@ -25,7 +25,7 @@ Actually, every feature that we added to the app so far, would require a separat
   
 **A unit test for our formatters is now available**
 
-![](images/loio0d29491d96574cfe8d8158d60a0a32e2_LowRes.png "A unit test for our formatters is now available")
+![Preview of the unit test](images/loio0d29491d96574cfe8d8158d60a0a32e2_LowRes.png "A unit test for our formatters is now available")
 
 ***
 

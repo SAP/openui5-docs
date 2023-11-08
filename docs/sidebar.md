@@ -99,7 +99,7 @@
         -   [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)
         -   [SAPUI5 vs. OpenUI5](SAPUI5_vs_OpenUI5_5982a97.md)
     -   [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)
-        -   [Quick Start Tutorial](Quick_Start_Tutorial_592f36f.md)
+        -   [Quickstart Tutorial](Quickstart_Tutorial_592f36f.md)
             -   [Step 1: Ready...](Step_1_Ready_851bde4.md)
             -   [Step 2: Steady...](Step_2_Steady_128214a.md)
             -   [Step 3: Go!](Step_3_Go_073d107.md)

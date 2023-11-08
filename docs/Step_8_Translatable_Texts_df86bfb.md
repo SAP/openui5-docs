@@ -22,7 +22,7 @@ This way, they are all in a central place and can be easily translated into othe
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
-![](images/loio0eb579e2f2a64c5a9894086322c7faa0_LowRes.png "An input field and a description displaying the value of the input field (No
+![The graphic has an explanatory text](images/loio0eb579e2f2a64c5a9894086322c7faa0_LowRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)")
 
 ***

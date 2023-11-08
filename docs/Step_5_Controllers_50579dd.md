@@ -16,11 +16,7 @@ In this step, we replace the text with a button and show the “Hello World” m
 
 ### Preview
 
-  
-  
-**A Say Hello button is added**
-
-![](images/loiocedfdf89b30643ddbfcab1fe50bfa892_LowRes.png "A Say Hello button is added")
+![A Say Hello button is added](images/loiocedfdf89b30643ddbfcab1fe50bfa892_LowRes.png)
 
 ***
 

@@ -22,7 +22,7 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). When working wit
   
 **The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes to last step\)**
 
-![](images/loio05f6775a39d3409ea673f4acc3812142_LowRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
+![The Hello World text is now displayed by a OpenUI5 control (No visual changes to last step)](images/loio05f6775a39d3409ea673f4acc3812142_LowRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
 					visual changes to last step)")
 
 ***
