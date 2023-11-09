@@ -10,5 +10,5 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/eeaa5d
 
 ## JSDoc Guidelines
 
-General UI5 JSDoc guidelines are available at [OpenUI5 JSDoc Guidelines](https://github.com/SAP/openui5/blob/master/docs/guidelines/jsdoc.md).
+General UI5 JSDoc guidelines are available at [OpenUI5 JSDoc Guidelines](https://github.com/SAP/openui5/blob/-/docs/guidelines/jsdoc.md).
 

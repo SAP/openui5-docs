@@ -147,7 +147,7 @@ a property of `Edm.String` type, which is nullable
 </tr>
 </table>
 
-\*\) In the error response this is represented by an instance annotation in the SAP Common vocabulary, [com.sap.vocabularies.Common.v1](https://github.com/SAP/odata-vocabularies/blob/master/vocabularies/Common.md)
+\*\) In the error response this is represented by an instance annotation in the SAP Common vocabulary, [com.sap.vocabularies.Common.v1](https://github.com/SAP/odata-vocabularies/blob/-/vocabularies/Common.md)
 
 End user messages contain the following information:
 
@@ -604,5 +604,5 @@ Let `messageModel` be the named message model. A table row with messages can be 
 **Related Information**  
 
 
-[https://github.com/SAP/odata-vocabularies/blob/master/vocabularies/Common.md](https://github.com/SAP/odata-vocabularies/blob/master/vocabularies/Common.md)
+[https://github.com/SAP/odata-vocabularies/blob/-/vocabularies/Common.md](https://github.com/SAP/odata-vocabularies/blob/-/vocabularies/Common.md)
 
