@@ -2371,15 +2371,7 @@
 								"link": "JSDoc_Guidelines_eeaa5de.md"
 							},
 							"Tools": {
-								"link": "Tools_41de83f.md",
-								"items": {
-									"ESLint Code Checks": {
-										"link": "ESLint_Code_Checks_1ba0e44.md"
-									},
-									"ESLint Configuration File": {
-										"link": "ESLint_Configuration_File_ccfe356.md"
-									}
-								}
+								"link": "Tools_41de83f.md"
 							}
 						}
 					},

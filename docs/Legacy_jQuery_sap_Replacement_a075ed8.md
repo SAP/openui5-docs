@@ -1289,19 +1289,46 @@ Simple Replacement
 </td>
 <td valign="top">
 
-`URLSearchParams` 
+`URLSearchParams`
+
+`URL`
 
 </td>
 <td valign="top">
 
-Changed to class for instantiation
+Use URL web standard classes
 
 </td>
 <td valign="top">
+
+`jQuery.sap.getUriParameters()` can be migrated to `new URLSearchParams(window.location.search)`
+
+`jQuery.sap.getUriParameters(sUrl)` can be migrated to `new URL(sUrl).searchParams`
+
+**Caveats**
+
+The APIs have already been designed to be drop-in replacements, but there are some important caveats to consider when switching to `URLSearchParams` / `URL`:
+
+-   `new URL(input).searchParams` validates the given URL according to the [WHATWG URL Standard](https://url.spec.whatwg.org). `UriParameters.fromURL(input)` only extracts the query string from the given input but does not perform any validation.
+-   In some edge cases, especially for incomplete/invalid encoding, decoding behaves differently. The factory method `jQuery.sap.getUriParameters` expects percentage-encoded input, whereas all other APIs expect and return decoded strings. After parsing the query string, any plus sign \(0x2b\) in names or values is replaced by a blank \(0x20\), and the resulting strings are percentage-decoded \(`decodeURIComponent`\).
+
+    For details about the encoding/decoding of `URLSearchParams`, see the [WHATWG URL Standard](https://url.spec.whatwg.org).
+
+-   The get method's second parameter, `bAll`, is not available; use the `getAll` method instead.
+-   The `keys` method's return value contains an entry for every occurrence of the key within the query, in the defined order and including duplicates.
+
+    In contrast, `UriParameters#keys()` yields unique key values, even when there are multiple values for the same key.
+
+-   The internal `mParams` property is not available anymore \(you should never access internal properties of UI5 classes or objects\). With the predecessor of the new APIs, access to `mParams` was often used to check whether a parameter is defined at all. Using the `has` method or checking the result of `get` against `null` serves the same purpose.
 
 ```
 var oUrlParams = new URLSearchParams(window.location.search);
-oUrlParams.get("sap-ui-debug");
+oUrlParams.get("my-param");
+```
+
+```
+var oUrlParams = new URL(sUrl).searchParams;
+oUrlParams.get("my-param");
 ```
 
 

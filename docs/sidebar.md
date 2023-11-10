@@ -718,8 +718,6 @@
             -   [Git Guidelines](Git_Guidelines_b2f5639.md)
             -   [JSDoc Guidelines](JSDoc_Guidelines_eeaa5de.md)
             -   [Tools](Tools_41de83f.md)
-                -   [ESLint Code Checks](ESLint_Code_Checks_1ba0e44.md)
-                -   [ESLint Configuration File](ESLint_Configuration_File_ccfe356.md)
         -   [The library.js File](The_library_js_File_bd039ed.md)
         -   [Creating Control and Class Modules](Creating_Control_and_Class_Modules_c78c07c.md)
         -   [Defining the Control Metadata](Defining_the_Control_Metadata_7b52540.md)

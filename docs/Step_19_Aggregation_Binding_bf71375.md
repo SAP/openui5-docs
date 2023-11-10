@@ -93,6 +93,7 @@ The `Invoices.json` file simply contains five invoices in a JSON format that we 
 {
   ...
   "sap.ui5": {
+    ...
     "models": {
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",

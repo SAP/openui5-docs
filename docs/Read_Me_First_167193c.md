@@ -22,10 +22,12 @@ OpenUI5 offers many powerful enterprise features to support your entire app deve
 -   **[The UI5 Ecosystem](The_UI5_Ecosystem_b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213 "This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community
 		projects.")**  
 This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
--   **[ECMAScript Support](ECMAScript_Support_0cb44d7.md " With OpenUI5 1.116, the framework starts leveraging features of modern
-		ECMAScript, up to and including ES2022. You have
-		to consider certain restrictions when using modern ECMAScript with your UI5 project.")**  
- With OpenUI5 1.116, the framework starts leveraging features of modern ECMAScript, up to and including [ES2022](../../../../../../../../https://262.ecma-international.org/13.0/). You have to consider certain restrictions when using modern ECMAScript with your UI5 project.
+-   **[ECMAScript Support](ECMAScript_Support_0cb44d7.md "
+		Since
+		OpenUI5 1.116, the framework
+		leverages
+		features of modern ECMAScript, up to and including ES2022. You have to consider certain restrictions when using modern ECMAScript with your UI5 project.")**  
+ Since OpenUI5 1.116, the framework leverages features of modern ECMAScript, up to and including [ES2022](../../../../../../../../https://262.ecma-international.org/13.0/). You have to consider certain restrictions when using modern ECMAScript with your UI5 project.
 -   **[TypeScript Support](TypeScript_Support_a7ee961.md "TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type
 		checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.")**  
 TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.
