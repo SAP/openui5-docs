@@ -636,7 +636,7 @@ The OData model allows manual CRUD \(create, read, update, delete\) operations o
 
 ***
 
-The `create` and `update` methods also require a mandatory `oData` parameter for passing the created or changed data object. Each operation returns an object containing a function abort, which can be used to abort the request. If the request is aborted, the error handler is called. This ensures that the success or the error handler is executed for every request. It is also possible to pass additional header data, URL parameters, or an eTag.
+The `create` and `update` methods also require a mandatory `oData` parameter for passing the created or changed data object. Each operation returns an object containing a function abort, which can be used to abort the request. If the request is aborted, the error handler is called. This ensures that the success or the error handler is executed for every request. It is also possible to pass additional header data, URL parameters, or an eTag in the cases of updating or deleting an entity.
 
 -   Creating entities
 
@@ -688,7 +688,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
 ### Concurrency Control and ETags
 
-OData uses HTTP ETags for optimistic concurrency control. The service must be configured to provide them. The ETag can be passed within the parameters map for every CRUD request. If no ETag is passed, the ETag of the cached entity is used, if it is loaded already.
+OData uses HTTP ETags for optimistic concurrency control. The service must be configured to provide them. The ETag can be passed within the parameters map for updating or deleting entities. If no ETag is passed, the ETag of the cached entity is used, if it is loaded already.
 
 <a name="loio30362c1cafd244dd86752e28993bbcdd"/>
 
