@@ -8,9 +8,9 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6c66ed843c5e4b18aacf6c5e52246e4d) | [demo kit latest release](https://sdk.openui5.org/topic/6c66ed843c5e4b18aacf6c5e52246e4d)</div>
 
-## Step 4: XML Views
+## Step 4: XML Views \(TypeScript\)
 
-Putting all our UI into the `index.js` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
+Putting all our UI into the `index.ts` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
 
 OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). When working with UI5, we recommend the use of XML, as this produces the most readable code and will force us to separate the view declaration from the controller logic. Yet the look of our UI will not change.
 
@@ -31,13 +31,15 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). When working wit
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 4](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.04).
+You can view and download all files at [Walkthrough - Step 4](https://github.com/sap-samples/).
 
 ***
 
 <a name="loio6c66ed843c5e4b18aacf6c5e52246e4d__section_m3f_lgc_syb"/>
 
 ### webapp/view/App.view.xml \(New\)
+
+We create a new `view` folder in our webapp folder and a new file called `App.view.xml` inside this folder. The root node of the XML structure is the `view`. Here, we reference the default namespace `sap.m` where the majority of our UI assets are located. We define an additional `sap.ui.core.mvc` namespace with alias `mvc`, where the OpenUI5 views and all other Model-View-Controller \(MVC\) assets are located.
 
 ```xml
 <mvc:View
@@ -46,14 +48,14 @@ You can view and download all files at [Walkthrough - Step 4](https://sdk.openui
 </mvc:View>
 ```
 
-We create a new `view` folder in our webapp folder and a new file called `App.view.xml` inside this folder. The root node of the XML structure is the `view`. Here, we reference the default namespace `sap.m` where the majority of our UI assets are located. We define an additional `sap.ui.core.mvc` namespace with alias `mvc`, where the OpenUI5 views and all other Model-View-Controller \(MVC\) assets are located.
-
 > ### Note:  
 > The namespace identifies all resources of the project and has to be unique. If you develop your own application code or controls, you cannot use the namespace prefix `sap`, because this namespace is reserved for SAP resources. Instead, simply define your own unique namespace \(for example, `myCompany.myApp`\).
 
 ***
 
 ### webapp/view/App.view.xml
+
+Inside the `View` tag, we add the declarative definition of our `text` control with the same properties as in the previous step. The XML tags are mapped to controls, and the attributes are mapped to control properties.
 
 ```xml
 <mvc:View
@@ -64,28 +66,23 @@ We create a new `view` folder in our webapp folder and a new file called `App.vi
 
 ```
 
-Inside the `View` tag, we add the declarative definition of our `text` control with the same properties as in the previous step. The XML tags are mapped to controls, and the attributes are mapped to control properties.
-
 ***
 
 <a name="loio6c66ed843c5e4b18aacf6c5e52246e4d__section_nlq_g1w_xfb"/>
 
-### webapp/index.js
+### webapp/index.ts
+
+In our `index.ts` script, we replace the instantiation of the `sap/m/Text` control by our new `App.view.xml` file. The view is created by a factory function of OpenUI5. The name is prefixed with the namespace `ui5.walkthrough.view` in order to uniquely identify this resource.
 
 ```js
-sap.ui.define([
-	"sap/ui/core/mvc/XMLView"
-], (XMLView) => {
-	"use strict";
+import XMLView from "sap/ui/core/mvc/XMLView";
 
-	XMLView.create({
-		viewName: "ui5.walkthrough.view.App"
-	}).then((oView) => oView.placeAt("content"));
+XMLView.create({
+    viewName: "ui5.walkthrough.view.App"
+}).then(function (view) {
+    view.placeAt("content");
 });
-
 ```
-
-We replace the instantiation of the `sap/m/Text` control by our new `App.view.xml` file. The view is created by a factory function of OpenUI5. The name is prefixed with the namespace `ui5.walkthrough.view` in order to uniquely identify this resource.
 
 ***
 
@@ -97,7 +94,7 @@ We replace the instantiation of the `sap/m/Text` control by our new `App.view.xm
 
 -   Names of XML views always end with `*.view.xml`
 
--   The default XML namespace is `sap.m`
+-   As a general rule, the default XML namespace is `sap.m`
 
 -   Other XML namespaces use the last part of the SAP namespace as alias \(for example, `mvc` for `sap.ui.core.mvc`\)
 
@@ -109,5 +106,9 @@ We replace the instantiation of the `sap/m/Text` control by our new `App.view.xm
 
 [Views](Views_91f27e3.md "The view in the Model-View-Controller (MVC) concept is responsible for defining and rendering the UI. OpenUI5 supports predefined view types.")
 
+[API Reference: `sap.ui.core.mvc.View`](https://sdk.openui5.org/api/sap.ui.core.mvc.View)
+
 [XML View](XML_View_91f2928.md "The XML view type is defined in an XML file. The file name either ends with .view.xml or as an XML string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.")
+
+[API Reference: `sap.ui.core.mvc.XMLView`](https://sdk.openui5.org/api/sap.ui.core.mvc.XMLView)
 

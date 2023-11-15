@@ -10,46 +10,46 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/dad190
 
 ## Walkthrough Tutorial \(TypeScript\)
 
-In this tutorial we will introduce you to all major development paradigms of OpenUI5.
+In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.
 
-We first introduce you to the basic development paradigms like *Model-View-Controller* and establish a best-practice structure of our application. We'll do this along the classic example of “Hello World” and start a new app from scratch. Next, we'll introduce the fundamental data binding concepts of OpenUI5 and extend our app to show a list of invoices. We'll continue to add more functionality by adding navigation, extending controls, and making our app responsive. Finally we'll look at the testing features and the built-in support tools of OpenUI5.
+We first introduce you to the basic development paradigms like *Model-View-Controller* and establish a best-practice structure of our application. We'll do this along the classic example of “Hello World” and start a new app from scratch. Next, we'll introduce the fundamental data binding concepts of OpenUI5 and extend our app to show a list of invoices. We'll continue to add more functionality by adding navigation, extending controls, and making our app responsive. We'll also have a look at the testing features and the built-in support tools of OpenUI5.
 
 ***
 
 ### Preview
 
-![Preview of the UI5 application that is going to be built in this tutorial. Contains a Hello World upper part with buttons and a text input. The lower part shows list of invoices with details, grouped by vendor names.](images/loiofb12cea5ac9b45bb9007aac5a1a8689f_LowRes.png)
+![Preview of the OpenUI5 application that is going to be built in this tutorial. Contains a Hello World upper part with buttons and a text input. The lower part shows list of invoices with details, grouped by vendor names.](images/loiofb12cea5ac9b45bb9007aac5a1a8689f_LowRes.png)
 
 ***
 
 > ### Tip:  
-> You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step and make sure that the application runs as intended; for detailed instructions, see [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download).
+> You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step and make sure that the application runs as intended.
 > 
-> You can view and download the samples for all steps in the Demo Kit at [Walkthrough](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough).
-> 
-> For more information, see the overview page: [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md).
+> You can view and download the samples for all steps on GitHub at [Walkthrough](https://github.com/sap-samples/); for more information, read the instruction on the GitHub repository: [OpenUI5 Demo Kit Walkthrough \(TypeScript Version\)](https://github.com/sap-samples/).
 
--   **[Step 1: Hello World!](Step_1_Hello_World_c20489e.md "As you know OpenUI5 is
+The tutorial consists of the following steps. To start, just open the first link - you'll be guided from there.
+
+-   **[Step 1: Hello World! \(TypeScript\)](Step_1_Hello_World_TypeScript_c20489e.md "As you know OpenUI5 is
 		all about HTML5. Let’s get started with building a first “Hello World” with only
 		HTML.")**  
 As you know OpenUI5 is all about HTML5. Let’s get started with building a first “Hello World” with only HTML.
--   **[Step 2: Bootstrap](Step_2_Bootstrap_32b14d8.md "Before we can do something with OpenUI5, we need to load and
+-   **[Step 2: Bootstrap \(TypeScript\)](Step_2_Bootstrap_TypeScript_32b14d8.md "Before we can do something with OpenUI5, we need to load and
 		initialize it. This process of loading and initializing OpenUI5 is called
-			bootstrapping. Once this bootstrapping is finished, we simply
+		bootstrapping. Once this bootstrapping is finished, we simply
 		display an alert.")**  
 Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called **bootstrapping**. Once this bootstrapping is finished, we simply display an alert.
--   **[Step 3: Controls](Step_3_Controls_0feb70c.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
+-   **[Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
 		JavaScript control interface to set up the UI, the control instance is then placed into the HTML body. ")**  
 Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the JavaScript control interface to set up the UI, the control instance is then placed into the HTML body.
--   **[Step 4: XML Views](Step_4_XML_Views_6c66ed8.md "Putting all our UI into the index.js file will very soon result in a messy setup, and there is quite a bit of work ahead
+-   **[Step 4: XML Views \(TypeScript\)](Step_4_XML_Views_TypeScript_6c66ed8.md "Putting all our UI into the index.ts file will very soon result in a messy setup, and there is quite a bit of work ahead
 		of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated
 		view.")**  
-Putting all our UI into the `index.js` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
--   **[Step 5: Controllers](Step_5_Controllers_e5c58fe.md "In this step, we replace the text with a button and show the “Hello World” message
+Putting all our UI into the `index.ts` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
+-   **[Step 5: Controllers \(TypeScript\)](Step_5_Controllers_TypeScript_e5c58fe.md "In this step, we replace the text with a button and show the “Hello World” message
 		when the button is pressed. The handling of the button's press event is
 		implemented in the controller of the view.")**  
 In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
--   **[Step 6: Modules](Step_6_Modules_3510034.md "In OpenUI5, resources are often referred to as modules. In this step, we
+-   **[Step 6: Modules \(TypeScript\)](Step_6_Modules_TypeScript_3510034.md "In OpenUI5, resources are often referred to as modules. In this step, we
 		replace the alert from the last exercise with a proper Message Toast from the sap.m library.")**  
 In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the `sap.m` library.
 -   **[Step 7: JSON Model](Step_7_JSON_Model_cfbbeab.md "Now that we have set up the view and controller, it’s about time to think about the M

@@ -452,23 +452,23 @@
 					"Walkthrough Tutorial \\(TypeScript\\)": {
 						"link": "Walkthrough_Tutorial_TypeScript_dad1905.md",
 						"items": {
-							"Step 1: Hello World!": {
-								"link": "Step_1_Hello_World_c20489e.md"
+							"Step 1: Hello World! \\(TypeScript\\)": {
+								"link": "Step_1_Hello_World_TypeScript_c20489e.md"
 							},
-							"Step 2: Bootstrap": {
-								"link": "Step_2_Bootstrap_32b14d8.md"
+							"Step 2: Bootstrap \\(TypeScript\\)": {
+								"link": "Step_2_Bootstrap_TypeScript_32b14d8.md"
 							},
-							"Step 3: Controls": {
-								"link": "Step_3_Controls_0feb70c.md"
+							"Step 3: Controls \\(TypeScript\\)": {
+								"link": "Step_3_Controls_TypeScript_0feb70c.md"
 							},
-							"Step 4: XML Views": {
-								"link": "Step_4_XML_Views_6c66ed8.md"
+							"Step 4: XML Views \\(TypeScript\\)": {
+								"link": "Step_4_XML_Views_TypeScript_6c66ed8.md"
 							},
-							"Step 5: Controllers": {
-								"link": "Step_5_Controllers_e5c58fe.md"
+							"Step 5: Controllers \\(TypeScript\\)": {
+								"link": "Step_5_Controllers_TypeScript_e5c58fe.md"
 							},
-							"Step 6: Modules": {
-								"link": "Step_6_Modules_3510034.md"
+							"Step 6: Modules \\(TypeScript\\)": {
+								"link": "Step_6_Modules_TypeScript_3510034.md"
 							},
 							"Step 7: JSON Model": {
 								"link": "Step_7_JSON_Model_cfbbeab.md"
