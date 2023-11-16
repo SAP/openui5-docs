@@ -208,6 +208,12 @@ We can see the results when we decrease the browser's screen size or open the ap
 -   Optimize your application for the different screen sizes of phone, tablet, and desktop devices.
 
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 33: Custom Controls](Step_33_Custom_Controls_3cc020e.md "In this step, we are going to extend the functionality of OpenUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the OpenUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.")
+
+**Previous:**[Step 35: Device Adaptation](Step_35_Device_Adaptation_ab8ed1b.md "We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the sap.ui.Device API and defining a device model we will make the app look great on many devices.")
+
 **Related Information**  
 
 

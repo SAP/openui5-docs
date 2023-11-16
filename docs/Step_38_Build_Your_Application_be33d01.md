@@ -104,6 +104,10 @@ Now it's time to start the server by executing `npm run serve-dist` in a termina
 
 You've completed the walkthrough, good job! You should now be familiar with all the major development paradigms and concepts of OpenUI5. Our other tutorials focus on particular aspects of OpenUI5 and some advanced topics, so if you want to dive deeper into specific topics, feel free to explore!
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 37: Accessibility](Step_37_Accessibility_5a74cea.md "In this step we're going to improve the accessibility of our app.")
+
 **Related Information**  
 
 

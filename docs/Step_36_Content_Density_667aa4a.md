@@ -89,6 +89,12 @@ In the `contentDensities` section of the `sap.ui5` namespace, we have to specify
 
 As we have just enabled the app to run in both modes depending on the devices capabilities, we can set both to `true` in the application descriptor.
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 35: Device Adaptation](Step_35_Device_Adaptation_ab8ed1b.md "We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the sap.ui.Device API and defining a device model we will make the app look great on many devices.")
+
+**Previous:**[Step 37: Accessibility](Step_37_Accessibility_5a74cea.md "In this step we're going to improve the accessibility of our app.")
+
 **Related Information**  
 
 

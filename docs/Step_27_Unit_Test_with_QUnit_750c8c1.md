@@ -168,6 +168,12 @@ This script loads and executes our formatter. If we now open the `webapp/test/un
 -   All dependencies are replaced by stubs to test only the functionality in scope.
 
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 26: Mock Server Configuration](Step_26_Mock_Server_Configuration_3e1c64f.md "We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the “real” service or put additional load on the system where the data service is located.")
+
+**Previous:**[Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_412f0b6.md "If we want to test interaction patterns or more visual features of our app, we can also write an integration test.")
+
 **Related Information**  
 
 

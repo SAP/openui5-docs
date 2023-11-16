@@ -203,6 +203,12 @@ As you can see, we now have four landmarks on our page. The top three landmarks 
 -   *Page Content* marks the content of our page. This landmark already has two children.
 
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 36: Content Density](Step_36_Content_Density_667aa4a.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")
+
+**Previous:**[Step 38: Build Your Application](Step_38_Build_Your_Application_be33d01.md "In this step we're going to build our application and consume the speed of a built OpenUI5 application.")
+
 **Related Information**  
 
 

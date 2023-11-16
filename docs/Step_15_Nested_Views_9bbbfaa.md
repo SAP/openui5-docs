@@ -135,3 +135,9 @@ sap.ui.define([
 
 We have now moved everything out of the app view and controller. The app controller remains an empty stub for now, we will use it later to add more functionality.
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_4cc841e.md "Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.")
+
+**Previous:**[Step 16: Dialogs and Fragments](Step_16_Dialogs_and_Fragments_4b2e306.md "In this step, we will take a closer look at another element which can be used to assemble views: the fragment.")
+

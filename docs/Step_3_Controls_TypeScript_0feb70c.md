@@ -99,6 +99,12 @@ In the example above, the callback of the `init` event is where we now instantia
 
 As we now use the `sap.m` library with our app, we need to update our UI5 Tooling setup with a dependency to this library: Open a terminal in the app root folder and execute the `ui5 add sap.m` command to configure the `sap.m` UI5 library as a dependency in our `ui5.yaml`.
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 2: Bootstrap \(TypeScript\)](Step_2_Bootstrap_TypeScript_32b14d8.md "Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called bootstrapping. Once this bootstrapping is finished, we simply display an alert.")
+
+**Previous:**[Step 4: XML Views \(TypeScript\)](Step_4_XML_Views_TypeScript_6c66ed8.md "Putting all our UI into the index.ts file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated view.")
+
 **Related Information**  
 
 

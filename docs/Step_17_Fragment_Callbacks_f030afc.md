@@ -119,6 +119,12 @@ dialogCloseButtonText=Ok
 
 The text bundle is extended by the new text for the dialog’s close button.
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 16: Dialogs and Fragments](Step_16_Dialogs_and_Fragments_4b2e306.md "In this step, we will take a closer look at another element which can be used to assemble views: the fragment.")
+
+**Previous:**[Step 18: Icons](Step_18_Icons_49b1ac6.md "Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large icon font that contains more than 500 icons, we will add an icon to greet our users when the dialog is opened.")
+
 **Related Information**  
 
 

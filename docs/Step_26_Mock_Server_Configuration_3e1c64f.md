@@ -280,6 +280,12 @@ For easier local development, we adjust the `start` script in the `package.json`
 -   The script to start the `MockServer` is called `mockserver.js`.
 
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 25: Remote OData Service](Step_25_Remote_OData_Service_b68d321.md "So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.")
+
+**Previous:**[Step 27: Unit Test with QUnit](Step_27_Unit_Test_with_QUnit_750c8c1.md "Now that we have a test folder in the app, we can start to increase our test coverage.")
+
 **Related Information**  
 
 

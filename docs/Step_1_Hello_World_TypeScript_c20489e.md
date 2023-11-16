@@ -68,7 +68,7 @@ Create a new HTML file named `index.html` in your webapp folder and enter the fo
 
 ### webapp/manifest.json \(New\)
 
-The manifest file is called the **descriptor for applications, components, and libraries** and is also referred to as the “descriptor” or “app descriptor”. It's stored in the `webapp` folder and read by OpenUI5 to instantiate a component. Event though we don't have a component yet \(this is part of [Step 9: Component Configuration](Step_9_Component_Configuration_f9d0e2f.md)\), we need this file already now as we'd like to use UI5 Tooling for development, which requires an app descriptor.
+The manifest file is called the **descriptor for applications, components, and libraries** and is also referred to as the “descriptor” or “app descriptor”. It's stored in the `webapp` folder and read by OpenUI5 to instantiate a component. Event though we don't have a component yet \(this is part of [Step 9: Component Configuration \(TypeScript\)](Step_9_Component_Configuration_TypeScript_f9d0e2f.md)\), we need this file already now as we'd like to use UI5 Tooling for development, which requires an app descriptor.
 
 That's why we now create a new file named `manifest.json` in the webapp folder and specify its essential attributes:
 
@@ -131,6 +131,10 @@ Next, we install the UI5 CLI and add it as development dependency to our project
 Finally, we initialize the UI5 Tooling configuration for our project by executing the command `ui5 init` in the app root folder. This will generate a `ui5.yaml` file in our app root directory, which is essential for using UI5 Tooling with our project.
 
 Execute `npm start` to start the web server and to open a new browser window hosting your newly created `index.html`.
+
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Previous:**[Step 2: Bootstrap \(TypeScript\)](Step_2_Bootstrap_TypeScript_32b14d8.md "Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called bootstrapping. Once this bootstrapping is finished, we simply display an alert.")
 
 **Related Information**  
 

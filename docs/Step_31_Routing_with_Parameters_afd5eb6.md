@@ -177,6 +177,12 @@ The `bindElement` function is creating a binding context for a OpenUI5 control a
 
 -   Initialize the router at the end of your `Component#init` function
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 30: Routing and Navigation](Step_30_Routing_and_Navigation_6173e3d.md "So far, we have put all app content on one single page. As we add more and more features, we want to split the content and put it on separate pages.")
+
+**Previous:**[Step 32: Routing Back and History](Step_32_Routing_Back_and_History_ae61211.md "Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.")
+
 **Related Information**  
 
 

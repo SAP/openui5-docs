@@ -143,6 +143,12 @@ The actual color now depends on the selected theme which ensures that the color 
 -   Do not specify colors in custom CSS but use the standard theme-dependent classes instead.
 
 
+**Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
+
+**Next:**[Step 13: Margins and Paddings](Step_13_Margins_and_Paddings_5826c0c.md "Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.")
+
+**Previous:**[Step 15: Nested Views](Step_15_Nested_Views_9bbbfaa.md "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.")
+
 **Related Information**  
 
 
