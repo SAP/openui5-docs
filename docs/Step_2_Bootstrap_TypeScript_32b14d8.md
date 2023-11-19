@@ -26,7 +26,7 @@ Before we can do something with OpenUI5, we need to load and initialize it. This
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 2](https://github.com/sap-samples/).
+You can view and download all files at [UI5 TypeScript Walkthrough - Step 2](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/02/README.md).
 
 ***
 
@@ -44,9 +44,9 @@ Open a terminal in the app root folder and execute `npm install typescript --sav
 
 ### tsconfig.json \(New\)
 
-Let's create the file `tsconfig.json` in the app root folder to indicate that the folder is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
+Let's create the file `tsconfig.json` in the app root folder to indicate that this folder is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
 
-Specify them as follows:
+Specify the compiler options as follows:
 
 ```
 {
@@ -104,7 +104,7 @@ In this step, we change the `index.html` page to make it load the OpenUI5 framew
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>UI5 Walkthrough</title>
+	<title>UI5 TypeScript Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
 		src="resources/sap-ui-core.js"
@@ -151,7 +151,7 @@ For our UI5 Tooling setup we require some additional configuration changes:
 
 1.  Open a terminal in the app root folder.
 
-2.  Execute the `ui5 use OpenUI5` command to configure the latest OpenUI5 version in your UI5 Tooling setup.
+2.  Execute the `ui5 use OpenUI5` command to configure the latest UI5 version in your UI5 Tooling setup.
 3.  Execute the `ui5 add sap.ui.core themelib_sap_horizon` command. This will add the `sap.ui.core` and `themelib_sap_horizon` libraries as dependencies to your `ui5.yaml` file.
 
 Next, we have to configure the tooling extensions we installed from npm in our UI5 Tooling setup, so we can use them in our project. To hook a custom task into a certain build phase of a project, it needs to reference another task that will get executed before or after it. The same applies for a custom middleware:
@@ -165,7 +165,7 @@ Next, we have to configure the tooling extensions we installed from npm in our U
 ```
 framework:
   name: OpenUI5
-  version: "1.119.1"
+  version: "1.120.1"
   libraries:
     - name: sap.ui.core
     - name: themelib_sap_horizon
@@ -183,7 +183,7 @@ server:
     afterMiddleware: compression
 ```
 
-Now you can benefit from live reload on changes, built framework resources at development time, and make use of TypeScript in UI5!
+Now you can benefit from live reload on changes, built framework resources at development time, and make use of TypeScript in OpenUI5!
 
 > ### Note:  
 > During its initial run, the `ui5-middleware-serveframework` middleware will build the framework, which can take a while. In all following steps, the build will not happen again and the framework is served from the built resources.
@@ -209,7 +209,7 @@ Now you can benefit from live reload on changes, built framework resources at de
 
 [NPM Package: `ui5-middleware-livereload`](https://www.npmjs.com/package/ui5-middleware-livereload)
 
-[NPM Package: `ui5-middleware-serverframework`](https://www.npmjs.com/package/ui5-middleware-serveframework)
+[NPM Package: `ui5-middleware-serveframework`](https://www.npmjs.com/package/ui5-middleware-serveframework)
 
 [NPM Package: `ui5-tooling-transpile`](https://www.npmjs.com/package/ui5-tooling-transpile)
 

@@ -31,7 +31,7 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). When working wit
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 4](https://github.com/sap-samples/).
+You can view and download all files at [UI5 TypeScript Walkthrough - Step 4](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/04/README.md).
 
 ***
 
@@ -55,7 +55,7 @@ We create a new `view` folder in our webapp folder and a new file called `App.vi
 
 ### webapp/view/App.view.xml
 
-Inside the `View` tag, we add the declarative definition of our `text` control with the same properties as in the previous step. The XML tags are mapped to controls, and the attributes are mapped to control properties.
+Inside the `View` tag, we add the declarative definition of our `text` control with the same properties as in the previous step. The XML tags are mapped to controls, and their attributes are mapped to control properties.
 
 ```xml
 <mvc:View

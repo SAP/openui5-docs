@@ -51,7 +51,7 @@ A view can also be defined by extending the `sap.ui.core.mvc.View` class. Such a
 		method View.create defined in module
 		sap/ui/core/mvc/View.")**  
 To instantiate views asychronously, OpenUI5 provides the factory method `View.create` defined in module `sap/ui/core/mvc/View`.
--   **[View Cloning](View_Cloning_a575619.md "For normal controls, view cloning bases on control settings that are described by OpenUI5 metadata, such as
+-   **[View Cloning \(deprecated\)](View_Cloning_deprecated_a575619.md "For normal controls, view cloning bases on control settings that are described by OpenUI5 metadata, such as
 		properties, aggregations, associations, and event handlers. The clone operation collects
 		these settings and creates a new instance.")**  
 For normal controls, view cloning bases on control settings that are described by OpenUI5 metadata, such as properties, aggregations, associations, and event handlers. The clone operation collects these settings and creates a new instance.

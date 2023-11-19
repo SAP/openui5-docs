@@ -35,7 +35,7 @@ In both cases, OpenUI5 loads additional resources from a server. This server can
 
 ### Server-Side Resource Handling
 
-For the Java server and the integration into Eclipse, OpenUI5 provides a resource handler to improve the interaction between client and server, for example by providing a server-side locale fallback for the language to avoid multiple requests to get the correct language. It’s also used to support modularized development of OpenUI5 applications and libraries. The Java resource handler is aligned with the concept of the JavaServer Faces.
+For the Java server and the integration into Eclipse, OpenUI5 provides a resource handler to improve the interaction between client and server, for example by providing a server-side locale fallback for the language to avoid multiple requests to get the correct language. It’s also used to support modularized development of OpenUI5 applications and libraries. The Java resource handler is aligned with the concept of the JavaServer Faces. The following prerequisites apply:
 
 -   The default implementation must support packaging resources in the web application root under the path `resources/<resourceIdentifier>` relative to the web app root.
 
@@ -266,7 +266,7 @@ When you're starting to develop OpenUI5 controls and modules being located insid
 
 ### Resource Browsing
 
-If the development mode is active, you can browse resources via the resource browser:
+If the development mode is active, you can browse resources as follows via the resource browser:
 
 -   `%SERVER_URL%!/resources/`
 -   `%SERVER_URL%/test-resources/`
@@ -339,7 +339,7 @@ Store the resources as follows:
 
 ### OSGi Servlet Container
 
-When you run OpenUI5 as an OSGi web bundle and reference the UI libraries as OSGi bundles, you need to determine the OpenUI5 OSGi bundles:
+When you run OpenUI5 as an OSGi web bundle and reference the UI libraries as OSGi bundles, you need to determine the OpenUI5 OSGi bundles as follows:
 
 -   Extend the `ResourceServlet` in the OSGi servlet container by using an OSGi fragment that is responsible to add the OSGi flavor for the determination of UI libraries. Now, the `ResourceServlet` is aware of the OSGi bundles and can search within the OSGi servlet container for UI libraries.
 

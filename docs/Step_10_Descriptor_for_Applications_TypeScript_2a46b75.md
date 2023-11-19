@@ -29,7 +29,7 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 10](https://github.com/sap-samples/).
+You can view and download all files at [UI5 TypeScript Walkthrough - Step 10](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/10/README.md).
 
 ***
 
@@ -52,7 +52,7 @@ helloMsg=Hello {0}
 
 ***
 
-### webapp/manifest.json \(New\)
+### webapp/manifest.json
 
 The content of the `manifest.json` file is a configuration object in JSON format that contains all global application settings and parameters. It is called the descriptor for applications, components, and libraries, and is also referred to as “descriptor” or “app descriptor” when used for applications. It is stored in the `webapp` folder and read by OpenUI5 to instantiate the component.
 
@@ -91,7 +91,7 @@ There are three important sections defined by namespaces in the `manifest.json` 
 
     The `sap.ui5` namespace adds OpenUI5-specific configuration parameters that are automatically processed by OpenUI5. The most important parameters are:
 
-    -   `dependencies` \(mandatory\): Here we declare the dependencies that should be loaded by the OpenUI5 core during the initialization phase of the component and used afterwards. It's mandatory to set via `minUI5Version` the mimimum version of OpenUI5 our component requires. Additionally, we declare the dependency to the libraries `sap.ui.core` and `sap.m` in order to benefit from the asynchronous library preload.
+    -   `dependencies` \(mandatory\): Here we declare the dependencies that should be loaded by the OpenUI5 core during the initialization phase of the component and used afterwards. It's mandatory to set via `minUI5Version` the minimum version of OpenUI5 our component requires. Additionally, we declare the dependency to the libraries `sap.ui.core` and `sap.m` in order to benefit from the asynchronous library preload.
 
     -   `rootView`: If you specify this parameter, the component will automatically instantiate the view and use it as the root for this component.
 
@@ -103,7 +103,7 @@ There are three important sections defined by namespaces in the `manifest.json` 
 
 ```
 {
-    "_version": "1.59.0",
+    "_version": "1.60.0",
     "sap.app": {
         "id": "ui5.walkthrough",
         "type": "application",
@@ -216,7 +216,7 @@ Now we declare our component in the body of our `index.html`. In the bootstrappi
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>UI5 Walkthrough</title>
+	<title>UI5 TypeScript Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
 		src="resources/sap-ui-core.js"

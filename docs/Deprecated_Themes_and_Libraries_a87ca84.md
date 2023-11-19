@@ -16,167 +16,335 @@ As OpenUI5 evolves over time, some of the UI controls are replaced by others, or
 
 ### Themes that are no longer supported
 
-***
+The following themes have been deprecated and/or removed entirely:
 
-#### sap\_hcb
-
-The `sap_hcb` theme is deprecated as of version 1.48. It has been replaced by the `sap_belize_hcb` theme.
-
-`sap_hcb` is the High Contrast Black theme used for the already deprecated `sap_goldreflection` and `sap_bluecrystal` themes. For `sap_belize` and `sap_belize_plus` there are two high contrast themes available: `sap_belize_hcb` \(High Contrast Black\) and `sap_belize_hcw` \(High Contrast White\).
-
-***
-
-#### sap\_bluecrystal
-
-The `sap_bluecrystal` theme is no longer supported as of version 1.40. It has been replaced by `sap_belize` as the default theme for OpenUI5 applications.
-
-Custom themes based on `sap_bluecrystal` are no longer supported with 1.40 or higher.
-
-***
-
-#### sap\_ux
-
-The `sap_ux` theme is no longer supported as of version 1.40. This was one of the very first OpenUI5 themes and is only implemented by a small subset of the `sap.ui.commons` and `sap.ui.ux3` controls, which are also deprecated.This theme has been removed with OpenUI5 version 1.48.
-
-***
-
-#### sap\_platinum
-
-The `sap_platinum` theme is no longer supported as of version 1.40. This was one of the very first OpenUI5 themes and is only implemented by a small subset of the `sap.ui.commons` and `sap.ui.ux3` controls, which are also deprecated. This theme has been removed with OpenUI5 version 1.48.
-
-***
-
-#### sap\_goldreflection
-
-The `sap_goldreflection` theme is no longer supported as of version 1.40. This was one of the first OpenUI5 themes and is only implemented by the `sap.ui.commons` and `sap.ui.ux3` controls, which are also deprecated. This theme has been removed with OpenUI5 version 1.48.
-
-***
-
-### Deprecated Libraries
-
-***
-
-#### sap.ui.commons
-
-The `sap.ui.commons` library is deprecated as of version 1.38.
-
-`sap.ui.commons` was available from the very beginning of OpenUI5. It contains a large number of basic UI controls like buttons, input fields and dropdowns. With version 1.16, the `sap.m` library was introduced. It contains semantically identical controls \(button, input and select\) that, at that time, were only supported on mobile platforms. In later versions, `sap.m` was extended to support desktop platforms as well. For more information about this, see [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md). The `sap.m` controls were bigger in size to support mobile displays that require a larger touch area. The “Compact Content Density” feature explained under [Content Densities](Content_Densities_e54f729.md) was then added to OpenUI5, allowing you to display a control in a more compact screen size. Today, applications should be built one single time using `sap.m` \(and other libraries\) and their content density switched at runtime depending on the environment. As such, the redundant library `sap.ui.commons` should no longer be used.
-
-Some of the controls in `sap.ui.commons.layout` have been replaced by the new dedicated layout library called `sap.ui.layout`, which runs on the same platforms as `sap.m`.
-
-Some of the old controls have been made available again through the non-deprecated `sap.ui.unified` library \(e.g. FileUploader, Menu\), which runs on the same platforms as `sap.m`.
-
-Some concepts such as Accordion and Row Repeater have been abandoned completely.
-
-***
-
-#### sap.ui.ux3
-
-The `sap.ui.ux3` library is deprecated as of version 1.38.
-
-This library contains more complex UI controls that were based on `sap.ui.commons` along the UX3 design approach. The `sap.m` library - successor to `sap.ui.commons` - implements SAP’s new SAP Fiori design \[http://experience.sap.com/fiori-design/\], which supersedes UX3. As such, the `sap.ui.ux3` library is also deprecated. Some of the UX3 concepts are reflected in SAP Fiori, some are abandoned, as outlined in the following table:
+**Deprecated Themes**
 
 
 <table>
 <tr>
 <th valign="top">
 
-Concept
+Theme
 
 </th>
 <th valign="top">
 
-What's Happened?
+Deprecated as of
+
+</th>
+<th valign="top">
+
+Removed as of
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-Feeds
+`sap_hcb`
 
 </td>
 <td valign="top">
 
-Replaced by sap.m \(`sap.m.Feed`\*\).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Notification Bar
+1.48
 
 </td>
 <td valign="top">
 
-Replaced by sap.m \(`sap.m.MessagePopover` and `sap.m.semantic`\*\).
+ 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Thing Inspector
+sap\_bluecrystal
 
 </td>
 <td valign="top">
 
-Indirectly replaced by a different design for displaying object data.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Shell
+1.40
 
 </td>
 <td valign="top">
 
-Partially replaced by `sap.ui.unified.Shell`.
+ 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Data Set
+`sap_ux`
 
 </td>
 <td valign="top">
 
-Not part of SAP Fiori.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Exact
+1.40
 
 </td>
 <td valign="top">
 
-Not directly part of SAP Fiori. Use `sap.ui.comp.FilterBar` or `sap.m.IconTabBar` for filtering.
+1.48
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Quick Views
+`sap_platinum`
 
 </td>
 <td valign="top">
 
-Concept abandoned as the concept of “hovering with the mouse pointer over a control” does not exist on mobile devices.
+1.40
+
+</td>
+<td valign="top">
+
+1.48
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap_goldreflection`
+
+</td>
+<td valign="top">
+
+1.40
+
+</td>
+<td valign="top">
+
+1.48
 
 </td>
 </tr>
 </table>
 
-For more information about the SAP Fiori design, see the [SAP Fiori design guidelines](http://experience.sap.com/fiori-design/).
+For a list of the available themes, see [Available Themes](Available_Themes_da0d2e7.md).
+
+***
+
+### Deprecated Libraries
+
+The following libraries have been deprecated and/or removed entirely:
+
+**Deprecated Libraries**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Library
+
+</th>
+<th valign="top">
+
+Deprecated as of
+
+</th>
+<th valign="top">
+
+Note
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ui.suite`
+
+</td>
+<td valign="top">
+
+1.108
+
+</td>
+<td valign="top">
+
+Partly deprecated. For the deprecated parts, see [API Reference: `sap.ui.suite`](https://sdk.openui5.org/api/sap.ui.suite). 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.landvisz`
+
+</td>
+<td valign="top">
+
+1.98
+
+</td>
+<td valign="top">
+
+Removed as of 1.120
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ui.vtm`
+
+</td>
+<td valign="top">
+
+1.96.10
+
+</td>
+<td valign="top">
+
+Partly deprecated. For the deprecated parts, see [API Reference: `sap.ui.vtm`](https://sdk.openui5.org/api/sap.ui.vtm). 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.zen.commons`
+
+</td>
+<td valign="top">
+
+1.89
+
+</td>
+<td valign="top">
+
+Partly deprecated. For the deprecated parts, see [API Reference: `sap.zen.commons`](https://sdk.openui5.org/api/sap.zen.commons). 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.zen.crosstab`
+
+</td>
+<td valign="top">
+
+1.89
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.zen.dsh`
+
+</td>
+<td valign="top">
+
+1.89
+
+</td>
+<td valign="top">
+
+Partly deprecated. For the deprecated parts, see [API Reference: `sap.zen.dsh`](https://sdk.openui5.org/api/sap.zen.dsh). 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ui.commons`
+
+</td>
+<td valign="top">
+
+1.38
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ui.ux3`
+
+</td>
+<td valign="top">
+
+1.38
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.makit`
+
+</td>
+<td valign="top">
+
+1.38
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.me`
+
+</td>
+<td valign="top">
+
+1.34
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ca`
+
+</td>
+<td valign="top">
+
+1.22
+
+</td>
+<td valign="top">
+
+Partly deprecated. For the deprecated parts, see [API Reference: `sap.ca`](https://sdk.openui5.org/api/sap.ca). 
+
+</td>
+</tr>
+</table>
+
+To find out whether these libraries have been replaced by other content, check them at [API Reference: `deprecated`](https://sdk.openui5.org/api/deprecated).
 
 **Related Information**  
 
@@ -186,4 +354,6 @@ For more information about the SAP Fiori design, see the [SAP Fiori design guide
 [Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
 
 [Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md "This chapter gives an overview of the possible combinations of themes and libraries for the OpenUI5 versions that are still in maintenance.")
+
+[Available Themes](Available_Themes_da0d2e7.md "Provides a list of themes and their names.")
 

@@ -29,7 +29,7 @@ In this step, we will encapsulate all UI assets in a component that is independe
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 9](https://github.com/sap-samples/).
+You can view and download all files at [UI5 TypeScript Walkthrough - Step 9](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/09/README.md).
 
   
   
@@ -47,8 +47,6 @@ We create an initial `Component.ts` file in the `webapp` folder that will hold o
 
 ```js
 import UIComponent from "sap/ui/core/UIComponent";
-import JSONModel from "sap/ui/model/json/JSONModel";
-import ResourceModel from "sap/ui/model/resource/ResourceModel";
 
 /**
  * @namespace ui5.walkthrough

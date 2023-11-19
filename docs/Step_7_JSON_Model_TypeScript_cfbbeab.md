@@ -31,7 +31,7 @@ We will add an input field to our app, bind its value to the model, and bind the
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 7](https://github.com/sap-samples/).
+You can view and download all files at [UI5 TypeScript Walkthrough - Step 7](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/07/README.md).
 
 ***
 

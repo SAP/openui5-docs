@@ -48,7 +48,7 @@ The Support Assistant allows you to export and import subsets of preselected rul
   
 **Support Assistant Rule Presets**
 
-![](images/loio7ec578324dce47239eb80b997494089f_HiRes.png "Support Assistant Rule Presets")
+![](images/loio562a49a871e04125867052231ec52660_LowRes.png "Support Assistant Rule Presets")
 
 ***
 
@@ -67,7 +67,7 @@ Once exported and saved, your rule presets can be imported and used again. They 
 
 #### System Presets
 
-For your convenience, the Support Assistant is also equipped with ready-to-use system-defined rule presets. They contain selections of rules related within the context of a scenario, functional area, or other aspects of the app UI that can be verified using support rules. The first system preset which has been added is for Accessibility-related rules. you can find your most current selection of rules. To preserve it for your next analyses together with your choice of imported presets, go to the settings menu
+For your convenience, the Support Assistant is also equipped with ready-to-use system-defined rule presets. They contain selections of rules related within the context of a scenario, functional area, or other aspects of the app UI that can be verified using support rules. The first system preset which has been added is for Accessibility-related rules. You can find your most current selection of rules. To preserve it for your next analysis together with your choice of imported presets, go to the settings menu
 
 You can't delete system presets but you have the option to modify and export them as you do with your custom ones. Although the rules selected within one system preset are grouped according to their relevance to a certain scenario, they can belong to different categories.
 
@@ -80,7 +80,7 @@ You can't delete system presets but you have the option to modify and export the
 
 ### Columns Personalization
 
-you can find your most currentYou have the option to personalize the Rules view by choosing which columns to be displayed. Just click on the column header and select or deselect the columns you want to use. You can also sort the content of all four columns or filter by keyword.
+You have the option to personalize the Rules view by choosing which columns to be displayed. Just click on the column header and select or deselect the columns you want to use. You can also sort the content of all four columns or filter by keyword.
 
   
   

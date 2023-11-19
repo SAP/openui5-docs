@@ -341,7 +341,7 @@
                 -   [JSON View \(deprecated\)](JSON_View_deprecated_91f2852.md)
                 -   [Typed View](Typed_View_e6bb33d.md)
                 -   [Instantiating Views](Instantiating_Views_68d0e58.md)
-                -   [View Cloning](View_Cloning_a575619.md)
+                -   [View Cloning \(deprecated\)](View_Cloning_deprecated_a575619.md)
             -   [Controller](Controller_121b8e6.md)
                 -   [Using Controller Extension](Using_Controller_Extension_21515f0.md)
             -   [Support for Unique IDs](Support_for_Unique_IDs_91f28be.md)

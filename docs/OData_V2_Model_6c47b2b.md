@@ -688,7 +688,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
 ### Concurrency Control and ETags
 
-OData uses HTTP ETags for optimistic concurrency control. The service must be configured to provide them. The ETag can be passed within the parameters map for updating or deleting entities. If no ETag is passed, the ETag of the cached entity is used, if it is loaded already.
+OData uses HTTP ETags for optimistic concurrency control. The service must be configured to provide them. The ETag can be passed within the parameters map when updating or deleting entities. If no ETag is passed, the ETag of the cached entity is used, if it is loaded already.
 
 <a name="loio30362c1cafd244dd86752e28993bbcdd"/>
 

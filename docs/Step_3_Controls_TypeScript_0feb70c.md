@@ -29,7 +29,7 @@ Now it is time to build our first little UI by replacing the “Hello World” t
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 3](https://github.com/sap-samples/).
+You can view and download all files at [UI5 TypeScript Walkthrough - Step 3](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/03/README.md).
 
 ***
 
@@ -37,9 +37,15 @@ You can view and download all files at [Walkthrough - Step 3](https://github.com
 
 ### webapp/index.ts
 
-First, we need to install `@types/openui5` to get the type definitions for OpenUI5: Open a terminal in the app root folder and execute the `npm install @types/openui5 --save-dev` command. This will install the type definitions for OpenUI5 and update the `package.json` file with this new development dependency.
+First, we need to install `@types/openui5` to get the type definitions for UI5: Open a terminal in the app root folder and execute the following command:
 
-We then make some changes to our `index.ts` file: We remove the `alert` method and instantiate an OpenUI5 `Text` control instead; its options are passed to the constructor with a TypeScript object. For our control we set the `text` property to the value “Hello World”:
+`npm install @types/openui5 --save-dev`
+
+This will install the type definitions for UI5 and update the `package.json` file with this new development dependency.
+
+We then make some changes to our `index.ts` file: We remove the `alert` method and instantiate an OpenUI5 `Text` control instead; its options are passed to the constructor with a TypeScript object. For our control we set the `text` property to the value “Hello World”.
+
+We chain the constructor call of the control to the standard `placeAt` method that is used to place OpenUI5 controls inside a node of the document object model \(DOM\) or any other OpenUI5 control instance. We pass the `content` ID as an argument.
 
 ```js
 import Text from "sap/m/Text";
@@ -71,7 +77,7 @@ We also add the `sapUiBody` class, which provides additional theme-dependent sty
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>UI5 Walkthrough</title>
+	<title>UI5 TypeScript Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
 		src="resources/sap-ui-core.js"

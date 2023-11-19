@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f31c
 
 The `String` data type represents a string.
 
-The source value \(value given in the model\) must be given as a string and is transformed into the type of the bound control property:
+The source value \(value given in the model\) must be given as a string and is transformed into the type of the bound control property as follows:
 
 -   `string`: No transformation needed
 -   `integer`/`float`: String is parsed accordingly

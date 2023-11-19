@@ -28,7 +28,7 @@ In this step, we replace the text with a button and show the “Hello World” m
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 5](https://github.com/sap-samples/).
+You can view and download all files at [UI5 TypeScript Walkthrough - Step 5](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/05/README.md).
 
 ***
 

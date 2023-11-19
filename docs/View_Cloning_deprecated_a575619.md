@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a575619e25c2487f904bae71764e2350) | [demo kit latest release](https://sdk.openui5.org/topic/a575619e25c2487f904bae71764e2350)</div>
 
-## View Cloning
+## View Cloning \(deprecated\)
 
 For normal controls, view cloning bases on control settings that are described by OpenUI5 metadata, such as properties, aggregations, associations, and event handlers. The clone operation collects these settings and creates a new instance.
+
+> ### Caution:  
+> Deprecated as of OpenUI5 version 1.120. Creating a new view instance can be done by calling the respective view factory function \(e.g. `sap.ui.core.mvc.XMLView.create` for XMLViews\) with the same view name.
 
 Another important aspect of OpenUI5 views is their cloning behavior. As you might know, OpenUI5 aggregation bindings can use template control to create a series of similar controls based on a collection of data, for example, items in a `sap.ui.table.Table` for each entry in a model array. The data binding uses a `ManagedObject.clone` operation to create multiple controls out of a single template.
 
