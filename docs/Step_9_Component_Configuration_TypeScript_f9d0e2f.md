@@ -35,7 +35,7 @@ You can view and download all files at [UI5 TypeScript Walkthrough - Step 9](htt
   
 **Folder Structure for this Step**
 
-![](images/loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step")
+![](images/loio1e237a36972a44ac8522dd1a540ac062_LowRes.png "Folder Structure for this Step")
 
 After this step your project structure will look like the figure above. We will create the `Component.ts` file now and modify the related files in the app.
 

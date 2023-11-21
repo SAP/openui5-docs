@@ -48,7 +48,7 @@ The Support Assistant allows you to export and import subsets of preselected rul
   
 **Support Assistant Rule Presets**
 
-![](images/loio562a49a871e04125867052231ec52660_LowRes.png "Support Assistant Rule Presets")
+![Support Assistant - Available Rulesets tab](images/loio562a49a871e04125867052231ec52660_LowRes.png "Support Assistant Rule Presets")
 
 ***
 
@@ -73,6 +73,9 @@ You can't delete system presets but you have the option to modify and export the
 
 > ### Tip:  
 > If you modify the rule selection within a system preset, an asterisk appears next to its name as an indication of changes that haven’t been saved. You can undo these changes by selecting the refresh icon opposite the preset name ![](images/loio77651912c3644b29852ec0f7710182b0_HiRes.png).
+
+> ### Tip:  
+> You can use the Deprecations \(experimental\) system preset to check your application for usages of deprecated controls, properties, aggregations, and others.
 
 ***
 
