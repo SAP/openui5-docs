@@ -25,7 +25,7 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step and make sure that the application runs as intended.
 > 
-> You can view and download the samples for all steps on GitHub at [Walkthrough](https://github.com/sap-samples/); for more information, read the instruction on the GitHub repository: [OpenUI5 Demo Kit Walkthrough \(TypeScript Version\)](https://github.com/sap-samples/).
+> You can view and download the samples for all steps on GitHub at [OpenUI5 TypeScript Walkthrough](https://github.com/sap-samples/ui5-typescript-walkthrough/README.md).
 
 The tutorial consists of the following steps. To start, just open the first link - you'll be guided from there.
 

@@ -28,7 +28,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 
 ### Coding
 
-You can view and download all files at [UI5 TypeScript Walkthrough - Step 1](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/01/README.md).
+You can view and download all files at [OpenUI5 TypeScript Walkthrough - Step 1: Hello World!](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/01/README.md).
 
 Create a folder on your local machine which will contain all the sources of the app we're going to build. We'll refer to this folder as the “app root directory”.
 
@@ -68,27 +68,27 @@ Create a new HTML file named `index.html` in your webapp folder and enter the fo
 
 ### webapp/manifest.json \(New\)
 
-The manifest file is called the **descriptor for applications, components, and libraries** and is also referred to as the “descriptor” or “app descriptor”. It's stored in the `webapp` folder and read by OpenUI5 to instantiate a component. Even though we don't have a component yet \(this is part of [Step 9: Component Configuration \(TypeScript\)](Step_9_Component_Configuration_TypeScript_f9d0e2f.md)\), we need this file already now as we'd like to use UI5 Tooling for development, which requires an app descriptor.
+The manifest file, also known as the "descriptor" or "app descriptor," serves as a crucial configuration file for applications, components, and libraries. Stored in the `webapp` folder, this file is read by OpenUI5 to instantiate a component. Although we haven't created a component yet \(which is part of [Step 9: Component Configuration \(TypeScript\)](Step_9_Component_Configuration_TypeScript_f9d0e2f.md)\), we need to create the app descriptor already now, because UI5 Tooling, which we intend to use for development, also requires an app descriptor.
 
-That's why we now create a new file named `manifest.json` in the webapp folder and specify its essential attributes:
+Hence, we create a new file named `manifest.json` in the webapp folder and define its essential attributes:
 
--   The `_version` attribute describes the **descriptor format version** and is mandatory. Features might be added or changed in future versions of the descriptor, and the version number helps tools that read the descriptor to identify the application settings. Every new version of OpenUI5 comes with a new version of the app descriptor. As we plan to define OpenUI5 version 1.120 as the minimum required version to be used with our app, we need to specify 1.60.0 as the descriptor format version.
+-   The `_version` attribute is a mandatory field in the app descriptor that indicates the format version of the descriptor. This attribute is crucial for identifying application settings when the descriptor is read by various tools. As new features or changes are introduced in future versions of the descriptor, the version number helps to ensure compatibility and proper interpretation of the descriptor's contents. Consequently, with each new version of OpenUI5 a corresponding version of the app descriptor is released. For this tutorial, we have determined that our app requires a minimum OpenUI5 version of 1.120. Therefore, we specify the descriptor format version as 1.60.0, aligning it with the appropriate OpenUI5 version.
 
     > ### Note:  
-    > You can look up the matching `_version` number for each OpenUI5 release in [this table](https://github.com/SAP/ui5-manifest/blob/-/mapping.json).
+    > To find the appropriate `_version` for each OpenUI5 release, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
--   The **`sap.app`** namespace contains application-specific attributes, the following of which are mandatory:
+-   The **`sap.app`** namespace is used to define properties that are specific to the application itself. It includes the following obligatory application-specific attributes:
 
-    -   `id`: The namespace of our application component. The ID must be provided in dot notation and must not exceed 70 characters. It specifies an ID for the project that must be unique in the system and must match the project namespace.
+    -   `id`: This property specifies a unique identifier for the application and states the namespace of the application. It's used to identify the application within the SAP Fiori launchpad or any other deployment environment. The `id` has to be provided in dot notation and must not exceed 70 characters.
 
-    -   `title`: Title of the application
+    -   `title`: This property defines the title of the application, which can be displayed in the SAP Fiori launchpad or other application management tools.
 
         > ### Note:  
-        > We recommend to make the title language-dependent. We'll describe how this is done in [Step 10: Descriptor for Applications \(TypeScript\)](Step_10_Descriptor_for_Applications_TypeScript_2a46b75.md). For now, we are satisfied with a static title.
+        > It's recommended to make the title language-dependent, although for now we use a static title. We'll discuss how to implement language-dependent titles in [Step 10: Descriptor for Applications \(TypeScript\)](Step_10_Descriptor_for_Applications_TypeScript_2a46b75.md).
 
-    -   `applicationVersion`: Specifies the version of the app using semantic versioning
+    -   `applicationVersion`: This property is used to specify the version of the application. It's typically used for tracking and managing changes to the application over time. The application version must be provided using semantic versioning principles.
 
-    -   `type`: Not a mandatory attribute, but as a project description it makes sense to configure this as well. We describe an `application` here.
+    -   `type`: This property defines the type of your project, such as `application` or `component`. It helps in determining the project's behavior and how it should be loaded. While the type is actually not a mandatory attribute, it provides a useful project description; hence, it makes sense to configure it as well. We describe an `application` here.
 
 
 
@@ -98,7 +98,7 @@ That's why we now create a new file named `manifest.json` in the webapp folder a
   "sap.app": {
     "id": "ui5.walkthrough"
     "type": "application",
-    "title": "UI5 Walkthrough",
+    "title": "UI5 TypeScript Walkthrough",
     "applicationVersion": {
       "version": "1.0.0"
     }
@@ -107,7 +107,7 @@ That's why we now create a new file named `manifest.json` in the webapp folder a
 ```
 
 > ### Note:  
-> In this tutorial step, we only enter the most basic settings and parameters of the app descriptor file. In some development environments, you may get validation errors because some settings are missing; you can ignore them in this context. [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md) explains the purpose of the file in general and describes some additional configuration options.
+> In this tutorial step, we focus on adding the absolute minimum configuration to the app descriptor file. Iin certain development environments you might encounter validation errors due to missing settings. However, for the purposes of this tutorial you can safely ignore these errors. In [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md) we'll examine the purpose of the file in detail and configure some further options.
 
 ***
 
@@ -131,7 +131,7 @@ Enter the following content:
 {
   "name": "ui5.walkthrough",
   "version": "1.0.0",
-  "description": "The UI5 walkthrough application",
+  "description": "UI5 TypeScript Walkthrough",
   "scripts": {
       "start": "ui5 serve -o index.html"
   }
@@ -141,11 +141,19 @@ Enter the following content:
 
 Next, we install the UI5 CLI and add it as development dependency to our project. For this, we open a terminal in the app root folder and execute the following command:
 
-`npm install --save-dev @ui5/cli`.
+`npm install --save-dev @ui5/cli`
 
-Finally, we initialize the UI5 Tooling configuration for our project by executing the command `ui5 init` in the app root folder. This will generate a `ui5.yaml` file in our app root directory, which is essential for using UI5 Tooling with our project.
+Finally, we initialize the UI5 Tooling configuration for our project by executing the following command in the app root folder:
 
-Execute `npm start` to start the web server and to open a new browser window hosting your newly created `index.html`.
+`ui5 init`
+
+This will generate a `ui5.yaml` file in our app root directory, which is essential for using UI5 Tooling with our project.
+
+To start the web server, execute the following command:
+
+`npm start`
+
+This will open a new browser window hosting your newly created `index.html`.
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
