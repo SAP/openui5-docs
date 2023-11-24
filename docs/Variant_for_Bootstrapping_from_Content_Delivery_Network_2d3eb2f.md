@@ -34,7 +34,7 @@ The specific version allows you to select a particular fixed version for bootstr
 <script id="sap-ui-bootstrap"
     type="text/javascript"
     src="https://sdk.openui5.org/1.121.0/resources/sap-ui-core.js"
-    data-sap-ui-theme="sap_fiori_3"
+    data-sap-ui-theme="sap_horizon"
     data-sap-ui-async="true"
     data-sap-ui-libs="sap.m"></script>
 
@@ -96,7 +96,7 @@ When using the patch-level independent bootstrap you must use `data-sap-ui-async
 > <script id="sap-ui-bootstrap"
 >     type="text/javascript"
 >     src="https://sdk.openui5.org/resources/sap-ui-core.js"
->     data-sap-ui-theme="sap_fiori_3"
+>     data-sap-ui-theme="sap_horizon"
 >     data-sap-ui-async="true"
 >     data-sap-ui-libs="sap.m"></script>
 > 

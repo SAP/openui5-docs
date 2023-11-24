@@ -25,7 +25,7 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step and make sure that the application runs as intended.
 > 
-> You can view and download the samples for all steps on GitHub at [OpenUI5 TypeScript Walkthrough](https://github.com/sap-samples/ui5-typescript-walkthrough/README.md).
+> You can view the samples for all steps on GitHub at [OpenUI5 TypeScript Walkthrough](https://github.com/sap-samples/ui5-typescript-walkthrough/README.md).
 
 The tutorial consists of the following steps. To start, just open the first link - you'll be guided from there.
 
@@ -39,8 +39,8 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 		display an alert.")  
 Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called **bootstrapping**. Once this bootstrapping is finished, we simply display an alert.
 3.  [Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
-		JavaScript control interface to set up the UI, the control instance is then placed into the HTML body. ")  
-Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the JavaScript control interface to set up the UI, the control instance is then placed into the HTML body.
+		TypeScript control API to set up the UI, the control instance is then placed into the HTML body. ")  
+Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.
 4.  [Step 4: XML Views \(TypeScript\)](Step_4_XML_Views_TypeScript_6c66ed8.md "Putting all our UI into the index.ts file will very soon result in a messy setup, and there is quite a bit of work ahead
 		of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated
 		view.")  
@@ -67,15 +67,15 @@ After we have introduced all three parts of the Model-View-Controller \(MVC\) co
 		are realized as components and come with a descriptor file in order to be hosted in the
 			SAP Fiori launchpad.")  
 All application-specific configuration settings will now further be put in a separate descriptor file called `manifest.json`. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.
-11. [Step 11: Pages and Panels](Step_11_Pages_and_Panels_feed613.md "After all the work on the app structure it’s time to improve the look of our app. We
+11. [Step 11: Pages and Panels \(TypeScript\)](Step_11_Pages_and_Panels_TypeScript_feed613.md "After all the work on the app structure it’s time to improve the look of our app. We
 		will use two controls from the sap.m library to add a bit more &quot;bling&quot; to
 		our UI. You will also learn about control aggregations in this step.")  
 After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the `sap.m` library to add a bit more "bling" to our UI. You will also learn about control aggregations in this step.
-12. [Step 12: Shell Control as Container](Step_12_Shell_Control_as_Container_4af44cb.md "Now we use a shell control as container for our app and use it as our new root
+12. [Step 12: Shell Control as Container \(TypeScript\)](Step_12_Shell_Control_as_Container_TypeScript_4af44cb.md "Now we use a shell control as container for our app and use it as our new root
 		element. The shell takes care of visual adaptation of the application to the device’s screen
 		size by introducing a so-called letterbox on desktop screens.")  
 Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device’s screen size by introducing a so-called letterbox on desktop screens.
-13. [Step 13: Margins and Paddings](Step_13_Margins_and_Paddings_5826c0c.md "Our app content is still glued to the corners of the letterbox. To fine-tune our
+13. [Step 13: Margins and Paddings \(TypeScript\)](Step_13_Margins_and_Paddings_TypeScript_5826c0c.md "Our app content is still glued to the corners of the letterbox. To fine-tune our
 		layout, we can add margins and paddings to the controls that we added in the previous step. ")  
 Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.
 14. [Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_4cc841e.md "Sometimes we need to define some more fine-granular layouts and this is when we can

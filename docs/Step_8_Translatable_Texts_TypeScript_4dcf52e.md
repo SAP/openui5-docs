@@ -31,7 +31,7 @@ This way, they are all in a central place and can be easily translated into othe
 
 ### Coding
 
-You can view and download all files at [UI5 TypeScript Walkthrough - Step 8](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/08/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 8: Translatable Texts](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/08/README.md).
 
 ***
 

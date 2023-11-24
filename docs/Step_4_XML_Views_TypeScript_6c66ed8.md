@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6c66ed
 
 Putting all our UI into the `index.ts` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
 
-OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). When working with UI5, we recommend the use of XML, as this produces the most readable code and will force us to separate the view declaration from the controller logic. Yet the look of our UI will not change.
+When working with OpenUI5, we recommend the use of XML views, as this produces the most readable code and forces us to separate the view declaration from the controller logic. Yet the look of our UI will not change.
 
 ***
 
@@ -31,7 +31,7 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). When working wit
 
 ### Coding
 
-You can view and download all files at [UI5 TypeScript Walkthrough - Step 4](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/04/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 4: XML Views](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/04/README.md).
 
 ***
 
@@ -39,7 +39,7 @@ You can view and download all files at [UI5 TypeScript Walkthrough - Step 4](htt
 
 ### webapp/view/App.view.xml \(New\)
 
-We create a new `view` folder in our webapp folder and a new file called `App.view.xml` inside this folder. The root node of the XML structure is the `view`. Here, we reference the default namespace `sap.m` where the majority of our UI assets are located. We define an additional `sap.ui.core.mvc` namespace with alias `mvc`, where the OpenUI5 views and all other Model-View-Controller \(MVC\) assets are located.
+We create a new `view` folder in our webapp folder and a new file called `App.view.xml` inside this folder. The root node of the XML structure is the `view`. Here, we reference the default namespace `sap.m` where the text control and the majority of our UI assets are located. We define an additional `sap.ui.core.mvc` namespace with alias `mvc`, where the OpenUI5 views and all other Model-View-Controller \(MVC\) assets are located.
 
 ```xml
 <mvc:View
@@ -50,10 +50,6 @@ We create a new `view` folder in our webapp folder and a new file called `App.vi
 
 > ### Note:  
 > The namespace identifies all resources of the project and has to be unique. If you develop your own application code or controls, you cannot use the namespace prefix `sap`, because this namespace is reserved for SAP resources. Instead, simply define your own unique namespace \(for example, `myCompany.myApp`\).
-
-***
-
-### webapp/view/App.view.xml
 
 Inside the `View` tag, we add the declarative definition of our `text` control with the same properties as in the previous step. The XML tags are mapped to controls, and their attributes are mapped to control properties.
 
@@ -101,7 +97,7 @@ XMLView.create({
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
-**Next:**[Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the JavaScript control interface to set up the UI, the control instance is then placed into the HTML body.")
+**Next:**[Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.")
 
 **Previous:**[Step 5: Controllers \(TypeScript\)](Step_5_Controllers_TypeScript_e5c58fe.md "In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's press event is implemented in the controller of the view.")
 

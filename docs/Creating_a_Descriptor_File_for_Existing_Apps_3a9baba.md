@@ -60,8 +60,8 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
                 "phone": true
             },
             "supportedThemes": [
-                "sap_hcb",
-                "sap_belize"
+                "sap_horizon_hcb",
+                "sap_horizon"
             ]
         },
         "sap.ui5": {
@@ -331,8 +331,8 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
             "phone": true
         },
         "supportedThemes": [
-            "sap_hcb",
-            "sap_belize"
+            "sap_horizon_hcb",
+            "sap_horizon"
         ]
     ```
 

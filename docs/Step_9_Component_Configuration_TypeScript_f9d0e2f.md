@@ -29,7 +29,7 @@ In this step, we will encapsulate all UI assets in a component that is independe
 
 ### Coding
 
-You can view and download all files at [UI5 TypeScript Walkthrough - Step 9](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/09/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 9: Component Configuration](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/09/README.md).
 
   
   

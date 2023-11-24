@@ -28,7 +28,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 
 ### Coding
 
-You can view and download all files at [OpenUI5 TypeScript Walkthrough - Step 1: Hello World!](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/01/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 1: Hello World!](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/01/README.md).
 
 Create a folder on your local machine which will contain all the sources of the app we're going to build. We'll refer to this folder as the “app root directory”.
 
@@ -107,7 +107,7 @@ Hence, we create a new file named `manifest.json` in the webapp folder and defin
 ```
 
 > ### Note:  
-> In this tutorial step, we focus on adding the absolute minimum configuration to the app descriptor file. Iin certain development environments you might encounter validation errors due to missing settings. However, for the purposes of this tutorial you can safely ignore these errors. In [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md) we'll examine the purpose of the file in detail and configure some further options.
+> In this tutorial step, we focus on adding the absolute minimum configuration to the app descriptor file. In certain development environments you might encounter validation errors due to missing settings. However, for the purposes of this tutorial you can safely ignore these errors. In [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md) we'll examine the purpose of the file in detail and configure some further options.
 
 ***
 

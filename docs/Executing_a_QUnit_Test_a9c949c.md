@@ -332,7 +332,7 @@ Both, the defaults and the individual test configurations have the same structur
 		bindingSyntax: 'complex',
 		noConflict: true,
 		libs: [],
-		theme: "sap_belize"
+		theme: "sap_horizon"
 	},
  
  

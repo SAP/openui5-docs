@@ -18,13 +18,13 @@ You define which theme is used by your app either in the bootstrap, by using a U
     <script id="sap-ui-bootstrap" 
     	type="text/javascript"
     	src="resources/sap-ui-core.js"
-    	data-sap-ui-theme="sap_belize">
+    	data-sap-ui-theme="sap_horizon">
     </script>
     ```
 
     This setting has the lowest priority.
 
--   A URL parameter \(for example: `html?sap-ui-theme=sap_belize`\) can be used when starting a OpenUI5 application to set or override the initial theme.
+-   A URL parameter \(for example: `html?sap-ui-theme=sap_horizon`\) can be used when starting a OpenUI5 application to set or override the initial theme.
 
     If you use the UI theme designer to define your own custom theme, you can append the location of the custom theme as a server-relative path to the `sap-ui-theme` parameter, separated by an `@` sign:
 

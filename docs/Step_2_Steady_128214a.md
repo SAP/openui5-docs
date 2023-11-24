@@ -100,7 +100,7 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("Quickstart.App", {
-		onPress : function () {
+		onPress: function () {
 			MessageToast.show("Hello App!");
 		}
 	});

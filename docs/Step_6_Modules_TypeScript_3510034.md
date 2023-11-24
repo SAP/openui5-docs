@@ -28,7 +28,7 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
 ### Coding
 
-You can view and download all files at [UI5 TypeScript Walkthrough - Step 6](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/06/README.md)
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 6: Modules](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/06/README.md).
 
 ***
 
@@ -36,7 +36,7 @@ You can view and download all files at [UI5 TypeScript Walkthrough - Step 6](htt
 
 ### webapp/controller/App.controller.ts
 
-We now replace the native `alert` function with the `show` method of the `sap/m/MessageToast` library of OpenUI5. For this, we extend the imports with the `sap/m/MessageToast` module.
+We now replace the native `alert` function with the `show` method of the `sap/m/MessageToast` control of OpenUI5. For this, we extend the imports with the `sap/m/MessageToast` module.
 
 ```js
 import MessageToast from "sap/m/MessageToast";

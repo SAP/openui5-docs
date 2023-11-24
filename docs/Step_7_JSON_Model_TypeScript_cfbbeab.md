@@ -31,7 +31,7 @@ We will add an input field to our app, bind its value to the model, and bind the
 
 ### Coding
 
-You can view and download all files at [UI5 TypeScript Walkthrough - Step 7](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/07/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 7: JSON Model](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/07/README.md).
 
 ***
 
@@ -72,6 +72,8 @@ export default class AppController extends Controller {
 ```
 
 The model is now set on the view.
+
+For now, the message toast just displays a static "Hello World" message. We will show how to load a translated text here in [Step 8: Translatable Texts \(TypeScript\)](Step_8_Translatable_Texts_TypeScript_4dcf52e.md).
 
 ***
 

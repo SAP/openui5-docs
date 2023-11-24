@@ -29,7 +29,7 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
 ### Coding
 
-You can view and download all files at [UI5 TypeScript Walkthrough - Step 10](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/10/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 10: Descriptor for Applications](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/10/README.md).
 
 ***
 
@@ -95,7 +95,7 @@ There are three important sections defined by namespaces in the `manifest.json` 
 
     -   `rootView`: If you specify this parameter, the component will automatically instantiate the view and use it as the root for this component.
 
-    -   `models`: In this section of the descriptor we can define models that will be automatically instantiated by OpenUI5 when the app starts. Here we can now define the local resource bundle. We define the name of the model "i18n" as key and specify the bundle file by namespace. As in the previous steps, the file with our translated texts is stored in the `i18n` folder and named `i18n.properties`. We simply prefix the path to the file with the namespace of our app. The manual instantiation in the app component's `init` method will be removed later in this step. The `supportedLocales` and `fallbackLocale` properties are set to empty strings, as in this tutorial our demo app uses only one `i18n.properties` file for simplicity, and we'd like to prevent the browser from trying to load additional `i18n_*.properties` files based on your browser settings and your locale.
+    -   `models`: In this section of the descriptor we can define models that will be automatically instantiated by OpenUI5 when the app starts. Here we can now define the local resource bundle. We define the name of the model "i18n" as key and specify the bundle file by namespace. As in the previous steps, the file with our translated texts is stored in the `i18n` folder and named `i18n.properties`. We simply prefix the path to the file with the namespace of our app. The manual instantiation in the app component's `init` method will be removed later in this step. The `supportedLocales` and `fallbackLocale` properties are set to empty strings, as in this tutorial our demo app uses only one `i18n.properties` file for simplicity, and we'd like to prevent the browser from trying to load additional `i18n_*.properties` files based on your browser settings and your locale. For more information, see [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md).
 
 
     For compatibility reasons the root object and each of the sections state the descriptor version number under the internal property `_version`. Every new version of OpenUI5 implies a new version of the app descriptor. Features might be added or changed in future versions of the descriptor, and the version number helps to identify the application settings by tools that read the descriptor. You can look up the value of `_version` for eachOpenUI5 release in [this table](https://github.com/SAP/ui5-manifest/blob/master/mapping.json).
@@ -252,7 +252,7 @@ We can delete our `index.ts`, because the descriptor now takes care of everythin
 
 **Next:**[Step 9: Component Configuration \(TypeScript\)](Step_9_Component_Configuration_TypeScript_f9d0e2f.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept, we now come to another important structural aspect of OpenUI5.")
 
-**Previous:**[Step 11: Pages and Panels](Step_11_Pages_and_Panels_feed613.md "After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the sap.m library to add a bit more &quot;bling&quot; to our UI. You will also learn about control aggregations in this step.")
+**Previous:**[Step 11: Pages and Panels \(TypeScript\)](Step_11_Pages_and_Panels_TypeScript_feed613.md "After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the sap.m library to add a bit more &quot;bling&quot; to our UI. You will also learn about control aggregations in this step.")
 
 **Related Information**  
 

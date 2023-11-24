@@ -29,7 +29,7 @@ By setting the `async=true` configuration parameter, the module loader loads the
 <script
     id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"
-    data-sap-ui-theme="sap_belize"
+    data-sap-ui-theme="sap_horizon"
     data-sap-ui-async="true"
     data-sap-ui-onInit="module:my/app/main"
     data-sap-ui-resourceRoots='{"my.app": "./"}'
@@ -66,7 +66,7 @@ You can easily check this with an existing application by specifying the `sap-ui
 <script
     id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"
-    data-sap-ui-theme="sap_belize"
+    data-sap-ui-theme="sap_horizon"
     data-sap-ui-preload="async"
     data-sap-ui-onInit="module:my/app/main"
     data-sap-ui-resourceRoots='{"my.app": "./"}'

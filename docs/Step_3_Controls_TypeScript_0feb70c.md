@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0feb70
 
 ## Step 3: Controls \(TypeScript\)
 
-Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the JavaScript control interface to set up the UI, the control instance is then placed into the HTML body.
+Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.
 
 ***
 
@@ -29,19 +29,25 @@ Now it is time to build our first little UI by replacing the “Hello World” t
 
 ### Coding
 
-You can view and download all files at [UI5 TypeScript Walkthrough - Step 3](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/03/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 3: Controls](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/03/README.md).
 
 ***
 
 <a name="loio0feb70c39c5e4074893c294667b3f36b__section_yk4_kyv_xfb"/>
 
-### webapp/index.ts
+### webapp/package.json
 
-First, we need to install `@types/openui5` to get the type definitions for UI5: Open a terminal in the app root folder and execute the following command:
+First, we need to install `@types/openui5` to get the type definitions for OpenUI5. Open a terminal in the app root folder and execute the following command:
 
 `npm install @types/openui5 --save-dev`
 
-This will install the type definitions for UI5 and update the `package.json` file with this new development dependency.
+This will install the type definitions for OpenUI5 and update the `package.json` file with this new development dependency.
+
+***
+
+<a name="loio0feb70c39c5e4074893c294667b3f36b__section_rpg_y4q_nzb"/>
+
+### webapp.index.ts
 
 We then make some changes to our `index.ts` file: We remove the `alert` method and instantiate an OpenUI5 `Text` control instead; its options are passed to the constructor with a TypeScript object. For our control we set the `text` property to the value “Hello World”.
 
@@ -103,7 +109,13 @@ In the example above, the callback of the `init` event is where we now instantia
 
 ### UI5 Tooling
 
-As we now use the `sap.m` library with our app, we need to update our UI5 Tooling setup with a dependency to this library: Open a terminal in the app root folder and execute the `ui5 add sap.m` command to configure the `sap.m` UI5 library as a dependency in our `ui5.yaml`.
+As we now use the `sap.m` library with our app, we need to update our UI5 Tooling setup with a dependency to this library.
+
+Open a terminal in the app root folder and execute the following command:
+
+`ui5 add sap.m`
+
+This will configure the `sap.m` OpenUI5 library as a dependency in our `ui5.yaml`.
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 

@@ -77,16 +77,13 @@ You can view and download all files at [Quick Start - Step 1](https://sdk.openui
 
     With the `script` tag, we load and initialize OpenUI5 with typical bootstrap parameters. We define, for example, a theme, control libraries, as well as performance and compatibility flags.
 
-    First, we need a source to load OpenUI5 from. To keep things convenient, we use the path to our Content Delivery Network \(CDN\) for OpenUI5.
+    First, we need a source to load OpenUI5 from. In this tutorial, we will use UI5 Tooling to host the OpenUI5 resources.
 
     The bootstrap property `resourceroots` defines the namespace for all resources of the app. This way, we can easily reference additional files that we are about to create in this step.
 
     The `index` module that we load with the `onInit` parameter will hold the application logic.
 
     The `body` tag is defined with the `sapUiBody` class and the `content` ID. This is where we will add the content of the app in the next steps.
-
-    > ### Tip:  
-    > For more information about bootstrapping from the CDN, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 
 5.  In your `webapp` folder, create a new file `index.js` that will be called as soon as OpenUI5 is loaded and initialized.
 

@@ -80,7 +80,7 @@ First, we add the `sap.m` library as a dependency in the `manifest.json`.
 	...
 	<script id="sap-ui-bootstrap"
 		src="https://sdk.openui5.org/resources/sap-ui-core.js"
-		data-sap-ui-theme="sap_belize"
+		data-sap-ui-theme="sap_horizon"
 		data-sap-ui-resourceroots='{
 			"sap.ui.demo.fiori2": "./",
 			"sap.ui.demo.mock": "https://sdk.openui5.org/test-resources/sap/ui/documentation/sdk/"

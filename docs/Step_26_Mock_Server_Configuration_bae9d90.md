@@ -34,7 +34,7 @@ You can view and download all files at [Walkthrough - Step 26](https://sdk.openu
   
 **Folder Structure for this Step**
 
-![](images/loio7a5e2b02d72d40d388f5e601d7de74df_LowRes.png "Folder Structure for this Step")
+![The graphic has an explanatory text.](images/loio7a5e2b02d72d40d388f5e601d7de74df_LowRes.png "Folder Structure for this Step")
 
 The folder structure of our app project is clearly separating test and productive files after this step. The new `test` folder now contains a new HTML page `mockServer.html` which will launch our application in test mode without calling the real service.
 

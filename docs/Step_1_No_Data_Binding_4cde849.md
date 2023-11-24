@@ -61,7 +61,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 1](h
     	<script id="sap-ui-bootstrap"
     		src="resources/sap-ui-core.js"
     		data-sap-ui-theme="sap_horizon"
-    		data-sap-ui-libs="sap.m"
+    		data-sap-ui-libs="sap.m, sap.ui.layout"
     		data-sap-ui-resourceroots='{"ui5.databinding": "./"}'
     		data-sap-ui-compatVersion="edge"
     		data-sap-ui-async="true">

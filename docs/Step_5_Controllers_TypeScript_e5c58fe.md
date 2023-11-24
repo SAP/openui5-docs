@@ -28,7 +28,7 @@ In this step, we replace the text with a button and show the “Hello World” m
 
 ### Coding
 
-You can view and download all files at [UI5 TypeScript Walkthrough - Step 5](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/05/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 5: Controllers](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/05/README.md).
 
 ***
 
@@ -62,7 +62,7 @@ export default class AppController extends Controller {
 
 We add a reference to the controller by setting the `controllerName` attribute of the view. This way we get access to the event handlers and other functionalities defined in the controller.
 
-We also replace the text control with a button with text “Say Hello” and assign a press event to it. When pressed, the button triggers the `onShowHello` event handler function we introduced in the view. To point out that the press event handler of the button is located in the controller of the view and not in the Global Namespace, we prefix the handler name with a "`.`" character.
+We also replace the text control with a button with text “Say Hello” and assign a press event to it. When pressed, the button triggers the `onShowHello` event handler function we introduced in the controller of the view. To point out that the press event handler of the button is located in the controller of the view and not in the Global Namespace, we prefix the handler name with a "`.`" character.
 
 ```xml
 <mvc:View
