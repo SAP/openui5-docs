@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4cc841e27fd44549b9d108ed7c333195) | [demo kit latest release](https://sdk.openui5.org/topic/4cc841e27fd44549b9d108ed7c333195)</div>
 
-## Step 14: Custom CSS and Theme Colors
+## Step 14: Custom CSS and Theme Colors \(TypeScript\)
 
 Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.
 
@@ -32,13 +32,21 @@ Sometimes we need to define some more fine-granular layouts and this is when we 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 14](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.14).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 14: Custom CSS and Theme Colors](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/14/README.md).
 
 ***
 
 <a name="loio4cc841e27fd44549b9d108ed7c333195__section_b55_pr2_syb"/>
 
 ### webapp/css/style.css \(New\)
+
+We create a folder `css` which will contain our CSS files. In a new style definition file inside the `css` folder we create our custom classes combined with a custom namespace class. This makes sure that the styles will only be applied on controls that are used within our app.
+
+A button has a default margin of `0` that we want to override: We add a custom margin of `2px` \(or `0.125rem` calculated relatively to the default font size of `16px`\) to the button with the style class `myCustomButton`. We add the CSS class `sapMBtn` to make our selector more specific: in CSS, the rule with the most specific selector "wins".
+
+For right-to-left \(rtl\) languages, like Arabic, you set the left margin and reset the right margin as the app display is inverted. If you only use standard OpenUI5 controls, you don't need to care about this, in this case where we use custom CSS, you have to add this information.
+
+In an additional class `myCustomText` we define a bold text and set the display to `inline-block`. This time we just define our custom class without any additional selectors. We do not set a color value here yet, we will do this in the view.
 
 ```
 html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
@@ -56,17 +64,11 @@ html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
 
 ```
 
-We create a folder `css` which will contain our CSS files. In a new style definition file inside the `css` folder we create our custom classes combined with a custom namespace class. This makes sure that the styles will only be applied on controls that are used within our app.
-
-A button has a default margin of `0` that we want to override: We add a custom margin of `2px` \(or `0.125rem` calculated relatively to the default font size of `16px`\) to the button with the style class `myCustomButton`. We add the CSS class `sapMBtn` to make our selector more specific: in CSS, the rule with the most specific selector "wins".
-
-For right-to-left \(rtl\) languages, like Arabic, you set the left margin and reset the right margin as the app display is inverted. If you only use standard OpenUI5 controls, you don't need to care about this, in this case where we use custom CSS, you have to add this information.
-
-In an additional class `myCustomText` we define a bold text and set the display to `inline-block`. This time we just define our custom class without any additional selectors. We do not set a color value here yet, we will do this in the view.
-
 ***
 
 ### webapp/manifest.json
+
+We configure the CSS file to our app descriptor: In the `resources` section of the `sap.ui5` namespace, additional resources for the app can be loaded. We load the CSS styles by defining a URI relative to the component. OpenUI5 then adds this file to the header of the HTML page as a `<link>` tag, just like in plain Web pages, and the browser loads it automatically.
 
 ```
 ...
@@ -85,11 +87,15 @@ In an additional class `myCustomText` we define a bold text and set the display 
   }
 ```
 
-In the `resources` section of the `sap.ui5` namespace, additional resources for the app can be loaded. We load the CSS styles by defining a URI relative to the component. OpenUI5 then adds this file to the header of the HTML page as a `<link>` tag, just like in plain Web pages, and the browser loads it automatically.
-
 ***
 
 ### webapp/view/App.view.xml
+
+The app control is configured with our custom namespace class `myAppDemoWT`. This class has no styling rules set and is used in the definition of the CSS rules to define CSS selectors that are only valid for this app.
+
+We add our custom CSS class to the button to precisely define the space between the button and the input field. Now we have a pixel-perfect design for the panel content.
+
+To highlight the output text, we use a `FormattedText` control which can be styled individually, either by using custom CSS or with HTML code. We add our custom CSS class \(`myCustomText`\) and add a theme-dependent CSS class to set the highlight color that is defined in the theme.
 
 ```xml
 <mvc:View
@@ -128,12 +134,6 @@ In the `resources` section of the `sap.ui5` namespace, additional resources for 
 </mvc:View>
 ```
 
-The app control is configured with our custom namespace class `myAppDemoWT`. This class has no styling rules set and is used in the definition of the CSS rules to define CSS selectors that are only valid for this app.
-
-We add our custom CSS class to the button to precisely define the space between the button and the input field. Now we have a pixel-perfect design for the panel content.
-
-To highlight the output text, we use a `FormattedText` control which can be styled individually, either by using custom CSS or with HTML code. We add our custom CSS class \(`myCustomText`\) and add a theme-dependent CSS class to set the highlight color that is defined in the theme.
-
 The actual color now depends on the selected theme which ensures that the color always fits to the theme and is semantically clear. For a complete list of the available CSS class names, see [CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md).
 
 ***
@@ -147,7 +147,7 @@ The actual color now depends on the selected theme which ensures that the color 
 
 **Next:**[Step 13: Margins and Paddings \(TypeScript\)](Step_13_Margins_and_Paddings_TypeScript_5826c0c.md "Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.")
 
-**Previous:**[Step 15: Nested Views](Step_15_Nested_Views_9bbbfaa.md "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.")
+**Previous:**[Step 15: Nested Views \(TypeScript\)](Step_15_Nested_Views_TypeScript_9bbbfaa.md "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.")
 
 **Related Information**  
 

@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/49b1ac6f768947769d3daa9baf807f31) | [demo kit latest release](https://sdk.openui5.org/topic/49b1ac6f768947769d3daa9baf807f31)</div>
 
-## Step 18: Icons
+## Step 18: Icons \(TypeScript\)
 
 Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large icon font that contains more than 500 icons, we will add an icon to greet our users when the dialog is opened.
 
@@ -28,13 +28,15 @@ Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large ico
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 18](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.18).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 18: Icons](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/18/README.md).
 
 ***
 
 <a name="loio49b1ac6f768947769d3daa9baf807f31__section_qg2_zgk_syb"/>
 
 ### webapp/view/HelloPanel.view.xml
+
+We add an icon to the button that opens the dialog. The `sap-icon://` protocol is indicating that an icon from the icon font should be loaded. The identifier `world` is the readable name of the icon in the icon font.
 
 ```xml
 <mvc:View
@@ -68,8 +70,6 @@ You can view and download all files at [Walkthrough - Step 18](https://sdk.openu
 </mvc:View>
 ```
 
-We add an icon to the button that opens the dialog. The `sap-icon://` protocol is indicating that an icon from the icon font should be loaded. The identifier `world` is the readable name of the icon in the icon font.
-
 > ### Tip:  
 > You can look up other icons using the [Icon Explorer tool](https://sdk.openui5.org/test-resources/sap/m/demokit/iconExplorer/webapp/index.html).
 > 
@@ -78,6 +78,8 @@ We add an icon to the button that opens the dialog. The `sap-icon://` protocol i
 ***
 
 ### webapp/view/HelloDialog.fragment.xml
+
+In the dialog fragment, we add an icon control to the content aggregation of the dialog. Luckily, the icon font also comes with a “Hello World” icon that is perfect for us here. We also define the size of the icon and set a medium margin on it.
 
 ```xml
 <core:FragmentDefinition
@@ -101,8 +103,6 @@ We add an icon to the button that opens the dialog. The `sap-icon://` protocol i
 </core:FragmentDefinition>
 ```
 
-In the dialog fragment, we add an icon control to the content aggregation of the dialog. Luckily, the icon font also comes with a “Hello World” icon that is perfect for us here. We also define the size of the icon and set a medium margin on it.
-
 ***
 
 ### Conventions
@@ -112,9 +112,9 @@ In the dialog fragment, we add an icon control to the content aggregation of the
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
-**Next:**[Step 17: Fragment Callbacks](Step_17_Fragment_Callbacks_f030afc.md "Now that we have integrated the dialog, it's time to add some user interaction. The user will definitely want to close the dialog again at some point, so we add a button to close the dialog and assign an event handler.")
+**Next:**[Step 17: Fragment Callbacks \(TypeScript\)](Step_17_Fragment_Callbacks_TypeScript_f030afc.md "Now that we have integrated the dialog, it's time to add some user interaction. The user will definitely want to close the dialog again at some point, so we add a button to close the dialog and assign an event handler.")
 
-**Previous:**[Step 19: Aggregation Binding](Step_19_Aggregation_Binding_24580fb.md "Now that we have established a good structure for our app, it's time to add some more functionality. We start exploring more features of data binding by adding some invoice data in JSON format that we display in a list below the panel.")
+**Previous:**[Step 19: Aggregation Binding \(TypeScript\)](Step_19_Aggregation_Binding_TypeScript_24580fb.md "Now that we have established a good structure for our app, it's time to add some more functionality. We start exploring more features of data binding by adding some invoice data in JSON format that we display in a list below the panel.")
 
 **Related Information**  
 

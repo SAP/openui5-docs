@@ -294,7 +294,7 @@ You should now see the detail page when you click an item in the list of invoice
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
-**Next:**[Step 29: Debugging Tools](Step_29_Debugging_Tools_50990a0.md "Even though we have added a basic test coverage in the previous steps, it seems like we accidentally broke our app, because it does not display prices to our invoices anymore. We need to debug the issue and fix it before someone finds out.")
+**Next:**[Step 29: Debugging Tools \(TypeScript\)](Step_29_Debugging_Tools_TypeScript_50990a0.md "Even though we have added a basic test coverage in the previous steps, it seems like we accidentally broke our app, because it does not display prices to our invoices anymore. We need to debug the issue and fix it before someone finds out.")
 
 **Previous:**[Step 31: Routing with Parameters](Step_31_Routing_with_Parameters_afd5eb6.md "We can now navigate between the overview and the detail page, but the actual item that we selected in the overview is not displayed on the detail page yet. A typical use case for our app is to show additional information for the selected item on the detail page.")
 

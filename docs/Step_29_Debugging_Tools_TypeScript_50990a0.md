@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/50990a077f964958a6e5cef1002e5316) | [demo kit latest release](https://sdk.openui5.org/topic/50990a077f964958a6e5cef1002e5316)</div>
 
-## Step 29: Debugging Tools
+## Step 29: Debugging Tools \(TypeScript\)
 
 Even though we have added a basic test coverage in the previous steps, it seems like we accidentally broke our app, because it does not display prices to our invoices anymore. We need to debug the issue and fix it before someone finds out.
 
@@ -32,13 +32,15 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 29](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.29).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 29: Debugging Tools](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/29/README.md).
 
 ***
 
 <a name="loio50990a077f964958a6e5cef1002e5316__section_ykp_sth_tyb"/>
 
 ### webapp/view/InvoiceList.view.xml
+
+We introduce a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use <code>'invoice&gt;Ex<b>T</b>endedPrice'</code>.
 
 ```xml
 <mvc:View
@@ -96,7 +98,7 @@ You can view and download all files at [Walkthrough - Step 29](https://sdk.openu
 </mvc:View>
 ```
 
-We introduced a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use <code>'invoice&gt;Ex<b>T</b>endedPrice'</code>. Now we call the app and notice that the price is actually missing. By entering the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [S\]  we open the OpenUI5 support diagnostics tool and check the app.
+Now we call the app and notice that the price is actually missing. By entering the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [S\]  we open the OpenUI5 support diagnostics tool and check the app.
 
 > ### Note:  
 > If you use the Google Chrome browser, you can install the *UI5 Inspector* plugin. With this plugin, you can easily debug your - or OpenUI5-based apps. For more information, see [UI5 Inspector](UI5_Inspector_b24e724.md).
@@ -133,7 +135,7 @@ If you're stuck and need help for some development task, you can also post a que
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
-**Next:**[Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_412f0b6.md "If we want to test interaction patterns or more visual features of our app, we can also write an integration test.")
+**Next:**[Step 28: Integration Test with OPA \(TypeScript\)](Step_28_Integration_Test_with_OPA_TypeScript_412f0b6.md "If we want to test interaction patterns or more visual features of our app, we can also write an integration test.")
 
 **Previous:**[Step 30: Routing and Navigation](Step_30_Routing_and_Navigation_6173e3d.md "So far, we have put all app content on one single page. As we add more and more features, we want to split the content and put it on separate pages.")
 
@@ -145,4 +147,6 @@ If you're stuck and need help for some development task, you can also post a que
 [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6 "The Diagnostics window available in OpenUI5 is a support tool that runs within an existing OpenUI5 app.")
 
 [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9 "The Technical Information dialog shows details of the OpenUI5 version currently being used in an app built with OpenUI5. You can use the Technical Information dialog to enable debug resources and open additional support tools to debug your app.")
+
+[UI5 Inspector](UI5_Inspector_b24e724.md "The UI5 Inspector is an open source Chrome DevTools extension that helps app developers to inspect, analyze, and support OpenUI5-based apps. It is supported for apps based on OpenUI5 version 1.28 and higher.")
 

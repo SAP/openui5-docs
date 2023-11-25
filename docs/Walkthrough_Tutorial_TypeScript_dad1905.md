@@ -78,68 +78,68 @@ Now we use a shell control as container for our app and use it as our new root e
 13. [Step 13: Margins and Paddings \(TypeScript\)](Step_13_Margins_and_Paddings_TypeScript_5826c0c.md "Our app content is still glued to the corners of the letterbox. To fine-tune our
 		layout, we can add margins and paddings to the controls that we added in the previous step. ")  
 Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.
-14. [Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_4cc841e.md "Sometimes we need to define some more fine-granular layouts and this is when we can
+14. [Step 14: Custom CSS and Theme Colors \(TypeScript\)](Step_14_Custom_CSS_and_Theme_Colors_TypeScript_4cc841e.md "Sometimes we need to define some more fine-granular layouts and this is when we can
 		use the flexibility of CSS by adding custom style classes to controls and style them as we
 		like. ")  
 Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.
-15. [Step 15: Nested Views](Step_15_Nested_Views_9bbbfaa.md "Our panel content is getting more and more complex and now it is time to move the
+15. [Step 15: Nested Views \(TypeScript\)](Step_15_Nested_Views_TypeScript_9bbbfaa.md "Our panel content is getting more and more complex and now it is time to move the
       panel content to a separate view. With that approach, the application structure is much easier
       to understand, and the individual parts of the app can be reused.")  
 Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.
-16. [Step 16: Dialogs and Fragments](Step_16_Dialogs_and_Fragments_4b2e306.md "In this step, we will take a closer look at another element which can be used to
+16. [Step 16: Dialogs and Fragments \(TypeScript\)](Step_16_Dialogs_and_Fragments_TypeScript_4b2e306.md "In this step, we will take a closer look at another element which can be used to
 		assemble views: the fragment. ")  
 In this step, we will take a closer look at another element which can be used to assemble views: the fragment.
-17. [Step 17: Fragment Callbacks](Step_17_Fragment_Callbacks_f030afc.md "Now that we have integrated the dialog, it's time to add some user interaction. The
+17. [Step 17: Fragment Callbacks \(TypeScript\)](Step_17_Fragment_Callbacks_TypeScript_f030afc.md "Now that we have integrated the dialog, it's time to add some user interaction. The
 		user will definitely want to close the dialog again at some point, so we add a button to
 		close the dialog and assign an event handler.")  
 Now that we have integrated the dialog, it's time to add some user interaction. The user will definitely want to close the dialog again at some point, so we add a button to close the dialog and assign an event handler.
-18. [Step 18: Icons](Step_18_Icons_49b1ac6.md "Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large
+18. [Step 18: Icons \(TypeScript\)](Step_18_Icons_TypeScript_49b1ac6.md "Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large
 		icon font that contains more than 500 icons, we will add an icon to greet our users when the
 		dialog is opened.")  
 Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large icon font that contains more than 500 icons, we will add an icon to greet our users when the dialog is opened.
-19. [Step 19: Aggregation Binding](Step_19_Aggregation_Binding_24580fb.md "Now that we have established a good structure for our app, it's time to add some more
+19. [Step 19: Aggregation Binding \(TypeScript\)](Step_19_Aggregation_Binding_TypeScript_24580fb.md "Now that we have established a good structure for our app, it's time to add some more
 		functionality. We start exploring more features of data binding by adding some invoice data
 		in JSON format that we display in a list below the panel.")  
 Now that we have established a good structure for our app, it's time to add some more functionality. We start exploring more features of data binding by adding some invoice data in JSON format that we display in a list below the panel.
-20. [Step 20: Data Types](Step_20_Data_Types_0dad01a.md "The list of invoices is already looking nice, but what is an invoice without a price
+20. [Step 20: Data Types \(TypeScript\)](Step_20_Data_Types_TypeScript_0dad01a.md "The list of invoices is already looking nice, but what is an invoice without a price
 		assigned? Typically prices are stored in a technical format and with a '.'
 		delimiter in the data model. For example, our invoice for pineapples has the calculated
 		price 87.2 without a currency. We are going to use the OpenUI5 data types to format the
 		price properly, with a locale-dependent decimal separator and two digits after the
 		separator.")  
 The list of invoices is already looking nice, but what is an invoice without a price assigned? Typically prices are stored in a technical format and with a '`.`' delimiter in the data model. For example, our invoice for pineapples has the calculated price `87.2` without a currency. We are going to use the OpenUI5 data types to format the price properly, with a locale-dependent decimal separator and two digits after the separator.
-21. [Step 21: Expression Binding](Step_21_Expression_Binding_8d67ba2.md "Sometimes the predefined types of OpenUI5 are not flexible enough
+21. [Step 21: Expression Binding \(TypeScript\)](Step_21_Expression_Binding_TypeScript_8d67ba2.md "Sometimes the predefined types of OpenUI5 are not flexible enough
 		and you want to do a simple calculation or formatting in the view - that is where
 		expressions are really helpful. We use them to format our price according to the current
 		number in the data model.")  
 Sometimes the predefined types of OpenUI5 are not flexible enough and you want to do a simple calculation or formatting in the view - that is where expressions are really helpful. We use them to format our price according to the current number in the data model.
-22. [Step 22: Custom Formatters](Step_22_Custom_Formatters_61d4e2b.md "If we want to do a more complex logic for formatting properties of our data model, we
+22. [Step 22: Custom Formatters \(TypeScript\)](Step_22_Custom_Formatters_TypeScript_61d4e2b.md "If we want to do a more complex logic for formatting properties of our data model, we
 		can also write a custom formatting function. We will now add a localized status with a
 		custom formatter, because the status in our data model is in a rather technical
 		format.")  
 If we want to do a more complex logic for formatting properties of our data model, we can also write a custom formatting function. We will now add a localized status with a custom formatter, because the status in our data model is in a rather technical format.
-23. [Step 23: Filtering](Step_23_Filtering_7f02e9d.md "In this step, we add a search field for our product list and define a filter that
+23. [Step 23: Filtering \(TypeScript\)](Step_23_Filtering_TypeScript_7f02e9d.md "In this step, we add a search field for our product list and define a filter that
 		represents the search term. When searching, the list is automatically updated to show only
 		the items that match the search term.")  
 In this step, we add a search field for our product list and define a filter that represents the search term. When searching, the list is automatically updated to show only the items that match the search term.
-24. [Step 24: Sorting and Grouping](Step_24_Sorting_and_Grouping_86bbe13.md "To make our list of invoices even more user-friendly, we sort it alphabetically
+24. [Step 24: Sorting and Grouping \(TypeScript\)](Step_24_Sorting_and_Grouping_TypeScript_86bbe13.md "To make our list of invoices even more user-friendly, we sort it alphabetically
 		instead of just showing the order from the data model. Additionally, we introduce groups and
 		add the company that ships the products so that the data is easier to consume.")  
 To make our list of invoices even more user-friendly, we sort it alphabetically instead of just showing the order from the data model. Additionally, we introduce groups and add the company that ships the products so that the data is easier to consume.
-25. [Step 25: Remote OData Service](Step_25_Remote_OData_Service_b68d321.md "So far we have worked with local JSON data, but now we will access a real OData
+25. [Step 25: Remote OData Service \(TypeScript\)](Step_25_Remote_OData_Service_TypeScript_b68d321.md "So far we have worked with local JSON data, but now we will access a real OData
 		service to visualize remote data.")  
 So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.
-26. [Step 26: Mock Server Configuration](Step_26_Mock_Server_Configuration_3e1c64f.md "We just ran our app against a real service, but for developing and testing our app we
+26. [Step 26: Mock Server Configuration \(TypeScript\)](Step_26_Mock_Server_Configuration_TypeScript_3e1c64f.md "We just ran our app against a real service, but for developing and testing our app we
 		do not want to rely on the availability of the “real” service or put additional load on the
 		system where the data service is located.")  
 We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the “real” service or put additional load on the system where the data service is located.
-27. [Step 27: Unit Test with QUnit](Step_27_Unit_Test_with_QUnit_750c8c1.md "Now that we have a test folder in the app, we can start to increase our test
+27. [Step 27: Unit Test with QUnit \(TypeScript\)](Step_27_Unit_Test_with_QUnit_TypeScript_750c8c1.md "Now that we have a test folder in the app, we can start to increase our test
 		coverage. ")  
 Now that we have a test folder in the app, we can start to increase our test coverage.
-28. [Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_412f0b6.md "If we want to test interaction patterns or more visual features of our app, we can
+28. [Step 28: Integration Test with OPA \(TypeScript\)](Step_28_Integration_Test_with_OPA_TypeScript_412f0b6.md "If we want to test interaction patterns or more visual features of our app, we can
 		also write an integration test. ")  
 If we want to test interaction patterns or more visual features of our app, we can also write an integration test.
-29. [Step 29: Debugging Tools](Step_29_Debugging_Tools_50990a0.md "Even though we have added a basic test coverage in the previous steps, it seems like
+29. [Step 29: Debugging Tools \(TypeScript\)](Step_29_Debugging_Tools_TypeScript_50990a0.md "Even though we have added a basic test coverage in the previous steps, it seems like
 		we accidentally broke our app, because it does not display prices to our invoices anymore.
 		We need to debug the issue and fix it before someone finds out.")  
 Even though we have added a basic test coverage in the previous steps, it seems like we accidentally broke our app, because it does not display prices to our invoices anymore. We need to debug the issue and fix it before someone finds out.
