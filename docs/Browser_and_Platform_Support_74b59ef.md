@@ -167,7 +167,7 @@ Latest version
 </td>
 <td valign="top">
 
-Latest version
+Latest version<sup>7</sup>
 
 </td>
 </tr>
@@ -261,7 +261,7 @@ Latest version
 </td>
 <td valign="top">
 
-Latest version
+Latest version<sup>7</sup>
 
 </td>
 </tr>
@@ -308,7 +308,7 @@ Latest version
 </td>
 <td valign="top">
 
-Latest version
+Latest version<sup>7</sup>
 
 </td>
 </tr>
@@ -319,7 +319,8 @@ Latest version
  3\) We use current Apple iPhone and iPad devices for testing and reproducing the reported issues.  
  4\) Android-based devices are very fragmented in matters of operating system variants and hardware diversity. We use current Samsung Galaxy S and Galaxy Tab S series devices for testing and reproducing the reported issues.  
  5\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
- 6\)  Not supported for `sap.sac.df`.  
+ 6\) Not supported for `sap.sac.df`.  
+ 7\) With the removal of the SAP Fiori Client from the Public App stores, preferable native browsers should be used on mobile devices. For more information see, [2992772](https://me.sap.com/notes/2992772).  
 
 
 ***
