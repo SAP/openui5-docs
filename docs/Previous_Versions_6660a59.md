@@ -262,9 +262,7 @@ With this release OpenUI5 is upgraded from version 1.50 to 1.52.
 		this release OpenUI5 is upgraded
 		from version 1.48 to 1.50.")**  
 With this release OpenUI5 is upgraded from version 1.48 to 1.50.
--   **[What's New in OpenUI5 1.48](What_s_New_in_OpenUI5_1_48_fa1efac.md "With
-		this release OpenUI5 is upgraded
-		from version 1.46 to 1.48.")**  
+-   **[What's New in OpenUI5 1.48](What_s_New_in_OpenUI5_1_48_fa1efac.md "With this release OpenUI5 is upgraded from version 1.46 to 1.48.")**  
 With this release OpenUI5 is upgraded from version 1.46 to 1.48.
 -   **[What's New in OpenUI5 1.46](What_s_New_in_OpenUI5_1_46_6307539.md "With
 		this release OpenUI5 is upgraded

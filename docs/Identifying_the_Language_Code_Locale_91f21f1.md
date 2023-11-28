@@ -254,7 +254,7 @@ OpenUI5 has the notion of a current language. It is determined during the OpenUI
 
 6.  First language from the list of the user’s preferred languages \(`window.navigator.languages[0]`\) \(For more information, see [https://developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/NavigatorLanguage/languages).\)
 
-7.  Locale configured in the application coding \(For more information, see [API Reference: `sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration). \)
+7.  Locale configured in the application coding \(For more information, see [API Reference: `module:sap/base/i18n/Localization.getLanguage`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization.getLanguage). \)
 
 8.  Locale configured via URL parameters
 
@@ -266,7 +266,7 @@ After the bootstrap, the language can be changed by calling `sap.ui.getCore().se
 var sCurrentLocale = sap.ui.getCore().getConfiguration().getLanguage();
 ```
 
-For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setLanguage).
+For more information, see [API Reference: `module:sap/base/i18n/Localization.setLanguage`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization/methods/setLanguage).
 
 > ### Note:  
 > The syntax of the returned value depends on the syntax used for configuration. If the information source is one of the browser language properties, the returned language most likely is in BCP-47 format. If it is configured as a URL parameter, the user might have chosen the JDK Locale syntax.

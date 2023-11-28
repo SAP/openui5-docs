@@ -37,12 +37,12 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 10: Descriptor 
 
 ### webapp/i18n/i18n.properties
 
-We add new key/value pairs to our text bundle for the app title and the app description; we'll use these texts in our app descriptor. We also add comments to separate the bundle texts semantically.
+In our text bundle, we include two new name-value pairs: `appTitle` for the title of our app and `appDescription` for a brief description. These texts will be used in our app descriptor later on. To improve readability, we also add comments to separate the bundle texts based on their meaning.
 
 ```ini
 # App Descriptor
 appTitle=Hello World
-appDescription=A simple walkthrough app that explains the most important concepts of OpenUI5
+appDescription=A simple walkthrough app that explains the most important concepts of UI5
 
 # Hello Panel
 showHelloButtonText=Say Hello

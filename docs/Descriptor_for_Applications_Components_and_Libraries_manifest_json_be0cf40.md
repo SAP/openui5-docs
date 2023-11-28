@@ -1817,8 +1817,6 @@ Defines models that should be created or destroyed along the component's lifecyc
     > ### Example:  
     > You can overwrite the default binding mode with the `defaultBindingMode` attribute \(enumeration of type `sap.ui.model.BindingMode`, with values. `Default`, `OneTime`, `OneWay`, `TwoWay`\). For OData models constructor see the following:
     > 
-    > -   [sap.ui.model.odata.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.ODataModel/constructor)
-    > 
     > -   [sap.ui.model.odata.v2.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel/constructor)
     > 
     > -   [sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/constructor)

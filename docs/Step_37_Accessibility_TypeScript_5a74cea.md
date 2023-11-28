@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5a74cea49f5f446298b85ac248871a0b) | [demo kit latest release](https://sdk.openui5.org/topic/5a74cea49f5f446298b85ac248871a0b)</div>
 
-## Step 37: Accessibility
+## Step 37: Accessibility \(TypeScript\)
 
 In this step we're going to improve the accessibility of our app.
 
@@ -35,15 +35,41 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 37](https://sdk.openui5.org/sample/sap.m.tutorial.walkthrough.37/preview).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 37: Accessibility](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/37/README.md).
 
 One part of the ARIA attribute set are the so-called landmarks. You can compare landmarks to maps in that they help the user navigate through an app. For this step, we will use Google Chrome with a free [landmark navigation extension](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp) We will now add meaningful landmarks to our code.
+
+***
+
+<a name="loio5a74cea49f5f446298b85ac248871a0b__section_azh_fps_gfb"/>
+
+### webapp/i18n/i18n.properties
+
+We add the labels we will need for the ARIA regions in the ovierview iew to the text bundle.
+
+```ini
+# App Descriptor
+appTitle=Hello World
+appDescription=A simple walkthrough app that explains the most important concepts of UI5
+
+#Overview Page
+Overview_rootLabel=Overview Page
+Overview_headerLabel=Header
+Overview_contentLabel=Page Content
+
+# Hello Panel
+...
+```
 
 ***
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_ygj_1b1_hfb"/>
 
 ### webapp/view/Overview.view.xml
+
+We add the `landmarkInfo` aggregation to the page and use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for the overview page areas. In the `PageAccessibilityLandmarkInfo` control we specify a role and a title for the root, the content, and the header of the page.
+
+For more information, see the [API Reference: `sap.m.PageAccessibleLandmarkInfo`](https://sdk.openui5.org/api/sap.m.PageAccessibleLandmarkInfo). 
 
 ```xml
 <mvc:View
@@ -69,13 +95,13 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 </mvc:View>
 ```
 
-We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for the overview page areas. For more information, see the [API Reference: `sap.m.PageAccessibleLandmarkInfo`](https://sdk.openui5.org/api/sap.m.PageAccessibleLandmarkInfo). 
-
 ***
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_uw5_zns_gfb"/>
 
 ### webapp/view/InvoiceList.view.xml
+
+We add an `sap.m.Panel` around the invoice list and move the toolbar from the table into the panel, so that the region can take the title of the toolbar as its own. This has the effect that it will now be a region in our landmarks.
 
 ```xml
 <mvc:View
@@ -114,13 +140,13 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 </mvc:View>
 ```
 
-We add an `sap.m.Panel` around the invoice list and move the toolbar from the table into the panel, so that the region can take the title of the toolbar as its own. This has the effect that it will now be a region in our landmarks.
-
 ***
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_qdh_k4s_gfb"/>
 
 ### webapp/view/HelloPanel.view.xml
+
+In the `HelloPanel` view, we already have a panel, so we just add the `accessibleRole` attribute.
 
 ```xml
 <mvc:View
@@ -139,26 +165,6 @@ We add an `sap.m.Panel` around the invoice list and move the toolbar from the ta
 </mvc:View>
 
 ```
-
-In this view, we already have a panel, so we just add the `accessibleRole` attribute.
-
-***
-
-<a name="loio5a74cea49f5f446298b85ac248871a0b__section_azh_fps_gfb"/>
-
-### webapp/i18n/i18n.properties
-
-```ini
-...
-#Overview Page
-Overview_rootLabel=Overview Page
-Overview_headerLabel=Header
-Overview_contentLabel=Page Content
-ratingTitle=Rate the Product
-...
-```
-
-Here, we add the text for the rating panel title and the labels for the ARIA regions to the text bundle.
 
 ***
 
@@ -205,9 +211,9 @@ As you can see, we now have four landmarks on our page. The top three landmarks 
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
-**Next:**[Step 36: Content Density](Step_36_Content_Density_667aa4a.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")
+**Next:**[Step 36: Content Density \(TypeScript\)](Step_36_Content_Density_TypeScript_667aa4a.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. Content density refers to the spacing and sizing of the UI controls and elements within your application. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")
 
-**Previous:**[Step 38: Build Your Application](Step_38_Build_Your_Application_be33d01.md "In this step we're going to build our application and consume the speed of a built OpenUI5 application.")
+**Previous:**[Step 38: Build Your Application \(TypeScript\)](Step_38_Build_Your_Application_TypeScript_be33d01.md "In this step we're going to build our application and consume the speed of a built OpenUI5 application.")
 
 **Related Information**  
 
@@ -215,4 +221,6 @@ As you can see, we now have four landmarks on our page. The top three landmarks 
 [Accessibility](Accessibility_03b914b.md "In this guide we cover the most important accessibility aspects for application development, based on OpenUI5.")
 
 [Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md "OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.")
+
+[API Reference: `sap.m.PageAccessibleLandmarkInfo`](https://sdk.openui5.org/api/sap.m.PageAccessibleLandmarkInfo)
 

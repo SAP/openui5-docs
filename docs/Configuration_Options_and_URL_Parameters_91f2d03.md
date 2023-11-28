@@ -214,7 +214,7 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `sap.ui.core.CalendarType`
+Type: `module:sap/base/18n/date/CalendarType`
 
 Default value: If there is no value defined, the actual value is determined from the locale data for the configured locale.
 
@@ -619,11 +619,11 @@ If set to `true`, the OpenUI5 controls are rendered for or running in accessibil
 </td>
 <td valign="top">
 
-Type: `sap.ui.core.Configuration.AnimationMode`
+Type: `module:sap/ui/core/AnimationMode`
 
 Default value: `full`
 
-Sets the animation behavior according to the values and description provided by the [`AnimationMode`](https://sdk.openui5.org/api/sap.ui.core.Configuration.AnimationMode) enumeration, e.g. `full`, `basic`, `minimal` or `none`.
+Sets the animation behavior according to the values and description provided by the [`AnimationMode`](https://sdk.openui5.org/api/module:sap/ui/core/AnimationMode) enumeration, e.g. `full`, `basic`, `minimal` or `none`.
 
 </td>
 <td valign="top">

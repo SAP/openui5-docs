@@ -143,41 +143,40 @@ If we want to test interaction patterns or more visual features of our app, we c
 		we accidentally broke our app, because it does not display prices to our invoices anymore.
 		We need to debug the issue and fix it before someone finds out.")  
 Even though we have added a basic test coverage in the previous steps, it seems like we accidentally broke our app, because it does not display prices to our invoices anymore. We need to debug the issue and fix it before someone finds out.
-30. [Step 30: Routing and Navigation](Step_30_Routing_and_Navigation_6173e3d.md "So far, we have put all app content on one single page. As we add more and more
+30. [Step 30: Routing and Navigation \(TypeScript\)](Step_30_Routing_and_Navigation_TypeScript_6173e3d.md "So far, we have put all app content on one single page. As we add more and more
 		features, we want to split the content and put it on separate pages.")  
 So far, we have put all app content on one single page. As we add more and more features, we want to split the content and put it on separate pages.
-31. [Step 31: Routing with Parameters](Step_31_Routing_with_Parameters_afd5eb6.md "We can now navigate between the overview and the detail page, but the actual item
+31. [Step 31: Routing with Parameters \(TypeScript\)](Step_31_Routing_with_Parameters_TypeScript_afd5eb6.md "We can now navigate between the overview and the detail page, but the actual item
 		that we selected in the overview is not displayed on the detail page yet. A typical use case
 		for our app is to show additional information for the selected item on the detail page. ")  
 We can now navigate between the overview and the detail page, but the actual item that we selected in the overview is not displayed on the detail page yet. A typical use case for our app is to show additional information for the selected item on the detail page.
-32. [Step 32: Routing Back and History](Step_32_Routing_Back_and_History_ae61211.md "Now we can navigate to our detail page and display an invoice, but we cannot go back
+32. [Step 32: Routing Back and History \(TypeScript\)](Step_32_Routing_Back_and_History_TypeScript_ae61211.md "Now we can navigate to our detail page and display an invoice, but we cannot go back
 		to the overview page yet. We'll add a back button to the detail page and implement a
 		function that shows our overview page again.")  
 Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.
-33. [Step 33: Custom Controls](Step_33_Custom_Controls_3cc020e.md "In this step, we are going to extend the functionality of OpenUI5 with a custom control.
+33. [Step 33: Custom Controls \(TypeScript\)](Step_33_Custom_Controls_TypeScript_3cc020e.md "In this step, we are going to extend the functionality of OpenUI5 with a custom control.
 		We want to rate the product shown on the detail page, so we create a composition of multiple
 		standard controls using the OpenUI5 extension mechanism and
 		add some glue code to make them work nicely together. This way, we can reuse the control
 		across the app and keep all related functionality in one module.")  
 In this step, we are going to extend the functionality of OpenUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the OpenUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.
-34. [Step 34: Responsiveness](Step_34_Responsiveness_e5577bb.md "In this step, we improve the responsiveness of our app. OpenUI5 applications can be run
+34. [Step 34: Responsiveness \(TypeScript\)](Step_34_Responsiveness_TypeScript_e5577bb.md "In this step, we improve the responsiveness of our app. OpenUI5 applications can be run
 		on phone, tablet, and desktop devices and we can configure the application to make best use
 		of the screen estate for each scenario. Fortunately, OpenUI5 controls like the
 			sap.m.Table already deliver a lot of features that we can
 		use.")  
 In this step, we improve the responsiveness of our app. OpenUI5 applications can be run on phone, tablet, and desktop devices and we can configure the application to make best use of the screen estate for each scenario. Fortunately, OpenUI5 controls like the `sap.m.Table` already deliver a lot of features that we can use.
-35. [Step 35: Device Adaptation](Step_35_Device_Adaptation_ab8ed1b.md "We now configure the visibility and properties of controls based on the device that
+35. [Step 35: Device Adaptation \(TypeScript\)](Step_35_Device_Adaptation_TypeScript_ab8ed1b.md "We now configure the visibility and properties of controls based on the device that
 		we run the application on. By making use of the sap.ui.Device API and
 		defining a device model we will make the app look great on many devices.")  
 We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the `sap.ui.Device` API and defining a device model we will make the app look great on many devices.
-36. [Step 36: Content Density](Step_36_Content_Density_667aa4a.md "In this step of our Walkthrough tutorial, we adjust the content density based on the
-		user’s device. OpenUI5 contains
-		different content densities allowing you to display larger controls for touch-enabled
-		devices and a smaller, more compact design for devices that are operated by mouse. In our
-		app, we will detect the device and adjust the density accordingly.")  
-In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.
-37. [Step 37: Accessibility](Step_37_Accessibility_5a74cea.md "In this step we're going to improve the accessibility of our app.")  
+36. [Step 36: Content Density \(TypeScript\)](Step_36_Content_Density_TypeScript_667aa4a.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. Content density refers to the spacing
+		and sizing of the UI controls and elements within your application. OpenUI5
+		contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for
+		devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")  
+In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. Content density refers to the spacing and sizing of the UI controls and elements within your application. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.
+37. [Step 37: Accessibility \(TypeScript\)](Step_37_Accessibility_TypeScript_5a74cea.md "In this step we're going to improve the accessibility of our app.")  
 In this step we're going to improve the accessibility of our app.
-38. [Step 38: Build Your Application](Step_38_Build_Your_Application_be33d01.md "In this step we're going to build our application and consume the speed of a built OpenUI5 application.")  
+38. [Step 38: Build Your Application \(TypeScript\)](Step_38_Build_Your_Application_TypeScript_be33d01.md "In this step we're going to build our application and consume the speed of a built OpenUI5 application.")  
 In this step we're going to build our application and consume the speed of a built OpenUI5 application.
 
