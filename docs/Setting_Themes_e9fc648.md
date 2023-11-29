@@ -100,7 +100,7 @@ To load an external custom theme, you set this theme either by static declaring 
 
 ***
 
-<a name="loioe9fc648661d84ed89360bbec3ae02611__section_u3q_gpj_43b"/>
+<a name="loioe9fc648661d84ed89360bbec3ae02611__section_TOA"/>
 
 ### Theme Origin Allowlist
 

@@ -178,10 +178,6 @@ new ComponentContainer({
 
 [Components](Components_958ead5.md "Components are independent and reusable parts used in OpenUI5 applications.")
 
-[API Reference: `sap.ui.core.mvc.ViewType`](https://sdk.openui5.org/api/sap.ui.core.mvc.ViewType)
-
-[Samples: `sap.ui.core.mvc.ViewType` ](https://sdk.openui5.org/entity/sap.ui.core.mvc.ViewType)
-
 [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md "The declarative API enables you to define the initially started component directly in the HTML markup.")
 
 [Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md "OpenUI5 provides two methods for the initial instantiation of the component.")

@@ -85,7 +85,7 @@ List of active terminologies provided via URL parameter, bootstrap or [`sap.ui.c
 </td>
 <td valign="top">
 
-Type: `string | sap.ui.core.Locale`
+Type: `string`
 
 Default value: `user settings / language`
 
@@ -115,7 +115,7 @@ Defines the language that shall be used for localized texts, formatting, and so 
 
 Type: `boolean`
 
-Default value: `false`
+Default value: RTL derived from user locale
 
 If set to `true`, all controls are rendered in right-to-left \(RTL\) mode.
 
@@ -214,7 +214,7 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `module:sap/base/18n/date/CalendarType`
+Type: `sap/base/18n/date/CalendarType`
 
 Default value: If there is no value defined, the actual value is determined from the locale data for the configured locale.
 
@@ -242,13 +242,13 @@ Defines the calendar type that is used for locale-dependent, date-related featur
 </td>
 <td valign="top">
 
-Type: `sap.ui.core.date.CalendarWeekNumbering`
+Type: `sap/base/18n/date/CalendarWeekNumbering`
 
 Default value: `Default`
 
 Defines the calendar week numbering algorithm that is used to determine the first day of the week and the first calendar week of the year.
 
-For more information, see the [API Reference: `sap.ui.core.date.CalendarWeekNumbering`](https://sdk.openui5.org/api/sap.ui.core.date.CalendarWeekNumbering)
+For more information, see the [API Reference: `sap/base/18n/date/CalendarWeekNumbering`](https://sdk.openui5.org/api/module:sap/base/18n/date/CalendarWeekNumbering)
 
 </td>
 <td valign="top">
@@ -272,9 +272,9 @@ For more information, see the [API Reference: `sap.ui.core.date.CalendarWeekNumb
 </td>
 <td valign="top">
 
-Type: `string | sap.ui.core.Locale`
+Type: `string`
 
-Default value: `null`
+Default value: Derived from the language
 
 Defines the locale used for formatting purposes; the default values for the locale are derived from the language.
 
@@ -446,11 +446,11 @@ by URL parameter
 
 Type: `string`
 
-Default value: `base`
+Default value: The default theme of the used UI5 version
 
 Defines the theme that shall be used.
 
-**Theme Root:** When the theme string contains an at-sign \(`@`\), anything before the `@` is assumed to denote the ID of the theme, while anything after the `@` is assumed to represent the URL location of the theme. To defend against XSS attacks, only tthe server-relative part of the URL is used.
+**Theme Root:** When the theme string contains an at-sign \(`@`\), anything before the `@` is assumed to denote the ID of the theme, while anything after the `@` is assumed to represent the URL location of the theme. To defend against XSS attacks, only origins maintained in `sap-allowed-theme-origins` are accepted. For more information, see [Theme Origin Allowlist](Setting_Themes_e9fc648.md#loioe9fc648661d84ed89360bbec3ae02611__section_TOA).
 
 </td>
 <td valign="top">
@@ -474,7 +474,7 @@ Defines the theme that shall be used.
 </td>
 <td valign="top">
 
-Type: `object`
+Type: `{}`
 
 Default value: undefined
 
@@ -502,7 +502,7 @@ Defines the location of themes.
 
 Type: `string[]`
 
-Default value: `[ ]`
+Default value: `{}`
 
 Specifies a list of UI libraries using the same syntax as the `libs` property, for which the OpenUI5 core does not include the `library.css` stylesheet in the head of the page. If the list starts with an exclamation mark \(!\), no stylesheet is loaded at all for the specified libs. In this case, it is assumed that the application takes care of loading CSS, for example, a manually merged, single CSS file. Otherwise, the framework instructs the back end to create a merged CSS for the specified libs. In both cases, if the first libraries name is an asterisk \(\*\), it will be expanded to the list of already configured libraries.
 
@@ -619,7 +619,7 @@ If set to `true`, the OpenUI5 controls are rendered for or running in accessibil
 </td>
 <td valign="top">
 
-Type: `module:sap/ui/core/AnimationMode`
+Type: `sap/ui/core/AnimationMode`
 
 Default value: `full`
 
@@ -649,7 +649,7 @@ Sets the animation behavior according to the values and description provided by 
 
 Type: `string`
 
-Default value: '--'
+Default value: '\_\_' \(i.e. two underscore characters\)
 
 Prefix to be used for automatically generated control IDs; must be chosen carefully to avoid conflicts with IDs defined by the application or DOM IDs.
 
@@ -707,7 +707,7 @@ by URL parameter
 
 Type: `string`
 
-Default value: `null`
+Default value: `""`
 
 URL to an allowlist service; see [Allowlist Service](Allowlist_Service_d04a6d4.md).
 
@@ -733,7 +733,7 @@ URL to an allowlist service; see [Allowlist Service](Allowlist_Service_d04a6d4.m
 
 Type: `string`
 
-Default value: `default`
+Default value: `allow`
 
 Frame options mode; for more information, see [Frame Options](Frame_Options_62d9c4d.md).
 
@@ -757,7 +757,7 @@ Frame options mode; for more information, see [Frame Options](Frame_Options_62d9
 </td>
 <td valign="top">
 
-Type: `object`
+Type: `{}`
 
 Default value: undefined
 
@@ -783,7 +783,7 @@ Advanced frame options configuration; for more information, see [Frame Options](
 </td>
 <td valign="top">
 
-Type: `function[]`
+Type: `[]`
 
 Each of these functions is called by the OData V4 model to retrieve the security tokens instead of using the default "X-CSRF-Token".
 
@@ -1089,9 +1089,9 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `boolean | string[]`
+Type: `string[]`
 
-Default value: \[ \]
+Default value: `[]`
 
 Modifiable at runtime via the `AppCacheBuster` API \(see [Application Cache Buster: Enhanced Concept](Application_Cache_Buster_Enhanced_Concept_94e0c33.md)\).
 
@@ -1145,7 +1145,7 @@ A compatibility layer restores several incompatibly changed APIs in jQuery v3 ba
 
 Type: `string[]`
 
-Default value: `[ ]`
+Default value: `[]`
 
 Defines a list of libraries that shall be loaded initially.
 
@@ -1175,7 +1175,7 @@ All libraries provided using the configuration option `libs` are merged into the
 
 Type: `string[]`
 
-Default value: `[ ]`
+Default value: `[]`
 
 Defines a list of JavaScript modules that shall be loaded after the core has been initialized.
 
@@ -1225,15 +1225,20 @@ If set to `true`, OpenUI5 forces jQuery into `noConflict` mode.
 </td>
 <td valign="top">
 
-Type: `string`
+Type: `string|function`
 
 Default value: `undefined`
 
 Defines code that has to be executed after the initialization.
 
-The value is the name of a module indicated by the prefix `module:` \(like `"module:myapp/main/Module").` The module will be loaded and executed after initialization.
+In case a string is provided, this must be either the name of a module indicated by the prefix `module:` \(like `module:myapp/main/Module`\) or the name of a property within the `globalThis` object containing a function. Provided modules will be loaded and executed after initialization.
 
-**Deprecation:** As of UI5 1.120, only module names can be provided. Code or references to functions can no longer be provided.
+Within `globalThis["sap-ui-config"]["on-init"]` it is also possible to provide a function directly.
+
+> ### Caution:  
+> For productive scenarios, only the usage of a module is supported. Functions or function references to the `globalThis` object are only intended to be used within non-productive scenarios, for example testing or web-based debugging and code-sharing tools like Plunkr or JSBin.
+
+**Deprecation:** As of UI5 1.120, only module names should be provided for **productive** scenarios. Only for **non-productive** scenarios, references to functions available on the `globalThis` object might also be used.
 
 </td>
 <td valign="top">
@@ -1308,6 +1313,134 @@ For more information, see the [API Reference: `sap.ui.loader.config`](https://sd
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+</tr>
+</table>
+
+***
+
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_avr_lkd_pzb"/>
+
+### Types
+
+The table below lists the possible types for configuration options and their corresponding valid values.
+
+> ### Note:  
+> Some of the configuration options listed on this page, as well as the ones listed under [Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md), might have more restrictions on the allowed values. Please refer to the corresponding entry for more details.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Type
+
+</th>
+<th valign="top">
+
+Valid Values
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`Boolean` 
+
+</td>
+<td valign="top">
+
+`true|false` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Integer` 
+
+</td>
+<td valign="top">
+
+Any valid integer value
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`String` 
+
+</td>
+<td valign="top">
+
+Any valid string value
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`StringArray`
+
+</td>
+<td valign="top">
+
+An empty array `[]`, an array containing one or more valid strings, e.g. `["<string1>", "<string2>", "<stringN>"]`, or a string with a list of values separated by comma or semicolon, e.g. `"<string1>, <string2>, <stringN>".`
+
+> ### Note:  
+> For sources where the values can only be provided via a string such as a bootstrap tag, meta tag or URL, you'd need to provide values of type `StringArray` as a comma- or semicolon-separated list.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`FunctionArray`
+
+</td>
+<td valign="top">
+
+An empty array `[]` or an array containing one or more functions, e.g. `[myFunction1, myFunction2, myFunctionN]` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Function`
+
+</td>
+<td valign="top">
+
+A valid function object
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Object`
+
+</td>
+<td valign="top">
+
+A valid JavaScript object
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Enumeration`
+
+</td>
+<td valign="top">
+
+Any value which is part of the respective enumeration for the corresponding configuration parameter. For instance, the `animation-mode` parameter can take any value of the `sap/ui/core/AnimationMode` enumeration, such as `AnimationMode.basic`, `AnimationMode.full`, `AnimationMode.minimal`, or `AnimationMode.none`.
 
 </td>
 </tr>

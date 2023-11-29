@@ -139,6 +139,47 @@ Required
 </td>
 <td valign="top">
 
+Deprecated 
+
+</td>
+<td valign="top">
+
+Feature 
+
+</td>
+<td valign="top">
+
+**Deprecation of themes** 
+
+</td>
+<td valign="top">
+
+**Deprecation of themes**
+
+We have deprecated the Belize \(theme IDs `sap_belize`, `sap_belize_plus`, `sap_belize_hcb`, `sap_belize_hcw`\) and Quartz \(theme IDs `sap_fiori_3`, `sap_fiori_3_dark`, `sap_fiori_3_hcb`, `sap_fiori_3_hcw`\) themes as of OpenUI5 version 1.120.2.
+
+<sub>Deprecated•Feature•Info Only•1.120</sub>
+
+</td>
+<td valign="top">
+
+Info Only 
+
+</td>
+<td valign="top">
+
+2023-11-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.120 
+
+</td>
+<td valign="top">
+
 Changed 
 
 </td>
