@@ -42,7 +42,41 @@ Removed as of
 <tr>
 <td valign="top">
 
-`sap_hcb`
+`sap_fiori_3` 
+
+</td>
+<td valign="top">
+
+1.120
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap_belize` 
+
+</td>
+<td valign="top">
+
+1.120
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap_hcb` 
 
 </td>
 <td valign="top">
@@ -59,7 +93,7 @@ Removed as of
 <tr>
 <td valign="top">
 
-sap\_bluecrystal
+`sap_bluecrystal` 
 
 </td>
 <td valign="top">
@@ -76,7 +110,7 @@ sap\_bluecrystal
 <tr>
 <td valign="top">
 
-`sap_ux`
+`sap_ux` 
 
 </td>
 <td valign="top">
@@ -93,7 +127,7 @@ sap\_bluecrystal
 <tr>
 <td valign="top">
 
-`sap_platinum`
+`sap_platinum` 
 
 </td>
 <td valign="top">
@@ -110,7 +144,7 @@ sap\_bluecrystal
 <tr>
 <td valign="top">
 
-`sap_goldreflection`
+`sap_goldreflection` 
 
 </td>
 <td valign="top">

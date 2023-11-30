@@ -144,26 +144,28 @@ Deprecated
 </td>
 <td valign="top">
 
-Feature 
+Announcement 
 
 </td>
 <td valign="top">
 
-**Deprecation of themes** 
+**Deprecation of *Belize* and *Quartz* Themes** 
 
 </td>
 <td valign="top">
 
-**Deprecation of themes**
+**Deprecation of *Belize* and *Quartz* Themes**
 
-We have deprecated the Belize \(theme IDs `sap_belize`, `sap_belize_plus`, `sap_belize_hcb`, `sap_belize_hcw`\) and Quartz \(theme IDs `sap_fiori_3`, `sap_fiori_3_dark`, `sap_fiori_3_hcb`, `sap_fiori_3_hcw`\) themes as of OpenUI5 version 1.120.2.
+We have deprecated the *Belize* \(theme IDs: `sap_belize`, `sap_belize_plus`, `sap_belize_hcb`, `sap_belize_hcw`\) and *Quartz* \(theme IDs: `sap_fiori_3`, `sap_fiori_3_dark`, `sap_fiori_3_hcb`, `sap_fiori_3_hcw`\) theme families as of OpenUI5 version 1.120.2.
 
-<sub>Deprecated•Feature•Info Only•1.120</sub>
+We recommend that you switch to the *Horizon* theme and its options \(theme IDs: `sap_horizon`, `sap_horizon_dark`, `sap_horizon_hcb`, `sap_horizon_hcw`\).
+
+<sub>Deprecated•Announcement•Recommended•1.120</sub>
 
 </td>
 <td valign="top">
 
-Info Only 
+Recommended 
 
 </td>
 <td valign="top">

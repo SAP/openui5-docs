@@ -71,6 +71,11 @@ The following table shows the [Available Themes](Available_Themes_da0d2e7.md) fo
 1.101
 
 </th>
+<th valign="top">
+
+1.120
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -111,6 +116,11 @@ n/a
 <td valign="top">
 
 n/a
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
@@ -167,6 +177,11 @@ n/a
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -202,6 +217,11 @@ n/a
 <td valign="top">
 
 n/a
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
@@ -261,6 +281,11 @@ n/a
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -306,6 +331,11 @@ n/a
 <td valign="top">
 
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
 </tr>
@@ -357,6 +387,11 @@ n/a
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -404,6 +439,11 @@ n/a
 <td valign="top">
 
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
 </tr>
@@ -455,6 +495,11 @@ n/a
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -465,6 +510,11 @@ n/a
 <td valign="top">
 
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
 <td valign="top">
@@ -549,10 +599,15 @@ n/a
 ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
 </tr>
 </table>
 
-![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) = Supported, ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) = Not Supported
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) = Supported ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) = Not Supported
 
 ***
 
@@ -603,6 +658,11 @@ The `sap_belize` theme offers an initial implementation for the `sap.ui.commons`
 </th>
 <th valign="top">
 
+1.69
+
+</th>
+<th valign="top">
+
 1.71
 
 </th>
@@ -616,11 +676,16 @@ The `sap_belize` theme offers an initial implementation for the `sap.ui.commons`
 1.101
 
 </th>
+<th valign="top">
+
+1.120
+
+</th>
 </tr>
 <tr>
 <td valign="top">
 
-sap\_horizon\_dark
+`sap_horizon_dark` 
 
 </td>
 <td valign="top">
@@ -656,6 +721,16 @@ n/a
 <td valign="top">
 
 n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
 <td valign="top">
@@ -709,6 +784,16 @@ n/a
 </td>
 <td valign="top">
 
+n/a
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
 ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
@@ -747,6 +832,16 @@ n/a
 <td valign="top">
 
 n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
 <td valign="top">
@@ -806,6 +901,132 @@ n/a
 ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap_fiori_3_dark` 
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap_fiori_3_hcb`
+
+`sap_fiori_3_hcw`
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -842,7 +1063,7 @@ n/a
 </td>
 <td valign="top">
 
-![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+ 
 
 </td>
 <td valign="top">
@@ -853,6 +1074,16 @@ n/a
 <td valign="top">
 
 ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 </td>
 </tr>
@@ -891,7 +1122,7 @@ n/a
 </td>
 <td valign="top">
 
-![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+ 
 
 </td>
 <td valign="top">
@@ -902,6 +1133,16 @@ n/a
 <td valign="top">
 
 ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 </td>
 </tr>
@@ -929,6 +1170,16 @@ n/a
 <td valign="top">
 
 ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -976,6 +1227,16 @@ n/a
 <td valign="top">
 
 ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1032,6 +1293,16 @@ n/a
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+<td valign="top">
+
 ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
@@ -1070,6 +1341,16 @@ n/a
 <td valign="top">
 
 ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1126,6 +1407,16 @@ n/a
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+<td valign="top">
+
 ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
@@ -1142,7 +1433,7 @@ n/a
 </tr>
 </table>
 
-![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) = Supported, ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) = Not Supported, ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) = Deprecated, ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) = Removed
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) = Supported ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) = Not Supported ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) = Deprecated ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) = Removed
 
 **Related Information**  
 
