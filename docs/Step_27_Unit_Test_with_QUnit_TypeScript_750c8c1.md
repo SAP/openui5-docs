@@ -25,7 +25,7 @@ Actually, every feature that we added to the app so far, would require a separat
   
 **A unit test for our formatters is now available**
 
-![](images/loio0d29491d96574cfe8d8158d60a0a32e2_LowRes.png "A unit test for our formatters is now available")
+![Preview of the unit test](images/loio0d29491d96574cfe8d8158d60a0a32e2_LowRes.png "A unit test for our formatters is now available")
 
 ***
 
@@ -37,7 +37,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 27: Unit Tests 
   
 **Folder Structure for this Step**
 
-![](images/loio1b5613ac3ab94757af2c7823039222a9_LowRes.png "Folder Structure for this Step")
+![The graphic has an explanatory text.](images/loio1b5613ac3ab94757af2c7823039222a9_LowRes.png "Folder Structure for this Step")
 
 We add a new folder `unit` under the `test` folder and a `model` subfolder where we will place our formatter unit test. The folder structure matches the app structure to easily find the corresponding unit tests.
 

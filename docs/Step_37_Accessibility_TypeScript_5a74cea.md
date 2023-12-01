@@ -27,7 +27,7 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
   
 **Landmarks in our app**
 
-![](images/loiob35deda1ebe1433fbf0ff066f6e3fc4b_LowRes.png "Landmarks in our app")
+![The graphic has an explanatory text.](images/loiob35deda1ebe1433fbf0ff066f6e3fc4b_LowRes.png "Landmarks in our app")
 
 ***
 
@@ -177,12 +177,12 @@ In the `HelloPanel` view, we already have a panel, so we just add the `accessibl
 <tr>
 <td valign="top">
 
-![](images/loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)
+![Landmarks before](images/loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)
 
 </td>
 <td valign="top">
 
-![](images/loiof38dee2624c2437d8977de70575b3eae_HiRes.png)
+![Landmarks after](images/loiof38dee2624c2437d8977de70575b3eae_HiRes.png)
 
 </td>
 </tr>

@@ -20,7 +20,7 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
   
 **The list is now sorted and grouped by the shipping company**
 
-![](images/loio33f71b44bb644d1fa2a0ab14f1fcc02a_LowRes.png "The list is now sorted and grouped by the shipping company")
+![A list of invoices is displayed](images/loio33f71b44bb644d1fa2a0ab14f1fcc02a_LowRes.png "The list is now sorted and grouped by the shipping company")
 
 ***
 

@@ -20,7 +20,7 @@ After all the work on the app structure it’s time to improve the look of our a
   
 **A panel is now displaying the controls from the previous steps**
 
-![](images/loio97feb5417c89462ead5b4259f3ecfd47_LowRes.png "A panel is now displaying the controls from the previous steps")
+![The graphic has an explanatory text.](images/loio97feb5417c89462ead5b4259f3ecfd47_LowRes.png "A panel is now displaying the controls from the previous steps")
 
 ***
 

@@ -116,7 +116,7 @@ Sometimes errors are not as easy to spot and you actually need to debug the Java
   
 **Technical information dialog**
 
-![Displays general information about the application, OpenUI5, and user browser](images/loio34c4b02c74eb4848b8b720d86042bfdc_LowRes.png "Technical information dialog ")
+![Displays general information about the application, UI5,, and user browser](images/loio34c4b02c74eb4848b8b720d86042bfdc_LowRes.png "Technical information dialog ")
 
 For a more detailed explanation of the OpenUI5 support tools, go through the [Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md) tutorial.
 

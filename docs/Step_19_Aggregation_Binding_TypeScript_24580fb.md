@@ -20,7 +20,7 @@ Now that we have established a good structure for our app, it's time to add some
   
 **A list of invoices is displayed below the panel**
 
-![](images/loiob05bdb47393b4abda3e1b54498959c38_LowRes.png "A list of invoices is displayed below the panel")
+![The graphic has an explanatory text.](images/loiob05bdb47393b4abda3e1b54498959c38_LowRes.png "A list of invoices is displayed below the panel")
 
 ***
 

@@ -22,7 +22,7 @@ When working with OpenUI5, we recommend the use of XML views, as this produces t
   
 **The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes to last step\)**
 
-![](images/loio05f6775a39d3409ea673f4acc3812142_LowRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
+![Hello World](images/loio05f6775a39d3409ea673f4acc3812142_LowRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
 					visual changes to last step)")
 
 ***

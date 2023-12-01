@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c20489
 
 ## Step 1: Hello World! \(TypeScript\)
 
-As you know OpenUI5 is all about HTML5. Let’s get started with building a first “Hello World” with only HTML.
+As you know OpenUI5 is all about HTML5. Let’s get started with building a first “Hello World” with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.
 
 ***
 
@@ -20,7 +20,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
   
 **The browser shows the text "Hello World"**
 
-![The graphic has an explanatory text.](images/loio1dd456361379431aab7e5bcdaaeff00f_LowRes.png "The browser shows the text "Hello World"")
+![The browser shows the text "Hello World"](images/loio1dd456361379431aab7e5bcdaaeff00f_LowRes.png "The browser shows the text "Hello World"")
 
 ***
 
@@ -30,7 +30,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 1: Hello World!](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/01/README.md).
 
-Create a folder on your local machine which will contain all the sources of the app we're going to build. We'll refer to this folder as the “app root directory”.
+Create a folder on your local machine which will contain all the sources of the app we're going to build. We refer to this folder as the “app root directory”.
 
 ***
 
@@ -38,9 +38,9 @@ Create a folder on your local machine which will contain all the sources of the 
 
 ### webapp/index.html \(New\)
 
-Create a new folder named `webapp` in the app root directory. It will contain all the sources that become available in the browser later. We'll refer to this folder as the "webapp folder".
+In the app root directory, we create a new folder named `webapp`. This folder exists to store all the sources that become available in the browser later. We refer to this folder as the "webapp folder".
 
-Create a new HTML file named `index.html` in your webapp folder and enter the following content:
+In our `webapp` folder, we create a new HTML file named `index.html` and enter the following content:
 
 ```html
 <!DOCTYPE html>
@@ -143,17 +143,17 @@ Next, we install the UI5 CLI and add it as development dependency to our project
 
 `npm install --save-dev @ui5/cli`
 
-Finally, we initialize the UI5 Tooling configuration for our project by executing the following command in the app root folder:
+Finally, we initialize the UI5 Tooling configuration for our project by executing the following command on the app root folder:
 
 `ui5 init`
 
-This will generate a `ui5.yaml` file in our app root directory, which is essential for using UI5 Tooling with our project.
+This generates a `ui5.yaml` file in our app root directory, which is essential for using UI5 Tooling with our project.
 
 To start the web server, execute the following command:
 
 `npm start`
 
-This will open a new browser window hosting your newly created `index.html`.
+This opens a new browser window hosting your newly created `index.html`.
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 

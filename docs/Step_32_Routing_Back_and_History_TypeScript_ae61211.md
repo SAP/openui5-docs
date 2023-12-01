@@ -16,11 +16,7 @@ Now we can navigate to our detail page and display an invoice, but we cannot go 
 
 ### Preview
 
-  
-  
-**A back button is now displayed on the detail page**
-
-![](images/loio33a8341077bb458685274c64d2317f6b_LowRes.png "A back button is now displayed on the detail page")
+![The graphic has an explanatory text]()
 
 ***
 

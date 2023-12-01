@@ -20,7 +20,7 @@ Sometimes the predefined types of OpenUI5 are not flexible enough and you want t
   
 **The price is now formatted according to its number**
 
-![](images/loio636b7008113442c8a4765bb710dd8ea9_LowRes.png "The price is now formatted according to its number")
+![A list of invoices is displayed below the panel.](images/loio636b7008113442c8a4765bb710dd8ea9_LowRes.png "The price is now formatted according to its number")
 
 ***
 

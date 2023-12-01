@@ -22,7 +22,7 @@ This system is the so-called back-end system that we will now simulate with an O
   
 **The list of invoices is now served by the Mock Server**
 
-![](images/loiofe1403346ce9499f8bb102beaa4986d5_LowRes.png "The list of invoices is now served by the Mock Server")
+![The graphic has an explanatory text.](images/loiofe1403346ce9499f8bb102beaa4986d5_LowRes.png "The list of invoices is now served by the Mock Server")
 
 ***
 
@@ -34,7 +34,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 26: Mock Server
   
 **Folder Structure for this Step**
 
-![](images/loio7a5e2b02d72d40d388f5e601d7de74df_LowRes.png "Folder Structure for this Step")
+![The graphic has an explanatory text.](images/loio7a5e2b02d72d40d388f5e601d7de74df_LowRes.png "Folder Structure for this Step")
 
 The folder structure of our app project is clearly separating test and productive files after this step. The new `test` folder now contains a new HTML page `mockServer.html` which will launch our application in test mode without calling the real service.
 

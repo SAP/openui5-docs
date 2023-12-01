@@ -59,7 +59,7 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `string[]`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string[]`
 
 Default value: `undefined`
 
@@ -85,7 +85,7 @@ List of active terminologies provided via URL parameter, bootstrap or [`sap.ui.c
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: `user settings / language`
 
@@ -113,7 +113,7 @@ Defines the language that shall be used for localized texts, formatting, and so 
 </td>
 <td valign="top">
 
-Type: `boolean`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
 
 Default value: RTL derived from user locale
 
@@ -145,7 +145,7 @@ Modifiable at runtime with restrictions. For more information, see the [API Refe
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: the browser's local time zone
 
@@ -214,7 +214,7 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `sap/base/18n/date/CalendarType`
+Type: [`sap/base/18n/date/CalendarType`](https://sdk.openui5.org/api/module:sap/base/18n/date/CalendarType)
 
 Default value: If there is no value defined, the actual value is determined from the locale data for the configured locale.
 
@@ -242,7 +242,7 @@ Defines the calendar type that is used for locale-dependent, date-related featur
 </td>
 <td valign="top">
 
-Type: `sap/base/18n/date/CalendarWeekNumbering`
+Type: [`sap/base/18n/date/CalendarWeekNumbering`](https://sdk.openui5.org/api/module:sap/base/18n/date/CalendarWeekNumbering)
 
 Default value: `Default`
 
@@ -272,7 +272,7 @@ For more information, see the [API Reference: `sap/base/18n/date/CalendarWeekNum
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: Derived from the language
 
@@ -300,7 +300,7 @@ Defines the locale used for formatting purposes; the default values for the loca
 </td>
 <td valign="top">
 
-Type: `boolean`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
 
 Default value: `true`
 
@@ -328,7 +328,7 @@ By default the currency codes are shown after the amount. If set to `false`, the
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: `''`
 
@@ -356,7 +356,7 @@ Specifies one of the ABAP date formats.
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: `''`
 
@@ -384,7 +384,7 @@ Specifies one of the ABAP time formats.
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: `''`
 
@@ -444,7 +444,7 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: The default theme of the used UI5 version
 
@@ -474,7 +474,7 @@ Defines the theme that shall be used.
 </td>
 <td valign="top">
 
-Type: `{}`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `{}`
 
 Default value: undefined
 
@@ -500,7 +500,7 @@ Defines the location of themes.
 </td>
 <td valign="top">
 
-Type: `string[]`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string[]`
 
 Default value: `{}`
 
@@ -526,7 +526,7 @@ Specifies a list of UI libraries using the same syntax as the `libs` property, f
 </td>
 <td valign="top">
 
-Type: `boolean`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
 
 Default value: `false`
 
@@ -593,7 +593,7 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `boolean`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
 
 Default value: `true`
 
@@ -619,7 +619,7 @@ If set to `true`, the OpenUI5 controls are rendered for or running in accessibil
 </td>
 <td valign="top">
 
-Type: `sap/ui/core/AnimationMode`
+Type: [`sap/ui/core/AnimationMode`](https://sdk.openui5.org/api/module:sap/ui/core/AnimationMode)
 
 Default value: `full`
 
@@ -647,7 +647,7 @@ Sets the animation behavior according to the values and description provided by 
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: '\_\_' \(i.e. two underscore characters\)
 
@@ -705,7 +705,7 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: `""`
 
@@ -731,7 +731,7 @@ URL to an allowlist service; see [Allowlist Service](Allowlist_Service_d04a6d4.m
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: `allow`
 
@@ -757,7 +757,7 @@ Frame options mode; for more information, see [Frame Options](Frame_Options_62d9
 </td>
 <td valign="top">
 
-Type: `{}`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `{}`
 
 Default value: undefined
 
@@ -783,7 +783,7 @@ Advanced frame options configuration; for more information, see [Frame Options](
 </td>
 <td valign="top">
 
-Type: `[]`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `[]`
 
 Each of these functions is called by the OData V4 model to retrieve the security tokens instead of using the default "X-CSRF-Token".
 
@@ -843,7 +843,7 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `boolean | string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean | string`
 
 Default value: `false`
 
@@ -893,7 +893,7 @@ You can use the following patterns:
 </td>
 <td valign="top">
 
-Type: `boolean`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
 
 Default value: `false`
 
@@ -919,7 +919,7 @@ Security-relevant parameter that allows applications to disable configuration mo
 </td>
 <td valign="top">
 
-Type: `boolean`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
 
 Default value: `false`
 
@@ -945,7 +945,7 @@ If set to `true`, the `sap-ui-debug.js` module is included and provides some sup
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: `ERROR`
 
@@ -975,7 +975,7 @@ Options: `0|1|2|3|4|5|6|NONE|FATAL|ERROR|WARNING|INFO|DEBUG|ALL`
 </td>
 <td valign="top">
 
-Type: `boolean`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
 
 Default value: `false`
 
@@ -1001,7 +1001,7 @@ Activates end-to-end traces and measurement of response times For more informati
 </td>
 <td valign="top">
 
-Type: `string[]`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string[]`
 
 Default value: `null`
 
@@ -1029,7 +1029,7 @@ Options: `true | silent | window`
 </td>
 <td valign="top">
 
-Type: `string[]`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string[]`
 
 Default value: `null`
 
@@ -1089,7 +1089,7 @@ by URL parameter
 </td>
 <td valign="top">
 
-Type: `string[]`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string[]`
 
 Default value: `[]`
 
@@ -1117,7 +1117,7 @@ If set to a non-empty list of URLs, the `AppCacheBuster` will be activated and w
 </td>
 <td valign="top">
 
-Type: `boolean`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
 
 Default value: `false`
 
@@ -1143,7 +1143,7 @@ A compatibility layer restores several incompatibly changed APIs in jQuery v3 ba
 </td>
 <td valign="top">
 
-Type: `string[]`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string[]`
 
 Default value: `[]`
 
@@ -1173,7 +1173,7 @@ All libraries provided using the configuration option `libs` are merged into the
 </td>
 <td valign="top">
 
-Type: `string[]`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string[]`
 
 Default value: `[]`
 
@@ -1199,7 +1199,7 @@ Defines a list of JavaScript modules that shall be loaded after the core has bee
 </td>
 <td valign="top">
 
-Type: `boolean`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
 
 Default value: `false`
 
@@ -1225,7 +1225,7 @@ If set to `true`, OpenUI5 forces jQuery into `noConflict` mode.
 </td>
 <td valign="top">
 
-Type: `string|function`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string|function`
 
 Default value: `undefined`
 
@@ -1260,7 +1260,7 @@ Within `globalThis["sap-ui-config"]["on-init"]` it is also possible to provide a
 </td>
 <td valign="top">
 
-Type: `string`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
 
 Default value: `auto`
 
@@ -1294,7 +1294,7 @@ The values are used as follows:
 </td>
 <td valign="top">
 
-Type: `object`
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `object`
 
 Default value: undefined
 
@@ -1320,7 +1320,7 @@ For more information, see the [API Reference: `sap.ui.loader.config`](https://sd
 
 ***
 
-<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_avr_lkd_pzb"/>
+<a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT"/>
 
 ### Types
 

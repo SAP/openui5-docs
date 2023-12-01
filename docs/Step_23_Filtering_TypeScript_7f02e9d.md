@@ -20,7 +20,7 @@ In this step, we add a search field for our product list and define a filter tha
   
 **A search field is displayed above the list**
 
-![](images/loio472ab6bf88674c23ba103efd97163133_LowRes.png "A search field is displayed above the list")
+![A filtered list of invoices is displayed below the panel](images/loio472ab6bf88674c23ba103efd97163133_LowRes.png "A search field is displayed above the list")
 
 ***
 
