@@ -10,15 +10,15 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e9fc64
 
 ## Setting Themes
 
-You define which theme is used by your app either in the bootstrap, by using a URL parameter, or by using method `sap.ui.getCore.applyTheme`.
+You define which theme is used by your app either by using the `theme` configuration parameter or the `sap.ui.getCore.Theming.setTheme` method.
 
--   The initial theme can be hardcoded in the application \(in the script tag of the bootstrap loading OpenUI5\) or in a JS configuration object defined before OpenUI5 is loaded, for example:
+-   By default, there is a default theme configured for each OpenUI5 version that is applied, if not configured differently. The following example shows how to overwrite the UI5 default theme \(fallback theme\) as part of the bootstrap configuration:
 
     ```html
-    <script id="sap-ui-bootstrap" 
-    	type="text/javascript"
-    	src="resources/sap-ui-core.js"
-    	data-sap-ui-theme="sap_horizon">
+    <script id="sap-ui-bootstrap"
+        type="text/javascript"
+        src="resources/sap-ui-core.js"
+        data-sap-ui-theme="my_custom_theme">
     </script>
     ```
 
@@ -33,6 +33,8 @@ You define which theme is used by your app either in the bootstrap, by using a U
     ```
 
     Although a full URL can be specified, the framework will only use the path information of the URL to prevent CSS-based attacks that would otherwise be possible by referencing CSS from a malicious server. In a more complex landscape, for example, if the infrastructure of the UI theme designer is running on a separate server, either a Web dispatcher can be used to combine both servers in one namespace, or you should set a full URL using method `sap.ui.getCore.applyTheme` for custom apps as described below.
+
+    It is also possible to change the theme by any other source for configuration options, such as a URL parameter \(for example, `html?sap-ui-theme=my_custom_theme`\).
 
     > ### Note:  
     > The UI theme designer infrastructure stores themes for multiple technologies in the same location, each in its own subdirectory \(`UI5/` for OpenUI5\). Other SAP products \(like SAP Enterprise Portal\) append only the common root URL to the `sap-theme` parameter. OpenUI5 therefore appends folder `UI5/` to any given path that is defined in the `sap-theme` parameter.
@@ -132,4 +134,11 @@ sap.ui.getCore().attachThemeChanged(function(){
 ```
 
 You can use the `sap.ui.getCore.applyTheme` method to switch themes.
+
+**Related Information**  
+
+
+[Available Configuration Options](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+[API Reference: `sap.ui.export.EdmType`](https://sdk.openui5.org/api/module:sap/ui/core/Theming%23methods/sap/ui/core/Theming.setTheme)
 

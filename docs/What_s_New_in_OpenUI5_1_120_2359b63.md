@@ -134,6 +134,91 @@ Required
 <tr>
 <td valign="top">
 
+Upcoming 
+
+</td>
+<td valign="top">
+
+UI Changed 
+
+</td>
+<td valign="top">
+
+Announcement 
+
+</td>
+<td valign="top">
+
+**Multiple Values in Filter Fields: Copy and Paste Adapted** 
+
+</td>
+<td valign="top">
+
+**Multiple Values in Filter Fields: Copy and Paste Adapted**
+
+> ### Note:  
+> The following information concerns important upcoming changes for end users. These changes may require end users to adjust and/or test cases to be adapted, but they won't stop or disrupt software or processes.
+
+If the content of more than one column in a table is copied into a field with multiple values in the filter bar, for example, an ID and a description, only the content of the first column, the ID, is copied from the clipboard.
+
+<sub><span style="color:#666666;"><span class="SAP-icons"></span></span>**[Preview](https://help.sap.com/docs/whats-new-disclaimer)**•UI Changed•Announcement•Info Only•Upcoming</sub>
+
+</td>
+<td valign="top">
+
+Info Only 
+
+</td>
+<td valign="top">
+
+9999-01-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.120 
+
+</td>
+<td valign="top">
+
+Changed 
+
+</td>
+<td valign="top">
+
+Control 
+
+</td>
+<td valign="top">
+
+**`sap.ui.table.Table`** 
+
+</td>
+<td valign="top">
+
+**`sap.ui.table.Table`**
+
+With OpenUI5 version 1.120.2, we have introduced the `findOn` function for selection plugins, which allows you to search for these plugins in a given table.
+
+<sub>Changed•Control•Info Only•1.120</sub>
+
+</td>
+<td valign="top">
+
+Info Only 
+
+</td>
+<td valign="top">
+
+2023-11-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 1.120 
 
 </td>
@@ -156,7 +241,7 @@ Control
 
 **`sap.m.VariantManagement`**
 
-We have introduced `sap.m.VariantManagement`, which replaces `sap.ui.comp.variants.VariantManagement` and offers a set of equivalent features. For more information, see [Transition to sap.m.VariantManagement](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/0b64485af6e4407d96ae27ae6773b401.html "This documentation is meant to ease the transition from sap.ui.comp.variants.VariantManagement (deprecated) to sap.m.VariantManagement.") :arrow_upper_right: and the [API Reference](https://sdk.openui5.org/api/sap.m.VariantManagement).
+We have introduced `sap.m.VariantManagement`, which replaces `sap.ui.comp.variants.VariantManagement` and offers a set of equivalent features. For more information, see [How to replace sap.ui.comp.variants.VariantManagement](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/0b64485af6e4407d96ae27ae6773b401.html "This documentation is meant to ease the transition from sap.ui.comp.variants.VariantManagement (deprecated) to sap.m.VariantManagement.") :arrow_upper_right: and the [API Reference](https://sdk.openui5.org/api/sap.m.VariantManagement).
 
 <sub>New•Control•Info Only•1.120</sub>
 
