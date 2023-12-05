@@ -38,11 +38,16 @@ Deprecated as of
 Removed as of
 
 </th>
+<th valign="top">
+
+Recommendation\(\*\)
+
+</th>
 </tr>
 <tr>
 <td valign="top">
 
-`sap_fiori_3` 
+`sap_fiori_3` \(Quartz\)
 
 </td>
 <td valign="top">
@@ -53,6 +58,11 @@ Removed as of
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+Do not use for new projects.
 
 </td>
 </tr>
@@ -72,6 +82,11 @@ Removed as of
  
 
 </td>
+<td valign="top">
+
+Switch to `sap_horizon`.
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -87,6 +102,11 @@ Removed as of
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+Switch to `sap_horizon_hcb`.
 
 </td>
 </tr>
@@ -106,6 +126,11 @@ Removed as of
  
 
 </td>
+<td valign="top">
+
+Switch to `sap_horizon`.
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -121,6 +146,11 @@ Removed as of
 <td valign="top">
 
 1.48
+
+</td>
+<td valign="top">
+
+n/a
 
 </td>
 </tr>
@@ -140,6 +170,11 @@ Removed as of
 1.48
 
 </td>
+<td valign="top">
+
+n/a
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -157,8 +192,15 @@ Removed as of
 1.48
 
 </td>
+<td valign="top">
+
+n/a
+
+</td>
 </tr>
 </table>
+
+\(\*\) Also valid for custom themes based on the respective theme
 
 For a list of the available themes, see [Available Themes](Available_Themes_da0d2e7.md).
 
