@@ -892,9 +892,12 @@
 					"Demo Apps": {
 						"link": "Demo_Apps_a3ab54e.md"
 					},
-					"Best Practices for App Developers": {
-						"link": "Best_Practices_for_App_Developers_28fcd55.md",
+					"Best Practices for Developers": {
+						"link": "Best_Practices_for_Developers_28fcd55.md",
 						"items": {
+							"Only Use Active Features": {
+								"link": "Only_Use_Active_Features_a8bd1a8.md"
+							},
 							"Load Only What You Really Need": {
 								"link": "Load_Only_What_You_Really_Need_e8fca3e.md"
 							},
@@ -952,6 +955,9 @@
 									}
 								}
 							},
+							"Deprecated Core API": {
+								"link": "Deprecated_Core_API_798dd9a.md"
+							},
 							"Configuration of the OpenUI5 Runtime": {
 								"link": "Configuration_of_the_OpenUI5_Runtime_91f08de.md",
 								"items": {
@@ -960,6 +966,9 @@
 									},
 									"Deprecated and Experimental Configuration Options": {
 										"link": "Deprecated_and_Experimental_Configuration_Options_b474a71.md"
+									},
+									"Deprecated Configuration API": {
+										"link": "Deprecated_Configuration_API_2acafbf.md"
 									},
 									"Compatibility Version Information": {
 										"link": "Compatibility_Version_Information_9feb96d.md"

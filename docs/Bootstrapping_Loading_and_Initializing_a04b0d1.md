@@ -234,6 +234,9 @@ The noJQuery variant supports bootstrapping for an application that already inte
 -   **[Initialization Process](Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070 "The initialization process starts after OpenUI5 runtime is
 		loaded.")**  
 The initialization process starts after OpenUI5 runtime is loaded.
+-   **[Deprecated Core API](Deprecated_Core_API_798dd9a.md "The noJQuery variant supports bootstrapping for an application that already
+        integrates jQuery or uses a different jQuery version than OpenUI5.")**  
+The noJQuery variant supports bootstrapping for an application that already integrates jQuery or uses a different jQuery version than OpenUI5.
 -   **[Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md "OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available
 		configuration options are described in detail.")**  
 OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available configuration options are described in detail.

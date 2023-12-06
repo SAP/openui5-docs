@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/28fcd55b04654977b63dacbee0552712) | [demo kit latest release](https://sdk.openui5.org/topic/28fcd55b04654977b63dacbee0552712)</div>
 
-## Best Practices for App Developers
+## Best Practices for Developers
 
 In this section, we have compiled a set of best practice recommendations to help you develop high-quality OpenUI5 apps.
 
@@ -26,6 +26,9 @@ Hover over the shapes to find out more about some key benefits of OpenUI5.
 
 ![](images/loioba827f7fdaff4db98ab12d01a431ba62_LowRes.png)
 
+-   **[Only Use Active Features](Only_Use_Active_Features_a8bd1a8.md "In order to keep you apps future proof and up to date with the latest improvements, you shouldn't use artifacts (such as features, APIs,
+		themes, etc., than have been deprecated.")**  
+In order to keep you apps future proof and up to date with the latest improvements, you shouldn't use artifacts \(such as features, APIs, themes, etc., than have been deprecated.
 -   **[Load Only What You Really Need](Load_Only_What_You_Really_Need_e8fca3e.md "The amount of resources and data that your app loads will directly affect the performance of your app. You should declare all dependencies
 		and remove unused libraries and classes from your code.")**  
 The amount of resources and data that your app loads will directly affect the performance of your app. You should declare all dependencies and remove unused libraries and classes from your code.

@@ -727,7 +727,7 @@ Feature
 
 **Demo Kit Landing Page**
 
--   We added a block on the welcome page about the *UI5 Evolution* project. It contains a short description with a link to the interactive documentation page about the project. For more information, see [Best Practices for App Developers](Best_Practices_for_App_Developers_28fcd55.md).
+-   We added a block on the welcome page about the *UI5 Evolution* project. It contains a short description with a link to the interactive documentation page about the project. For more information, see [Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md).
 
 -   We added a live code editor to the Demo Kit welcome page that showcases a simple app. You can edit the code directly and see your changes immediately in the *Result* area.
 

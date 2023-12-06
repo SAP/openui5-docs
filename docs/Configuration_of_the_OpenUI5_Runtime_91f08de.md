@@ -224,6 +224,9 @@ You can find these APIs in [Configuration Options and URL Parameters](Configurat
 The following tables show available configuration options.
 -   **[Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md "The following tables show deprecated and experimental configuration options.")**  
 The following tables show deprecated and experimental configuration options.
+-   **[Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md "Compatibility version flags allow applications to react to incompatible changes in
+			OpenUI5.")**  
+Compatibility version flags allow applications to react to incompatible changes in OpenUI5.
 -   **[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in
 			OpenUI5.")**  
 Compatibility version flags allow applications to react to incompatible changes in OpenUI5.

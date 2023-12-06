@@ -159,7 +159,7 @@ Announcement
 > ### Note:  
 > The following information concerns important upcoming changes for end users. These changes may require end users to adjust and/or test cases to be adapted, but they won't stop or disrupt software or processes.
 
-If the content of more than one column in a table is copied into a field with multiple values in the filter bar, for example, an ID and a description, only the content of the first column, the ID, is copied from the clipboard.
+If the content of more than one column in a table is pasted into a field with multiple values in the filter bar, for example, an ID and a description, only the content of the first column, the ID, is copied from the clipboard.
 
 <sub><span style="color:#666666;"><span class="SAP-icons"></span></span>**[Preview](https://help.sap.com/docs/whats-new-disclaimer)**•UI Changed•Announcement•Info Only•Upcoming</sub>
 
@@ -282,7 +282,7 @@ Announcement
 
 **Deprecation of *Belize* and *Quartz* Themes**
 
-We have deprecated the *Belize* \(theme IDs: `sap_belize`, `sap_belize_plus`, `sap_belize_hcb`, `sap_belize_hcw`\) and *Quartz* \(theme IDs: `sap_fiori_3`, `sap_fiori_3_dark`, `sap_fiori_3_hcb`, `sap_fiori_3_hcw`\) theme families as of OpenUI5 version 1.120.2.
+We have deprecated the *Belize* \(theme IDs: `sap_belize`, `sap_belize_plus`, `sap_belize_hcb`, `sap_belize_hcw`\) theme family as of OpenUI5 version 1.120.2.
 
 We recommend that you switch to the *Horizon* theme family \(theme IDs: `sap_horizon`, `sap_horizon_dark`, `sap_horizon_hcb`, `sap_horizon_hcw`\).
 
@@ -484,6 +484,49 @@ Changed
 </td>
 <td valign="top">
 
+Announcement 
+
+</td>
+<td valign="top">
+
+**Apply Best Practices to Become Future-Ready \(as of 1.120.2\)** 
+
+</td>
+<td valign="top">
+
+**Apply Best Practices to Become Future-Ready \(as of 1.120.2\)**
+
+The OpenUI5 framework has been evolving constantly, for instance to account for features in browser development \(such as modern ECMAScript support\) or their end of maintenance \(such as the end of IE11 support\). Substantial modularization efforts were a crucial step on this journey, which continues towards a future major version upgrade. In recent releases, but particularly with OpenUI5 1.120, a significant number of improvements have been introduced, for example the replacement of legacy APIs of the `Core` and `Configuration` modules.
+
+To ensure your code bases, that is, your OpenUI5 applications and libraries, do not become legacy but are ready for the future, please continue applying best practices. To support your efforts, the documentation is being updated in many places, with OpenUI5 1.120 but also beyond. [Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md) aims to be a good starting point for you, collecting fundamental information and offering practical guidance. Thanks for your support!
+
+<sub>Changed•Announcement•Info Only•1.120</sub>
+
+</td>
+<td valign="top">
+
+Info Only 
+
+</td>
+<td valign="top">
+
+2023-11-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.120 
+
+</td>
+<td valign="top">
+
+Changed 
+
+</td>
+<td valign="top">
+
 Feature 
 
 </td>
@@ -496,9 +539,7 @@ Feature
 
 **Updated Configuration of the OpenUI5 Runtime**
 
-We have implemented a modular, future-proof solution for configuration handling and deprecated the legacy `sap.ui.core.Configuration` module. To reflect these deprecations and the entities replacing them, the API Reference has been updated accordingly; the documentation will be gradually updated as well. For an updated list of configuration options, see [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
-
-For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Configuration).
+We have implemented a modular, future-proof solution for configuration handling and deprecated the legacy `sap.ui.core.Configuration` module. To reflect these deprecations and the entities replacing them, the API Reference has been updated and documentation on the [Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md) has been added \(since 1.120.2\). For an updated list of configuration options, see [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 <sub>Changed•Feature•Info Only•1.120</sub>
 
@@ -680,9 +721,21 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
         For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23methods/create).
 
+    -   Moving of nodes to become root nodes \(since 1.120.2\)
+
+        For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/move).
+
     -   Deletion of nodes even if an initial expansion has been set via the `expandTo` parameter of `$$aggregation` / `v4.ODataListBinding#setAggregation`
 
         For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/delete).
+
+    -   Creation of nodes even if an initial expansion has been set via the `expandTo` parameter of `$$aggregation` / `v4.ODataListBinding#setAggregation` \(since 1.120.2\)
+
+        For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4ODataListBinding%23methods/create).
+
+    -   Moving of nodes even if the hierarchy has been fully expanded via the `expandTo` parameter of `$$aggregation` / `v4.ODataListBinding#setAggregation` \(since 1.120.2\)
+
+        For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/move).
 
 
 -   The `withCredentials` model parameter is no longer experimental; you can now use it in productive applications.
@@ -729,7 +782,9 @@ Feature
 
 **Deprecations**
 
-We have deprecated all entities of `sap.ui.core.Core`, except the `ready` method.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Core).
+We have deprecated all entities of `sap.ui.core.Core`, except the `ready` method. For more information, see [Deprecated Core API](Deprecated_Core_API_798dd9a.md) \(since 1.120.2\)and the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Core).
+
+We have also deprecated the entire `sap.ui.core.Configuration` module. For more information, see under *Updated Configuration of the OpenUI5 Runtime* in this What's New \(since 1.120.2\).
 
 For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
 

@@ -33,12 +33,24 @@ Technical Name
 <tr>
 <td valign="top">
 
-*Blue Crystal* 
+*Morning Horizon* 
 
 </td>
 <td valign="top">
 
-`sap_bluecrystal` 
+`sap_horizon` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Evening Horizon* 
+
+</td>
+<td valign="top">
+
+`sap_horizon_dark` 
 
 </td>
 </tr>
@@ -50,43 +62,7 @@ Technical Name
 </td>
 <td valign="top">
 
-`sap_hcb` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Belize* 
-
-</td>
-<td valign="top">
-
-`sap_belize` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Belize Deep* 
-
-</td>
-<td valign="top">
-
-`sap_belize_plus` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*High Contrast Black* 
-
-</td>
-<td valign="top">
-
-`sap_belize_hcb` 
+`sap_horizon_hcb` 
 
 </td>
 </tr>
@@ -98,7 +74,7 @@ Technical Name
 </td>
 <td valign="top">
 
-`sap_belize_hcw` 
+`sap_horizon_hcw` 
 
 </td>
 </tr>
@@ -153,24 +129,24 @@ Technical Name
 <tr>
 <td valign="top">
 
-*Morning Horizon* 
+*Belize* 
 
 </td>
 <td valign="top">
 
-`sap_horizon` 
+`sap_belize` 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Evening Horizon* 
+*Belize Deep* 
 
 </td>
 <td valign="top">
 
-`sap_horizon_dark` 
+`sap_belize_plus` 
 
 </td>
 </tr>
@@ -182,7 +158,7 @@ Technical Name
 </td>
 <td valign="top">
 
-`sap_horizon_hcb` 
+`sap_belize_hcb` 
 
 </td>
 </tr>
@@ -194,7 +170,31 @@ Technical Name
 </td>
 <td valign="top">
 
-`sap_horizon_hcw` 
+`sap_belize_hcw` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Blue Crystal* 
+
+</td>
+<td valign="top">
+
+`sap_bluecrystal` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*High Contrast Black* 
+
+</td>
+<td valign="top">
+
+`sap_hcb` 
 
 </td>
 </tr>

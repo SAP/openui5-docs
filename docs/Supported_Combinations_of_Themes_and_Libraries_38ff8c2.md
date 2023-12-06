@@ -283,7 +283,7 @@ n/a
 </td>
 <td valign="top">
 
-![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ n/a
 </td>
 <td valign="top">
 
-![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -389,7 +389,7 @@ n/a
 </td>
 <td valign="top">
 
-![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -619,7 +619,9 @@ Should you decide to ignore the deprecation of libraries and continue, for examp
 
 The `sap_bluecrystal` theme is also no longer supported, but offers full coverage of the `sap.ui.commons` and the `sap.ui.ux3` library. It is currently still shipped, **but will be removed in one of the next versions.**
 
-The `sap_belize` theme offers an initial implementation for the `sap.ui.commons` and the `sap.ui.ux3` library to allow for a smoother transition, but it is not supported for this library and will not be maintained. We recommend that you consider migrating your existing apps to actively developed libraries, such as `sap.m`, and use the most current theme as the default theme going forward.
+The `sap_belize` theme offers an initial implementation for the `sap.ui.commons` and the `sap.ui.ux3` libraries to allow for a smoother transition, but it is not supported for this library and will not be maintained. We recommend that you consider migrating your existing apps to actively developed libraries, such as `sap.m`, and use the most current theme as the default theme going forward.
+
+The following table shows how the available themes interact with the `sap.ui.commons` and the `sap.ui.ux3` libraries:
 
 **Themes for the Deprecated Libraries sap.ui.commons and sap.ui.ux3**
 
@@ -908,7 +910,7 @@ n/a
 </td>
 <td valign="top">
 
-![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
 </tr>
@@ -965,7 +967,7 @@ n/a
 </td>
 <td valign="top">
 
-![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
 </tr>
@@ -1024,7 +1026,7 @@ n/a
 </td>
 <td valign="top">
 
-![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
 </tr>

@@ -47,28 +47,6 @@ Recommendation\(\*\)
 <tr>
 <td valign="top">
 
-`sap_fiori_3` \(Quartz\)
-
-</td>
-<td valign="top">
-
-1.120
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-Do not use for new projects.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `sap_belize` 
 
 </td>
