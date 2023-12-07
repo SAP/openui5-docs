@@ -241,7 +241,7 @@ Control
 
 **`sap.m.VariantManagement`**
 
-We have introduced `sap.m.VariantManagement`, which replaces `sap.ui.comp.variants.VariantManagement` and offers a set of equivalent features. For more information, see [How to replace sap.ui.comp.variants.VariantManagement](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/0b64485af6e4407d96ae27ae6773b401.html "This documentation is meant to ease the transition from sap.ui.comp.variants.VariantManagement (deprecated) to sap.m.VariantManagement.") :arrow_upper_right: and the [API Reference](https://sdk.openui5.org/api/sap.m.VariantManagement).
+We have introduced `sap.m.VariantManagement`, which replaces `sap.ui.comp.variants.VariantManagement` and offers a set of equivalent features.
 
 <sub>New•Control•Info Only•1.120</sub>
 
@@ -275,12 +275,12 @@ Announcement
 </td>
 <td valign="top">
 
-**Deprecation of *Belize* and *Quartz* Themes** 
+**Deprecation of *Belize* Themes** 
 
 </td>
 <td valign="top">
 
-**Deprecation of *Belize* and *Quartz* Themes**
+**Deprecation of *Belize* Themes**
 
 We have deprecated the *Belize* \(theme IDs: `sap_belize`, `sap_belize_plus`, `sap_belize_hcb`, `sap_belize_hcw`\) theme family as of OpenUI5 version 1.120.2.
 
@@ -494,7 +494,7 @@ Announcement
 </td>
 <td valign="top">
 
-**Apply Best Practices to Become Future-Ready \(as of 1.120.2\)**
+**Apply Best Practices to Become Future-Ready \(since 1.120.2\)**
 
 The OpenUI5 framework has been evolving constantly, for instance to account for features in browser development \(such as modern ECMAScript support\) or their end of maintenance \(such as the end of IE11 support\). Substantial modularization efforts were a crucial step on this journey, which continues towards a future major version upgrade. In recent releases, but particularly with OpenUI5 1.120, a significant number of improvements have been introduced, for example the replacement of legacy APIs of the `Core` and `Configuration` modules.
 

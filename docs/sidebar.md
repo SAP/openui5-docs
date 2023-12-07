@@ -284,7 +284,7 @@
             -   [Step 13: Setting the List-Detail Pattern](Step_13_Setting_the_List_Detail_Pattern_cb38637.md)
         -   [Demo Apps](Demo_Apps_a3ab54e.md)
         -   [Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md)
-            -   [Only Use Active Features](Only_Use_Active_Features_a8bd1a8.md)
+            -   [Don't Use Deprecated or Experimental Features](Don_t_Use_Deprecated_or_Experimental_Features_a8bd1a8.md)
             -   [Load Only What You Really Need](Load_Only_What_You_Really_Need_e8fca3e.md)
             -   [Use the MVC Concept](Use_the_MVC_Concept_07afcf4.md)
             -   [Keep Your Views Short and Simple](Keep_Your_Views_Short_and_Simple_b0d7db7.md)

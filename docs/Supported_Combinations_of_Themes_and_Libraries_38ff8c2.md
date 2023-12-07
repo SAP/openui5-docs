@@ -80,6 +80,58 @@ The following table shows the [Available Themes](Available_Themes_da0d2e7.md) fo
 <tr>
 <td valign="top">
 
+`sap_horizon` 
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `sap_horizon_dark` 
 
 </td>
@@ -186,7 +238,7 @@ n/a
 <tr>
 <td valign="top">
 
-`sap_horizon` 
+`sap_fiori_3` 
 
 </td>
 <td valign="top">
@@ -206,17 +258,17 @@ n/a
 </td>
 <td valign="top">
 
-n/a
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-n/a
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-n/a
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
@@ -264,58 +316,6 @@ n/a
 <td valign="top">
 
 n/a
-
-</td>
-<td valign="top">
-
-![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-</td>
-<td valign="top">
-
-![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-</td>
-<td valign="top">
-
-![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-</td>
-<td valign="top">
-
-![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`sap_fiori_3` 
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-</td>
-<td valign="top">
-
-![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
@@ -687,6 +687,63 @@ The following table shows how the available themes interact with the `sap.ui.com
 <tr>
 <td valign="top">
 
+`sap_horizon` 
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `sap_horizon_dark` 
 
 </td>
@@ -787,63 +844,6 @@ n/a
 <td valign="top">
 
 n/a
-
-</td>
-<td valign="top">
-
-![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
-
-</td>
-<td valign="top">
-
-![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`sap_horizon` 
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
 <td valign="top">

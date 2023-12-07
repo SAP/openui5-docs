@@ -33,7 +33,7 @@ The service responds to the request with a valid JSON:
 **Related Information**  
 
 
-[Frame Options](Frame_Options_62d9c4d.md "frameOptions is used to prevent security vulnerabilities like clickjacking. With the frameOptions configuration you define whether OpenUI5 is allowed to run embedded in a frame or only from trusted origins or not at all.")
+[Frame Options](Frame_Options_62d9c4d.md "frame-options is used to prevent security vulnerabilities like clickjacking. With the frame-options configuration you define whether OpenUI5 is allowed to run embedded in a frame or only from trusted origins or not at all.")
 
 [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md "The following tables show available configuration options.")
 

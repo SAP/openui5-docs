@@ -59,9 +59,9 @@ For all these options, the CSS developer might reduce the styling effort and foc
 -   **[Available Themes](Available_Themes_da0d2e7.md "Provides a list of themes and their names. ")**  
 Provides a list of themes and their names.
 -   **[Setting Themes](Setting_Themes_e9fc648.md "You define which theme is used by your app either by using the theme
-		configuration parameter or the sap.ui.getCore.Theming.setTheme
+		configuration parameter or the sap/ui/core/Theming.setTheme
 		method.")**  
-You define which theme is used by your app either by using the `theme` configuration parameter or the `sap.ui.getCore.Theming.setTheme` method.
+You define which theme is used by your app either by using the `theme` configuration parameter or the `sap/ui/core/Theming.setTheme` method.
 -   **[Enhanced Theming Concepts](Enhanced_Theming_Concepts_45df6df.md "On top of pure CSS, OpenUI5
 		offers advanced theming concepts and functions which can be used optionally. These concepts
 		are outlined in detail below.")**  

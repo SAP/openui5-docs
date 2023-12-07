@@ -10,9 +10,9 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/62d9c4
 
 ## Frame Options
 
-`frameOptions` is used to prevent security vulnerabilities like clickjacking. With the `frameOptions` configuration you define whether OpenUI5 is allowed to run embedded in a frame or only from trusted origins or not at all.
+`frame-options` is used to prevent security vulnerabilities like clickjacking. With the `frame-options` configuration you define whether OpenUI5 is allowed to run embedded in a frame or only from trusted origins or not at all.
 
-OpenUI5 provides the following configuration options for `frameOptions`:
+OpenUI5 provides the following configuration options for `frame-options`:
 
 
 <table>
@@ -86,7 +86,7 @@ Allows to be embedded from trusted origins according to the same-origin policy a
 </tr>
 </table>
 
-With `frameOptionsConfig` the following additional configuration options can be set:
+With `frame-options-config` the following additional configuration options can be set:
 
 
 <table>
@@ -252,18 +252,18 @@ Contains the domain allowlist, for example `[".example.com"]`, `["hana.ondemand.
 </table>
 
 > ### Note:  
-> The `frameOptionsConfig` can only be set via `window["sap-ui-config"]`. Wildcards are not supported.
+> The `frame-options-config` cannot be set via URL. Wildcards are not supported.
 
 ***
 
 ### Example: `deny`
 
-If the application is not intended to run in a frame, set `frameOptions` to `deny`:
+If the application is not intended to run in a frame, set `frame-options` to `deny`:
 
 ```html
 <script id='sap-ui-bootstrap'
     src='resources/sap-ui-core.js'
-    data-sap-ui-frameOptions='deny'>
+    data-sap-ui-frame-options='deny'>
 </script>
 ```
 
@@ -271,14 +271,14 @@ If the application is not intended to run in a frame, set `frameOptions` to `den
 
 ### Example: `trusted` with `callback` 
 
-To restrict the embedding to same-origin domains, set `frameOptions` to `trusted`. The `callback` in the following code sample is called with a boolean as success state and can be used to implement an application-specific behavior.
+To restrict the embedding to same-origin domains, set `frame-options` to `trusted`. The `callback` in the following code sample is called with a boolean as success state and can be used to implement an application-specific behavior.
 
 ```html
 
 <script>
-window["sap-ui-config"] = {
-    frameOptions: 'trusted',
-    frameOptionsConfig: {
+globalThis["sap-ui-config"] = {
+    frame-options: 'trusted',
+    frame-options-config: {
         callback: function(bSuccess) {
             if (bSuccess) {
                 alert("App is allowed to run!");
@@ -302,10 +302,10 @@ To allow that the OpenUI5 application is embedded in cross-origin domains, confi
 
 ```html
 <script>
-window["sap-ui-config"] = {
-    allowlistService: 'url/to/allowlist/service',
-    frameOptions: 'trusted',
-    frameOptionsConfig: {
+globalThis["sap-ui-config"] = {
+    allowlist-service: 'url/to/allowlist/service',
+    frame-options: 'trusted',
+    frame-options-config: {
         callback: function(bSuccess) {
             if (bSuccess) {
                 alert("App is allowed to run!");
@@ -325,10 +325,10 @@ window["sap-ui-config"] = {
 
 ### Example: Allowlist Service via `<meta>` Tag
 
-Alternatively, a `<meta>` tag can be used to configure the `allowlistService` and set the `frameOptions` to `trusted`. This only applies if the `allowlistService` or `frameOptions` configuration is not set in the OpenUI5 configuration.
+Alternatively, a `<meta>` tag can be used to configure the `sap-allowlist-service` and set the `sap-ui-frame-options` to `trusted`. This only applies if the `allowlist-service` or `frame-options` configuration is not set otherwise according to the [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md).
 
 ```html
-<meta name="sap.allowlistService" content="url/to/allowlist/service" />
+<meta name="sap-allowlist-service" content="url/to/allowlist/service" />
 <script  id='sap-ui-bootstrap'
     src='resources/sap-ui-core.js'>
 </script>

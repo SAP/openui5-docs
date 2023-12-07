@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e9fc64
 
 ## Setting Themes
 
-You define which theme is used by your app either by using the `theme` configuration parameter or the `sap.ui.getCore.Theming.setTheme` method.
+You define which theme is used by your app either by using the `theme` configuration parameter or the `sap/ui/core/Theming.setTheme` method.
 
 -   By default, there is a default theme configured for each OpenUI5 version that is applied, if not configured differently. The following example shows how to overwrite the OpenUI5 default theme as part of the bootstrap configuration:
 
@@ -38,7 +38,7 @@ You define which theme is used by your app either by using the `theme` configura
     > ### Note:  
     > The UI theme designer infrastructure stores themes for multiple technologies in the same location, each in its own subdirectory \(`UI5/` for OpenUI5\). Other SAP products \(such as SAP Enterprise Portal\) append only the common root URL to the `theme` parameter. OpenUI5 therefore appends folder `UI5/` to any given path that is defined in the `theme` parameter.
 
--   You can use the `sap.ui.core.Theming.setTheme` method to switch themes during runtime. When setting the `theme` parameter via API, the application state is not lost, and only the style sheets are exchanged.
+-   You can use the `sap/ui/core/Theming.setTheme` method to switch themes during runtime. When setting the `theme` parameter via API, the application state is not lost, and only the style sheets are exchanged.
 
 
 ***
@@ -89,9 +89,9 @@ To load an external custom theme, you can either declare it statically on the pa
 
 ### Theme Origin Allowlist
 
-When configuring a theme with a `themeRoot` URL via the `theme` parameter, security restrictions apply. Absolute URLs to a different origin other than the current page are stripped off by default. The path segment will be resolved relative to the current page origin.
+When configuring a theme with a `themeRoot` URL via the `theme` parameter, security restrictions apply. Absolute URLs to an origin other than the current page are cut off by default. The path segment will be resolved relative to the current page origin.
 
-In order to allow certain origins to be used via the URL parameter, the `sap-allowed-theme-origin` configuration option can be used:
+In order to allow other origins to be used via the URL parameter, the `sap-allowed-theme-origin` configuration option can be used:
 
 `<meta name="sap-allowed-theme-origins" content="https://example.com">`
 
@@ -126,7 +126,7 @@ sap.ui.require([
 ```
 
 > ### Note:  
-> The event handler of the `applied` event will be executed immediately once, if all `*.css` files are loaded, and there is no `theme` pending. After that, it will only be executed if new `*.css` files must be loaded, for example, when additional libraries are loaded.
+> The event handler of the `applied` event will be executed immediately once, if all `*.css` files are loaded, and if there is no theme pending. After that, it will only be executed if new `*.css` files must be loaded, for example, when additional libraries are loaded.
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/module:sap/ui/core/Theming%23events/applied).
 
@@ -135,5 +135,5 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/module
 
 [Available Configuration Options](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
 
-[API Reference: `sap.ui.core.Theming.setTheme`](https://sdk.openui5.org/api/module:sap/ui/core/Theming%23methods/sap/ui/core/Theming.setTheme)
+[API Reference: `sap/ui/core/Theming.setTheme`](https://sdk.openui5.org/api/module:sap/ui/core/Theming%23methods/sap/ui/core/Theming.setTheme)
 
