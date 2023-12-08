@@ -224,9 +224,10 @@ You can find these APIs in [Configuration Options and URL Parameters](Configurat
 The following tables show available configuration options.
 -   **[Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md "The following tables show deprecated and experimental configuration options.")**  
 The following tables show deprecated and experimental configuration options.
--   **[Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md "Compatibility version flags allow applications to react to incompatible changes in
-			OpenUI5.")**  
-Compatibility version flags allow applications to react to incompatible changes in OpenUI5.
+-   **[Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md "This page describes important aspects of the deprecation of the sap.ui.core.Configuration API facade. It shows a
+		migration path away from the deprecated legacy APIs and towards their future-proof alternatives, provided the functionality is still meant for
+		productive usage.")**  
+This page describes important aspects of the deprecation of the `sap.ui.core.Configuration` API facade. It shows a migration path away from the deprecated legacy APIs and towards their future-proof alternatives, provided the functionality is still meant for productive usage.
 -   **[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in
 			OpenUI5.")**  
 Compatibility version flags allow applications to react to incompatible changes in OpenUI5.

@@ -134,50 +134,6 @@ Required
 <tr>
 <td valign="top">
 
-Upcoming 
-
-</td>
-<td valign="top">
-
-UI Changed 
-
-</td>
-<td valign="top">
-
-Announcement 
-
-</td>
-<td valign="top">
-
-**Multiple Values in Filter Fields: Copy and Paste Adapted** 
-
-</td>
-<td valign="top">
-
-**Multiple Values in Filter Fields: Copy and Paste Adapted**
-
-> ### Note:  
-> The following information concerns important upcoming changes for end users. These changes may require end users to adjust and/or test cases to be adapted, but they won't stop or disrupt software or processes.
-
-If the content of more than one column in a table is pasted into a field with multiple values in the filter bar, for example, an ID and a description, only the content of the first column, the ID, is copied from the clipboard.
-
-<sub><span style="color:#666666;"><span class="SAP-icons"></span></span>**[Preview](https://help.sap.com/docs/whats-new-disclaimer)**•UI Changed•Announcement•Info Only•Upcoming</sub>
-
-</td>
-<td valign="top">
-
-Info Only 
-
-</td>
-<td valign="top">
-
-9999-01-01
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 1.120 
 
 </td>

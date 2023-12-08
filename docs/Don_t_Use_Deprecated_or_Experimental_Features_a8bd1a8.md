@@ -47,7 +47,7 @@ APIs that have been flagged as experimental can be found in the API Reference: [
 
 [Compatibility Rules](Compatibility_Rules_91f0873.md "The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.")
 
-[Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md "As OpenUI5 evolves over time, some of the UI controls are replaced by others, or their concepts abandoned entirely. This chapter gives an overview on theme and library level of the most important deprecations. Individual control deprecations and more information about the controls replacing them can be found in the API reference within the Demo Kit.")
+[Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md "As OpenUI5 evolves over time, some of the UI controls are replaced by others, or their concepts abandoned entirely. This chapter gives an overview of the most important deprecations at theme and library level. Individual control deprecations and more information about the controls replacing them can be found in the API reference within the Demo Kit.")
 
 [Upgrading](Upgrading_9638e4f.md "The following sections describe what you have to consider when upgrading to a new version of OpenUI5.")
 
