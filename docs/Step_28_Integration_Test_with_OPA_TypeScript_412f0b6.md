@@ -39,7 +39,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 28: Integration
 
 
 
-![](images/loio27e84d5bd72a485498564b92894869b5_LowRes.png)We add a new folder `integration` below the `test` folder, where we put our new test cases. Page objects that help structuring such integration tests are put in the `pages` subfolder that we also create now.
+![The graphic has an explanatory text](images/loio27e84d5bd72a485498564b92894869b5_LowRes.png)We add a new folder `integration` below the `test` folder, where we put our new test cases. Page objects that help structuring such integration tests are put in the `pages` subfolder that we also create now.
 
 ***
 

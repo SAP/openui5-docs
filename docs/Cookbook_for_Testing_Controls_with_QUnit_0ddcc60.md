@@ -192,6 +192,37 @@ QUnit.test("Should suppress rerendering when tooltip is set", function(assert) {
 });
 ```
 
+`applyChanges()` enforces a synchronous rendering and **must not** be used in productive code.
+
+**For test scenarios only**, you may use the test helper module **`sap/ui/qunit/utils/nextUIUpdate`** instead.
+
+> ### Restriction:  
+> Using `nextUIUpdate` in combination with fake timers has some pitfalls. If fake timers are used, it is not possible to use `await`. In this case, you need to chain to the `nextUIUpdate` Promise and always use `clock.tick()` within the chaining in order to execute the rendering.
+> 
+> The main difference to `applyChanges()` is that `nextUIUpdate()` does not synchronously trigger a re-rendering \(which by intention we wanted to get rid of\), but just waits for the next rendering cycle to complete. Due to this asynchronous nature, switching to it may be slightly more work than in other more straightforward cases.
+
+As a replacement for `applyChanges()` **in tests only**, use:
+
+```js
+QUnit.test("Simple Component Instance",
+  async function(assert){
+    await nextUIUpdate();
+    ...
+});
+ 
+// nextUIUpdate with fake timers
+QUnit.test("Test with fake timers", function() {
+    this.clock = sinon.useFakeTimers();
+ 
+    // Using runAll is not always necessary but ensures, that no timeouts are left unprocessed
+    this.clock.runAll();
+    nextUIUpdate().then(() => {
+        this.clock.tick();
+        // Continue with your test
+    });
+}
+```
+
 ***
 
 ### Testing with Models
@@ -301,6 +332,25 @@ QUnit.test("Should do something with the model", function(assert) {
     oModel.destroy();
     oMockServer.stop();
     sinon.clock.reset() 
+});
+```
+
+***
+
+<a name="loio0ddcc60b05ee40dea1a3be09e8fee8f7__section_ljv_b3r_rzb"/>
+
+### Testing for a Theme Change
+
+```js
+sap.ui.require(["sap/ui/core/Theming"], (Theming) => {
+    QUnit.test("Check if theme change was done correctly", function(assert){
+        const myTestFunction = () => {
+            // Test changes are applied
+            Theming.detachApplied(myTestFunction);
+        }
+        Theming.setTheme("myTestTheme");
+        Theming.attachApplied(myTestFunction);
+    });
 });
 ```
 

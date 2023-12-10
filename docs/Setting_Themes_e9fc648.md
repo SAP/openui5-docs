@@ -47,7 +47,7 @@ You define which theme is used by your app either by using the `theme` configura
 
 To load an external custom theme, you can either declare it statically on the page or by setting the `theme-root` configuration parameter.
 
-1.  You can configure the theme by using one of the following options:
+-   You can configure the theme by using one of the following options:
 
     -   Use the same object structure as JSON string in an attribute of the OpenUI5 bootstrap `script` tag, for example:
 
@@ -117,16 +117,26 @@ sap.ui.require([
     Theming
 ) => {
     "use strict";
-    ...
-    Theming.attachApplied(() => {
-        // My theming dependent coding
+     
+    // Whenever the theme is switched, an event is fired,
+    // indicating that a theme switch has been triggered.
+    Theming.attachApplied((oEvent) => {
+        // Note: The event callback has no longer a <this> context,
+        // thus we use an arrow function here
+ 
+        // Note: the Event object now has a different API than on the Core facade:
+        // no more getParameters(), but simple properties like the Web API events.
+        // Therefore, you can access the new "theme" like so:
+        const sTheme = oEvent.theme;
     });
     ...
 });
 ```
 
 > ### Note:  
-> The event handler of the `applied` event will be executed immediately once, if all `*.css` files are loaded, and if there is no theme pending. After that, it will only be executed if new `*.css` files must be loaded, for example, when additional libraries are loaded.
+> The handler of the `applied` event will be executed immediately once if all `*.css` files are loaded and there are no further requests pending for the theme.
+> 
+> After that, it will only be executed in case of new `*.css` files, which may happen for a complete theme change or the loading of additional libraries. Keep in mind that the **`onThemeChanged`** hook is not executed initially if the theme has already been applied.
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/module:sap/ui/core/Theming%23events/applied).
 

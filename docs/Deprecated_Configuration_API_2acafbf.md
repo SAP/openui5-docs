@@ -54,9 +54,9 @@ Replace With
 
 Deprecated without replacement.
 
-This API method, which was typically used via `sap.ui.getCore().getConfiguration().applySettings()`, is superseded by different dedicated facade modules addressing the corresponding topics.It's therefore not possible to use a generic pattern to replace these calls.
+This API method, which was typically used via `sap.ui.getCore().getConfiguration().applySettings()`, is superseded by different dedicated facade modules addressing the corresponding topics. It's therefore not possible to use a generic pattern to replace these calls.
 
-Check the API documentation of `sap.ui.core.Configuration` and use the references below to find the correct replacement.
+Check the API documentation of [`sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration) and use the references below to find the correct replacement.
 
 </td>
 </tr>
@@ -474,6 +474,797 @@ Deprecated without replacement
 <td valign="top">
 
 `Localization.getLanguageTag().toString()` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getLocale`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Localization`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization) 
+
+</td>
+<td valign="top">
+
+[`Formatting.getLanguageTag()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.getLanguageTag)
+
+The new API returns an [`sap/base/i18n/LanguageTag`](https://sdk.openui5.org/api/module:sap/base/i18n/LanguageTag). There are two possibilities to replace the deprecated API calls using the new formatting API:
+
+-   Either you replace the deprecated API by transforming the retrieved new `LanguageTag` into an [`sap/ui/core/Locale`](https://sdk.openui5.org/api/sap.ui.core.Locale). To do so, require `sap/ui/core/Locale` and pass the `LanguageTag` as a parameter to the `Locale` constructor.
+
+-   Alternatively, you adjust the usage of the locale to the new `LanguageTag` API.
+
+> ### Example:  
+> ```
+> // either transform LanguageTag into Locale and use as before
+> sap.ui.require([
+>     "sap/base/i18n/Localization",
+>     "sap/ui/core/Locale"
+> ], (Localization, Locale) => {
+>     // Transform LanguageTag to Locale
+>     const oLocale = new Locale(Localization.getLanguageTag());
+>     const sLanguage = oLocale.getLanguage();
+> });
+>  
+> // or adjust usage of Locale to LanguageTag API
+> sap.ui.require([
+>     "sap/base/i18n/Localization"
+> ], (Localization) => {
+>     const oLanguageTag = Localization.getLanguageTag();
+>     const sLanguage = oLanguageTag.language;
+> });
+> ```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getManifestFirst`
+
+</td>
+<td valign="top">
+
+\-
+
+</td>
+<td valign="top">
+
+Deprecated without replacement
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getNoDuplicateIds`
+
+</td>
+<td valign="top">
+
+\-
+
+</td>
+<td valign="top">
+
+Deprecated without replacement
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getOriginInfo`
+
+</td>
+<td valign="top">
+
+\-
+
+</td>
+<td valign="top">
+
+Deprecated without replacement
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getRootComponent`
+
+</td>
+<td valign="top">
+
+\-
+
+</td>
+<td valign="top">
+
+Deprecated without replacement
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getRTL`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Localization`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization) 
+
+</td>
+<td valign="top">
+
+[`Localization.getRTL()`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.getRTL) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getSAPLogonLanguage`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Localization`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization) 
+
+</td>
+<td valign="top">
+
+[`Localization.getSAPLogonLanguage()`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.getSAPLogonLanguage) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getSecurityTokenHandlers`
+
+</td>
+<td valign="top">
+
+[`sap/ui/security/Security`](https://sdk.openui5.org/api/module:sap/ui/security/Security) 
+
+</td>
+<td valign="top">
+
+[`Security.getSecurityTokenHandlers()`](https://sdk.openui5.org/api/module:sap/ui/security/Security%23methods/sap/ui/security/Security.getSecurityTokenHandlers) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getStatisticsEnabled`
+
+</td>
+<td valign="top">
+
+\-
+
+</td>
+<td valign="top">
+
+Deprecated without replacement
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getTheme`
+
+</td>
+<td valign="top">
+
+[`sap/ui/core/Theming`](https://sdk.openui5.org/api/module:sap/ui/core/Theming) 
+
+</td>
+<td valign="top">
+
+[`Theming.getTheme()`](https://sdk.openui5.org/api/module:sap/ui/core/Theming%23methods/sap/ui/core/Theming.getTheme) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getTimezone`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Localization`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization) 
+
+</td>
+<td valign="top">
+
+[`Localization.getTimezone()`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.getTimezone) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getUIDPrefix`
+
+</td>
+<td valign="top">
+
+[`sap/ui/base/ManagedObjectMetadata`](https://sdk.openui5.org/api/sap.ui.base.ManagedObjectMetadata) 
+
+</td>
+<td valign="top">
+
+[`ManagedObjectMetadata.getUIDPrefix()`](https://sdk.openui5.org/api/sap.ui.base.ManagedObjectMetadata%23methods/sap.ui.base.ManagedObjectMetadata.getUIDPrefix) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getVersion`
+
+</td>
+<td valign="top">
+
+[`sap/ui/VersionInfo`](https://sdk.openui5.org/api/module:sap/ui/VersionInfo) 
+
+</td>
+<td valign="top">
+
+[`VersionInfo.load()`](https://sdk.openui5.org/api/module:sap/ui/VersionInfo%23methods/sap/ui/VersionInfo.load)
+
+The `getVersion` method always returned the OpenUI5 version. Check the samples below on how to get either the SAPUI5 or OpenUI5 version. For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
+
+> ### Example:  
+> ```
+> sap.ui.require([
+>     "sap/ui/VersionInfo",
+>     "sap/base/util/Version"
+> ], function(VersionInfo, VersionUtil) {
+>     // access the SAPUI5 version at runtime
+>     VersionInfo.load().then(function(oCurrentVersionInfo) {
+>         const oSAPUI5Version = new VersionUtil(oCurrentVersionInfo.version);
+>         // ...
+>     });
+>  
+>     // access the OpenUI5 version (core version) at runtime
+>     VersionInfo.load("sap.ui.core").then(function(oCurrentVersionInfo) {
+>         const oOpenUI5Version = new VersionUtil(oCurrentVersionInfo.version);
+>         // ...
+>     });
+> });
+> ```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getWhitelistService`
+
+</td>
+<td valign="top">
+
+[`sap/ui/security/Security`](https://sdk.openui5.org/api/module:sap/ui/security/Security) 
+
+</td>
+<td valign="top">
+
+[`Security.getAllowlistService()`](https://sdk.openui5.org/api/module:sap/ui/security/Security%23methods/sap/ui/security/Security.getAllowlistService) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setAnimationMode`
+
+</td>
+<td valign="top">
+
+[`sap/ui/core/ControlBehavior`](https://sdk.openui5.org/api/module:sap/ui/core/ControlBehavior) 
+
+</td>
+<td valign="top">
+
+[`ControlBehavior.setAnimationMode()`](https://sdk.openui5.org/api/module:sap/ui/core/ControlBehavior%23methods/sap/ui/core/ControlBehavior.setAnimationMode) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setCalendarType`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setCalendarType()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setCalendarType) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setCalendarWeekNumbering`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setCalendarWeekNumbering()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setCalendarWeekNumbering) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setFormatLocale`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setLanguageTag()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setLanguageTag)
+
+The deprecated API only accepted a string, whereas the new API also accepts an [`sap/base/i18n/LanguageTag`](https://sdk.openui5.org/api/module:sap/base/i18n/LanguageTag).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setLanguage`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Localization`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization) 
+
+</td>
+<td valign="top">
+
+[`Localization.setLanguage()`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setLanguage) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setRTL`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Localization`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization) 
+
+</td>
+<td valign="top">
+
+[`Localization.setRTL()`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setRTL) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setSecurityTokenHandlers`
+
+</td>
+<td valign="top">
+
+[`sap/ui/security/Security`](https://sdk.openui5.org/api/module:sap/ui/security/Security) 
+
+</td>
+<td valign="top">
+
+[`Security.setSecurityTokenHandlers()`](https://sdk.openui5.org/api/module:sap/ui/security/Security%23methods/sap/ui/security/Security.setSecurityTokenHandlers) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setTheme`
+
+</td>
+<td valign="top">
+
+[`sap/ui/core/Theming`](https://sdk.openui5.org/api/module:sap/ui/core/Theming) 
+
+</td>
+<td valign="top">
+
+[`Theming.setTheme()`](https://sdk.openui5.org/api/module:sap/ui/core/Theming%23methods/sap/ui/core/Theming.setTheme) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setTimezone`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Localization`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization) 
+
+</td>
+<td valign="top">
+
+[`Localization.setTimezone()`](https://sdk.openui5.org/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setTimezone) 
+
+</td>
+</tr>
+</table>
+
+***
+
+<a name="loio2acafbfcc2cb47e8aac6d2e32399af10__section_occ_3br_rzb"/>
+
+### Overview of Deprecated API Methods of `FormatSettings`
+
+In legacy code, a configuration object that bundled certain format settings of UI5, was often retrieved by calls such as `sap.ui.core.Configuration.getFormatSettings()`, with the following methods then called on that `FormatSettings` object.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Legacy API Method on FormatSettings
+
+</th>
+<th valign="top">
+
+New Module
+
+</th>
+<th valign="top">
+
+Replace With
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`addCustomCurrencies`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.addCustomCurrencies()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.addCustomCurrencies)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getCustomCurrencies`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.getCustomCurrencies()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.getCustomCurrencies)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getDatePattern`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.getDatePattern()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.getDatePattern)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getFormatLocale`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.getLanguageTag()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.getLanguageTag)
+
+The new API returns an [`sap/base/i18n/LanguageTag`](https://sdk.openui5.org/api/module:sap/base/i18n/LanguageTag). There are two possibilities to replace the deprecated API calls using the new formatting API. See the entry for `getFormatLocale` above.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getLegacyDateCalendarCustomizing`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.getCustomIslamicCalendarData()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.getCustomIslamicCalendarData) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getNumberSymbol`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.getNumberSymbol()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.getNumberSymbol) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getTimePattern`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.getTimePattern()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.getTimePattern) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`getTrailingCurrencyCode`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.getTrailingCurrencyCode()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.getTrailingCurrencyCode) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setCustomCurrencies`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setCustomCurrencies()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setCustomCurrencies) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setDatePattern`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setDatePattern()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setDatePattern) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setFirstDayOfWeek`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setCalendarWeekNumbering()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setCalendarWeekNumbering) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setLegacyDateCalendarCustomizing`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setCustomIslamicCalendarData()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setCustomIslamicCalendarData) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setLegacyDateFormat`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setABAPDateFormat()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setABAPDateFormat)
+
+This renaming \(along with similar ones for `setLegacyNumberFormat` and `setLegacyTimeFormat`\), has been done to reflect their relation to SAP ABAP back ends. Consequently, the corresponding change event parameter has been named `ABAPDateFormat` \(and `ABAPNumberFormat` or `ABAPTimeFormat`, respectively\).
+
+Also refer to [`sap/base/i18n/Formatting$ChangeEvent`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting$ChangeEvent) for a detailed breakdown of all available change event parameters.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setLegacyNumberFormat`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setABAPNumberFormat()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setABAPNumberFormat)
+
+See information for `setLegacyDateFormat`.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setLegacyTimeFormat`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setABAPTimeFormat()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setABAPTimeFormat)
+
+See information for `setLegacyDateFormat`.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setNumberSymbol`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setNumberSymbol()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setNumberSymbol) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setTimePattern`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setTimePattern()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setTimePattern) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`setTrailingCurrencyCode`
+
+</td>
+<td valign="top">
+
+[`sap/base/i18n/Formatting`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting) 
+
+</td>
+<td valign="top">
+
+[`Formatting.setTrailingCurrencyCode()`](https://sdk.openui5.org/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setTrailingCurrencyCode) 
 
 </td>
 </tr>

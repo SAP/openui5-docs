@@ -87,7 +87,7 @@ The following OpenUI5 versions will be removed from the OpenUI5 Content Delivery
 
 **Minor Versions Reaching Their End of Cloud Provisioning**
 
-The following versions including all patches will be removed entirely:
+The following versions, including all patches, will be removed entirely:
 
 -   1.106
 -   1.107
@@ -197,7 +197,7 @@ Control
 
 **`sap.m.VariantManagement`**
 
-We have introduced `sap.m.VariantManagement`, which replaces `sap.ui.comp.variants.VariantManagement` and offers a set of equivalent features.
+We have introduced `sap.m.VariantManagement`, which replaces `sap.ui.comp.variants.VariantManagement` and offers a set of equivalent features. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.VariantManagement).
 
 <sub>New•Control•Info Only•1.120</sub>
 
@@ -370,7 +370,7 @@ Feature
 
 **`sap.m.table.ColumnWidthController`**
 
-We have now enabled the resizing of columns for `sap.m.Table` and `sap.ui.table.Table` and not just `sap.ui.mdc.Table`. To enable this feature, we have made `ColumnWidthController` available as an extension of `sap.m.p13n.SelectionController`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.table.ColumnWidthController), the [Sample](https://sdk.openui5.org/entity/sap.ui.table.Table/sample/sap.m.sample.p13n.EngineGridTable) for `sap.ui.table.Table`, and the [Sample](https://sdk.openui5.org/entity/sap.m.Table/sample/sap.m.sample.p13n.Engine) for `sap.m.Table`.
+We have now enabled the resizing of columns for `sap.m.Table` and `sap.ui.table.Table`, and not just `sap.ui.mdc.Table`. To enable this feature, we have made `ColumnWidthController` available as an extension of `sap.m.p13n.SelectionController`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.table.ColumnWidthController), the [Sample](https://sdk.openui5.org/entity/sap.ui.table.Table/sample/sap.m.sample.p13n.EngineGridTable) for `sap.ui.table.Table`, and the [Sample](https://sdk.openui5.org/entity/sap.m.Table/sample/sap.m.sample.p13n.Engine) for `sap.m.Table`.
 
 <sub>New•Feature•Info Only•1.120</sub>
 
@@ -450,11 +450,11 @@ Announcement
 </td>
 <td valign="top">
 
-**Apply Best Practices to Become Future-Ready \(since 1.120.2\)**
+**Apply Best Practices to Become Future-Ready \(as of 1.120.2\)**
 
 The OpenUI5 framework has been evolving constantly, for instance to account for features in browser development \(such as modern ECMAScript support\) or their end of maintenance \(such as the end of IE11 support\). Substantial modularization efforts were a crucial step on this journey, which continues towards a future major version upgrade. In recent releases, but particularly with OpenUI5 1.120, a significant number of improvements have been introduced, for example the replacement of legacy APIs of the `Core` and `Configuration` modules.
 
-To ensure your code bases, that is, your OpenUI5 applications and libraries, do not become legacy but are ready for the future, please continue applying best practices. To support your efforts, the documentation is being updated in many places, with OpenUI5 1.120 but also beyond. [Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md) aims to be a good starting point for you, collecting fundamental information and offering practical guidance. Thanks for your support!
+To make sure that your code bases, that is, your OpenUI5 applications and libraries, do not become legacy but are ready for the future, please continue applying best practices. To support your efforts, we are updating the documentation in many places, with OpenUI5 1.120 but also beyond. [Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md) aims to be a good starting point for you, collecting fundamental information and offering practical guidance. Thanks for your support!
 
 <sub>Changed•Announcement•Info Only•1.120</sub>
 
@@ -495,7 +495,7 @@ Feature
 
 **Updated Configuration of the OpenUI5 Runtime**
 
-We have implemented a modular, future-proof solution for configuration handling and deprecated the legacy `sap.ui.core.Configuration` module. To reflect these deprecations and the entities replacing them, the API Reference has been updated and documentation on the [Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md) has been added \(since 1.120.2\). For an updated list of configuration options, see [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
+We have implemented a modular, future-proof solution for configuration handling, and deprecated the legacy `sap.ui.core.Configuration` module. To reflect these deprecations and the entities replacing them, the API Reference has been updated and documentation on the [Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md) has been added \(as of 1.120.2\). For an updated list of configuration options, see [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 <sub>Changed•Feature•Info Only•1.120</sub>
 
@@ -673,23 +673,23 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
         For more information, see the API Reference for [`Context#getParent`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/getParent) and [`Context#requestParent`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/requestParent).
 
-    -   Creation of new root nodes
+    -   Creating new root nodes
 
         For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23methods/create).
 
-    -   Moving of nodes to become root nodes \(since 1.120.2\)
+    -   Moving nodes to become root nodes \(as of 1.120.2\)
 
         For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/move).
 
-    -   Deletion of nodes even if an initial expansion has been set via the `expandTo` parameter of `$$aggregation` / `v4.ODataListBinding#setAggregation`
+    -   Deleting nodes, even if an initial expansion has been set using the `expandTo` parameter of `$$aggregation` / `v4.ODataListBinding#setAggregation`
 
         For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/delete).
 
-    -   Creation of nodes even if an initial expansion has been set via the `expandTo` parameter of `$$aggregation` / `v4.ODataListBinding#setAggregation` \(since 1.120.2\)
+    -   Creating nodes, even if an initial expansion has been set using the `expandTo` parameter of `$$aggregation` / `v4.ODataListBinding#setAggregation` \(as of 1.120.2\)
 
         For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4ODataListBinding%23methods/create).
 
-    -   Moving of nodes even if the hierarchy has been fully expanded via the `expandTo` parameter of `$$aggregation` / `v4.ODataListBinding#setAggregation` \(since 1.120.2\)
+    -   Moving nodes, even if the hierarchy has been fully expanded using the `expandTo` parameter of `$$aggregation` / `v4.ODataListBinding#setAggregation` \(as of 1.120.2\).
 
         For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/move).
 
@@ -738,9 +738,9 @@ Feature
 
 **Deprecations**
 
-We have deprecated all entities of `sap.ui.core.Core`, except the `ready` method. For more information, see [Deprecated Core API](Deprecated_Core_API_798dd9a.md) \(since 1.120.2\)and the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Core).
+We have deprecated all entities of `sap.ui.core.Core`, except for the `ready` method. For more information, see [Deprecated Core API](Deprecated_Core_API_798dd9a.md) \(as of 1.120.2\)and the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Core).
 
-We have also deprecated the entire `sap.ui.core.Configuration` module. For more information, see under *Updated Configuration of the OpenUI5 Runtime* in this What's New \(since 1.120.2\).
+We have also deprecated the entire `sap.ui.core.Configuration` module. For more information, see *Updated Configuration of the OpenUI5 Runtime* in this What's New \(as of 1.120.2\).
 
 For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
 

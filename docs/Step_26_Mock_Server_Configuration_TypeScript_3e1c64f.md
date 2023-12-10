@@ -36,7 +36,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 26: Mock Server
 
 
 
-![](images/loio0ed199908e9a4dbda15412b9205f622c_LowRes.png)The folder structure of our app project is clearly separating test and productive files after this step. The new `test` folder now contains a new HTML page `mockServer.html` which will launch our application in test mode without calling the real service.
+![The graphic has an explanatory text](images/loio0ed199908e9a4dbda15412b9205f622c_LowRes.png)The folder structure of our app project is clearly separating test and productive files after this step. The new `test` folder now contains a new HTML page `mockServer.html` which will launch our application in test mode without calling the real service.
 
 The new `localService` folder contains a `metadata.xml` service description file for OData, the `mockserver.js` file that simulates a real service with local data, and the `mockdata` subfolder that contains the local test data \(`Invoices.json`\).
 
