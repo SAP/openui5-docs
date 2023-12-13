@@ -90,7 +90,7 @@ XMLView.create({
 
 -   Names of XML views always end with `*.view.xml`
 
--   As a general rule, the default XML namespace is `sap.m`
+-   XML namespaces are declared in the root element of the view. As a general rule, the default XML namespace is `sap.m`
 
 -   Other XML namespaces use the last part of the SAP namespace as alias \(for example, `mvc` for `sap.ui.core.mvc`\)
 

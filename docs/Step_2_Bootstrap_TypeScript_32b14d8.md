@@ -91,7 +91,7 @@ alert("UI5 is ready");
 In this step, we change the `index.html` page to make it load the OpenUI5 framework from the webserver provided by UI5 Tooling. We initialize the core modules with the following configuration options:
 
 -   The `id` attribute of the `<script>` tag has to be exactly `"sap-ui-bootstrap"` to ensure proper booting of the OpenUI5 runtime.
--   The `src` attribute of the `<script>` tag tells the browser where to find the OpenUI5 core library – it initializes the OpenUI5 runtime and loads additional resources, such as the libraries specified in the `data-sap-ui-theme` attribute.
+-   The `src` attribute of the `<script>` tag tells the browser where to find the OpenUI5 core library – it initializes the OpenUI5 runtime and loads additional resources, such as the theme specified in the `data-sap-ui-theme` attribute.
 
 -   The OpenUI5 controls support different themes. We choose `sap_horizon` as our default theme.
 
@@ -135,7 +135,7 @@ In this step, we change the `index.html` page to make it load the OpenUI5 framew
 
 Now it's time to enhance our tooling setup once again. This time we install some custom middleware for the ui5-server to facilitate the handling of our development project.
 
-Open a terminal in the app root folder. Then execute the following command:
+Open a terminal a terminal and navigate to the app root folder. Then execute the following command:
 
 `npm install ui5-middleware-livereload ui5-middleware-serveframework ui5-tooling-transpile --save-dev`
 
@@ -143,7 +143,7 @@ This will install the `ui5-middleware-livereload`, `ui5-middleware-serveframewor
 
 -   `ui5-middleware-livereload` is a middleware for ui5-server which triggers a live reload whenever files inside your directory change, e.g. upon *Save*.
 -   `ui5-middleware-serveframework` is a middleware for ui5-server which delivers the OpenUI5 framework from a locally built version.
--   `ui5-tooling-transpile` provides a middleware and a task which transpiles TypeScript code to ES5 using the Babel transpiler. The middleware transpiles a matching `.ts` file on the fly. The task transpiles the relevant source files during the UI5 Tooling build process.
+-   `ui5-tooling-transpile` is a plugin for UI5 Tooling that transpiles mordern JavaScript \(ES6+\) and TypeScript into OpenUI5-compatible code. OpenUI5 is based on older versions of JavaScript, so this plugin allows you to take advantage of the latest language features and syntax while ensuring that your code remains compatible with OpenUI5.
 
 ***
 
@@ -208,8 +208,6 @@ Now you can benefit from live reload on changes, built framework resources at de
 
 
 [What is a tsconfig.json?](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
-
-[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in OpenUI5.")
 
 [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md "To use OpenUI5 features in your HTML page, you have to load and initialize the SAPUI5 library.")
 
