@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/cfbbea
 
 Now that we have set up the view and controller, it’s about time to think about the M in MVC.
 
-We will add an input field to our app, bind its value to the model, and bind the same value to the description of the input field. The description will be directly updated as the user types.
+We'll create a view model in our controller, add an input field to our app, bind its value to the model, and bind the same value to the description of the input field. The description will be directly updated as the user types.
 
 ***
 
@@ -73,18 +73,22 @@ export default class AppController extends Controller {
 
 The model is now set on the view.
 
-For now, the message toast just displays a static "Hello World" message. We will show how to load a translated text here in [Step 8: Translatable Texts \(TypeScript\)](Step_8_Translatable_Texts_TypeScript_4dcf52e.md).
-
 ***
 
 ### webapp/view/App.view.xml
 
-We add an `sap/m/Input` control to the view. With this, the user can enter a recipient for the greetings. We bind its value to an OpenUI5 model by using the declarative binding syntax for XML views:
+We add an `sap/m/Input` control to our view, allowing the user to enter a name for the person they want to greet.
 
--   The curly brackets `{…}` indicate that data is taken from the value of the `recipient`'s object name property. This is called "data binding".
+To make this work, we connect, or "bind", the value of the input control to the `name` attribute of the `recipient` object in our JSON data model. We do this using a simple binding syntax, which is a straightforward way to link data of the model and the view.
 
--   `/recipient/name` declares the path in the model.
+> ### Note:  
+> To bind a control property to your view model data, you need to specify a [`sap.ui.base.ManagedObject.PropertyBindingInfo`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject.PropertyBindingInfo) for the property. A binding info is always initiated by enclosing it in curly brackets `{…}`, and the properties defined in the binding info's API are placed within the brackets.
+> 
+> You can omit all properties of the binding info and just provide the binding path as a simple string. A binding path consists of path segments separated by forward slashes \(\`/\`\) which point to a property in the model that you want to bind to. This applies to all OpenUI5-provided models.
+> 
+> Binding paths can be either absolute or relative. Absolute binding paths start with a slash, while relative binding paths start with a name token and are resolved relative to the context of the control that is being bound \(we'll discuss this later on\).
 
+We also create a greeting message by combining the static "Hello" text with the `name` attribute from our data model and assigning it to the `description` property of the input field. This means that the greeting message will dynamically update with whatever name the user enters. To ensure that the greeting message updates in real time as the user types, we set the `valueLiveUpdate` attribute of the input control to `true`.
 
 ```xml
 <mvc:View

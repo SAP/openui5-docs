@@ -52,11 +52,7 @@ export default class AppController extends Controller {
 };
 ```
 
-***
-
-### Conventions
-
-Use the name of the artifact to load for naming the module \(without namespace\).
+For now, the message toast just displays a static "Hello World" message. We'll show how to load a translated text here in [Step 8: Translatable Texts \(TypeScript\)](Step_8_Translatable_Texts_TypeScript_4dcf52e.md).
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 

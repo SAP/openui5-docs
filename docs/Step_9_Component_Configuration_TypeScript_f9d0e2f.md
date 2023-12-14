@@ -43,51 +43,32 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 9: Component Co
 
 ### webapp/Component.ts \(New\)
 
-We create an initial `Component.ts` file in the `webapp` folder that will hold our application setup. The `init` function of the component is automatically invoked by OpenUI5 when the component is instantiated. Our component inherits from the base class `sap/ui/core/UIComponent`, and it is obligatory to make the super call to the `init` function of the base class in the overridden `init` method.
+We navigate to the `webapp` folder and place the `Component.ts` file into it. This file is commonly referred to as the **component controller**. A component is organized in a unique namespace \(which is synonymous with the application namespace\). All required and optional resources of the component have to be organized in the namespace of the component.
+
+We define the component by extending `sap/ui/core/UIComponent` and supplement the component with additional metadata. Within the `interfaces` settings, we specify that the component should implement the `sap/ui/core/IAsyncContentCreation` interface. This allows the component to be generated asynchronously, which in turn sets the component's rootView and router configuration to async.
+
+When the component is instantiated, OpenUI5 automatically calls the `init` function of the component. It's important to include a call to the `init` function of the base class by using the `super` keyword. In this section, we also instantiate our data model and the `i18n` model, similar to what we did earlier in the `onInit` function of our app controller.
+
+Finally we call the `createContent` hook method of the component. This method creates the content \(UI control tree\) of this component. Here, we create the view as we did in the `index.ts` file to set our app view as the root view of the component.
 
 ```js
+import Control from "sap/ui/core/Control";
 import UIComponent from "sap/ui/core/UIComponent";
-
-/**
- * @namespace ui5.walkthrough
- */
-export default class Component extends UIComponent {
-
-    init(): void {
-        // call the init function of the parent
-        super.init();
-    };
-};
-```
-
-***
-
-### webapp/Component.ts
-
-As a next step we need to define the metadata for our component. The `metadata` section defines a reference to the root view, so that instead of displaying the root view directly in the `index.ts` file as we did previously, the component now manages the display of the app view. It also implements the `sap.ui.core.IAsyncContentCreation` interface, which allows the component to be created fully asynchronously.
-
-In the `init` function we instantiate our data model and the `i18n` model like we did before in the app controller.
-
-```js
-import UIComponent from "sap/ui/core/UIComponent";
+import XMLView from "sap/ui/core/mvc/XMLView";
 import JSONModel from "sap/ui/model/json/JSONModel";
 import ResourceModel from "sap/ui/model/resource/ResourceModel";
 
 /**
- * @namespace ui5.walkthrough
- */
+* @namespace ui5.walkthrough
+*/
 export default class Component extends UIComponent {
-    public static metadata = {
-        "interfaces": ["sap.ui.core.IAsyncContentCreation"],
-        "rootView": {
-            "viewName": "ui5.walkthrough.view.App",
-            "type": "XML",
-            "id": "app"
-        }
-    };
+public static metadata = {
+"interfaces": ["sap.ui.core.IAsyncContentCreation"]
+};
     init(): void {
         // call the init function of the parent
         super.init();
+
         // set data model
         const data = {
             recipient: {
@@ -96,11 +77,19 @@ export default class Component extends UIComponent {
         };
         const dataModel = new JSONModel(data);
         this.setModel(dataModel);
+
         // set i18n model
         const i18nModel = new ResourceModel({
             bundleName: "ui5.walkthrough.i18n.i18n"
         });
         this.setModel(i18nModel, "i18n");
+    };
+
+    createContent(): Control | Promise<Control | null> | null {
+        return XMLView.create({
+            "viewName": "ui5.walkthrough.view.App",
+            "id": "app"
+        });
     };
 };
 ```
@@ -124,11 +113,10 @@ import ResourceBundle from "sap/base/i18n/ResourceBundle";
  * @name ui5.walkthrough.controller.App
  */
 export default class AppController extends Controller {
-    onShowHello() : void {
+    onShowHello(): void {
         // read msg from i18n model
-        // functions with generic return values require casting 
-        const resourceBundle = <ResourceBundle> (<ResourceModel> this.getView()?.getModel("i18n"))?.getResourceBundle();
         const recipient = (<JSONModel> this.getView()?.getModel())?.getProperty("/recipient/name");
+        const resourceBundle = <ResourceBundle> (<ResourceModel> this.getView()?.getModel("i18n"))?.getResourceBundle();
         const msg = resourceBundle.getText("helloMsg", [recipient]) || "no text defined";
         // show message
         MessageToast.show(msg);
@@ -178,11 +166,9 @@ new ComponentContainer({
 
 [Components](Components_958ead5.md "Components are independent and reusable parts used in OpenUI5 applications.")
 
-[Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md "The declarative API enables you to define the initially started component directly in the HTML markup.")
-
 [Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md "OpenUI5 provides two methods for the initial instantiation of the component.")
 
 [Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md "Advanced concepts for components include routing and navigation and component data as well as the event bus.")
 
-[Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md "CSP stands for Content Security Policy and is a security standard to prevent cross-site scripting or other code injection attacks.")
+[API Reference: `sap.ui.core.ComponentContainer`](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer)
 

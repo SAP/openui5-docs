@@ -135,7 +135,7 @@ In this step, we change the `index.html` page to make it load the OpenUI5 framew
 
 Now it's time to enhance our tooling setup once again. This time we install some custom middleware for the ui5-server to facilitate the handling of our development project.
 
-Open a terminal a terminal and navigate to the app root folder. Then execute the following command:
+Open a terminal and navigate to the app root folder. Then execute the following command:
 
 `npm install ui5-middleware-livereload ui5-middleware-serveframework ui5-tooling-transpile --save-dev`
 
