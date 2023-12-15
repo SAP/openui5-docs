@@ -56,39 +56,54 @@ helloMsg=Hello {0}
 
 As mentioned in Step 1 the manifest file is used by OpenUI5 to instantiate the component. We have already configured the essential attributes of the file so that it can be used with UI5 Tooling. Now, we'll add further attributes that are important for creating a proper UI component in OpenUI5.
 
--   **`sap.app`**
+We enhance the `sap.app` namespace by adding configuration for the following application-specific attributes:
 
-    We enhance the `sap.app` namespace by adding configuration for the following application-specific attributes:
+-   `i18n`: This property is an attribute to configure internationalization settings. It is optional and only necessary if the manifest contains text symbols \(placeholders in `{{...}}` syntax\). The `i18n` property has the following subsettings:
 
-    -   `i18n`: Defines the path to the resource bundle file. The `supportedLocales` and `fallbackLocale` properties are set to empty strings, as our demo app uses only one `i18n.properties` file for simplicity and we'd like to prevent the browser from trying to load additional `i18n_*.properties` files based on your browser settings and your locale.
+    -   The `bundleName` parameter specifies the name of the resource bundle file that contains the text symbols for the descriptor. The file is referenced using a dot-notation namespace. We store our texts for the app descriptor in the same resource bundle as the remaining texts, so we reference the properties file stored in the `i18n` folder.
 
-    -   `title`: In Step 1 we recommended making the title language-dependent. We now implement this by referencing the `appTitle` text from the resource bundle using the handlebar syntax: `{{key}}`
+    -   The `supportedLocales` property defines an array of locales supported by the application \(for example, `en_GB`, `en-GB`, or `en`\). This helps optimizing the loading performance of resource bundles as it controls the language fallback chain and prevents unnecessary and potentially failing requests. In our application, we only use the base `i18n.properties` file for simplicity, so we set this property to an empty string. This ensures that the browser does not attempt to load additional `i18n_*.properties` files based on your browser's settings and your locale.
 
-    -   `description`: Similarly, we make the description text language-dependent by referencing the `appDescription` text from the resource bundle using the handlebar syntax: `{{key}}`
-
-        > ### Remember:  
-        > Properties of the resource bundle are enclosed in two curly brackets in the descriptor. This is not an OpenUI5 data binding syntax, but a variable reference to the resource bundle in the descriptor in handlebars syntax. The referred texts are not visible in the app built in this tutorial but can be read by an application container like the SAP Fiori launchpad.
+    -   The `fallbackLocale` property specifies the fallback locale to be used if the user's locale is not present in the list of supported locales or if the required text can't be found in any other resource bundle. The fallback locale must be listed in the `supportedLocales`. In our application, we specify an empty string as per default the `fallbackLocale` is set to "`en`"
 
 
--   **`sap.ui`**
+-   `title`: In Step 1 we recommended making the title language-dependent. We now implement this by referencing the `appTitle` text from the resource bundle using the handlebar syntax: `{{key}}`
 
-    The `sap.ui namespace` is used for UI-specific attributes and comes with the following main attributes:
+-   `description`: Similarly, we make the description text language-dependent by referencing the `appDescription` text from the resource bundle using the handlebar syntax: `{{key}}`
 
-    -   `technology`: This property specifies the technology used for the application; its value is `UI5`
+    > ### Remember:  
+    > Properties of the resource bundle are enclosed in two curly brackets in the descriptor. This is not an OpenUI5 data binding syntax, but a variable reference to the resource bundle in the descriptor in handlebars syntax. The referred texts are not visible in the app built in this tutorial but can be read by an application container like the SAP Fiori launchpad.
 
-    -   `deviceTypes` \(mandatory\): Tells what devices are supported by the app: desktop, tablet, phone \(all true by default\)
+
+In addition to the `sap.app` namespace, there are two other important namespaces:
+
+The **`sap.ui`** namespace is used for UI-specific attributes and comes with the following main attributes:
+
+-   `technology`: This property specifies the technology used for the application; its value is `UI5`
+
+-   `deviceTypes` \(mandatory\): This property defines the supported device types for the application. It's an object that contains three Boolean properties: `desktop`, `tablet`, and `phone`. Each property indicates whether the application is designed to be used on that particular device type. We define all three device types as `true`, which means that our application is intended to be used on desktops, tablets, and phones.
+
+    > ### Note:  
+    > By configuring the `deviceTypes` property, you can ensure that your application's user interface is optimized for different device types, providing a consistent and responsive experience across various devices.
 
 
--   **`sap.ui5`**
+The **`sap.ui5`** namespace adds OpenUI5-specific configuration parameters that are automatically processed by OpenUI5. The most important parameters are:
 
-    The `sap.ui5` namespace adds OpenUI5-specific configuration parameters that are automatically processed by OpenUI5. The most important parameters are:
+-   `dependencies` \(mandatory\): This section defines the dependencies of the component. It comes with the following subsettings:
 
-    -   `dependencies` \(mandatory\): Here we declare the dependencies that should be loaded by the OpenUI5 core during the initialization phase of the component and used afterwards. It's mandatory to set via `minUI5Version` the minimum version of OpenUI5 our component requires. Additionally, we declare the dependency to the libraries `sap.ui.core` and `sap.m` in order to benefit from the asynchronous library preload.
+    -   The `minUI5Version` property is mandatory and specifies the minimum version of OpenUI5 required by the component. Our component requires OpenUI5 version 1.20 as a minimum.
 
-    -   `rootView`: If you specify this parameter, the component will automatically instantiate the view and use it as the root for this component.
+    -   The `libs` settings declare the libraries that the OpenUI5 core should load for use in the component. To benefit from the asynchronous library preload, it's essential to add all obligatory libraries here. You can set the `lazy` parameter to `true` to indicate that the lib shall be lazy-loaded, so that it only gets loaded once needed. If your app requires a minimum version of the lib, you also need to specify the `minVersion` for information purposes. We declare here the two libraries `sap.ui.core` and `sap.m` as dependencies to be loaded directly when starting the component.
 
-    -   `models`: In this section of the descriptor we can define models that will be automatically instantiated by OpenUI5 when the app starts. Here we can now define the local resource bundle. We define the name of the model "i18n" as key and specify the bundle file by namespace. As in the previous steps, the file with our translated texts is stored in the `i18n` folder and named `i18n.properties`. We simply prefix the path to the file with the namespace of our app. The manual instantiation in the app component's `init` method will be removed later in this step. The `supportedLocales` and `fallbackLocale` properties are set to empty strings, as in this tutorial our demo app uses only one `i18n.properties` file for simplicity, and we'd like to prevent the browser from trying to load additional `i18n_*.properties` files based on your browser settings and your locale. For more information, see [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md).
 
+    > ### Note:  
+    > Make sure that you don't load too many dependencies. In most apps it's enough to load the `sap.ui.core` and `sap.m` libraries by default, and add any additional libraries only when needed.
+
+-   `rootView`: This section defines the root view of the application. The root view is the initial view that is displayed when the component is loaded. It specifies either the view name as a string for XML views, or a view configuration object with the properties `viewName` for the view name as a string, `type` for the view type, `id` for the view ID, and possibly `async` as well as other properties of `sap.ui.core.mvc.view`. We configure our app view as the root view and add the `app` ID to it.
+
+-   `models`: This section is used to define the models that will be created or destroyed during the lifecycle of the app. Each model is identified by a unique key, and an empty string \(`""`\) as key is used to represent the default model. For each model, you need to specify its type, and depending on your chosen type, you may also need to provide additional settings.
+
+    In our current scenario, we only have one model called `i18n`, which is a resource model. To configure it, we set its name as its key and specify its type as `sap.ui.model.resource.ResourceModel`. We can reuse the same settings that we already defined for the `i18n` properties in the `sap.app` namespace.
 
 
 ```

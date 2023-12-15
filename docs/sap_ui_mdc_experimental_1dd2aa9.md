@@ -106,3 +106,5 @@ The following graphic illustrates this behavior:
 
 [Samples](https://sdk.openui5.org/entity/sap.ui.mdc)
 
+[OpenUI5 MDC Tutorial](https://github.com/SAP-samples/ui5-mdc-json-tutorial)
+
