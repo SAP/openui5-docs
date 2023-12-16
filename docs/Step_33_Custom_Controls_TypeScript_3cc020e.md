@@ -51,8 +51,6 @@ productRatingLabelFinal=Thank you for your rating!
 productRatingButton=Rate
 ```
 
-The resource bundle is extended with the confirmation message and the strings that we reference inside the custom control. We can now rate a product on the detail page with our brand new control.
-
 ***
 
 <a name="loio3cc020e232a2472c9f7fde2e99230633__section_azj_rbn_tyb"/>
@@ -89,19 +87,24 @@ We could also do this with more HTML in the renderer, but this is the simplest w
 
 ### webapp/control/ProductRating.ts \(New\)
 
+Custom controls are small reuse components that can be created within the app very easily. Due to their nature, they are sometimes also referred to as "notepad” or “on the fly” controls. A custom control is a script object that has two special sections \(`metadata` and `renderer`\) and a number of methods that implement the functionality of the control.
+
 We create a new folder `control` and a file `ProductRating.ts` that will hold our new control.
 
 We start with importing two classes, the `Control` and the `RenderManager` from the `sap/ui/core` module. These classes are part of the OpenUI5 framework and are used for creating controls and managing their rendering. We then declare the class `ProductRating` by extending the base class `sap.ui.core.Control`.
 
-Custom controls are small reuse components that can be created within the app very easily. Due to their nature, they are sometimes also referred to as "notepad” or “on the fly” controls. A custom control is a JavaScript object that has two special sections \(`metadata` and `renderer`\) and a number of methods that implement the functionality of the control.
+To add functionality to the control, we can provide meta information via a static property named `metadata`. This property defines the data structure and thus the API of the control. With this metadata for the control's properties, events, and aggregations, OpenUI5 can automatically create setter and getter methods along with other convenience functions that can be used within the application. We'ill leave the `metadata` property empty for now.
 
-First, we specify the `metadata` section. It defines the data structure and thus the API of the control. With this meta information on the properties, events, and aggregations of the control OpenUI5 automatically creates setter and getter methods and other convenience functions that can be called within the app. Next, we add the `init` method to the class. This is a special function that is called by the OpenUI5 core whenever the control is instantiated. It can be used to set up the control and prepare its content for display.
+The `init` function is a lifecycle function that is automatically called by the OpenUI5 framework when an instance of the control is created. We'll use this function to initialize the control and prepare its contents for display.
 
-Then we add the `renderer` property. This function is responsible for rendering the control's HTML representation. It is an object with the two properties `apiVersion` and `render`. The `apiVersion` property specifies the version of the OpenUI5 rendering API to use \(in our case we specify version 2\). The `render` property is a function that takes a `RenderManager` object and the instance of the `ProductRating` control as parameters.
+The `renderer` property is an object that determines how the control is rendered. It is invoked initially by the OpenUI5 framework, and also each time any property of the control is changed. The `renderer` object has two properties: `apiVersion` and `render`. The `apiVersion` property specifies the API version of the `RenderManager` that is used in this renderer. The `render` property is a method that takes two parameters: a `RenderManager` object and the control instance itself. We'll delve into the implementation of our control's rendering within this method at a later stage.
 
-The renderer defines the HTML structure that will be added to the DOM tree of your app whenever the control is instantiated in a view. It is usually called initially by the core of OpenUI5 and whenever a property of the control is changed. The parameter `rm` of the render function is the OpenUI5 render manager that can be used to write strings and control properties to the HTML page.
-
-Finally, the `ProductRating` class is exported as the default export of the module, which means that it can be imported and used in other parts of the application.
+> ### Note:  
+> The `RenderManager` is an important component in OpenUI5 that is responsible for converting abstract representations of controls into actual HTML elements that can be displayed in the browser. Different versions of the `RenderManager` API exist, each representing an evolution of the `RenderManager` with specific sets of APIs and rendering techniques. These different API versions are important to ensure compatibility between different versions of OpenUI5.
+> 
+> The latest version of the `RenderManager` API is Version 4, which introduces new features and improvements compared to previous versions. It also includes performance enhancements, making your applications run faster and more efficiently. For example, Version 4 avoids the re-rendering of child controls unless they are invalidated, which can save processing time.
+> 
+> When developing a custom control, it's crucial to specify the appropriate `apiVersion` for the control's renderer. This ensures that your control can can leverage the latest rendering features and improvements available in the `RenderManager`.
 
 ```js
 import Control from "sap/ui/core/Control";
@@ -120,7 +123,7 @@ export default class ProductRating extends Control {
 	}
 	
 	renderer = {  
-		apiVersion: 2,
+		apiVersion: 4,
 		render: (rm: RenderManager, control: ProductRating) => {
 		}
 	}
@@ -177,7 +180,12 @@ In the `metadata` section we therefore define several properties that we make us
 
 In the `init` function that is called by OpenUI5 automatically whenever a new instance of the control is instantiated, we set up our internal controls. We instantiate the three controls and store them in the internal aggregation by calling the framework method `setAggregation` that has been inherited from `sap.ui.core.Control`. We pass on the name of the internal aggregations that we specified above and the new control instances. We specify some control properties to make our custom control look nicer and register a `liveChange` event to the rating and a press event to the button. The initial texts for the label and the button are referenced from our `i18n` model.
 
-Let’s ignore the other internal helper functions and event handlers for now and define our renderer. With the help of the OpenUI5 render manager and the control instance that are passed on as a reference, we can now render the HTML structure of our control. We render the start of the outer `for controls. The difference<div>` tag as `<div` and call the helper method `writeControlData` to render the ID and other basic attributes of the control inside the `div` tag. Next, we add a custom CSS class so that we can define styling rules for the custom control in our CSS file later. This CSS class and others that have been added in the view are then rendered by calling `writeClasses` on the renderer instance. Then we close the surrounding `div` tag and render three internal controls by passing the content of the internal aggregation to the render managers `renderControl` function. This will call the renderer of the controls and add their HTML to the page. Finally, we close our surrounding `<div>` tag.
+Let’s ignore the other internal helper functions and event handlers for now and define our renderer. By using the APIs of the `RenderManager` and the control instance that are passed as references, we can describe the necessary HTML for our control. To open a new HTML tag we use the \``openStart`\` method and pass `"div"` as the HTML element to be created. We also pass our control instance \(`ProductRating`\) to be associated with the HTML tag. The RenderManager will automatically generate the properties for the control and assign it to the `div` tag. After calling `openStart`, we can chain additional methods to set attributes or styles for the element. To set our custom CSS class `myAppDemoWTProductRating` for the `div` element, we use the `class` method. If a `tooltip` exists, we call the `attr` method to set the `title` attribute with the value of the tooltip for the `div` element. Finally, we close the surrounding `div` tag by calling `openEnd`.
+
+> ### Note:  
+> Since our custom control extends the `sap.ui.core.Control` class, it also inherits its properties and aggregations. In this case, the `tooltip` property is defined in the `sap.ui.core.Element` class, which is inherited by the `sap.ui.core.Control` class. Therefore, your custom control also inherits this aggregation. However, controls must explicitly support tooltips as they have to render them.
+
+Next, we render the three child controls we defined in the aggregation of our `ProductRating` control. We retrieve the child controls using the `getAggregation` method with the aggregation name as parameter. The `renderControl` method is then called on each child control to render them. Finally, we close the element by calling the `close` method on the `RenderManager` and passing the `"div"` element name as argument. This completes the rendering of the custom control.
 
 The `setValue` is an overridden setter. OpenUI5 will generate a setter that updates the property value when called in a controller or defined in the XML view, but we also need to update the internal rating control in the hidden aggregation to reflect the state properly. Also, we can skip the rerendering of OpenUI5 that is usually triggered when a property is changed on a control by calling the `setProperty` method to update the control property with true as the third parameter.
 
@@ -229,7 +237,7 @@ export default class ProductRating extends Control {
 		events: {
 			change: {
 				parameters: {
-					"value": "int"
+					"value": "float"
 				}
 			}
 		}
@@ -239,7 +247,6 @@ export default class ProductRating extends Control {
 		this.setAggregation("_rating", new RatingIndicator({
 			value: this.getValue(),
 			iconSize: "2rem",
-			visualMode: "Half",
 			liveChange: this._onRate.bind(this)
 		}));
 		this.setAggregation("_label", new Label({
@@ -251,14 +258,14 @@ export default class ProductRating extends Control {
 		}).addStyleClass("sapUiTinyMarginTopBottom"));
 	}
 
-	setValue( value : "float" ): ProductRating {
+	setValue(value: "float" ): ProductRating {
 		this.setProperty("value", value, true);
 		(<RatingIndicator> this.getAggregation("_rating")).setValue(value);
 		return this;		
 	}
 	
 	reset(): void {
-		var resourceBundle = <ResourceBundle> (<ResourceModel> this?.getModel("i18n"))?.getResourceBundle();
+		const resourceBundle = <ResourceBundle> (<ResourceModel> this?.getModel("i18n"))?.getResourceBundle();
 		
 		this.setValue(0);
 		(<Label> this.getAggregation("_label")).setDesign("Standard");
@@ -267,7 +274,7 @@ export default class ProductRating extends Control {
 		(<Button> this.getAggregation("_button")).setEnabled(true);
 	}
 	
-	_onRate(event : RatingIndicator$LiveChangeEvent): void {
+	_onRate(event: RatingIndicator$LiveChangeEvent): void {
 		const ressourceBundle = <ResourceBundle> (<ResourceModel> this?.getModel("i18n"))?.getResourceBundle();
 		const value = event.getParameter("value");
 		
@@ -277,7 +284,7 @@ export default class ProductRating extends Control {
 		(<Label> this.getAggregation("_label")).setDesign("Bold");
 	}
 	
-	_onSubmit(event : Button$PressEvent): void {
+	_onSubmit(event: Button$PressEvent): void {
 		const resourceBundle = <ResourceBundle> (<ResourceModel> this?.getModel("i18n"))?.getResourceBundle();
 		
 		(<RatingIndicator> this.getAggregation("_rating")).setEnabled(false);
@@ -289,15 +296,19 @@ export default class ProductRating extends Control {
 	}
 	
 	renderer = {  
-		apiVersion: 2,
-		render: (rm: RenderManager, control: ProductRating) => {*HIGHLIGHT START*
+		apiVersion: 4,
+		render: (rm: RenderManager, control: ProductRating) => {
+			const tooltip = control.getTooltip_AsString();
 			rm.openStart("div", control);
 			rm.class("myAppDemoWTProductRating");
+			if (tooltip) {
+				rm.attr("title", tooltip);
+			}
 			rm.openEnd();
 			rm.renderControl(<Control> control.getAggregation("_rating"));
 			rm.renderControl(<Control> control.getAggregation("_label"));
 			rm.renderControl(<Control> control.getAggregation("_button"));
-			rm.close("div");*HIGHLIGHT END*
+			rm.close("div");
 		}
 	}
 };
@@ -330,7 +341,7 @@ You can now stop the interface generator again, as no further control API change
 
 ### webapp/controller/Detail.controller.ts
 
-In the `Detail` controller we implement a new `onRatingChange` event that reads the value of our coustom change event that is fired when a rating has been submitted. This requires to import our new control, as well as the `ProductRating$ChangeEvent`\` type we just defined to the detail controller. To keep the sample simple we only display a message message instead of sending the rating to the back end. We therefore load the `MessageToast` module from the `sap.m` namespace to our script. In addition we need the `ResourceBundle` module from the `sap/base/i18n` namespace as well as the `ResourceModel` module from the `sap/ui/model/resource` namespace, as we want to display the confirmation message we specified in our resource bundle in the message toast.
+In the `Detail` controller we implement a new `onRatingChange` event that reads the value of our coustom change event that is fired when a rating has been submitted. This requires to import our new control, as well as the `ProductRating$ChangeEvent` type we just defined to the detail controller. To keep the sample simple we only display a message message instead of sending the rating to the back end. We therefore load the `MessageToast` module from the `sap.m` namespace to our script. In addition we need the `ResourceBundle` module from the `sap/base/i18n` namespace as well as the `ResourceModel` module from the `sap/ui/model/resource` namespace, as we want to display the confirmation message we specified in our resource bundle in the message toast.
 
 In the `onRatingChange` event handler we extract the value of our custom change event that is fired when the rating has been submitted. We then display the confirmation message we defined in our resource bundle with the rating value in a `MessageToast` control.
 
@@ -406,7 +417,8 @@ All we need now is to add our new control to the detail view. To do so we must a
 			intro="{invoice>ShipperName}"
 			title="{invoice>ProductName}"/>
 		<wt:ProductRating 
-			id="rating" 
+			id="rating"
+			tooltip="{invoice>ProductName}"
 			class="sapUiSmallMarginBeginEnd" 
 			change=".onRatingChange"/>
 	</Page>
@@ -485,6 +497,16 @@ Adding the block at this position provides the constructors and the structure of
 
 [Defining the Control Metadata](Defining_the_Control_Metadata_7b52540.md "Control metadata consists of properties, events, as well as aggregations and associations.")
 
+[init\(\) Method](init_Method_6d6b5bd.md "The init() method can be used to set up, for example, internal variables or subcontrols of a composite control.")
+
+[API Reference: `sap.ui.core.ControlRenderer`](https://sdk.openui5.org/api/sap.ui.core.ControlRenderer)
+
+[Renderer Object](Renderer_Object_c9ab345.md "The renderer object is responsible for creating the HTML structure for the control.")
+
+[API Reference: `sap.ui.core.RenderManager`](https://sdk.openui5.org/api/sap.ui.core.RenderManager)
+
+[Blog: UI5 Rendering: The Next Big Step Towards a Better Performance](https://blogs.sap.com/2023/04/05/the-next-innovation-of-ui5-rendering/)
+
 [API Reference: `sap.m.RatingIndicator`](https://sdk.openui5.org/api/sap.m.RatingIndicator)
 
 [Samples: `sap.m.RatingIndicator` ](https://sdk.openui5.org/entity/sap.m.RatingIndicator)
@@ -500,6 +522,8 @@ Adding the block at this position provides the constructors and the structure of
 [API Reference: `sap.ui.core.Control`](https://sdk.openui5.org/api/sap.ui.core.Control)
 
 [API Reference: `sap.ui.core.Element`](https://sdk.openui5.org/api/sap.ui.core.Element)
+
+[Event Handler Methods](Event_Handler_Methods_bdf3e98.md "Event handler methods are invoked when an event occurs. Method names starting with on are reserved for event handler methods.")
 
 [API Reference: `sap.ui.base.ManagedObject`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject)
 
