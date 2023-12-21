@@ -14,7 +14,8 @@ You use data binding to bind UI elements to data sources to keep the data in syn
 
 ***
 
-![](images/loio544b09736447477198202b636048bab8_LowRes.png)
+![The different data models in UI5 are shown: Resource model, view model, device model, XML model, JSON model, and the
+							OData models.](images/loio544b09736447477198202b636048bab8_LowRes.png)
 
 OpenUI5 follows the "Model View Controller" \(MVC\) paradigm, which means that we clearly separate data sources \(model\), UI \(view\), and application logic \(controller\) from each other. Data binding defines how models and views communicate with each other.
 

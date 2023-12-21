@@ -31,7 +31,8 @@ Set up your development environment and go through our tutorials. They introduce
 
 ### Learning Path
 
-![](images/loio024b7d89525741ae98661d3b7caf319d_LowRes.png)
+![The tutorials are ordered with regard to increasing proficiency, starting with the basic Walkthrough and Concept
+							tutorials and concluding with the specialised App and Control tutorials.](images/loio024b7d89525741ae98661d3b7caf319d_LowRes.png)
 
 ***
 

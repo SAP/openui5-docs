@@ -16,7 +16,7 @@ You bind UI elements to data of a data source by defining a binding path to the 
 
 When defining a binding path for a control, a binding context is created which connects this control to a data model. The UI control then gets the data through that context and displays it on the screen.
 
-![](images/loio493c875d822445458e0b56e0cc6451b2_LowRes.png)
+![A binding path connects a control in the View to data in the data model.](images/loio493c875d822445458e0b56e0cc6451b2_LowRes.png)
 
 ***
 

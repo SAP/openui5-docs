@@ -20,7 +20,7 @@ Model, view, and controller are assigned the following roles:
 
 ***
 
-![](images/loio1eb216151b1b41f1979b7b6c969670df_LowRes.png)
+![UI5 separates data model, UI view, and application logic (controller). ](images/loio1eb216151b1b41f1979b7b6c969670df_LowRes.png)
 
 ***
 
