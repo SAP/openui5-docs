@@ -36,5 +36,5 @@ We invite you to improve our documentation. If you're interested, please check o
 
 ## License
 
-Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved.
 This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License except as noted otherwise in the [LICENSE](/LICENSE) file.
