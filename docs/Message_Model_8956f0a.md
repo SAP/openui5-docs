@@ -21,11 +21,12 @@ The message model is retrieved from the message manager by calling the `getMessa
 You use the message model like any other model to bind an aggregation to a root path \("`/`"\), for example the items in a list, and add filters and sorters. Each item in the collection for "`/`" represents an [`sap.ui.core.message.Message`](https://sdk.openui5.org/api/sap.ui.core.message.Message) object, so that you can bind to all properties specified for such an object. The `MessagePopover` control is used to display the messages to the user:
 
 ```
+// "Messaging" required from "sap/ui/core/Messaging"
 // "Button" required from "sap/m/Button"
 // "MessagePopover" required from "sap/m/MessagePopover"
 // "MessagePopoverItem" required from "sap/m/MessagePopoverItem"
 
-var oMessagePopoverButton = new Button({
+const oMessagePopoverButton = new Button({
     text: "Show MessagePopover",
     type: "Accept",
     press: function() {
@@ -33,14 +34,19 @@ var oMessagePopoverButton = new Button({
     }
 });
 
-var oMP = new MessagePopover({
+const oMP = new MessagePopover({
     items: {
         path:"message>/",
-        template: new MessagePopoverItem({ description: "{message>description}", type: "{message>type}", title: "{message>message}"})
+        template: new MessagePopoverItem({ 
+            description: "{message>description}", 
+            type: "{message>type}", 
+            title: "{message>message}"
+        })
     }
 });
 
-oMP.setModel(sap.ui.getCore().getMessageManager().getMessageModel(),"message");
+const oMessageModel = Messaging.getMessageModel();
+oMP.setModel(oMessageModel(),"message");
 
 oMessagePopoverButton.placeAt("content");
 ```
