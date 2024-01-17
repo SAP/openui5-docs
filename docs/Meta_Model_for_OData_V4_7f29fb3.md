@@ -40,10 +40,10 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 
 -   Use [`sap.ui.model.odata.v4.AnnotationHelper`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper) instead of `sap.ui.model.odata.AnnotationHelper`. The ability to follow a path has been built into the V4 OData meta model itself. See `field>Value/$Path@com.sap.vocabularies.Common.v1.Label` in the code example below. Instead of `sap.ui.model.odata.AnnotationHelper.format`, you can use `sap.ui.model.odata.v4.AnnotationHelper.value` or `sap.ui.model.odata.v4.AnnotationHelper.format`. You can use both as a computed annotation.
 
--   Computed annotations start with "@@", for example `<Text text="{meta>Value/@@sap.ui.model.odata.v4.AnnotationHelper.value}" />`. Their name without the "@@" prefix refers to a function in the global namespace which computes an annotation value from the metadata addressed by the preceding path.
+-   Computed annotations start with "@@", for example `<Text text="{meta>Value/@@AnnotationHelper.value}" />`. Their name without the "@@" prefix refers to a function which computes an annotation value from the metadata addressed by the preceding path.
 
-    > ### Remember:  
-    > The function name \("`AnnotationHelper.value`" in the example\) is resolved, but remember that the usage of global names \(such as `sap.ui.model.odata.v4.AnnotationHelper.value`\) is deprecated since 1.120
+    > ### Note:  
+    > The usage of global names \(such as `sap.ui.model.odata.v4.AnnotationHelper.value`\) is deprecated since 1.120. Use `template:require` instead as shown in the example below.
 
     For more information, see [ODataMetaModel.requestObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject) .
 
