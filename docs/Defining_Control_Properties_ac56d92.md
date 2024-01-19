@@ -201,7 +201,9 @@ enumeration \(enum\)
 
 Derived from the built-in type `string`.
 
-Restricted subtypes can be derived that limit their valid values to a fixed set of values \(enumeration\). An `enum` type is defined through an object literal whose keys represent the allowed values.
+Restricted subtypes can be derived that limit their valid values to a fixed set of values \(enumeration\).
+
+An `enum` type is defined through an object literal whose keys represent the allowed values and must be registered by calling the `DataType.registerEnum()` method.
 
 Restrictions:
 
@@ -212,18 +214,19 @@ Restrictions:
 
 This was an early design decision in OpenUI5 and framework code relies on it. That code might fail for enumerations that don’t obey these restrictions.
 
-To reference an `enum` type in a property definition, its global name must be used \(like `sap.m.ValueColor` in the example below\).
+To reference an `enum` type in a property definition, its string name must be used \(like `sap.m.ValueColor` in the example below\).
 
 Example for creating an enumeration:
 
 ```js
+sap.ui.define(["sap/ui/baseDataType"], (DataType) => {
 /**
 * Enumeration of possible value color settings.
 *
 * @enum {string}
 * @public
 */
-sap.m.ValueColor = {
+const ValueColor = {
 
     /**
     * Neutral value color.
@@ -234,6 +237,9 @@ sap.m.ValueColor = {
     …
 };
 
+// Register enum type
+DataType.registerEnum("sap.m.ValueColor", ValueColor);
+});
 ```
 
 Example for defining a property using an enumeration:
