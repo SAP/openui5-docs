@@ -82,7 +82,7 @@ These OpenUI5 configuration options accept the following formats:
     </td>
     <td valign="top">
     
-    `ZF` is the SAP language code for Traditional Chinese. The most generic representation in BCP 47 is `zh-Hant`. `zh-TW` \(Chinese, Taiwan\) is another representation, but SAPUI5 decided to use `zh-Hant`.
+    `ZF` is the SAP language code for Traditional Chinese. The most generic representation in BCP 47 is `zh-Hant`. `zh-TW` \(Chinese, Taiwan\) is another representation, but SAPUI5`zh-Hant`.
     
     </td>
     </tr>
@@ -100,6 +100,23 @@ These OpenUI5 configuration options accept the following formats:
     <td valign="top">
     
     `SH` is the SAP language code for Serbian \(Latin script\).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `CT`
+    
+    </td>
+    <td valign="top">
+    
+    `cnr`
+    
+    </td>
+    <td valign="top">
+    
+    `CT` is the SAP language code for Montenegrin.
     
     </td>
     </tr>
@@ -201,7 +218,7 @@ These OpenUI5 configuration options accept the following formats:
     </td>
     <td valign="top">
     
-    `2Q` is also used as a technical SAP language code in support scenarios and displays a pseudo translation \("psd" in the private extensions name\).
+    `` is also used as a technical SAP language code in support scenarios and displays a pseudo translation \("psd" in the private extensions name\).
     
     </td>
     </tr>
@@ -225,9 +242,9 @@ These OpenUI5 configuration options accept the following formats:
     </table>
     
     > ### Note:  
-    > Only these SAP-proprietary language codes are understood by OpenUI5. Other SAP-proprietary language codes are not automatically transformed. If you develop your app to run in the SAP Fiori launchpad, all other SAP-proprietary language codes are handled by the SAP Fiori launchpad.
+    > Only these SAP-proprietary language codes are understood by OpenUI5SAP Fiori launchpad, all other SAP-proprietary language codes are handled by the . Other SAP-proprietary language codes are not automatically transformed. If you develop your app to run in the SAP Fiori launchpad.
     > 
-    > If you don't make use of the SAP Fiori launchpad, you may have to explicitly implement the language handling. You can use the `sap/base/i18n/Localization.setLanguage()` method to provide both settings, a BCP 47 language code and the corresponding SAP-proprietary language\) in one call. OpenUI5 will then use one of the two codes where appropriate \(e.g. BCP 47 for the retrieval of translated texts or in HTTP Accept Headers, but the proprietary SAP language code when propagating the `sap-language` URL parameter to an OData service\).
+    > If you don't make use of the SAP Fiori launchpad. Other, you may have to explicitly implement the language handling. You can use the `sap/base/i18n/Localization.setLanguage()` method to provide both settings, a BCP 47 language code and the corresponding SAP-proprietary language\) in one call. OpenUI5 will then use one of the two codes where appropriate \(e.g. BCP 47 for the retrieval of translated texts or in HTTP Accept Headers, but the proprietary SAP language code when propagating the `sap-language` URL parameter to an OData service\).
 
 
 ***

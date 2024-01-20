@@ -219,26 +219,23 @@ To reference an `enum` type in a property definition, its string name must be us
 Example for creating an enumeration:
 
 ```js
-sap.ui.define(["sap/ui/baseDataType"], (DataType) => {
-/**
-* Enumeration of possible value color settings.
-*
-* @enum {string}
-* @public
-*/
-const ValueColor = {
-
+sap.ui.define(["sap/ui/base/DataType"], (DataType) => {
     /**
-    * Neutral value color.
+    * Enumeration of possible value color settings.
+    *
+    * @enum {string}
     * @public
     */
-    Neutral : "Neutral",
-
-    …
-};
-
-// Register enum type
-DataType.registerEnum("sap.m.ValueColor", ValueColor);
+    const ValueColor = {
+        /**
+        * Neutral value color.
+        * @public
+        */
+        Neutral : "Neutral",
+        …
+    };
+    // Register enum type
+    DataType.registerEnum("sap.m.ValueColor", ValueColor);
 });
 ```
 

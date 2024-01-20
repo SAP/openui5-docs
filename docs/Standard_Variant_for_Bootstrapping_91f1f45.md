@@ -49,7 +49,7 @@ Alternatively, you can influence the loading behavior of the preload files witho
 
 -   `async` \(recommended\)
 
-    If you set the `preload` configuration option to `async`, the runtime loads the modules for all declared libraries asynchronously. Thus, for any code that follows the OpenUI5 bootstrap tag, the framework cannot make sure that the classes are already available. Therefore, the application must delay the access to the OpenUI5 APIs by using the `Core.attachInitEvent` method. OpenUI5 supports the `async` mode only for libraries that are loaded by the OpenUI5 core. Libraries that are loaded dynamically by using the `sap.ui.getCore().loadLibrary()` API will be loaded synchronously by default for compatibility reasons. Only when a configuration object with a property of `async:true` is passed, the bundle is loaded asynchronously.
+    If you set the `preload` configuration option to `async`, the runtime loads the modules for all declared libraries asynchronously. Thus, for any code that follows the OpenUI5 bootstrap tag, the framework cannot make sure that the classes are already available. Therefore, the application must delay the access to the OpenUI5 APIs by using the `Core.attachInitEvent` method. Libraries can be loaded dynamically by using the `sap/ui/core/Lib.load()` API, which loads the bundle asynchronously as well.
 
 -   `sync`
 

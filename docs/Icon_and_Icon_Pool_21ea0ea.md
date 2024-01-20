@@ -207,3 +207,6 @@ You can consume the predefined `SAP-icons` icon font also in an environment wher
     ```
 
 
+> ### Tip:  
+> You can test the implemented icons along with other interaction patterns and visual features of your app with an OPA integration test. for more information, see [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md).
+
