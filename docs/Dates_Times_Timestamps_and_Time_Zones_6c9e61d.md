@@ -28,7 +28,7 @@ The intermediate client-side processing of these entities typically uses the Jav
 
 For testing purposes, you can use the `sap-timezone` URL parameter to switch from the browser's time zone to any provided time zone. For example, with `?sap-timezone=Pacific/Honolulu` the Honolulu time zone \(GMT-10:00\), and with `?sap-timezone=Pacific/Kiritimati` the Kiritimati time zone \(GMT+14:00\) is used for formatting and parsing timestamps, except for the timestamps that are formatted or parsed with [`sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [`sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
 
-> ### Restriction:  
+> ### Caution:  
 > If you use a configured time zone, **your application may break** if it uses the JavaScript `Date` object in combination with functions that use the local browser time zone, for example `oDate.getHours()` or `oDate.getDate()`. To avoid such issues, we strongly recommend the following approach:
 > 
 > -   Use data binding with the corresponding OpenUI5 OData types wherever possible in your application.
@@ -320,7 +320,7 @@ Displaying timestamps in a specific time zone provided by the back end is done u
 
 ### Configuration-Specified Time Zones in OpenUI5
 
-As of Version 1.114.0, OpenUI5 enables you to set a time zone that's different from the browser's time zone.
+As of Version 1.114.0,  enables you to set a time zone that's different from the browser's time zone.
 
 > ### Caution:  
 > Using the configuration API in a running application can lead to unexpected data inconsistencies.

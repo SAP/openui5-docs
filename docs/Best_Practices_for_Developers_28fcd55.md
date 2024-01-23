@@ -24,6 +24,97 @@ Therefore, it is crucial that you continue to apply best practices. To support y
 
 ***
 
+<a name="loio28fcd55b04654977b63dacbee0552712__section_z2p_zqm_21c"/>
+
+### Best Practices for Legacy-Free Code
+
+> ### Note:  
+> The following information is a preliminary yet practical collection of best practices to ensure legacy-free OpenUI5 development. It is being improved continuously to reflect our latest recommendations. It will be further enhanced to both help transform existing code bases and provide guidance for creating new code.
+
+***
+
+#### Goals
+
+The main objectives when migrating existing code or keeping it up to date with framework best practices are:
+
+-   **No sync loading of code**
+
+    for compliance with our Content Security Policy; for more information, see [Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md)
+
+-   **No sync loading of data**
+
+    to avoid deprecation warnings of web browsers regarding sync XHR
+
+-   **No use of global names**
+
+    to avoid pollution of the global namespace and conflicts with other code on the page
+
+-   **No use legacy APIs**
+
+    to reduce the API surface for easier usage and maintenance
+
+
+***
+
+#### Prerequisites
+
+Before attempting to migrate or upgrade to a higher OpenUI5 version, make sure that your development does **not** use any undocumented internal framework resources, and double check that all compatibility guidelines have been followed, such as those mentioned in [Upgrading](Upgrading_9638e4f.md).
+
+***
+
+#### Deprecated APIs
+
+In general, **you must not use deprecated APIs** anymore. Deprecated APIs can be found in the [API Reference](https://sdk.openui5.org/api/deprecated), in the [What's New Viewer](https://help.sap.com/whats-new/67f60363b57f4ac0b23efd17fa192d60?Type=Deleted%3BDeprecated), and in the reports by our [Support Assistant](Support_Assistant_57ccd7d.md).
+
+Also, see any relevant warnings and errors logged to the browser's dev console during runtime. You might need to increase the `sap-ui-log-level`; for more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
+
+Some APIs may only be partially deprecated, for instance:
+
+-   [`sap/ui/core/theming/Parameters.get`](https://sdk.openui5.org/api/sap.ui.core.theming.Parameters%23methods/sap.ui.core.theming.Parameters.get) : Passing a non-object `vName` \(deprecated sinceOpenUI5 version 1.92 and 1.94\).
+
+-   [`sap/ui/model/json/JSONModel#loadData`](https://sdk.openui5.org/api/sap.ui.model.json.JSONModel%23methods/loadData) : Using the `bAsync` and `bCache` flags \(deprecated sinceOpenUI5 version 1.107\).
+
+-   [`sap/ui/model/odata/v2/ODataModel#createEntry`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry) : Passing an array to `mProperties.properties` \(deprecated sinceOpenUI5 version 1.120\).
+
+
+**Additional Information:**
+
+-   [Don't Use Deprecated or Experimental Features](Don_t_Use_Deprecated_or_Experimental_Features_a8bd1a8.md)
+-   [Use Only Public APIs](Use_Only_Public_APIs_b0d5fe2.md)
+-   [Adapting to the Modularization of the Core](Adapting_to_the_Modularization_of_the_Core_b8fdf0c.md)
+-   [Legacy jQuery.sap Replacement](Legacy_jQuery_sap_Replacement_a075ed8.md)
+-   [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md)
+
+***
+
+<a name="loio28fcd55b04654977b63dacbee0552712__section_tqd_z1n_21c"/>
+
+### App Development
+
+In the following we'll focus on crucial aspects of app development, specifically on asynchronous loading and best practices around Components, Controllers, Views, Fragments, and Models.
+
+***
+
+#### Asynchronous Loading
+
+-   Use asynchronous loading for views, fragments, and components to enhance performance.
+-   Implement the `sap.ui.core.IAsyncContentCreation` interface on component level to enable async component creation.
+-   Load libraries via the new asynchronous APIs in advance before accessing code. Ensure that dependent librares are preloaded through the `manifest.json` in the `sap.ui5/dependencies/libs` section if not already maintained there.
+
+**Additional Information:**
+
+-   [Use Asynchronous Loading](Use_Asynchronous_Loading_676b636.md)
+-   [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md)
+-   [Performance Checklist](Performance_Checklist_9c6400e.md)
+-   [Load Only What You Really Need](Load_Only_What_You_Really_Need_e8fca3e.md)
+-   [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md)
+
+***
+
+#### OpenUI5 Object Creation
+
+***
+
 <a name="loio28fcd55b04654977b63dacbee0552712__section_gzy_knj_rzb"/>
 
 ### Some Important Best Practices

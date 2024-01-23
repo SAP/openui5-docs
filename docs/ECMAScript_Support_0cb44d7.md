@@ -334,7 +334,13 @@ The usage of template literals with one or more expressions as the class name pa
 > **Supported usage** 
 > 
 > ```
-> 
+> // Using template literals without any expressions inside the extend call
+> sap.ui.define([
+>     "sap/ui/core/mvc/Controller"
+> ], (Controller) => {
+>     "use strict";
+>     return Controller.extend(`my.app.controller.MyController`, {});
+> });
 > ```
 
 > ### Restriction:  
