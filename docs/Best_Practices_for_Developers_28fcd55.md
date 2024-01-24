@@ -49,7 +49,7 @@ The main objectives when migrating existing code or keeping it up to date with f
 
     to avoid pollution of the global namespace and conflicts with other code on the page
 
--   **No use legacy APIs**
+-   **No use of legacy APIs**
 
     to reduce the API surface for easier usage and maintenance
 
@@ -64,18 +64,11 @@ Before attempting to migrate or upgrade to a higher OpenUI5 version, make sure t
 
 #### Deprecated APIs
 
-In general, **you must not use deprecated APIs** anymore. Deprecated APIs can be found in the [API Reference](https://sdk.openui5.org/api/deprecated), in the [What's New Viewer](https://help.sap.com/whats-new/67f60363b57f4ac0b23efd17fa192d60?Type=Deleted%3BDeprecated), and in the reports by our [Support Assistant](Support_Assistant_57ccd7d.md).
+In general, **you must not use deprecated APIs** anymore, such as `sap.ui.getCore()`. Deprecated APIs can be found in the [API Reference](https://sdk.openui5.org/api/deprecated), in the [What's New Viewer](https://help.sap.com/whats-new/67f60363b57f4ac0b23efd17fa192d60?Type=Deleted%3BDeprecated), and in the reports by our [Support Assistant](Support_Assistant_57ccd7d.md).
 
-Also, see any relevant warnings and errors logged to the browser's dev console during runtime. You might need to increase the `sap-ui-log-level`; for more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
+Also, see the relevant warnings and errors logged to the browser's dev console during runtime. You might need to increase the `sap-ui-log-level`; for more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
 
-Some APIs may only be partially deprecated, for instance:
-
--   [`sap/ui/core/theming/Parameters.get`](https://sdk.openui5.org/api/sap.ui.core.theming.Parameters%23methods/sap.ui.core.theming.Parameters.get) : Passing a non-object `vName` \(deprecated sinceOpenUI5 version 1.92 and 1.94\).
-
--   [`sap/ui/model/json/JSONModel#loadData`](https://sdk.openui5.org/api/sap.ui.model.json.JSONModel%23methods/loadData) : Using the `bAsync` and `bCache` flags \(deprecated sinceOpenUI5 version 1.107\).
-
--   [`sap/ui/model/odata/v2/ODataModel#createEntry`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry) : Passing an array to `mProperties.properties` \(deprecated sinceOpenUI5 version 1.120\).
-
+Some APIs may be only partially deprecated, for instance passing a non-object `vName` to [`sap.ui.core.theming.Parameters.get`](https://sdk.openui5.org/api/sap.ui.core.theming.Parameters%23methods/sap.ui.core.theming.Parameters.get) . Refer to the `API Reference` for individual APIs.
 
 **Additional Information:**
 
@@ -97,9 +90,9 @@ In the following we'll focus on crucial aspects of app development, specifically
 
 #### Asynchronous Loading
 
--   Use asynchronous loading for views, fragments, and components to enhance performance.
--   Implement the `sap.ui.core.IAsyncContentCreation` interface on component level to enable async component creation.
--   Load libraries via the new asynchronous APIs in advance before accessing code. Ensure that dependent librares are preloaded through the `manifest.json` in the `sap.ui5/dependencies/libs` section if not already maintained there.
+-   Use asynchronous loading for views, fragments, and components to enhance performance; see, for example, [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
+-   Implement the `sap.ui.core.IAsyncContentCreation` marker interface in your [Component.js File](Component_js_File_27ce0e4.md) to allow the content to be created fully asynchronously and for a stricter handling of certain types of errors during its view processing.
+-   Load libraries via the new asynchronous APIs in advance before accessing code. Ensure that dependent librares are preloaded through the `manifest.json` in the `sap.ui5/dependencies/libs` section if not already maintained there. For more information, see [Ensure that Library Preloads are Enabled](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_LibraryPreloads).
 
 **Additional Information:**
 
@@ -113,11 +106,33 @@ In the following we'll focus on crucial aspects of app development, specifically
 
 #### OpenUI5 Object Creation
 
+When creating instances of OpenUI5 controls programmatically \(i.e. not declaratively via XML View or Fragment\), then:
+
+-   Don't use the global name of a control. Require the corresponding module dependency instead.
+-   Use `createId` to ensure there are no ID collisions, e.g. `View.createId` to prefix the control's ID with the view ID.
+
+**Additional Information:**
+
+-   [Use Stable IDs](Use_Stable_IDs_79e910e.md)
+
+***
+
+#### Data Binding
+
+When creating data binding programmatically, add the data types to the dependency list and create instances on your own. Do **not** specify their global names.
+
+When an [Expression Binding](Expression_Binding_daf6852.md) refers to any of the built-in global names `odata.compare`, `odata.fillUriTemplate`, or `odata.uriEncode`, the corresponding modules must be required by the surrounding code \(either \[\`template:require\`\]\(https://sdk.openui5.org/\#/topic/263f6e5a915f430894ee290040e7e220\), \[\`core:require\`\]\(https://sdk.openui5.org/\#/topic/b11d853a8e784db6b2d210ef57b0f7d7\), or in the controller code\):
+
 ***
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_gzy_knj_rzb"/>
 
 ### Some Important Best Practices
+
+-   [`sap/ui/model/json/JSONModel#loadData`](https://sdk.openui5.org/api/sap.ui.model.json.JSONModel%23methods/loadData) : Using the `bAsync` and `bCache` flags \(deprecated sinceOpenUI5 version 1.107\).
+
+-   [`sap/ui/model/odata/v2/ODataModel#createEntry`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry) : Passing an array to `mProperties.properties` \(deprecated sinceOpenUI5 version 1.120\).
+
 
 The following are some of the most relevant best practices you should get familiar with and apply for a future-proof code base:
 
