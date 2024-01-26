@@ -501,7 +501,14 @@ Feature
 
 **Localization**
 
-We now use the localization content of the Unicode Common Locale Data Repository \(CLDR\) version 43.0.0.
+-   We now use the localization content of the Unicode Common Locale Data Repository \(CLDR\) version 43.0.0.
+
+-   We now support the following additional locales \(as of 1.120.5\):
+
+    -   mk\_MK
+    -   cnr\_ME
+    -   sr\_Cyrl\_RS
+
 
 <sub>Changed•Feature•Info Only•1.120</sub>
 
