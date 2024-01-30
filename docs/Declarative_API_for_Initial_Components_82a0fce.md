@@ -18,7 +18,7 @@ The declarative API enables you to define the initially started component direct
 
 ### Using the `ComponentSupport` Module
 
-With the declarative `sap/ui/core/ComponentSupport` API it is possible to define the initially started component directly in the HTML markup instead of the imperative way using JavaScript. The declarative `ComponentSupport` is not activated by default, but must be enabled via the bootstrap:
+With the declarative `sap/ui/core/ComponentSupport` API it is possible to define the initially started component directly in the HTML markup instead of the imperative way using JavaScript or TypeScript. The declarative `ComponentSupport` is not activated by default, but must be enabled via the bootstrap:
 
 ```html
 <!-- index.html -->
