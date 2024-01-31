@@ -294,7 +294,7 @@ var oView = sap.ui.jsview({
 </td>
 <td valign="top">
 
-For defining views, use `View.extend`. For loading and creating a view instance, use `View.create`. Refer also to the dedicated [Typed View](Typed_View_e6bb33d.md) documentation and the[code sample](https://sdk.openui5.org/entity/sap.ui.core.mvc.View/sample/sap.ui.core.sample.View.navigationTypedView).
+For defining views, use `View.extend`. For loading and creating a view instance, use `View.create`. Refer also to the dedicated [Typed View](Typed_View_e6bb33d.md) documentation and the [code sample](https://sdk.openui5.org/entity/sap.ui.core.mvc.View/sample/sap.ui.core.sample.View.navigationTypedView).
 
 ```
 
@@ -449,7 +449,7 @@ var aControls = sap.ui.jsfragment({
 
 ```
 // XML Fragments
-var aControls = sap.ui.fragment({ 
+var aControls = sap.ui.xmlfragment({ 
     name: "my.fragment"
 });
 

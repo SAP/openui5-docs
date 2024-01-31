@@ -142,10 +142,6 @@ Using fake timers can be error-prone. Fake timers should only be used with care 
 
 -   For using fake timers in combination with rendering: [Rendering and Re-rendering Controls Within Tests](Cookbook_for_Testing_Controls_with_QUnit_0ddcc60.md#loio0ddcc60b05ee40dea1a3be09e8fee8f7__section_REREN)
 
-If you are using `sinon.qunit`, it will automatically use fake timers by itself. Fake timers will prevent any `setTimeout/setIntervall` function from being executed, unless you call `this.clock.tick(milliseconds)` in your test. This means that a Mock Server with auto-respond will not respond and OPA will not be able to wait for controls.
-
-In addition, control events might be fired inside of a `setTimeout(, 0)`, so the event might not be triggered at all.
-
 ***
 
 #### I've set a property on my control: Why aren't the changes in the DOM?

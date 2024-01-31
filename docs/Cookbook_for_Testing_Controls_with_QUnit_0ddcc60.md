@@ -176,7 +176,7 @@ QUnit.test("Test with fake timers", async() => {
 
     // Release all timers at the end of the test
     // to avoid e.g. blocking the rendering within
-    // following tests and to ensure, that other
+    // following tests and to ensure that other
     // timeouts triggered through integration are
     // released
     oButton.destroy()
@@ -224,37 +224,6 @@ QUnit.test("Should suppress rerendering when tooltip is set", async(assert) => {
     // Cleanup
     oLabel.destroy();
 });
-```
-
-`applyChanges()` enforces a synchronous rendering and **must not** be used in productive code.
-
-**For test scenarios only**, you may use the test helper module **`sap/ui/qunit/utils/nextUIUpdate`** instead.
-
-> ### Restriction:  
-> Using `nextUIUpdate` in combination with fake timers has some pitfalls. If fake timers are used, it is not possible to use `await`. In this case, you need to chain to the `nextUIUpdate` Promise and always use `clock.tick()` within the chaining in order to execute the rendering.
-> 
-> The main difference to `applyChanges()` is that `nextUIUpdate()` does not synchronously trigger a re-rendering \(which by intention we wanted to get rid of\), but just waits for the next rendering cycle to complete. Due to this asynchronous nature, switching to it may be slightly more work than in other more straightforward cases.
-
-As a replacement for `applyChanges()` **in tests only**, use:
-
-```js
-QUnit.test("Simple Component Instance",
-  async function(assert){
-    await nextUIUpdate();
-    ...
-});
- 
-// nextUIUpdate with fake timers
-QUnit.test("Test with fake timers", function() {
-    this.clock = sinon.useFakeTimers();
- 
-    // Using runAll is not always necessary but ensures, that no timeouts are left unprocessed
-    this.clock.runAll();
-    nextUIUpdate().then(() => {
-        this.clock.tick();
-        // Continue with your test
-    });
-}
 ```
 
 ***
@@ -349,7 +318,7 @@ QUnit.test("Should do something with the model", async(assert) => {
         oMockServer = startMockServer(50);
 
     // System under Test
-    constoLabel = new Label({
+    const oLabel = new Label({
         text : "{/myProperty}"
     });
 
