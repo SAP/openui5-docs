@@ -90,7 +90,9 @@ Some APIs may be only partially deprecated, for instance passing a non-object `v
 
 -   Use `sap.ui.require` for requiring an existing module.
 
--   Add only valid module IDs from the API Reference \(documented as `Module: .../.../..`\) to the dependency list. For example, use `sap/m/library` for `sap/m/SortOrder`, and require `sap/ui/model/FilterType` as it's a genuine module \(`Module: sap/ui/model/FilterType`\).
+-   Add only valid module IDs from the API Reference \(documented as Module: .../.../..\) to the dependency list. For example, use `sap/m/library` for the enum type `sap.ui.core.SortOrder`.
+
+    For the enum type `sap.ui.model.Filter`, however, require `sap/ui/model/FilterType` as it's a genuine module \(Module: `sap/ui/model/FilterType`\).
 
 
     <table>
@@ -135,7 +137,7 @@ Some APIs may be only partially deprecated, for instance passing a non-object `v
     ```js
     sap.ui.define([
       "sap/m/library", // target use: SortOrder
-      "sap/ui/model/FilterType" // remains same
+      "sap/ui/model/FilterType", // remains same
       "sap/ui/layout/form/SimpleForm"
     ], (sapMLib, FilterType, SimpleForm) => {
       "use strict";
@@ -167,7 +169,7 @@ Some APIs may be only partially deprecated, for instance passing a non-object `v
 
 **Third-Party Libraries**
 
-When requiring third-party libraries that export global names and support AMD at the same time, ensure having a `shim` with `amd:true` defined via [`sap.ui.loader.config`](https://sdk.openui5.org/api/sap.ui.loader%23methods/sap.ui.loader.config) beforehand. Use the required module value instead of the global name of the third-party lib.
+When requiring third-party libraries that export global names and support AMD at the same time, ensure having a `shim` with `amd:true` defined via [`sap.ui.loader.config`](https://sdk.openui5.org/api/sap.ui.loader%23methods/sap.ui.loader.config) beforehand. Use the required module value instead of the global name of the third-party library.
 
 **Troubleshooting**
 
@@ -190,7 +192,7 @@ In the following we'll focus on crucial aspects of app development, specifically
 #### Asynchronous Loading
 
 -   Use asynchronous loading for views, fragments, and components to enhance performance; see, for example, [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
--   Implement the `sap.ui.core.IAsyncContentCreation` marker interface in your [Component.js File](Component_js_File_27ce0e4.md) to allow the content to be created fully asynchronously and for a stricter handling of certain types of errors during its view processing.
+-   Implement the `sap.ui.core.IAsyncContentCreation` marker interface in your [Component.js file](Component_js_File_27ce0e4.md) to allow the content to be created fully asynchronously and for a stricter handling of certain types of errors during its view processing.
 -   Load libraries via the new asynchronous APIs in advance before accessing code. Ensure that dependent librares are preloaded through the `manifest.json` in the `sap.ui5/dependencies/libs` section if not already maintained there. For more information, see [Ensure that Library Preloads are Enabled](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_LibraryPreloads).
 
 **Additional Information:**
@@ -253,7 +255,7 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 
 -   Don't use the section `sap.ui5/resources/js` as it's deprecated. Use regular dependencies in the `Component.js` file instead.
 
--   Unless the component intends to load specific OpenUI5 libs manually on demand, avoid adding `{ lazy: true }` to the `sap.ui5/dependencies/libs` section.
+-   Unless the component intends to load specific OpenUI5 libraries manually on demand, avoid adding `{ lazy: true }` to the `sap.ui5/dependencies/libs` section.
 
 
 **Dependency Management**
@@ -285,7 +287,7 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 
 -   Use the `loadFragment` method of the `sap.ui.core.mvc.Controller` to load fragments asynchronously.
 
--   XML Templating: Don't use global names. Ensure that the target function or object is defined as a module and require the defined module via [`core:require` in the XML](Require_Modules_in_XML_View_and_Fragment_b11d853.md). Use `template:require` if the XML content needs preprocessing.
+-   Don't use global names in your XML. Ensure that the target function or object is defined as a module and require the defined module via [`core:require` in the XML](Require_Modules_in_XML_View_and_Fragment_b11d853.md). Use `template:require` if the XML content needs preprocessing.
 
 
 **Additional Information:**
@@ -349,13 +351,11 @@ Implement strict error handling to address critical issues.
 
 -   Ensure a dependency on the renderer or embed it within the control class.
 
--   Migrate to the rendering `apiVersion 2` or `apiVersion 4`.
+-   Migrate to the rendering `apiVersion 2` or `apiVersion 4`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23overview) .
 
 -   When utilizing [`RenderManager#icon`](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23methods/icon) during rendering, include a dependency to `sap/ui/core/IconPool` in your code.
 
--   Don't use `Control.prototype.rerender` to rerender a control as it's deprecated. Use [`Control.prototype.invalidate`](https://sdk.openui5.org/api/sap.ui.core.Control%23methods/invalidate) instead.
-
--   If you want to be informed once a control's rerendering is triggered, override `Control.prototype.invalidate`.
+-   Don't use `Control#rerender` to rerender a control as it's deprecated. Use [`Control#invalidate`](https://sdk.openui5.org/api/sap.ui.core.Control%23methods/invalidate) instead.
 
 
 **Additional Information:**
@@ -373,7 +373,7 @@ Implement strict error handling to address critical issues.
 
 #### Library Dependency and Init
 
--   Don't use `sap.ui.getCore().initLibrary` to initialize the library as it's deprecated. Use the import of `sap/ui/core/Lib.js` and call its [`Lib.init()`](https://sdk.openui5.org/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.init) instead.
+-   Don't use `sap.ui.getCore().initLibrary` to initialize the library as it's deprecated. Use the import of `sap/ui/core/Lib` and call its [`Lib.init()`](https://sdk.openui5.org/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.init) instead.
 
 -   Don't use the global namespace of the library to add types. Use the return value of `Lib.init` instead to add them.
 
@@ -383,7 +383,7 @@ Implement strict error handling to address critical issues.
 
 -   Define the `appData/manifest/i18n` section in the `.library` file or the `sap.app/i18n` section in the `manifest.json`, so that the framework can load resource bundles in advance.
 
--   Properly define library dependencies in all places where it is required.
+-   Properly define library dependencies in all places where it is required. For more information, see [Dependencies to Libraries](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md#loio8521ad1955f340f9a6207d615c88d7fd__section_DEPLIB)
 
 
 **Additional Information:**
@@ -396,12 +396,11 @@ Implement strict error handling to address critical issues.
 
 #### Bundling
 
--   Prevent bundling modules \(`Component-preload.js`\) into strings.
+Prevent bundling modules \(`Component-preload.js`\) into strings.
 
-    -   Avoid generating the application bundle with an outdated standard Grunt task. Leverage UI5 Tooling to build the bundle.
+-   Avoid generating the application bundle with an outdated standard Grunt task. Leverage UI5 Tooling to build the bundle.
 
-    -   Avoid declaring `var`, `let`, or `const` in the global scope above `sap.ui.define`.
-
+-   Avoid declaring `var`, `let`, or `const` in the global scope above `sap.ui.define`.
 
 -   For third-party libraries, set `requiresTopLevelScope="false"` to the `/library/appData/packaging/raw-module` tag within the `.library` file, **provided that** the third-party library is allowed to be bundled together and does not require access to the global scope. Otherwise, consider [excluding the third-party library from the bundle](https://sap.github.io/ui5-tooling/v3/pages/Configuration/#excludes_1).
 
