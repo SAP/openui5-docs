@@ -351,7 +351,7 @@ Implement strict error handling to address critical issues.
 
 -   Ensure a dependency on the renderer or embed it within the control class.
 
--   Migrate to the rendering `apiVersion 2` or `apiVersion 4`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23overview) .
+-   Migrate to the rendering `apiVersion 2` or `apiVersion 4`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23overview).
 
 -   When utilizing [`RenderManager#icon`](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23methods/icon) during rendering, include a dependency to `sap/ui/core/IconPool` in your code.
 
@@ -383,7 +383,7 @@ Implement strict error handling to address critical issues.
 
 -   Define the `appData/manifest/i18n` section in the `.library` file or the `sap.app/i18n` section in the `manifest.json`, so that the framework can load resource bundles in advance.
 
--   Properly define library dependencies in all places where it is required. For more information, see [Dependencies to Libraries](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md#loio8521ad1955f340f9a6207d615c88d7fd__section_DEPLIB)
+-   Properly define library dependencies in all places where it is required. For more information, see [Dependencies to Libraries](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md#loio8521ad1955f340f9a6207d615c88d7fd__section_DEPLIB).
 
 
 **Additional Information:**
