@@ -309,7 +309,7 @@ We use `clock.tick` to trigger the server response. If you didn't do this, the t
 
 ```js
 // "Label" required from module "sap/m/Label"
-"nextUIUpdate" required from module "sap/ui/qunit/utils/nextUIUpdate"
+// "nextUIUpdate" required from module "sap/ui/qunit/utils/nextUIUpdate"
 
 //Your test:
 QUnit.test("Should do something with the model", async(assert) => {
