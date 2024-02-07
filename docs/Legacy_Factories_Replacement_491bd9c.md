@@ -41,13 +41,9 @@ Components
 <td valign="top">
 
 ```
-
 var oComponentInstance = sap.ui.component({
-
     name: "my.comp"
-
 });
-
 ```
 
 
@@ -56,31 +52,21 @@ var oComponentInstance = sap.ui.component({
 <td valign="top">
 
 ```
-
 sap.ui.require(["sap/ui/core/Component"], (Component)=> {
-
     Component.create({
-
         name: "my.comp"
-
-    }).then((oComp) => { ... });
+    }).then((oComp) => {/*...*/});
 });
 ```
 
 Alternatively, migrate to `componentUsages` with an additional adaption in the `manifest.json` file:
 
 ```
-
 createContent: function() {
-
    var oReuseComponentPromise = this.createComponent({
-
-    "usage": "reuse"
-
-  }).then((oComp) => { ... });
-
+      "usage": "reuse"
+  }).then((oComp) => {/*...*/});
 }
-
 ```
 
 
@@ -91,13 +77,9 @@ createContent: function() {
 <td valign="top">
 
 ```
-
 var oComponentClass = sap.ui.component.load({
-
     name: "my.comp"
-
 });
-
 ```
 
 
@@ -106,21 +88,13 @@ var oComponentClass = sap.ui.component.load({
 <td valign="top">
 
 ```
-
 sap.ui.require(["sap/ui/core/Component"], (Component) => {
-
     Component.load({
-
         name: "my.comp"
-
     }).then((oClass) => {
-
-        var oComponentInstance = new oClass({...});
-
+        var oComponentInstance = new oClass({/*...*/});
     });
-
 });
-
 ```
 
 
@@ -140,13 +114,9 @@ var oComponentInstance = sap.ui.component("my-comp-id");
 <td valign="top">
 
 ```
-
 sap.ui.require(["sap/ui/core/Component"], (Component) => {
- 
     var oComponentInstance = Component.get("my-comp-id");
-
 });
-
 ```
 
 
@@ -164,13 +134,9 @@ i18n texts
 <td valign="top">
 
 ```
-
 jQuery.sap.resources({
-
     url: "mybundle.properties"
-
 });
-
 ```
 
 
@@ -179,17 +145,13 @@ jQuery.sap.resources({
 <td valign="top">
 
 ```
-
 // sap/ui/Resources -> sap/base/i18n/ResourceBundle
 
 sap.ui.require(["sap/base/i18n/ResourceBundle"], (Resource) => {
-
     ResourceBundle.create({
-
         url: "mybundle.properties",
 	   async: true
-
-    }).then((oResource) => { ... });
+    }).then((oResource) => {/*...*/});
 });
 ```
 
@@ -208,15 +170,10 @@ Views
 <td valign="top">
 
 ```
-
 var oView = sap.ui.view({
-
     viewName: "my.View",
-
     type: "XML"
-
 });
-
 ```
 
 
@@ -225,16 +182,11 @@ var oView = sap.ui.view({
 <td valign="top">
 
 ```
-
 sap.ui.require(["sap/ui/core/mvc/View"], (View) => {
-
     View.create({ 
-
         viewName: "my.View",
-
         type: "XML"
-
-    }).then((oView) => { ... });
+    }).then((oView) => {/*...*/});
 });
 ```
 
@@ -246,13 +198,9 @@ sap.ui.require(["sap/ui/core/mvc/View"], (View) => {
 <td valign="top">
 
 ```
-
 var oView = sap.ui.xmlview({
-
     viewName: "my.View"
-
 });
-
 ```
 
 
@@ -261,14 +209,10 @@ var oView = sap.ui.xmlview({
 <td valign="top">
 
 ```
-
 sap.ui.require(["sap/ui/core/mvc/XMLView"], (XMLView) => {
-
     XMLView.create({ 
-
         viewName: "my.View"
-
-    }).then((oView) => { ... });
+    }).then((oView) => {/*...*/});
 });
 ```
 
@@ -280,13 +224,9 @@ sap.ui.require(["sap/ui/core/mvc/XMLView"], (XMLView) => {
 <td valign="top">
 
 ```
-
-var oView = sap.ui.jsview({
-								
-    viewName: "my.View"
-								
+var oView = sap.ui.jsview({							
+    viewName: "my.View"						
 });
-
 ```
 
 
@@ -297,9 +237,7 @@ var oView = sap.ui.jsview({
 For defining views, use `View.extend`. For loading and creating a view instance, use `View.create`. Refer also to the dedicated [Typed View](Typed_View_e6bb33d.md) documentation and the [code sample](https://sdk.openui5.org/entity/sap.ui.core.mvc.View/sample/sap.ui.core.sample.View.navigationTypedView).
 
 ```
-
-sap.ui.define(["sap/ui/core/mvc/View", "sap/m/Panel"], function(View, Panel){
-								
+sap.ui.define(["sap/ui/core/mvc/View", "sap/m/Panel"], function(View, Panel){					
     return View.extend("my.View", {
 
 		// define, which controller to use
@@ -316,20 +254,18 @@ sap.ui.define(["sap/ui/core/mvc/View", "sap/m/Panel"], function(View, Panel){
 		createContent: async function() {
 			const someControl = await somethingAsync();
 			return new Panel({
-				content: [someControl, ...]
+				content: [someControl, /*...*/]
 			});
-    	}
-								
+    	}						
     });
 });
-
 ```
 
 ```
 sap.ui.require(["sap/ui/core/mvc/View"], (View) => {
     View.create({ 		
         viewName: "module:my/View"			
-    }).then((oView) => { ... });
+    }).then((oView) => {/*...*/});
 });
 ```
 
@@ -348,7 +284,7 @@ Controllers
 <td valign="top">
 
 ```
-var oController = sap.ui.controller({ ... });
+var oController = sap.ui.controller({/*...*/});
 ```
 
 
@@ -361,8 +297,9 @@ To define an `sap/ui/core/mvc/Controller` subclass, you can simply extend it:
 ```
 sap.ui.require(["sap/ui/core/mvc/Controller"], (Controller) => {
     return Controller.extend("my.sample.ControllerClass", {
+
         /* lifecycle hooks, controller methods etc. */
-        onInit: function() { ... }
+        onInit: function() {/*...*/}
     });
 });
 ```
@@ -370,14 +307,10 @@ sap.ui.require(["sap/ui/core/mvc/Controller"], (Controller) => {
 To manually instantiate a Controller class, you can use the `Controller.create()` factory function:
 
 ```
-
 sap.ui.require(["sap/ui/core/mvc/Controller"], (Controller) => {
-
     Controller.create({ 
-
-        ...
-
-    }).then((oController) => { ... });
+        // ...
+    }).then((oController) => {/*...*/});
 });
 ```
 
@@ -396,7 +329,7 @@ Extension Points
 <td valign="top">
 
 ```
-var aControls = sap.ui.extensionpoint( ... );
+var aControls = sap.ui.extensionpoint(/*...*/);
 ```
 
 
@@ -405,14 +338,10 @@ var aControls = sap.ui.extensionpoint( ... );
 <td valign="top">
 
 ```
-
 sap.ui.require(["sap/ui/core/ExtensionPoint"], (ExtensionPoint) => {
-
     ExtensionPoint.load({ 
-
-        ...
-
-    }).then((aControls) => { ... });
+        // ...
+    }).then((aControls) => {/*...*/});
 });
 ```
 
@@ -436,7 +365,6 @@ var aControls = sap.ui.fragment({
     name: "my.fragment",
     type: "XML"
 });
-
 ```
 
 ```
@@ -444,7 +372,6 @@ var aControls = sap.ui.fragment({
 var aControls = sap.ui.jsfragment({ 
     name: "my.fragment"
 });
-
 ```
 
 ```
@@ -452,7 +379,6 @@ var aControls = sap.ui.jsfragment({
 var aControls = sap.ui.xmlfragment({ 
     name: "my.fragment"
 });
-
 ```
 
 
@@ -473,7 +399,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], (Controller) => {
             this.loadFragment({
                 name: "my.fragment",
                 type: "XML" // or type: "JS"
-            }).then((oControl) => { ... });
+            }).then((oControl) => {/*...*/});
         }
     });
 });
@@ -486,7 +412,7 @@ sap.ui.require([
     "sap/ui/core/Component", 
     "sap/ui/core/Fragment"
     ], (Component, Fragment) => {
-    ...
+    // ...
 
     // "oPage" is an exemplary sap.m.Page control
     const oComponent = Component.getOwnerComponentFor(oPage);
@@ -495,7 +421,7 @@ sap.ui.require([
         Fragment.load({
             name: "my.fragment",
             type: "XML" // or type: "JS"
-        }).then((oControl) => { ... });
+        }).then((oControl) => {/*...*/});
     });
 });
 ```
@@ -529,14 +455,10 @@ var oVersionInfo = sap.ui.getVersionInfo();
 <td valign="top">
 
 ```
-
 sap.ui.require(["sap/ui/core/VersionInfo"], (VersionInfo) => {
-
     VersionInfo.load({ 
-
-        ...
-
-    }).then((oVersionInfo) => { ... });
+        // ...
+    }).then((oVersionInfo) => {/*...*/});
 });
 ```
 

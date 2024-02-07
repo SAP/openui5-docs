@@ -377,7 +377,7 @@ Implement strict error handling to address critical issues.
 
 -   Don't use the global namespace of the library to add types. Use the return value of `Lib.init` instead to add them.
 
--   Migrate to the library `apiVersion 2`.
+-   Migrate to the library `apiVersion 2`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.init).
 
 -   Use [`sap.ui.base.DataType.registerEnum`](https://sdk.openui5.org/api/sap.ui.base.DataType%23methods/sap.ui.base.DataType.registerEnum) to register enums that shall be usable as a type of control properties.
 

@@ -28,7 +28,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 1: Hello World!](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/01/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 1: Hello World!](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/01) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-01.zip).
 
 Create a folder on your local machine which will contain all the sources of the app we're going to build. We refer to this folder as the “app root directory”.
 

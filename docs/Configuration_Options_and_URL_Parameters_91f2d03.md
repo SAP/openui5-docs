@@ -1112,6 +1112,32 @@ If set to a non-empty list of URLs, the `AppCacheBuster` will be activated and w
 <tr>
 <td valign="top">
 
+`async`
+
+</td>
+<td valign="top">
+
+Type: `boolean`
+
+Default value: `false`
+
+This configuration setting enables the module loader to load both modules and library-preload files asynchronously. Activating this feature requires intensive application-side cooperation and testing to ensure a stable and fully working application. In case you encounter issues, or if you want to prepare your application in advance, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `exclude-jquery-compat`
 
 </td>
@@ -1249,40 +1275,6 @@ Within `globalThis["sap-ui-config"]["on-init"]` it is also possible to provide a
 <td valign="top">
 
 ![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`preload`
-
-</td>
-<td valign="top">
-
-[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `string`
-
-Default value: `auto`
-
-Defines the loading behaviour of the so-called preload files. They contain all modules of a library. The contained modules are only loaded, but not executed until they are used by the application.
-
-The values are used as follows:
-
--   When set to `auto`, the runtime loads preload files asynchronously if the bootstrap configuration parameter `async` is set as `async=true`. We recommend to use the `async=true` configuration parameter in the bootstrap, as it switches many module-related APIs to `async`, including the loading behaviour of the preload files.
--   Preload files for the declared libraries are loaded synchronously when the `async` bootstrap configuration parameter is set to`false` \(`async=false`\) or not set at all. Best practices discourage such behavior.
--   For any other value \(for example blank\), the preload feature is deactivated and modules are loaded on demand.
-
-
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
