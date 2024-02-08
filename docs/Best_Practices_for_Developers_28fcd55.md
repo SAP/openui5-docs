@@ -192,7 +192,7 @@ In the following we'll focus on crucial aspects of app development, specifically
 #### Asynchronous Loading
 
 -   Use asynchronous loading for views, fragments, and components to enhance performance; see, for example, [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
--   Implement the `sap.ui.core.IAsyncContentCreation` marker interface in your [Component.js file](Component_js_File_27ce0e4.md) to allow the content to be created fully asynchronously and for a stricter handling of certain types of errors during its view processing.
+-   Implement the `sap.ui.core.IAsyncContentCreation` marker interface in your [Component.js file](Component_Controller_27ce0e4.md) to allow the content to be created fully asynchronously and for a stricter handling of certain types of errors during its view processing.
 -   Load libraries via the new asynchronous APIs in advance before accessing code. Ensure that dependent librares are preloaded through the `manifest.json` in the `sap.ui5/dependencies/libs` section if not already maintained there. For more information, see [Ensure that Library Preloads are Enabled](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_LibraryPreloads).
 
 **Additional Information:**

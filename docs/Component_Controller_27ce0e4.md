@@ -8,11 +8,11 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/27ce0e4987cd426f8fa3e60836316428) | [demo kit latest release](https://sdk.openui5.org/topic/27ce0e4987cd426f8fa3e60836316428)</div>
 
-## Component.js File
+## Component Controller
 
-The `Component.js` file is the component controller and provides the runtime metadata and the component methods.
+The component controller is a script file \(written in either JavaScript or TypeScript\) that provides the runtime metadata and contains the component methods.
 
-A component controller is defined with the asynchronous module definition \(AMD\) syntax. In the `sap.ui.define` statement; the required dependencies can be declared which can be used in the controller.
+When written in JavaScript, a component controller is defined with the asynchronous module definition \(AMD\) syntax; this does not apply when using TypeScript. In the `sap.ui.define` statement the required dependencies can be declared which can be used in the controller.
 
 To create an OpenUI5 component, you extend either the `Component` or `UIComponent` base class and pass the name of the module \(namespace + `.Component`\).
 

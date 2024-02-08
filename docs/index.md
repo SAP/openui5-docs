@@ -316,7 +316,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                 -   [Compatibility Version Information](Compatibility_Version_Information_9feb96d.md)
         -   [Structuring: Components and Descriptor](Structuring_Components_and_Descriptor_dc9e11c.md)
             -   [Components](Components_958ead5.md)
-                -   [Component.js File](Component_js_File_27ce0e4.md)
+                -   [Component Controller](Component_Controller_27ce0e4.md)
                     -   [Component Metadata](Component_Metadata_0187ea5.md)
                     -   [Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md)
                 -   [Using and Nesting Components](Using_and_Nesting_Components_346599f.md)

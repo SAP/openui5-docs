@@ -205,7 +205,7 @@ export default class Component extends UIComponent {
 
 <a name="loio2a46b7567a73457c81b1b67741146063__section_ok2_4n5_zgb"/>
 
-### webapp\\index.html
+### webapp/index.html
 
 Let's explore how we can create a component in a simple and straightforward way directly in the HTML markup of our `index.html` file. To do this, we need to make a few changes in our HTML document.
 

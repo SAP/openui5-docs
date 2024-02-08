@@ -76,8 +76,9 @@ The following list explains how other concepts used in OpenUI5 are distinguished
     The MVC concept allows to define views and controllers and, thus, to structure and reuse parts within an application. As MVC can only be deployed separately and has no means to define dependent styles or scripts that are loaded together with a view, this concept is of limited use across different applications.
 
 
--   **[Component.js File](Component_js_File_27ce0e4.md "The Component.js file is the component controller and provides the runtime metadata and the component methods.")**  
-The `Component.js` file is the component controller and provides the runtime metadata and the component methods.
+-   **[Component Controller](Component_Controller_27ce0e4.md "The component controller is a script file (written in either JavaScript or TypeScript) that provides the runtime metadata and contains the
+		component methods.")**  
+The component controller is a script file \(written in either JavaScript or TypeScript\) that provides the runtime metadata and contains the component methods.
 -   **[Using and Nesting Components](Using_and_Nesting_Components_346599f.md "You can use a ComponentContainer to wrap a
 			UIComponent and reuse it anywhere within the OpenUI5 control tree. With the
 			ComponentContainer you can nest components inside other

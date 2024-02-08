@@ -18,7 +18,7 @@ If you wish to extend your view or controller, you must define the extension in 
 
 ### What is the Owner Component?
 
-Technically, the owner component is the `sap.ui.core.(UI)Component` instance which created \(and thus "owns"\) any `sap.ui.base.ManagedObject` instance. This of course includes all subclasses of `ManagedObject`, e.g. any UI5 control, as well as views, fragments, and even other \(UI\)Components.
+Technically, the owner component is the `sap.ui.core.(UI)Component` instance which created \(and thus "owns"\) any `sap.ui.base.ManagedObject` instance. This of course includes all subclasses of `ManagedObject`, e.g. any OpenUI5 control, as well as views, fragments, and even other \(UI\)Components.
 
 One of the most common use cases of the owner component is the extensibility of \(UI\)Components. The framework uses the owner component to identify [extension points](View_Extension_403c050.md), [view modifications](View_Modification_aa93e1c.md), and [controller extensions](Using_Controller_Extension_21515f0.md) from the owner component's manifest.json.
 
