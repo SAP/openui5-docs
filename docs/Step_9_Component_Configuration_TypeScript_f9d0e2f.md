@@ -33,9 +33,9 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 9: Component Co
 
   
   
-**Figure: Folder Structure for this Step**
+**Folder Structure for this Step**
 
-![The graphic has an explanatory text](images/loioaa6ba83cdebc4a75be6a6b2ff6efffcb_LowRes.png "Figure: Folder Structure for this Step")
+![The graphic has an explanatory text](images/loioaa6ba83cdebc4a75be6a6b2ff6efffcb_LowRes.png "Folder Structure for this Step")
 
 After this step your project structure will look like the figure above. We'll create the `Component.ts` file now and modify the related files in the app.
 

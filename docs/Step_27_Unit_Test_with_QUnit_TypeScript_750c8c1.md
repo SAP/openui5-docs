@@ -37,9 +37,9 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 27: Unit Tests 
   
 **Folder Structure for this Step**
 
+![The graphic has an explanatory text](images/loioeae0f42249494ae7aeda044e83f15097_LowRes.png "Folder Structure for this Step")
 
-
-![The graphic has an explanatory text](images/loioeae0f42249494ae7aeda044e83f15097_LowRes.png)We add a new folder `unit` under the `test` folder and a `model` subfolder where we will place our formatter unit test. The folder structure matches the app structure to easily find the corresponding unit tests.
+We add a new folder `unit` under the `test` folder and a `model` subfolder where we will place our formatter unit test. The folder structure matches the app structure to easily find the corresponding unit tests.
 
 ***
 
