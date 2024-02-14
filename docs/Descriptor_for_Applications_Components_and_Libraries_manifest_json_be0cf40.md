@@ -1706,18 +1706,6 @@ Mandatory; contains objects with device types on which the app is running, such 
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-`fullWidth` 
-
-</td>
-<td valign="top">
-
-Indicates whether an app shall run in full screen mode \(`true`\), or not \(`false`\)
-
-</td>
-</tr>
 </table>
 
 ***

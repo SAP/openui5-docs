@@ -158,33 +158,6 @@ Used to overwrite the `subTitle` attribute per inbound; use the `{{...}}` syntax
 <tr>
 <td valign="top">
 
-`sap.ui/fullWidth` 
-
-</td>
-<td valign="top">
-
-V4 \(1.34\)
-
-</td>
-<td valign="top">
-
-Indicates whether an app shall run in full screen mode \(`true`\)
-
-```
-"sap.ui": {
-    "_version": "1.3.0",
-    "technology": "UI5",
-    ...
-    "fullWidth": true
-```
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `sap.ui5/dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` 
 
 </td>

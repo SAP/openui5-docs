@@ -28,7 +28,7 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 6: Modules](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/06/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 6: Modules](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/06) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-06.zip).
 
 ***
 

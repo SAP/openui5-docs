@@ -28,7 +28,7 @@ After all the work on the app structure it’s time to improve the look of our a
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 11: Pages and Panels](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/11/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 11: Pages and Panels](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/11) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-11.zip)./xref\>.
 
 ***
 

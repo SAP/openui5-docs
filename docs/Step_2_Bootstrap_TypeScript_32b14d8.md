@@ -26,7 +26,7 @@ Before we can do something with OpenUI5, we need to load and initialize it. This
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 2: Bootstrap](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/02/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 2: Bootstrap](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/02) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-02.zip).
 
 ***
 

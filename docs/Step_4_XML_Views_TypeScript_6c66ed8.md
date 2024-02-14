@@ -31,7 +31,7 @@ When working with OpenUI5, we recommend the use of XML views, as this produces t
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 4: XML Views](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/04/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 4: XML Views](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/04) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-04.zip).
 
 ***
 

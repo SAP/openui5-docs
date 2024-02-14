@@ -86,13 +86,11 @@ Some APIs may be only partially deprecated, for instance passing a non-object `v
 
 -   Avoid accessing modules via global names.
 
--   Use `sap.ui.define` for defining a new module.
+-   Use `sap.ui.define` for defining a new module, including its eager dependencies.
 
--   Use `sap.ui.require` for requiring an existing module.
+-   Use `sap.ui.require` for requiring a module lazily at a later point in time.
 
--   Add only valid module IDs from the API Reference \(documented as Module: .../.../..\) to the dependency list. For example, use `sap/m/library` for the enum type `sap.ui.core.SortOrder`.
-
-    For the enum type `sap.ui.model.Filter`, however, require `sap/ui/model/FilterType` as it's a genuine module \(Module: `sap/ui/model/FilterType`\).
+-   Add only valid module IDs from the API Reference \(documented as Module: .../.../..\) to the dependency list.
 
 
     <table>
@@ -113,15 +111,16 @@ Some APIs may be only partially deprecated, for instance passing a non-object `v
     
     ```js
     sap.ui.define([
-      "sap/m/SortOrder", // "Module: sap/m/library"
-      "sap/ui/model/FilterType", // "Module: sap/ui/model/FilterType"
+      "sap/m/SortOrder", // Outdated pseudo module
+      "sap/ui/model/FilterType", // standalone module
       "sap/ui/layout" // target use: SimpleForm
     ], (SortOrder, FilterType, sapUiLayoutLib) => {
       "use strict"
-      const SimpleForm = sapUiLayoutLib.form.SimpleForm;
+      var SimpleForm = sapUiLayoutLib.form.SimpleForm; // access to Control via globals
     
         // ...
     
+          // access to Control via globals
           sap.m.MessageBox.show(/*...*/);
     
         // ...
@@ -136,15 +135,16 @@ Some APIs may be only partially deprecated, for instance passing a non-object `v
     
     ```js
     sap.ui.define([
-      "sap/m/library", // target use: SortOrder
-      "sap/ui/model/FilterType", // remains same
-      "sap/ui/layout/form/SimpleForm"
+      "sap/m/library", // "SortOrder" is contained in the sap/m/library.js module
+      "sap/ui/model/FilterType", // remains the same
+      "sap/ui/layout/form/SimpleForm" // imported as a module, no access to globals needed
     ], (sapMLib, FilterType, SimpleForm) => {
       "use strict";
       const { SortOrder } = sapMLib;
     
         // ...
     
+          // lazily require the sap/m/MessageBox on demand
           sap.ui.require([
             "sap/m/MessageBox"
           ], (MessageBox) => {
@@ -163,9 +163,7 @@ Some APIs may be only partially deprecated, for instance passing a non-object `v
     </table>
     
 
-**Additional Information:**
-
--   [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md)
+For more information, see [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
 
 **Third-Party Libraries**
 

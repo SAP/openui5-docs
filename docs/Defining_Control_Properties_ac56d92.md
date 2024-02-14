@@ -249,6 +249,24 @@ properties: {
 
 ```
 
+Example for requiring enum types programmatically:
+
+```js
+sap.ui.require([
+    "sap/m/library", // enum sap.m.ButtonType (Module: sap/m/library)
+    "sap/ui/model/FilterType" // enum sap.ui.model.FilterType (Module: sap/ui/model/FilterType)
+], (sapMLib, FilterType) => {
+    const { ButtonType } = sapMLib;
+    mySapMButton.setType(ButtonType.Emphasized);
+    myListBinding.filter(myFilter, FilterType.Control);
+});
+```
+
+Make sure to check the API Reference on how to access types via their correct Module IDs \(documented as "Module: .../.../..."\).
+
+> ### Caution:  
+> **Deprecated Pseudo Modules:** Enums contained in a `library.js` module should not be imported as a standalone module. For more information, see [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
+
 
 
 </td>

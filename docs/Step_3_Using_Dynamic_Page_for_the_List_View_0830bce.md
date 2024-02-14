@@ -59,10 +59,7 @@ webapp/manifest.json \[MODIFY\]
 				"sap.ui.core": {},
 				"sap.m": {},
 				"sap.f": {}
-			}
-		},
-		"config": {
-			"fullWidth": true
+				}
 		}
 	}
 }

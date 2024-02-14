@@ -42,10 +42,19 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 
 -   Computed annotations start with "@@", for example `<Text text="{meta>Value/@@AnnotationHelper.value}" />`. Their name without the "@@" prefix refers to a function which computes an annotation value from the metadata addressed by the preceding path.
 
-    > ### Note:  
-    > The usage of global names \(such as `sap.ui.model.odata.v4.AnnotationHelper.value`\) is deprecated since 1.120. Use `template:require` instead as shown in the example below.
+    The function name behind "@@" \(`"AnnotationHelper.value"` in the example\) is resolved in the following cases:
 
-    For more information, see [ODataMetaModel.requestObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject) .
+    -   When [processing an XML template](XML_Templating_5ee619f.md): via a `template:require` attribute at the node or one of its parent nodes, or via `<template:alias>`
+
+    -   In a binding within an XML view \(since 1.121\): via a [`core:require`](Require_Modules_in_XML_View_and_Fragment_b11d853.md) attribute at the control or one of its parent controls \(for example, the view\). This requires that UI5 uses `data-sap-ui-bindingSyntax="complex"` or `compatVersion="edge"` as described in [Property Binding](Property_Binding_91f0652.md), so that complex, JSON-like bindings are allowed.
+    -   In [`ODataMetaModel.requestObject`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject): via `mParameters.scope`
+    -   In all three situations, but deprecated since 1.120: via a global name \(like `sap.ui.model.odata.v4.AnnotationHelper.value`\)
+
+        > ### Note:  
+        > The usage of global names \(such as `sap.ui.model.odata.v4.AnnotationHelper.value`\) is deprecated since 1.120. Use `template:require` instead as shown in the example below.
+
+
+    For more information, see [ODataMetaModel.requestObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject).
 
 -   Ensure that the view is loaded asynchronously. In this case, there is no longer a need to preload metadata, because the template processor waits for every binding to be resolved before proceeding.
 
@@ -187,7 +196,7 @@ The OData V4 model supports loading of additional annotation files.
 
 [OData V4 Metadata JSON Format](OData_V4_Metadata_JSON_Format_87aac89.md "The OData V4 model provides access to metadata in a streamlined JSON format which is described in the section below.")
 
-[getMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/sap.ui.model.odata.v4.ODataModel.getMetadata)
+[getMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23methods/getMetaModel)
 
 [sap.ui.model.odata.v4.ODataMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel)
 
@@ -196,6 +205,4 @@ The OData V4 model supports loading of additional annotation files.
 [sap.ui.model.odata.v4.ODataMetaModel\#getObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/getObject)
 
 [sap.ui.model.odata.v4.ODataMetaModel\#bindList](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/bindList)
-
-[sap.ui.model.odata.ODataMetaModel\#loaded](https://sdk.openui5.org/api/sap.ui.model.odata.ODataMetadata/methods/loaded)
 
