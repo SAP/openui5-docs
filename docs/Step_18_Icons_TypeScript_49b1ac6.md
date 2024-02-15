@@ -28,7 +28,7 @@ Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large ico
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 18: Icons](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/18/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 18: Icons](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/18) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-18.zip).
 
 ***
 

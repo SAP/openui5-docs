@@ -28,7 +28,7 @@ In this step, we are going to extend the functionality of OpenUI5 with a custom 
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 33: Custom Controls](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/33/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 33: Custom Controls](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/33) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-33.zip).
 
 ***
 

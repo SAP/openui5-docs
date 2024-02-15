@@ -30,7 +30,7 @@ To make this work, we have to pass over the information which item has been sele
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 31: Routing With Parameters](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/31/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 31: Routing with Parameters](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/31) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-31.zip).
 
 ***
 

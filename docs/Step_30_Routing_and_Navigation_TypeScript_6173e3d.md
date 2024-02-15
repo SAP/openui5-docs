@@ -30,7 +30,7 @@ In this step, we will use the OpenUI5 navigation features to load and show a sep
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 30: Routing and Navigation](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/30/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 30: Routing and Navigation](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/30) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-30.zip).
 
 ***
 

@@ -28,7 +28,7 @@ Now we use a shell control as container for our app and use it as our new root e
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 12: Shell Control as Container](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/12) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-12.zip)./xref\>.
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 12: Shell Control as Container](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/12) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-12.zip).
 
 ***
 

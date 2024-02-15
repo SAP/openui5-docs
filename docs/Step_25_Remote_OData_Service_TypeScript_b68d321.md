@@ -36,7 +36,7 @@ In the real world, data often resides on remote servers and is accessed via an O
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 25: Remote OData Service](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/25/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 25: Remote OData Service](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/25) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-25.zip).
 
 ***
 

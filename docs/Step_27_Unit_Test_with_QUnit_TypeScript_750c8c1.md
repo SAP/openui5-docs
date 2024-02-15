@@ -31,7 +31,7 @@ Actually, every feature that we added to the app so far, would require a separat
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 27: Unit Tests with QUnit](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/27/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 27: Unit Test with QUnit](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/27) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-27.zip).
 
   
   

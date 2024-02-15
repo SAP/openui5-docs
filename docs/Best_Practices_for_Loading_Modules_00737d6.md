@@ -73,7 +73,7 @@ sap.ui.require([
 });
 ```
 
-You can find the corresponding module for each API, enum and control in the API Reference, e.g. [`sap.m.ButtonType`](https://sdk.openui5.org/api/sap.m.ButtonType) and[`sap.ui.model.FilterType`](https://sdk.openui5.org/api/sap.ui.model.FilterType).
+You can find the corresponding module for each API, enum and control in the API Reference, e.g. [`sap.m.ButtonType`](https://sdk.openui5.org/api/sap.m.ButtonType) and [`sap.ui.model.FilterType`](https://sdk.openui5.org/api/sap.ui.model.FilterType).
 
 ***
 

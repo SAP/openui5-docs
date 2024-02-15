@@ -24,7 +24,7 @@ Now we can navigate to our detail page and display an invoice, but we cannot go 
 
 ### Coding
 
-You can view all files at [OpenUI5 TypeScript Walkthrough - Step 32: Routing Back and History](https://github.com/sap-samples/ui5-typescript-walkthrough/steps/32/README.md).
+You can view all files at [OpenUI5 TypeScript Walkthrough - Step 32: Routing Back and History](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/32) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-32.zip).
 
 ***
 
