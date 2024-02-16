@@ -2172,9 +2172,7 @@ Current version of the `manifest.json`
         "openSourceComponents": [{
             "name": "D3.js",
             "packagedWithMySelf": false
-        }],
-        }
-        }
+            }]
     },
  
     "sap.ui": {
@@ -2191,8 +2189,7 @@ Current version of the `manifest.json`
             "desktop": true,
             "tablet": true,
             "phone": false
-        },
-        "fullWidth": true
+        }
     },
  
     "sap.ui5": {

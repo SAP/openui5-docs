@@ -144,7 +144,7 @@ Custom Sources \(Including 'self' for the App's Own Origin\)
 </td>
 <td valign="top" align="center">
 
-<span style="color:#007833;"><span class="SAP-icons"></span></span>
+<span style="color:#007833;"><span class="SAP-icons-V5"></span></span>
 
 </td>
 <td valign="top">
@@ -188,7 +188,7 @@ Most likely required for deprecated APIs, especially for programming model APIs,
 </td>
 <td valign="top" align="center">
 
-<span style="color:#007833;"><span class="SAP-icons"></span></span>
+<span style="color:#007833;"><span class="SAP-icons-V5"></span></span>
 
 </td>
 <td valign="top">
@@ -237,7 +237,7 @@ Certain libraries at least partly still require `'unsafe-inline'`, including:
 </td>
 <td valign="top" align="center">
 
-<span style="color:#007833;"><span class="SAP-icons"></span></span>
+<span style="color:#007833;"><span class="SAP-icons-V5"></span></span>
 
 </td>
 <td valign="top">
@@ -269,7 +269,7 @@ May require `'self'` or additional locations for application-specific images \(s
 </td>
 <td valign="top" align="center">
 
-<span style="color:#007833;"><span class="SAP-icons"></span></span>
+<span style="color:#007833;"><span class="SAP-icons-V5"></span></span>
 
 </td>
 <td valign="top">
@@ -333,7 +333,7 @@ May require additional locations depending on the integration, application, or t
 </td>
 <td valign="top" align="center">
 
-<span style="color:#007833;"><span class="SAP-icons"></span></span>
+<span style="color:#007833;"><span class="SAP-icons-V5"></span></span>
 
 </td>
 <td valign="top">
@@ -365,7 +365,7 @@ May be required by some specific OpenUI5 functionality.
 </td>
 <td valign="top" align="center">
 
-<span style="color:#007833;"><span class="SAP-icons"></span></span>
+<span style="color:#007833;"><span class="SAP-icons-V5"></span></span>
 
 </td>
 <td valign="top">
@@ -397,7 +397,7 @@ May be required by some specific OpenUI5 functionality.
 </td>
 <td valign="top" align="center">
 
-<span style="color:#007833;"><span class="SAP-icons"></span></span>
+<span style="color:#007833;"><span class="SAP-icons-V5"></span></span>
 
 </td>
 <td valign="top">
