@@ -31,10 +31,9 @@ The UI uses data binding to bind controls to the model which holds the applicati
 > 
 > For more information check the [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download) section of the tutorials overview page [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md).
 
-1.  [Step 1: No Data Binding](Step_1_No_Data_Binding_4cde849.md "In this step, we simply place some text on the screen using a standard
-			sap.m.Text control. The text in this control is a hard-coded part of
-		the control's definition; therefore, this is not an example of data binding!")  
-In this step, we simply place some text on the screen using a standard `sap.m.Text` control. The text in this control is a hard-coded part of the control's definition; therefore, this is not an example of data binding!
+1.  [Step 1: No Data Binding](Step_1_No_Data_Binding_4cde849.md "In this step, we create a basic application and simply place some text on the screen using a standard sap.m.Text control.
+		The text in this control is a hard-coded part of the control's definition; therefore, this is not an example of data binding!")  
+In this step, we create a basic application and simply place some text on the screen using a standard `sap.m.Text` control. The text in this control is a hard-coded part of the control's definition; therefore, this is not an example of data binding!
 2.  [Step 2: Creating a Model](Step_2_Creating_a_Model_5278bfd.md "In this step, we create a model as container for the data on which your application
 		operates.")  
 In this step, we create a model as container for the data on which your application operates.
