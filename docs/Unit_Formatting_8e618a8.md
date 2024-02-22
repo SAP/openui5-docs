@@ -328,7 +328,7 @@ The third argument of the base Unit type constructor is a list of dynamic format
 > ### Caution:  
 > **Legacy unit mapping is deprecated as of OpenUI5 1.122.0**
 > 
-> With UI5 version 1.122.0, this map is no longer maintained; the state of this mapping is from UI5 version 1.119.0 and will remain for compatibility reasons only.
+> With UI5 version 1.122.0, this map is no longer maintained; the state of this mapping corresponds to UI5 version 1.119.0.
 
 With the upgrade of the CLDR version from 35.1 to 41, released with OpenUI5 version 1.110, some unit keys have changed. To support the formatting of legacy unit keys, a mapping has been added. A user is able to load legacy unit keys from his back end, which are then mapped to the new unit keys. When parsing user input, only the new unit keys are returned. Updating or changing entries containing legacy unit keys results in replacing the legacy unit key with a new unit key.
 
