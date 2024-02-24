@@ -243,7 +243,7 @@ The usage of template literals with one or more expressions in the context of th
 > const sLibName = `ui/core`
 >  
 > sap.ui.define([
->   `sap/{sLibName}/mvc/Controller`
+>   `sap/${sLibName}/mvc/Controller`
 > ], (Controller) => {
 > });
 > ```
@@ -347,20 +347,13 @@ The usage of template literals with one or more expressions as the class name pa
 > **Not supported** 
 > 
 > ```
-> // Do NOT use template literals with one or more
-> // expressions inside the extend call
+> // Do NOT use template literals with one or more expressions inside the extend call
 > const sControllerPath = "my.app.controller.";
 > sap.ui.define([
 >     "sap/ui/core/mvc/Controller"
 > ], (Controller) => {
 >     "use strict";
->     return Controller.extend(`{sControllerPath}MyController`, {});
-> });// Using template literals without any expressions inside the extend call
-> sap.ui.define([
->     "sap/ui/core/mvc/Controller"
-> ], (Controller) => {
->     "use strict";
->     return Controller.extend(`my.app.controller.MyController`, {});
+>     return Controller.extend(`${sControllerPath}MyController`, {});
 > });
 > ```
 
@@ -413,7 +406,7 @@ Do **not** use an expression for the library name when initializing a library.
 > **Not supported** 
 > 
 > ```
-> // Using template literals without any expressions inside the extend call// Do NOT use an expression for the library name when initializing a library
+> // Do NOT use an expression for the library name when initializing a library
 > const libraryName = "lib";
 > sap.ui.define([
 >     "sap/ui/core/Lib"
@@ -489,7 +482,7 @@ Do **not** use a template literal with one or more expressions for the library n
 > ], (Library) => {
 >     "use strict";
 >     const thisLib = Library.init({
->         name: "my.{libraryName}"
+>         name: "my.${libraryName}"
 >     });
 > });
 > ```
