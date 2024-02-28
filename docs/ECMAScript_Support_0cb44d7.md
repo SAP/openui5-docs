@@ -166,7 +166,7 @@ Or, for still using `await`, you could wrap your async function:
 >         text: "Press me",
 >         press: () => {
 >             (async () => { // async wrapper
->                 await doSomething() // do something async, e.g. request data and wait for it...
+>                 await doSomething(); // do something async, e.g. request data and wait for it...
 >                 console.log("Data received!");
 >             })()
 >         }
@@ -209,7 +209,8 @@ Do **not** use a spread element as a parameter in the context of the `sap.ui.def
 >     "sap/ui/core/mvc/Controller", 
 >     "sap/ui/mode/Filter", 
 >     "sap/ui/model/FilterOperator", 
->     "sap/ui/model/json/JSONModel"];
+>     "sap/ui/model/json/JSONModel"
+> ];
 > sap.ui.define([
 >   ...dependencies
 > ], (Controller, Filter, FilterOperator, JSONModel) => {
@@ -240,7 +241,7 @@ The usage of template literals with one or more expressions in the context of th
 > ```
 > // Do NOT use template literals with one or more
 > // expressions inside an sap.ui.define or sap.ui.require call.
-> const sLibName = `ui/core`
+> const sLibName = `ui/core`;
 >  
 > sap.ui.define([
 >   `sap/${sLibName}/mvc/Controller`
@@ -482,7 +483,7 @@ Do **not** use a template literal with one or more expressions for the library n
 > ], (Library) => {
 >     "use strict";
 >     const thisLib = Library.init({
->         name: "my.${libraryName}"
+>         name: `my.${libraryName}`
 >     });
 > });
 > ```
