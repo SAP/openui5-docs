@@ -53,7 +53,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 2](h
 
 1.  Create a new folder named `model` in the `webapp` folder. In this folder, create a file called `data.json` with the following content:
 
-    **webapp/model/data.json**
+    **webapp/model/data.json \(New\)**
 
     ```
     {
@@ -63,7 +63,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 2](h
 
 2.  Create a new JSON model in the `manifest.json` and set its path via a URI. This binds the model object to the app component and makes it globally available to all controls used within the application.
 
-    **manifest.json**
+    **webapp/manifest.json**
 
     ```
     ...

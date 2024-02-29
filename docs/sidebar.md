@@ -204,7 +204,7 @@
             -   [Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models](Step_8_Binding_Paths_Accessing_Properties_in_Hierarchically_Structured_Models_9373793.md)
             -   [Step 9: Formatting Values](Step_9_Formatting_Values_6fdf0ac.md)
             -   [Step 10: Property Formatting Using Data Types](Step_10_Property_Formatting_Using_Data_Types_9252ee4.md)
-            -   [Step 11: Validation Using the Message Manager](Step_11_Validation_Using_the_Message_Manager_b8c4e53.md)
+            -   [Step 11: Validation Using sap/ui/core/Messaging](Step_11_Validation_Using_sap_ui_core_Messaging_b8c4e53.md)
             -   [Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md)
             -   [Step 13: Element Binding](Step_13_Element_Binding_6c7c5c2.md)
             -   [Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md)
