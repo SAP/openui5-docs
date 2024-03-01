@@ -101,7 +101,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 10](
 
     A new pair of `Label` and `Input` elements have been created for the `salesAmount` model property. The description property of the `Input` element has been bound to the `currencyCode` model property. The value property of the `Input` element has been bound to the model properties `salesAmount` and `currencyCode`. The `{showMeasure: false}` parameter switches off the display of the currency symbol within the input field itself. This is not needed because it is being displayed using the `Input` element's description property.
 
-3.  Add the missing texts to the `properties` files. Please note that special characters \(non-Latin-1\) have to be entered by using Unicode escape characters.
+3.  Add the highlighted texts to the `properties` files. Please note that special characters \(non-Latin-1\) have to be entered by using Unicode escape characters.
 
     **webapp/i18n/i18n.properties**
 
@@ -111,7 +111,8 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 10](
     lastName=Nachname
     enabled=Enabled
     address=Address
-    salesAmount=Sales Amount...
+    salesAmount=Sales Amount
+    ...
     ```
 
     **webapp/i18n/i18n\_de.properties**

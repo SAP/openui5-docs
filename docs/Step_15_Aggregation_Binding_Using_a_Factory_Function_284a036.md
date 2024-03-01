@@ -49,7 +49,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 15](
     
     ```
 
-2.  Create a `ProductExtended.fragment.xml` file in the `view` folder. In the extended use case, you create an `ObjectListItem` to display more product details. The properties are bound to the fields of the current data binding context and therefore can use types, formatters, and all handlers that are defined in the assigned controller. However, more complex logic can’t be defined declaratively in XML. Therefore, when the stock level is zero, we add a single `sap.m.ObjectAttribute` that displays the *Out of Stock* message in the controller using JavaScript.
+2.  Create a new `ProductExtended.fragment.xml` file in the `view` folder. In the extended use case, you create an `ObjectListItem` to display more product details. The properties are bound to the fields of the current data binding context and therefore can use types, formatters, and all handlers that are defined in the assigned controller. However, more complex logic can’t be defined declaratively in XML. Therefore, we add a single `sap.m.ObjectAttribute` in a factory function of the controller using JavaScript, which displays an *Out of Stock* message when the stock level is zero.
 
     **webapp/view/ProductExtended.fragment.xml \(New\)**
 
