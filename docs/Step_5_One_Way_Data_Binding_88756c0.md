@@ -20,7 +20,7 @@ In contrast to the two-way binding behavior shown above, one-way data binding is
   
 **Two-way data binding disabled for the checkbox**
 
-![](images/loio61d68f167778425bbdd2abd7d550ae65_HiRes.png "Two-way data binding disabled for the checkbox")
+![](images/loio61d68f167778425bbdd2abd7d550ae65_LowRes.png "Two-way data binding disabled for the checkbox")
 
 ***
 

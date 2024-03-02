@@ -20,7 +20,7 @@ Expression binding allows you to display a value on the screen that has been cal
   
 **Values formatted**
 
-![](images/loiob9fb758efb0a481cb88a412a0712972f_HiRes.png "Values formatted")
+![](images/loiob9fb758efb0a481cb88a412a0712972f_LowRes.png "Values formatted")
 
 ***
 

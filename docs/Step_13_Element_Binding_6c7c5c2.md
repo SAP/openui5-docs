@@ -20,7 +20,7 @@ Now we want to do something with that newly generated list. In most cases you wi
   
 **Element binding implemented, product details displayed per item**
 
-![](images/loio872d2ed3f9144fbfb82e028b17c52ce3_HiRes.png "Element binding implemented, product details displayed per item")
+![](images/loio872d2ed3f9144fbfb82e028b17c52ce3_LowRes.png "Element binding implemented, product details displayed per item")
 
 ***
 

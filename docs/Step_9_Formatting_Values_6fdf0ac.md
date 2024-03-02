@@ -20,7 +20,7 @@ We also want to provide our users a way of contacting Harry Hawk. Therefore we w
   
 **Address with e-mail link**
 
-![](images/loio116157506b3f48ac8ec53ee05095c0df_HiRes.png "Address with e-mail link")
+![](images/loio116157506b3f48ac8ec53ee05095c0df_LowRes.png "Address with e-mail link")
 
 ***
 

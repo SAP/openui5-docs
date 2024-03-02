@@ -20,7 +20,7 @@ So far, we have created a currency field that can format itself correctly. The c
   
 **A message appears**
 
-![](images/loioe67207b43d08410e82e74ad57ffbc022_HiRes.png "A message appears")
+![](images/loioe67207b43d08410e82e74ad57ffbc022_LowRes.png "A message appears")
 
 ***
 
@@ -53,9 +53,9 @@ You can now enter a non-numeric value into the *Sales Amount* field and either p
 
 Now that validation handling has been enabled in the manifest, any validation error messages will be picked up by `Messaging`, which in turn checks its list of registered objects and then passes the error message back to the correct view for display.
 
-Note that the field in error has a red border: ![](images/loio44db88e92bc445b2b00e1b8e53b5ca9a_HiRes.png)
+Note that the field in error has a red border: ![](images/loio44db88e92bc445b2b00e1b8e53b5ca9a_LowRes.png)
 
-However, the error message itself will only be displayed when that particular field has focus: ![](images/loioe67207b43d08410e82e74ad57ffbc022_HiRes.png)
+However, the error message itself will only be displayed when that particular field has focus: ![](images/loioe67207b43d08410e82e74ad57ffbc022_LowRes.png)
 
 **Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
 

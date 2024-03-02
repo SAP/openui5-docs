@@ -20,7 +20,7 @@ Instead of hard-coding a single template control, we use a factory function to g
   
 **Controls generated based on data**
 
-![](images/loiodb27ba88d80c4778809bdb9b971531f9_HiRes.png "Controls generated based on data")
+![](images/loiodb27ba88d80c4778809bdb9b971531f9_LowRes.png "Controls generated based on data")
 
 ***
 

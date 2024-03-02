@@ -27,7 +27,7 @@ It will automatically create as many child controls as are needed to display the
   
 **List with aggregation binding**
 
-![](images/loio16424336ab62402e8c27d5d7dac069b1_HiRes.png "List with aggregation binding")
+![](images/loio16424336ab62402e8c27d5d7dac069b1_LowRes.png "List with aggregation binding")
 
 ***
 

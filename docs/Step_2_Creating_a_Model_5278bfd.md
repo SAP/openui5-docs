@@ -42,7 +42,7 @@ In this tutorial, we will focus on JSON models since they are the simplest ones 
   
 **Screen with text derived from a model object \(No visual changes to last step\)**
 
-![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text derived from a model object (No visual changes to last
+![](images/loio6d391d527601499fbeb3734246b2c067_LowRes.png "Screen with text derived from a model object (No visual changes to last
 					step)")
 
 ***

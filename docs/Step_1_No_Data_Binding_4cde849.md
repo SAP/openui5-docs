@@ -20,7 +20,7 @@ In this step, we create a basic application and simply place some text on the sc
   
 **Screen with text**
 
-![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text")
+![](images/loio6d391d527601499fbeb3734246b2c067_LowRes.png "Screen with text")
 
 ***
 
