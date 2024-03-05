@@ -2299,14 +2299,18 @@ For the following namespaces, the indicated teams are responsible:
 The component declares the existence of the application descriptor by specifying `manifest: "json"` in the component metadata. Setting this flag makes the component load the `manifest.json` file and read the relevant entries for OpenUI5. This metadata is used to define the dependencies that need to be loaded in order to start the component. The following code snippet shows how to add the manifest link:
 
 ```js
-sap.ui.define(['sap/ui/core/UIComponent'], function(UIComponent) {
-	
-	return UIComponent.extend("sap.samples.Component", {
+sap.ui.define([
+	"sap/ui/core/UIComponent"
+], (UIComponent) => {
+	"use strict";
+	return UIComponent.extend("my.sample.Component", {
 		metadata  : { 
-			manifest: "json"
+			manifest: "json",
+			interfaces: [
+				"sap.ui.core.IAsyncContentCreation"
+			]
 		}
 	});
-
 });
 ```
 
@@ -2314,18 +2318,13 @@ sap.ui.define(['sap/ui/core/UIComponent'], function(UIComponent) {
 
 ### OpenUI5 API
 
-At runtime, the `manifest.json` content can be accessed from the component via the component metadata:
+At runtime, the manifest content can be accessed from the component via the following `sap.ui.core.Component` APIs:
 
 ```js
-// get the component class
-sap.ui.require(['sap/samples/Component'], function(SampleComponent) {
-
-	// getting complete manifest from component metadata
-	SampleComponent.getMetadata().getManifest();
-	//or getting a namespace
-	SampleComponent.getMetadata().getManifestEntry("sap.app");
-	
-});
+// Given: oComponent === instance of sap.ui.core.Component (e.g. returned by sap.ui.core.mvc.Controller#getOwnerComponent)
+oComponent.getManifest(); // returns reference to the entire manifest object if it exists; otherwise returns null
+oComponent.getManifestEntry("sap.app"); // returns reference to the configuration section of the manifest
+oComponent.getManifestEntry("/sap.ui5/dependencies/libs"); // returns reference or value of the manifest configuration by path; the syntax must start with a slash
 ```
 
 -   **[Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md "Overview, how the component metadata are mapped to the descriptor. ")**  

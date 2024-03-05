@@ -28,7 +28,7 @@ Instead of hard-coding a single template control, we use a factory function to g
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 15](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.15).
 
-1.  Create a `ProductSimple.fragment.xml` file in the `view` folder. Define an `sap.m.StandardListItem` that is used if the stock level is zero and the product has also been discontinued. This is a simple use case where you just define a warning icon and a *Product Discontinued* message in the `info` property.
+1.  Create a `ProductSimple.fragment.xml` file in the `view` folder. Define an `sap.m.StandardListItem` that is used if the stock level is zero and the product has also been discontinued. This is a simple use case where you just define a warning icon and a "Product Discontinued" message in the `info` property.
 
     **webapp/view/ProductSimple.fragment.xml \(New\)**
 
@@ -49,7 +49,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 15](
     
     ```
 
-2.  Create a new `ProductExtended.fragment.xml` file in the `view` folder. In the extended use case, you create an `ObjectListItem` to display more product details. The properties are bound to the fields of the current data binding context and therefore can use types, formatters, and all handlers that are defined in the assigned controller. However, more complex logic can’t be defined declaratively in XML. Therefore, we add a single `sap.m.ObjectAttribute` in a factory function of the controller using JavaScript, which displays an *Out of Stock* message when the stock level is zero.
+2.  Create a new `ProductExtended.fragment.xml` file in the `view` folder. In the extended use case, you create an `ObjectListItem` to display more product details. The properties are bound to the fields of the current data binding context and therefore can use types, formatters, and all handlers that are defined in the assigned controller. However, more complex logic can’t be defined declaratively in XML. Therefore, we add a single `sap.m.ObjectAttribute` in a factory function of the controller using JavaScript, which displays an "Out of Stock" message when the stock level is zero.
 
     **webapp/view/ProductExtended.fragment.xml \(New\)**
 
@@ -154,7 +154,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 15](
 
     For each item of the list, the corresponding control is cloned. This method creates a fresh copy of a control that can be bound to the context of the list item. Please note: In a factory function, you are responsible for the life cycle of the control you create.
 
-    If the product is not discontinued but the stock level is zero, we are temporarily out of stock. In this case, a single `sap.m.ObjectAttribute` is added to the cloned control. The *Out of Stock* message is bound to the `sap.m.ObjectAttribute`'s `text` property using JavaScript. Similar to declarative definitions in the XML view or fragments, you can bind properties using data binding syntax. In this case, the text is bound to an entry in the resource bundle. Since the `sap.m.ObjectAttribute` is a child of the list item, it has access to all assigned models and the current binding context.
+    If the product is not discontinued but the stock level is zero, we are temporarily out of stock. In this case, a single `sap.m.ObjectAttribute` is added to the cloned control. The "Out of Stock" message is bound to the `sap.m.ObjectAttribute`'s `text` property using JavaScript. Similar to declarative definitions in the XML view or fragments, you can bind properties using data binding syntax. In this case, the text is bound to an entry in the resource bundle. Since the `sap.m.ObjectAttribute` is a child of the list item, it has access to all assigned models and the current binding context.
 
     Finally, the function returns the control that is then displayed inside the list.
 

@@ -95,7 +95,6 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 8](h
     enabled=Enabled
     address=Address
     
-    
     # Screen titles
     panel1HeaderText=Data Binding Basics 
     panel2HeaderText=Address Details
@@ -109,7 +108,6 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 8](h
     lastName=Nachname
     enabled=Aktiviert
     address=Adresse
-    
     
     # Screen titles
     panel1HeaderText=Data Binding Grundlagen
