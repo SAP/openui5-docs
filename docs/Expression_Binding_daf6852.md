@@ -296,11 +296,7 @@ Global symbol
 `Array`, `Boolean`, `Date`, `encodeURIComponent`, `Infinity`, `isFinite`, `isNaN`, `JSON`, `Math`, `NaN`, `Number`, `Object`, `odata.collection`,`odata.compare`, `odata.fillUriTemplate`, `odata.uriEncode`, `parseFloat`, `parseInt`, `RegExp`, `String`, `undefined`
 
 > ### Note:  
-> To avoid synchronous loading of modules on demand, make sure to require the following modules in advance:
-> 
-> -   `sap.ui.model.odata.v4.ODataUtils` if `odata.compare` is used
-> -   `sap.ui.thirdparty.URITemplate` if `odata.fillUriTemplate` is used
-> -   `sap.ui.model.odata.ODataUtils` if `odata.uriEncode` is used
+> When using any of the global symbols `odata.compare`, `odata.fillUriTemplate`, or`odata.uriEncode`, make sure to require the `sap/ui/model/odata/ODataExpressionAddons` module in advance to avoid synchronous loading of modules on demand.
 
 
 

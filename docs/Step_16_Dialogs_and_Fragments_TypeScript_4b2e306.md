@@ -80,21 +80,16 @@ import Dialog from "sap/m/Dialog";
  * @namespace ui5.walkthrough.controller
  */
 export default class HelloPanel extends Controller {
-    private dialogPromise: Promise<Dialog>;
+    private dialog: Dialog;
 
     onShowHello(): void {
         ...
     }
-    onOpenDialog(): void {
-    // create dialog lazily
-        if (!this.dialogPromise) {
-            this.dialogPromise = <Promise<Dialog>> this.loadFragment({
-                name: "ui5.walkthrough.view.HelloDialog"
-            });
-        } 
-        this.dialogPromise.then(function(oDialog) {
-            oDialog.open();
-        });
+    async onOpenDialog(): Promise<void> {
+      this.dialog = await <Promise<Dialog>> this.loadFragment({
+         name: "ui5.walkthrough.view.HelloDialog"
+      });
+      this.dialog.open();
     }   
 };
 ```
