@@ -39,7 +39,7 @@ The following restrictions apply when you use modern ECMAScript:
 
     For more information, see *Asynchronous Factory Function* in [Defining and Loading OpenUI5 Modules](ECMAScript_Support_0cb44d7.md#loio0cb44d7a147640a0890cefa5fd7c7f8e__section_UI5Mod).
 
-5.  Do not use async functions within predefined lifecycle hooks, such as[`sap/ui/core/mvc/Controller#onInit`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller%23methods/onInit).
+5.  Do not use async functions within predefined lifecycle hooks, such as [`sap/ui/core/mvc/Controller#onInit`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller%23methods/onInit).
 
     For more information, see [Event Handler Registration](ECMAScript_Support_0cb44d7.md#loio0cb44d7a147640a0890cefa5fd7c7f8e__section_EHR).
 
@@ -84,7 +84,7 @@ Please continue to use the regular OpenUI5 APIs `sap.ui.define` and `sap.ui.requ
 
 ***
 
-#### Asynchronous Factory Function
+#### Asynchronous Factory Functions
 
 Do **not** use an `async` factory function when loading or defining OpenUI5 modules. The OpenUI5 Loader will not wait for a returned Promise.
 
@@ -195,7 +195,7 @@ The usage of template literals with one or more expressions in the context of th
 
 <a name="loio0cb44d7a147640a0890cefa5fd7c7f8e__section_EHR"/>
 
-### Async Event Handler Registration
+### Event Handler Registration
 
 ***
 
@@ -306,7 +306,7 @@ Lifecycle Hooks
 
 ***
 
-#### Control Event Listener
+#### Control Event Listeners
 
 You can implement an asynchronous event handler for control events. However, OpenUI5 directly invokes the event handler without taking into account the returned Promise or any execution order.
 
@@ -327,7 +327,7 @@ You can implement an asynchronous event handler for control events. However, Ope
 > ### Caution:  
 > Error Handling
 > 
-> Errors in asynchronous event handlers must be carefully managed. If you use an `await` inside an event handler and it throws an error,this typically won't be caught by the code on the outside of the async function.
+> Errors in asynchronous event handlers must be carefully managed. If you use an `await` inside an event handler and it throws an error, this typically won't be caught by the code on the outside of the async function.
 
 ***
 
@@ -387,7 +387,7 @@ Do **not** use an expression, only a literal, in the class name parameter inside
 
 ***
 
-#### Variable Usage as Class Name
+#### Variable Usages as Class Name
 
 Do **not** use a variable as the class name parameter inside the `extend` call.
 
@@ -407,7 +407,7 @@ Do **not** use a variable as the class name parameter inside the `extend` call.
 
 ***
 
-#### Template Literal as Class Name
+#### Template Literals as Class Name
 
 The usage of template literals with one or more expressions as the class name parameter inside the `extend` call is **not** supported.
 
@@ -479,7 +479,7 @@ An OpenUI5 library is typically initialized via an accompanying `library.js`. Wi
 
 ***
 
-#### Expression as Parameter
+#### Expressions as Parameter
 
 Do **not** use an expression for the library name when initializing a library.
 
@@ -501,7 +501,7 @@ Do **not** use an expression for the library name when initializing a library.
 
 ***
 
-#### Variable Usage as Parameter
+#### Variable Usages as Parameter
 
 Do **not** use a variable for the library name when initializing a library.
 
@@ -523,7 +523,7 @@ Do **not** use a variable for the library name when initializing a library.
 
 ***
 
-#### Spread Element as Parameter
+#### Spread Elements as Parameter
 
 Do **not** use a spread element for the library name when initializing a library.
 
@@ -547,7 +547,7 @@ Do **not** use a spread element for the library name when initializing a library
 
 ***
 
-#### Template Literal as Parameter
+#### Template Literals as Parameter
 
 Do **not** use a template literal with one or more expressions for the library name when initializing a library.
 
