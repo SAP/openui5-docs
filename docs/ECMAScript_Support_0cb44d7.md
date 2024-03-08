@@ -39,9 +39,9 @@ The following restrictions apply when you use modern ECMAScript:
 
     For more information, see *Asynchronous Factory Function* in [Defining and Loading OpenUI5 Modules](ECMAScript_Support_0cb44d7.md#loio0cb44d7a147640a0890cefa5fd7c7f8e__section_UI5Mod).
 
-5.  Do not use async functions within predefined lifecycle hooks, such as [`sap/ui/core/mvc/Controller#onInit`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller%23methods/onInit).
+5.  Do not use async functions when implementing predefined lifecycle hooks, such as [`sap/ui/core/mvc/Controller#onInit`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller%23methods/onInit).
 
-    For more information, see [Event Handler Registration](ECMAScript_Support_0cb44d7.md#loio0cb44d7a147640a0890cefa5fd7c7f8e__section_EHR).
+    For more information, see [Async Functions and Event Handlers](ECMAScript_Support_0cb44d7.md#loio0cb44d7a147640a0890cefa5fd7c7f8e__section_EHR).
 
 
 ***
@@ -195,15 +195,15 @@ The usage of template literals with one or more expressions in the context of th
 
 <a name="loio0cb44d7a147640a0890cefa5fd7c7f8e__section_EHR"/>
 
-### Event Handler Registration
+### Async Functions and Event Handlers
 
 ***
 
 #### OpenUI5 Lifecycle Hooks
 
-Do **NOT** introduce async functions within predefined OpenUI5 lifecycle hook methods. OpenUI5 might introduce an optional return type for such functions later. Using async functions here already would result in a return value that might conflict with such a later change.
+Do **NOT** use async functions when implementing predefined OpenUI5 lifecycle hook methods. OpenUI5 might introduce an optional return type for such functions later. Using async functions here already would result in a return value that might conflict with such a later change.
 
-Despite their use of async functions, these lifecycle hook methods should nevertheless refrain from returning a value in their implementation. The lifecycle hooks include the following methods:
+Lifecycle hook methods should also refrain from returning a value in their implementation. The lifecycle hooks include the following methods:
 
 
 <table>
@@ -272,6 +272,8 @@ Lifecycle Hooks
 
 `sap/ui/core/Component`
 
+`sap/ui/core/UIComponent`
+
 </td>
 <td valign="top">
 
@@ -327,7 +329,7 @@ You can implement an asynchronous event handler for control events. However, Ope
 > ### Caution:  
 > Error Handling
 > 
-> Errors in asynchronous event handlers must be carefully managed. If you use an `await` inside an event handler and it throws an error, this typically won't be caught by the code on the outside of the async function.
+> Errors in asynchronous event handlers must be carefully managed. If you use an `await` inside an event handler and it throws an error, this typically won't be caught by the control that fired the event.
 
 ***
 
