@@ -119,7 +119,7 @@ Feature
 
 **Samples for `sap.ui.mdc` library**
 
-You can now test more features of the controls in the \(experimental\) `sap.ui.mdc` library in the samples. To find the sample for this library in the Demo Kit, go to *Samples* and select MDC Overview. For more information, see the [Samples](https://sdk.openui5.org/entity/sap.ui.mdc).
+You can now test more features of the controls in the \(experimental\) `sap.ui.mdc` library in the samples. To find the samples for this library in the Demo Kit, go to *Samples* and select MDC Samples. For more information, see the [Samples](https://sdk.openui5.org/entity/sap.ui.mdc).
 
 <sub>Changed•Feature•Info Only•1.122</sub>
 
@@ -504,6 +504,88 @@ Control
 We have added a new `anchorBarButtonColor` property. It allows you to specify the text color of each button inside the `AnchorBar`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.uxap.ObjectPageSection).
 
 <sub>Changed•Control•Info Only•1.122</sub>
+
+</td>
+<td valign="top">
+
+Info Only 
+
+</td>
+<td valign="top">
+
+2024-03-21
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.122 
+
+</td>
+<td valign="top">
+
+Changed 
+
+</td>
+<td valign="top">
+
+Control 
+
+</td>
+<td valign="top">
+
+**`sap.uxap.ObjectPageLayout`** 
+
+</td>
+<td valign="top">
+
+**`sap.uxap.ObjectPageLayout`**
+
+We have introduced a new `sapUxAPObjectPageSubSectionTransparentBackground` class for `sap.uxap.ObjectPageSubSection` that allows applications to set a transparent background for subsections. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.uxap.ObjectPageSubSection).
+
+<sub>Changed•Control•Info Only•1.122</sub>
+
+</td>
+<td valign="top">
+
+Info Only 
+
+</td>
+<td valign="top">
+
+2024-03-21
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.122 
+
+</td>
+<td valign="top">
+
+Changed 
+
+</td>
+<td valign="top">
+
+Feature 
+
+</td>
+<td valign="top">
+
+****Demo Kit: New Design for the Tools Section**** 
+
+</td>
+<td valign="top">
+
+**Demo Kit: New Design for the Tools Section**
+
+We have redesigned the Tools section of the Demo Kit. It is now called Resources and has a new look and feel. For more information, see [Resources](https://sdk.openui5.org/resources).
+
+<sub>Changed•Feature•Info Only•1.122</sub>
 
 </td>
 <td valign="top">
