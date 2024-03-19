@@ -460,7 +460,7 @@ Feature
 
 You can now take the Walkthrough tutorial with UI5 Tooling as our preferred development environment; the sample code for all tutorial steps has been updated to work with UI5 Tooling out of the box. We also included features of modern ECMAScript and added an additional step showing how to build an application.
 
-For more information, see [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md).
+For more information, see [Walkthrough Tutorial \(JavaScript\)](Walkthrough_Tutorial_JavaScript_3da5f4b.md).
 
 <sub>Changed•Feature•Info Only•1.120</sub>
 

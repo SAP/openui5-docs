@@ -28,7 +28,7 @@ Follow these steps to start your UI5 journey with UI5 Tooling:
 
 2.  Open a new terminal and execute `npm i -g @ui5/cli`
 
-You're all set! Start your journey by checking out the [UI5 sample app](https://github.com/SAP/openui5-sample-app) or our [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md).
+You're all set! Start your journey by checking out the [UI5 sample app](https://github.com/SAP/openui5-sample-app) or our [Walkthrough Tutorial \(JavaScript\)](Walkthrough_Tutorial_JavaScript_3da5f4b.md).
 
 ***
 

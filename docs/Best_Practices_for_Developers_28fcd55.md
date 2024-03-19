@@ -220,11 +220,12 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 
 -   When creating data binding programmatically, add the data types to the dependency list and create instances on your own. Do **not** specify their global names.
 
--   When an [Expression Binding](Expression_Binding_daf6852.md) refers to any of the built-in global names `odata.compare`, `odata.fillUriTemplate`, or `odata.uriEncode`, the corresponding modules must be required by the surrounding code \(either via [`template:require`](require_263f6e5.md), [`core:require`](Require_Modules_in_XML_View_and_Fragment_b11d853.md), or in the controller code\):
+-   When an [Expression Binding](Expression_Binding_daf6852.md) refers to any of the built-in global symbols `odata.compare`, `odata.fillUriTemplate`, or `odata.uriEncode`, the corresponding modules must be required by the surrounding code \(either via [`template:require`](require_263f6e5.md), [`core:require`](Require_Modules_in_XML_View_and_Fragment_b11d853.md), or in the controller code\):
 
     -   `odata.compare`: `sap/ui/model/odata/v4/ODataUtils`
     -   `odata.fillUriTemplate`: `sap/ui/thirdparty/URITemplate`
     -   `odata.uriEncode`: `sap/ui/model/odata/ODataUtils`
+    -   To cover **all** built-in global symbols of the `odata` namespace at once, you can import `sap/ui/model/odata/ODataExpressionAddons`
 
 
 **Additional Information:**
@@ -292,7 +293,7 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 
 -   [Use the MVC Concept](Use_the_MVC_Concept_07afcf4.md)
 -   [Keep Your Views Short and Simple](Keep_Your_Views_Short_and_Simple_b0d7db7.md)
--   [View Cloning \(deprecated\)](View_Cloning_deprecated_a575619.md)
+-   [View Cloning (deprecated)](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/a575619e25c2487f904bae71764e2350.html "For normal controls, view cloning bases on control settings that are described by OpenUI5 metadata, such as properties, aggregations, associations, and event handlers. The clone operation collects these settings and creates a new instance.") :arrow_upper_right:
 -   [Instantiation of Fragments](Instantiation_of_Fragments_04129b2.md)
 -   [Programmatically Instantiating XML Fragments](Programmatically_Instantiating_XML_Fragments_d6af195.md)
 

@@ -177,7 +177,7 @@ The `bindElement` function is creating a binding context for a OpenUI5 control a
 
 -   Initialize the router at the end of your `Component#init` function
 
-**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial \(JavaScript\)](Walkthrough_Tutorial_JavaScript_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
 **Next:**[Step 30: Routing and Navigation](Step_30_Routing_and_Navigation_e5200ee.md "So far, we have put all app content on one single page. As we add more and more features, we want to split the content and put it on separate pages.")
 

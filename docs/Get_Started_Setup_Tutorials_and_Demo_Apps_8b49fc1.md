@@ -59,7 +59,7 @@ To download the code from the Demo Kit, follow these steps:
 
 3.  Extract the project folder to a desired location on your local machine.
 
-4.  **If you use UI5 Tooling \(recommended\):** At your chosen location, open a new shell and execute `npm install`. After all dependencies have been installed, enter `npm start` to start the development server. \(**Note:** if they're not already present, you may have to create and adapt some project configuration files first; see the [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md) for an example.\)
+4.  **If you use UI5 Tooling \(recommended\):** At your chosen location, open a new shell and execute `npm install`. After all dependencies have been installed, enter `npm start` to start the development server. \(**Note:** if they're not already present, you may have to create and adapt some project configuration files first; see the [Walkthrough Tutorial \(JavaScript\)](Walkthrough_Tutorial_JavaScript_3da5f4b.md) for an example.\)
 
 5.  Test your project setup by opening one of its HTML pages in your development environment and making sure that the app displays the features exactly as shown in the preview of the step.
 
@@ -85,7 +85,7 @@ If you want to see some practical examples for OpenUI5 apps, check out our [Demo
 -   **[Quickstart Tutorial](Quickstart_Tutorial_592f36f.md "Unleash your OpenUI5 skills with this simple three-step tutorial. We start
 		with a simple &quot;Hello World&quot; example, and convert it to a minimalist two-page app.")**  
 Unleash your OpenUI5 skills with this simple three-step tutorial. We start with a simple "Hello World" example, and convert it to a minimalist two-page app.
--   **[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")**  
+-   **[Walkthrough Tutorial \(JavaScript\)](Walkthrough_Tutorial_JavaScript_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")**  
 In this tutorial we will introduce you to all major development paradigms of OpenUI5.
 -   **[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")**  
 In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.

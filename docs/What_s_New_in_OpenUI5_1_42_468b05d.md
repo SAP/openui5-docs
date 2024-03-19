@@ -1146,7 +1146,7 @@ We have updated the following tutorials:
 
 -   [Data Binding Tutorial](Data_Binding_Tutorial_e531093.md)
 
--   [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md)
+-   [Walkthrough Tutorial \(JavaScript\)](Walkthrough_Tutorial_JavaScript_3da5f4b.md)
 
 
 <sub>Changed•User Documentation•Info Only•1.42</sub>

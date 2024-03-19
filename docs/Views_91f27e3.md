@@ -41,9 +41,6 @@ A view can also be defined as a [typed view](Typed_View_e6bb33d.md), representin
 			.view.xml or as an XML string. The file name and the folder structure
 		together specify the name of the view that equals the OpenUI5 module name. ")**  
 The XML view type is defined in an XML file. The file name either ends with `.view.xml` or as an XML string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.
--   **[JSON View \(deprecated\)](JSON_View_deprecated_91f2852.md "The JSON view type is defined in a file. The file name has to either end with .view.json or as a JSON string. The file
-		name and the folder structure together specify the name of the view that equals the OpenUI5 module name within the modularization concept.")**  
-The JSON view type is defined in a file. The file name has to either end with `.view.json` or as a JSON string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name within the modularization concept.
 -   **[Typed View](Typed_View_e6bb33d.md "A view can also be defined by extending the sap.ui.core.mvc.View class. Such a view is referred to as a typed view. This
 		means the view definition represents its own view class.")**  
 A view can also be defined by extending the `sap.ui.core.mvc.View` class. Such a view is referred to as a typed view. This means the view definition represents its own view class.
@@ -51,10 +48,6 @@ A view can also be defined by extending the `sap.ui.core.mvc.View` class. Such a
 		method View.create defined in module
 		sap/ui/core/mvc/View.")**  
 To instantiate views asychronously, OpenUI5 provides the factory method `View.create` defined in module `sap/ui/core/mvc/View`.
--   **[View Cloning \(deprecated\)](View_Cloning_deprecated_a575619.md "For normal controls, view cloning bases on control settings that are described by OpenUI5 metadata, such as
-		properties, aggregations, associations, and event handlers. The clone operation collects
-		these settings and creates a new instance.")**  
-For normal controls, view cloning bases on control settings that are described by OpenUI5 metadata, such as properties, aggregations, associations, and event handlers. The clone operation collects these settings and creates a new instance.
 
 **Related Information**  
 

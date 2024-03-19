@@ -81,7 +81,7 @@ We create the folder `webapp/controller` and a new file `App.controller.js` insi
 -   Controller names always end with `*.controller.js`
 
 
-**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial \(JavaScript\)](Walkthrough_Tutorial_JavaScript_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
 **Next:**[Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.js file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated view.")
 
