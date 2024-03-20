@@ -16,8 +16,6 @@ The following predefined view types are available:
 
 -   **XML view** \(file or string in XML format\); this type supports a mix of XML and plain HTML,
 
--   **JSON view** \(file or string in JSON format\),
-
 -   **Typed view**, constructed in a programmatic manner.
 
 
