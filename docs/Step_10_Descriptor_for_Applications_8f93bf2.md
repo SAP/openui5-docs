@@ -146,8 +146,8 @@ The content of the `manifest.json` file is a configuration object in JSON format
 		data-sap-ui-theme="sap_horizon"
 		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true"
-		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
-		data-sap-ui-resourceroots='{
+		data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
+		data-sap-ui-resource-roots='{
 			"ui5.walkthrough": "./"
 		}'>
 	</script>

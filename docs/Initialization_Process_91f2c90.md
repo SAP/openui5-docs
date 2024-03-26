@@ -49,26 +49,26 @@ For a detailed usage guide, please see the [`ComponentSupport` documentation](De
 
 ***
 
-#### Standalone `data-sap-ui-oninit` module
+#### Standalone `data-sap-ui-on-init` module
 
-Besides using `sap.ui.core.ComponentSupport`, you can also define a data attribute called `data-sap-ui-oninit` on the OpenUI5 bootstrap script element.
+Besides using `sap.ui.core.ComponentSupport`, you can also define a data attribute called `data-sap-ui-on-init` on the OpenUI5 bootstrap script element.
 
-This attribute should reference a valid OpenUI5 module as shown in the snippet below. In this sample you can also see how to use the `data-sap-ui-resourceroots` as part of your init module path.
+This attribute should reference a valid OpenUI5 module as shown in the snippet below. In this sample you can also see how to use the `data-sap-ui-resource-roots` as part of your init module path.
 
 ```html
 <script id="sap-ui-bootstrap"
         src="https://sdk.openui5.org/resources/sap-ui-core.js"
        ...
-        data-sap-ui-resourceroots='{"Startup": "./some/folder"}'
-        data-sap-ui-oninit="module:Startup/my/module"
+        data-sap-ui-resource-roots='{"Startup": "./some/folder"}'
+        data-sap-ui-on-init="module:Startup/my/module"
        ...
         data-sap-ui-async="true">
 </script>
 ```
 
-The OpenUI5 core will make sure that the `data-sap-ui-oninit` module is loaded and executed at the correct point in time after the initialization process of the framework. Inside this module you can then execute additional application code, e.g. create a new XML View instance.
+The OpenUI5 core will make sure that the `data-sap-ui-on-init` module is loaded and executed at the correct point in time after the initialization process of the framework. Inside this module you can then execute additional application code, e.g. create a new XML View instance.
 
-Additionally, a dedicated `oninit` module allows for better [CSP compliance](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) depending on your requirements, since no additional inline `<script>` tag is needed.
+Additionally, a dedicated `on-init` module allows for better [CSP compliance](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) depending on your requirements, since no additional inline `<script>` tag is needed.
 
 Please also have a look at our tutorial section, including the [Quickstart Tutorial](Quickstart_Tutorial_592f36f.md) tutorial for a broader sample.
 

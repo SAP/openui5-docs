@@ -34,8 +34,8 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
     			data-sap-ui-libs="sap.m"
     			data-sap-ui-compatVersion="edge"
                    data-sap-ui-async="true"
-                   data-sap-ui-onInit="module:my/app/main"
-                   data-sap-ui-resourceRoots='{"my.app": "./"}'
+                   data-sap-ui-on-init="module:my/app/main"
+                   data-sap-ui-resource-roots='{"my.app": "./"}'
      			></script>
     	</head>
     	<body class="sapUiBody" id="content">

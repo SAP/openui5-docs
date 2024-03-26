@@ -54,7 +54,7 @@ To build CSP-compliant OpenUI5 without inline scripts, avoid the following:
 
 #### Policies Without `script-src 'unsafe-eval'`
 
-`eval()` is currently still required in some parts of OpenUI5 for synchronous loading and other functionality. However, we recommend loading JavaScript resources asynchronously, which also avoids the use of `eval()`. For more information about asynchronous loading, see [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md). For more information about avoiding synchronous APIs that might lead to synchronous loading, see [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
+`eval()` is currently still required in some parts of OpenUI5 for synchronous loading and other functionality. However, we recommend loading JavaScript resources asynchronously, which also avoids the use of `eval()`. For more information about asynchronous loading, see [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md). For more information about avoiding synchronous APIs that might lead to synchronous loading, see [Deprecated Factories Replacement](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/491bd9c70b9f4c4d913c8c7b4a970833.html "Overview of the replacement of global functions with the factory functions") :arrow_upper_right:.
 
 For a CSP policy that doesn't allow `eval()` you must also avoid the following elements when developing OpenUI5 apps:
 

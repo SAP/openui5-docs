@@ -36,16 +36,11 @@ To benefit from the improvements provided by the modules, perform the following 
 
 -   Always declare the full dependencies as described in [Loading a Module](Loading_a_Module_d12024e.md).
 
--   Migrate to the new module API as described in [Legacy jQuery.sap Replacement](Legacy_jQuery_sap_Replacement_a075ed8.md). Do **not** use the global `jQuery.sap` API anymore.
+-   Migrate to the new module API as described in [Deprecated jQuery.sap API Replacement](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/a075ed88ef324261bca41813a6ac4a1c.html "Overview of the mapping of legacy APIs to the new APIs for the migration") :arrow_upper_right:. Do **not** use the global `jQuery.sap` API anymore.
 
--   Do **not** use the global `sap.ui` factory functions. Instead, use their replacements, see [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
+-   Do **not** use the global `sap.ui` factory functions. Instead, use their replacements, see [Deprecated Factories Replacement](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/491bd9c70b9f4c4d913c8c7b4a970833.html "Overview of the replacement of global functions with the factory functions") :arrow_upper_right:.
 
 
--   **[Legacy jQuery.sap Replacement](Legacy_jQuery_sap_Replacement_a075ed8.md "Overview of the mapping of legacy APIs to the new APIs for the migration")**  
-Overview of the mapping of legacy APIs to the new APIs for the migration
--   **[Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md "Overview of the replacement of global functions with the factory
-		functions")**  
-Overview of the replacement of global functions with the factory functions
 -   **[Troubleshooting](Troubleshooting_20f6ea7.md "")**  
 
 

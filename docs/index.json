@@ -8,12 +8,12 @@
 					"What's New in OpenUI5 1.122": {
 						"link": "What_s_New_in_OpenUI5_1_122_5d078da.md"
 					},
-					"What's New in OpenUI5 1.121": {
-						"link": "What_s_New_in_OpenUI5_1_121_91a4a2f.md"
-					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.121": {
+								"link": "What_s_New_in_OpenUI5_1_121_91a4a2f.md"
+							},
 							"What's New in OpenUI5 1.120": {
 								"link": "What_s_New_in_OpenUI5_1_120_2359b63.md"
 							},
@@ -961,20 +961,14 @@
 									}
 								}
 							},
-							"Deprecated Core API": {
-								"link": "Deprecated_Core_API_798dd9a.md"
-							},
 							"Configuration of the OpenUI5 Runtime": {
 								"link": "Configuration_of_the_OpenUI5_Runtime_91f08de.md",
 								"items": {
 									"Configuration Options and URL Parameters": {
 										"link": "Configuration_Options_and_URL_Parameters_91f2d03.md"
 									},
-									"Deprecated and Experimental Configuration Options": {
-										"link": "Deprecated_and_Experimental_Configuration_Options_b474a71.md"
-									},
-									"Deprecated Configuration API": {
-										"link": "Deprecated_Configuration_API_2acafbf.md"
+									"Experimental Configuration Options": {
+										"link": "Experimental_Configuration_Options_b474a71.md"
 									},
 									"Compatibility Version Information": {
 										"link": "Compatibility_Version_Information_9feb96d.md"
@@ -1577,35 +1571,6 @@
 							}
 						}
 					},
-					"Declarative Support \\(deprecated\\)": {
-						"link": "Declarative_Support_deprecated_91f1301.md",
-						"items": {
-							"Enabling Declarative Support \\(deprecated\\)": {
-								"link": "Enabling_Declarative_Support_deprecated_91f17d6.md"
-							},
-							"Defining Controls \\(deprecated\\)": {
-								"link": "Defining_Controls_deprecated_91f1539.md"
-							},
-							"Declarative Support: Properties \\(deprecated\\)": {
-								"link": "Declarative_Support_Properties_deprecated_91f1619.md"
-							},
-							"Declarative Support: Associations \\(deprecated\\)": {
-								"link": "Declarative_Support_Associations_deprecated_91f13d9.md"
-							},
-							"Declarative Support: Events \\(deprecated\\)": {
-								"link": "Declarative_Support_Events_deprecated_91f15ad.md"
-							},
-							"Declarative Support: Aggregations \\(deprecated\\)": {
-								"link": "Declarative_Support_Aggregations_deprecated_91f136c.md"
-							},
-							"Declarative Support: Data Binding \\(deprecated\\)": {
-								"link": "Declarative_Support_Data_Binding_deprecated_020990b.md"
-							},
-							"Compiling Declarative HTML \\(deprecated\\)": {
-								"link": "Compiling_Declarative_HTML_deprecated_91f1454.md"
-							}
-						}
-					},
 					"Error, Warning, and Info Messages": {
 						"link": "Error_Warning_and_Info_Messages_62b1481.md",
 						"items": {
@@ -1672,12 +1637,6 @@
 							"Adapting to the Modularization of the Core": {
 								"link": "Adapting_to_the_Modularization_of_the_Core_b8fdf0c.md",
 								"items": {
-									"Legacy jQuery.sap Replacement": {
-										"link": "Legacy_jQuery_sap_Replacement_a075ed8.md"
-									},
-									"Legacy Factories Replacement": {
-										"link": "Legacy_Factories_Replacement_491bd9c.md"
-									},
 									"Troubleshooting": {
 										"link": "Troubleshooting_20f6ea7.md"
 									}
@@ -2766,9 +2725,6 @@
 									"Growing Feature for Table and List": {
 										"link": "Growing_Feature_for_Table_and_List_9164ba7.md"
 									},
-									"Table Personalization \\(deprecated\\)": {
-										"link": "Table_Personalization_deprecated_1c60212.md"
-									},
 									"Performance of Lists and Tables": {
 										"link": "Performance_of_Lists_and_Tables_f6a1a0a.md"
 									}
@@ -2816,9 +2772,6 @@
 							},
 							"Text": {
 								"link": "Text_f94deb4.md"
-							},
-							"Upload Collection \\(Deprecated\\)": {
-								"link": "Upload_Collection_Deprecated_124ee13.md"
 							},
 							"URL Helper": {
 								"link": "URL_Helper_4f1c107.md",

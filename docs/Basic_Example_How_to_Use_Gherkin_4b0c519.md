@@ -120,8 +120,8 @@ Here is a sample HTML bootstrap file for Gherkin. In this example, the feature f
     <script
       id="sap-ui-bootstrap"
       src="https://openui5nightly.hana.ondemand.com/resources/sap-ui-core.js"
-      data-sap-ui-resourceroots='{"GherkinWithOPA5": "./"}'
-      data-sap-ui-loglevel="INFO"
+      data-sap-ui-resource-roots='{"GherkinWithOPA5": "./"}'
+      data-sap-ui-log-level="INFO"
     ></script>
 
     <script>

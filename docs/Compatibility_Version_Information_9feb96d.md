@@ -259,20 +259,6 @@ Default value: 1.14
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-`data-sap-ui-bindingSyntax`
-
-</td>
-<td valign="top">
-
-This configuration parameter defines whether the simple or the complex binding syntax is used. The parameter only affects bindings that are defined as strings, for example in the constructor of a control, or when specifying a binding in a declarative view, such as an XML view.
-
-For versions lower than 1.28, the default value is `default` which only has very limited features. As of version 1.28, the default is `complex`.
-
-</td>
-</tr>
 </table>
 
 **Related Information**  
