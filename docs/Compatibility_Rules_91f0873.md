@@ -107,7 +107,13 @@ When overriding an OpenUI5 lifecycle method \(such as `init`, `exit`, `onBeforeR
 MyClass.prototype.onAfterRendering = function() {
   SuperClass.prototype.onAfterRendering.apply(this, arguments);
   // ...
-}
+};
+
+MyClass.prototype.exit = function() {
+  // Cleanups of your subclass ...
+  // Invoke the exit method of the superclass at the end:
+  SuperClass.prototype.exit.apply(this, arguments);
+};
 ```
 
 SAP might add, remove, or change the internal implementation of the parent class at any time. Especially, you shouldn't rely on the following functionality:

@@ -90,7 +90,6 @@
             -   [Visual Degradations](Visual_Degradations_f08f296.md)
             -   [Keyboard Shortcuts for OpenUI5 Tools](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md)
         -   [Compatibility Rules](Compatibility_Rules_91f0873.md)
-        -   [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
         -   [Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
         -   [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
         -   [Upgrading](Upgrading_9638e4f.md)

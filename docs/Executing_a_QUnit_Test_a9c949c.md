@@ -340,8 +340,8 @@ Both, the defaults and the individual test configurations have the same structur
 	 * Whether the UI5 Core (sap/ui/core/Core.js) should be required and booted.
 	 *
 	 * When this option is true, the Core is not only loaded and started, but loading and execution
-	 * of the test module(s) is also delayed until a listener registered with sap.ui.getCore().attachInit()
-	 * has been executed.
+	 * of the test module(s) is also delayed until the Promise resolves which is returned from Core.ready()
+	 * ("Core" required from module "sap/ui/core/Core").
 	 */
 	bootCore: true,
  

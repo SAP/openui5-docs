@@ -170,7 +170,7 @@ For help with specific problems see our [First-Aid Kit](First_Aid_Kit_dfe4f79.md
 
 ### Get Help
 
-If you're stuck and need help with a development task, you can also post a question in the OpenUI5-related forums, for example in the [SAP Community](https://www.sap.com/community/topic/ui5.html) or on [Stack Overflow](https://stackoverflow.com/search?q=sapui5).
+If you're stuck and need help with a development task, you can also post a question in the OpenUI5-related forums, for example in the [SAP Community](https://community.sap.com/t5/c-khhcw49343/SAPUI5/pd-p/500983881501772639608291559920477) or on [Stack Overflow](https://stackoverflow.com/tags/sapui5/info).
 
 -   **[Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab "When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.")**  
 When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.

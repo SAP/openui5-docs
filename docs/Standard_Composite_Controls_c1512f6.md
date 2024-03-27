@@ -63,7 +63,7 @@ The control implementation, that is, its behavior, contains the code for initial
 
 #### Init
 
-The `init` function contains the composite's parts and stores references to them. If you want to hide the composite parts, you should **not** assign an ID to those parts, but rather let the framework compute the IDs automatically. This reduces the possibility that a composite's parts are accessed from outside via the `sap.ui.getCore().byId(...)` function.
+The `init` function contains the composite's parts and stores references to them. If you want to hide the composite parts, you should **not** assign an ID to those parts, but rather let the framework compute the IDs automatically. This reduces the possibility that a composite's parts are accessed from outside via the `Element.getElementById(...)` function, where `Element` is required from module `sap/ui/core/Element`.
 
 If you have to assign IDs to the composite parts, then you should create those IDs by concatenating the main control ID \(ID of your composite instance\) with a single dash \(`-`\) and an additional ID for the part like in the following example:
 

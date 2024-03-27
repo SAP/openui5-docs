@@ -46,20 +46,23 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 
 ```html
 <script>
-	sap.ui.getCore().attachInit(function() {
-		sap.ui.require(["sap/ui/core/ComponentContainer"], function(ComponentContainer) {
-			new ComponentContainer({
-				name: "your.component",
-				async: true,
-				height: "100%",
-				manifest: true,
-				componentCreated: function(oParams) {
-					var oComponent = oParams.getParameter("component");
-					// do something with the component instance
-				}
-			}).placeAt("content");
-		});
-	});
+    sap.ui.require([
+        "sap/ui/core/ComponentContainer",
+        "sap/ui/core/Core"
+    ], function(ComponentContainer, Core) {
+        Core.ready().then( () => {
+            new ComponentContainer({
+                name: "your.component",
+                async: true,
+                height: "100%",
+                manifest: true,
+                componentCreated: function(oParams) {
+                    var oComponent = oParams.getParameter("component");
+                    // do something with the component instance
+                }
+            }).placeAt("content");
+        });
+    });
 </script>
 ```
 

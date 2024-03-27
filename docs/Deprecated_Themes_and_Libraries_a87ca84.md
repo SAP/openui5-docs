@@ -405,7 +405,7 @@ To find out whether these libraries have been replaced by other content, check t
 
 [Index of Deprecated APIs](https://sdk.openui5.org/api/deprecated)
 
-[Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
+[Supported Library Combinations](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/363cd16eba1f45babe3f661f321a7820.html "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.") :arrow_upper_right:
 
 [Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md "This chapter gives an overview of the possible combinations of themes and libraries for the OpenUI5 versions that are still in maintenance.")
 

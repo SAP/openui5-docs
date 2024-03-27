@@ -14,7 +14,7 @@ Versioning and maintenance strategy for OpenUI5.
 
 ***
 
-OpenUI5 uses a three-number version identifier, for example 1.71.22 The numbers have the following meaning:
+OpenUI5 uses a three-number version identifier, for example, 1.71.22. The numbers have the following meaning:
 
 -   The first part \(1\) specifies the release number \(major version\).
 -   The second part \(71\) specifies the version number \(minor version\).

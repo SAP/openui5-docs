@@ -39,7 +39,7 @@ OData as a RESTful protocol provides a specified and a generalized way to access
 
 [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md "The libraries provided by OpenUI5 contain various different table controls that are suitable for different use cases. The table below outlines which table controls are available, and what features are supported by each one.")
 
-[Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
+[Supported Library Combinations](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/363cd16eba1f45babe3f661f321a7820.html "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.") :arrow_upper_right:
 
 [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.")
 

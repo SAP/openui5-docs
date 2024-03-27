@@ -74,13 +74,15 @@ Please also have a look at our tutorial section, including the [Quickstart Tutor
 
 ***
 
-#### `attachInit` function
+#### `Core.ready()` Promise
 
-The callback of the [`attachInit`](https://sdk.openui5.org/api/sap.ui.core.Core/methods/attachInit) function is executed directly after the framework has been initialized. This code can be written inside your main HTML file in a separate inline `<script>` tag:
+The `Core.ready()` function, where `Core` is required from the `sap/ui/core/Core` module, returns a promise which resolves after the framework has been initialized. This code can be written inside your main HTML file in a separate inline `<script>` tag:
 
 ```js
-sap.ui.getCore().attachInit(function(){
-    // application can be started
+sap.ui.require(["sap/ui/core/Core"], function (Core) {
+    Core.ready().then( () => {
+        // application can be started
+    });
 });
 ```
 
@@ -109,7 +111,7 @@ The files are loaded in the following sequence:
 
 ### Dynamic Loading of Libraries
 
-OpenUI5 provides the `sap.ui.getCore().loadLibary()` method to load libraries at runtime in addition to the libraries declared in the runtime configuration.
+OpenUI5 provides the `Libary.load()` method to load libraries at runtime in addition to the libraries declared in the runtime configuration. `Library` is required from the `sap/ui/core/Lib` module.
 
 After loading, you can use all controls from the library. For these additional libraries, the same restriction apply as for the declared libraries: Accessing the document object model \(DOM\) is only possible after the `document.ready` event of the HTML page. Also, rendering applies for these libraries in the same way as for the declared libraries.
 

@@ -285,7 +285,8 @@ oControl = new sap.m.Input({
 Predefined data types also offer visual feedback for erroneous user input. To turn this feature on, add the following line to your controller's `init` function:
 
 ```js
-sap.ui.getCore().getMessageManager().registerObject(this.getView(), true);
+// "Messaging" required from module "sap/ui/core/Messaging"
+Messaging.registerObject(this.getView(), true);
 ```
 
 For other ways to activate this feature, such as using the `handleValidation` property, see [Validation Messages](Validation_Messages_a90d93d.md).
@@ -339,17 +340,18 @@ By default, all bindings of a model instance have the default binding mode of th
 // "Input" required from module "sap/m/Input"
 // "BindingMode" required from module "sap/ui/model/BindingMode"
 	var oModel = new JSONModel();
-	// default binding mode is two way
+	// default binding mode is two-way
 	oModel.setData(myData);
-	sap.ui.getCore().setModel(oModel);
 	var oInputFirstName = new Input ();
-	
+	oInputFirstName.setModel(oModel);
+
 	// bind value property one way only
 	// propertyname, formatter function, binding mode
 	oInputFirstName.bindValue("/firstName", null, BindingMode.OneWay);
 	oInputFirstName.placeAt("target1");
 
-	oInputLastName = new Input();
+	var oInputLastName = new Input();
+	oInputLastName.setModel(oModel);
 	// bind value property two way (default)
 	oInputLastName.bindValue("/lastName");
 	oInputLastName.placeAt("target2");
