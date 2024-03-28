@@ -52,7 +52,7 @@ First, let's enhance your UI5 Tooling setup:
 		src="resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_horizon"
 		data-sap-ui-libs="sap.m"
-		data-sap-ui-compatVersion="edge"
+		data-sap-ui-compat-version="edge"
 		data-sap-ui-async="true"
 		data-sap-ui-on-init="module:ui5/walkthrough/index"
 		data-sap-ui-resource-roots='{
@@ -110,7 +110,7 @@ In the next steps, the structure of a UI5 module will be explained in detail.
 **Related Information**  
 
 
-[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in OpenUI5.")
+[Compatibility Version Information \(deprecated\)](Compatibility_Version_Information_deprecated_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in OpenUI5.")
 
 [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md "To use OpenUI5 features in your HTML page, you have to load and initialize the SAPUI5 library.")
 

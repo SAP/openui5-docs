@@ -144,7 +144,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
 		id="sap-ui-bootstrap"
 		src="resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_horizon"
-		data-sap-ui-compatVersion="edge"
+		data-sap-ui-compat-version="edge"
 		data-sap-ui-async="true"
 		data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
 		data-sap-ui-resource-roots='{

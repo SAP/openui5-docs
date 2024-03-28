@@ -190,7 +190,7 @@ Then we load the basic QUnit functionality via script tags from OpenUI5 so that 
 		data-sap-ui-resource-roots='{
 			"ui5.walkthrough": "../../"
 		}'
-		data-sap-ui-compatVersion="edge"
+		data-sap-ui-compat-version="edge"
 		data-sap-ui-async="true"
 		data-sap-ui-on-init="module:ui5/walkthrough/test/integration/opaTests.qunit">
 	</script>

@@ -66,7 +66,7 @@ Let's say that you are facing a performance issue in your app, so let's check so
     			"sap.ui.demo.DoesNotExist": "./DoesNotExist"
     		}'
     		data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
-    		data-sap-ui-compatVersion="edge"
+    		data-sap-ui-compat-version="edge"
     		data-sap-ui-async="true">
     	</script>
     […]

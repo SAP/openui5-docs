@@ -164,7 +164,7 @@ In the assertions section we define a `waitFor` statement that checks if a `sap.
 		data-sap-ui-resource-roots='{
 			"ui5.walkthrough": "../../"
 		}'
-		data-sap-ui-compatVersion="edge"
+		data-sap-ui-compat-version="edge"
 		data-sap-ui-async="true">
 	</script>
 

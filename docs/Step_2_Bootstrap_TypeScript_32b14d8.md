@@ -113,7 +113,7 @@ In this step, we change the `index.html` page to make it load the OpenUI5 framew
 		id="sap-ui-bootstrap"
 		src="resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_horizon"
-		data-sap-ui-compatVersion="edge"
+		data-sap-ui-compat-version="edge"
 		data-sap-ui-async="true"
 		data-sap-ui-on-init="module:ui5/walkthrough/index"
 		data-sap-ui-resource-roots='{

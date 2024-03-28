@@ -224,7 +224,7 @@ We define that the HTML page now initializes the `initMockServer` module instead
 		id="sap-ui-bootstrap"
 		src="../resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_horizon"
-		data-sap-ui-compatVersion="edge"
+		data-sap-ui-compat-version="edge"
 		data-sap-ui-async="true"
 		data-sap-ui-on-init="module:ui5/walkthrough/test/initMockServer"
 		data-sap-ui-resource-roots='{

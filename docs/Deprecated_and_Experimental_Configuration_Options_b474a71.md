@@ -188,7 +188,7 @@ Default value: `1.14`
 > ### Note:  
 > Applications must set this option to `edge`. **Other version definitions are deprecated.**
 
-For more information, see [Compatibility Version Information](Compatibility_Version_Information_9feb96d.md).
+For more information, see [Compatibility Version Information \(deprecated\)](Compatibility_Version_Information_deprecated_9feb96d.md).
 
 </td>
 <td valign="top">

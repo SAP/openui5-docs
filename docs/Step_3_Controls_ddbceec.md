@@ -48,7 +48,7 @@ You can view and download all files at [Walkthrough - Step 3](https://sdk.openui
 		src="resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_horizon"
 		data-sap-ui-libs="sap.m"
-		data-sap-ui-compatVersion="edge"
+		data-sap-ui-compat-version="edge"
 		data-sap-ui-async="true"
 		data-sap-ui-on-init="module:ui5/walkthrough/index"
 		data-sap-ui-resource-roots='{

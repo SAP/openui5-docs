@@ -73,7 +73,7 @@ If you are working with **XML views**, make sure that you've turned on complex b
 </script>
 ```
 
-You can also use `data-sap-ui-compatVersion="edge"` to enable complex bindings.
+You can also use `data-sap-ui-compat-version="edge"` to enable complex bindings.
 
 You can then set the `bindingMode` or other additional properties like this:
 

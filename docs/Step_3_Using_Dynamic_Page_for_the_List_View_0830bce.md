@@ -83,7 +83,7 @@ First, we add the `sap.m` library as a dependency in the `manifest.json`.
 			"sap.ui.demo.mock": "https://sdk.openui5.org/test-resources/sap/ui/documentation/sdk/"
 		}'
 		data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
-		data-sap-ui-compatVersion="edge"
+		data-sap-ui-compat-version="edge"
 		data-sap-ui-async="true"
 		data-sap-ui-frame-options="trusted">
 	</script>

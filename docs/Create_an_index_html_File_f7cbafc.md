@@ -32,7 +32,7 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
     			src="/resources/sap-ui-core.js"
     			data-sap-ui-theme="sap_horizon"
     			data-sap-ui-libs="sap.m"
-    			data-sap-ui-compatVersion="edge"
+    			data-sap-ui-compat-version="edge"
                    data-sap-ui-async="true"
                    data-sap-ui-on-init="module:my/app/main"
                    data-sap-ui-resource-roots='{"my.app": "./"}'

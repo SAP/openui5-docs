@@ -46,7 +46,7 @@ You can view and download all files in the Demo Kit at [Mock Server - Step 2](ht
 			"sap.ui.demo.MockServer": "../"
 		}'
 		data-sap-ui-on-init="module:sap/ui/demo/MockServer/test/initMockServer"
-		data-sap-ui-compatVersion="edge"
+		data-sap-ui-compat-version="edge"
 		data-sap-ui-async="true">
 	</script>
 </head>
