@@ -19,7 +19,7 @@ Property values for controls in XML views are specified as attributes of the XML
 > ### Note:  
 > The XML view offers special handling for context bindings and style classes. You can specify them via the `binding` and `class` attributes on a control's XML node.
 > 
-> Please be aware that these attributes are not properties of the respective controls and thus are not supported by a control's constructor. For more information, see [Context Binding \(Element Binding\)](Context_Binding_Element_Binding_91f05e8.md) and [Using CSS Style Sheets in XML Views (deprecated)](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/b564935324f449209354c7e2f9903f22.html "Style sheets are included in XML views in the same way as plain HTML. To add further CSS classes to OpenUI5 controls, use the class attribute.") :arrow_upper_right:.
+> Please be aware that these attributes are not properties of the respective controls and thus are not supported by a control's constructor. For more information, see [Context Binding \(Element Binding\)](Context_Binding_Element_Binding_91f05e8.md)and [Using CSS Style Sheets in XML Views \(deprecated\)](Using_CSS_Style_Sheets_in_XML_Views_deprecated_b564935.md).
 
 > ### Note:  
 > Escape characters that have a special meaning in XML \(like `<`, or `&`\) when they occur in a property value. Use XML entities instead \(like `&lt;` instead of a `<`, or `&amp;` instead of `&`\).

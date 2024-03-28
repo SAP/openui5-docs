@@ -33,7 +33,7 @@ Each control or element is represented by an XML tag with the name of the contro
 
 You can create a context binding for the control by using the `binding` attribute. For more information, see [Context Binding \(Element Binding\)](Context_Binding_Element_Binding_91f05e8.md).
 
-You can refer to a style class for the control by using the `class` attribute. For more information, see [Using CSS Style Sheets in XML Views (deprecated)](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/b564935324f449209354c7e2f9903f22.html "Style sheets are included in XML views in the same way as plain HTML. To add further CSS classes to OpenUI5 controls, use the class attribute.") :arrow_upper_right:.
+You can refer to a style class for the control by using the `class` attribute.For more information, see [Using CSS Style Sheets in XML Views \(deprecated\)](Using_CSS_Style_Sheets_in_XML_Views_deprecated_b564935.md).
 
 -   **[Namespaces in XML Views](Namespaces_in_XML_Views_2421a2c.md "The names of the OpenUI5 control libraries and the related subpackages are mapped to XML
 		namespaces.")**  
@@ -42,6 +42,12 @@ The names of the OpenUI5 control libraries and the related subpackages are mappe
 In XML views, aggregated child controls can be added as child tags.
 -   **[Control Properties and Associations in XML Views](Control_Properties_and_Associations_in_XML_Views_5ee3be4.md "")**  
 
+-   **[Using Native HTML in XML Views \(deprecated\)](Using_Native_HTML_in_XML_Views_deprecated_be54950.md "The use of native HTML in XML views depends on the XHTML feature set.")**  
+The use of native HTML in XML views depends on the XHTML feature set.
+-   **[Using CSS Style Sheets in XML Views \(deprecated\)](Using_CSS_Style_Sheets_in_XML_Views_deprecated_b564935.md "Style sheets are included in XML views in the same way as plain HTML. To add further
+		CSS classes to OpenUI5 controls,
+		use the class attribute.")**  
+Style sheets are included in XML views in the same way as plain HTML. To add further CSS classes to OpenUI5 controls, use the `class` attribute.
 -   **[Handling Events in XML Views](Handling_Events_in_XML_Views_b0fb4de.md "XML views use event handlers as attributes: The attribute name is the event name, such
 		as &quot;press&quot; for a button, and the attribute value is the event handler name.")**  
 XML views use event handlers as attributes: The attribute name is the event name, such as "press" for a button, and the attribute value is the event handler name.

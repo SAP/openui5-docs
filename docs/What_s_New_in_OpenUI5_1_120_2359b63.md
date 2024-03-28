@@ -417,7 +417,7 @@ Feature
 
 **Updated Configuration of the OpenUI5 Runtime**
 
-We have implemented a modular, future-proof solution for configuration handling, and deprecated the legacy `sap.ui.core.Configuration` module. To reflect these deprecations and the entities replacing them, the API Reference has been updated and documentation on the [Deprecated Configuration API](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/2acafbfcc2cb47e8aac6d2e32399af10.html "This page describes important aspects of the deprecation of the sap.ui.core.Configuration API facade. It shows a migration path away from the deprecated legacy APIs and towards their future-proof alternatives, provided the functionality is still meant for productive usage.") :arrow_upper_right: has been added \(as of 1.120.2\). For an updated list of configuration options, see [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
+We have implemented a modular, future-proof solution for configuration handling, and deprecated the legacy `sap.ui.core.Configuration` module. To reflect these deprecations and the entities replacing them, the API Reference has been updated and documentation on the [Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md) has been added \(as of 1.120.2\). For an updated list of configuration options, see [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 <sub>Changed•Feature•Info Only•1.120</sub>
 
@@ -667,7 +667,7 @@ Feature
 
 **Deprecations**
 
-We have deprecated all entities of `sap.ui.core.Core`, except for the `ready` method. For more information, see [Deprecated Core API](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/798dd9abcae24c8194922615191ab3f5.html "This page describes important aspects of the deprecation of the sap.ui.core.Core API facade, as most of its methods have been deprecated. It shows a migration path away from the deprecated legacy APIs and towards their future-proof alternatives.") :arrow_upper_right: \(as of 1.120.2\)and the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Core).
+We have deprecated all entities of `sap.ui.core.Core`, except for the `ready` method. For more information, see [Deprecated Core API](Deprecated_Core_API_798dd9a.md) \(as of 1.120.2\)and the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Core).
 
 We have also deprecated the entire `sap.ui.core.Configuration` module. For more information, see *Updated Configuration of the OpenUI5 Runtime* in this What's New \(as of 1.120.2\).
 

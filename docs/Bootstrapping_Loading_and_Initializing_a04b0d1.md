@@ -217,6 +217,10 @@ The noJQuery variant supports bootstrapping for an application that already inte
 -   **[Initialization Process](Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070 "The initialization process starts after OpenUI5 runtime is
 		loaded.")**  
 The initialization process starts after OpenUI5 runtime is loaded.
+-   **[Deprecated Core API](Deprecated_Core_API_798dd9a.md "This page describes important aspects of the deprecation of the sap.ui.core.Core API facade, as most of its
+                methods have been deprecated. It shows a migration path away from the deprecated legacy APIs and towards their future-proof
+                alternatives.")**  
+This page describes important aspects of the deprecation of the `sap.ui.core.Core` API facade, as most of its methods have been deprecated. It shows a migration path away from the deprecated legacy APIs and towards their future-proof alternatives.
 -   **[Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md "OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available
 		configuration options are described in detail.")**  
 OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available configuration options are described in detail.

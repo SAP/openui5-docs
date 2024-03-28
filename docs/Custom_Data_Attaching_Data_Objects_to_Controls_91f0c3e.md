@@ -115,6 +115,76 @@ The difference between this more formal namespace and the existing MVC namespace
 > </mvc:View>
 > ```
 
+***
+
+<a name="loio91f0c3ee6f4d1014b6dd926db0e91070__section_A34A9FCBC8DA4E8CB559743B7B48CDCE"/>
+
+### Use in JSON Views \(deprecated\)
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.120, replaced by [XML View](XML_View_91f2928.md).
+
+To add custom data to an element in a JSON view, add the following code to the element properties \(examples with data binding\):
+
+```js
+customData: {
+  Type:"sap.ui.core.CustomData",
+    key:"coords",
+    value:"{data}" // bind custom data
+  }
+```
+
+To add multiple data elements, use an array:
+
+```js
+customData: [{
+  Type:"sap.ui.core.CustomData",
+    key:"coords",
+    value:"{data}" // bind custom data
+  },
+  {
+  Type:"sap.ui.core.CustomData",
+    key:"coords",
+    value:"{data}" // bind custom data
+  }]
+```
+
+In context, this looks as follows:
+
+```js
+var json =
+  {
+    Type: "sap.ui.core.mvc.JSONView",
+    controllerName:"my.own.controller",
+    content: [{
+      Type:"sap.m.Panel",
+      content:[{
+        Type:"sap.m.Button",
+        text:"{actionName}",
+        press: "doSomething",
+        customData: {
+          Type:"sap.ui.core.CustomData",
+          key:"coords",
+          value:"{data}" // bind custom data
+        }
+      }]
+    }]
+  };
+```
+
+***
+
+### Use in HTML Views \(deprecated\)
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.108, replaced by [XML View](XML_View_91f2928.md).
+
+To add custom data objects to a control or an element in HTML views, use a specific HTML attribute with the following syntax: `data-custom-data:my-key="myValue"`. A custom data attribute starts with `data-custom-data:` followed by the name of the key. The dashes convert the respective following character into an upper case character. The value can be either a string or a binding expression:
+
+```html
+<div data-sap-ui-type="sap.m.Button" data-text="This button is added dynamically" data-custom-data:my-key="myValue" data-custom-data:my-bound-key="{/mypath}"></div>
+```
+
 -   **[Writing Data to the HTML DOM as DATA-\* Attribute](Writing_Data_to_the_HTML_DOM_as_DATA_Attribute_1ef9fef.md "OpenUI5 supports writing custom data to the HTML DOM.")**  
 OpenUI5 supports writing custom data to the HTML DOM.
 

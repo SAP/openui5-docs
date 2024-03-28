@@ -14,11 +14,15 @@ To instantiate views asychronously, OpenUI5 provides the factory method `View.cr
 
 To pass the required information for the instantiation, use an object with the following properties:
 
--   `type`: The type can be `XML`. All possible types are declared in the enumeration `sap.ui.core.mvc.ViewType`.
+-   `type`: The type can be `JSON`, `JS`, `HTML`, or`XML`. All possible types are declared in the enumeration `sap.ui.core.mvc.ViewType`.
 
 -   `viewName`: View name corresponding to the module concept
 
+-   `definition`: Only relevant for XML views, HTML views and JSON views. Defines the XML, HTML or JSON string representation of the view definition. If `viewName` and `definition` are given, the `viewName` property is used to load the view definition.
+
 -   `Controller`: Any controller instance; the given controller instance overrides the controller defined in the view definition
+
+-   `viewData`: Only used for JS views; this property contains user-specific data that is available during the whole lifecycle of the view and the controller
 
 
 All regular properties of a view \(control\) can be passed to the object as usual.

@@ -224,7 +224,7 @@ If you're using SAP Web IDE, refer to [Application Build](https://help.sap.com/v
 
 Since UI5 version 1.58, the global `jquery.sap.*` modules are deprecated. Please use the modularised variant of the module. If you're still using the `jquery.sap.*` variants, a so-called "stubbing layer" may load the old module synchronously!
 
-You can find a list of modules in the [Deprecated jQuery.sap API Replacement](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/a075ed88ef324261bca41813a6ac4a1c.html "Overview of the mapping of legacy APIs to the new APIs for the migration") :arrow_upper_right: documentation.
+You can find a list of modules in the [Deprecated jQuery.sap API Replacement](Deprecated_jQuery_sap_API_Replacement_a075ed8.md) documentation.
 
 The usages can either be replaced manually or by the [UI5 Migration Tool](https://github.com/SAP/ui5-migration).
 
@@ -237,7 +237,7 @@ The usages can either be replaced manually or by the [UI5 Migration Tool](https:
 
 ### Migrate Synchronous Variants of UI5 Factories to Asynchronous Variants
 
-Check if the application uses synchronous UI5 factories. Many asynchronous variants are available, e.g. for Components, Resource Bundles, Controllers, Views, and Fragments. Please visit the following overview:[Deprecated Factories Replacement](https://help.sap.com/viewer/06dcf306cd6d48098fa341f6f49ddfd9/DEV_OpenUI5/en-US/491bd9c70b9f4c4d913c8c7b4a970833.html "Overview of the replacement of global functions with the factory functions") :arrow_upper_right:.
+Check if the application uses synchronous UI5 factories. Many asynchronous variants are available, e.g. for Components, Resource Bundles, Controllers, Views, and Fragments.Please visit the following overview: [Deprecated Factories Replacement](Deprecated_Factories_Replacement_491bd9c.md).
 
 ***
 

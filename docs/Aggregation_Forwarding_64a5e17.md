@@ -84,6 +84,47 @@ aggregations: {
 
 ***
 
+<a name="loio64a5e1775bf04d4883db18c9de7d83bd__section_fbk_l3q_ddb"/>
+
+### Aggregation Forwarding in XML Composite Controls \(Deprecated\)
+
+If you use aggregation forwarding with `idSuffix` for an XML composite control \(deprecated\), you define this as follows:
+
+```js
+sap.ui.define([
+    "sap/ui/core/XMLComposite"], 
+    function( XMLComposite ) {
+    "use strict";
+    var TextList = XMLComposite.extend("fragments.TextList", {
+        metadata: {
+            aggregations: {
+                texts: { 
+                    type: "sap.ui.core.Item",
+                    multiple: true, forwarding: {
+                           idSuffix: "--myInternalVBox",
+                           aggregation: "items"
+                     }
+                }
+            }
+        }
+    })
+    return TextList;
+}, /* bExport= */true);
+```
+
+In this case, the fragment definition XML file looks like this:
+
+```xml
+<core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core">
+    <m:VBox id="myInternalVBox"/>
+</core:FragmentDefinition>
+```
+
+> ### Note:  
+> `myInternalVBox` is prefixed with `--`. Other than that, the coding looks exactly the same as the one for aggregation forwarding for standard composite controls.
+
+***
+
 <a name="loio64a5e1775bf04d4883db18c9de7d83bd__section_b14_ym5_scb"/>
 
 ### Dos and Don'ts

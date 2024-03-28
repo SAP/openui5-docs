@@ -63,6 +63,9 @@ Fragments are light-weight UI parts \(UI sub-trees\) which can be reused, define
 The XML templating concept enables you to use an XML view as a template. This template is transformed by an XML preprocessor on the source level, the XML DOM, at runtime just before an OpenUI5 control tree is created from the XML source.
 -   **[Working with Controls](Working_with_Controls_91f0a22.md "Controls are used to define the appearance and behavior of screen areas.")**  
 Controls are used to define the appearance and behavior of screen areas.
+-   **[Declarative Support \(deprecated\)](Declarative_Support_deprecated_91f1301.md "Declarative programming allows you to define the UI within the HTML document as
+		elements.")**  
+Declarative programming allows you to define the UI within the HTML document as elements.
 -   **[Error, Warning, and Info Messages](Error_Warning_and_Info_Messages_62b1481.md "
 		OpenUI5 provides a central place
 		for storing and managing info, warning, and error messages.")**  

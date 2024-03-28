@@ -36,6 +36,10 @@ Here you can find information on the browser and platform support for the OpenUI
 		releases. Always consider these rules when developing apps, features, or controls with or
 		for OpenUI5.")**  
 The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.
+-   **[Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of
+		JavaScript and CSS libraries, which can be combined in an application using the combinations
+		that are supported.")**  
+OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.
 -   **[Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md "This chapter gives an overview of the possible combinations of themes and libraries for
 		the OpenUI5 versions that are
 		still in maintenance.")**  
