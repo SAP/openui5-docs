@@ -96,13 +96,13 @@ These samples also work with a relative binding path, when you use them as a tem
 
 Complex \(or "extended"\) syntax can be used for calculated fields in declarative views, such as HTML and XML views.
 
-To use the feature in your OpenUI5 application, set the configuration flag `bindingSyntax` in the bootstrap as follows:
+To use the feature in your OpenUI5 application, set the configuration flag `binding-syntax` in the bootstrap as follows:
 
 ```html
 
 <script id="sap-ui-bootstrap"
       ...
-        data-sap-ui-bindingSyntax="complex">
+        data-sap-ui-binding-syntax="complex">
     </script>
 ```
 
