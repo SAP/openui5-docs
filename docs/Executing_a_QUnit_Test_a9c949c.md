@@ -329,7 +329,6 @@ Both, the defaults and the individual test configurations have the same structur
 	 * To ease test development, the following defaults are defined by the test starter:
 	 */
 	ui5: {
-		bindingSyntax: 'complex',
 		noConflict: true,
 		libs: [],
 		theme: "sap_horizon"

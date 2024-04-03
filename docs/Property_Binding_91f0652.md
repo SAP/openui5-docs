@@ -58,23 +58,6 @@ var oInput = new sap.m.Input({
 
 You can also use a complex syntax for property bindings. This complex syntax allows you to define additional binding information to be contained in the `settings` object, such as a formatter function.
 
-If you are working with **XML views**, make sure that you've turned on complex binding syntax in your bootstrap script, as shown here:
-
-```html
-
-<script
-	id="sap-ui-bootstrap"
-	src="https://sdk.openui5.org/resources/sap-ui-core.js"
-	data-sap-ui-theme="sap_horizon"
-	data-sap-ui-binding-syntax="complex"
-	data-sap-ui-async="true"
-	data-sap-ui-on-init="module:sap/ui/sample/main"
-	data-sap-ui-resource-roots='{"sap.ui.sample": "./"}'>
-</script>
-```
-
-You can also use `data-sap-ui-compat-version="edge"` to enable complex bindings.
-
 You can then set the `bindingMode` or other additional properties like this:
 
 ```xml

@@ -14,11 +14,6 @@ Expression binding is an enhancement of the OpenUI5 binding syntax, which allows
 
 Using expression binding saves the overhead of defining a function and is recommended if the formatter function has a trivial implementation like a comparison of values. Expression binding is especially useful in the context of OpenUI5 XML templating where XML views with templating are preprocessed and the OpenUI5 controller as the natural place to put custom formatter functions is not available.
 
-To use expression binding, you need to enable complex binding syntax by using configuration setting `bindingSyntax` to `complex`.
-
-> ### Note:  
-> Complex syntax is automatically activated when the `compatVersion` is set to `edge` or to version `1.28` or higher. For more information, see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
-
 An expression binding is specified in an XML view by one of the following two options:
 
 -   <code>{=<b>expression</b>}</code>

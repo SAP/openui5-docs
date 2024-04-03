@@ -10,31 +10,23 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c78c07
 
 ## Creating Control and Class Modules
 
-Modules do not only require and use functionality from other modules, they also expose their own functionality to the outside. In asynchronous module definition \(AMD\) syntax, there are several ways to expose such functionality.
+Modules not only require and use functionality from other modules, they can also expose their own functionality.
 
-However, OpenUI5 only supports the "module return value".
+In asynchronous module definition \(AMD\) syntax, there are several ways to do this. When working with OpenUI5, we recommend using the "module return value".
 
-If you want to export the "module value" of an AMD module under a global name, you have two options:
+> ### Note:  
+> It is best practice to avoid the usage of global names. For more information, see [Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md).
 
--   You rely on the OpenUI5 methods that already do the exposure as a side effect, such as:
-    -   Classes created by the `extend` method
+If you want to export the "module value" of an AMD module under a global name, you can rely on the OpenUI5 methods that already do the exposure as a side effect, such as:
 
-    -   Libraries that call `initLibrary()` in their `library.js` module
+-   Classes created by the `extend` method
 
-    -   Renderers that are created with `sap.ui.core.Renderer.extend(“….”)`
-
-
--   You set the fourth parameter `bExport of sap.ui.define(sModuleName, aDependencies, vFactory, bExport)` to `true`. This will expose the module value under the global name that is derived from the module name.
-
-    The global JavaScript namespace is based on a "slash to dot replacement".
-
-    > ### Note:  
-    > The resulting namespace might not have the expected result if the AMD module name contains dots!
+-   Renderers that are created with `sap.ui.core.Renderer.extend("…")`
 
 
 In control and class modules, you should not use global variables at all. When you derive a custom control from an existing superclass via the `extend` method, the resulting subclass is returned.
 
-You can store the return value of the extend function in a local variable, make changes to the prototype and then return this variable as the modules return value.
+You can store the return value of the extend function in a local variable, make changes to the prototype and then return this variable as the module's return value.
 
 JSDoc for the class should use the `@alias` tag to make sure that the variable is known under the global name in the generated JSDoc.
 

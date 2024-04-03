@@ -36,10 +36,8 @@ To keep the OpenUI5 code readable and maintainable, development conventions and 
 		library-specific initialization code that is independent from the controls in the
 		library.")**  
 The `library.js` file is a JavaScript file that contains the JavaScript code for all enumeration types provided by the library as well as library-specific initialization code that is independent from the controls in the library.
--   **[Creating Control and Class Modules](Creating_Control_and_Class_Modules_c78c07c.md "Modules do not only require and use functionality from other modules, they also expose
-		their own functionality to the outside. In asynchronous module definition (AMD) syntax,
-		there are several ways to expose such functionality.")**  
-Modules do not only require and use functionality from other modules, they also expose their own functionality to the outside. In asynchronous module definition \(AMD\) syntax, there are several ways to expose such functionality.
+-   **[Creating Control and Class Modules](Creating_Control_and_Class_Modules_c78c07c.md "Modules not only require and use functionality from other modules, they can also expose their own functionality.")**  
+Modules not only require and use functionality from other modules, they can also expose their own functionality.
 -   **[Defining the Control Metadata](Defining_the_Control_Metadata_7b52540.md "Control metadata consists of properties, events, as well as aggregations and
 		associations.")**  
 Control metadata consists of properties, events, as well as aggregations and associations.

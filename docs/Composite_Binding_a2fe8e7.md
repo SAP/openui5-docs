@@ -94,19 +94,7 @@ These samples also work with a relative binding path, when you use them as a tem
 
 ### Complex Syntax for Calculated Fields
 
-Complex \(or "extended"\) syntax can be used for calculated fields in declarative views, such as HTML and XML views.
-
-To use the feature in your OpenUI5 application, set the configuration flag `binding-syntax` in the bootstrap as follows:
-
-```html
-
-<script id="sap-ui-bootstrap"
-      ...
-        data-sap-ui-binding-syntax="complex">
-    </script>
-```
-
-The following examples show how to use the feature:
+Complex \(or "extended"\) syntax can be used for calculated fields in declarative views, such as HTML and XML views. The following examples show how to use the feature:
 
 -   You can mix text with calculated fields as follows:
 
