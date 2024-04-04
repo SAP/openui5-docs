@@ -141,7 +141,7 @@ For more information, see:
 
 ### Use "manifest first" to Load the Component
 
-Load the `manifest.json` descriptor file of the component first to analyze and preload the dependencies when loading the component. For more information, see [Manifest First Function](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
+When creating a component manually, make sure the `manifest.json` descriptor file is loaded first, so that the dependencies are analyzed and preloaded when the component is loaded. For more information, see [Manifest First Function](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
 
 ```js
 // "Component" required from module "sap/ui/core/Component"
@@ -345,7 +345,7 @@ You can further optimize your code by doing the following:
 
     For a quick start, follow the [OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md) tutorial.
 
--   If you use data binding with an OData V2 service as a back end, you should consider switching your OData model to our more updated OData V2 model. For more information, see [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2).
+-   If you use data binding with an OData V2 service as a back end, you must not use the deprecated `sap.ui.model.odata.ODataModel` anymore. For more information, see [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2).
 
 -   Optimize dependent bindings as described here: [Optimizing Dependent Bindings](OData_V2_Model_6c47b2b.md#loio62149734b5c24507868e722fe87a75db).
 
