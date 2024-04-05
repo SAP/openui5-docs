@@ -36,17 +36,6 @@ Set up your development environment and go through our tutorials. They introduce
 
 ***
 
-> ### Tip:  
-> **Learn with openSAP:**
-> 
-> The openSAP course [Developing Web Apps with SAPUI5](https://open.sap.com/courses/ui51) introduces you to the main concepts of SAPUI5.
-> 
-> The JavaScript exercises for each unit will give you the technical background needed to develop your own responsive Web apps. We’ll start from scratch with the very basics and lots of hands-on coding. As we go through the weeks of this course, you’ll learn more about the powerful development concepts and truly master SAPUI5.
-> 
-> The openSAP course [Evolved Web Apps with SAPUI5](https://open.sap.com/courses/ui52) for more experienced SAPUI5 developers and ambitious beginners introduces more advanced scenarios and concepts.
-
-***
-
 <a name="loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download"/>
 
 ### Downloading Code for a Tutorial Step
