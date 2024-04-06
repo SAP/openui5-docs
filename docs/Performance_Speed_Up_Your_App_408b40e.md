@@ -54,7 +54,7 @@ If you want to make additional libraries known in your app, without directly loa
 		"libs": {
 			"sap.ui.core": {},
 			"sap.m": {},
-			"sap.ui.layout": {
+			"my.heavy.charting": {
 				"lazy": true
 			}
 		},
@@ -63,13 +63,14 @@ If you want to make additional libraries known in your app, without directly loa
 
 If a library preload contains reuse components and this preload is configured to be loaded lazily \(via `"lazy": true` in the dependencies of the `manifest.json`\), the library isn't available upon creation of the related component.
 
-In this case, you need to use `sap/ui/core/Lib.load("my.library")` before creating the component \(e.g with `Component.create({ name: "my.component" })` or component usage `myComponent.createComponent("myUsage")`\).
+In the above case you need to use `sap/ui/core/Lib.load({name: "my.heavy.charting"})` before creating the component \(e.g with `Component.create({ name: "my.component" })` or component usage `myComponent.createComponent("myUsage")`\).
 
 An indicator that a component is inside a library is the existence of an entry `sap.app/embeddedBy` in its `manifest.json` file.
 
 **Additional Information:**
 
 -   [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md)
+-   `API Reference:` [`sap/ui/core/Lib.load()`](https://sdk.openui5.org/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.load)
 
 ***
 
