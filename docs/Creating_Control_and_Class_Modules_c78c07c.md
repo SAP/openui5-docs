@@ -21,7 +21,7 @@ If you want to export the "module value" of an AMD module under a global name, y
 
 -   Classes created by the `extend` method
 
--   Renderers that are created with `sap.ui.core.Renderer.extend("…")`
+-   Renderers that are created with `sap/ui/core/Renderer.extend("…")`
 
 
 In control and class modules, you should not use global variables at all. When you derive a custom control from an existing superclass via the `extend` method, the resulting subclass is returned.
@@ -33,19 +33,25 @@ JSDoc for the class should use the `@alias` tag to make sure that the variable i
 The `extend` function makes sure that the respective namespace is created:
 
 ```js
-sap.ui.define(["sap/ui/base/Object", "sap/ui/model/json/JSONModel"], function (BaseObject, JSONModel) {
-  
-    var Foo = BaseObject.extend("foo.bar.MyClass", /** @lends foo.bar.MyClass */ {
-  
-      constructor: function(sId, mProperties) {
-        this.mId = sId;
+sap.ui.define(["sap/ui/base/Object"], function (BaseObject) {
+
+    /**
+     * Constructor for a new MyClass instance.
+     *
+     * @class
+     * Description for MyClass
+     * @extends sap.ui.base.Object
+     * @alias foo.bar.MyClass
+     */  
+    const Foo = BaseObject.extend("foo.bar.MyClass", /** @lends foo.bar.MyClass.prototype */ {
+      constructor: function() {
       }
     });
- 
-    Foo.prototype.ownMethod = function (a) {
+
+    Foo.prototype.ownMethod = function(a) {
         return a * 2;
     };
-  
+
     // return the module value, in this example a class
     return Foo;
 });

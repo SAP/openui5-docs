@@ -781,6 +781,36 @@ Whether the customizing is disabled or not.
 <tr>
 <td valign="top">
 
+`xx-future`
+
+\(experimental\)
+
+</td>
+<td valign="top">
+
+Type: `boolean`
+
+Default value: `false`
+
+Whether to enforce throwing exceptions for fatal warnings and errors. This helps you to detect and resolve critical issues which may prevent projects from running in future framework versions such as UI5 2.x.
+
+For a version-dependent guidance, see *Strict Error Handling* in [Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md).
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `xx-handle-validation`
 
 \(experimental\)

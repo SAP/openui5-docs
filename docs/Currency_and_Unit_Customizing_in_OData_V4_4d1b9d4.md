@@ -161,6 +161,8 @@ With the metadata above, you can use the data types `sap.ui.model.odata.type.Cur
 
 The code lists are automatically requested only once per browser session and code list URL.
 
+Note that the format options of the `Decimal` type for the measure or amount part may additionally influence the number of displayed and allowed decimals.For more information, see [`sap.ui.model.odata.type.Currency#formatValue`](https://sdk.openui5.org/api/sap.ui.model.odata.type.Currency%23methods/formatValue) and [`sap.ui.model.odata.type.Unit#formatValue`](https://sdk.openui5.org/api/sap.ui.model.odata.type.Unit%23methods/formatValue).
+
 If you use XML templating, you can use `sap.ui.model.odata.v4.AnnotationHelper.format` to generate the composite binding for an amount or measure property. To recognize a property as an amount or measure, the property needs to be annotated either with the `Org.OData.Measures.V1.ISOCurrency`, or with the `Org.OData.Measures.V1.Unit` annotation. For more informatio about XML templating, see [XML Templating](XML_Templating_5ee619f.md).
 
 **Additional annotations when using XML templating**

@@ -197,11 +197,7 @@ In this case, use the `data-sap-ui-async="true"` setting in the bootstrap.
 
 #### Too many requests
 
-You can use the [UI5 Tooling](https://sap.github.io/ui5-tooling/) to bundle and minimize all relevant component files by creating a component-preload file.
-
-If you're using OpenUI5 apps with grunt as a web server, you can use the `openui5_preload` task; for more information see [Optimizing OpenUI5/SAPUI5 Apps](http://scn.sap.com/community/developer-center/front-end/blog/2015/02/18/optimizing-openui5-apps) in the SAPUI5 Developer Center on SAP SCN.
-
-If you're using SAP Web IDE, refer to [Application Build](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html) in the SAP Web IDE documentation.
+You can use [UI5 Tooling](https://sap.github.io/ui5-tooling/) to bundle and minimize all relevant component files by creating a component-preload file.
 
 ***
 
