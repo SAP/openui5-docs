@@ -538,5 +538,5 @@ For more information, search for loading items and performance in the responsive
 
 [\(sap.ui.mdc.Table\)](https://sdk.openui5.org/api/sap.ui.mdc.Table)
 
-The `Table` control \(experimental\) is a metadata-driven control in V4. All attributes mentioned in the table above depend on which `type` aggregation is used for `Table`. The use of certain types of tables, for example, tree table and analytical table, depends on the delegate implementation and on which SAPUI5 model is used.
+The `Table` control \(experimental\) is a metadata-driven control. All attributes mentioned in the table above depend on which `type` aggregation is used for `Table`. The use of certain types of tables, for example, tree table and analytical table, depends on the delegate implementation and on which SAPUI5 model is used.
 

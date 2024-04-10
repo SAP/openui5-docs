@@ -3645,5 +3645,5 @@ With the metadata above, you can use the `sap.ui.model.odata.type.Currency` and 
 
 The code lists are automatically requested only once per browser session and code list URL.
 
-Note that the format options of the `Decimal` type for the measure or amount part may additionally influence the number of displayed and allowed decimals.For more information, see [`sap.ui.model.odata.type.Currency#formatValue`](https://sdk.openui5.org/api/sap.ui.model.odata.type.Currency%23methods/formatValue) and [`sap.ui.model.odata.type.Unit#formatValue`](https://sdk.openui5.org/api/sap.ui.model.odata.type.Unit%23methods/formatValue).
+Note that the format options of the `Decimal` type for the `'WeightMeasure'` or `'Price'` part may additionally influence the number of displayed and allowed decimals.For more information, see [`sap.ui.model.odata.type.Currency#formatValue`](https://sdk.openui5.org/api/sap.ui.model.odata.type.Currency%23methods/formatValue) and [`sap.ui.model.odata.type.Unit#formatValue`](https://sdk.openui5.org/api/sap.ui.model.odata.type.Unit%23methods/formatValue).
 
