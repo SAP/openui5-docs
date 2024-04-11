@@ -158,7 +158,7 @@ To get more insight into the client-server communication, we open the *Console* 
 > ### Note:  
 > To monitor the client-server communication in a productive app, you would use the *Network* tab of the developer tools.
 > 
-> In this tutorial, we are using a mock server instead of a real OData service so that we can execute the code in every environment. The mock server does not generate any network traffic, so we use the *Console* tab to monitor the communication.
+> In this tutorial, we are using a mock server instead of a real OData service so that we can run the code in every environment. The mock server does not generate any network traffic, so we use the *Console* tab to monitor the communication.
 > 
 > If you want to switch to the real service, do the following:
 > 
