@@ -196,7 +196,7 @@ The following example shows how to set the submit mode `sap.ui.model.odata.v4.Su
 
 [ODataModel.bindProperty](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty)
 
-[ODataContextBinding.execute](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute)
+[ODataContextBinding.invoke](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/invoke)
 
 [ODataContextBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/refresh)
 
