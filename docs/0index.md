@@ -867,7 +867,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Code Editor](Code_Editor_cc467b9.md)
         -   [sap.ui.core](sap_ui_core_72227f8.md)
             -   [Icon and Icon Pool](Icon_and_Icon_Pool_21ea0ea.md)
-        -   [sap.ui.mdc \(experimental\)](sap_ui_mdc_experimental_1dd2aa9.md)
+        -   [sap.ui.mdc](sap_ui_mdc_1dd2aa9.md)
         -   [sap.ui.table](sap_ui_table_08197fa.md)
         -   [sap.uxap](sap_uxap_de71337.md)
             -   [Object Page Layout](Object_Page_Layout_2e61ab6.md)

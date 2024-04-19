@@ -160,7 +160,7 @@ Feature
 
 **Introduction of `sap.ui.mdc` library \(experimental\)**
 
-We have introduced the `sap.ui.mdc` library experimentally. This library contains smart composite controls that are metadata-driven and allow applications to use them with any OpenUI5 model and any data protocol. For more information, see [sap.ui.mdc \(experimental\)](sap_ui_mdc_experimental_1dd2aa9.md) and the [API Reference](https://sdk.openui5.org/api/sap.ui.mdc).
+We have introduced the `sap.ui.mdc` library experimentally. This library contains smart composite controls that are metadata-driven and allow applications to use them with any OpenUI5 model and any data protocol. For more information, see [sap.ui.mdc](sap_ui_mdc_1dd2aa9.md) and the [API Reference](https://sdk.openui5.org/api/sap.ui.mdc).
 
 <sub>New•Feature•Info Only•1.115</sub>
 

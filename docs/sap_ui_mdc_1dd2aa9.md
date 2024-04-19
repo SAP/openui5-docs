@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1dd2aa91115d43409452a271d11be95b) | [demo kit latest release](https://sdk.openui5.org/topic/1dd2aa91115d43409452a271d11be95b)</div>
 
-## sap.ui.mdc \(experimental\)
+## sap.ui.mdc
 
 The `sap.ui.mdc` library contains composite, metadata-driven controls that assemble UI elements with predefined user experience and various functionalities. The controls can be used as a basis for scalable application development and can be implemented for use with any OpenUI5 model and data protocol.
 
