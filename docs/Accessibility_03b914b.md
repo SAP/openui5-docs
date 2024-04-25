@@ -41,7 +41,7 @@ When developing OpenUI5 applications, you need to pay attention to the correctne
 **Related Information**  
 
 
-[Accessibility in SAP Fiori](https://ux.wdf.sap.corp/fiori-design-web/accessibility-in-sap-fiori/ "Accessibility in SAP Fiori")
+[Accessibility in SAP Fiori](https://experience.sap.com/fiori-design-web/accessibility-in-sap-fiori/ "Accessibility in SAP Fiori")
 
 [Fiori Design Guidelines When to Use Which Floorplan](https://ux.wdf.sap.corp/fiori-design-web/when-to-use-which-floorplan/ "Fiori Design Guidelines When to Use Which Floorplan")
 
