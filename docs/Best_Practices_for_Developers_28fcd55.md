@@ -312,7 +312,10 @@ Take care of destroying programatically created models to prevent memory leaks.
 
 **OData V2 Model**
 
-[`v2.ODataModel#createEntry`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry) : Defining an array for the `mParameters.properties` is deprecated since OpenUI5 1.120. Pass the initial values as an object instead.
+-   [`v2.ODataModel#createEntry`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry) : Defining an array for the `mParameters.properties` is deprecated since OpenUI5 1.120. Pass the initial values as an object instead.
+
+-   [`v2.ODataModel#refreshSecurityToken`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/refreshSecurityToken) : Pass `true` for the `bAsync` parameter explicitly as its default value is `false`.
+
 
 **JSON Model**
 
