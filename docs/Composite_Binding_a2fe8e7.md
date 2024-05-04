@@ -117,7 +117,7 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 
     ```js
     
-    <TextField value="{
+    <Text text="{
                        path:'gender', 
                        formatter:'.myGenderFormatter'
                       } 
@@ -130,7 +130,7 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 
     ```js
     
-    <TextField value="{
+    <Text text="{
                   parts: [
                           {path:'birthday/day'},
                           {path:'birthday/month'},
@@ -155,4 +155,46 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
     "/>
     ```
 
+
+***
+
+<a name="loioa2fe8e763014477e87990ff50657a0d0__section_v3n_qyz_gbc"/>
+
+### Composite Binding With Static Binding Parts
+
+[`sap.ui.model.StaticBinding`](https://sdk.openui5.org/api/sap.ui.model.StaticBinding) is the way to define a part in a composite binding with a constant value.
+
+It is useful in cases where you'd like to use a common formatter function or type in multiple composite bindings: With a constant value as part of the binding,you can achieve a different behavior of the **same** formatter function or type at different places.
+
+**Example 1: Different formatted values with same formatter function**
+
+> ### Example:  
+> ```xml
+> <!-- formatStatus returns a text or an icon source computed from the first two parts 
+>        depending on the third part -->
+> <core:Icon decorative="false"
+> 	src="{
+> 		parts: ['deliveryStatus', 'paymentStatus', {value : 'icon'}],
+> 		formatter : 'formatter.formatStatus'
+> 	}"
+> 	tooltip="{
+> 		parts: ['deliveryStatus', 'paymentStatus', {value : 'tooltip'}],
+> 		formatter: 'formatter.formatStatus'
+> 	}"
+> />
+> ```
+
+**Example 2: Constant part in type**
+
+This example uses `sap.ui.model.odata.type.DateTimeWithTimezone` to display only a time zone. For more information, see [Dates, Times, Timestamps, and Time Zones](Dates_Times_Timestamps_and_Time_Zones_6c9e61d.md).
+
+> ### Example:  
+> ```xml
+> <!-- 'TimezoneID' refers to an Edm.String property holding the IANA time zone ID -->
+> <Text text="{
+> 	formatOptions: {showDate: false, showTime: false},
+> 	parts: [{value: null}, {path: 'TimezoneID'}],
+> 	type: 'sap.ui.model.odata.type.DateTimeWithTimezone'
+> }" />
+> ```
 
