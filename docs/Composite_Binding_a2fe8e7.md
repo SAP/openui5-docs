@@ -162,16 +162,15 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 
 ### Composite Binding With Static Binding Parts
 
-[`sap.ui.model.StaticBinding`](https://sdk.openui5.org/api/sap.ui.model.StaticBinding) is the way to define a part in a composite binding with a constant value.
+An [`sap.ui.model.StaticBinding`](https://sdk.openui5.org/api/sap.ui.model.StaticBinding) is the way to define a part in a composite binding with a constant value.
 
-It is useful in cases where you'd like to use a common formatter function or type in multiple composite bindings: With a constant value as part of the binding,you can achieve a different behavior of the **same** formatter function or type at different places.
+It is useful in cases where you'd like to use a common formatter function or type in multiple composite bindings: With a constant value as part of the binding, you can achieve a different behavior of the **same** formatter function or type in different places.
 
 **Example 1: Different formatted values with same formatter function**
 
 > ### Example:  
 > ```xml
-> <!-- formatStatus returns a text or an icon source computed from the first two parts 
->        depending on the third part -->
+> <!-- formatStatus returns a text or an icon source computed from the first two parts depending on the third part -->
 > <core:Icon decorative="false"
 > 	src="{
 > 		parts: ['deliveryStatus', 'paymentStatus', {value : 'icon'}],

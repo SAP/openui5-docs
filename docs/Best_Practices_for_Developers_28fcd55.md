@@ -73,6 +73,8 @@ Some APIs may be only partially deprecated, for instance passing a non-object `v
 **Additional Information:**
 
 -   [Don't Use Deprecated or Experimental Features](Don_t_Use_Deprecated_or_Experimental_Features_a8bd1a8.md)
+-   [Deprecated Core API](Deprecated_Core_API_798dd9a.md)
+-   [Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md)
 -   [Use Only Public APIs](Use_Only_Public_APIs_b0d5fe2.md)
 -   [Adapting to the Modularization of the Core](Adapting_to_the_Modularization_of_the_Core_b8fdf0c.md)
 -   [Deprecated jQuery.sap API Replacement](Deprecated_jQuery_sap_API_Replacement_a075ed8.md)
@@ -249,6 +251,15 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 ***
 
 #### Component / `manifest.json`
+
+**Component Creation**
+
+-   To create a root component, favor leveraging the `sap/ui/core/ComponentSupport` module over the `sap.ui.core.ComponentContainer`.
+
+-   When creating a component via `sap.ui.core.ComponentContainer`, avoid setting a falsy value to the `manifest` property if the `async` property is kept undefined. Do not set the `async` property to `false`.
+
+-   `sap.ui.core.Component#createComponent` must not be used with `async: false`.
+
 
 **`manifest.json`**
 

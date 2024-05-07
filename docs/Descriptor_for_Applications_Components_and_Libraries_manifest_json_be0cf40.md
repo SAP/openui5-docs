@@ -1116,6 +1116,23 @@ Version 64
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Version 65
+
+</td>
+<td valign="top">
+
+\>=1.124
+
+</td>
+<td valign="top">
+
+1.64.0
+
+</td>
+</tr>
 </table>
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
@@ -1802,7 +1819,7 @@ Two settings can be defined per resource:
 
 Mandatory; specifies the external dependencies that are loaded by the OpenUI5 core during the initialization phase of the component and used afterwards. These are the following libraries or components:
 
--   `minUI5Version`: Mandatory; Minimum version of OpenUI5 that your component requires; this information ensures that the features of the OpenUI5 runtime version of the component are available. As OpenUI5 does not currently enforce use of the correct version, the `minUI5Version` is used for information purposes only. If the minimum OpenUI5 version criteria is not fulfilled, a warning is issued in the console log.
+-   `minUI5Version`: Mandatory; Minimum version of OpenUI5 that your component requires; this information ensures that the features of the OpenUI5 runtime version of the component are available. This must be either a specific version or an array of versions where each major version can only be included once. If you specify an array that contains more than one version, and if version 1 is included, it must be at least 1.120.x. As OpenUI5 does not currently enforce use of the correct version, the `minUI5Version` is used for information purposes only. If the minimum OpenUI5 version criteria is not fulfilled, a warning is issued in the console log.
 
 -   `libs`: ID \(namespace\) of the libraries that the OpenUI5 core should load for use in the component. If your app requires a minimum version of the lib, specify the `minVersion` for information purposes. Specify `lazy` to indicate that the lib shall be lazy loaded.
 
@@ -2149,7 +2166,7 @@ Current version of the `manifest.json`
 ```
 
 {
-    "_version": "1.63.0",
+    "_version": "1.64.0",
  
     "start_url": "index.html",
  
@@ -2234,7 +2251,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.123.0",
+            "minUI5Version": "1.124.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
