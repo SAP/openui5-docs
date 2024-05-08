@@ -58,9 +58,9 @@ For troubleshooting information with regard to addressing modules, see [What is 
 
 ***
 
-#### Migrating Deprecated Pseudo Modules
+#### Migrating Access to Pseudo Modules
 
-Historically, types that are defined within a `library.js` could be required as standalone modules. This behavior is deprecated, and the corresponding `library` module should be required instead. The example below showcases three different ways to use types:
+Historically, types that are defined within a `library.js` could be required as if they were modules of their own \(i.e. as "pseudo modules"\). This behavior is deprecated, and the corresponding `library` module should be required instead. The example below showcases three scenarios how types might be used. You can find the corresponding module for each API, enum and control in the API Reference, e.g. [`sap.m.ButtonType`](https://sdk.openui5.org/api/sap.m.ButtonType) and [`sap.ui.model.FilterType`](https://sdk.openui5.org/api/sap.ui.model.FilterType).
 
 -   enum types included in a `library.js`
 
@@ -95,8 +95,6 @@ sap.ui.require([
     oCSSSize.isValid("20px") // true
 });
 ```
-
-You can find the corresponding module for each API, enum and control in the API Reference, e.g. [`sap.m.ButtonType`](https://sdk.openui5.org/api/sap.m.ButtonType) and [`sap.ui.model.FilterType`](https://sdk.openui5.org/api/sap.ui.model.FilterType).
 
 ***
 
