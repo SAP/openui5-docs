@@ -233,7 +233,7 @@ Feature
 </td>
 <td valign="top">
 
-**Decoupling of `sap_bluecrystal`Theme** 
+**Decoupling of `sap_bluecrystal` Theme** 
 
 </td>
 <td valign="top">
