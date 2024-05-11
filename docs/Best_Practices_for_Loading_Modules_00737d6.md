@@ -81,7 +81,7 @@ Historically, types that are defined within a `library.js` could be required as 
 ```js
 sap.ui.require([
     "sap/m/library", // enum sap.m.ButtonType (Module: sap/m/library)
-    "sap/ui/model/FilterType" // enum sap.ui.model.FilterType (Module: sap/ui/model/FilterType)
+    "sap/ui/model/FilterType", // enum sap.ui.model.FilterType (Module: sap/ui/model/FilterType)
     "sap/ui/base/DataType", // DataType facade (Module: sap/ui/base/DataType)
     "sap/ui/core/library" // includes the DataType "sap.ui.core.CSSSize" (Module: sap/ui/core/library)
 ], (sapMLib, FilterType, DataType /*, sapUiCoreLib*/) => {
