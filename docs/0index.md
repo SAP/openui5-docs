@@ -443,7 +443,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                     -   [Draft Handling with the OData V4 Model](Draft_Handling_with_the_OData_V4_Model_40986e6.md)
                     -   [Deleting an Entity](Deleting_an_Entity_2613ebc.md)
                     -   [Consuming OData V2 Services with the OData V4 Model](Consuming_OData_V2_Services_with_the_OData_V4_Model_365bdbd.md)
-                    -   [Extension for Data Aggregation](Extension_for_Data_Aggregation_7d91431.md)
+                    -   [Data Aggregation and Recursive Hierarchy](Data_Aggregation_and_Recursive_Hierarchy_7d91431.md)
                     -   [Server Messages in the OData V4 Model](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md)
                     -   [Currency and Unit Customizing in OData V4](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md)
                 -   [JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)

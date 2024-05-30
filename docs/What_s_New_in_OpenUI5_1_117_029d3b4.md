@@ -405,7 +405,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 -   Support for read-only hierarchies is now available.
 
-    For more information, see [Recursive Hierarchy](Extension_for_Data_Aggregation_7d91431.md#loio7d914317c0b64c23824bf932cc8a4ae1__section_RCH).
+    For more information, see [Recursive Hierarchy](Data_Aggregation_and_Recursive_Hierarchy_7d91431.md#loio7d914317c0b64c23824bf932cc8a4ae1__section_RCH).
 
 
 <sub>Changed•Feature•Info Only•1.117</sub>

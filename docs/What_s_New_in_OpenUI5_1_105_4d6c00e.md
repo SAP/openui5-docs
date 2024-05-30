@@ -298,7 +298,7 @@ Feature
 
 We have started to work on supporting recursive hierarchies and deferred deletion. Both features are work in progress. As of now, they are flagged as experimental and must not be used for productive applications.
 
-For more information, see [Recursive Hierarchy](Extension_for_Data_Aggregation_7d91431.md#loio7d914317c0b64c23824bf932cc8a4ae1__section_RCH) and [Deleting an Entity](Deleting_an_Entity_2613ebc.md).
+For more information, see [Recursive Hierarchy](Data_Aggregation_and_Recursive_Hierarchy_7d91431.md#loio7d914317c0b64c23824bf932cc8a4ae1__section_RCH) and [Deleting an Entity](Deleting_an_Entity_2613ebc.md).
 
 <sub>Changed•Feature•Info Only•1.105</sub>
 

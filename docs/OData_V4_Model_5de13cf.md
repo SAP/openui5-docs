@@ -89,7 +89,7 @@ The `v4.Context.delete` method deletes an entity on the server and updates the u
 		consume OData V2 Services in a non-intrusive way as if working directly with OData
 		V4.")**  
 The OpenUI5 framework can consume OData V2 Services in a non-intrusive way as if working directly with OData V4.
--   **[Extension for Data Aggregation](Extension_for_Data_Aggregation_7d91431.md "The OData V4 Model supports features of the OData Extension for Data Aggregation V4.0
+-   **[Data Aggregation and Recursive Hierarchy](Data_Aggregation_and_Recursive_Hierarchy_7d91431.md "The OData V4 Model supports features of the OData Extension for Data Aggregation V4.0
 		specification.")**  
 The OData V4 Model supports features of the OData Extension for Data Aggregation V4.0 specification.
 -   **[Server Messages in the OData V4 Model](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md "The OData V4 model supports server messages sent via an OData V4 service.")**  

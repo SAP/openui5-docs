@@ -166,7 +166,7 @@ Feature
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
--   You can now expand the first node of visually grouped aggregated data using `sap.ui.model.odata.v4.Context#expand`, as described in [Extension for Data Aggregation](Extension_for_Data_Aggregation_7d91431.md).
+-   You can now expand the first node of visually grouped aggregated data using `sap.ui.model.odata.v4.Context#expand`, as described in [Data Aggregation and Recursive Hierarchy](Data_Aggregation_and_Recursive_Hierarchy_7d91431.md).
 
     For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23methods/setAggregation).
 

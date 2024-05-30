@@ -127,7 +127,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 -   XML templating can now process the `@com.sap.vocabularies.UI.v1.DoNotCheckScaleOfMeasureQuantity` annotation. This annotation prevents the validation of the number of decimals.
 
--   A new `@$ui5.node.groupLevelCount` instance annotation for data aggregation scenarios. It represents the number of direct children of a group node. For more information, see [Extension for Data Aggregation](Extension_for_Data_Aggregation_7d91431.md).
+-   A new `@$ui5.node.groupLevelCount` instance annotation for data aggregation scenarios. It represents the number of direct children of a group node. For more information, see [Data Aggregation and Recursive Hierarchy](Data_Aggregation_and_Recursive_Hierarchy_7d91431.md).
 
 
 <sub>Changed•Feature•Info Only•1.94</sub>
