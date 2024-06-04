@@ -1100,14 +1100,14 @@
 											}
 										}
 									},
-									"JSON View \\(deprecated\\)": {
-										"link": "JSON_View_deprecated_91f2852.md"
-									},
 									"Typed View": {
 										"link": "Typed_View_e6bb33d.md"
 									},
 									"Instantiating Views": {
 										"link": "Instantiating_Views_68d0e58.md"
+									},
+									"JSON View \\(deprecated\\)": {
+										"link": "JSON_View_deprecated_91f2852.md"
 									},
 									"View Cloning \\(deprecated\\)": {
 										"link": "View_Cloning_deprecated_a575619.md"
