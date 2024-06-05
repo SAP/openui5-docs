@@ -40,14 +40,14 @@ The attributes `data-sap-ui-theme="sap_horizon"` and `data-sap-ui-libs="sap.m"` 
 After bootstrapping, you can use the `sap/ui/core/Core` singleton to either `await` the Core's `ready` state or provide a callback function:
 
 ```js
-sap.ui.require(["sap/ui/core/Core"], async function(Core) {
-    // Usage of Core.ready() as a Promise
+sap.ui.require(["sap/ui/core/Core"], async (Core) => {
+    // Either usage of Core.ready() as a Promise
     await Core.ready();
-    ...
+    // ...
 
-    // Usage of a callback function
-    Core.ready(function() {
-    ...
+    // Or usage of a callback function
+    Core.ready(() => {
+        // ...
     });
 });
 ```

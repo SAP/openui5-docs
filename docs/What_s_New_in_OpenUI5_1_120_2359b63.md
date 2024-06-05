@@ -671,6 +671,8 @@ We have deprecated all entities of `sap.ui.core.Core`, except for the `ready` me
 
 We have also deprecated the entire `sap.ui.core.Configuration` module. For more information, see *Updated Configuration of the OpenUI5 Runtime* in this What's New \(as of 1.120.2\).
 
+We have changed the status of the `sap.ui.webc` library from experimental to deprecated.
+
 For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
 
 <sub>Deprecated•Feature•Info Only•1.120</sub>

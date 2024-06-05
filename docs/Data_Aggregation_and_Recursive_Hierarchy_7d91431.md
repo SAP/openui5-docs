@@ -194,7 +194,7 @@ Note that only one such change must be pending at any point in time. That is, yo
 
 #### Example Requests
 
-The `TopLevels` function is fundamental for recursive hierarchies. It describes the input set underlying the hierarchy \(see the list binding's path\) and specifies which recursive hierarchy is built on top \(see `hierarchyQualifier` above\). It takes care to initially expand a certain number of levels \(see `expandTo` above\) and later to expand or collapse certain nodes in order to keep the tree state during a side-effects refresh.
+The [`TopLevels`](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Hierarchy.md#TopLevels) function is fundamental for recursive hierarchies. It describes the input set underlying the hierarchy \(see the list binding's path\) and specifies which recursive hierarchy is built on top \(see `hierarchyQualifier` above\). It takes care to initially expand a certain number of levels \(see `expandTo` above\) and later to expand or collapse certain nodes in order to keep the tree state during a side-effects refresh.
 
 A typical request to read the first page of a hierarchical table may look like this:
 
