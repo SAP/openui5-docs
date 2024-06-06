@@ -26,7 +26,7 @@ This page contains some of the complementary offerings from the UI5 ecosystem - 
 		up to and including ES2022. You have to consider
 		certain restrictions when using modern ECMAScript with your OpenUI5
 		project.")**  
- Since OpenUI5 1.116, the framework leverages features of modern ECMAScript, up to and including [ES2022](../../../../../../../../https://262.ecma-international.org/13.0/). You have to consider certain restrictions when using modern ECMAScript with your OpenUI5 project.
+ Since OpenUI5 1.116, the framework leverages features of modern ECMAScript, up to and including ES2022. You have to consider certain restrictions when using modern ECMAScript with your OpenUI5 project.
 -   **[TypeScript Support](TypeScript_Support_a7ee961.md "TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type
 		checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.")**  
 TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.
