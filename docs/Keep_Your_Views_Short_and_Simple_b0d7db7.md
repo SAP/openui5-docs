@@ -101,10 +101,7 @@ Things may get a little messy as your app is growing with your requirements. The
 
 -   Learn how: Walkthrough tutorial [Step 15: Nested Views](Step_15_Nested_Views_df8c9c3.md)
 
--   Find out more:
-
-    -   [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)
-    -   [XML Composite Controls (deprecated)](https://help.sap.com/viewer/96880755e4e64fcd96c12694f430fece/Internal/en-US/b83a4dcb7d0e46969027345b8d32fd44.html "An XML composite control allows you to define a composite control that clearly separates the behavior of the control from the visual part.") :arrow_upper_right:
+-   Find out more: [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)
 
 
 ***
