@@ -502,6 +502,33 @@ Column-based
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Cell selection
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+</tr>
 </table>
 
 **Legend**:
