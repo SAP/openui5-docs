@@ -59,8 +59,9 @@ The journey uses another structuring element of OPA called “page object” tha
 ```js
 sap.ui.define([
 	'sap/ui/test/opaQunit',
+	'sap/ui/test/Qunit',
 	'./pages/Worklist'
-], function (opaTest) {
+], function (opaTest, QUnit, Worklist) {
 	"use strict";
 
 	QUnit.module("Posts");

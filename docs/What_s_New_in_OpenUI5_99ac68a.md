@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/99ac68
 
 ## What's New in OpenUI5
 
-Find out what's new in the latest versions of OpenUI5.
+SAPUI5 OpenUI5: TypeScript now available for improved development efficiency and experience. Check latest videos in SAP Technology YouTube channel for app development guidance. Use TypeScript for early error catching and code assist. Learn UI5 TypeScript Tutorial for app development in TypeScript.
 
 ***
 
@@ -34,10 +34,6 @@ You are familiar with OpenUI5 app development, but do you want to learn how to d
 		this release OpenUI5 is upgraded
 		from version 1.124 to 1.125.")**  
 With this release OpenUI5 is upgraded from version 1.124 to 1.125.
--   **[What's New in OpenUI5 1.124](What_s_New_in_OpenUI5_1_124_7f77c3f.md "With
-		this release OpenUI5 is upgraded
-		from version 1.123 to 1.124.")**  
-With this release OpenUI5 is upgraded from version 1.123 to 1.124.
 -   **[Previous Versions](Previous_Versions_6660a59.md "")**  
 
 -   **[Change Log](Change_Log_a6a78b7.md "")**  

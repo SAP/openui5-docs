@@ -47,8 +47,11 @@ And many more....
 > 
 > For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
 
--   **[What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md "Find out what's new in the latest versions of OpenUI5.")**  
-Find out what's new in the latest versions of OpenUI5.
+-   **[What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md "SAPUI5 OpenUI5: TypeScript now available for improved development
+		efficiency and experience. Check latest videos in SAP Technology YouTube channel for app
+		development guidance. Use TypeScript for early error catching and code assist. Learn UI5
+		TypeScript Tutorial for app development in TypeScript.")**  
+SAPUI5 OpenUI5: TypeScript now available for improved development efficiency and experience. Check latest videos in SAP Technology YouTube channel for app development guidance. Use TypeScript for early error catching and code assist. Learn UI5 TypeScript Tutorial for app development in TypeScript.
 -   **[Read Me First](Read_Me_First_167193c.md "Before you start using OpenUI5 productively, please read the important information in the section.
 		Here you read everything you need to know about supported library combinations, the
 		supported browsers and platforms, and so on.")**  
