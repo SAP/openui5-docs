@@ -210,7 +210,7 @@ In the following we'll focus on crucial aspects of app development, specifically
 When creating instances of OpenUI5 controls programmatically \(i.e. not declaratively via XML View or Fragment\), then:
 
 -   Don't use the global name of a control. Require the corresponding module dependency instead.
--   Use `createId` to ensure there are no ID collisions, e.g. `View.createId` to prefix the control's ID with the view ID.
+-   Use `createId` to ensure there are no ID collisions, e.g. [`sap.ui.core.mvc.View#createId`](https://sdk.openui5.org/api/sap.ui.core.mvc.View%23methods/createId) to prefix the control's ID with the view ID.
 
 **Additional Information:**
 
@@ -323,14 +323,14 @@ Take care of destroying programatically created models to prevent memory leaks.
 
 **OData V2 Model**
 
--   [`v2.ODataModel#createEntry`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry) : Defining an array for the `mParameters.properties` is deprecated since OpenUI5 1.120. Pass the initial values as an object instead.
+-   [`v2.ODataModel#createEntry`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry): Defining an array for the `mParameters.properties` is deprecated since OpenUI5 1.120. Pass the initial values as an object instead.
 
--   [`v2.ODataModel#refreshSecurityToken`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/refreshSecurityToken) : Pass `true` for the `bAsync` parameter explicitly as its default value is `false`.
+-   [`v2.ODataModel#refreshSecurityToken`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel%23methods/refreshSecurityToken): Pass `true` for the `bAsync` parameter explicitly as its default value is `false`.
 
 
 **JSON Model**
 
-[`JSONModel#loadData`](https://sdk.openui5.org/api/sap.ui.model.json.JSONModel%23methods/loadData) : Do **not** pass `false` to the `bAsync` and `bCache` parameters, which are deprecated.
+[`JSONModel#loadData`](https://sdk.openui5.org/api/sap.ui.model.json.JSONModel%23methods/loadData): Do **not** pass `false` to the `bAsync` and `bCache` parameters, which are deprecated.
 
 **Additional Information:**
 
@@ -364,7 +364,7 @@ Implement strict error handling to address critical issues.
 
 -   Ensure a dependency on the renderer or embed it within the control class.
 
--   Migrate to the rendering `apiVersion 2` or `apiVersion 4`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23overview).
+-   Migrate to the rendering `apiVersion 2` or `apiVersion 4`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23overview).
 
 -   When utilizing [`RenderManager#icon`](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23methods/icon) during rendering, include a dependency to `sap/ui/core/IconPool` in your code.
 
@@ -390,7 +390,7 @@ Implement strict error handling to address critical issues.
 
 -   Don't use the global namespace of the library to add types. Use the return value of `Lib.init` instead to add them.
 
--   Migrate to the library `apiVersion 2`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.init).
+-   Migrate to the library `apiVersion 2`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.init).
 
 -   Use [`sap.ui.base.DataType.registerEnum`](https://sdk.openui5.org/api/sap.ui.base.DataType%23methods/sap.ui.base.DataType.registerEnum) to register enums that shall be usable as a type of control properties.
 
