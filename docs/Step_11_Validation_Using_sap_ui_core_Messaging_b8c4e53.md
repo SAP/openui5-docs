@@ -18,9 +18,9 @@ So far, we have created a currency field that can format itself correctly. The c
 
   
   
-**A message appears**
+**An error message is displayed upon entering text into the currency amount input field**
 
-![](images/loioe67207b43d08410e82e74ad57ffbc022_LowRes.png "A message appears")
+![The graphic has an explanatory text](images/loioe67207b43d08410e82e74ad57ffbc022_LowRes.png "An error message is displayed upon entering text into the currency amount input field")
 
 ***
 

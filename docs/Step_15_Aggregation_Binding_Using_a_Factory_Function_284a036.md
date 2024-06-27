@@ -18,9 +18,9 @@ Instead of hard-coding a single template control, we use a factory function to g
 
   
   
-**Controls generated based on data**
+**A different type of list item is displayed for a discontinued product**
 
-![](images/loiodb27ba88d80c4778809bdb9b971531f9_LowRes.png "Controls generated based on data")
+![The graphic has an explanatory text](images/loiodb27ba88d80c4778809bdb9b971531f9_LowRes.png "A different type of list item is displayed for a discontinued product")
 
 ***
 

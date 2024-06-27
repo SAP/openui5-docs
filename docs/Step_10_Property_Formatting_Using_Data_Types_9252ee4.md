@@ -18,9 +18,9 @@ OpenUI5 provides a set of simple data types such as `Boolean`, `Currency`, `Date
 
   
   
-**New Sales Amount input field**
+**An input field for a currency amount is added to the second panel**
 
-![](images/loiod15f8bc61efe47d9af2afdeea943cd9c_LowRes.png "New Sales Amount input field ")
+![The graphic has an explanatory text](images/loiod15f8bc61efe47d9af2afdeea943cd9c_LowRes.png "An input field for a currency amount is added to the second panel")
 
 ***
 

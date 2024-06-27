@@ -18,9 +18,9 @@ We also want to provide our users a way of contacting Harry Hawk. Therefore we w
 
   
   
-**Address with e-mail link**
+**An e-mail link is added to the address panel**
 
-![](images/loio116157506b3f48ac8ec53ee05095c0df_LowRes.png "Address with e-mail link")
+![The graphic has an explanatory text](images/loio116157506b3f48ac8ec53ee05095c0df_LowRes.png "An e-mail link is added to the address panel")
 
 ***
 

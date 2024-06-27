@@ -16,11 +16,7 @@ In this step, we create a basic application and simply place some text on the sc
 
 ### Preview
 
-  
-  
-**Screen with text**
-
-![](images/loio6d391d527601499fbeb3734246b2c067_LowRes.png "Screen with text")
+![The browser shows the text "Hi, my name is Harry Hawk"](images/loio6d391d527601499fbeb3734246b2c067_LowRes.png)
 
 ***
 

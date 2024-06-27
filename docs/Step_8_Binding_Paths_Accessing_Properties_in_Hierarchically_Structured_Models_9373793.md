@@ -18,9 +18,9 @@ In step 6 , we stated that the fields in a resource model are arranged in a flat
 
   
   
-**Second panel with additional data**
+**A second panel with address data is added**
 
-![](images/loio12705f5341f24febb905a50d37bf32db_LowRes.png "Second panel with additional data")
+![The graphic has an explanatory text](images/loio12705f5341f24febb905a50d37bf32db_LowRes.png " A second panel with address data is added")
 
 ***
 

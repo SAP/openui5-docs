@@ -18,9 +18,9 @@ In the examples used so far, we have used a read-only field to display the value
 
   
   
-**Input fields can be enabled or disabled**
+**Two input fields and a checkbox to enable or disable them**
 
-![](images/loio61d68f167778425bbdd2abd7d550ae65_LowRes.png "Input fields can be enabled or disabled")
+![The graphic has an explanatory text](images/loio61d68f167778425bbdd2abd7d550ae65_LowRes.png "Two input fields and a checkbox to enable or disable them")
 
 ***
 
