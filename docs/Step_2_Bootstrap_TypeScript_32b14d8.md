@@ -55,7 +55,7 @@ Specify the compiler options as follows:
 ```
 {
     "compilerOptions": {
-      "target": "es2022",
+      "target": "es2023",
       "module": "es2022",
       "moduleResolution": "node",
       "skipLibCheck": true,

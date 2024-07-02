@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0cb44d
 
 ## ECMAScript Support
 
-Since OpenUI5 1.116, the framework leverages features of modern ECMAScript, up to and including ES2022. You have to consider certain restrictions when using modern ECMAScript with your OpenUI5 project.
+Since OpenUI5 1.125, the framework leverages features of modern ECMAScript, up to and including ES2023. You have to consider certain restrictions when using modern ECMAScript with your OpenUI5 project.
 
 > ### Caution:  
 > The restrictions described here apply to the usage of modern ECMAScript features in projects that are written in native JavaScript. If your project is written in TypeScript, you only have to make sure that the listed constraints are met by the transpiled code.

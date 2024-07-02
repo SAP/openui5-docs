@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/74b59e
 
 Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.
 
-As OpenUI5 is based on CSS3, HTML5, and modern ECMAScript \("ES2022"\), only browsers with corresponding capabilities are supported. In general, only major versions that are also supported by the respective platform can be supported by the OpenUI5 framework.
+As OpenUI5 is based on CSS3, HTML5, and modern ECMAScript \("ES2023"\), only browsers with corresponding capabilities are supported. In general, only major versions that are also supported by the respective platform can be supported by the OpenUI5 framework.
 
 > ### Restriction:  
 > With OpenUI5 1.116, the framework leverages features of modern ECMAScript up to and including [ECMAScript 2022 Language Specification](https://262.ecma-international.org/13.0/). Certain restrictions do apply, however. For more information, see [ECMAScript Support](ECMAScript_Support_0cb44d7.md).

@@ -64,8 +64,14 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 9](h
     **webapp/view/App.view.xml**
 
     ```xml
-    ...
-    <Panel headerText="{i18n>panel2HeaderText}" class="sapUiResponsiveMargin" width="auto">
+    <mvc:View
+    	controllerName="ui5.databinding.controller.App"
+    	xmlns="sap.m"
+    	xmlns:form="sap.ui.layout.form"
+    	xmlns:l="sap.ui.layout"
+    	xmlns:mvc="sap.ui.core.mvc">
+    	...
+    	<Panel headerText="{i18n>panel2HeaderText}" class="sapUiResponsiveMargin" width="auto">
     		<content>
     			<l:VerticalLayout>
     				<Label labelFor="address" text="{i18n>address}:"/>
