@@ -29,7 +29,7 @@ SAP Web IDE is a web-based development environment that is optimized for develop
 SAP Web IDE can still be used if you have a productive SAP Business Technology Platform global account and have activated SAP Web IDE there.
 
 > ### Note:  
-> It is no longer possible to access SAP Web IDESAP Web IDE via a SAP BTP free tier account.
+> It is no longer possible to access SAP Web IDE via a SAP BTP free tier account.
 
 It is recommended to use SAP Business Application Studio instead. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 

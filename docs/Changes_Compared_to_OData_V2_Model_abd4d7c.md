@@ -154,7 +154,7 @@ For more information, see [Type Determination](Type_Determination_53cdd55.md).
 > The above also applies to [Expression Bindings](Expression_Binding_daf6852.md). In this case, there is a convenience notation `%{binding}`, which is a shortcut for `${path: 'binding', targetType: 'any'}`.
 
 > ### Note:  
-> A property binding can have an object value. For more information, see [Property Binding With an Object Value](Initialization_and_Read_Requests_fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_g5j_v1r_mgb):
+> A property binding can have an object value. For more information, see [Property Binding With an Object Value](Initialization_and_Read_Requests_fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_PBOV):
 > 
 > ```xml
 > <SimpleForm binding="{/BusinessPartnerList('42')}">
