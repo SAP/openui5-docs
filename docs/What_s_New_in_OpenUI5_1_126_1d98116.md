@@ -76,26 +76,26 @@ Announcement
 </td>
 <td valign="top">
 
-**End of Cloud Provisioning for OpenUI5 Versions \(Q2/2024\)** 
+**End of Cloud Provisioning for OpenUI5 Versions \(Q3/2024\)** 
 
 </td>
 <td valign="top">
 
-**End of Cloud Provisioning for OpenUI5 Versions \(Q2/2024\)**
+**End of Cloud Provisioning for OpenUI5 Versions \(Q3/2024\)**
 
 > ### Note:  
 > The following information concerns important upcoming changes for end users. These changes may require end users to adjust and/or test cases to be adapted, but they won't stop or disrupt software or processes.
 
-The following OpenUI5 versions will be removed from the OpenUI5 Content Delivery Network \(CDN\) after the end of Q2/2024.
+The following OpenUI5 versions will be removed from the OpenUI5 Content Delivery Network \(CDN\) after the end of Q3/2024.
 
 **Minor Versions Reaching Their End of Cloud Provisioning**
 
 The following versions including all patches will be removed entirely:
 
--   1.111
--   1.112
--   1.113
+-   1.114
 -   1.115
+-   1.116
+-   1.117
 
 **Action**: Upgrade to a version that is still in maintenance.
 
@@ -105,11 +105,10 @@ The following patches will be removed:
 
 -   Long-term maintenance versions:
 
-    -   1.38.61
-    -   1.71.55-1.71.56
-    -   1.84.32 to 1.84.35
-    -   1.96.18 to 1.96.20
-    -   1.108.7 to 1.108.14
+    -   1.71.57
+    -   1.84.36 to 1.84.38
+    -   1.96.21 to 1.96.22
+    -   1.108.16 to 1.108.19
 
     **Action**: Upgrade to the latest available patch for the respective OpenUI5 version.
 

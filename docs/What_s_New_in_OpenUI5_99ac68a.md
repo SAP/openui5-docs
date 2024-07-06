@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/99ac68
 
 ## What's New in OpenUI5
 
-SAPUI5 OpenUI5: TypeScript now available for improved development efficiency and experience. Check latest videos in SAP Technology YouTube channel for app development guidance. Use TypeScript for early error catching and code assist. Learn UI5 TypeScript Tutorial for app development in TypeScript.
+Find out what's new in the latest versions of OpenUI5.
 
 ***
 
