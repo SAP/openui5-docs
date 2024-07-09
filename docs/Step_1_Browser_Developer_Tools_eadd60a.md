@@ -20,16 +20,26 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 ### Opening the Example App and the Developer Tools
 
-1.  Download the example app with errors at [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01).
+1.  Add the following lines to your `package.json` file:
 
-2.  Extract the downloaded `.zip` file at the desired location on your local machine.
-3.  Open a shell in the extracted folder and execute `npm install`.
-4.  Execute `npm start` to start the web server and to open a new browser window hosting your newly created `index.html`.
+    ```json
+    ...
+    "scripts": {
+      "start": "ui5 serve -o index.html"
+    },
+    ...
+    ```
+
+2.  Download the example app with errors at [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01).
+
+3.  Extract the downloaded `.zip` file at the desired location on your local machine.
+4.  Open a shell in the extracted folder and execute `npm install`.
+5.  Execute `npm start` to start the web server and to open a new browser window hosting your newly created `index.html`.
 
     > ### Note:  
     > If you run the app within the Demo Kit frame, this step will not work as described. Open the app in a new tab first with ![Open in New Tab](images/loioebdf48e5efdb48a5a1f24dea972b4c41_LowRes.png).
 
-5.  Open the *Developer Tools* by pressing [F12\].
+6.  Open the *Developer Tools* by pressing [F12\].
 
 
 ***
@@ -96,7 +106,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 2.  Examine the `button` element by expanding the structure.
 
-3.  On the *Console* tab, enter `myView=sap.ui.require("sap/ui/core/Element").getElementbyId("container-HeapOfShards---app")`.
+3.  On the *Console* tab, enter `myView=sap.ui.require("sap/ui/core/Element").getElementById("container-HeapOfShards---app")`.
 
 4.  On the *Console* tab, enter `myView.byId("myButton")`.
 
@@ -130,7 +140,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 > <tr>
 > <td valign="top">
 > 
-> `Element.getElementbyId("container-HeapOfShards---app--myButton")`, with `Element` required from module `sap/ui/core/Element` 
+> `Element.getElementById("container-HeapOfShards---app--myButton")`, with `Element` required from module `sap/ui/core/Element` 
 > 
 > </td>
 > <td valign="top">
