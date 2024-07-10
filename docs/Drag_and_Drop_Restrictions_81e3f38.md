@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/81e3f3
 
 There are some known restrictions when using drag and drop.
 
-When you use drag and drop, the following restrictions apply:
+When you use drag and drop, some restrictions apply, for example:
 
 -   The transparency of the dragging ghost element and the cursor during drag-and-drop operations is not configurable.
 
@@ -22,4 +22,9 @@ When you use drag and drop, the following restrictions apply:
 
 
 Note that drag and drop is not accessible. Applications must provide an alternative for users with special needs for drag-and-drop operations.
+
+**Related Information**  
+
+
+[API Reference: `sap.ui.core.dnd.DragDropBase`](https://sdk.openui5.org/api/sap.ui.core.dnd.DragDropBase)
 

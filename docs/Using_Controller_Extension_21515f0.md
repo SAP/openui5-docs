@@ -187,15 +187,21 @@ We therefore offer the `overrides` keyword as an additional name for this defini
 
 > ### Sample Code:  
 > ```js
->    
->   export default class AppExtension extends ControllerExtension {
+> 
+> /**
+> * @namespace my.sample
+> */
+> export default class AppExtension extends ControllerExtension {
 >    static readonly overrides = {
 >      onInit: function() {
 >        // ...
 >      }
 >    }
->  }
+> }
 > ```
+
+> ### Note:  
+> The `@namespace` comment is required for the extension class to be known by its full name at runtime, so it can e.g. be referenced in the `manifest.json` when applying the controller extension.
 
 > ### Note:  
 > The `overrides` keyword is only recognized by UI5 runtime versions 1.112 and higher.

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/eadd60
 
 In this step, you will learn how to use your browser's developers tools to troubleshoot your OpenUI5 app.
 
-Most modern web browsers contain some form of Developer Tools. They allow you to examine the details of the current web page. You can also use them to debug JavaScript code, analyze network performance, live-edit DOM elements, and much more. As an example, we will show you how to use the *Developer Tools* in Google Chrome. Other browsers have similar capabilities, and you can easily adapt the examples shown here to these browsers.
+Most modern web browsers contain some form of developer tools. They allow you to examine the details of the current web page. You can also use them to debug JavaScript code, analyze network performance, live-edit DOM elements, and much more. As an example, we will show you how to use the *Developer Tools* in Google Chrome. Other browsers have similar capabilities, and you can easily adapt the examples shown here to these browsers.
 
 ***
 
@@ -20,26 +20,16 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 ### Opening the Example App and the Developer Tools
 
-1.  Add the following lines to your `package.json` file:
+1.  Download the example app with errors at [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01).
 
-    ```json
-    ...
-    "scripts": {
-      "start": "ui5 serve -o index.html"
-    },
-    ...
-    ```
-
-2.  Download the example app with errors at [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01).
-
-3.  Extract the downloaded `.zip` file at the desired location on your local machine.
-4.  Open a shell in the extracted folder and execute `npm install`.
-5.  Execute `npm start` to start the web server and to open a new browser window hosting your newly created `index.html`.
+2.  Extract the downloaded `.zip` file at the desired location on your local machine.
+3.  Open a shell in the extracted folder and execute `npm install`.
+4.  Execute `npm start` to start the web server and to open a new browser window hosting your newly created `index.html`.
 
     > ### Note:  
     > If you run the app within the Demo Kit frame, this step will not work as described. Open the app in a new tab first with ![Open in New Tab](images/loioebdf48e5efdb48a5a1f24dea972b4c41_LowRes.png).
 
-6.  Open the *Developer Tools* by pressing [F12\].
+5.  Open the *Developer Tools* by pressing [F12\].
 
 
 ***

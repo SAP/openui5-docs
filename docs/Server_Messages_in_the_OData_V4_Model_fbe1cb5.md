@@ -131,12 +131,14 @@ classification of end-user messages
 <tr>
 <td valign="top">
 
-`longtextURL`\*
+`longtextUrl`\*
+
+`@Common.longtextUrl`\*
 
 </td>
 <td valign="top">
 
-`descriptionURL`
+`descriptionUrl`
 
 </td>
 <td valign="top">

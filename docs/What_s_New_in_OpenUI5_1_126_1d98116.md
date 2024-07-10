@@ -83,9 +83,6 @@ Announcement
 
 **End of Cloud Provisioning for OpenUI5 Versions \(Q3/2024\)**
 
-> ### Note:  
-> The following information concerns important upcoming changes for end users. These changes may require end users to adjust and/or test cases to be adapted, but they won't stop or disrupt software or processes.
-
 The following OpenUI5 versions will be removed from the OpenUI5 Content Delivery Network \(CDN\) after the end of Q3/2024.
 
 **Minor Versions Reaching Their End of Cloud Provisioning**
