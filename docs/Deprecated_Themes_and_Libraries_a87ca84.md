@@ -239,7 +239,7 @@ Removed as of 1.114. Use `sap.sac.df.FlexAnalysis` instead.
 </td>
 <td valign="top">
 
-Partly deprecated. For the deprecated parts, see [API Reference: `sap.ui.suite`](https://sdk.openui5.org/api/sap.ui.suite). 
+ 
 
 </td>
 </tr>
@@ -268,12 +268,12 @@ Removed as of 1.120
 </td>
 <td valign="top">
 
-1.96.10
+1.96
 
 </td>
 <td valign="top">
 
-Partly deprecated. For the deprecated parts, see [API Reference: `sap.ui.vtm`](https://sdk.openui5.org/api/sap.ui.vtm). 
+ 
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ Partly deprecated. For the deprecated parts, see [API Reference: `sap.ui.vtm`](h
 </td>
 <td valign="top">
 
-Partly deprecated. For the deprecated parts, see [API Reference: `sap.zen.commons`](https://sdk.openui5.org/api/sap.zen.commons). 
+ 
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ Partly deprecated. For the deprecated parts, see [API Reference: `sap.zen.common
 </td>
 <td valign="top">
 
-Partly deprecated. For the deprecated parts, see [API Reference: `sap.zen.dsh`](https://sdk.openui5.org/api/sap.zen.dsh). 
+
 
 </td>
 </tr>
@@ -399,17 +399,17 @@ Partly deprecated. For the deprecated parts, see [API Reference: `sap.zen.dsh`](
 <tr>
 <td valign="top">
 
-`sap.ca`
+`sap.ca.ui`
 
 </td>
 <td valign="top">
 
-1.22
+1.28
 
 </td>
 <td valign="top">
 
-Partly deprecated. For the deprecated parts, see [API Reference: `sap.ca`](https://sdk.openui5.org/api/sap.ca). 
+ 
 
 </td>
 </tr>

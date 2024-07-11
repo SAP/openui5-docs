@@ -62,3 +62,5 @@ You can use the following attributes in the metadata of a control for drag and d
 
 [API Reference: `sap.ui.core.Element.extend`](https://sdk.openui5.org/api/sap.ui.core.Element/methods/sap.ui.core.Element.extend)
 
+[API Reference: `sap.ui.base.ManagedObject.extend`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend)
+

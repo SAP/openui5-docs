@@ -26,6 +26,16 @@ Let's get you ready for your journey! We bootstrap OpenUI5 in an HTML page and i
 
 ***
 
+<a name="loio851bde42e4e1410c96abbe402fa9128c__section_lv5_lvy_zbc"/>
+
+### Setup
+
+Open a terminal and install UI5 Tooling globally on your machine by executing the following command:
+
+`npm install --global @ui5/cli`
+
+***
+
 <a name="loio851bde42e4e1410c96abbe402fa9128c__section_zzy_mpc_1gb"/>
 
 ### Coding

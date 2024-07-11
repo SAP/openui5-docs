@@ -189,8 +189,8 @@ We therefore offer the `overrides` keyword as an additional name for this defini
 > ```js
 > 
 > /**
-> * @namespace my.sample
-> */
+>  * @namespace my.sample
+>  */
 > export default class AppExtension extends ControllerExtension {
 >    static readonly overrides = {
 >      onInit: function() {
