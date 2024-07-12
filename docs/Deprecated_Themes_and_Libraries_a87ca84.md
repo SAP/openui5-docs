@@ -282,37 +282,7 @@ Removed as of 1.120
 
 `sap.zen.commons`
 
-</td>
-<td valign="top">
-
-1.89
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `sap.zen.crosstab`
-
-</td>
-<td valign="top">
-
-1.89
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
 
 `sap.zen.dsh`
 
@@ -324,7 +294,7 @@ Removed as of 1.120
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -333,37 +303,7 @@ Removed as of 1.120
 
 `sap.ui.commons`
 
-</td>
-<td valign="top">
-
-1.38
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `sap.ui.ux3`
-
-</td>
-<td valign="top">
-
-1.38
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
 
 `sap.makit`
 
