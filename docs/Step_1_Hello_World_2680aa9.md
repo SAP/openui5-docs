@@ -20,6 +20,16 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 
 ***
 
+<a name="loio2680aa9b16c14a00b01261d04babbb39__section_lv5_lvy_zbc"/>
+
+### Setup
+
+Open a terminal and install UI5 Tooling globally on your machine by executing the following command:
+
+`npm install --global @ui5/cli`
+
+***
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 1](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.01).
