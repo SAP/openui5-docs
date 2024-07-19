@@ -18,6 +18,9 @@ Before upgrading to a newer OpenUI5 version, you must generally first ensure tha
 -   [Use Only Public APIs](Use_Only_Public_APIs_b0d5fe2.md)
 -   [Coding Issues to Avoid](Coding_Issues_to_Avoid_3877872.md)
 -   [The Owner Component](The_Owner_Component_a7a3138.md)
+-   [Don't Use Deprecated or Experimental Features](Don_t_Use_Deprecated_or_Experimental_Features_a8bd1a8.md)
+
+See also our related guidelines at [Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md).
 
 Afterwards, refer to the following version-specific sections that describe what else you have to consider:
 

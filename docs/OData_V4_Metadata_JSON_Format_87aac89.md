@@ -14,7 +14,7 @@ The OData V4 model provides access to metadata in a streamlined JSON format whic
 
 It is different to the $metadata service's JSON format \(see [OData JSON Format Version 4.0](http://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html)\) and the OData JSON Format for Common Schema Definition Language \(CSDL\) Version 4.0 \(see [corresponding specification](http://docs.oasis-open.org/odata/odata-json-csdl/v4.0/odata-json-csdl-v4.0.html)\), intended to simplify client-side processing.
 
-In the sections below, angled brackets indicate variable parts. The numbers next to each expression correspond to the numbered sections in the official specification, see [OData Version 4.0 Part 3: Common Schema Definition Language \(CSDL\) Plus Errata 03](http://docs.oasis-open.org/odata/odata-json-csdl/v4.0/odata-json-csdl-v4.0.html). Comments highlight optional properties, especially those that have certain default values.
+In the sections below, angled brackets indicate variable parts. The numbers next to each expression correspond to the numbered sections in the official specification, see [OData Version 4.0 Part 3: Common Schema Definition Language \(CSDL\) Plus Errata 03](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html). Comments highlight optional properties, especially those that have certain default values.
 
 ***
 
@@ -50,8 +50,8 @@ We use the `"<key>@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <va
 > ### Note:  
 > For segments which represent a path, such as the keys for the `"$ReferentialConstraint"` and`"$NavigationPropertyBinding"` maps, you need to use URL encoding for the slash character \(`"%2F"`\).
 > 
-> > ### Sample Code:  
-> > **Escaping the Slash Character**
+> > ### Example:  
+> > Escaping the Slash Character
 > > 
 > > ```xml
 > > <EntitySet Name="Customer" EntityType="...CustomerParameters">
