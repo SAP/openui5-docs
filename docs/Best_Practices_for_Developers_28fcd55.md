@@ -374,13 +374,15 @@ Implement strict error handling to address critical issues.
 
 -   When utilizing [`RenderManager#icon`](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23methods/icon) during rendering, include a dependency to `sap/ui/core/IconPool` in your code.
 
--   Don't use `Control#rerender` to rerender a control as it's deprecated. Use [`Control#invalidate`](https://sdk.openui5.org/api/sap.ui.core.Control%23methods/invalidate) instead if required.
+-   Don't rely on [`rerender`](https://sdk.openui5.org/api/sap.ui.core.Control%23methods/rerender) to rerender a control as it is deprecated.
 
+-   Avoid overriding `invalidate` for unintended purposes. Custom logic before or after rendering should be implemented in `onBeforeRendering` or `onAfterRendering`, respectively. The actual rendering should be implemented in the `render` function of the control's renderer.
+-   Let the framework handle the invalidation instead of calling `invalidate` directly. It takes care of properly invalidating all affected controls, for example when a managed control state changes via generated mutators or data binding.
 
 **Additional Information:**
 
 -   [`RenderManager`](https://sdk.openui5.org/api/sap.ui.core.RenderManager)
--   [`RenderManager#icon`](https://sdk.openui5.org/api/sap.ui.core.RenderManager%23methods/icon)
+-   [OpenUI5 Control Development Guidelines](OpenUI5_Control_Development_Guidelines_4549da6.md)
 
 ***
 
