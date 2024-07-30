@@ -183,11 +183,6 @@ For information on integrating controller extensions into controllers in TypeScr
 
 ### Using Controller Extension with TypeScript
 
-> ### Note:  
-> Controller extension support in TypeScript requires `babel-plugin-transform-modules-ui5` version 7.5.0 or higher.
-> 
-> If you use `ui5-tooling-transpile` instead, you have to make sure to execute `npm update` in your project.
-
 In UI5 JavaScript code, controller extensions may have an `override` definition block, containing methods like `onInit` which are to be overridden by the extension. In TypeScript, the presence of a definition block with the same name as a static member of an ES6 class would lead to a name clash with the static UI5 method `sap.ui.core.mvc.ControllerExtension.override`. Furthermore, specifying this block as a static member would not work — regardless of its name — because the[transformer](https://github.com/ui5-community/babel-plugin-transform-modules-ui5/) would assign this block as a static member to the transformed UI5 class instead of moving it **into** the definition block of `BaseClass.extend("ClassName", { ... })` where it is expected.
 
 We therefore offer the `overrides` keyword as an additional name for this definition block, so that controller extensions can be specified as ES6 classes in TypeScript as shown below. The transformer has been changed to handle the `overrides` definition block in the correct way.
@@ -239,6 +234,11 @@ We therefore offer the `overrides` keyword as an additional name for this defini
 ***
 
 #### Assigning Controller Extensions
+
+> ### Note:  
+> `ControllerExtension.use(...)` requires `babel-plugin-transform-modules-ui5` version 7.5.0 or higher.
+> 
+> If you use `ui5-tooling-transpile` instead, you have to make sure to execute `npm update` in your project.
 
 In JavaScript, when a controller uses a pre-defined controller extension, the respective extension class needs to be assigned to the `extend` object under an arbitrary property name. In TypeScript, however, the class property should contain an extension instance, as the controller code should interact with an instance — not the class — of the extension.
 
