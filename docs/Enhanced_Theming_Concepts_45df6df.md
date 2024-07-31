@@ -14,7 +14,9 @@ On top of pure CSS, OpenUI5 offers advanced theming concepts and functions which
 
 ***
 
-### CSS Variables, Functions and More
+<a name="loio45df6dff504647c686ab9ba72af827f6__section_CSS"/>
+
+### CSS Variables, Functions, and More
 
 OpenUI5 uses the popular CSS preprocessor [LESS](http://lesscss.org/). This tool introduces several features, including CSS variables, a concept which has also been heavily demanded by the CSS community: In any UI5-controlled CSS file, variables can be defined and can then be referenced anywhere in the CSS code of the same library. These variables are mainly used for colors. All CSS variables are global. The CSS variable concept contributes to a consistent way of implementing and changing the styles.
 

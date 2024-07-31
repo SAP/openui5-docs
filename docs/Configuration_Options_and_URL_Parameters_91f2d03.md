@@ -1260,7 +1260,7 @@ Default value: `undefined`
 
 Defines code that has to be executed after the initialization.
 
-In case a string is provided, this must be either the name of a module indicated by the prefix `module:` \(like[`module:sap/ui/core/ComponentSupport`](https://sdk.openui5.org/api/module:sap/ui/core/ComponentSupport)\) or the name of a property within the `globalThis` object containing a function. Provided modules will be loaded and executed after initialization.
+In case a string is provided, this must be either the name of a module indicated by the prefix `module:` \(like [`module:sap/ui/core/ComponentSupport`](https://sdk.openui5.org/api/module:sap/ui/core/ComponentSupport)\) or the name of a property within the `globalThis` object containing a function. Provided modules will be loaded and executed after initialization.
 
 Within `globalThis["sap-ui-config"]["on-init"]` it is also possible to provide a function directly.
 
