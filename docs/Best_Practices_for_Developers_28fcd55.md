@@ -376,8 +376,8 @@ Implement strict error handling to address critical issues.
 
 -   Don't rely on [`rerender`](https://sdk.openui5.org/api/sap.ui.core.Control%23methods/rerender) as it is deprecated.
 
--   Avoid overriding `invalidate` for unintended purposes. Custom logic before or after rendering should be implemented in `onBeforeRendering` or `onAfterRendering`, respectively. The actual rendering should be implemented in the `render` function of the control's renderer.
--   Let the framework handle the invalidation instead of calling `invalidate` directly. It takes care of properly invalidating all affected controls, for example when a managed control state changes via generated mutators or data binding.
+-   Avoid overriding `invalidate` for unintended purposes. Custom logic before or after rendering should be implemented in `onBeforeRendering` or `onAfterRendering`. The actual rendering should be implemented in the `render` function of the control's renderer.
+-   Let the framework handle the invalidation instead of calling `invalidate` directly. It takes care of properly invalidating all affected controls, for example, when a managed control state changes via generated mutators or data binding.
 
 **Additional Information:**
 

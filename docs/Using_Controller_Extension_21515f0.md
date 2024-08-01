@@ -235,11 +235,6 @@ We therefore offer the `overrides` keyword as an additional name for this defini
 
 #### Assigning Controller Extensions
 
-> ### Note:  
-> `ControllerExtension.use(...)` requires `babel-plugin-transform-modules-ui5` version 7.5.0 or higher.
-> 
-> If you use `ui5-tooling-transpile` instead, you have to make sure to execute `npm update` in your project.
-
 In JavaScript, when a controller uses a pre-defined controller extension, the respective extension class needs to be assigned to the `extend` object under an arbitrary property name. In TypeScript, however, the class property should contain an extension instance, as the controller code should interact with an instance — not the class — of the extension.
 
 To support this, the dummy method `ControllerExtension.use(...)` is introduced in the UI5 type definitions. This method takes an extension class as its argument and claims to return an instance, allowing you to work with this instance in your controller.
@@ -265,6 +260,8 @@ Behind the scenes, the `ControllerExtension.use(...)` method call is removed by 
 > ```
 
 > ### Note:  
+> `ControllerExtension.use(...)` requires `babel-plugin-transform-modules-ui5` version 7.5.0 or higher. If you use `ui5-tooling-transpile` instead, you have to make sure to execute `npm update` in your project.
+> 
 > To have the transformer plugin recognize and remove the dummy method call, you must do the following:
 > 
 > -   Call it on the `ControllerExtension` base class \(imported from `sap/ui/core/mvc/ControllerExtension`\), not on a class deriving from it.
