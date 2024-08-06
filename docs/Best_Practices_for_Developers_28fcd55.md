@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/28fcd5
 
 ## Best Practices for Developers
 
-This page aims to be a good starting point for you to ensure your code bases, i.e. your OpenUI5 applications and libraries, do not become legacy but are ready for the future.
+This page is a good starting point for you to ensure your code bases, specifically your OpenUI5 applications and libraries, are ready for the future and won't become outdated.
 
 ***
 
@@ -18,9 +18,9 @@ This page aims to be a good starting point for you to ensure your code bases, i.
 
 ### Alignment for Future-Proof Code
 
-The OpenUI5 framework keeps evolving, for instance to benefit from newer features in web browsers \(such as ECMAScript support\) or to account for their end of maintenance \(such as the end of IE11 support\). There are many substantial steps of an ongoing journey towards future major framework versions and continuous improvements.
+The OpenUI5 framework is always evolving to benefit from newer features in web browsers \(like ECMAScript support\) or to account for their end of maintenance \(like the end of IE11 support\). This is a continuous journey towards future major framework versions and improvements.
 
-Therefore, it is crucial that you continue to apply best practices. To support your activities, the documentation is frequently being updated in many places. This page is to collect fundamental information and to offer practical guidance, and it will evolve over time.
+Therefore, it's important that you keep applying best practices. To help you, we frequently update the documentation in many places. This page collects fundamental information and offers practical guidance, and it will continue to evolve over time.
 
 ***
 
@@ -29,7 +29,7 @@ Therefore, it is crucial that you continue to apply best practices. To support y
 ### Best Practices for Legacy-Free Code
 
 > ### Note:  
-> The following information is a preliminary yet practical collection of best practices to ensure legacy-free OpenUI5 development. It is being improved continuously to reflect our latest recommendations. It will be further enhanced to both help transform existing code bases and provide guidance for creating new code.
+> The following information is a preliminary yet practical collection of best practices to ensure legacy-free OpenUI5 development. We're continuously improving it to reflect our latest recommendations. It will be further enhanced to both help transform existing code bases and provide guidance for creating new code.
 
 ***
 
@@ -39,38 +39,38 @@ The main objectives when migrating existing code or keeping it up to date with f
 
 -   **No sync loading of code**
 
-    for compliance with our Content Security Policy; for more information, see [Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md)
+    This is for compliance with our Content Security Policy. For more information, see [Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md).
 
 -   **No sync loading of data**
 
-    to avoid deprecation warnings of web browsers regarding sync XHR
+    This helps avoid deprecation warnings of web browsers regarding sync XHR.
 
 -   **No use of global names**
 
-    to avoid pollution of the global namespace and conflicts with other code on the page
+    This helps avoid pollution of the global namespace and conflicts with other code on the page.
 
 -   **No use of deprecated APIs**
 
-    to reduce the API surface for easier usage and maintenance
+    This reduces the API surface for easier usage and maintenance.
 
 
 ***
 
 #### Prerequisites
 
-Before attempting to migrate or upgrade to a higher OpenUI5 version, make sure that your development does **not** use any undocumented internal framework resources, and double check that all compatibility guidelines have been followed, such as those mentioned in [Upgrading](Upgrading_9638e4f.md).
+Before attempting to migrate or upgrade to a higher OpenUI5 version, make sure that your development does **not** use any undocumented internal framework resources. Also, double check that all compatibility guidelines have been followed, such as those mentioned in [Upgrading](Upgrading_9638e4f.md).
 
 ***
 
 #### Deprecated APIs
 
-In general, **you must not use deprecated APIs** anymore, such as `sap.ui.getCore()`. Deprecated APIs can be found in the [API Reference](https://sdk.openui5.org/api/deprecated), in the [What's New Viewer](https://help.sap.com/whats-new/67f60363b57f4ac0b23efd17fa192d60?Type=Deleted%3BDeprecated), and in the reports by our [Support Assistant](Support_Assistant_57ccd7d.md) and [UI5 linter](https://github.com/SAP/ui5-linter). For new projects we recommend the use of TypeScript, because usage of deprecated APIs can then be detected easily.
+In general, **you should stop using deprecated APIs**, such as `sap.ui.getCore()`. You can find deprecated APIs in the [API Reference](https://sdk.openui5.org/api/deprecated), in the [What's New Viewer](https://help.sap.com/whats-new/67f60363b57f4ac0b23efd17fa192d60?Type=Deleted%3BDeprecated), and in the reports by our [Support Assistant](Support_Assistant_57ccd7d.md) and [UI5 linter](https://github.com/SAP/ui5-linter). For new projects, we recommend the use of TypeScript, because usage of deprecated APIs can then be detected easily.
 
-Also, see the relevant warnings and errors logged to the browser's dev console during runtime. You might need to increase the `sap-ui-log-level`; for more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
+Also, see the relevant warnings and errors logged to the browser's dev console during runtime. You might need to increase the `sap-ui-log-level`. For more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
 
 Some APIs may be only partially deprecated, for instance passing a non-object `vName` to [`sap.ui.core.theming.Parameters.get`](https://sdk.openui5.org/api/sap.ui.core.theming.Parameters%23methods/sap.ui.core.theming.Parameters.get). Refer to the API Reference for individual APIs.
 
-Using the native web API `XMLHttpRequest#open` with `false` as the third argument outside of workers is deprecated too, and browsers might end its support. Therefore, in addition to avoiding already deprecated OpenUI5 APIs, you must not call low-level APIs such as `jQuery.ajax` with a disabled `async` option either.
+Using the native web API `XMLHttpRequest#open` with `false` as the third argument outside of workers is also deprecated, and browsers might end its support. Therefore, in addition to avoiding already deprecated OpenUI5 APIs, you should not call low-level APIs such as `jQuery.ajax` with a disabled `async` option either.
 
 **Additional Information:**
 

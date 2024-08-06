@@ -113,9 +113,9 @@ In this tutorial, we showcase how to structure your OpenUI5 app using the layout
 -   **[Demo Apps](Demo_Apps_a3ab54e.md "With the Demo Kit, we deliver some demo apps that show you how you can use the
 		various features and controls of OpenUI5.")**  
 With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.
--   **[Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md "This page aims to be a good starting point for you to ensure your code bases, i.e. your OpenUI5 applications and libraries, do not become legacy but are ready for the
-		future.")**  
-This page aims to be a good starting point for you to ensure your code bases, i.e. your OpenUI5 applications and libraries, do not become legacy but are ready for the future.
+-   **[Best Practices for Developers](Best_Practices_for_Developers_28fcd55.md "This page is a good starting point for you to ensure your code bases, specifically your OpenUI5 applications and libraries, are ready for the future and won't become
+		outdated.")**  
+This page is a good starting point for you to ensure your code bases, specifically your OpenUI5 applications and libraries, are ready for the future and won't become outdated.
 
 **Related Information**  
 
