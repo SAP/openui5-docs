@@ -36,9 +36,9 @@ Set the `text` property of the `sap.m.Text` control to the value `{/greetingText
 </mvc:View>
 ```
 
-**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we explain the concepts of data binding in OpenUI5.")
 
-**Next:**[Step 2: Creating a Model](Step_2_Creating_a_Model_5278bfd.md "In this step, we create a model as container for the data on which your application operates.")
+**Next:**[Step 2: Creating a Model](Step_2_Creating_a_Model_5278bfd.md "In this step, we create a model. It serves as a container for the data your application operates on.")
 
 **Previous:**[Step 4: Two-Way Data Binding](Step_4_Two_Way_Data_Binding_c72b922.md "In the examples used so far, we have used a read-only field to display the value of a model property. We will now change the user interface so that the first and last name fields are displayed using sap.m.Input fields and an additional check box control is used to enable or disable both input fields. This arrangement illustrates a feature known as &quot;two-way data binding&quot;. Now that the view contains more controls, we will also move the view definition into an XML file.")
 

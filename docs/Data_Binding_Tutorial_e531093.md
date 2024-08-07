@@ -10,13 +10,13 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e53109
 
 ## Data Binding Tutorial
 
-In this tutorial, we will explain the concepts of data binding in OpenUI5.
+In this tutorial, we explain the concepts of data binding in OpenUI5.
 
-You use data binding to bind UI elements to data sources to keep the data in sync and allow data editing on the UI.
+Data binding is used to bind UI elements to data sources. This keeps the data in sync and allows data editing on the UI.
 
-For data binding, you need a model and a binding instance: The model instance holds the data and provides methods to set the data or to retrieve the data from a server. It also provides a method for creating bindings to the data. When this method is called, a binding instance is created, which contains the binding information and provides an event, which is fired whenever the bound data changes. An element can listen to this event and update its visualization according to the new data.
+For data binding, you need a model and a binding instance: The model holds the data and provides methods to set the data or retrieve it from a server. It also provides a method for creating bindings to the data. When you call this method, a binding instance is created, which contains the binding information and provides an event, which is fired whenever the bound data changes. An element can listen to this event and update its visualization according to the new data.
 
-The UI uses data binding to bind controls to the model which holds the application data, so that the controls are updated automatically whenever application data changes. Data binding is also used the other way round, when changes in the control cause updates in the underlying application data, for example data entered by the user. This is called two-way binding.
+The UI uses data binding to bind controls to the model which holds the application data, so that the controls are updated automatically whenever application data changes. Data binding is also used in reverse, when changes in the control, for example data entered by the user, cause updates in the underlying application data. This is called two-way binding.
 
 ***
 
@@ -25,18 +25,17 @@ The UI uses data binding to bind controls to the model which holds the applicati
 ![Preview of three panels of the UI5 application that is going to be built in this tutorial. Contains three panels with name input fields, address details, and a product list.](images/loio896048ebce6b47488068c9630b71c43a_LowRes.png)
 
 > ### Tip:  
-> You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, copy it to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
+> You don't have to do all tutorial steps in order; you can jump directly to any step you want. Just download the code from the previous step, copy it to your workspace, and ensure that the application runs by calling the `webapp/index.html` file.
 > 
-> You can view and download the files for all steps in the Demo Kit at [Data Binding](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding). Depending on your development environment you might have to adjust resource paths and configuration entries.
+> You can view and download the files for all steps in the Demo Kit at [Data Binding](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding). Depending on your development environment you might need to adjust resource paths and configuration entries.
 > 
 > For more information check the [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download) section of the tutorials overview page [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md).
 
 1.  [Step 1: No Data Binding](Step_1_No_Data_Binding_4cde849.md "In this step, we create a basic application and simply place some text on the screen using a standard sap.m.Text control.
 		The text in this control is a hard-coded part of the control's definition; therefore, this is not an example of data binding!")  
 In this step, we create a basic application and simply place some text on the screen using a standard `sap.m.Text` control. The text in this control is a hard-coded part of the control's definition; therefore, this is not an example of data binding!
-2.  [Step 2: Creating a Model](Step_2_Creating_a_Model_5278bfd.md "In this step, we create a model as container for the data on which your application
-		operates.")  
-In this step, we create a model as container for the data on which your application operates.
+2.  [Step 2: Creating a Model](Step_2_Creating_a_Model_5278bfd.md "In this step, we create a model. It serves as a container for the data your application operates on.")  
+In this step, we create a model. It serves as a container for the data your application operates on.
 3.  [Step 3: Create Property Binding](Step_3_Create_Property_Binding_d70e989.md "Although there is no visible difference, the text on the screen is now derived from
 		model data.")  
 Although there is no visible difference, the text on the screen is now derived from model data.

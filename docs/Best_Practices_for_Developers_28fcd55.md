@@ -64,13 +64,13 @@ Before attempting to migrate or upgrade to a higher OpenUI5 version, make sure t
 
 #### Deprecated APIs
 
-In general, **you should stop using deprecated APIs**, such as `sap.ui.getCore()`. You can find deprecated APIs in the [API Reference](https://sdk.openui5.org/api/deprecated), in the [What's New Viewer](https://help.sap.com/whats-new/67f60363b57f4ac0b23efd17fa192d60?Type=Deleted%3BDeprecated), and in the reports by our [Support Assistant](Support_Assistant_57ccd7d.md) and [UI5 linter](https://github.com/SAP/ui5-linter). For new projects, we recommend the use of TypeScript, because usage of deprecated APIs can then be detected easily.
+In general, **you must not use deprecated APIs** anymore, such as `sap.ui.getCore()`. You can find deprecated APIs in the [API Reference](https://sdk.openui5.org/api/deprecated), in the [What's New Viewer](https://help.sap.com/whats-new/67f60363b57f4ac0b23efd17fa192d60?Type=Deleted%3BDeprecated), and in the reports by our [Support Assistant](Support_Assistant_57ccd7d.md) and [UI5 linter](https://github.com/SAP/ui5-linter). For new projects, we recommend the use of TypeScript, because usage of deprecated APIs can then be detected easily.
 
 Also, see the relevant warnings and errors logged to the browser's dev console during runtime. You might need to increase the `sap-ui-log-level`. For more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
 
 Some APIs may be only partially deprecated, for instance passing a non-object `vName` to [`sap.ui.core.theming.Parameters.get`](https://sdk.openui5.org/api/sap.ui.core.theming.Parameters%23methods/sap.ui.core.theming.Parameters.get). Refer to the API Reference for individual APIs.
 
-Using the native web API `XMLHttpRequest#open` with `false` as the third argument outside of workers is also deprecated, and browsers might end its support. Therefore, in addition to avoiding already deprecated OpenUI5 APIs, you should not call low-level APIs such as `jQuery.ajax` with a disabled `async` option either.
+Using the native web API `XMLHttpRequest#open` with `false` as the third argument outside of workers is also deprecated, and browsers might end its support. Therefore, in addition to avoiding already deprecated OpenUI5 APIs, you must not call low-level APIs such as `jQuery.ajax` with a disabled `async` option either.
 
 **Additional Information:**
 

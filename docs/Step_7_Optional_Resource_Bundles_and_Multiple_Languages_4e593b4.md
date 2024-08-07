@@ -48,7 +48,7 @@ panelHeaderText=Data Binding Grundlagen
 
 To test the outcome, append the `sap-language=DE` URL parameter to the URL in your browser, e.g. `http://localhost:port/index.html?sap-language=DE`. Once you remove this parameter, your app will be displayed in your browser's default language again.
 
-**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we explain the concepts of data binding in OpenUI5.")
 
 **Next:**[Step 6: Resource Models](Step_6_Resource_Models_9790d9a.md "Business applications also require language-specific (translatable) texts used as labels and descriptions on the user interface.")
 

@@ -139,7 +139,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 1](h
     });
     ```
 
-7.  Create a new folder named `view` in the webapp folder. Now create a new file `App.view.xml` within the `view` folder. We start by placing the `sap.m.Text` control into the XML view. Since the value of the control's text property has been hard-coded, it is unrelated to any data that might exist within a model object. Therefore, data binding is **not** used here.
+7.  Create a new folder named `view` in the webapp folder. Then, create a new file `App.view.xml` within the `view` folder. We start by placing the `sap.m.Text` control into the XML view. Since the value of the control's text property is hard-coded, it doesn't relate to any data that might exist within a model object. Therefore, data binding is **not** used here.
 
     **webapp/view/App.view.xml \(New\)**
 
@@ -162,7 +162,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 1](h
 12. Execute `npm start` to start the web server and to open a new browser window hosting your newly created `index.html`.
 
 
-**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we explain the concepts of data binding in OpenUI5.")
 
-**Previous:**[Step 2: Creating a Model](Step_2_Creating_a_Model_5278bfd.md "In this step, we create a model as container for the data on which your application operates.")
+**Previous:**[Step 2: Creating a Model](Step_2_Creating_a_Model_5278bfd.md "In this step, we create a model. It serves as a container for the data your application operates on.")
 

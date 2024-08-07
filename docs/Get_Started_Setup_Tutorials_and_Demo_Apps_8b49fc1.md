@@ -82,8 +82,8 @@ In this tutorial we'll introduce you to all major development paradigms of OpenU
 		problems with your OpenUI5
 		app.")**  
 In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.
--   **[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5. ")**  
-In this tutorial, we will explain the concepts of data binding in OpenUI5.
+-   **[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we explain the concepts of data binding in OpenUI5. ")**  
+In this tutorial, we explain the concepts of data binding in OpenUI5.
 -   **[OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app
 		that consumes data from an OData V4 service to understand how to access, modify, aggregate,
 		and filter data in an OData V4 model.")**  
