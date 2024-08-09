@@ -274,7 +274,7 @@ For more information, see the API Reference for the following methods:
 **Related Information**  
 
 
-[Tutorial Step 13: Element Binding](Step_13_Element_Binding_6c7c5c2.md "Now we want to do something with that newly generated list. In most cases you will use a list to allow the selection of an item and then show the details of that item elsewhere. In order to achieve this, we use a form with relatively bound controls and bind it to the selected entity via element binding.")
+[Tutorial Step 13: Element Binding](Step_13_Element_Binding_6c7c5c2.md "Now, let's do something with that newly generated list. Typically, you use a list to allow selection of an item and then display the details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via element binding.")
 
 [Binding Syntax](Binding_Syntax_e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.")
 

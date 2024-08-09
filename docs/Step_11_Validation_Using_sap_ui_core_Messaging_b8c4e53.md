@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b8c4e5
 
 ## Step 11: Validation Using `sap/ui/core/Messaging`
 
-So far, we have created a currency field that can format itself correctly. The currency data type also has the ability to validate that user input adheres to the requirements of a currency; however, data type validation functions are managed by OpenUI5, which of itself has no mechanism for reporting error messages back to the UI; therefore, we need a mechanism for reporting error messages raised by validation functions back to the user. In this step, we will enable validation for the entire app with a feature known as the "Messaging". Once this is done, any validation error messages generated based on the user input will be passed to `Messaging`, which in turn will connect them to the appropriate view and control that caused the error.
+Up to this point, we've created a currency field that formats itself correctly. The *currency* data type can also validate user input to ensure it meets currency requirements. However, OpenUI5 manages data type validation functions and doesn't have a built-in mechanism for reporting error messages back to the UI. We therefore need a way to report error messages from validation functions back to the user. In this step, we're enabling validation for the entire app with a feature known as "Messaging". Once this is set up, any validation error messages based on user input get passed to `Messaging`, which then connects them to the appropriate view and control that caused the error.
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 11](
 
 ### webapp/manifest.json
 
-Enter the highlighted line into the `manifest.json` file to generally enable validation in the app.
+To generally enable validation in the app, enter the highlighted line into the `manifest.json` file.
 
 ```js
 ...
@@ -49,19 +49,19 @@ Enter the highlighted line into the `manifest.json` file to generally enable val
 ...
 ```
 
-You can now enter a non-numeric value into the *Sales Amount* field and either press [Enter\] or move the focus to a different UI control. This action triggers either the `onenter` or `onchange` event, and then OpenUI5 executes the validation function belonging to the `sap.ui.model.type.Currency` data type.
+Now, try entering a non-numeric value into the *Sales Amount* field and either press [Enter\] or move the focus to a different UI control. This action triggers either the `onenter` or `onchange` event. OpenUI5 then executes the validation function for the `sap.ui.model.type.Currency` data type.
 
-Now that validation handling has been enabled in the manifest, any validation error messages will be picked up by `Messaging`, which in turn checks its list of registered objects and then passes the error message back to the correct view for display.
+With validation handling enabled in the manifest, any validation error messages will be picked up by `Messaging`. It checks its list of registered objects and passes the error message back to the correct view for display.
 
-Note that the field in error has a red border: ![](images/loio44db88e92bc445b2b00e1b8e53b5ca9a_LowRes.png)
+You'll notice that the field in error has a red border: ![](images/loio44db88e92bc445b2b00e1b8e53b5ca9a_LowRes.png)
 
-However, the error message itself will only be displayed when that particular field has focus: ![](images/loioe67207b43d08410e82e74ad57ffbc022_LowRes.png)
+However, the error message only displays when that particular field is in focus: ![](images/loioe67207b43d08410e82e74ad57ffbc022_LowRes.png)
 
 **Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we explain the concepts of data binding in OpenUI5.")
 
 **Next:**[Step 10: Property Formatting Using Data Types](Step_10_Property_Formatting_Using_Data_Types_9252ee4.md "OpenUI5 offers a set of simple data types, including Boolean, Currency, Date and Float. You can apply these data types to controls to ensure that the value displayed on the screen is formatted correctly. If the field is open for input, this also ensures that the user input meets the requirements of that data type. Let's add a new field called Sales Amount of type Currency.")
 
-**Previous:**[Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding (or &quot;list binding&quot;) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.")
+**Previous:**[Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding, also known as &quot;list binding&quot;, lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.")
 
 **Related Information**  
 

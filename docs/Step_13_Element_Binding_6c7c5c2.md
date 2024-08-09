@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6c7c5c
 
 ## Step 13: Element Binding
 
-Now we want to do something with that newly generated list. In most cases you will use a list to allow the selection of an item and then show the details of that item elsewhere. In order to achieve this, we use a form with relatively bound controls and bind it to the selected entity via element binding.
+Now, let's do something with that newly generated list. Typically, you use a list to allow selection of an item and then display the details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via element binding.
 
 ***
 
@@ -28,7 +28,7 @@ Now we want to do something with that newly generated list. In most cases you wi
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 13](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.13).
 
-1.  In the `App.view.xml` file, add a `press` event handler to the items in the list. Below the panel with the list, add a new panel with an `sap.m.SimpleForm`. In order to fill the form with data, we will bind the whole panel to the path of the element which we clicked in the list.
+1.  In the `App.view.xml` file, add a `press` event handler to the items in the list. Below the panel with the list, add a new panel with an `sap.m.SimpleForm`. To populate the form with data, we bind the entire panel to the path of the element you clicked in the list.
 
     **webapp/view/App.view.xml**
 
@@ -90,7 +90,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 13](
     </mvc:View>
     ```
 
-2.  In the controller, add a new function `onItemsSelected`, which binds the newly created panel to the correct item whenever it is pressed.
+2.  In the controller, add a new function `onItemsSelected`, which binds the newly created panel to the correct item whenever it's pressed.
 
     **webapp/controller/App.controller.js**
 
@@ -128,7 +128,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 13](
     });
     ```
 
-3.  Finally, add the new texts to the `i18n.properties` and `i18n_de.properties` files.
+3.  Lastly, add the new texts to the `i18n.properties` and `i18n_de.properties` files.
 
     **webapp/i18n/i18n.properties**
 
@@ -173,16 +173,16 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 13](
     ```
 
 
-We can now click on an element in the list and see its details in the panel below. We can even edit these details, and the changes are directly shown in the list because we use two-way binding.
+Now, you can click on an element in the list and view its details in the panel below. You can even edit these details, and the changes are directly reflected in the list because we use two-way binding.
 
 > ### Note:  
 > Element bindings can also be relative to their parent context.
 
 **Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we explain the concepts of data binding in OpenUI5.")
 
-**Next:**[Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding (or &quot;list binding&quot;) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.")
+**Next:**[Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding, also known as &quot;list binding&quot;, lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.")
 
-**Previous:**[Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "Expression binding allows you to display a value on the screen that has been calculated from values found in some model object. This way simple formatting or calculations can be inserted directly into the data binding string. In this example, we will change the color of the price depending on whether it is above or below some arbitrary threshold. The threshold value is also stored in the JSON model.")
+**Previous:**[Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "Expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model.")
 
 **Related Information**  
 

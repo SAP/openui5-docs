@@ -10,13 +10,13 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/97830d
 
 ## Step 12: Aggregation Binding Using Templates
 
-Aggregation binding \(or "list binding"\) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.
+Aggregation binding, also known as "list binding", lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.
 
-It will automatically create as many child controls as are needed to display the data in the model using one of the following two approaches:
+The system automatically creates as many child controls as are needed to display the data in the model using one of two approaches:
 
--   Use template control that is cloned as many times as needed to display the data.
+-   It clones a template control as many times as necessary to display the data.
 
--   Use a factory function to generate the correct control per bound list entry based on the data received at runtime.
+-   It uses a factory function to generate the correct control for each bound list entry, based on the data received at runtime.
 
 
 ***
@@ -35,7 +35,7 @@ It will automatically create as many child controls as are needed to display the
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 12](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.12).
 
-1.  Add a new entry `products` to the `models` entry under `sap.ui5` in the `manifest.json` file:
+1.  Add a new entry named `products` to the `models` entry under `sap.ui5` in the `manifest.json` file:
 
     **webapp/manifest.json**
 
@@ -139,7 +139,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 12](
       }
     ```
 
-3.  In the `App.view.xml` file, add a new panel with an `sap.m.List` control containing the`sap.m.ObjectListItem` template control as shown below. Note that the template control is only present once in the XML view. It will be automatically cloned for each entry in the products' JSON model.
+3.  In the `App.view.xml` file, add a new panel with an `sap.m.List` control containing the`sap.m.ObjectListItem` template control as shown below. Note that the template control is only present once in the XML view. It's automatically cloned for each entry in the products' JSON model.
 
     **webapp/view/App.view.xml**
 
@@ -208,7 +208,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 12](
     });
     ```
 
-5.  Finally, add the missing texts to the `i18n.properties` and `i18n_de.properties` files, which will be used in the newly added UI elements.
+5.  Lastly, add the missing texts to the `i18n.properties` and `i18n_de.properties` files. These texts are used in the newly added UI elements.
 
     **webapp/i18n/i18n.properties**
 
@@ -245,9 +245,9 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 12](
 
 **Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we explain the concepts of data binding in OpenUI5.")
 
-**Next:**[Step 11: Validation Using sap/ui/core/Messaging](Step_11_Validation_Using_sap_ui_core_Messaging_b8c4e53.md "So far, we have created a currency field that can format itself correctly. The currency data type also has the ability to validate that user input adheres to the requirements of a currency; however, data type validation functions are managed by OpenUI5, which of itself has no mechanism for reporting error messages back to the UI; therefore, we need a mechanism for reporting error messages raised by validation functions back to the user. In this step, we will enable validation for the entire app with a feature known as the &quot;Messaging&quot;. Once this is done, any validation error messages generated based on the user input will be passed to Messaging, which in turn will connect them to the appropriate view and control that caused the error.")
+**Next:**[Step 11: Validation Using sap/ui/core/Messaging](Step_11_Validation_Using_sap_ui_core_Messaging_b8c4e53.md "Up to this point, we've created a currency field that formats itself correctly. The currency data type can also validate user input to ensure it meets currency requirements. However, OpenUI5 manages data type validation functions and doesn't have a built-in mechanism for reporting error messages back to the UI. We therefore need a way to report error messages from validation functions back to the user. In this step, we're enabling validation for the entire app with a feature known as &quot;Messaging&quot;. Once this is set up, any validation error messages based on user input get passed to Messaging, which then connects them to the appropriate view and control that caused the error.")
 
-**Previous:**[Step 13: Element Binding](Step_13_Element_Binding_6c7c5c2.md "Now we want to do something with that newly generated list. In most cases you will use a list to allow the selection of an item and then show the details of that item elsewhere. In order to achieve this, we use a form with relatively bound controls and bind it to the selected entity via element binding.")
+**Previous:**[Step 13: Element Binding](Step_13_Element_Binding_6c7c5c2.md "Now, let's do something with that newly generated list. Typically, you use a list to allow selection of an item and then display the details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via element binding.")
 
 **Related Information**  
 

@@ -69,31 +69,27 @@ We'd also like to provide our users with a way of contacting Harry Hawk, so we'r
 		value displayed on the screen is formatted correctly. If the field is open for input, this also ensures that the user input meets the
 		requirements of that data type. Let's add a new field called Sales Amount of type Currency. ")  
 OpenUI5 offers a set of simple data types, including `Boolean`, `Currency`, `Date` and `Float`. You can apply these data types to controls to ensure that the value displayed on the screen is formatted correctly. If the field is open for input, this also ensures that the user input meets the requirements of that data type. Let's add a new field called *Sales Amount* of type `Currency`.
-11. [Step 11: Validation Using sap/ui/core/Messaging](Step_11_Validation_Using_sap_ui_core_Messaging_b8c4e53.md "So far, we have created a currency field that can format itself correctly. The currency data type also has the ability to validate that
-		user input adheres to the requirements of a currency; however, data type validation functions are managed by OpenUI5, which of itself has no mechanism for reporting error messages back to the
-		UI; therefore, we need a mechanism for reporting error messages raised by validation functions back to the user. In this step, we will enable
-		validation for the entire app with a feature known as the &quot;Messaging&quot;. Once this is done, any validation error messages generated based on the
-		user input will be passed to Messaging, which in turn will connect them to the appropriate view and control that caused the
-		error.")  
-So far, we have created a currency field that can format itself correctly. The currency data type also has the ability to validate that user input adheres to the requirements of a currency; however, data type validation functions are managed by OpenUI5, which of itself has no mechanism for reporting error messages back to the UI; therefore, we need a mechanism for reporting error messages raised by validation functions back to the user. In this step, we will enable validation for the entire app with a feature known as the "Messaging". Once this is done, any validation error messages generated based on the user input will be passed to `Messaging`, which in turn will connect them to the appropriate view and control that caused the error.
-12. [Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding (or &quot;list binding&quot;) allows a control to be bound to a list within
-		the model data and allows relative binding to the list entries by its child controls. ")  
-Aggregation binding \(or "list binding"\) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.
-13. [Step 13: Element Binding](Step_13_Element_Binding_6c7c5c2.md "Now we want to do something with that newly generated list. In most cases you will
-		use a list to allow the selection of an item and then show the details of that item
-		elsewhere. In order to achieve this, we use a form with relatively bound controls and bind
-		it to the selected entity via element binding.")  
-Now we want to do something with that newly generated list. In most cases you will use a list to allow the selection of an item and then show the details of that item elsewhere. In order to achieve this, we use a form with relatively bound controls and bind it to the selected entity via element binding.
-14. [Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "Expression binding allows you to display a value on the screen that has been
-		calculated from values found in some model object. This way simple formatting or
-		calculations can be inserted directly into the data binding string. In this example, we will
-		change the color of the price depending on whether it is above or below some arbitrary
-		threshold. The threshold value is also stored in the JSON model. ")  
-Expression binding allows you to display a value on the screen that has been calculated from values found in some model object. This way simple formatting or calculations can be inserted directly into the data binding string. In this example, we will change the color of the price depending on whether it is above or below some arbitrary threshold. The threshold value is also stored in the JSON model.
-15. [Step 15: Aggregation Binding Using a Factory Function](Step_15_Aggregation_Binding_Using_a_Factory_Function_284a036.md "Instead of hard-coding a single template control, we use a factory function to
-		generate different controls based on the data received at runtime. This approach is much
-		more flexible and allows complex or heterogeneous data to be displayed.")  
-Instead of hard-coding a single template control, we use a factory function to generate different controls based on the data received at runtime. This approach is much more flexible and allows complex or heterogeneous data to be displayed.
+11. [Step 11: Validation Using sap/ui/core/Messaging](Step_11_Validation_Using_sap_ui_core_Messaging_b8c4e53.md "Up to this point, we've created a currency field that formats itself correctly. The currency data type can also validate user
+		input to ensure it meets currency requirements. However, OpenUI5 manages data type
+		validation functions and doesn't have a built-in mechanism for reporting error messages back to the UI. We therefore need a way to report
+		error messages from validation functions back to the user. In this step, we're enabling validation for the entire app with a feature known as
+		&quot;Messaging&quot;. Once this is set up, any validation error messages based on user input get passed to Messaging, which then
+		connects them to the appropriate view and control that caused the error.")  
+Up to this point, we've created a currency field that formats itself correctly. The *currency* data type can also validate user input to ensure it meets currency requirements. However, OpenUI5 manages data type validation functions and doesn't have a built-in mechanism for reporting error messages back to the UI. We therefore need a way to report error messages from validation functions back to the user. In this step, we're enabling validation for the entire app with a feature known as "Messaging". Once this is set up, any validation error messages based on user input get passed to `Messaging`, which then connects them to the appropriate view and control that caused the error.
+12. [Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding, also known as &quot;list binding&quot;, lets a control bind to a list within the model data. This binding allows relative
+		binding to the list entries by its child controls. ")  
+Aggregation binding, also known as "list binding", lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.
+13. [Step 13: Element Binding](Step_13_Element_Binding_6c7c5c2.md "Now, let's do something with that newly generated list. Typically, you use a list to allow selection of an item and then display the
+		details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via
+		element binding.")  
+Now, let's do something with that newly generated list. Typically, you use a list to allow selection of an item and then display the details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via element binding.
+14. [Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "Expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature
+		allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the
+		price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model. ")  
+Expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model.
+15. [Step 15: Aggregation Binding Using a Factory Function](Step_15_Aggregation_Binding_Using_a_Factory_Function_284a036.md "Instead of using a single hard-coded template control, we now opt for a factory function to generate different controls based on the data
+		received at runtime. This approach is much more flexible and allows for the display of complex or heterogeneous data.")  
+Instead of using a single hard-coded template control, we now opt for a factory function to generate different controls based on the data received at runtime. This approach is much more flexible and allows for the display of complex or heterogeneous data.
 
 **Related Information**  
 
