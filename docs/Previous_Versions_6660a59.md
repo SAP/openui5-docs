@@ -118,9 +118,7 @@ With this release OpenUI5 is upgraded from version 1.100 to 1.101.
 		this release OpenUI5 is upgraded
 		from version 1.99 to 1.100.")**  
 With this release OpenUI5 is upgraded from version 1.99 to 1.100.
--   **[What's New in OpenUI5 1.99](What_s_New_in_OpenUI5_1_99_4f35848.md "With
-		this release OpenUI5 is upgraded
-		from version 1.98 to 1.99.")**  
+-   **[What's New in OpenUI5 1.99](What_s_New_in_OpenUI5_1_99_4f35848.md "With this release OpenUI5 is upgraded from version 1.98 to 1.99.")**  
 With this release OpenUI5 is upgraded from version 1.98 to 1.99.
 -   **[What's New in OpenUI5 1.98](What_s_New_in_OpenUI5_1_98_d9f16f2.md "With
 		this release OpenUI5 is upgraded
