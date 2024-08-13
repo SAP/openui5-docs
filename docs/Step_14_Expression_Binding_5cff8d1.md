@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5cff8d
 
 ## Step 14: Expression Binding
 
-Expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model.
+An expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model.
 
 ***
 
@@ -107,7 +107,7 @@ Logically, both expressions are identical. However, the first one works, and the
 
 To understand the situation, you need to know how XML files are parsed.
 
-When an XML file is parsed, certain characters have a special \(high priority\) meaning to the XML parser. When these characters are encountered, they're **always** interpreted to be part of the XML definition itself, and not as part of any other content within the XML document.
+When an XML file is parsed, certain characters have a special \(high-priority\) meaning to the XML parser. When these characters are encountered, they're **always** interpreted to be part of the XML definition itself, and not as part of any other content within the XML document.
 
 The XML parser always interprets one of these high-priority characters \(in this case, a less-than \(`<`\) character\) as the start of a new XML tag. This happens regardless of any other meaning that character might have within the context of the expression. This is known as a **syntax collision**.
 

@@ -83,10 +83,10 @@ Aggregation binding, also known as "list binding", lets a control bind to a list
 		details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via
 		element binding.")  
 Now, let's do something with that newly generated list. Typically, you use a list to allow selection of an item and then display the details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via element binding.
-14. [Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "Expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature
-		allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the
-		price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model. ")  
-Expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model.
+14. [Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "An expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This
+		feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the
+		color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model. ")  
+An expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model.
 15. [Step 15: Aggregation Binding Using a Factory Function](Step_15_Aggregation_Binding_Using_a_Factory_Function_284a036.md "Instead of using a single hard-coded template control, we now opt for a factory function to generate different controls based on the data
 		received at runtime. This approach is much more flexible and allows for the display of complex or heterogeneous data.")  
 Instead of using a single hard-coded template control, we now opt for a factory function to generate different controls based on the data received at runtime. This approach is much more flexible and allows for the display of complex or heterogeneous data.

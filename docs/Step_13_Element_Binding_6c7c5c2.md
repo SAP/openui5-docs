@@ -182,7 +182,7 @@ Now, you can click on an element in the list and view its details in the panel b
 
 **Next:**[Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding, also known as &quot;list binding&quot;, lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.")
 
-**Previous:**[Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "Expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model.")
+**Previous:**[Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "An expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model.")
 
 **Related Information**  
 
