@@ -28,7 +28,7 @@ You can view and download all files at [Walkthrough - Step 10](https://sdk.openu
 
 ***
 
-### webapp/manifest.json \(New\)
+### webapp/manifest.json
 
 ```
 {
