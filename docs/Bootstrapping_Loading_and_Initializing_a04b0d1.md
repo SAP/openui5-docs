@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a04b0d
 
 To use OpenUI5 features in your HTML page, you have to load and initialize the SAPUI5 library.
 
-You can use the OpenUI5 bootstrap script in your page to initialize OpenUI5 runtime automatically as soon as the script is loaded and executed by the browser. For simple use cases as well as the default OpenUI5 installation, this is sufficient to build and run UIs. In addition to this, you can specify the set of OpenUI5 libraries and the theme used for your application in the configuration settings.
+You can use the OpenUI5 bootstrap script in your page to initialize OpenUI5 runtime automatically as soon as the script is loaded and executed by the browser. For simple use cases as well as the default OpenUI5 installation, this is sufficient to build and run UIs.
 
 > ### Note:  
 > If you run your app standalone, the bootstrap is added to your HTML page. In an SAP Fiori launchpad environment, the launchpad executes the bootstrap and no additional HTML page is needed to display the app.
@@ -21,15 +21,15 @@ The following code snippet shows a typical bootstrap script tag:
 
 ```html
 <script id="sap-ui-bootstrap" 
-     type="text/javascript"
      src="resources/sap-ui-core.js"
-     data-sap-ui-theme="sap_horizon"
-     data-sap-ui-libs="sap.m"
-     data-sap-ui-compat-version="edge">
+     data-sap-ui-async="true"
+     data-sap-ui-on-init="..."
+     data-sap-ui-compat-version="edge"
+     data-sap-ui-resource-roots='{ "my.app": "./" }'>
 </script>
 ```
 
-The attributes `data-sap-ui-theme="sap_horizon"` and `data-sap-ui-libs="sap.m"` already provide examples of how OpenUI5 runtime can be configured to the needs of an application.
+In addition to the above snippet, you can specify a set of OpenUI5 libraries with `data-sap-ui-libs="sap.m, sap.ui.layout, sap.ui.unified, ..."` if there is no manifest.json to declare dependent libraries. More options that can be configured with `data-` can be found in [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 ***
 
@@ -37,7 +37,7 @@ The attributes `data-sap-ui-theme="sap_horizon"` and `data-sap-ui-libs="sap.m"` 
 
 ### `Core.ready` State
 
-After bootstrapping, you can use the `sap/ui/core/Core` singleton to either `await` the Core's `ready` state or provide a callback function:
+After bootstrapping, if `sap-ui-on-init` has not been configured already, you can use the `sap/ui/core/Core` singleton to either `await` the Core's `ready` state or provide a callback function:
 
 ```js
 sap.ui.require(["sap/ui/core/Core"], async (Core) => {

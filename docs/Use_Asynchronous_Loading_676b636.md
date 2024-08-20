@@ -112,7 +112,6 @@ To configure the targets for asynchronous loading, please also check the [Routin
 
 **Additional Information:**
 
--   Walkthrough tutorial, [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md)
 -   Set the rootView and routing to async via [`sap.ui.core.IAsyncContentCreation`](https://sdk.openui5.org/api/sap.ui.core.IAsyncContentCreation)
 
 ***
@@ -153,6 +152,10 @@ sap.ui.define(["sap/ui/core/UIComponent"], function(UIComponent) {
 ```
 
 For more information on how `sap.ui.core.IAsyncContentCreation` affects the component's content creation, see [Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md).
+
+**Additional Information:**
+
+-   Walkthrough tutorial, [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md)
 
 ***
 

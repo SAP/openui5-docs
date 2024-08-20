@@ -32,13 +32,10 @@ The specific version allows you to select a particular fixed version for bootstr
 
 ```html
 <script id="sap-ui-bootstrap"
-    type="text/javascript"
     src="https://sdk.openui5.org/1.128.0/resources/sap-ui-core.js"
-    data-sap-ui-theme="sap_horizon"
     data-sap-ui-async="true"
-    data-sap-ui-libs="sap.m"></script>
-
-
+    data-...="...">
+</script>
 ```
 
 The first segment of the URL after the host name is used to specify a concrete version, which needs to be provided in the following form: `release_number.version_number.patch_number`. For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
@@ -58,10 +55,11 @@ The evergreen version allows you to automatically select the latest available pa
 <head>
     <!-- ... -->
     <script id="sap-ui-bootstrap"
-        src="https://sdk.openui5.org/1.108/resources/sap-ui-core.js"
+        src="https://sdk.openui5.org/1.120/resources/sap-ui-core.js"
         data-sap-ui-async="true"
         data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
         data-sap-ui-resource-roots='{ "my.app": "./" }'
+        data-sap-ui-compat-version="edge">
     </script>
 </head>
 <body id="content" class="sapUiBody">
@@ -70,11 +68,12 @@ The evergreen version allows you to automatically select the latest available pa
         data-name="my.app"
         data-height="100%"
         data-settings='{ "id": "myComponent" }'
+        data-...="...">
     </div>
 </body>
 ```
 
-The first segment of the URL after the host name is used to specify an evergreen version, which needs to be provided in the following form: `release_number.version_number`. For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md). All long-term maintenance versions \>= 1.71 can be used as evergreen versions to bootstrap OpenUI5 applications. You can find the available versions with long-term maintenance status at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html).
+The first segment of the URL after the host name is used to specify an evergreen version, which needs to be provided in the following version number combination: `<majorVersion>.<minorVersion>` without patch number. For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md). All long-term maintenance versions \>= 1.71 can be used as evergreen versions to bootstrap OpenUI5 applications. You can find the available versions with long-term maintenance status at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html).
 
 When using the patch-level independent bootstrap you must use `data-sap-ui-async="true"` and the `data-sap-ui-on-init` callback. Ideally, you refer to a module, for example `sap/ui/core/ComponentSupport` to bootstrap your Component; see [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md). You can also refer to a custom module.
 
@@ -89,18 +88,6 @@ When using the patch-level independent bootstrap you must use `data-sap-ui-async
 
 > ### Caution:  
 > The default version is constantly being upgraded and this might have an impact on the stability of your application. Use this version for testing purposes only.
-> 
-> The default version of our libraries has the generic URL [https://sdk.openui5.org/resources/sap-ui-core.js](https://sdk.openui5.org/resources/sap-ui-core.js) \(OpenUI5\). If you want to use the default version, you can use the following bootstrap script:
-> 
-> ```html
-> <script id="sap-ui-bootstrap"
->     type="text/javascript"
->     src="https://sdk.openui5.org/resources/sap-ui-core.js"
->     data-sap-ui-theme="sap_horizon"
->     data-sap-ui-async="true"
->     data-sap-ui-libs="sap.m"></script>
-> 
-> ```
 
 ***
 

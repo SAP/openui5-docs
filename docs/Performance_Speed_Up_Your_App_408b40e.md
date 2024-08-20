@@ -140,14 +140,6 @@ For more information, see:
 
 When creating a component manually, make sure the `manifest.json` descriptor file is loaded first, so that the dependencies are analyzed and preloaded when the component is loaded. For more information, see [Manifest First Function](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
 
-```js
-// "Component" required from module "sap/ui/core/Component"
-// load manifest.json from default location and evaluate it before creating an instance of the component 
-Component.create({
-  name: "my.component",
-});
-```
-
 ***
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_LibraryPreloads"/>

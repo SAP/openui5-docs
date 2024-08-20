@@ -15,7 +15,7 @@ To be able to speed up processing times of XML views that make heavy use of the 
 To make sure that the cache always contains the latest view data, the cache has to be invalidated whenever the data changes that is needed for preprocessing. When the cache is invalidated, all resources are processed again and the cache gets filled with new data.
 
 > ### Caution:  
-> Parts of this feature are currently still experimental. For more information, see [API Reference: `sap.ui.xmlview`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.xmlview). 
+> Parts of this feature are currently still experimental. For more information, see [API Reference: `sap.ui.core.mvc.XMLView.create`](https://sdk.openui5.org/api/sap.ui.core.mvc.XMLView%23methods/sap.ui.core.mvc.XMLView.create). 
 
 The following data changes are handled automatically by OpenUI5:
 
@@ -28,20 +28,6 @@ The following data changes are handled automatically by OpenUI5:
 
 > ### Note:  
 > For each additional component that may have an influence on the preprocessing results of the view source, like OData metadata, you have to implement the invalidation by adding additional keys to the cache configuration.
-
-***
-
-### Prerequisites
-
-This feature is only enabled for the following browsers:
-
--   Google Chrome as of Version 49 for desktop
-
--   Google Chrome as of Version 80 for Android phone/tablet
--   Microsoft Edge \(Chromium\) for desktop
--   Mozilla Firefox as of Version 74 for Microsoft Windows desktop
--   Safari as of Version 13 for desktop
--   Safari as of Version 13 for iOS phone/tablet
 
 The XML view has to be loaded asynchronously.
 
