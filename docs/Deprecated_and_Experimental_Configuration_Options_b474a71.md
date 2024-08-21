@@ -1130,7 +1130,7 @@ Possible values are:
 
     See also:
 
-    -   [`onInit` function/module](Standard_Variant_for_Bootstrapping_91f1f45.md)
+    -   [`onInit` function/module](Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070)
     -   [`Core.ready`](Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070)
 
 
