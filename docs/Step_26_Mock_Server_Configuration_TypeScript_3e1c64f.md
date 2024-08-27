@@ -169,7 +169,7 @@ export default {
         const urlParams = new URLSearchParams(window.location.search);
 
         // configure mock server with a delay
-        mockServer.config({
+        MockServer.config({
             autoRespond: true,
             autoRespondAfter: parseInt(urlParams.get("serverDelay") || "500")
         });
