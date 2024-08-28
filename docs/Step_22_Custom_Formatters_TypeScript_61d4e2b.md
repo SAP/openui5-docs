@@ -91,39 +91,17 @@ The new `formatter.ts` file is placed in the `model` folder of the app, because 
 
 ***
 
-### webapp/controller/InvoiceList.controller.ts
-
-To be able to access the formatter in the invoice list view, we load it to the `InvoiceList.controller.ts` and store it in a local property `formatter`.
-
-```js
-import Controller from "sap/ui/core/mvc/Controller";
-import JSONModel from "sap/ui/model/json/JSONModel";
-
-import formatter from "../model/formatter";
-/**
- * @namespace ui5.walkthrough.controller
- */
-export default class App extends Controller {
-    public formatter = formatter;
-    onInit(): void {
-        const viewModel = new JSONModel({
-            currency: "EUR"
-        });
-        this.getView()?.setModel(viewModel, "view");        
-    } 
-};
-```
-
-***
-
 ### webapp/view/InvoiceList.view.xml
 
-We add a status using the `firstStatus` aggregation to our `ObjectListItem` that will display the status of our invoice. The custom formatter function is specified with the reserved property `formatter` of the binding syntax. Our formatter is stored in the controller of the current view in the paramter `formatter`, so we can access it by assigning `.formatter.statusText` to the `formatter` property of the binding syntax.
+To load our formatter functions, we use the [`require`](Require_Modules_in_XML_View_and_Fragment_b11d853.md) attribute with the `sap.ui.core` namespace URI, for which the `core` prefix is already defined in our XML view. This allows us to write the attribute as `core:require`. We then add our custom formatter module to the list of required modules and assign it the `Formatter` alias, making it available for use within the view.
+
+We add a status using the `firstStatus` aggregation to our `ObjectListItem` that will display the status of our invoice. The custom formatter function is specified with the reserved `formatter` property of the binding syntax. There, we use our `Formatter` alias that holds our formatter functions in order to access the desired function via `Formatter.statusText`. When called, we want the `this` context to be set to the current view controller's context. To achieve this, we use [`.bind($controller)`](Formatting_Parsing_and_Validating_Data_07e4b92.md).
 
 ```xml
 <mvc:View
     controllerName="ui5.walkthrough.controller.InvoiceList"
     xmlns="sap.m"
+    xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc">
     <List
         headerText="{i18n>invoiceListTitle}"
@@ -147,9 +125,12 @@ We add a status using the `firstStatus` aggregation to our `ObjectListItem` that
                 numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }">
                 <firstStatus>
                     <ObjectStatus
+                        core:require="{
+                            Formatter: 'ui5/walkthrough/model/formatter'
+                        }"
                         text="{
                             path: 'invoice>Status',
-                            formatter: '.formatter.statusText'
+                            formatter: 'Formatter.statusText.bind($controller)'
                         }"/>
                 </firstStatus>
             </ObjectListItem>

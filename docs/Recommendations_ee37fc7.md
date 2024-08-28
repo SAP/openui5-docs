@@ -20,7 +20,7 @@ When developing OpenUI5 applications, you need to pay attention to the correctne
 
 #### WCAG 2.2
 
-To ensure better accessibility experience and to adhere to the Web Content Accessibility Guidelines \(WCAG\) 2.2, it is important for developers and designers to follow specific guidelines. When working with OpenUI5 controls, refer to the SAP Fiori for Web design guidelines corresponding to the specific control or component you are using. The design guidelines provide detailed information on how each component should be implemented to meet accessibility requirements. For example for the `sap.m.ObjectStatus`, see [Object Display Components Fiori Guidelines](https://experience.sap.com/fiori-design-web/object-display-elements/).
+To ensure better accessibility experience and to adhere to the Web Content Accessibility Guidelines \(WCAG\) 2.2, it is important for developers and designers to follow specific guidelines. When working with OpenUI5 controls, refer to the SAP Fiori for Web design guidelines corresponding to the specific control you are using. The design guidelines provide detailed information on how each control should be implemented to meet accessibility requirements. For example for the `sap.m.Object` controls, see [Object Display Components Fiori Guidelines](https://experience.sap.com/fiori-design-web/object-display-elements/).
 
 ***
 

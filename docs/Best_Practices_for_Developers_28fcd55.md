@@ -310,6 +310,7 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 -   [View Cloning \(deprecated\)](View_Cloning_deprecated_a575619.md)
 -   [Instantiation of Fragments](Instantiation_of_Fragments_04129b2.md)
 -   [Programmatically Instantiating XML Fragments](Programmatically_Instantiating_XML_Fragments_d6af195.md)
+-   [Formatting, Parsing, and Validating Data](Formatting_Parsing_and_Validating_Data_07e4b92.md)
 
 ***
 

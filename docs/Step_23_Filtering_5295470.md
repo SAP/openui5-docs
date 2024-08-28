@@ -40,6 +40,7 @@ You can view and download all files at [Walkthrough - Step 23](https://sdk.openu
 <mvc:View
    controllerName="ui5.walkthrough.controller.InvoiceList"
    xmlns="sap.m"
+   xmlns:core="sap.ui.core"
    xmlns:mvc="sap.ui.core.mvc">
    <List
       id="invoiceList"
@@ -71,10 +72,9 @@ The `headerToolbar` aggregation replaces the simple `title` property that we use
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",
-	"../model/formatter",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator"
-], (Controller, JSONModel, formatter, Filter, FilterOperator) => {
+], (Controller, JSONModel, Filter, FilterOperator) => {
 	"use strict";
 
 	return Controller.extend("ui5.walkthrough.controller.InvoiceList", {

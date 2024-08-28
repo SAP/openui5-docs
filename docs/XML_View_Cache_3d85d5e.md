@@ -103,7 +103,7 @@ sap.ui.define(['sap/ui/base/Object'],
 
 		return TestPreprocessor;
 
-	}, /* bExport= */ true);
+	});
 ```
 
 **Related Information**  

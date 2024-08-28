@@ -220,6 +220,7 @@ We add a new string to the resource bundle for the detail page title.
 <mvc:View
     controllerName="ui5.walkthrough.controller.InvoiceList"
     xmlns="sap.m"
+    xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc">
     ...
         <items>
@@ -241,9 +242,12 @@ We add a new string to the resource bundle for the detail page title.
                 press=".onPress" >
                 <firstStatus>
                     <ObjectStatus
+                        core:require="{
+                          Formatter: 'ui5/walkthrough/model/formatter'
+                        }"
                         text="{
                             path: 'invoice>Status',
-                            formatter: '.formatter.statusText'
+                            formatter: 'Formatter.statusText.bind($controller)'
                         }"/>
                 </firstStatus>
             </ObjectListItem>
@@ -265,7 +269,7 @@ sap.ui.define([
 	"../model/formatter",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator"
-], (Controller, JSONModel, formatter, Filter, FilterOperator) => {
+], (Controller, JSONModel, Filter, FilterOperator) => {
 	"use strict";
 
 	return Controller.extend("ui5.walkthrough.controller.InvoiceList", {

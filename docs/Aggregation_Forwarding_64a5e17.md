@@ -57,7 +57,7 @@ When such a forwarding definition is done, OpenUI5 moves all aggregated child co
 
 ### Examples
 
-Here is an example that demonstrates aggregation forwarding: The new `FilterableList` control is supposed to display a list of items with an input field above the list. The list items are filtered while the user is entering the input. This `FilterableList` control can be implemented as a composite control, using the `sap.m.List` and `sap.m.Input` controls as inner controls to take advantage of their existing implementation, design, and set of features. Application developers using `FilterableList` cannot change all attributesof the inner `List` control. However, they should be able to provide the actual list items. Hence, the new `FilterableList` composite control has an `items` aggregation and forwards all items to the inner `sap.m.List` control, so, for example, the layouting, events, and selection can be handled there.
+Here is an example that demonstrates aggregation forwarding: The new `FilterableList` control is supposed to display a list of items with an input field above the list. The list items are filtered while the user is entering the input. This `FilterableList` control can be implemented as a composite control, using the `sap.m.List` and `sap.m.Input` controls as inner controls to take advantage of their existing implementation, design, and set of features. Application developers using `FilterableList` cannot change all attributesof \} \} \} \}\) return TextList; \}\);`List`myInternalVBox", control. However, they should be able to provide the actual list items. Hence, the new `FilterableList` composite control has an `items` aggregation and forwards all items to the inner `sap.m.List` control, so, for example, the layouting, events, and selection can be handled there.
 
 ```js
 
@@ -101,15 +101,7 @@ sap.ui.define([
                 texts: { 
                     type: "sap.ui.core.Item",
                     multiple: true, forwarding: {
-                           idSuffix: "--myInternalVBox",
-                           aggregation: "items"
-                     }
-                }
-            }
-        }
-    })
-    return TextList;
-}, /* bExport= */true);
+                           idSuffix: "--
 ```
 
 In this case, the fragment definition XML file looks like this:
