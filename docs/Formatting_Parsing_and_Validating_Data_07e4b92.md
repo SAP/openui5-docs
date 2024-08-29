@@ -98,7 +98,7 @@ The `.bind()` method allows you to explicitly set the `this` context in formatte
 The following aguments are accepted:
 
 -   **`$control`**: Sets the this context to the control instance.
--   **`$controller`:** Binds the formatter function to the corresponding view controller. This is helpful when the formatter function needs access to the controller's properties or methods.
+-   **`$controller`**: Binds the formatter function to the corresponding view controller. This is helpful when the formatter function needs access to the controller's properties or methods.
 -   **Aliases from `core:require`**: Any alias defined in the `core:require` attribute can be used. This allows for flexible binding to custom objects or modules as needed.
 
 > ### Note:  
