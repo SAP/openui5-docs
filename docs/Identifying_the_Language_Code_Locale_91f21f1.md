@@ -17,11 +17,11 @@ The language can be set via the `language` parameter as described in [Available 
 > ### Note:  
 > If you need to provide the language as a parameter, we recommend using the `sap-ui-language` parameter.
 > 
-> Besides `sap-ui-language`, also the `sap-locale` and `sap-language` parameters exist, which should only be used in the context of ABAP-based SAP application servers.
+> Besides `sap-ui-language`, also the `sap-locale` and `sap-language`
 
-These OpenUI5 configuration options accept the following formats:
+These OpenUI5 configuration options accept the following formats: parameters exist, which should only be used in the context of ABAP-based SAP application servers.
 
--   Language codes according to the de facto standard BCP-47, which are used by most browsers for language identification
+-   parameters exist,Language codes according to the de facto standard BCP-47, which are used by most browsers for language identification
 
     As of JDK 1.7 they are also supported by the Java locale class. Examples are `de`, `en-US`, `zh-Hans-CN`.
 
@@ -82,7 +82,7 @@ These OpenUI5 configuration options accept the following formats:
     </td>
     <td valign="top">
     
-    `ZF` is the SAP language code for Traditional Chinese. The most generic representation in BCP 47 is `zh-Hant`. `zh-TW` \(Chinese, Taiwan\) is another representation, but SAPUI5`zh-Hant`.
+    `ZF` is the SAP language code for Traditional Chinese. The most generic representation in BCP 47 is `zh-Hant`. While `zh-TW` \(Chinese, Taiwan\) is another representation, but SAPUI5 decided to use `zh-Hant`.
     
     </td>
     </tr>
@@ -218,7 +218,7 @@ These OpenUI5 configuration options accept the following formats:
     </td>
     <td valign="top">
     
-    `` is also used as a technical SAP language code in support scenarios and displays a pseudo translation \("psd" in the private extensions name\).
+    `2Q` is also used as a technical SAP language code in support scenarios and displays a pseudo translation \("psd" in the private extensions name\).
     
     </td>
     </tr>

@@ -86,7 +86,7 @@ When using the patch-level independent bootstrap you must use `data-sap-ui-async
 
 #### Default Version
 
-The default version of our libraries has the generic URL `https://sdk.openui5.org/resources/sap-ui-core.js` \(OpenUI5\). Approximately 2 weeks after the release of a new OpenUI5 version, this version becomes the default version.
+The default version of our libraries has the generic URL `https://sdk.openui5.org/resources/sap-ui-core.js` \(OpenUI5\).
 
 > ### Caution:  
 > The default version is constantly being upgraded and this might have an impact on the stability of your application. Use this version for testing purposes only.
