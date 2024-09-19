@@ -17,11 +17,11 @@ The language can be set via the `language` parameter as described in [Available 
 > ### Note:  
 > If you need to provide the language as a parameter, we recommend using the `sap-ui-language` parameter.
 > 
-> Besides `sap-ui-language`, also the `sap-locale` and `sap-language`
+> Besides `sap-ui-language`, also the `sap-locale` and `sap-language` parameters exist, which should only be used in the context of ABAP-based SAP application servers.
 
-These OpenUI5 configuration options accept the following formats: parameters exist, which should only be used in the context of ABAP-based SAP application servers.
+These OpenUI5 configuration options accept the following formats:
 
--   parameters exist,Language codes according to the de facto standard BCP-47, which are used by most browsers for language identification
+-   Language codes according to the de facto standard BCP-47, which are used by most browsers for language identification
 
     As of JDK 1.7 they are also supported by the Java locale class. Examples are `de`, `en-US`, `zh-Hans-CN`.
 
@@ -65,7 +65,7 @@ These OpenUI5 configuration options accept the following formats: parameters exi
     </td>
     <td valign="top">
     
-    `ZH` is the SAP language code for Simplified Chinese. The most generic representation in BCP 47 is `zh-Hans`. `zh-CN` \(Chinese, China\) is another representation, but SAPUI5 decided to use `zh-Hans`.
+    `ZH` is the SAP language code for Simplified Chinese. The most generic representation in BCP 47 is `zh-Hans`. While `zh-CN` \(Chinese, China\) is another representation, SAPUI5 decided to use `zh-Hans`.
     
     </td>
     </tr>
@@ -82,7 +82,7 @@ These OpenUI5 configuration options accept the following formats: parameters exi
     </td>
     <td valign="top">
     
-    `ZF` is the SAP language code for Traditional Chinese. The most generic representation in BCP 47 is `zh-Hant`. While `zh-TW` \(Chinese, Taiwan\) is another representation, but SAPUI5 decided to use `zh-Hant`.
+    `ZF` is the SAP language code for Traditional Chinese. The most generic representation in BCP 47 is `zh-Hant`. While `zh-TW` \(Chinese, Taiwan\) is another representation, SAPUI5 decided to use `zh-Hant`.
     
     </td>
     </tr>
