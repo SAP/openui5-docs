@@ -2101,7 +2101,7 @@ Specifies provided commands with a unique key/alias. Contains:
 -   `shortcut`: String that describes a key combination. When the user presses the key combination, the command is triggered.
 
 
-The name of the command that contains the `shortcut` definition acts as a prerequisite for using the `command` property of the [`sap/ui/core/CommandExecution`](https://sdk.openui5.org/api/sap.ui.core.CommandExecution) module.
+The name of the command that contains the `shortcut` definition acts as a prerequisite for using the `command` property of the `sap.ui.core.CommandExecution` module. For more information, see the [API Reference: `sap.ui.core.CommandExecution`](https://sdk.openui5.org/api/sap.ui.core.CommandExecution). 
 
 </td>
 </tr>
