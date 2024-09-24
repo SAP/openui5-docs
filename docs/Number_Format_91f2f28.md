@@ -484,7 +484,7 @@ To control the start the starting point of numbers which should be displyed in c
 
 <a name="loio91f2f2866f4d1014b6dd926db0e91070__section_NFP"/>
 
-### Parsing
+### Parsing and Validation of User Input
 
 You can parse a formatted number, which can contain locale-dependent grouping separators, a locale-dependent decimal separator or a percentage sign, into a number object using `sap.ui.core.format.NumberFormat`. Such a number string may not be correctly parsed by using `parseInt` or `parseFloat` in JavaScript.
 
@@ -496,15 +496,13 @@ oFloatFormat.parse("1,234.567"); // returns 1234.567
 oFloatFormat.parse("12.34%"); // returns 0.1234
 ```
 
-To verify the correct parsing of formatted numbers, two different mechanisms exist: Decimal separator validation and strict grouping validation.
+When users switch between multiple UIs, websites or editors, they may encounter different characters being used as decimal and grouping separators. This can lead to incorrect numerical input if the user assumes a locale different from the one actually used by the UI. For example, in English locales the grouping separator is a comma \(","\) and the decimal separator is a dot \("."\), whereas in German locales it is the other way around.
+
+To prevent an accidental mix-up of decimal and grouping separator in the user input, we have introduced a stricter parsing logic of `sap.ui.core.format.NumberFormat` by using **decimal separator validation** with an optional **strict grouping validation**. Instead of ignoring the grouping separators when parsing user input, several checks are now carried out on the grouping to identify potential input errors.
 
 ***
 
 #### Decimal Separator Validation
-
-Nowadays, users often switch between multiple UIs, websites or editors that may use different characters as decimal and grouping separators. This can lead to wrong numerical input if the user assumes a locale different from the one actually used by the UI.
-
-UI5 therefore uses **decimal separator validation** to prevent input errors resulting from an accidental mix-up of decimal separator and grouping separator. Instead of ignoring the grouping separators when parsing user input, several checks are now carried out to identify potential input errors.
 
 If not otherwise mentioned, the examples below are based on the US locale standard settings \(en-US\):
 

@@ -2397,6 +2397,10 @@ Complex Replacement
 </td>
 <td valign="top">
 
+Register your local UI5 components and UI5 libraries in the manifest.json under `sap.ui5/dependencies`. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
+
+To load resources from a third-party server, use
+
 ```
 sap.ui.loader.config({paths:{"myPath": "some/path"}});
 ```
@@ -2422,6 +2426,10 @@ Complex Replacement
 
 </td>
 <td valign="top">
+
+Register your local UI5 components and UI5 libraries in the manifest.json under `sap.ui5/dependencies`. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
+
+To load resources from a third-party server, use
 
 ```
 sap.ui.loader.config({paths:{"myPath": "some/path"}});

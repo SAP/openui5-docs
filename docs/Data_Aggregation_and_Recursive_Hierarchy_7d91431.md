@@ -140,7 +140,7 @@ Use the `grandTotalAtBottomOnly` or `subtotalsAtBottomOnly` property with values
 
 ***
 
-<a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_igs_pyd_tkb"/>
+<a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_DAF"/>
 
 ### Filtering
 
