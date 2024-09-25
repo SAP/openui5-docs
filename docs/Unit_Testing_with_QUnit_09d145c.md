@@ -21,9 +21,7 @@ QUnit is a powerful, easy-to-use JavaScript unit testing framework. It is used b
 
 QUnit tests provide good support for asynchronous testing. These types of tests are often needed for UI functional tests, for example if you have to wait until rendering is done, animations are complete, or a backend call returns. In addition, a QUnit test page can be executed standalone in the browser without the need of an additional "tool". This makes the creation and execution of single QUnit tests much easier. Finally, QUnit is closely related to jQuery, which is also a fundamental part of OpenUI5.
 
--   **[Creating a QUnit Test Page](Creating_a_QUnit_Test_Page_7080029.md "")**  
-
--   **[Executing a QUnit Test](Executing_a_QUnit_Test_a9c949c.md "")**  
+-   **[Creating a QUnit Test](Creating_a_QUnit_Test_7080029.md "")**  
 
 -   **[Code Coverage Measurement](Code_Coverage_Measurement_7ef3242.md "You can measure the code coverage either via HTML or JavaScript code using a code coverage tool like Istanbul (default)
 		or Blanket.js (legacy).")**  

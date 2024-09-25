@@ -2397,7 +2397,13 @@ Complex Replacement
 </td>
 <td valign="top">
 
-Register your local UI5 components and UI5 libraries in the manifest.json under `sap.ui5/dependencies`. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
+**Apps Used Within the SAP Fiori launchpad**
+
+Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) and [Descriptor Dependencies to Libraries and Components](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md).
+
+**Standalone Apps**
+
+`jQuery.sap.registerModulePath` can also be replaced with `data-sap-ui-resource-roots` in the index.html.
 
 To load resources from a third-party server, use
 
@@ -2427,7 +2433,13 @@ Complex Replacement
 </td>
 <td valign="top">
 
-Register your local UI5 components and UI5 libraries in the manifest.json under `sap.ui5/dependencies`. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
+**Apps Used Within the SAP Fiori launchpad**
+
+Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) and [Descriptor Dependencies to Libraries and Components](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md).
+
+**Standalone Apps**
+
+`jQuery.sap.registerResourcePath` can also be replaced with `data-sap-ui-resource-roots` in the index.html.
 
 To load resources from a third-party server, use
 

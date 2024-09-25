@@ -1776,14 +1776,22 @@
 					"Testing": {
 						"link": "Testing_7cdee40.md",
 						"items": {
+							"Test Starter": {
+								"link": "Test_Starter_032be2c.md",
+								"items": {
+									"Concept and Basic Setup": {
+										"link": "Concept_and_Basic_Setup_22f50c0.md"
+									},
+									"Configuration Options": {
+										"link": "Configuration_Options_738ed02.md"
+									}
+								}
+							},
 							"Unit Testing with QUnit": {
 								"link": "Unit_Testing_with_QUnit_09d145c.md",
 								"items": {
-									"Creating a QUnit Test Page": {
-										"link": "Creating_a_QUnit_Test_Page_7080029.md"
-									},
-									"Executing a QUnit Test": {
-										"link": "Executing_a_QUnit_Test_a9c949c.md"
+									"Creating a QUnit Test": {
+										"link": "Creating_a_QUnit_Test_7080029.md"
 									},
 									"Code Coverage Measurement": {
 										"link": "Code_Coverage_Measurement_7ef3242.md"

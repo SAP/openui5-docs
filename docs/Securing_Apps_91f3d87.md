@@ -53,8 +53,8 @@ Cross-site scripting \(XSS\) is a widely known vulnerability most web sites have
 The OpenUI5 framework provides a client-side API to manage allowed URLs using the `URLListValidator`. It can be used to validate arbitrary URLs.
 -   **[Allowlist Service](Allowlist_Service_d04a6d4.md "SAPUI5 supports the configuration of a central allowlist service.")**  
 SAPUI5 supports the configuration of a central allowlist service.
--   **[Frame Options](Frame_Options_62d9c4d.md "frame-options is used to prevent security vulnerabilities like clickjacking. With the frame-options
-		configuration you define whether OpenUI5 is allowed to run embedded in a frame or
-		only from trusted origins or not at all.")**  
-`frame-options` is used to prevent security vulnerabilities like clickjacking. With the `frame-options` configuration you define whether OpenUI5 is allowed to run embedded in a frame or only from trusted origins or not at all.
+-   **[Frame Options](Frame_Options_62d9c4d.md "The frame-options configuration of OpenUI5 is a client-side
+		feature that is used to prevent security vulnerabilities like clickjacking, that is, situations where a user could be misled to use the
+		targeted application unintentionally.")**  
+The `frame-options` configuration of OpenUI5 is a client-side feature that is used to prevent security vulnerabilities like clickjacking, that is, situations where a user could be misled to use the targeted application unintentionally.
 

@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/708002929ea548fd9433954a9275eb5f) | [demo kit latest release](https://sdk.openui5.org/topic/708002929ea548fd9433954a9275eb5f)</div>
 
-## Creating a QUnit Test Page
+## Creating a QUnit Test
 
 ***
 
