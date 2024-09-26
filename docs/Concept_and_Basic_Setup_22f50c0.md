@@ -10,26 +10,29 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/22f50c
 
 ## Concept and Basic Setup
 
-To a apply the Test Starter concept to your OpenUI5 project, you need to create a test suite and a generic test page which allows executing one or multiple test modules.
+To a apply the Test Starter concept to your OpenUI5 project, you need to create a test suite and a generic test page that allows for the running of one or multiple test modules.
 
-For OpenUI5 applications the test suite and the generic test page are typically placed in the `webapp/test` folder. The following code samples uses `<NAMESPACE>` as a placeholder for your OpenUI5 project namespace. Please, replace this placeholder with your OpenUI5 project namespace defined in the `sap.app/id` property in the `manifest.json` file by replacing the '.' with '/', for example `my/ui5app`.
+> ### Note:  
+> For OpenUI5 applications, the test suite and the generic test page are typically placed in the `webapp/test` folder. The code samples in the next sections use `<NAMESPACE>` as a placeholder for your OpenUI5 project namespace. Please, replace this placeholder with your OpenUI5 project namespace defined in the `sap.app/id` property in the `manifest.json` file by replacing the '.' with '/', for example `my/ui5app`.
+
+
 
 ***
 
 <a name="loio22f50c0f0b104bf3ba84620880793d3f__section_v1s_4qg_vcc"/>
 
-### The OpenUI5 Test Suite
+### The UI5 Test Suite
 
-An Test Suite configures the environment for the tests. A Test Suite consists of a `*.qunit.html` page often named `testsuite.qunit.htm`l and a corresponding `*.qunit.js` module often named`testsuite.qunit.js`.
+A test suite configures the environment for the tests. It consists of a `*.qunit.html` page often named `testsuite.qunit.htm`l and a corresponding `*.qunit.js` module often named `testsuite.qunit.js`.
 
 ***
 
-#### The OpenUI5 Test Suite Page
+#### The UI5 Test Suite Page
 
-The Test Suite page uses the `sap/ui/test/starter/createSuite.js` script to initialize the test suite in a CSP compliant way, based on the externalized test configuration provided in the Test Suite module.
+The test suite page uses the `sap/ui/test/starter/createSuite.js` script to initialize the test suite in a way which is compliant to the content security policy, based on the externalized test configuration provided in the test suite module.
 
 ```
-```html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,19 +50,19 @@ The Test Suite page uses the `sap/ui/test/starter/createSuite.js` script to init
 <body>
 </body>
 </html>
-```
+
 ```
 
 ***
 
 ***
 
-#### The OpenUI5 Test Suite Module
+#### The UI5 Test Suite Module
 
-The OpenUI5 Test Suite module represents the configuration file for the OpenUI5 Test Suite. The module must return a configuration object in the following structure:
+The test suite module represents the configuration file for the UI5 test suite. The module must return a configuration object in the following structure:
 
 ```
-```js
+
 sap.ui.define(function() {
 	"use strict";
 
@@ -89,11 +92,10 @@ sap.ui.define(function() {
 		tests: {}
 	};
 });
-```
 
 ```
 
-The `tests` object is empty for now. For more information on how to add add a defined test module to an existing test suite, see [Creating a QUnit Test](Creating_a_QUnit_Test_7080029.md).
+The `tests` object is empty for now. For more information on how to add a defined test module to an existing test suite, see [Creating a QUnit Test](Creating_a_QUnit_Test_7080029.md).
 
 ***
 
@@ -101,10 +103,10 @@ The `tests` object is empty for now. For more information on how to add add a de
 
 ### The Generic Test Page
 
-The generic test page executes one or multiple test modules. Typically this file is named`test.qunit.html`. The generic test page is configured in the test suite module. It will be called with the test suite and test name in order to run a test.
+The generic test page runs one or multiple test modules. Typically this file is named `test.qunit.html`. The generic test page is configured in the test suite module. It will be called with the test suite and test name in order to run a test.
 
 ```
-```html
+
 <!DOCTYPE html>
 <html>
 <head>

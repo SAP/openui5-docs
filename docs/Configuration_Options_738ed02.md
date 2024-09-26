@@ -15,10 +15,10 @@ The OpenUI5 Test Suite module contains the configuration for the OpenUI5 Test Su
 The following options are available on the `defaults` and the individual test configuration objects:
 
 > ### Note:  
-> The values used in the following code are the default values and used as a fallback for options that are not defined in the configuration file \(neither in the `defaults` object, nor in an individual test configuration object\).
+> The values used in the following code are the default values and are used as a fallback for options that are not defined in the configuration file \(neither in the `defaults` object, nor in an individual test configuration object\).
 
 ```
-```js
+
 {
 	/*
 	 * ID(s) of the module(s) to load.
@@ -179,6 +179,5 @@ The following options are available on the `defaults` and the individual test co
 	 */
 	skip: false
 };
-```
 ```
 

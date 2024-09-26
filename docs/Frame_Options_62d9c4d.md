@@ -15,13 +15,13 @@ The `frame-options` configuration of OpenUI5 is a client-side feature that is us
 > ### Note:  
 > OpenUI5's `frame-options` configuration is **not** the same as the `X-Frame-Options` HTTP response header.
 > 
-> OpenUI5's `frame-options` is a front-end JavaScript feature that supports all browsers in the UI5 compatibility list. When set to `"deny"` or `"trusted"`, it places an invisible block layer over the page, preventing user interaction by disabling event propagation, e.g. for mouse and keyboard events. However, the page content remains visible.
+> **OpenUI5's `frame-options`** is a front-end JavaScript feature that supports all browsers in the UI5 compatibility list. When set to `"deny"` or `"trusted"`, it places an invisible block layer over the page, preventing user interaction by disabling event propagation, e.g. for mouse and keyboard events. However, the page content remains visible.
 > 
-> In contrast, the `X-Frame-Options` header is a back-end feature sent via HTTP response headers. It prevents the page from loading at the browser level if framing is not allowed. Although it supports `DENY` and `SAMEORIGIN`, it lacks comprehensive support for `ALLOW-FROM`, which is now deprecated in most browsers. This header must be set by the back end and may not be fully supported by all browsers.
+> In contrast, the **`X-Frame-Options` header** is a back-end feature sent via HTTP response headers. It prevents the page from loading at the browser level if framing is not allowed. Although it supports `DENY` and `SAMEORIGIN`, it lacks comprehensive support for `ALLOW-FROM`, which is now deprecated in most browsers. This header must be set by the back end and may not be fully supported by all browsers.
 > 
-> Additionally, the more recent **Content-Security-Policy \(CSP\)** header, also sent by the back end, includes the `frame-ancestors` directive, which provides better control over trusted sites and should be preferred over `X-Frame-Options` for embedding restrictions.
+> Additionally, the more recent **Content-Security-Policy \(CSP\) header**, also sent by the back end, includes the `frame-ancestors` directive, which provides better control over trusted sites and should be preferred over `X-Frame-Options` for embedding restrictions.
 
-OpenUI5 provides the following configuration options for `frame-options`to specify whether the target application is allowed to be used if it's embedded in a separate frame:
+OpenUI5 provides the following configuration options for `frame-options` to specify whether the target application is allowed to be used if it's embedded in a separate frame:
 
 
 <table>
