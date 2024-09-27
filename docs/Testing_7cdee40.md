@@ -40,9 +40,9 @@ We recommend OPA5 for integration tests. OPA5 is part of OpenUI5. It is built on
 
 WebdriverIO \(WDIO\) is a hugely popular end-to-end testing framework. It can work with any web app but lacks the awareness of the web framework that the application uses. wdi5, which is a WDIO plugin, bridges this gap and provides two key benefits, namely control locators and synchronization with the web framework. wdi5 uses a real browser and interacts with your app the same way a real user would.
 
--   **[Test Starter](Test_Starter_032be2c.md "The Test Starter is a concept intended to simplify the test setup for OpenUI5 applications and
+-   **[Test Starter](Test_Starter_032be2c.md "The test starter is a concept intended to simplify the test setup for OpenUI5 applications and
 		libraries by orchestrating your QUnit and OPA5 tests.")**  
-The Test Starter is a concept intended to simplify the test setup for OpenUI5 applications and libraries by orchestrating your QUnit and OPA5 tests.
+The test starter is a concept intended to simplify the test setup for OpenUI5 applications and libraries by orchestrating your QUnit and OPA5 tests.
 -   **[Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md "QUnit is a powerful, easy-to-use JavaScript unit testing framework. It is used by the
 		jQuery, jQuery UI and jQuery Mobile projects and is capable of testing any generic
 		JavaScript code. It supports asynchronous tests out-of-the-box.")**  

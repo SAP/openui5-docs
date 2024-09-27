@@ -10,12 +10,12 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/738ed0
 
 ## Configuration Options
 
-The OpenUI5 Test Suite module contains the configuration for the OpenUI5 Test Suite.
+The UI5 test suite module contains the configuration for the UI5 test suite.
 
 The following options are available on the `defaults` and the individual test configuration objects:
 
 > ### Note:  
-> The values used in the following code are the default values and are used as a fallback for options that are not defined in the configuration file \(neither in the `defaults` object, nor in an individual test configuration object\).
+> The values used in the following code are the default values and are used as a fallback for options that are not defined in the configuration file - neither in the `defaults` object, nor in an individual test configuration object.
 
 ```
 
@@ -24,9 +24,11 @@ The following options are available on the `defaults` and the individual test co
 	 * ID(s) of the module(s) to load.
 	 *
 	 * Can either be a single string or an array of strings.
-	 * Each string can use the following placeholders
-	 *  leading "./" - package name of the testsuite configuration
-	 *        {name} - name of the current test
+	 * Each string might start with a leading "./" 
+	 * when the test module is located in the same folder
+	 * as the testsuite configuration.
+	 * You can use the following placeholder:
+	 *   {name} - name of the current test module
 	 */
 	module: "./{name}.qunit",
 
@@ -40,8 +42,8 @@ The following options are available on the `defaults` and the individual test co
 	 *
 	 * The URL must be relative to the application root and can use the following
 	 * placeholders, enclosed in curly braces:
-	 *       {suite} - name of the testsuite (configuration)
-	 *        {name} - name of the current test
+	 *   {suite} - name of the testsuite (configuration)
+	 *   {name} - name of the current test module
 	 */
 	page: "resources/sap/ui/test/starter/Test.qunit.html?testsuite={suite}&test={name}",
 
@@ -50,8 +52,8 @@ The following options are available on the `defaults` and the individual test co
 	 * Title of the test.
 	 * The URL must be relative to the application root and can use the following
 	 * placeholders, enclosed in curly braces:
-	 *       {suite} - name of the testsuite (configuration)
-	 *       {name} - name of the current test
+	 *   {suite} - name of the testsuite (configuration)
+	 *   {name} - name of the current test module
 	 */
 	title: "QUnit tests '{name}' of suite '{suite}'",
 
@@ -84,7 +86,7 @@ The following options are available on the `defaults` and the individual test co
 	},
 
 	/*
-	 * Sinon configuration.
+	 * Sinon.JS configuration.
 	 *
 	 * Either can be a null or false or an object with the properties documented below.
 	 * The values null and false are equivalent to the object { version: null }
@@ -92,7 +94,7 @@ The following options are available on the `defaults` and the individual test co
 	sinon: {
 
 		/*
-		 * Version of Sinon that should be loaded.
+		 * Version of Sinon.JS that should be loaded.
 		 * If set to null, Sinon won't be loaded.
 		 * If set to "edge", the newest available version of Sinon will be used.
 		 * If set to a number, the corresponding version of Sinon will be used if supported.
@@ -105,11 +107,11 @@ The following options are available on the `defaults` and the individual test co
 		 * When set to true, the sap/ui/thirdparty/sinon-qunit bridge will be loaded for Sinon 1
 		 * and the sap/ui/qunit/sinon-qunit-bridge will be loaded for newer versions of Sinon.
 		 *
-		 * The bridge will only be loaded after both, QUnit and Sinon have been loaded.
-		 * If either QUnit or Sinon are not loaded, no bridge will be loaded.
+		 * The bridge will only be loaded after both, QUnit and Sinon.JS have been loaded.
+		 * If either QUnit or Sinon.JS are not loaded, no bridge will be loaded.
 		 *
-		 * If Sinon is not loaded, but QUnit, the bridge will not be loaded, but a shim
-		 * with dependencies will be configured. This allows tests to load Sinon / the bridge on
+		 * If Sinon.JS is not loaded, but QUnit, the bridge will not be loaded, but a shim
+		 * with dependencies will be configured. This allows tests to load Sinon.JS/the bridge on
 		 * their own without taking care of the bridge dependencies. 
 		 */
 		qunitBridge: true,

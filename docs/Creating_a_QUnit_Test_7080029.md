@@ -16,7 +16,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/708002
 
 ### Prerequisites
 
-As a prerequisite for creating a test, you need to have created a OpenUI5 application project that contains a test suite. Once you have done this, continue with the steps described below.
+As a prerequisite for creating a test, you need to have created a OpenUI5 application project that contains a test suite. For more information on how to do this, see [Concept and Basic Setup](Concept_and_Basic_Setup_22f50c0.md). After completing this, continue with the steps described in the subsequent sections.
 
 ***
 
@@ -32,15 +32,15 @@ Each test file normally represents a OpenUI5 module, which is being tested.
 ```js
 /*global QUnit */
 sap.ui.define([], function() {
-	   "use strict";
+  "use strict";
 
-        QUnit.module("Module A"); 
+  QUnit.module("Module A"); 
 
-        QUnit.test("Basic test example", function(assert) {
-			assert.ok(true, "this test is fine"); 
-			var value = "hello1"; 
-			assert.equal(value, "hello1", "We expect value to be 'hello1'"); 
-	});
+  QUnit.test("Basic test example", function(assert) {
+    assert.ok(true, "this test is fine"); 
+    var value = "hello1"; 
+    assert.equal(value, "hello1", "We expect value to be 'hello1'"); 
+  });
 
 });
 ```
@@ -51,7 +51,7 @@ QUnit test files do not include the OpenUI5 bootstrap \(`sap-ui-core.js`\). Inst
 
 ### Writing Tests
 
-Write your test code \(as shown in the following example\) into the template introduced in the previous section:
+Write your test code as shown in the following example into the template introduced in the previous section:
 
 ```js
 /*global QUnit */

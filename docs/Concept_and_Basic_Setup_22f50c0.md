@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/22f50c
 
 ## Concept and Basic Setup
 
-To a apply the Test Starter concept to your OpenUI5 project, you need to create a test suite and a generic test page that allows for the running of one or multiple test modules.
+To apply the test starter concept to your OpenUI5 project, you need to create a test suite and a generic test page that allows for the running of one or multiple test modules.
 
 > ### Note:  
 > For OpenUI5 applications, the test suite and the generic test page are typically placed in the `webapp/test` folder. The code samples in the next sections use `<NAMESPACE>` as a placeholder for your OpenUI5 project namespace. Please, replace this placeholder with your OpenUI5 project namespace defined in the `sap.app/id` property in the `manifest.json` file by replacing the '.' with '/', for example `my/ui5app`.
@@ -95,7 +95,7 @@ sap.ui.define(function() {
 
 ```
 
-The `tests` object is empty for now. For more information on how to add a defined test module to an existing test suite, see [Creating a QUnit Test](Creating_a_QUnit_Test_7080029.md).
+The `tests` object is empty for now. For more information on how to add a defined test module to an existing test suite, see [Adding a QUnit Test Module to a Test Suite](Creating_a_QUnit_Test_7080029.md#loio708002929ea548fd9433954a9275eb5f__section_hp4_xhn_vcc).
 
 ***
 
@@ -103,7 +103,7 @@ The `tests` object is empty for now. For more information on how to add a define
 
 ### The Generic Test Page
 
-The generic test page runs one or multiple test modules. Typically this file is named `test.qunit.html`. The generic test page is configured in the test suite module. It will be called with the test suite and test name in order to run a test.
+The generic test page runs one or multiple test modules. Typically, this file is named `test.qunit.html`. The generic test page is configured in the test suite module. It will be called with the test suite and test name in order to run a test.
 
 ```
 
@@ -123,6 +123,5 @@ The generic test page runs one or multiple test modules. Typically this file is 
 	<div id="qunit"></div>
 	<div id="qunit-fixture"></div>
 </body>
-```
 ```
 
