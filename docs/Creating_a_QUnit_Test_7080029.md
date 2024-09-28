@@ -25,7 +25,7 @@ As a prerequisite for creating a test, you need to have created a OpenUI5 applic
 Create a file `MyTest.qunit.js` in the folder `webapp/test/unit`.
 
 > ### Note:  
-> You can use the file template shown below. This code snippet shows a basic QUnit test template.
+> You can use the file template shown in the following example. This code snippet shows a basic QUnit test template.
 
 Each test file normally represents a OpenUI5 module, which is being tested.
 

@@ -242,9 +242,9 @@ These OpenUI5 configuration options accept the following formats:
     </table>
     
     > ### Note:  
-    > Only these SAP-proprietary language codes are understood by OpenUI5SAP Fiori launchpad, all other SAP-proprietary language codes are handled by the . Other SAP-proprietary language codes are not automatically transformed. If you develop your app to run in the SAP Fiori launchpad.
+    > Only these SAP-proprietary language codes are understood by OpenUI5. Other SAP-proprietary language codes are not automatically transformed. If you develop your app to run in the SAP Fiori launchpad, all other SAP-proprietary language codes are handled by the SAP Fiori launchpad.
     > 
-    > If you don't make use of the SAP Fiori launchpad. Other, you may have to explicitly implement the language handling. You can use the `sap/base/i18n/Localization.setLanguage()` method to provide both settings, a BCP 47 language code and the corresponding SAP-proprietary language\) in one call. OpenUI5 will then use one of the two codes where appropriate \(e.g. BCP 47 for the retrieval of translated texts or in HTTP Accept Headers, but the proprietary SAP language code when propagating the `sap-language` URL parameter to an OData service\).
+    > If you don't make use of the SAP Fiori launchpad, you may have to explicitly implement the language handling. You can use the `sap/base/i18n/Localization.setLanguage()` method to provide both settings, a BCP 47 language code and the corresponding SAP-proprietary language, in one call. OpenUI5 will then use one of the two codes where appropriate \(e.g. BCP 47 for the retrieval of translated texts or in HTTP Accept Headers, but the proprietary SAP language code when propagating the `sap-language` URL parameter to an OData service\).
 
 
 ***
