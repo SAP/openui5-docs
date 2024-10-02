@@ -16,7 +16,11 @@ Now we can navigate to our detail page and display an invoice, but we cannot go 
 
 ### Preview
 
-![The graphic has an explanatory text]()
+  
+  
+**A back button is now displayed on the detail page**
+
+![The graphic has an explanatory text](images/loio33a8341077bb458685274c64d2317f6b_LowRes.png "A back button is now displayed on the detail page")
 
 ***
 
@@ -45,6 +49,7 @@ import Controller from "sap/ui/core/mvc/Controller";
 import Component from "../Component";
 import { Route$PatternMatchedEvent } from "sap/ui/core/routing/Route";
 import History from "sap/ui/core/routing/History";
+import UIComponent from "sap/ui/core/ UIComponent";
 
 /**
  * @namespace ui5.walkthrough.controller
@@ -70,7 +75,7 @@ export default class Detail extends Controller {
         if (previousHash !== undefined) {
             window.history.go(-1);
         } else {
-            const router = (<Component> this.getOwnerComponent()).getRouter();
+            const router = UIComponent.getRouterFor(this);
             router.navTo("overview", {}, true);
         }
     }    

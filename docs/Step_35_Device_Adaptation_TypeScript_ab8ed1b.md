@@ -142,6 +142,7 @@ import Controller from "sap/ui/core/mvc/Controller";
 import Component from "../Component";
 import { Route$PatternMatchedEvent } from "sap/ui/core/routing/Route";
 import History from "sap/ui/core/routing/History";
+import UIComponent from "sap/ui/core/ UIComponent";
 import MessageToast from "sap/m/MessageToast";
 import ProductRating, { ProductRating$ChangeEvent } from "../control/ProductRating";
 import ResourceBundle from "sap/base/i18n/ResourceBundle";
@@ -157,9 +158,8 @@ export default class Detail extends Controller {
         const viewModel = new JSONModel({
             currency: "EUR"
         });
-        this.getView().setModel(viewModel, "view");
+        this.getView().setModel(viewModel, "view");   
 
-        
         const router = (<Component> this.getOwnerComponent()).getRouter();
         router.getRoute("detail").attachPatternMatched(this.onObjectMatched, this);
     }
