@@ -46,10 +46,9 @@ If no navigation has happened before, we get a reference to the router and use t
 
 ```js
 import Controller from "sap/ui/core/mvc/Controller";
-import Component from "../Component";
+import UIComponent from "sap/ui/core/ UIComponent";
 import { Route$PatternMatchedEvent } from "sap/ui/core/routing/Route";
 import History from "sap/ui/core/routing/History";
-import UIComponent from "sap/ui/core/ UIComponent";
 
 /**
  * @namespace ui5.walkthrough.controller
@@ -57,7 +56,7 @@ import UIComponent from "sap/ui/core/ UIComponent";
 export default class Detail extends Controller {
 
     onInit(): void {
-        const router = (<Component> this.getOwnerComponent()).getRouter();
+        const router = UIComponent.getRouterFor(this);
         router.getRoute("detail").attachPatternMatched(this.onObjectMatched, this);
     }
 
@@ -78,7 +77,7 @@ export default class Detail extends Controller {
             const router = UIComponent.getRouterFor(this);
             router.navTo("overview", {}, true);
         }
-    }    
+    }
 };
 ```
 

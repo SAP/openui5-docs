@@ -105,7 +105,7 @@ import { SearchField$SearchEvent } from "sap/m/SearchField";
 import Filter from "sap/ui/model/Filter";
 import FilterOperator from "sap/ui/model/FilterOperator";
 import ListBinding from "sap/ui/model/ListBinding";
-import Component from "../Component";
+import UIComponent from "sap/ui/core/UIComponent";
 import Event from "sap/ui/base/Event";
 import ObjectListItem from "sap/m/ObjectListItem";
 
@@ -115,9 +115,9 @@ import ObjectListItem from "sap/m/ObjectListItem";
 export default class App extends Controller {	
 	…
     onPress(event: Event): void {
-        const item = <ObjectListItem> event.getSource();
+        const item = event.getSource() as ObjectListItem;
 
-        const router = (<Component> this.getOwnerComponent()).getRouter();
+        const router = UIComponent.getRouterFor(this);
         router.navTo("detail", {
             invoicePath: window.encodeURIComponent(item.getBindingContext("invoice").getPath().substr(1))
         });
@@ -143,7 +143,7 @@ The `bindElement` function creates a binding context for an OpenUI5 control and 
 
 ```js
 import Controller from "sap/ui/core/mvc/Controller";
-import Component from "../Component";
+import UIComponent from "sap/ui/core/UIComponent";
 import { Route$PatternMatchedEvent } from "sap/ui/core/routing/Route";
 
 /**
@@ -152,7 +152,7 @@ import { Route$PatternMatchedEvent } from "sap/ui/core/routing/Route";
 export default class Detail extends Controller {
 
     onInit(): void {
-        const router = (<Component> this.getOwnerComponent()).getRouter();
+        const router = UIComponent.getRouterFor(this);
         router.getRoute("detail").attachPatternMatched(this.onObjectMatched, this);
     }
 
