@@ -158,7 +158,7 @@ export default class Detail extends Controller {
 
     onObjectMatched(event: Route$PatternMatchedEvent): void {
         this.getView().bindElement({
-            path: "/" + window.decodeURIComponent( (<any> event.getParameter("arguments")).invoicePath),
+            path: "/" + window.decodeURIComponent( (event.getParameter("arguments") as any).invoicePath),
             model: "invoice"
         });
     }

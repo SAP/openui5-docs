@@ -498,7 +498,7 @@ oFloatFormat.parse("12.34%"); // returns 0.1234
 
 When users switch between multiple UIs, websites or editors, they may encounter different characters being used as decimal and grouping separators. This can lead to incorrect numerical input if the user assumes a locale different from the one actually used by the UI. For example, in English locales the grouping separator is a comma \(","\) and the decimal separator is a dot \("."\), whereas in German locales it is the other way around.
 
-To prevent an accidental mix-up of decimal and grouping separator in the user input, we have introduced a stricter parsing logic of `sap.ui.core.format.NumberFormat` by using **decimal separator validation** with an optional **strict grouping validation**. Instead of ignoring the grouping separators when parsing user input, several checks are now carried out on the grouping to identify potential input errors.
+To prevent an accidental mix-up of decimal and grouping separator in the user input, we have introduced a stricter parsing logic of `sap.ui.core.format.NumberFormat` by using **decimal separator validation** with an optional **strict grouping validation**. Instead of ignoring the grouping separators when parsing user input, several checks are carried out on the grouping to identify potential input errors.
 
 ***
 
@@ -516,7 +516,7 @@ var oOptions = {
 var oFloatFormat = NumberFormat.getFloatInstance(oOptions);
 ```
 
-The following user input is now considered to be potentially wrong and therefore **invalid**:
+The following user input is considered to be potentially wrong and therefore **invalid**:
 
 -   There is no decimal separator and only one grouping separator, which occurs at an unexpected position.
 

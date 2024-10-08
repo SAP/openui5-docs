@@ -1883,7 +1883,7 @@ Specifies the used components with the a unique key/alias. Contains the followin
 -   `lazy`: Indicates whether the component usage should be lazily loaded. Default value: `true`
 
 
-For more information see:[Using and Nesting Components](Using_and_Nesting_Components_346599f.md)
+For more information, see: [Using and Nesting Components](Using_and_Nesting_Components_346599f.md).
 
 </td>
 </tr>

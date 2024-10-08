@@ -237,7 +237,7 @@ export default class ProductRating extends Control {
 		events: {
 			change: {
 				parameters: {
-					"value": "float"
+					"value": "int"
 				}
 			}
 		}
@@ -260,36 +260,36 @@ export default class ProductRating extends Control {
 
 	setValue(value: "float" ): ProductRating {
 		this.setProperty("value", value, true);
-		(<RatingIndicator> this.getAggregation("_rating")).setValue(value);
+		(this.getAggregation("_rating") as RatingIndicator).setValue(value);
 		return this;		
 	}
 	
 	reset(): void {
-		const resourceBundle = <ResourceBundle> (<ResourceModel> this?.getModel("i18n"))?.getResourceBundle();
+		const resourceBundle = (this?.getModel("i18n") as ResourceModel)?.getResourceBundle() as ResourceBundle;
 		
 		this.setValue(0);
-		(<Label> this.getAggregation("_label")).setDesign("Standard");
-		(<RatingIndicator> this.getAggregation("_rating")).setEnabled(true);
-		(<Label> this.getAggregation("_label")).setText(resourceBundle.getText("productRatingLabelInitial"));
-		(<Button> this.getAggregation("_button")).setEnabled(true);
+		(this.getAggregation("_label") as Label).setDesign("Standard");
+		(this.getAggregation("_rating") as RatingIndicator).setEnabled(true);
+		(this.getAggregation("_label") as Label).setText(resourceBundle.getText("productRatingLabelInitial"));
+		(this.getAggregation("_button") as Button).setEnabled(true);
 	}
 	
 	_onRate(event: RatingIndicator$LiveChangeEvent): void {
-		const ressourceBundle = <ResourceBundle> (<ResourceModel> this?.getModel("i18n"))?.getResourceBundle();
+		const resourceBundle = (this?.getModel("i18n") as ResourceModel)?.getResourceBundle() as ResourceBundle;
 		const value = event.getParameter("value");
 		
 		this.setProperty("value", value, true);
 		
-		(<Label> this.getAggregation("_label")).setText(ressourceBundle.getText("productRatingLabelIndicator", [value, (<RatingIndicator> event.getSource()).getMaxValue()]));
-		(<Label> this.getAggregation("_label")).setDesign("Bold");
+		(this.getAggregation("_label") as Label).setText(resourceBundle.getText("productRatingLabelIndicator", [value, (event.getSource() as RatingIndicator).getMaxValue()]));
+		(this.getAggregation("_label") as Label).setDesign("Bold");
 	}
 	
 	_onSubmit(event: Button$PressEvent): void {
-		const resourceBundle = <ResourceBundle> (<ResourceModel> this?.getModel("i18n"))?.getResourceBundle();
+		const resourceBundle = (this?.getModel("i18n") as ResourceModel)?.getResourceBundle() as ResourceBundle;
 		
-		(<RatingIndicator> this.getAggregation("_rating")).setEnabled(false);
-		(<Label> this.getAggregation("_label")).setText(resourceBundle.getText("productRatingLabelFinal"));
-		(<Button> this.getAggregation("_button")).setEnabled(false);
+		(this.getAggregation("_rating") as RatingIndicator).setEnabled(false);
+		(this.getAggregation("_label") as Label).setText(resourceBundle.getText("productRatingLabelFinal"));
+		(this.getAggregation("_button") as Button).setEnabled(false);
 		this.fireEvent("change", {
 			value: this.getValue()
 		})
@@ -305,9 +305,9 @@ export default class ProductRating extends Control {
 				rm.attr("title", tooltip);
 			}
 			rm.openEnd();
-			rm.renderControl(<Control> control.getAggregation("_rating"));
-			rm.renderControl(<Control> control.getAggregation("_label"));
-			rm.renderControl(<Control> control.getAggregation("_button"));
+			rm.renderControl(control.getAggregation("_rating") as Control);
+			rm.renderControl(control.getAggregation("_label") as Control);
+			rm.renderControl(control.getAggregation("_button") as Control);
 			rm.close("div");
 		}
 	}
@@ -324,7 +324,7 @@ While the application would run successfully, the editor still displays an error
 
 The solution is to use the [ts-interface-generator](https://www.npmjs.com/package/@ui5/ts-interface-generator), a small tool that scans the project for any controls \(as well as other subclasses of `sap.ui.ManagedObject`\) and generates TypeScript interface definitions declaring those generated methods:
 
--   Open a new terminal window in your app root folder and execute `npm install @ui5/ts-inteface-generator --save-` to install this package as a new development dependency in your `package.json`.
+-   Open a new terminal window in your app root folder and execute `npm install @ui5/ts-interface-generator --save-dev` to install this package as a new development dependency in your `package.json`.
 
 -   Run `ui5 serve`. This starts the interface generator tool in "watch" mode and creates the required interface definition \(after a short startup delay during which all existing types in the project and in UI5 are scanned\).
 
