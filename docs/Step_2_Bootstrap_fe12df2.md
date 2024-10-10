@@ -110,7 +110,7 @@ In the next steps, the structure of a UI5 module will be explained in detail.
 **Related Information**  
 
 
-[Compatibility Version Information \(deprecated\)](Compatibility_Version_Information_deprecated_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in OpenUI5.")
+[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags were introduced to allow applications to react to incompatible changes in OpenUI5.")
 
 [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md "To use OpenUI5 features in your HTML page, you have to load and initialize the SAPUI5 library.")
 

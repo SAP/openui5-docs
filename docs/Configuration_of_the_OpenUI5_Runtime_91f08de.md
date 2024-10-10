@@ -232,7 +232,6 @@ The following tables showdeprecated and experimental configuration options.
 		migration path away from the deprecated legacy APIs and towards their future-proof alternatives, provided the functionality is still meant for
 		productive usage.")**  
 This page describes important aspects of the deprecation of the `sap.ui.core.Configuration` API facade. It shows a migration path away from the deprecated legacy APIs and towards their future-proof alternatives, provided the functionality is still meant for productive usage.
--   **[Compatibility Version Information \(deprecated\)](Compatibility_Version_Information_deprecated_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in
-			OpenUI5.")**  
-Compatibility version flags allow applications to react to incompatible changes in OpenUI5.
+-   **[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags were introduced to allow applications to react to incompatible changes in OpenUI5.")**  
+Compatibility version flags were introduced to allow applications to react to incompatible changes in OpenUI5.
 

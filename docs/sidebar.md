@@ -316,7 +316,7 @@
                 -   [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)
                 -   [Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md)
                 -   [Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md)
-                -   [Compatibility Version Information \(deprecated\)](Compatibility_Version_Information_deprecated_9feb96d.md)
+                -   [Compatibility Version Information](Compatibility_Version_Information_9feb96d.md)
         -   [Structuring: Components and Descriptor](Structuring_Components_and_Descriptor_dc9e11c.md)
             -   [Components](Components_958ead5.md)
                 -   [Component Controller](Component_Controller_27ce0e4.md)

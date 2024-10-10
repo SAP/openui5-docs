@@ -8,22 +8,28 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/9feb96da02c2429bb1afcf6534d77c79) | [demo kit latest release](https://sdk.openui5.org/topic/9feb96da02c2429bb1afcf6534d77c79)</div>
 
-## Compatibility Version Information \(deprecated\)
+## Compatibility Version Information
 
-Compatibility version flags allow applications to react to incompatible changes in OpenUI5.
+Compatibility version flags were introduced to allow applications to react to incompatible changes in OpenUI5.
 
 > ### Caution:  
-> The concept of compatibility versions has been abandoned as of version 1.28. Therefore, there will be no new compatibility version flags in the future. If you start building a new application please set `data-sap-ui-compat-version="edge"` on your OpenUI5 bootstrap tag.
+> The concept of compatibility versions has been abandoned as of OpenUI5 version 1.28. Therefore, no new compatibility version flags will be introduced in the future. If you start building a new application, please set `data-sap-ui-compat-version="edge"` on your OpenUI5 bootstrap tag. This ensures that the newest behavior of all features is applied.
 
-As described in the compatibility rules, changes to OpenUI5 features are compatible, see [Compatibility Rules](Compatibility_Rules_91f0873.md). In some cases, however, it may make sense to change the behavior of a feature, for example, to change the default values or to use an optimized implementation and these changes may lead to incompatibilities.
+***
+
+<a name="loio9feb96da02c2429bb1afcf6534d77c79__section_dxf_c4r_zcc"/>
+
+### Previous Function of the Compatibility Version Flag \(deprecated\)
+
+As described in the compatibility rules, changes to OpenUI5 features are compatible; see [Compatibility Rules](Compatibility_Rules_91f0873.md) for more information. In some cases, however, it used to make sense to change the behavior of a feature, for example, in order to change the default values or to use an optimized implementation. These changes could result in incompatibilities.
 
 > ### Note:  
 > We recommend adopting new feature versions as soon as possible.
 
-The compatibility version configuration works as follows:
+The compatibility version configuration worked as follows:
 
--   A version flag is introduced if a feature change is incompatible.
--   The version flag has to be defined in the OpenUI5 bootstrap tag either globally \(`data-sap-ui-compat-version` or individually for each feature \(for example `data-sap-ui-compat-version-xyz`\). Example with `compat-version "1.18"`:
+-   A version flag was introduced if a feature change was incompatible.
+-   The version flag had to be defined in the OpenUI5 bootstrap tag, either globally \(via `data-sap-ui-compat-version`\) or individually for each feature \(for example `data-sap-ui-compat-version-xyz`\). Example with `compat-version "1.18"`:
 
     ```html
     <script id="sap-ui-bootstrap" 
@@ -37,9 +43,9 @@ The compatibility version configuration works as follows:
     </script> 
     ```
 
--   If no version is defined, the default behavior of the feature applies.
--   If an explicit version is specified, the behavior of the specified version is applied.
--   If a version edge is specified, the newest behavior of the feature is applied.
+-   If no compatibility version is defined, the default behavior of the feature applies.
+-   If an explicit version is specified, the behavior of the specified version is applied \(deprecated\).
+-   If **`edge`** is specified as the compatibility version, the newest behavior of the feature is applied.
 -   A fallback mechanism is implemented. The following table is an example of possible configuration options for feature "xyz":
 
 
@@ -92,6 +98,8 @@ The compatibility version configuration works as follows:
     <td valign="top">
     
     1.16
+
+    \(deprecated\)
     
     </td>
     <td valign="top">
@@ -136,6 +144,8 @@ The compatibility version configuration works as follows:
     <td valign="top">
     
     1.18
+
+    \(deprecated\)
     
     </td>
     <td valign="top">
