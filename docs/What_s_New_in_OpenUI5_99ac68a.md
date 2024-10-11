@@ -34,10 +34,6 @@ You are familiar with OpenUI5 app development, but do you want to learn how to d
 		this release OpenUI5 is upgraded
 		from version 1.128 to 1.129.")**  
 With this release OpenUI5 is upgraded from version 1.128 to 1.129.
--   **[What's New in OpenUI5 1.128](What_s_New_in_OpenUI5_1_128_1f76220.md "With
-		this release OpenUI5 is upgraded
-		from version 1.127 to 1.128.")**  
-With this release OpenUI5 is upgraded from version 1.127 to 1.128.
 -   **[Previous Versions](Previous_Versions_6660a59.md "")**  
 
 -   **[Change Log](Change_Log_a6a78b7.md "")**  

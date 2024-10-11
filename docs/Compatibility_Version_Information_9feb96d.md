@@ -13,7 +13,9 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/9feb96
 Compatibility version flags were introduced to allow applications to react to incompatible changes in OpenUI5.
 
 > ### Caution:  
-> The concept of compatibility versions has been abandoned as of OpenUI5 version 1.28. Therefore, no new compatibility version flags will be introduced in the future. If you start building a new application, please set `data-sap-ui-compat-version="edge"` on your OpenUI5 bootstrap tag. This ensures that the newest behavior of all features is applied.
+> The concept of compatibility versions has been abandoned as of OpenUI5 version 1.28. Therefore, no new compatibility version flags will be introduced in the future. If you start building a new application, please set `data-sap-ui-compat-version="edge"` on your OpenUI5 bootstrap tag.
+> 
+> This ensures that the newest behavior of all features is applied. **Other version definitions, including the default value, are deprecated.**
 
 ***
 
