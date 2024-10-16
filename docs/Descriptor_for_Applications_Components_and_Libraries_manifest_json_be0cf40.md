@@ -22,7 +22,7 @@ The data of the app descriptor is stored in JSON format in the `manifest.json` f
 
 ### General Information
 
-Every new version of OpenUI5 implies a new version of the app descriptor. In the following table, you can see how the OpenUI5 version is related to the descriptor version and the value of `_version.`
+There is a new version of the app descriptor when the schema is changed, for example when new attributes are added. In the following table, you can see how the OpenUI5 version is related to the descriptor version and the value of `_version.`
 
 **App Descriptor Release and OpenUI5 Version**
 

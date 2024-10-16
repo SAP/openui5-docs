@@ -732,6 +732,49 @@ Additional resource bundles can be made available by defining `terminologies`.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`sap.ui5/resources/js/uri` 
+
+</td>
+<td valign="top">
+
+V37 \(1.94\)
+
+</td>
+<td valign="top">
+
+Since 1.94 the usage of `js` resources is deprecated. Please use regular `dependencies` instead.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.fiori/cloudDevAdaptationStatus` 
+
+</td>
+<td valign="top">
+
+V51 \(1.110\)
+
+</td>
+<td valign="top">
+
+Release status for the developer adaptation in SAP S/4HANA Cloud and SAP BTP, ABAP environment \(SAP-internal\).
+
+Supported types:
+
+-   `released`
+-   `deprecated`
+-   `obsolete`
+-   No value means not released .
+
+For more information, see [Releasing an SAP Fiori Application to Be Extensible in Adaptation Projects on SAP S/4HANA Cloud and SAP BTP, ABAP Environment](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/releasing-sap-fiori-application-to-be-extensible-in-adaptation-projects-on-sap-s-4hana-cloud).
+
+</td>
+</tr>
 </table>
 
 \* Available as of descriptor version \(OpenUI5 version\)
