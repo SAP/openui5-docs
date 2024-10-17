@@ -489,26 +489,26 @@ With the `type` option set to "Component", the `Component.js` which is available
 
 ```
 {
-    routing: {
-        config: {
+    "routing": {
+        "config": {
             ...
         },
-        routes: [
+        "routes": [
             ...
         ],
-        targets: {
-            attachment: {
-                type: "Component",
-                path: "reuse.component",
-                name: "attachment",
-                options: {
+        "targets": {
+            "/<targetName>/": {
+                "type": "Component",
+                "path": "reuse.component",
+                "name": "attachment",
+                "options": {
                     ...
                 },
-                containerOptions: {
+                "containerOptions": {
                     ...
                 },
-                controlId: "page",
-                controlAggregation: "content"
+                "controlId": "page",
+                "controlAggregation": "content"
             }
         }
     }
@@ -735,7 +735,7 @@ Additional resource bundles can be made available by defining `terminologies`.
 <tr>
 <td valign="top">
 
-`sap.ui5/resources/js/uri` 
+`sap.ui5/resources/js` 
 
 </td>
 <td valign="top">
@@ -745,7 +745,7 @@ V37 \(1.94\)
 </td>
 <td valign="top">
 
-Since 1.94 the usage of `js` resources is deprecated. Please use regular `dependencies` instead.
+Since 1.94 the usage of `js` resources is deprecated. Please use regular dependencies instead.
 
 </td>
 </tr>
