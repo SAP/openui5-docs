@@ -115,5 +115,5 @@ We replace the instantiation of the `sap/m/Text` control by our new `App.view.xm
 
 [Views](Views_91f27e3.md "The view in the Model-View-Controller (MVC) concept is responsible for defining and rendering the UI. OpenUI5 supports predefined view types.")
 
-[XML View](XML_View_91f2928.md "The XML view type is defined in an XML file. The file name either ends with .view.xml or as an XML string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.")
+[XML View](XML_View_91f2928.md "The XML view type is defined in an XML file, with a file name ending in .view.xml. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.")
 

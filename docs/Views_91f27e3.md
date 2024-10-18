@@ -24,10 +24,9 @@ The following predefined view types are available:
 > 
 > Throughout this documentation, the code examples mainly use XML views.
 
--   **[XML View](XML_View_91f2928.md "The XML view type is defined in an XML file. The file name either ends with
-			.view.xml or as an XML string. The file name and the folder structure
+-   **[XML View](XML_View_91f2928.md "The XML view type is defined in an XML file, with a file name ending in .view.xml. The file name and the folder structure
 		together specify the name of the view that equals the OpenUI5 module name. ")**  
-The XML view type is defined in an XML file. The file name either ends with `.view.xml` or as an XML string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.
+The XML view type is defined in an XML file, with a file name ending in `.view.xml`. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.
 -   **[Typed View](Typed_View_e6bb33d.md "A view can also be defined by extending the sap.ui.core.mvc.View class. Such a view is referred to as a typed view. This
 		means the view definition represents its own view class.")**  
 A view can also be defined by extending the `sap.ui.core.mvc.View` class. Such a view is referred to as a typed view. This means the view definition represents its own view class.

@@ -110,7 +110,7 @@ XMLView.create({
 
 [API Reference: `sap.ui.core.mvc.View`](https://sdk.openui5.org/api/sap.ui.core.mvc.View)
 
-[XML View](XML_View_91f2928.md "The XML view type is defined in an XML file. The file name either ends with .view.xml or as an XML string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.")
+[XML View](XML_View_91f2928.md "The XML view type is defined in an XML file, with a file name ending in .view.xml. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.")
 
 [API Reference: `sap.ui.core.mvc.XMLView`](https://sdk.openui5.org/api/sap.ui.core.mvc.XMLView)
 

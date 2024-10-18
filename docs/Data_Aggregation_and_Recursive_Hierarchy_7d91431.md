@@ -31,7 +31,7 @@ For every aggregatable property, you can provide the name of the custom aggregat
 
 `CASE WHEN min(Unit) = max(Unit) THEN min(Unit) END` 
 
-Normally, there is also a structural property of the same name as the custom aggregate, providing type information, etc.
+Normally, there is also a structural property of the same name as the custom aggregate, providing type information, etc. In case of a multi-unit situation, [`v4.Context#getFilter`](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.Context%23methods/getFilter) may be helpful to send a request for more details.
 
 The following client-side instance annotations can be used to access a node level or expansion state. For property bindings, a syntax like `{= %{@$ui5.node.level} }` is usually helpful, because automatic type determination is not available.
 
