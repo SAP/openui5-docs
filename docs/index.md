@@ -434,6 +434,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                         -   [Data Reuse](Data_Reuse_648e360.md)
                     -   [Binding Events](Binding_Events_1a010d3.md)
                     -   [Filtering](Filtering_5338bd1.md)
+                    -   [Selection](Selection_ec55312.md)
                     -   [Sorting](Sorting_d2ce3f5.md)
                     -   [Value Lists](Value_Lists_ab267a6.md)
                     -   [OData Operations](OData_Operations_b54f789.md)
