@@ -103,7 +103,7 @@ The `tests` object is empty for now. For more information on how to add a define
 
 ### The Generic Test Page
 
-The generic test page runs one or multiple test modules. Typically, this file is named `test.qunit.html`. The generic test page is configured in the test suite module. It will be called with the test suite and test name in order to run a test.
+The generic test page runs one or multiple test modules. Typically, this file is named `Test.qunit.html`. The generic test page is configured in the test suite module. It will be called with the test suite and test name in order to run a test.
 
 ```
 
@@ -123,5 +123,6 @@ The generic test page runs one or multiple test modules. Typically, this file is
 	<div id="qunit"></div>
 	<div id="qunit-fixture"></div>
 </body>
+</html>
 ```
 

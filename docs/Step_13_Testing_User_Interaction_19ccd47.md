@@ -30,7 +30,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ***
 
-### test/integration/journeys/PostJourney.js
+### webapp/test/integration/journeys/PostJourney.js
 
 ```js
 sap.ui.define([
@@ -40,21 +40,25 @@ sap.ui.define([
 	"./pages/Post"
 ], function (opaTest) {
 	"use strict";
-	…
-	opaTest(…) {
+
+	// …
+
+	opaTest("Should be on the post page again when the browser's forward button is pressed", function (Given, When, Then) {
 		// Actions
 			When.onTheBrowser.iPressOnTheForwardButton();
-			
-			// Assertions
-			Then.onThePostPage.theTitleShouldDisplayTheName("Jeans");
-		});
-		opaTest("Should select the statistics tab", function (Given, When, Then) {
-			// Actions
-			When.onThePostPage.iPressOnTheTabWithTheKey("statistics");
-			// Assertions
-			Then.onThePostPage.iShouldSeeTheViewCounter()
-				.and.iTeardownMyApp();
-		});
+
+		// Assertions
+		Then.onThePostPage.theTitleShouldDisplayTheName("Jeans");
+	});
+
+	opaTest("Should select the statistics tab", function (Given, When, Then) {
+		// Actions
+		When.onThePostPage.iPressOnTheTabWithTheKey("statistics");
+		// Assertions
+		Then.onThePostPage.iShouldSeeTheViewCounter()
+			.and.iTeardownMyApp();
+	});
+});
 ```
 
 We extend the `PostJourney.js` file with a new test. It is important to move the `Teardown` to the last test, otherwise our app would be removed and the test would not be able to find the *Statistics* tab.
@@ -63,7 +67,7 @@ Delete `.and.iTeardownMyApp();` from the last test in the file and add the new t
 
 ***
 
-### test/integration/pages/Post.js
+### webapp/test/integration/pages/Post.js
 
 ```js
 sap.ui.define([

@@ -30,7 +30,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ***
 
-### view/Post.view.xml
+### webapp/view/Post.view.xml
 
 ```xml
 <mvc:View

@@ -75,6 +75,6 @@ HTML file:
 
 ```
 
--   Learn how: Testing Tutorial [Step 10: Test Suite and Automated Testing](Step_10_Test_Suite_and_Automated_Testing_07c97a2.md)
+-   Learn how: Testing Tutorial [Step 10: Automated Testing](Step_10_Automated_Testing_07c97a2.md)
 -   Find out more: [Content Security Policy](Content_Security_Policy_fe1a6db.md)
 

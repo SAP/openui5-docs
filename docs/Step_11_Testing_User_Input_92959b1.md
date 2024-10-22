@@ -30,9 +30,11 @@ You can view and download all files in the Demo Kit at [Testing - Step 11](https
 
 ***
 
-### test/integration/WorklistJourney.js
+### webapp/test/integration/WorklistJourney.js
 
 ```js
+
+/*global QUnit*/
 sap.ui.define([
 	"sap/ui/test/opaQunit",
 	"./pages/Worklist"
@@ -49,6 +51,7 @@ sap.ui.define([
 		Then.onTheWorklistPage.theTableShouldHavePagination().
 			and.theTitleShouldDisplayTheTotalAmountOfItems();
 	});
+
 
 	opaTest("Should be able to load more items", function (Given, When, Then) {
 		//Actions
@@ -72,13 +75,13 @@ sap.ui.define([
 );
 ```
 
-In this example, we extend the `WorklistJourney.js` file with a new test `"Should be able to enter text into the search field"`. The action within this test simulates a user entering text into a search field, so we pass a search string `"Bear"` to this action. It is important to move the `Teardown` step to the last test, otherwise our app would be destroyed and the test would not be able to find the *Statistics* tab.
+In this example, we extend the `WorklistJourney.js` file with a new test `"Should be able to search for items"`. The action within this test simulates a user entering text into a search field, so we pass a search string `"Bear"` to this action. It is important to move the `Teardown` step to the last test, otherwise our app would be destroyed and the test would not be able to find the *Statistics* tab.
 
 Delete `.and.iTeardownMyApp();` from the previous test in the file and add the new test case.
 
 ***
 
-### test/integration/pages/Worklist.js
+### webapp/test/integration/pages/Worklist.js
 
 ```js
 sap.ui.require([
@@ -155,7 +158,7 @@ Actions in OPA never contain a QUnit assertion.
 
 **Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Next:**[Step 10: Test Suite and Automated Testing](Step_10_Test_Suite_and_Automated_Testing_07c97a2.md "In this step, we will step back from our tests and application features that we have implemented so far and add another important piece of test code: The test suite page. A test suite can execute multiple tests and collect the results. This comes in handy for automatic tools in a continuous integration process.")
+**Next:**[Step 10: Automated Testing](Step_10_Automated_Testing_07c97a2.md "In this step, we will step back from our tests and application features that we have implemented so far and take a closer look at another important piece of the test setup - the test automation. We will learn how to set up a basic test automation, which might be used in a continuous integration system or locally to run tests via shell.")
 
 **Previous:**[Step 12: Adding a Search](Step_12_Adding_a_Search_0c270b4.md "We now add a search field to our bulletin board and define a filter that represents the search term. This is done similarly as in step 24 of the Walkthrough tutorial.")
 

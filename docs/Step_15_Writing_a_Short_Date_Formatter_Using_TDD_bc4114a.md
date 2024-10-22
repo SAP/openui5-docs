@@ -130,7 +130,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ***
 
-### webapp/test/unit/AllTests.js
+### webapp/test/unit/unitTests.qunit.js
 
 ```js
 sap.ui.define([
@@ -138,12 +138,10 @@ sap.ui.define([
 	"./model/formatter",
 	"./model/FlaggedType",
 	"./model/DateFormatter"
-], function() {
-	"use strict";
 });
 ```
 
-First, we add the new test file we are about to create to the `AllTests.js` file.
+First, we add the new test file we are about to create to the `unitTests.qunit.js` file.
 
 ***
 
@@ -153,8 +151,8 @@ First, we add the new test file we are about to create to the `AllTests.js` file
 sap.ui.define([
 	"sap/ui/base/Object"
 ], function(Object) {
-		return Object.extend("sap.ui.demo.bulletinboard.model.DateFormatter", {
-	});
+	   return Object.extend("sap.ui.demo.bulletinboard.model.DateFormatter", {
+	   });
 });
 ```
 
@@ -204,20 +202,27 @@ Now we implement a test for the API of the format function. We assume it will ha
 sap.ui.define([
 	"sap/ui/base/Object"
 ], function(Object) {
-		return Object.extend("sap.ui.demo.bulletinboard.model.DateFormatter", {
-			format: function() {
-				return "";
-			}
-		});
-	}
-);
+	   return Object.extend("sap.ui.demo.bulletinboard.model.DateFormatter", {
+  	format: function() {
+				    return "";
+			 }
+	   });
+});
 ```
 
 Now we fix our test again by returning the expected string.
 
 ***
 
+<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__section_bng_kpv_cdc"/>
+
 ### Dependency Injection:
+
+***
+
+<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__section_cng_kpv_cdc"/>
+
+### webapp/test/unit/model/DateFormatter.js
 
 ```js
 sap.ui.define([
@@ -260,16 +265,15 @@ sap.ui.define([
 			this.timeFormat = DateFormat.getTimeInstance({
 				style: "short"
 			}, oProperties.locale);
-			},
+		},
 		format: function(oDate) {
 			if (!oDate) {
 				return "";
 			}
-				return this.timeFormat.format(oDate);
-			}
-		});
-	}
-);
+			return this.timeFormat.format(oDate);
+		}
+	});
+});
 ```
 
 In the implementation we use the `DateFormat` of OpenUI5 to create a short date. The locale is passed on to the `getTimeInstance` function.
@@ -283,7 +287,15 @@ In the implementation we use the `DateFormat` of OpenUI5 to create a short date.
 
 ***
 
+<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__section_kmk_m4v_cdc"/>
+
 ### Refactoring:
+
+***
+
+<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__section_lmk_m4v_cdc"/>
+
+### webapp/test/unit/model/DateFormatter.js
 
 ```js
 sap.ui.define([
@@ -301,14 +313,14 @@ sap.ui.define([
 	});
 
 	QUnit.test("Should return empty string if no date is given", function(assert) {
-		/*Delete in your code: var oFormatter = new DateFormatter();
-		...
+		// Delete in your code: var oFormatter = new DateFormatter();
+			    // ...
 	});
 	QUnit.test("Should return time if date from today", function(assert) {
-		/*Delete in your code: var oFormatter = new DateFormatter({
-		/*Delete in your code: 	locale: new Locale("en-US")
-		/*Delete in your code: });
-		...
+		// Delete in your code: var oFormatter = new DateFormatter({
+		// Delete in your code: 	locale: new Locale("en-US")
+		// Delete in your code: });
+		// ...
 	});
 });
 ```
@@ -317,7 +329,15 @@ Our tests are running so we can start refactoring our code. Since we need the `D
 
 ***
 
+<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__section_k31_c4v_cdc"/>
+
 ### Dependency Injection to Get Independent from System Time:
+
+***
+
+<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__section_l31_c4v_cdc"/>
+
+### webapp/test/unit/model/DateFormatter.js
 
 ```js
 sap.ui.define([
@@ -336,7 +356,7 @@ sap.ui.define([
 			});
 		}
 	});
-	...
+	// ...
 	QUnit.test("Should return 'Yesterday' if date from yesterday", function(assert) {
 		var oDate = UI5Date.getInstance(2015, 2, 13);
 		var sFormattedDate = oFormatter.format(oDate);
@@ -369,7 +389,7 @@ sap.ui.define([
 			}
 			var iElapsedDays = this._getElapsedDays(oDate);
 			if (iElapsedDays === 0) {
-				return this.timeFormat.format(oDate);
+			return this.timeFormat.format(oDate);
 			} else if (iElapsedDays === 1) {
 				return "Yesterday";
 			}
@@ -387,7 +407,15 @@ In the implementation we add a calculation for determining how many days passed.
 
 ***
 
+<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__section_cw1_q4v_cdc"/>
+
 ### Boundary Testing:
+
+***
+
+<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__section_dw1_q4v_cdc"/>
+
+### webapp/test/unit/model/DateFormatter.js
 
 ```js
 sap.ui.define([
@@ -439,7 +467,7 @@ sap.ui.define([
 				return this.weekdayFormat.format(oDate);
 			}
 		}
-	…
+
 ```
 
 Now we define a new format in our constructor, the `weekdayFormat`. In the format function we apply the format if the elapsed days are smaller than 7.
@@ -455,7 +483,7 @@ sap.ui.define([
 	"sap/ui/core/date/UI5Date"
 ], function(DateFormatter, Locale, UI5Date) {
 	var oFormatter = null;
-	...
+	// ...
 	QUnit.test("Should return date w/o time if date > 7 days ago", function(assert) {
 		var oDate = UI5Date.getInstance(2015, 2, 7);
 		var sFormattedDate = oFormatter.format(oDate);
@@ -500,7 +528,7 @@ In the next test we verify that the date is formatted as date without time. Agai
 			}
 
 		},
-	…
+
 ```
 
 In the implementation, we use a different `style` property for instantiating the `dateFormat` property. We call the format of this instance for dates that are more than 6 days in the past.

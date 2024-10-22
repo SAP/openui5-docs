@@ -10,160 +10,37 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/ec5531
 
 ## Selection
 
-The OData V4 Model supports server side filtering on lists.
+The OData V4 Model supports \(de-\)selection of individual rows and of all rows at once.
 
-To use server side filtering, set the operation mode to [`sap.ui.model.odata.OperationMode.Server`](https://sdk.openui5.org/api/sap.ui.model.odata.OperationMode/properties). This can be done as follows:
+Individual rows can be \(de-\)selected via `sap.ui.model.odata.v4.Context#setSelected`. If the selection state changes, a [`selectionChanged`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23events/selectionChanged) event is fired on the list binding which this context belongs to. While a context is currently [deleted](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/isDeleted) on the client, it does not appear as [selected](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/isSelected).
 
--   For a single `ODataListBinding` instance, set the binding parameter `$$operationMode`
+The selection state of **all rows at once** \("select all"\) can be defined logically by calling [`v4.Context#setSelected`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/setSelected) on the list binding's [header context](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23methods/getHeaderContext). The new selection state is propagated to all row contexts. If the selection state of the header context changes, a [`selectionChanged`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23events/selectionChanged) event is fired for that header context. The setter can be called again with the same value to again select all row contexts. For example, if a row context was deselected explicitly in between, it is selected again by selecting the header context again - even if the header context is already selected. If the selection state of any row context changes in this way, a `selectionChanged` event is nevertheless fired for that header context but not for the row context. When no selection state changes, no event is fired. When all rows are \(de-\)selected, this same selection state is applied to any new rows which are loaded due to scrolling or paging.
 
--   For all list bindings of the model, set the model parameter `operationMode`.
+A list binding's selection state is thus defined by the "select all" state of its [header context](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23methods/getHeaderContext) in combination with all "exceptions to the rule" \(as illustrated above\). If the preconditions of [`#setKeepAlive`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/setKeepAlive) hold, a best effort is made to implicitly keep those exceptions alive in order to preserve the binding's selection state. Once a row selection is no longer needed, for example because you perform an operation on this context which logically removes it from its list, you need to reset that context's selection.
 
+Because the selection state is kept, you can easily describe the current selection as follows \(assuming there is a key property `ID` and a non-key property `Name`\). Of course, your controller code can also operate on this information in any other way, for example including some back-end call. Note that you can only rely on the key properties being available synchronously. Due to side effects, invisible \(de-\)selected rows may not be kept up to date, and thus non-key properties should be requested asynchronously.
 
-**Example: Operation mode set in `manifest.json` for the model** 
-
-```js
-
-"models" : {
-    "" : {
-        "dataSource" : "default",
-        "settings" : {
-            "operationMode" : "Server",
-            "synchronizationMode" : "None"
-        }
-    }
-}
-```
-
-**Example: Operation mode set as binding parameter for a specific list binding**
+**Select All with exceptions** 
 
 ```js
-
-<Table growing="true" growingThreshold="5" id="Equipments"
-    items="{
-            path : '/Equipments',
-            parameters : {
-                $$operationMode : 'Server',
-                $filter : 'Category eq \'Electronics\'',
-                $select : 'Category,EmployeeId,ID,Name'
-            }
-        }">
-```
-
-The `ODataListBinding` allows to set static and dynamic filters:
-
--   To set a static filter, use the `$filter` system query option in the binding parameters. The static filter value is sent with every data service request for the binding; you may specify any filter value allowed in OData V4. The static filter cannot be overwritten for an existing binding.
-
--   The dynamic filter is an instance of [sap.ui.model.Filter](https://sdk.openui5.org/api/sap.ui.model.Filter) , or an array thereof. For an array, the filters are combined with a logical AND. You can set the initial value for the dynamic filter in [ODataModel\#bindList](https://sdk.openui5.org/api/ODataModel%23methods/bindList) or declaratively in an XML view with the `filters` property in an aggregation's binding information. To set the dynamic filter, use the [ODataListBinding\#filter](https://sdk.openui5.org/api/ODataListBinding%23methods/filter) method. This filter overwrites the initial value specified on binding construction.
-
-
-The `ODataListBinding` combines the dynamic filter and static filter with a logical AND.
-
-**Examle: Dynamic and static filters**
-
-```js
-
-<Table growing="true" growingThreshold="5" id="Equipments"
-    items="{
-            path : '/Equipments',
-            parameters : {
-                $$operationMode : 'Server',
-                $filter : 'Category eq \'Electronics\'',                             <-- static filter
-                $select : 'Category,EmployeeId,ID,Name'
-            },
-            filters : {                                      <-- dynamic filter initial value
-                path : 'EmployeeId',
-                operator : 'GE',
-                value1 : '0000'
-            }
-        }">
-```
-
-The example above filters the `Equipments` entity set by `Category` \(static filter\) and `EmployeeId` \(dynamic filter, initial value\).
-
-***
-
-<a name="loioec55312f796f45e8883810af3b68b46c__section_mqn_jkk_b1b"/>
-
-### Filtering with Any and All
-
-The OData V4 model also supports the Lambda Operators `any` and `all` as defined in section 5.1.1.10 of the [OData Version 4.0. Part 2: URL Conventions](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html#_Toc453752358) specification. They are represented by [sap.ui.model.Filter](https://sdk.openui5.org/api/sap.ui.model.Filter) objects with filter operators [sap.ui.model.FilterOperator.Any](https://sdk.openui5.org/api/sap.ui.model.FilterOperator/properties) and [sap.ui.model.FilterOperator.All](https://sdk.openui5.org/api/sap.ui.model.FilterOperator/properties).
-
-Example:
-
-```
-sap.ui.model.Filter({
-        // the path of the collection for which the condition needs to be evaluated
-        path : "TEAM_2_EMPLOYEES",
-        // either sap.ui.model.FilterOperator.Any or sap.ui.model.FilterOperator.All
-        operator : sap.ui.model.FilterOperator.Any,    
-        // any OData identifier which is a variable for the current element of the collection referenced by path
-        variable : "employee",
-        // the filter condition; the path of the nested filter contains the variable as prefix to reference current element of the collection
-        condition : new sap.ui.model.Filter("employee/AGE", sap.ui.model.FilterOperator.GT, 42)  
-    })
-```
-
-The path of the filter object is the path of the collection for which the boolean condition needs to be evaluated. The variable can be any OData identifier and it needs to be part of the path of a nested filter condition.
-
-***
-
-#### Filter Operator any
-
-The filter operator Any applies the `boolean` filter condition to each member of the collection referenced by `path`. If the condition is true for **at least one** member of the collection, the any-filter matches. The filter with the Any operator without a filter condition matches only if the collection referenced by path is not empty.
-
-Example 1: Get all teams that have at least one employee who is older than 42
-
-```
-
-oTeamsBinding.filter(
-    new sap.ui.model.Filter({
-        path : "TEAM_2_EMPLOYEES",
-        operator : sap.ui.model.FilterOperator.Any,
-        variable : "employee",
-        condition : new sap.ui.model.Filter("employee/AGE", sap.ui.model.FilterOperator.GT, 42)
-    })
+const bSelectAll = oListBinding.getHeaderContext().isSelected();
+ 
+const aIDs = oListBinding.getAllCurrentContexts()
+    .filter((oContext) => oContext.isSelected() !== bSelectAll)
+    .map((oContext) => oContext.getProperty("ID"));
+MessageBox.information((bSelectAll ? "All except " : "") + aIDs.join(", "),
+    {title : "Selected IDs"});
+ 
+const aNames = await Promise.all(
+    oListBinding.getAllCurrentContexts()
+        .filter((oContext) => oContext.isSelected() !== bSelectAll)
+        .map((oContext) => oContext.requestProperty("Name"))
 );
+MessageBox.information((bSelectAll ? "All except " : "") + aNames.join(", "),
+    {title : "Selected Names"});
 ```
 
-The resulting request would be: **`http://host/service/TEAMS?$filter=TEAM_2_EMPLOYEES/any(employee:employee/AGE gt 42)`**
+A context's selection state can also be accessed via data binding to the `"@$ui5.context.isSelected"` client-side annotation, even as a two-way binding and also for a header context. Two-way binding means that updates to the binding are reflected as updates to that context's selection state, just like calls to [`v4.Context#setSelected`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/setSelected).
 
-Example 2: Get all teams that have at least one employee assigned
-
-```
-oTeamsBinding.filter(
-    new sap.ui.model.Filter({
-        path : "TEAM_2_EMPLOYEES",
-        operator : sap.ui.model.FilterOperator.Any
-    })
-);
-```
-
-The resulting request would be: **`http://host/service/TEAMS?$filter=TEAM_2_EMPLOYEES/any()`**
-
-***
-
-#### Filter Operator all
-
-The filter operator All applies the `boolean` filter condition to each member of the collection referenced by `path`. If the condition is true for **all** members of the collection, the all-filter matches.
-
-Example: Get all teams for which all employees are older than 42.
-
-```
-
-oOrdersListBinding.filter(
-    new sap.ui.model.Filter({
-        path : "TEAM_2_EMPLOYEES",
-        operator : sap.ui.model.FilterOperator.All,
-        variable : "employee",
-        condition : new sap.ui.model.Filter("employee/AGE", sap.ui.model.FilterOperator.GT, 42)
-    })
-);
-```
-
-The resulting request would be: **`http://host/service/TEAMS?$filter=TEAM_2_EMPLOYEES/all(employee:employee/AGE gt 42)`**
-
-**Related Information**  
-
-
-[sap.ui.model.odata.OperationMode.Server](https://sdk.openui5.org/api/sap.ui.model.odata.OperationMode/properties)
+Note that list-based controls may use the OData V4 model's selection state implicitly; check the corresponding control documentation for more information. For advanced features, you can access the OData V4 model's APIs directly as outlined above.
 

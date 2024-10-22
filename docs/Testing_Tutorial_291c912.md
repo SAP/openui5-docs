@@ -90,11 +90,11 @@ So far, we have a list of posts on the home page of the app. But typically, a po
 		achieve this, we have to introduce a new view/controller pair and adjust the routing of the
 		application.")  
 Now that we have covered all kinds of tests for navigation, we introduce our *Post* page that shows details of a post in the bulletin board. To achieve this, we have to introduce a new view/controller pair and adjust the routing of the application.
-10. [Step 10: Test Suite and Automated Testing](Step_10_Test_Suite_and_Automated_Testing_07c97a2.md "In this step, we will step back from our tests and application features that we have
-		implemented so far and add another important piece of test code: The test suite page. A test
-		suite can execute multiple tests and collect the results. This comes in handy for automatic
-		tools in a continuous integration process.")  
-In this step, we will step back from our tests and application features that we have implemented so far and add another important piece of test code: The test suite page. A test suite can execute multiple tests and collect the results. This comes in handy for automatic tools in a continuous integration process.
+10. [Step 10: Automated Testing](Step_10_Automated_Testing_07c97a2.md "In this step, we will step back from our tests and application features that we have
+		implemented so far and take a closer look at another important piece of the test setup - the
+		test automation. We will learn how to set up a basic test automation, which might be used in
+		a continuous integration system or locally to run tests via shell.")  
+In this step, we will step back from our tests and application features that we have implemented so far and take a closer look at another important piece of the test setup - the test automation. We will learn how to set up a basic test automation, which might be used in a continuous integration system or locally to run tests via shell.
 11. [Step 11: Testing User Input](Step_11_Testing_User_Input_92959b1.md "In this step, we will write a test that simulates a user search. We will enter the
 		search string into the search field and check if the correct results are shown in worklist
 		table.")  

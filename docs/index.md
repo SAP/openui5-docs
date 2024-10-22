@@ -263,7 +263,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Step 7: Changing the Table to a Growing Table](Step_7_Changing_the_Table_to_a_Growing_Table_016e0d4.md)
             -   [Step 8: Testing Navigation](Step_8_Testing_Navigation_10592af.md)
             -   [Step 9: Adding the Post Page](Step_9_Adding_the_Post_Page_4a9f063.md)
-            -   [Step 10: Test Suite and Automated Testing](Step_10_Test_Suite_and_Automated_Testing_07c97a2.md)
+            -   [Step 10: Automated Testing](Step_10_Automated_Testing_07c97a2.md)
             -   [Step 11: Testing User Input](Step_11_Testing_User_Input_92959b1.md)
             -   [Step 12: Adding a Search](Step_12_Adding_a_Search_0c270b4.md)
             -   [Step 13: Testing User Interaction](Step_13_Testing_User_Interaction_19ccd47.md)

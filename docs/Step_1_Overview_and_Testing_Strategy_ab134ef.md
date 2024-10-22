@@ -41,7 +41,7 @@ After downloading *Step 1*, you should have the following files:
   
 **Folder structure with downloaded files**
 
-![](images/loio80078484830540769b67f12a6b88bbd3_HiRes.png "Folder structure with downloaded files")
+![](images/loio80078484830540769b67f12a6b88bbd3_LowRes.png "Folder structure with downloaded files")
 
 ***
 
