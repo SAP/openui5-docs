@@ -86,7 +86,7 @@ Lets start with the implementation code for the `FlaggedType`. We now add the do
 -   The validation function always returns `true` in this simple case, we do not expect any validation errors for this data type.
 
 
-We call these functions of the data type in the unit tests directly. So if you now run your unit tests by calling the `webapp/test/unit/unitTests.qunit.html` page, the tests should already run successfully.
+We call these functions of the data type in the unit tests directly. So if you now run your unit tests by opening `webapp/test/testsuite.qunit.html` in your browser and select `unit/unitTests`, the tests should already run successfully.
 
 ***
 
@@ -146,7 +146,7 @@ sap.ui.define([
 			flagged: new FlaggedType()
 		},
 		formatter: formatter,
-		…
+		// …
 	});
 });
 ```
@@ -161,11 +161,11 @@ The conversion functions that are made available when we create an instance of t
 
 ```js
 sap.ui.define([
-	…
+	// …
 ], function (UIComponent, ResourceModel, models) {
 	"use strict";
 	return UIComponent.extend("sap.ui.demo.bulletinboard.Component", {
-	…
+	// …
 		init: function () {
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
@@ -173,7 +173,7 @@ sap.ui.define([
 			// allow saving values to the OData model
 			this.getModel().setDefaultBindingMode("TwoWay");
 
-			…
+			// …
 		}
 	});
 });

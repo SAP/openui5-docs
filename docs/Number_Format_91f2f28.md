@@ -14,7 +14,7 @@ The `sap.ui.core.format.NumberFormat` class can be used to parse a string repres
 
 `NumberFormat` uses the parameters defined for the current locale. These parameters can be overwritten on each instance by setting the format options.
 
-There are four types of formatters defined in `NumberFormat`:
+There are five types of formatters defined in `NumberFormat`:
 
 -   Integer formatter: formats and parses only the integer digits; decimal digits are ignored
 
@@ -23,6 +23,8 @@ There are four types of formatters defined in `NumberFormat`:
 -   Percent formatter: formats the number into a string with percentage sign. It validates the number whether it contains the right percentage sign in its parser.
 
 -   Currency formatter: formats the number by using the parameters defined for the given currency code. Either currency symbol, currency code, or none of both can be included in the final formatted string. It parses the given string into an array which contains both the currency number and currency code.
+
+-   Unit formatter: formats the number by using the parameters defined for the given unit.
 
 
 ***

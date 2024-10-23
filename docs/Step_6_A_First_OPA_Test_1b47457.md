@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Testing - Step 6](https:
 
 ### Integration Test Setup
 
-All integration tests are located in the `webapp/test/integration` folder and can be started manually by calling the `opaTests.qunit.html` file in the same folder or the entry page. Similar to the unit tests, the HTML page is a QUnit runner that calls all integration tests of the app and displays the test results in a readable format. It also might be omitted by other testrunners. There are also two namespaces defined for the app and the integration test folder as you have seen in the unit test setup.
+All integration tests are located in the `webapp/test/integration` folder and can be started by opening `webapp/test/testsuite.qunit.html` in your browser and selecting `integration/opaTests`.
 
 We write integration tests with OPA5 – a tool that is integrated and delivered with SAPUI5. It is the short name for One-Page Acceptance tests for SAPUI5. "One-Page" here means that OPA5 is designed for single-page Web applications, i.e. applications that consist only of one HTML file. OPA5 runs in the same browser window as the application to be tested.
 
@@ -57,6 +57,7 @@ The journey uses another structuring element of OPA called “page object” tha
 ### webapp/test/integration/WorklistJourney.js
 
 ```js
+/*global QUnit*/
 sap.ui.define([
 	'sap/ui/test/opaQunit',
 	'sap/ui/test/Qunit',
@@ -208,7 +209,7 @@ With this helper object we can simply check the length of the table aggregation 
 > ### Note:  
 > The items in our app are served from the mock server with a slight delay so that we can see how a real service on a backend system would behave. Even if we would have a real backend, we would purposely use the mock server for manual testing and for using them in our test cases as the test data remains stable and unchanged. This creates a more reliable test environment and easier tests. So we can write a test that checks exactly for 23 items here.
 
-Now run the `webapp/test/integration/opaTests.qunit.html` file and make sure that the test is failing. When our new test is invoked, OPA will run into a timeout because the trigger area is not found yet. You can see more information, if you open the developer console of your browser and check the messages in the console.
+Now run the `webapp/test/testsuite.qunit.html` file in your browser and select `integration/opaTests` to observe that the test is failing. When our new test is invoked, OPA will run into a timeout because the trigger area is not found yet. You can see more information, if you open the developer console of your browser and check the messages in the console.
 
 ***
 

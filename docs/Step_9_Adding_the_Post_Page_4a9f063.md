@@ -130,12 +130,12 @@ sap.ui.define([
 	"use strict";
 
 	return BaseController.extend("sap.ui.demo.bulletinboard.controller.Worklist", {
-		…
 		/* =========================================================== */
 		/* event handlers                                              */
 		/* =========================================================== */
-		…
-				/**
+	
+		
+		/**
 		 * Event handler when a table item gets pressed
 		 * @param {sap.ui.base.Event} oEvent the table selectionChange event
 		 * @public
@@ -146,9 +146,7 @@ sap.ui.define([
 				postId: oEvent.getSource().getBindingContext().getProperty("PostID")
 			});
 
-		},
-		…
-	});
+	  });
 });
 ```
 

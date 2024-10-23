@@ -34,6 +34,7 @@ You can view and download all files in the Demo Kit at [Testing - Step 8](https:
 ### webapp/test/integration/PostJourney.js \(New\)
 
 ```js
+/*global QUnit*/
 sap.ui.define([
 	"sap/ui/test/opaQunit",
 	"./pages/Worklist",
@@ -238,7 +239,7 @@ We now implement an action that is triggered when the *Forward* button is chosen
 
 ***
 
-### **webapp/test/integration/AllJourneys.js**
+### **webapp/test/integration/opaTests.qunit.js**
 
 ```js
 sap.ui.define([
@@ -257,9 +258,9 @@ sap.ui.define([
 });
 ```
 
-To make navigation tests complete, we add the new journey to the `AllJourneys` file that is invoked by the OPA test page.
+To make navigation tests complete, we add the new journey to the `opaTests.qunit.js` file that is invoked by the test suite.
 
-If you execute the tests now, you can see in the logs of the developer tools that OPA is waiting for the object page to be displayed. Of course, this will not happen as it is not yet implemented. But we already have a pretty good idea on how we will implement the feature in the next step
+If you execute the tests now, you can see in the logs of the developer tools that OPA is waiting for the object page to be displayed. Of course, this will not happen as it is not yet implemented. But we already have a pretty good idea on how we will implement the feature in the next step.
 
 **Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
