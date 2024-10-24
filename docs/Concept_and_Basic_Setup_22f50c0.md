@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/22f50c
 To apply the test starter concept to your OpenUI5 project, you need to create a test suite and a generic test page that allows for the running of one or multiple test modules.
 
 > ### Note:  
-> For OpenUI5 applications, the test suite and the generic test page are typically placed in the `webapp/test` folder. The code samples in the next sections use `<NAMESPACE>` as a placeholder for your OpenUI5 project namespace. Please, replace this placeholder with your OpenUI5 project namespace defined in the `sap.app/id` property in the `manifest.json` file by replacing the '.' with '/', for example `my/ui5app`.
+> For OpenUI5 applications, the test suite and the generic test page are typically placed in the `webapp/test` folder. The code samples in the next sections use `<NAMESPACE>` as a placeholder for your OpenUI5 project namespace. Please replace this placeholder with your OpenUI5 project namespace defined in the `sap.app/id` property in the `manifest.json` file by replacing the '.' with '/', for example `my/ui5app`. However, for the `<NAMESPACE-WITH-DOTS>` in `data-sap-ui-resource-roots`, use the exact value of `sap.app/id` \(separated by dots\).
 
 
 
@@ -23,7 +23,7 @@ To apply the test starter concept to your OpenUI5 project, you need to create a 
 
 ### The UI5 Test Suite
 
-A test suite configures the environment for the tests. It consists of a `*.qunit.html` page often named `testsuite.qunit.htm`l and a corresponding `*.qunit.js` module often named `testsuite.qunit.js`.
+A test suite configures the environment for the tests. It consists of a `*.qunit.html` page often named `testsuite.qunit.html` and a corresponding `*.qunit.js` module often named `testsuite.qunit.js`.
 
 ***
 
@@ -37,13 +37,12 @@ The test suite page uses the `sap/ui/test/starter/createSuite.js` script to init
 <html>
 <head>
     <meta charset="utf-8">
-    <base href="../">
     <title>QUnit test suite for NAMESPACE</title>
     <script
-        src="resources/sap/ui/test/starter/createSuite.js"
+        src="../resources/sap/ui/test/starter/createSuite.js"
         data-sap-ui-testsuite="test-resources/<NAMESPACE>/testsuite.qunit"
         data-sap-ui-resource-roots='{
-            "test-resources.<NAMESPACE>": "./test"
+            "test-resources.<NAMESPACE-WITH-DOTS>": "./"
         }'
     ></script>
 </head>
@@ -68,7 +67,7 @@ sap.ui.define(function() {
 
 	return {
 		defaults: {
-			page: "test/Test.qunit.html?testsuite={suite}&test={name}",
+			page: "ui5://test-resources/<NAMESPACE>/Test.qunit.html?testsuite={suite}&test={name}",
 			qunit: {
 				version: 2
 			},
@@ -81,11 +80,11 @@ sap.ui.define(function() {
 			},
 			coverage: {
 				only: "<NAMESPACE>/",
-				never: "<NAMESPACE>/test/"
+				never: "test-resources/<NAMESPACE>/"
 			},
 			loader: {
 				paths: {
-					"<NAMESPACE>": "./"
+					"<NAMESPACE>": "../"
 				}
 			}
 		},
@@ -111,11 +110,10 @@ The generic test page runs one or multiple test modules. Typically, this file is
 <html>
 <head>
 	<meta charset="utf-8">
-	<base href="../">
 	<script
-		src="resources/sap/ui/test/starter/runTest.js"
+		src="../resources/sap/ui/test/starter/runTest.js"
 		data-sap-ui-resource-roots='{
-			"test-resources.<NAMESPACE>": "./test"
+			"test-resources.<NAMESPACE-WITH-DOTS>": "./"
 		}'
 	></script>
 </head>

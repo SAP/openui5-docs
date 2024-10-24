@@ -20,7 +20,7 @@ Our formatter does its job, but it is not yet used. In this step we will use it.
   
 **Date formatter in action**
 
-![](images/loio9aa15b0691014bd287a5a5d874f6f064_LowRes.png "Date formatter in action")
+![](images/loio9aa15b0691014bd287a5a5d874f6f064_LowRes.jpg "Date formatter in action")
 
 ***
 

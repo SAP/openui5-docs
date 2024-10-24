@@ -20,7 +20,7 @@ Now that we have covered all kinds of tests for navigation, we introduce our *Po
   
 **The Post page with more details about the post**
 
-![](images/loio38c810b97e5b48bba08032aed403bb07_LowRes.png "The Post page with more details about the post")
+![](images/loio38c810b97e5b48bba08032aed403bb07_LowRes.jpg "The Post page with more details about the post")
 
 ***
 

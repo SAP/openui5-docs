@@ -94,14 +94,9 @@ QUnit.test("Should return the translated texts", (assert) => {
 
 ### webapp/test/unit/unitTests.qunit.ts \(New\)
 
-We create a new `unitTests.qunit.ts` file under `webapp/test/unit/`.
+We create a new `unitTests.qunit.ts` file under `webapp/test/unit/`. This script loads and executes our formatter.
 
-This script loads and executes our formatter.
-
-> ### Note:  
-> The `@sapUiRequire` annotation instructs the OpenUI5 TypeScript transpilation process \(executed by `ui5-tooling-transpile`\) to use `sap.ui.require` instead of `sap.ui.define` for a transpiled module. This allows to load the module via a `<script>` tag, which guarantees that `QUnit.config.autostart` is set to `false` directly after QUnit has been loaded.
-> 
-> This is important for test suites in order to prevent QUnit from immediately starting the test execution even before the QUnit tests have been imported. Once the QUnit tests have been imported, the tests are executed after `QUnit.start()` has been called.
+Before the QUnit test execution can be started, we need to wait until the Core has booted. Therefore, you need to disable the autostart via `QUnit.config.autostart = false;`, require the `sap/ui/core/Core` module, and use `Core.ready()` to wait until the Core has booted. Only then can you start the QUnit tests with `QUnit.start()`.
 
 ```js
 /* @sapUiRequire */
@@ -109,11 +104,17 @@ QUnit.config.autostart = false;
 
 // import all your QUnit tests here
 void Promise.all([
-	import("ui5/walkthrough/test/unit/model/formatter")
-]).then(() => {
+	import("sap/ui/core/Core"), // required to wait until Core has booted to start the QUnit tests
+	import("ui5/walkthrough/test/unit/model/formatter"),
+]).then(([{default: Core}]) => Core.ready()).then(() => {
 	QUnit.start();
 });
 ```
+
+> ### Note:  
+> The `@sapUiRequire` annotation instructs the OpenUI5 TypeScript transpilation process \(executed by `ui5-tooling-transpile`\) to use `sap.ui.require` instead of `sap.ui.define` for a transpiled module. This allows to load the module via a `<script>` tag, which guarantees that `QUnit.config.autostart` is set to `false` directly after QUnit has been loaded.
+> 
+> This is important for test suites in order to prevent QUnit from immediately starting the test execution even before the QUnit tests have been imported. Once the QUnit tests have been imported, the tests are executed after `QUnit.start()` has been called.
 
 ***
 

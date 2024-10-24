@@ -108,7 +108,7 @@ The **`sap.ui5`** namespace adds OpenUI5-specific configuration parameters that 
 
 ```
 {
-    "_version": "1.60.0",
+    "_version": "1.65.0",
     "sap.app": {
         "id": "ui5.walkthrough",
         "type": "application",

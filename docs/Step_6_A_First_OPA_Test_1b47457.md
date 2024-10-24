@@ -20,7 +20,7 @@ A bulletin board may contain many posts. We expect to have a high data load once
   
 **The OPA test page is waiting for more items to be loaded**
 
-![](images/loioc4aaadbedb9b4111baec4e0738657d5c_LowRes.png "The OPA test page is waiting for more items to be loaded")
+![](images/loioc4aaadbedb9b4111baec4e0738657d5c_LowRes.jpg "The OPA test page is waiting for more items to be loaded")
 
 ***
 

@@ -20,7 +20,7 @@ So far, we have a list of posts on the home page of the app. But typically, a po
   
 **We add an OPA test that selects an item from the table and navigates to the post page**
 
-![](images/loiocf3e0a650c6647b08410fab5b09d606d_LowRes.png "We add an OPA test that selects an item from the table and navigates to the
+![](images/loiocf3e0a650c6647b08410fab5b09d606d_LowRes.jpg "We add an OPA test that selects an item from the table and navigates to the
 					post page")
 
 ***

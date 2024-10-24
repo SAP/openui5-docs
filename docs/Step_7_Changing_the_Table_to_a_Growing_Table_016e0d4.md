@@ -20,7 +20,7 @@ Let’s switch back to developing and add the missing feature for the test we im
   
 **The List of posts is now dynamically loading more items when we scroll to the end of the page**
 
-![](images/loio43d882b890714236901f5b067e34e81e_LowRes.png "The List of posts is now dynamically loading more items when we scroll to the
+![](images/loio43d882b890714236901f5b067e34e81e_LowRes.jpg "The List of posts is now dynamically loading more items when we scroll to the
 					end of the page")
 
 ***

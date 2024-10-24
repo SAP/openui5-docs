@@ -22,7 +22,7 @@ If the tests are passed, we can be sure that the formatter is formally correct b
   
 **The price is now formatted with a semantic color**
 
-![](images/loio436054fd57104e89b98dd2dc9a834211_LowRes.png "The price is now formatted with a semantic color")
+![](images/loio436054fd57104e89b98dd2dc9a834211_LowRes.jpg "The price is now formatted with a semantic color")
 
 ***
 

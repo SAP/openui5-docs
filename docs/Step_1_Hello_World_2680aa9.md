@@ -83,7 +83,7 @@ You can view and download all files at [Walkthrough - Step 1](https://sdk.openui
 
     ```
     {
-      "_version": "1.58.0",
+      "_version": "1.65.0",
       "sap.app": {
         "id": "ui5.walkthrough"
       }

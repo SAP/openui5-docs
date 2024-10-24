@@ -20,7 +20,7 @@ We now add a search field to our bulletin board and define a filter that represe
   
 **Search field**
 
-![](images/loiob012fdf751b947f08cf77cf124334c9f_LowRes.png "Search field")
+![](images/loiob012fdf751b947f08cf77cf124334c9f_LowRes.jpg "Search field")
 
 ***
 

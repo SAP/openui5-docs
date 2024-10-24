@@ -20,7 +20,7 @@ We want to display statistics for posts, for example, how many times it was view
   
 **An icon tab bar with statistics**
 
-![](images/loio1d8248aaaac34e1185b36090859cf47c_LowRes.png "An icon tab bar with statistics")
+![](images/loio1d8248aaaac34e1185b36090859cf47c_LowRes.jpg "An icon tab bar with statistics")
 
 ***
 
