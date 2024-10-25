@@ -95,18 +95,14 @@ Our new journey consists of three user interaction steps:
 ### webapp/test/integration/pages/Worklist.js – action object
 
 ```js
+
 sap.ui.define([
 		'sap/ui/test/Opa5',
 		'sap/ui/test/matchers/AggregationLengthEquals',
 		'sap/ui/test/matchers/I18NText',
 		'sap/ui/test/matchers/BindingPath',
 		'sap/ui/test/actions/Press'
-	],
-	function (Opa5,
-			  AggregationLengthEquals,
-			  I18NText,
-			  BindingPath,
-			  Press) {
+],   function (Opa5, AggregationLengthEquals, I18NText, BindingPath, Press) {
 		"use strict";
 
 		var sViewName = "Worklist",

@@ -71,8 +71,7 @@ sap.ui.define([
 		Then.iTeardownMyApp();
 	});
 
-	}
-);
+});
 ```
 
 In this example, we extend the `WorklistJourney.js` file with a new test `"Should be able to search for items"`. The action within this test simulates a user entering text into a search field, so we pass a search string `"Bear"` to this action. It is important to move the `Teardown` step to the last test, otherwise our app would be destroyed and the test would not be able to find the *Statistics* tab.

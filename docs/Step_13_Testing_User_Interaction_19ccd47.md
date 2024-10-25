@@ -30,7 +30,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ***
 
-### webapp/test/integration/journeys/PostJourney.js
+### webapp/test/integration/PostJourney.js
 
 ```js
 sap.ui.define([

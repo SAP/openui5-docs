@@ -167,6 +167,7 @@ sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter"
 ], function(DateFormatter) {
 	QUnit.module("DateFormatter");
+
 	QUnit.test("initial", function(assert) {
 		assert.ok(new DateFormatter());
 	});
@@ -424,7 +425,7 @@ sap.ui.define([
 	"sap/ui/core/date/UI5Date"
 ], function(DateFormatter, Locale, UI5Date) {
 	var oFormatter = null;
-	...
+	// ...
 	QUnit.test("Should return day of the week if date < 7 days ago", function(assert) {
 		var oDate = UI5Date.getInstance(2015, 2, 8);
 		var sFormattedDate = oFormatter.format(oDate);

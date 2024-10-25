@@ -38,6 +38,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 sap.ui.define([], function () {
 	   "use strict";
+
 	   return {
 		     numberUnit: function (sValue) {
 			// …
@@ -50,16 +51,16 @@ sap.ui.define([], function () {
 		     * @returns {string} sValue the state for the price
 		     */
 		     priceState: function (iPrice) {
-			     if (iPrice < 50) {
-				return "Success";
-			     } else if (iPrice >= 50 && iPrice < 250) {
-				return "None";
-			     } else if (iPrice >= 250 && iPrice < 2000) {
-				return "Warning";
-			     } else {
-				return "Error";
-			}
-		}
+			   if (iPrice < 50) {
+				  return "Success";
+			   } else if (iPrice >= 50 && iPrice < 250) {
+				  return "None";
+			   } else if (iPrice >= 250 && iPrice < 2000) {
+				  return "Warning";
+			   } else {
+				  return "Error";
+			   }
+		  }
 	};
 });
 ```
