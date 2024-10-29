@@ -104,6 +104,47 @@ Info Only
 </td>
 <td valign="top">
 
+Deprecated 
+
+</td>
+<td valign="top">
+
+Feature 
+
+</td>
+<td valign="top">
+
+**Deprecations** 
+
+</td>
+<td valign="top">
+
+**Deprecations**
+
+There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
+
+<sub>Deprecated•Feature•Info Only•1.114</sub>
+
+</td>
+<td valign="top">
+
+Info Only 
+
+</td>
+<td valign="top">
+
+2023-05-18
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.114 
+
+</td>
+<td valign="top">
+
 Changed 
 
 </td>

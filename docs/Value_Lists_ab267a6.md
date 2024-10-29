@@ -116,7 +116,7 @@ There are three options to place the `ValueList` annotation:
 **Related Information**  
 
 
-[Data Reuse](Data_Reuse_648e360.md "The OData V4 model keeps data with respect to bindings, which allows different views on the same data, but also means that data is not automatically shared between bindings. There are mechanisms for sharing data to avoid redundant requests and to keep the same data in different controls in sync.")
+[Data Reuse](Data_Reuse_648e360.md "The OData V4 model keeps data with respect to bindings. This allows different views on the same data but also means that data is not automatically shared between bindings. There are mechanisms for sharing data to avoid redundant requests and to keep the same data in different controls in sync.")
 
 [OData 4.0 Vocabularies - SAP Common \> ValueListType](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.md#ValueListType)
 
