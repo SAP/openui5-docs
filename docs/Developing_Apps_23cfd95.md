@@ -24,8 +24,6 @@ Create apps with rich user interfaces for modern web business applications, resp
 
 Before you start developing apps with OpenUI5, you start by setting up the development environment of your choice. You can find our recommendations under [Development Environment](Development_Environment_7bb04e0.md).
 
-After that, you define the project setup. If you work in a team, we recommend using a continuous integration setup as described under [Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md). If you work alone, you should at the very least set up an automated testing environment.
-
 ***
 
 <a name="loio23cfd955f58142389fa7c9097e11559c__section_znq_f5f_qbb"/>
@@ -54,9 +52,6 @@ For example, it's quite easy to deploy an app to SAP Business Technology Platfor
 -   **[Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup
 		of OpenUI5 development environments.")**  
 This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.
--   **[Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md "This section describes the setup of a development project where multiple developers
-		work together on the same code.")**  
-This section describes the setup of a development project where multiple developers work together on the same code.
 -   **[App Overview: The Basic Files of Your App](App_Overview_The_Basic_Files_of_Your_App_28b59ca.md "We recommend creating at least three files for your app: the descriptor
 			(manifest.json), the component (Component.js),
 		and the main view of the app (App.view.xml).")**  

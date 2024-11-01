@@ -672,7 +672,6 @@
                         -   [Create an index.html File](Create_an_index_html_File_f7cbafc.md)
                         -   [Run the App](Run_the_App_745424a.md)
                         -   [Create a Northwind Destination](Create_a_Northwind_Destination_3a16c7a.md)
-        -   [Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md)
         -   [App Overview: The Basic Files of Your App](App_Overview_The_Basic_Files_of_Your_App_28b59ca.md)
         -   [App Initialization: What Happens When an App Is Started?](App_Initialization_What_Happens_When_an_App_Is_Started_d2f5869.md)
         -   [Folder Structure: Where to Put Your Files](Folder_Structure_Where_to_Put_Your_Files_003f755.md)

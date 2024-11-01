@@ -1249,7 +1249,7 @@ Check out the following new and updated documentation topics:
 
 -   [Test Automation](Test_Automation_ae44824.md#loioae448243822448d8ba04b4784f4b09a0) that describes the setup for automated testing with *Karma*
 
--   [Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md)
+-    <?sap-ot O2O class="- topic/xref " href="fe7a158313af4590ad60f844e5b43b80.xml" text="" desc="" xtrc="xref:85" xtrf="file:/home/builder/src/dita-all/kuy1475838515855/loio6f626c400b0c4cde9cb453fe27879e0a_en-US/src/content/localization/en-us/849e1b678d324d129a84446d9c2841fb.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 -   [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md)
 
