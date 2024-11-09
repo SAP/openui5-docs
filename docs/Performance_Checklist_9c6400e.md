@@ -16,7 +16,7 @@ In addition to applying best practices, always stay up to date with the framewor
 
 1.  [Use the UI5 Support Assistant to Check for Known Issues](Support_Assistant_57ccd7d.md)
 2.  [Enable Asynchronous Loading in the Bootstrap](Use_Asynchronous_Loading_676b636.md#loio676b636446c94eada183b1218a824717__section_EALB)
-3.  [Make Use of the `sap.ui.core.IAsyncContentCreation` Interface](Use_Asynchronous_Loading_676b636.md#loio676b636446c94eada183b1218a824717__section_AsyncInterface)or [Ensure the Root View and Routing are Configured to Load Targets Asynchronously](Use_Asynchronous_Loading_676b636.md#loio676b636446c94eada183b1218a824717__section_RootViewRoutingConfiguration)
+3.  [Make Use of the `sap.ui.core.IAsyncContentCreation` Interface](Use_Asynchronous_Loading_676b636.md#loio676b636446c94eada183b1218a824717__section_AsyncInterface) or [Ensure the Root View and Routing are Configured to Load Targets Asynchronously](Use_Asynchronous_Loading_676b636.md#loio676b636446c94eada183b1218a824717__section_RootViewRoutingConfiguration) 
 4.  [Make Use of Asynchronous Module Loading \(AMD Style\)](Use_Asynchronous_Loading_676b636.md#loio676b636446c94eada183b1218a824717__section_AsyncModuleLoading)
 5.  [Use `manifest.json` instead of the Bootstrap to define Dependencies](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_ManifestJson)
 6.  [Load OpenUI5 from the Content Delivery Network \(CDN\)](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_LoadFromCDN)

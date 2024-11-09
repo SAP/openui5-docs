@@ -68,7 +68,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 1](h
     	<meta charset="utf-8">
     	<title>Data Binding Tutorial</title>
     	<script id="sap-ui-bootstrap"
-    	src="resources/sap-ui-core.js"
+    		src="resources/sap-ui-core.js"
     		data-sap-ui-theme="sap_horizon"
     		data-sap-ui-compat-version="edge"
     		data-sap-ui-async="true"

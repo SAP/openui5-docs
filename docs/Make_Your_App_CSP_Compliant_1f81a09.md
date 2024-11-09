@@ -25,7 +25,7 @@ Don't use directly executable code in your HTML files, because this makes them v
 ```html
 ...
 <script id="sap-ui-bootstrap"
-src="resources/sap-ui-core.js"
+	src="resources/sap-ui-core.js"
 	data-sap-ui-async="true"
 	data-sap-ui-on-init="module:sap/ui/core/ComponentSupport">
 </script>

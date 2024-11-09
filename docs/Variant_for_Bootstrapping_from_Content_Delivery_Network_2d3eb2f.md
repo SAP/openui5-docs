@@ -75,10 +75,10 @@ The evergreen version allows you to automatically select the latest available pa
 
 The first segment of the URL after the host name is used to specify an evergreen version, which needs to be provided in the following version number combination: *`<majorVersion>.<minorVersion>`* without a patch number. For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md). All long-term maintenance versions \>= 1.71 can be used as evergreen versions to bootstrap OpenUI5 applications. You can find the available versions with long-term maintenance status at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html).
 
-When using the patch-level independent bootstrap you must use`data-sap-ui-async="true"` and the `data-sap-ui-on-init` callback. Ideally, you refer to a module, for example `sap/ui/core/ComponentSupport` to bootstrap your Component; see [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md). You can also refer to a custom module.
+When using the patch-level independent bootstrap you must use `data-sap-ui-async="true"` andthe `data-sap-ui-on-init` callback. Ideally, you refer to a module, for example `sap/ui/core/ComponentSupport` to bootstrap your Component; see [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md). You can also refer to a custom module.
 
 > ### Note:  
-> Evergreen versions only support asynchronous bootstrapping.Therefore, the `data-sap-ui-async` bootstrap attribute must be set to `true`.
+> Evergreen versions only support asynchronous bootstrapping. Therefore, the `data-sap-ui-async` bootstrap attribute must be set to `true`.
 > 
 > A consequence of asynchronous bootstrapping is that `sap-ui-debug=true` does not work when you bootstrap an evergreen version. You need to explicitly include the namespace of the modules you want to see the debug sources for, for example by specifying `sap-ui-debug=sap/` to include the `sap/*` namespace, or `sap-ui-debug=sap/,xyz/app/` to include more than one namespace. For more information, see the blog post [SAPUI5 – Patch-Level Independent Bootstrap](https://blogs.sap.com/2022/04/14/sapui5-patch-level-independent-bootstrap/).
 
