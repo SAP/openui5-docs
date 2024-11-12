@@ -71,3 +71,8 @@ You can use the following methods:
 
 You can also overwrite the getters and setters for component properties in the Component controller.
 
+**Related Information**  
+
+
+[API Reference: `sap.ui.core.IAsyncContentCreation`](https://sdk.openui5.org/api/sap.ui.core.IAsyncContentCreation)
+

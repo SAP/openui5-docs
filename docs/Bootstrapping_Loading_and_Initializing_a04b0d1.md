@@ -20,7 +20,7 @@ You can use the OpenUI5 bootstrap script in your page to initialize OpenUI5 runt
 The following code snippet shows a typical bootstrap script tag:
 
 ```html
-<script id="sap-ui-bootstrap" 
+<script id="sap-ui-bootstrap"
      src="resources/sap-ui-core.js"
      data-sap-ui-async="true"
      data-sap-ui-on-init="..."
