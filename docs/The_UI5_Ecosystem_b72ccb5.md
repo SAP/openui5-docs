@@ -34,6 +34,31 @@ UI5 Tooling is a state-of-the-art way to develop OpenUI5 projects by consuming O
 
 -   [UI5 Tooling on GitHub](https://sap.github.io/ui5-tooling/)
 
+<a name="loiof9c9470583b2455c94bed2bf934e0f1f"/>
+
+<!-- loiof9c9470583b2455c94bed2bf934e0f1f -->
+
+### UI5 Linter
+
+***
+
+UI5 linter is a static code analysis tool for OpenUI5 projects. It checks JavaScript, TypeScript, XML, JSON, and other files in your project and reports findings.
+
+UI5 linter scans your OpenUI5 project and detects issues that can prevent the project from running smoothly with OpenUI5 2.x.
+
+-   Usage of deprecated OpenUI5 libraries
+-   Usage of deprecated OpenUI5 framework APIs
+-   Usage of global variables
+-   Possible CSP violations
+-   Deprecated component and manifest configurations
+-   and many more
+
+***
+
+#### Further Information
+
+-   [UI5 linter on GitHub](https://github.com/SAP/ui5-linter)
+
 <a name="loio702f08a7481e46688c5603385b5bdc68"/>
 
 <!-- loio702f08a7481e46688c5603385b5bdc68 -->

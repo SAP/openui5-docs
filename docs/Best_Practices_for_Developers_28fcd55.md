@@ -33,6 +33,12 @@ Therefore, it's important that you keep applying best practices. To help you, we
 
 ***
 
+#### Supporting Tool - UI5 Linter
+
+[UI5 linter](https://github.com/SAP/ui5-linter) is a command-line tool to identify legacy code in your OpenUI5 project. It checks JavaScript, TypeScript, XML, JSON, and other files in your project and reports findings if legacy code is used. UI5 linter is our state-of-the-art tool to get and keep your OpenUI5 project legacy-free.
+
+***
+
 #### Goals
 
 The main objectives when migrating existing code or keeping it up to date with framework best practices are:
@@ -370,7 +376,8 @@ Prevent bundling modules \(`library-preload.js`\) into strings.
     -   If tests create implementations of such entities, they must be implemented in a way that a module lookup can find them: either as individual files or as embedded and named `sap.ui.define` statements.
     -   As modules can only be loaded and executed once, each test implementation must have a unique module name. The same name cannot be used multiple times as was the case with globals.
 
--   Transform existing QUnit tests that are based on the outdated QUnit 1 version to using QUnit 2, i.e. `qunit-2.js` and `qunit-2.css`. Make sure to load QUnit only once when initiating QUnit tests.
+-   Migrate an existing QUnit and OPA test setup to the [Test Starter](Test_Starter_032be2c.md) concept.
+-   Transform existing QUnit tests that are based on the outdated QUnit 1 version to using QUnit 2.
 -   Do not rely on the outdated Blanket.js \(`qunit-coverage.js`\) anymore. As of OpenUI5 1.113, code coverage measurement via IstanbulJS \(`qunit-coverage-istanbul.js`\) is the recommended option. For more information, see [Code Coverage Measurement](Code_Coverage_Measurement_7ef3242.md).
 
 -   **[Don't Use Deprecated or Experimental Features](Don_t_Use_Deprecated_or_Experimental_Features_a8bd1a8.md "To keep your apps future proof and up to date with the latest improvements, you should
