@@ -32,7 +32,7 @@ The specific version allows you to select a particular fixed version for bootstr
 
 ```html
 <script id="sap-ui-bootstrap"
-    src="https://sdk.openui5.org/1.131.0/resources/sap-ui-core.js"
+    src="https://sdk.openui5.org/1.132.0/resources/sap-ui-core.js"
     data-sap-ui-async="true"
     data-...="...">
 </script>
@@ -49,7 +49,7 @@ Check the available versions with the respective maintenance status at [https://
 
 #### Evergreen Version
 
-The evergreen version allows you to automatically select the latest available patch level of a specific \(minor\) long-term maintenance version for bootstrapping. You refer to a major.minor long-term maintenance version using a versioned URL as in the following example:
+The evergreen version allows you to automatically select the latest available patch level of a specific \(minor\) long-term maintenance version for bootstrapping. You refer to a particular *`<majorVersion>.<minorVersion>`* long-term maintenance version using a versioned URL as in the following example:
 
 ```html
 <head>
