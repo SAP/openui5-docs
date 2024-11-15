@@ -55,7 +55,7 @@ The evergreen version allows you to automatically select the latest available pa
 <head>
     <!-- ... -->
     <script id="sap-ui-bootstrap"
-    src="https://sdk.openui5.org/1.120/resources/sap-ui-core.js"
+        src="https://sdk.openui5.org/1.120/resources/sap-ui-core.js"
         data-sap-ui-async="true"
         data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
         data-sap-ui-resource-roots='{ "my.app": "./" }'
