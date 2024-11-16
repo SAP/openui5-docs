@@ -380,7 +380,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
     For more information, see [Property Binding With an Object Value](Initialization_and_Read_Requests_fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_PBOV).
 
--   The selection feature introduced with SAPUI5 1.111 is now available and can be used productively.
+-   The selection feature introduced with OpenUI5 1.111 is now available and can be used productively.
 
     For more information, see [Selection](Selection_ec55312.md)and the API Reference for [`v4.Context#setSelected`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/setSelected) and [`#isSelected`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context%23methods/isSelected).
 
