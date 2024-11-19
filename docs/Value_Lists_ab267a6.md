@@ -22,12 +22,12 @@ Value lists enable you to read the possible values for a given property, such as
 
     -   `Fixed`: One enumeration of fixed values exists.
 
-    -   `Standard`: A dynamic value list with multiple queries including selection criteria exists.
+    -   `Standard`
 
 
-2.  Determine the value list detail information on demand via `ODataPropertyBinding.requestValueListInfo` which returns a map of all annotations `com.sap.vocabularies.Common.v1.ValueList` or `com.sap.vocabularies.Common.v1.ValueListMapping` by qualifier. Each mapping has the `ValueListMappingType` type as specified in the OData 4.0 Common Vocabulary, see [OData 4.0 Vocabularies - SAP Common](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.md#ValueListMappingType). Each mapping is enriched by a `$model` property of type `sap.ui.model.odata.v4.ODataModel` which can be used to access the value list metadata and retrieve value list data. The annotation `com.sap.vocabularies.Common.v1.ValueListRelevantQualifiers` is automatically taken into account.
+2.  Determine the value list detail information on demand via : A dynamic value list with multiple queries including selection criteria exists.`ODataPropertyBinding.requestValueListInfo` which returns a map of all annotations `com.sap.vocabularies.Common.v1.ValueList` or `com.sap.vocabularies.Common.v1.ValueListMapping` by qualifier. Each mapping has the `ValueListMappingType` type as specified in the OData 4.0 Common Vocabulary, see [OData 4.0 Vocabularies - SAP Common](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.md#ValueListMappingType). Each mapping is enriched by a `$model` property of type `sap.ui.model.odata.v4.ODataModel` which can be used to access the value list metadata and retrieve value list data. The annotation `com.sap.vocabularies.Common.v1.ValueListRelevantQualifiers` is automatically taken into account.
 
-    For value lists of type `Fixed`, only one mapping is expected and the qualifier is ignored. The mapping is available with key "".
+    For value lists of type `Fixed`: A dynamic value list with multiple queries, only one mapping is expected and the qualifier is ignored. The mapping is available with key "".
 
 
 Additionally, you can use the synchronous method `ODataPropertyBinding.getValueListType` if the metadata for the property is already available. If this is not the case, an exception is thrown. The API is available in `sap.ui.model.odata.v4.ODataMetaModel` analogously for use cases where controls are not yet in place, for example, during XML templating.
@@ -112,6 +112,45 @@ There are three options to place the `ValueList` annotation:
     </Annotations>
     ```
 
+
+***
+
+<a name="loioab267a6b958e46a28f3437154b2a1b2f__section_x5d_lgq_kdc"/>
+
+### Other Annotations
+
+You can add or overwrite any annotation for the value list service \(not only `ValueList` as described in the previous section\) in the [\(local\) annotation files](Additional_Annotation_Files_fd715d9.md) of the data service. All annotations with a target in the namespace of the value list's schemas are copied.
+
+**Example:** If the value list metadata looks like this:
+
+```
+[...]
+<Schema Namespace="com.sap.gateway.f4.d_pr_type-fv.v0001" Alias="SAP__self">
+    <EntityType Name="D_PR_TYPE_FV">
+        <Key>
+            <PropertyRef Name="FIELD_VALUE" />
+        </Key>
+        <Property Name="FIELD_VALUE" Type="Edm.String" Nullable="false" MaxLength="2" />
+        <Property Name="DESCRIPTION" Type="Edm.String" Nullable="false" />
+    </EntityType>
+    <EntityContainer Name="Container">
+        <EntitySet Name="D_PR_TYPE_FV_SET" EntityType="SAP__self.D_PR_TYPE_FV" />
+    </EntityContainer>
+    <Annotations Target="SAP__self.D_PR_TYPE_FV/DESCRIPTION">
+        <Annotation Term="com.sap.vocabularies.Common.v1.Label" String="Standard description"/>
+    </Annotations>
+</Schema>
+```
+
+then the following annotation in a \(local\) annotation file for the data service modifies the description's label of the type D\_PR\_TYPE\_FV:
+
+```
+<Schema Namespace="my.local.annotations">
+    <Annotations Target="com.sap.gateway.f4.d_pr_type-fv.v0001.D_PR_TYPE_FV/DESCRIPTION">
+        <Annotation Term="com.sap.vocabularies.Common.v1.Label" String="My fancy description"/>
+    </Annotations>
+</Schema>
+```
 
 **Related Information**  
 
