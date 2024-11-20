@@ -22,12 +22,12 @@ Value lists enable you to read the possible values for a given property, such as
 
     -   `Fixed`: One enumeration of fixed values exists.
 
-    -   `Standard`
+    -   `Standard`: A dynamic value list with multiple queries including selection criteria exists.
 
 
-2.  Determine the value list detail information on demand via : A dynamic value list with multiple queries including selection criteria exists.`ODataPropertyBinding.requestValueListInfo` which returns a map of all annotations `com.sap.vocabularies.Common.v1.ValueList` or `com.sap.vocabularies.Common.v1.ValueListMapping` by qualifier. Each mapping has the `ValueListMappingType` type as specified in the OData 4.0 Common Vocabulary, see [OData 4.0 Vocabularies - SAP Common](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.md#ValueListMappingType). Each mapping is enriched by a `$model` property of type `sap.ui.model.odata.v4.ODataModel` which can be used to access the value list metadata and retrieve value list data. The annotation `com.sap.vocabularies.Common.v1.ValueListRelevantQualifiers` is automatically taken into account.
+2.  Determine the value list detail information on demand via `ODataPropertyBinding.requestValueListInfo` which returns a map of all annotations `com.sap.vocabularies.Common.v1.ValueList` or `com.sap.vocabularies.Common.v1.ValueListMapping` by qualifier. Each mapping has the `ValueListMappingType` type as specified in the OData 4.0 Common Vocabulary, see [OData 4.0 Vocabularies - SAP Common](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.md#ValueListMappingType). Each mapping is enriched by a `$model` property of type `sap.ui.model.odata.v4.ODataModel` which can be used to access the value list metadata and retrieve value list data. The annotation `com.sap.vocabularies.Common.v1.ValueListRelevantQualifiers` is automatically taken into account.
 
-    For value lists of type `Fixed`: A dynamic value list with multiple queries, only one mapping is expected and the qualifier is ignored. The mapping is available with key "".
+    For value lists of type `Fixed`, only one mapping is expected and the qualifier is ignored. The mapping is available with key "".
 
 
 Additionally, you can use the synchronous method `ODataPropertyBinding.getValueListType` if the metadata for the property is already available. If this is not the case, an exception is thrown. The API is available in `sap.ui.model.odata.v4.ODataMetaModel` analogously for use cases where controls are not yet in place, for example, during XML templating.

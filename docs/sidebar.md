@@ -316,7 +316,7 @@
             -   [Deprecated Core API](Deprecated_Core_API_798dd9a.md)
             -   [Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md)
                 -   [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)
-                -   [Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md)
+                -   [Deprecated Configuration Options](Deprecated_Configuration_Options_b474a71.md)
                 -   [Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md)
                 -   [Compatibility Version Information](Compatibility_Version_Information_9feb96d.md)
         -   [Structuring: Components and Descriptor](Structuring_Components_and_Descriptor_dc9e11c.md)

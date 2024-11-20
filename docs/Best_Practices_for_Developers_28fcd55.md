@@ -114,10 +114,6 @@ When requiring third-party libraries that export global names and support AMD at
 
 Identify and resolve cyclic dependencies with the help of the OpenUI5 configuration parameter `sap-ui-xx-debug-module-loading=true`. Identified modules are logged in the browser console \([F12\]\) with the message '**cycle detected**'. Ensure that the console shows all levels of logs incl. "Verbose" ones to see this message.
 
-**Additional Information:**
-
--   [Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md)
-
 ***
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_tqd_z1n_21c"/>

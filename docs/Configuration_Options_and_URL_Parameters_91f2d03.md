@@ -1351,7 +1351,7 @@ For more information, see the [API Reference: `sap.ui.loader.config`](https://sd
 The table below lists the possible types for configuration options and their corresponding valid values.
 
 > ### Note:  
-> Some of the configuration options listed on this page, as well as the ones listed under [Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md), might have more restrictions on the allowed values. Please refer to the corresponding entry for more details.
+> Some of the configuration options listed on this page, as well as the ones listed under [Deprecated Configuration Options](Deprecated_Configuration_Options_b474a71.md), might have more restrictions on the allowed values. Please refer to the corresponding entry for more details.
 
 
 <table>
@@ -1476,5 +1476,5 @@ Any value which is part of the respective enumeration for the corresponding conf
 
 ### Related Information
 
-For lists of deprecated and experimental configuration options, see [Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md).
+For alist of deprecated configuration options, see [Deprecated Configuration Options](Deprecated_Configuration_Options_b474a71.md).
 

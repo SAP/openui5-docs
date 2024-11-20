@@ -225,9 +225,9 @@ You can find these APIs in [Configuration Options and URL Parameters](Configurat
 
 -   **[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md "The following tables show available configuration options.")**  
 The following tables show available configuration options.
--   **[Deprecated and Experimental Configuration Options](Deprecated_and_Experimental_Configuration_Options_b474a71.md "The following tables show deprecated and experimental
-		configuration options.")**  
-The following tables showdeprecated and experimental configuration options.
+-   **[Deprecated Configuration Options](Deprecated_Configuration_Options_b474a71.md "The following tables show
+			deprecated configuration options.")**  
+The following tables show deprecatedconfiguration options.
 -   **[Deprecated Configuration API](Deprecated_Configuration_API_2acafbf.md "This page describes important aspects of the deprecation of the sap.ui.core.Configuration API facade. It shows a
 		migration path away from the deprecated legacy APIs and towards their future-proof alternatives, provided the functionality is still meant for
 		productive usage.")**  

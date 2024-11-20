@@ -40,7 +40,7 @@ The base class for elements \(`Element.js`\) provides the following five methods
 
     -   The default behavior is for the parent element to locate and shift the focus to the next available, focusable DOM element.
 
-    -   Control developers can customize this behavior by overriding the [`onfocusfail`](https://sdk.openui5.org/api/sap.ui.core.Element%23methods/onfocusfail). handler if specific focus redirection logic is needed for certain controls.
+    -   Control developers can customize this behavior by overriding the [`onfocusfail`](https://sdk.openui5.org/api/sap.ui.core.Element%23methods/onfocusfail) handler if specific focus redirection logic is needed for certain controls.
 
 
     > ### Caution:  
@@ -112,7 +112,7 @@ Below is a sample implementation of a custom `onfocusfail` handler that redirect
 sap.ui.define([
     "sap/ui/core/Control",
     "sap/m/Button",
-    "sap/m/TextArea",
+    "sap/m/TextArea"
 ], (Control, Button, TextArea) => {
     "use strict";
 
