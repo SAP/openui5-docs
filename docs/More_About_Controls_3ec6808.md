@@ -36,6 +36,11 @@ OpenUI5 offers the possibility to hyphenate words in multiline texts when contro
 -   **[Semantic Pages](Semantic_Pages_84f3d52.md "The semantic page controls help the app designers and developers implement and comply
 		with the SAP Fiori design guidelines more easily.")**  
 The semantic page controls help the app designers and developers implement and comply with the SAP Fiori design guidelines more easily.
+-   **[Pages: Which One Should I Choose?](Pages_Which_One_Should_I_Choose_8a860c0.md "OpenUI5 applications are used in different environments: They can either be
+		embedded within shells that come with their own header or they are displayed standalone without such a shell around them. This has
+		implications on how the header area of an OpenUI5 application should look
+		like.")**  
+OpenUI5 applications are used in different environments: They can either be embedded within shells that come with their own header or they are displayed standalone without such a shell around them. This has implications on how the header area of an OpenUI5 application should look like.
 -   **[Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md "The libraries provided by OpenUI5 contain various
 		different table controls that are suitable for different use cases. The table below outlines
 		which table controls are available, and what features are supported by each one.")**  

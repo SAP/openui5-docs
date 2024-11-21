@@ -806,6 +806,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
         -   [Semantic Pages](Semantic_Pages_84f3d52.md)
             -   [Semantic Page \(sap.f\)](Semantic_Page_sap_f_47dc868.md)
             -   [Semantic Page \(sap.m\)](Semantic_Page_sap_m_4a97a07.md)
+        -   [Pages: Which One Should I Choose?](Pages_Which_One_Should_I_Choose_8a860c0.md)
         -   [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md)
         -   [Forms: Which One Should I Choose?](Forms_Which_One_Should_I_Choose_d1d8eb0.md)
         -   [sap.f](sap_f_0b455b0.md)
