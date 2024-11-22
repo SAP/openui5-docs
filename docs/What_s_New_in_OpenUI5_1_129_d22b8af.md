@@ -8,8 +8,6 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d22b8af563784d8cbcff8afd3955734e) | [demo kit latest release](https://sdk.openui5.org/topic/d22b8af563784d8cbcff8afd3955734e)</div>
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 ## What's New in OpenUI5 1.129
 
 With this release OpenUI5 is upgraded from version 1.128 to 1.129.
@@ -54,90 +52,6 @@ Action
 Available as of
 
 </th>
-</tr>
-<tr>
-<td valign="top">
-
-1.129 
-
-</td>
-<td valign="top">
-
-Changed 
-
-</td>
-<td valign="top">
-
-Feature 
-
-</td>
-<td valign="top">
-
-**Harmonized Context Menu in Key User Adaptation** 
-
-</td>
-<td valign="top">
-
-**Harmonized Context Menu in Key User Adaptation**
-
-The context menu is now consistent when you select elements. It no longer depends on how you select an element, such as using the left or right mouse button. The familiar right-click context menu now also appears when you left-click an element.
-
-<sub>Changed•Feature•Info Only•1.129</sub>
-
-</td>
-<td valign="top">
-
-Info Only 
-
-</td>
-<td valign="top">
-
-2024-10-03
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-1.129 
-
-</td>
-<td valign="top">
-
-New 
-
-</td>
-<td valign="top">
-
-Feature 
-
-</td>
-<td valign="top">
-
-**What's New Dialog in Key User Adaptation** 
-
-</td>
-<td valign="top">
-
-**What's New Dialog in Key User Adaptation**
-
-The *What's New* dialog keeps you informed about the latest updates, features, and improvements in key user adaptation.
-
-After an upgrade, the dialog automatically shows the new features introduced with the new version. If you're interested in features from previous versions, you can find an overview in the <span class="SAP-icons-V5"></span> \(More Actions\) menu in the toolbar.
-
-<sub>New•Feature•Info Only•1.129</sub>
-
-</td>
-<td valign="top">
-
-Info Only 
-
-</td>
-<td valign="top">
-
-2024-10-03
-
-</td>
 </tr>
 <tr>
 <td valign="top">

@@ -121,15 +121,15 @@ The page will be referenced in the test suite that we will create next.
 <head>
 	<meta charset="utf-8">
 	<script
-		src="../resources/sap/ui/test/starter/runTest.js"
-		data-sap-ui-resource-roots='{
-			"test-resources.ui5.walkthrough": "./"
-		}' 
+		  src="../resources/sap/ui/test/starter/runTest.js"
+		  data-sap-ui-resource-roots='{
+			      "test-resources.ui5.walkthrough": "./"
+		  }' 
 	></script>
 </head>
 <body class="sapUiBody">
-	<div id="qunit"></div>
-	<div id="qunit-fixture"></div>
+	   <div id="qunit"></div>
+	   <div id="qunit-fixture"></div>
 </body>
 </html>
 ```
@@ -154,27 +154,28 @@ For more information, see [Concept and Basic Setup](Concept_and_Basic_Setup_22f5
 > There are currently no types available for the test suite configuration. Please refer to [Configuration Options](Configuration_Options_738ed02.md) to see all options.
 
 ```ts
+
 export default {
-	name: "QUnit test suite for UI5 TypeScript Walkthrough",
-	defaults: {
-		page: "ui5://test-resources/ui5/walkthrough/Test.qunit.html?testsuite={suite}&test={name}",
-		qunit: {
-			version: 2
-		},
-		ui5: {
-			theme: "sap_horizon"
-		},
-		loader: {
-			paths: {
-				"ui5/walkthrough": "../"
-			}
-		}
-	},
-	tests: {
-		"unit/unitTests": {
-			title: "UI5 TypeScript Walkthrough - Unit Tests"
-		}
-	}
+	   name: "QUnit test suite for UI5 TypeScript Walkthrough",
+	   defaults: {
+		      page: "ui5://test-resources/ui5/walkthrough/Test.qunit.html?testsuite={suite}&test={name}",
+		      qunit: {
+			        version: 2
+		      },
+		      ui5: {
+			        theme: "sap_horizon"
+		      },
+		      loader: {
+			        paths: {
+				          "ui5/walkthrough": "../"
+			       }
+		      }
+	  },
+  	tests: {
+	  	  "unit/unitTests": {
+			       title: "UI5 TypeScript Walkthrough - Unit Tests"
+		    }
+	  }
 };
 ```
 
@@ -190,13 +191,13 @@ We also create a corresponding `testsuite.qunit.html` in the same folder. This i
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<script
-		src="../resources/sap/ui/test/starter/createSuite.js"
-		data-sap-ui-testsuite="test-resources/ui5/walkthrough/testsuite.qunit"
-		data-sap-ui-resource-roots='{
-			"test-resources.ui5.walkthrough": "./"
-		}'
+	 <meta charset="utf-8">
+	 <script
+		   src="../resources/sap/ui/test/starter/createSuite.js"
+		   data-sap-ui-testsuite="test-resources/ui5/walkthrough/testsuite.qunit"
+		   data-sap-ui-resource-roots='{
+			       "test-resources.ui5.walkthrough": "./"
+		   }'
 	></script>
 </head>
 <body>
@@ -212,7 +213,7 @@ If we now open the `webapp/test/testsuite.qunit.html` file in the browser and se
 
 -   All unit tests are placed in the webapp/test/unit folder of the app.
 
--   The default naming convention for the test suite is `testsuite.qunit.html` and `testsuite.qunit.ts`. When adding additional test suites, the naming must follow the pattern`testsuite.<name>.qunit.html`/`testsuite.<name>.qunit.ts`.
+-   The default naming convention for the test suite is `testsuite.qunit.html` and `testsuite.qunit.ts`. When adding additional test suites, the naming must follow the pattern `testsuite.<name>.qunit.html`/`testsuite.<name>.qunit.ts`.
 
 -   All test files referenced in the test suite end with `.qunit.ts`.
 

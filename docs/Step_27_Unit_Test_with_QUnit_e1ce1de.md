@@ -101,8 +101,9 @@ We create a new `unitTests.qunit.js` file under `webapp/test/unit/`. This module
 Inside the `unitTests.qunit.js` file we import the unit test for the custom formatter. This ensures that any tests related to the custom formatter functionality will be included when running our unit tests.
 
 ```js
+
 sap.ui.define([
-	"./model/formatter"
+	   "./model/formatter"
 ]);
 ```
 
@@ -150,29 +151,31 @@ Additionally, the `sap_horizon` theme is configured in the `ui5` section, where 
 The test suite serves as the entry point for all tests within our project such as the previously created `unit/unitTests` \(The `.qunit.js` extension is omitted and will be added automatically during runtime\). The previously created generic `Test.qunit.html` file is referenced as the test `page` and configured with query parameters so that individual tests can be run. The placeholders `{suite}` and `{name}` are replaced with the suite and test names respectively. For more information, see [Concept and Basic Setup](Concept_and_Basic_Setup_22f50c0.md).
 
 ```js
+
+
 sap.ui.define(() => {
-	"use strict";
-	return {
-		name: "QUnit test suite for UI5 Walkthrough",
-		defaults: {
-			page: "ui5://test-resources/ui5/walkthrough/Test.qunit.html?testsuite={suite}&test={name}",
-			qunit: {
-				version: 2
-			},
-			ui5: {
-				theme: "sap_horizon"
-			},
-			loader: {
-				paths: {
+	   "use strict";
+	   return {
+		     name: "QUnit test suite for UI5 Walkthrough",
+		     defaults: {
+			          page: "ui5://test-resources/ui5/walkthrough/Test.qunit.html?testsuite={suite}&test={name}",
+			          qunit: {
+				            version: 2
+			          },
+			          ui5: {
+				            theme: "sap_horizon"
+			          },
+			          loader: {
+				            paths: {
 					"ui5/walkthrough": "../"
-				}
-			}
-		},
-		tests: {
-			"unit/unitTests": {
-				title: "UI5 Walkthrough - Unit Tests"
-			}
-		}
+				            }
+			          }
+		   },
+		   tests: {
+			     "unit/unitTests": {
+				        title: "UI5 Walkthrough - Unit Tests"
+			     }
+		   }
 	};
 });
 ```

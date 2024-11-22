@@ -18,7 +18,7 @@ OpenUI5 applications are used in different environments: They can either be embe
 
 ### Standalone App
 
-A **standalone OpenUI5 application** could use an `sap.m.Page` control as the root control of its views. The `Page` control provides a visually distinguished header bar with space for an application \(or page\) title and has a built-in *Back* button allowing the user to navigate back to the previous page. You can enable the *Back* button by setting the `Page`'s `showNavButton` property to `true`.
+A **standalone OpenUI5 application** could use `sap.m.Page` controls as root controls of its views. The `Page` control provides a visually distinguished header bar with space for an application \(or page\) title and has a built-in *Back* button allowing the user to navigate back to the previous page. You can enable the *Back* button by setting the `Page`'s `showNavButton` property to `true`.
 
 ***
 
@@ -26,7 +26,7 @@ A **standalone OpenUI5 application** could use an `sap.m.Page` control as the ro
 
 ### Embedded App
 
-On the other hand, an **embedding shell** \(like SAP Build Work Zone or the SAP Fiori launchpad\) might already come with its own header containing a *Back* button and space for a title. Using an `sap.m.Page` control would then lead to a duplicate header and possibly even duplicate*Back* buttons.
+An **embedding shell** \(like SAP Build Work Zone or the SAP Fiori launchpad\) might already come with its own header containing a *Back* button and space for a title. Using an `sap.m.Page` control would then lead to a duplicate header and possibly even a duplicate *Back* button.
 
 The `sap.f.DynamicPage` control could be your preferred alternative in such a scenario as it comes without a header bar and *Back* button but still offers the option to configure a title if needed, as well as many other features on top of a plain `sap.m.Page`.
 
