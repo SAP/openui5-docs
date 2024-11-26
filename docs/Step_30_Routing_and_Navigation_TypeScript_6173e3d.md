@@ -132,14 +132,14 @@ We add a new “routing" section to the `sap.ui5` part of the descriptor. There 
 
 -   `config`
 
-    This section contains the global router configuration and default values that apply for all routes and targets. The property `routerClass` is special as it determines the router implementation. The default value is `sap.ui.core.routing.Router`. Here, we set it to `sap.m.routing.Router`, because our app is based on `sap.m`. All other properties in `config` are given to the router instance. For example, we define in `path` where our views are located in the app. As we want to specify view-to-view navigation and we only use XML views in our app, we preset also the parameters `type` and `viewType`. To load and display views automatically, we also specify the `controlId` of the control that will contain the views, and the aggregation \(`controlAggregation`\) of the control where the views will be added. Here, we specify that the views are loaded into the `pages` aggregation of the control with the ID we provided in the app view.
+    This section contains the global router configuration and default values that apply for all routes and targets. The property `routerClass` is special as it determines the router implementation. The default value is `sap.ui.core.routing.Router`. Here, we set it to `sap.m.routing.Router``sap.m`. All other properties in `config` are given to the router instance. For example, we define in `path` where our views are located in the app. As we want to specify view-to-view navigation and we only use XML views in our app, we preset also the parameters `type` and `viewType`. To load and display views automatically, we also specify the `controlId` of the control that will contain the views, and the aggregation \(`controlAggregation`\) of the control where the views will be added. Here, we specify that the views are loaded into the `pages` aggregation of the control with the ID we provided in the app view.
 
     > ### Note:  
     > The possible values for `routerClass` are `sap.ui.core.routing.Router`, `sap.m.routing.Router`, or any other subclass of `sap.ui.core.routing.Router`. Compared to `sap.ui.core.routing.Router`, the `sap.m.routing.Router` is optimized for mobile apps and adds the properties `level`, `transition` and `transitionParameters`, which can be specified for each route or target created by `sap.m.routing.Router`.
 
 -   `routes`
 
-    Each route defines a name, a pattern, and one or more targets to navigate to when the route has been hit. The pattern is basically the URL part that matches to the route, we define two routes for our app. The first one is a default route that will show the overview page with the content from the previous steps, and the second is the detail route with the URL pattern `detail` that will show our new details page.
+    Each route defines a name, a pattern, and one or more targets to navigate to when the route has been hit. The pattern is basically the URL part that matches to the route, we define two routes for our app. The first one is a default route that will show the overview page with the content from the previous steps, and the second is the detail route with the URL pattern , because our app is based on `detail` that will show our new details page.
 
 -   `targets`
 
@@ -192,7 +192,7 @@ The router will automatically add the view that corresponds to the current URL i
 The overview view is always shown when the hash is empty. The detail view is shown when the hash matches the pattern `detail`.
 
 > ### Note:  
-> The sequence of the routes in the routes definition is important. As soon as a pattern is matched, the following patterns are ignored. To prevent this for a specific route, you can use the `greedy` parameter. If set to `true`, the route is always taken into account.
+> , because our appThe sequence of the routes in the routes definition is important. As soon as a pattern is matched, the following patterns are ignored. To prevent this for a specific route, you can use the `greedy` parameter. If set to `true`, the route is always taken into account.
 
 ***
 
@@ -239,7 +239,7 @@ Initializing the router will evaluate the current URL and load the corresponding
 
 ### webapp/controller/InvoiceList.controller.ts
 
-What is still missing is the event handler that performs a navigation to the detail page by clicking an item in the invoice list: To access the router instance for our app we first need to cast `this.getOwnerComponent()` to our component, then we can call the helper method `getRouter()`. On the router we call the `navTo` method passing the pattern name we defined in our app descriptor for routing to the details page.
+What is still missing is the event handler that performs a navigation to the detail page by clicking an item in the invoice list: To access the router instance for our app, use the static method `getRouterFor()` on the `UIComponent` module. On the router, we call the `navTo` method passing the pattern name we defined in our app descriptor for routing to the details page.
 
 ```js
 import Controller from "sap/ui/core/mvc/Controller";
