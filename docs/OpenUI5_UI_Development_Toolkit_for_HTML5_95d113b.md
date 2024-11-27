@@ -62,9 +62,8 @@ This chapter and its sections describe the development concepts of OpenUI5, such
 -   **[Developing Apps](Developing_Apps_23cfd95.md "Create apps with rich user interfaces for modern web business applications,
 		responsive across browsers and devices, based on HTML5.")**  
 Create apps with rich user interfaces for modern web business applications, responsive across browsers and devices, based on HTML5.
--   **[Extending Apps](Extending_Apps_a264a9a.md "You can adapt an OpenUI5 app
-		to your specific requirements. For example, you can adapt or replace views, extend or
-		replace controllers, or change language-specific texts.")**  
+-   **[Extending Apps](Extending_Apps_a264a9a.md "You can adapt an OpenUI5 app to your specific requirements. For example,
+		you can adapt or replace views, extend or replace controllers, or change language-specific texts.")**  
 You can adapt an OpenUI5 app to your specific requirements. For example, you can adapt or replace views, extend or replace controllers, or change language-specific texts.
 -   **[Developing Controls](Developing_Controls_8dcab00.md "You can create own content for OpenUI5. To develop controls in
 		JavaScript, you can either extend existing controls or create new ones.")**  
