@@ -78,7 +78,7 @@ Two scenarios are supported:
     > </table:Table>
     > ```
 
--   You can provide group levels to determine a hierarchy of expandable group levels in addition to the leaf nodes determined by the groupable and aggregatable properties. To achieve this, specify the names of the group levels in the `groupLevels` property of `$$aggregation`.
+-   You can provide group levels to determine a hierarchy of expandable group levels in addition to the leaf nodes determined by the groupable and aggregatable properties. To achieve this, specify the names of the group levels in the `groupLevels` property of `$$aggregation`. If no other groupable properties are given except those named as levels, the last group level determines the leaf nodes and is not expandable.
 
     Group levels can be combined with the system query option `$count : true`; for more information, see [Binding Collection Inline Count](Binding_Collection_Inline_Count_77d2310.md). Group levels can only be combined with filtering before the aggregation \(see below\). Note how an `$orderby` option can address groups across all levels. For every aggregatable property, you can request subtotals and a grand total individually.
 
@@ -204,7 +204,7 @@ A typical request to read the first page of a hierarchical table may look like t
 
 `GET /sap/opu/odata4/IWBEP/TEA/default/IWBEP/TEA_BUSI/0001/EMPLOYEES?$apply=orderby(AGE)/com.sap.vocabularies.Hierarchy.v1.TopLevels(HierarchyNodes=$root/EMPLOYEES,HierarchyQualifier='OrgChart',NodeProperty='ID',Levels=2)&$select=AGE,DescendantCount,DistanceFromRoot,DrillState,ID,MANAGER_ID,Name&$count=true&$skip=0&$top=115`
 
-Note how the sibling\(!\) order is specified via an [`orderby`](https://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs03/odata-data-aggregation-ext-v4.0-cs03.html#Transformationorderby) transformation \(see the list binding's sorters as well as `$orderby`\). The list binding's path would be "`/EMPLOYEES`". `$$aggregation` looks as follows. The model's `autoExpandSelect` parameter does its magic, and `$count&$skip&$top` is taken care of automatically by the list binding.
+Note how the sibling\(!\) order is specified via an [`orderby`](https://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs03/odata-data-aggregation-ext-v4.0-cs03.html#Transformationorderby) transformation \(see the list binding's sorters as well as `$orderby`\). The list binding's path would be "`/EMPLOYEES`", and `$$aggregation` looks as follows. The model's `autoExpandSelect` parameter does its magic, and `$count&$skip&$top` is taken care of automatically by the list binding.
 
 ```xml
 <Table rows="{
