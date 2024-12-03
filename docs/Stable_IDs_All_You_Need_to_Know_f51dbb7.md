@@ -74,7 +74,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 -   Views in the descriptor for applications, components, and libraries
 
-    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
+    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md).
 
     Example:
 

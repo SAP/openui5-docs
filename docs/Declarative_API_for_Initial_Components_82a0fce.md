@@ -128,7 +128,7 @@ The `ComponentSupport` module enforces asynchronous module loading of the compon
 -   `lifecycle` \{\*sap.ui.core.ComponentLifecycle\*\} \(defaults to `Container`\)
 -   `autoPrefixId` \{\*boolean\*\} \(defaults to `true`\)
 
-For details on the manifest, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
+For details on the manifest, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md).
 
 See also [`ComponentSupport`](https://sdk.openui5.org/api/module:sap/ui/core/ComponentSupport) and [`ComponentContainer`](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer) for more information. 
 

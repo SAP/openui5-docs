@@ -8,9 +8,9 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3a9babace121497abea8f0ea66e156d9) | [demo kit latest release](https://sdk.openui5.org/topic/3a9babace121497abea8f0ea66e156d9)</div>
 
-## Creating a Descriptor File for Existing Apps
+## Creating a Manifest File for Existing Apps
 
-Detailed description of the steps needed to create a descriptor V2 for applications file for an existing transactional app created by the customer based on SAP Fiori.
+Detailed description of the steps needed to create a manifest \(also known as descriptor\) V2 for applications file for an existing transactional app created by the customer based on SAP Fiori.
 
 1.  Create the `manifest.json` file.
 
@@ -727,7 +727,8 @@ To verify that your app works as before, perform checks to make sure the followi
 -   Navigation works as before
 
 
--   **[Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md "Information how to add new attributes of descriptor versions higher than V2 (OpenUI5
-		1.30) to the descriptor file.")**  
-Information how to add new attributes of descriptor versions higher than V2 \(OpenUI5 1.30\) to the descriptor file.
+-   **[Migration Information for Upgrading the Manifest File](Migration_Information_for_Upgrading_the_Manifest_File_a110f76.md "Information how to add new attributes of manifest (also known as descriptor) versions
+		higher than V2 (OpenUI5 1.30) to
+		the manifest file.")**  
+Information how to add new attributes of manifest \(also known as descriptor\) versions higher than V2 \(OpenUI5 1.30\) to the manifest file.
 

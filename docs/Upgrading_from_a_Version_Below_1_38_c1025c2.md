@@ -109,5 +109,5 @@ This issue is fixed with jQuery 2.2.2.
 
 ### Descriptor for Applications, Components, and Libraries
 
-If you want to add new attributes of a descriptor version higher than V2 \(SAPUI5 1.30\) to your existing `manifest.json` file, see [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md).
+If you want to add new attributes of a descriptor version higher than V2 \(SAPUI5 1.30\) to your existing `manifest.json` file, see [Migration Information for Upgrading the Manifest File](Migration_Information_for_Upgrading_the_Manifest_File_a110f76.md).
 

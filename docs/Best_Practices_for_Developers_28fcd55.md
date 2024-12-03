@@ -337,14 +337,14 @@ Implement strict error handling to address critical issues.
 
 -   Define the `appData/manifest/i18n` section in the `.library` file or the `sap.app/i18n` section in the `manifest.json`, so that the framework can load resource bundles in advance.
 
--   Properly define library dependencies in all places where it is required. For more information, see [Dependencies to Libraries](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md#loio8521ad1955f340f9a6207d615c88d7fd__section_DEPLIB).
+-   Properly define library dependencies in all places where it is required. For more information, see [Dependencies to Libraries](Manifest_Dependencies_to_Libraries_and_Components_8521ad1.md#loio8521ad1955f340f9a6207d615c88d7fd__section_DEPLIB).
 
 
 **Additional Information:**
 
 -   [The library.js File](The_library_js_File_bd039ed.md)
 -   [Defining Control Properties](Defining_Control_Properties_ac56d92.md)
--   [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md)
+-   [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md)
 
 ***
 

@@ -59,7 +59,7 @@ If either width or height isn’t defined, a default value is assigned. The defa
 
 #### Is It the Startup That's Failing?
 
-Maybe the app is loading too slowly for the OPA tests. If there's a local index file that doesn't contain the library dependencies your app needs, the OpenUI5 bootstrap is very slow. To fix this, add the dependencies you need in your application descriptor's `sap.ui.dependencies` namespace. If you don't have a descriptor, use the bootstrap option libs. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
+Maybe the app is loading too slowly for the OPA tests. If there's a local index file that doesn't contain the library dependencies your app needs, the OpenUI5 bootstrap is very slow. To fix this, add the dependencies you need in your application descriptor's `sap.ui.dependencies` namespace. If you don't have a descriptor, use the bootstrap option libs. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 ***
 

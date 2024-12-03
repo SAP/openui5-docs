@@ -168,7 +168,7 @@ Inside the app descriptor, you can now use special URLs prefixed with `ui5://`. 
 
 One common use case is the resolution of local annotation files. By default the local annotation files are resolved relative to the manifest. When using a `ui5://` URL, you can enforce a different resolution, for example to a server-absolute URL.
 
-Find more details about the usage of such URL prefixes and an example in the [documentation](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_rmc_3xj_mmb).
+Find more details about the usage of such URL prefixes and an example in the [documentation](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_rmc_3xj_mmb).
 
 <sub>New•Feature•Info Only•1.81</sub>
 

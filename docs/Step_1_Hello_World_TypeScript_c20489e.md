@@ -85,7 +85,7 @@ Hence, we create a new file named `manifest.json` in the webapp folder and defin
 -   The `_version` attribute is a mandatory field in the app descriptor that indicates the format version of the descriptor. This attribute is crucial for identifying application settings when the descriptor is read by various tools. As new features or changes are introduced in future versions of the descriptor, the version number helps to ensure compatibility and proper interpretation of the descriptor's contents. Consequently, with each new version of OpenUI5 a corresponding version of the app descriptor is released. For this tutorial, we have determined that our app requires a minimum OpenUI5 version of 1.128. Therefore, we specify the descriptor format version as 1.65.0, aligning it with the appropriate OpenUI5 version.
 
     > ### Note:  
-    > To find the appropriate `_version` for each OpenUI5 release, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
+    > To find the appropriate `_version` for each OpenUI5 release, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md).
 
 -   The **`sap.app`** namespace is used to define properties that are specific to the application itself. It includes the following obligatory application-specific attributes:
 
@@ -172,7 +172,7 @@ This opens a new browser window hosting your newly created `index.html`.
 **Related Information**  
 
 
-[Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
+[Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md "The manifest (also known as descriptor for applications, components, and libraries, in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The manifest provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 
 [Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.")
 

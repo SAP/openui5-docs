@@ -8,9 +8,9 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/7701636d088147569d99b4f08d418bd9) | [demo kit latest release](https://sdk.openui5.org/topic/7701636d088147569d99b4f08d418bd9)</div>
 
-## Descriptor for Components \(Inside Libraries\)
+## Manifest for Components \(Inside Libraries\)
 
-The descriptor for components contains a subset of the attributes in the descriptor for applications
+The manifest \(also known as descriptor\) for components contains a subset of the attributes in the manifest for applications
 
 **Attributes in the sap.app namespace**
 
@@ -60,7 +60,7 @@ With value `component`; mandatory
 </td>
 <td valign="top">
 
-Optional attribute: A URL string to the properties file that contains the text symbols for the descriptor; the URL is interpreted relative to the `manifest`. Alternatively, an object defined as described in [Terminologies](Terminologies_eba8d25.md). If the manifest contains placeholders in `{{...}}` syntax but no `i18n` attribute has been provided, the default value `i18n/i18n.properties` is used to request a ResourceBundle.
+Optional attribute: A URL string to the properties file that contains the text symbols for the manifest; the URL is interpreted relative to the `manifest`. Alternatively, an object defined as described in [Terminologies](Terminologies_eba8d25.md). If the manifest contains placeholders in `{{...}}` syntax but no `i18n` attribute has been provided, the default value `i18n/i18n.properties` is used to request a ResourceBundle.
 
 </td>
 </tr>

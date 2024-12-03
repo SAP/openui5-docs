@@ -33,7 +33,7 @@ You use **routes** to notify your application that the hash has changed to a cer
 
 With **targets**, you define where a view or a component is loaded and where the view or component is shown on the UI. By referring to one or multiple targets in a route's definition, you can load and show the views or components once the route's pattern matches the current hash.
 
-You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md)\) or in the `Component.js` file \(see [Components](Components_958ead5.md) \) to have it available globally throughout your app, but you can also define routes and targets locally by calling the constructors of the classes, for example under the `sap.ui.core.routing` and `sap.m.routing` namespaces.
+You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(see [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md)\) or in the `Component.js` file \(see [Components](Components_958ead5.md) \) to have it available globally throughout your app, but you can also define routes and targets locally by calling the constructors of the classes, for example under the `sap.ui.core.routing` and `sap.m.routing` namespaces.
 
 > ### Note:  
 > You can also define only routes or only targets, but then just have to make sure that you implement the counterpart elsewhere.

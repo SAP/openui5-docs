@@ -2399,7 +2399,7 @@ Complex Replacement
 
 **Apps Used Within the SAP Fiori launchpad**
 
-Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) and [Descriptor Dependencies to Libraries and Components](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md).
+Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md) and [Manifest Dependencies to Libraries and Components](Manifest_Dependencies_to_Libraries_and_Components_8521ad1.md).
 
 **Standalone Apps**
 
@@ -2435,7 +2435,7 @@ Complex Replacement
 
 **Apps Used Within the SAP Fiori launchpad**
 
-Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) and [Descriptor Dependencies to Libraries and Components](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md).
+Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md) and [Manifest Dependencies to Libraries and Components](Manifest_Dependencies_to_Libraries_and_Components_8521ad1.md).
 
 **Standalone Apps**
 

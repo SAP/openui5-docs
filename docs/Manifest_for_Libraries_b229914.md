@@ -8,9 +8,9 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b229914587444025be986d81dcc77303) | [demo kit latest release](https://sdk.openui5.org/topic/b229914587444025be986d81dcc77303)</div>
 
-## Descriptor for Libraries
+## Manifest for Libraries
 
-The descriptor for libraries contains a subset of the attributes in the descriptor for applications and components.
+The manifest \(also known as descriptor\) for libraries contains a subset of the attributes in the manifest for applications and components.
 
 
 <table>
@@ -450,7 +450,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-Determines whether the library contains an i18n resource. Value can be either a boolean, a string, or an object. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) and [Terminologies](Terminologies_eba8d25.md).
+Determines whether the library contains an i18n resource. Value can be either a boolean, a string, or an object. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md) and [Terminologies](Terminologies_eba8d25.md).
 
 </td>
 </tr>
@@ -547,5 +547,5 @@ New in `.library`
 **Related Information**  
 
 
-[Creating a Descriptor File for Existing Apps](Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md "Detailed description of the steps needed to create a descriptor V2 for applications file for an existing transactional app created by the customer based on SAP Fiori.")
+[Creating a Manifest File for Existing Apps](Creating_a_Manifest_File_for_Existing_Apps_3a9baba.md "Detailed description of the steps needed to create a manifest (also known as descriptor) V2 for applications file for an existing transactional app created by the customer based on SAP Fiori.")
 

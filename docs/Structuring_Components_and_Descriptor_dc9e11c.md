@@ -15,9 +15,10 @@ OpenUI5 provides Components as independent and reusable parts of UI5 application
 -   **[Components](Components_958ead5.md "Components are independent and reusable parts used in OpenUI5
 		applications.")**  
 Components are independent and reusable parts used in OpenUI5 applications.
--   **[Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor)
-		is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor
-		provides a central, machine-readable, and easy-to-access location for storing metadata
-		associated with an application, an application component, or a library.")**  
-The descriptor for applications, components, and libraries \(in short: app descriptor\) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.
+-   **[Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md "The manifest (also known as descriptor for applications, components, and libraries, in
+		short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the
+		W3C. The manifest provides a central, machine-readable, and easy-to-access location for
+		storing metadata associated with an application, an application component, or a
+		library.")**  
+The manifest \(also known as descriptor for applications, components, and libraries, in short: app descriptor\) is inspired by the WebApplication Manifest concept introduced by the W3C. The manifest provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.
 

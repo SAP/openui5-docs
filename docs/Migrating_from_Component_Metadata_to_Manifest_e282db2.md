@@ -8,14 +8,14 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e282db2865e94f69972c407469b801e9) | [demo kit latest release](https://sdk.openui5.org/topic/e282db2865e94f69972c407469b801e9)</div>
 
-## Migrating from Component Metadata to Descriptor
+## Migrating from Component Metadata to Manifest
 
-Overview, how the component metadata are mapped to the descriptor.
+Overview, how the component metadata are mapped to the manifest \(descriptor for applications, components and libraries\).
 
-For compatibility reasons, the mapping to the `manifest.json` file is done automatically. If a metadata property has been defined, it can also be consumed via the corresponding property of the `manifest.json` file. For a detailed step-by-step guide, see [Creating a Descriptor File for Existing Apps](Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md).
+For compatibility reasons, the mapping to the `manifest.json` file is done automatically. If a metadata property has been defined, it can also be consumed via the corresponding property of the `manifest.json` file. For a detailed step-by-step guide, see [Creating a Manifest File for Existing Apps](Creating_a_Manifest_File_for_Existing_Apps_3a9baba.md).
 
 > ### Note:  
-> To benefit from the performance improvements that can be achieved by using “manifest first”, we recommend to migrate the component metadata to the descriptor \(`manifest.json`\). For more information about manifest first, see the *Manifest First Function* section in [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
+> To benefit from the performance improvements that can be achieved by using “manifest first”, we recommend to migrate the component metadata to the `manifest.json` file. For more information about manifest first, see the *Manifest First Function* section in [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md).
 
 **Mapping Table**
 
@@ -29,7 +29,7 @@ Metadata
 </th>
 <th valign="top">
 
-Descriptor
+Manifest
 
 </th>
 <th valign="top">
@@ -197,7 +197,7 @@ Different format, see *Resources* section below
 
 ### Dependencies
 
-Libraries and components are objects and not arrays. For the descriptor part, we use `minUI5Version` instead of `ui5version`.
+Libraries and components are objects and not arrays. For the manifest part, we use `minUI5Version` instead of `ui5version`.
 
 **Metadata** 
 
@@ -213,7 +213,7 @@ Libraries and components are objects and not arrays. For the descriptor part, we
 }
 ```
 
-**Descriptor**
+**Manifest**
 
 ```js
 
@@ -242,7 +242,7 @@ Includes are renamed to resources and are objects and not an array.
 "includes": ["script.js", "style.css"]
 ```
 
-**Descriptor**
+**Manifest**
 
 > ### Note:  
 > Since 1.94 the usage of `js` resources is deprecated. Please use regular `dependencies` instead.

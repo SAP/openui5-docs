@@ -191,7 +191,7 @@ You now declare reuse components in the descriptor for applications \(`manifest.
 
 You don't have to migrate old applications to the new logic to keep them working. But if you want to benefit from further improvements with regards to component loading and performance, as well as component extensibility \(replace reuse component\), you should consider updating the component usage accordingly.
 
-For more information, see [Using and Nesting Components](Using_and_Nesting_Components_346599f.md) and [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
+For more information, see [Using and Nesting Components](Using_and_Nesting_Components_346599f.md) and [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md).
 
 <sub>New•Feature•Info Only•1.48</sub>
 

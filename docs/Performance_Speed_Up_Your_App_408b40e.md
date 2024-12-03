@@ -64,7 +64,7 @@ If a library preload is configured to be loaded lazily \(`"lazy": true`\), the l
 
 **Additional Information:**
 
--   [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md)
+-   [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md)
 -   API Reference: [`sap/ui/core/Lib.load()`](https://sdk.openui5.org/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.load)
 
 ***
@@ -137,7 +137,7 @@ For more information, see:
 
 ### Use "manifest first" to Load the Component
 
-When creating a component manually, make sure the `manifest.json` descriptor file is loaded first, so that the dependencies are analyzed and preloaded when the component is loaded. For more information, see [Manifest First Function](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
+When creating a component manually, make sure the `manifest.json` descriptor file is loaded first, so that the dependencies are analyzed and preloaded when the component is loaded. For more information, see [Manifest First Function](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
 
 ***
 
@@ -149,7 +149,7 @@ If the library preloads are disabled or not found, every module is loaded separa
 
 In some cases it may happen that preloads are not enabled, or that modules of some libraries are still loaded separately:
 
--   A subset of libraries in the `sap.ui5/dependencies/libs` section of the `manifest.json` is declared with the `lazy` loading option, but these `lazy` libraries aren't preloaded manually before their modules are used. For more information, see [Descriptor Dependencies to Libraries and Components](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md).
+-   A subset of libraries in the `sap.ui5/dependencies/libs` section of the `manifest.json` is declared with the `lazy` loading option, but these `lazy` libraries aren't preloaded manually before their modules are used. For more information, see [Manifest Dependencies to Libraries and Components](Manifest_Dependencies_to_Libraries_and_Components_8521ad1.md).
 
 -   Neither `sap-ui-async` nor `sap-ui-preload` is enabled in the bootstrap configuration options. Note that if `sap-ui-async` is set to `true`, the value of the preload configuration is automatically set to `"async"`.
 

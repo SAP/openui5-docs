@@ -8,11 +8,11 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8521ad1955f340f9a6207d615c88d7fd) | [demo kit latest release](https://sdk.openui5.org/topic/8521ad1955f340f9a6207d615c88d7fd)</div>
 
-## Descriptor Dependencies to Libraries and Components
+## Manifest Dependencies to Libraries and Components
 
-Description of the performance-relevant attributes that are available for the descriptor for applications, components and libraries
+Description of the performance-relevant attributes that are available for the manifest \(also known as descriptor for applications, components and libraries\).
 
-The performance-relevant attributes have been introduced with the version 3 of the descriptor for applications, components, and libraries.
+The performance-relevant attributes have been introduced with the version 3 of the manifest.
 
 ***
 
