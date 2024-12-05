@@ -164,9 +164,8 @@ import "./NavigationJourney";
 Finally we reference the new `integration/opaTests.qunit.ts` in the `testsuite.qunit.ts` file. The `.qunit.ts` extension is omitted and will be added automatically during runtime.
 
 ```ts
-
 export default {
-  // ...
+       // ...
 	  tests: {
 		    "unit/unitTests": {
 			       title: "UI5 TypeScript Walkthrough - Unit Tests"

@@ -155,9 +155,8 @@ We create a new `opaTests.qunit.js` file under `webapp/test/integration/`.
 This module imports our `NavigationJourney` and is the entrypoint for all integration tests in the project.
 
 ```js
-
 sap.ui.define([
-	         "./NavigationJourney"
+       "./NavigationJourney"
 ]);
 ```
 
@@ -170,7 +169,6 @@ sap.ui.define([
 Finally we reference the new `integration/opaTests.qunit.js` in the `testsuite.qunit.js` file. The `.qunit.js` extension is omitted and will be added automatically during runtime.
 
 ```js
-
 sap.ui.define(() => {
 	    "use strict";
 	    return {

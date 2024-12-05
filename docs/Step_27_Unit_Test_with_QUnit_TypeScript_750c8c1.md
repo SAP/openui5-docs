@@ -119,8 +119,8 @@ The page will be referenced in the test suite that we will create next.
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<script
+     <meta charset="utf-8">
+     <script
 		  src="../resources/sap/ui/test/starter/runTest.js"
 		  data-sap-ui-resource-roots='{
 			      "test-resources.ui5.walkthrough": "./"
@@ -128,8 +128,8 @@ The page will be referenced in the test suite that we will create next.
 	></script>
 </head>
 <body class="sapUiBody">
-	   <div id="qunit"></div>
-	   <div id="qunit-fixture"></div>
+     <div id="qunit"></div>
+     <div id="qunit-fixture"></div>
 </body>
 </html>
 ```
@@ -156,8 +156,8 @@ For more information, see [Concept and Basic Setup](Concept_and_Basic_Setup_22f5
 ```ts
 
 export default {
-	   name: "QUnit test suite for UI5 TypeScript Walkthrough",
-	   defaults: {
+        name: "QUnit test suite for UI5 TypeScript Walkthrough",
+        defaults: {
 		      page: "ui5://test-resources/ui5/walkthrough/Test.qunit.html?testsuite={suite}&test={name}",
 		      qunit: {
 			        version: 2
@@ -170,12 +170,12 @@ export default {
 				          "ui5/walkthrough": "../"
 			       }
 		      }
-	  },
-  	tests: {
-	  	  "unit/unitTests": {
-			       title: "UI5 TypeScript Walkthrough - Unit Tests"
-		    }
-	  }
+        },
+        tests: {
+               "unit/unitTests": {
+                       title: "UI5 TypeScript Walkthrough - Unit Tests"
+               }
+        }
 };
 ```
 
