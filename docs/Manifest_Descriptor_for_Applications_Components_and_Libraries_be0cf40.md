@@ -1930,7 +1930,7 @@ For more information, see: [Using and Nesting Components](Using_and_Nesting_Comp
 <td valign="top">
 
 > ### Note:  
-> For component descriptors only. Libraries can not define models.
+> For component manifests only. Libraries can not define models.
 
 Defines models that should be created or destroyed along the component's lifecycle. The key represents the model name. Use an empty string \(""\) for the default model.
 
