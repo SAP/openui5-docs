@@ -151,7 +151,6 @@ Additionally, the `sap_horizon` theme is configured in the `ui5` section, where 
 The test suite serves as the entry point for all tests within our project such as the previously created `unit/unitTests` \(The `.qunit.js` extension is omitted and will be added automatically during runtime\). The previously created generic `Test.qunit.html` file is referenced as the test `page` and configured with query parameters so that individual tests can be run. The placeholders `{suite}` and `{name}` are replaced with the suite and test names respectively. For more information, see [Concept and Basic Setup](Concept_and_Basic_Setup_22f50c0.md).
 
 ```js
-
 sap.ui.define(() => {
         "use strict";
         return {
