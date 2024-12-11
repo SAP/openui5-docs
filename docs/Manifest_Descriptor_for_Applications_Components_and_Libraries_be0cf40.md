@@ -1469,7 +1469,7 @@ It's used as a reference point for most operations involving the manifest. If th
 </td>
 <td valign="top">
 
-Possible values:
+A mandatory attribute. The following values are possible:
 
 -   `application`: use if your `manifest.json` describes a **UI5 application**. For an example how to use a `manifest.json` for UI5 applications, see [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md)
 
@@ -1778,7 +1778,7 @@ Description
 </td>
 <td valign="top">
 
-Specifies the UI technology; value is `UI5` 
+A mandatory attribute that specifies the UI technology; value is `UI5` 
 
 </td>
 </tr>
