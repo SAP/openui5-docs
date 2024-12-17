@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/22f50c
 To apply the test starter concept to your OpenUI5 project, you need to create a test suite and a generic test page that allows for the running of one or multiple test modules.
 
 > ### Note:  
-> For OpenUI5 applications, the test suite and the generic test page are typically placed in the `webapp/test` folder. The code samples in the next sections use `<NAMESPACE>` as a placeholder for your OpenUI5 project namespace. Please replace this placeholder with your OpenUI5 project namespace defined in the `sap.app/id` property in the `manifest.json` file by replacing the '.' with '/', for example `my/ui5app`. However, for the `<NAMESPACE-WITH-DOTS>` in `data-sap-ui-resource-roots`, use the exact value of `sap.app/id` \(separated by dots\).
+> For OpenUI5 applications, the test suite and the generic test page are typically placed in the `webapp/test` folder. The code samples in the next sections use `<NAMESPACE>` as a placeholder for your OpenUI5 project namespace. Please replace this placeholder with your OpenUI5 project namespace defined in the `sap.app/id` property in the `manifest.json` file by replacing the '.' with '/', for example `my.ui5app` becomes `my/ui5app`. However, for the `<NAMESPACE-WITH-DOTS>` in `data-sap-ui-resource-roots`, use the exact value of `sap.app/id` \(separated by dots\).
 
 
 
@@ -23,13 +23,23 @@ To apply the test starter concept to your OpenUI5 project, you need to create a 
 
 ### The UI5 Test Suite
 
-A test suite configures the environment for the tests. It consists of a `*.qunit.html` page often named `testsuite.qunit.html` and a corresponding `*.qunit.js` module often named `testsuite.qunit.js`.
+A test suite configures the environment for the tests. It consists of a `*.qunit.html` page often named `testsuite.qunit.html` and a corresponding `*.qunit.js` module.
+
+The default naming convention for the test suite is `testsuite.qunit.html` and `testsuite.qunit.js`.
+
+There can be multiple test suites in a project. When adding more test suites, the naming must follow the pattern `testsuite.<name>.qunit.html` / `testsuite.<name>.qunit.js`.
 
 ***
 
 #### The UI5 Test Suite Page
 
 The test suite page uses the `sap/ui/test/starter/createSuite.js` script to initialize the test suite in a way which is compliant to the content security policy, based on the externalized test configuration provided in the test suite module.
+
+Unlike with the UI5 bootstrap, this script only accepts a limited set of configuration options:
+
+-   The `data-sap-ui-testsuite` attribute specifies the test suite module.
+
+-   The`data-sap-ui-resource-roots` attribute registers the project-specific namespaces, allowing the test suite modules to load from the correct locations. Note that, unlike module names, this configuration requires namespaces to be separated by dots.
 
 ```
 
@@ -58,7 +68,30 @@ The test suite page uses the `sap/ui/test/starter/createSuite.js` script to init
 
 #### The UI5 Test Suite Module
 
-The test suite module represents the configuration file for the UI5 test suite. The module must return a configuration object in the following structure:
+The test suite module represents the configuration file for the UI5 test suite. The module must return a configuration object in the following basic structure:
+
+-   The `name` property represents the name of the test suite and is displayed in the test suite overview page as title.
+
+-   The `defaults` object contains the default [Configuration Options](Configuration_Options_738ed02.md) for tests.
+
+-   The `tests` object contains the definition and configuration for the individual test modules. Configuration of the individual test modules can override the default configuration. For more information on how to add a defined test module to an existing test suite, see [Creating a QUnit Test](Creating_a_QUnit_Test_7080029.md).
+
+    ```
+    sap.ui.define(() => {
+    	"use strict";
+    
+    	return {
+    		name: "QUnit test suite for NAMESPACE",
+    		defaults: {},
+    		tests: {}
+    	};
+    });
+    ```
+
+
+Here is an example of a test suite module that provides default configuration for third-party modules QUnit and `sinon`. We recommend setting the version manually to prevent test failures when OpenUI5 upgrades a third-party module to a new major version with breaking changes. By default, the latest available versions are used.
+
+It also provides [Configuration of the SAPUI5 Runtime](Configuration of the SAPUI5 RuntimeConfiguration_of_the_SAPUI5_Runtime_91f08de.md) at `ui5` to set the theme to `sap_horizon`. The `loader.paths` configuration is used to map the project-specific namespace to the correct location. Unlike the `data-sap-ui-resource-roots` configuration in the test suite page which only registers the`test-resources` namespace, this configuration maps the productive namespace to the parent folder \(assuming the test suite is placed within `webapp/fitest`\). The generic test `page` mentioned in the next section uses query parameters to run individual tests. The placeholders `{suite}` and `{name}` are replaced with the suite and test names, respectively.
 
 ```
 
@@ -66,29 +99,25 @@ sap.ui.define(function() {
 	"use strict";
 
 	return {
-		defaults: {
-			page: "ui5://test-resources/<NAMESPACE>/Test.qunit.html?testsuite={suite}&test={name}",
-			qunit: {
-				version: 2
-			},
-			sinon: {
-				version: 4
-			},
-			ui5: {
-				language: "EN",
-				theme: "sap_horizon"
-			},
-			coverage: {
-				only: "<NAMESPACE>/",
-				never: "test-resources/<NAMESPACE>/"
-			},
-			loader: {
-				paths: {
-					"<NAMESPACE>": "../"
-				}
-			}
-		},
-		tests: {}
+            name: "QUnit test suite for NAMESPACE",
+		  defaults: {
+			     page: "ui5://test-resources/<NAMESPACE>/Test.qunit.html?testsuite={suite}&test={name}",
+			     qunit: {
+				       version: 2
+			     },
+			     sinon: {
+				       version: 4
+			     },
+			     ui5:   {
+				 	 theme: "sap_horizon"
+			     },
+				loader: {
+				        paths: {
+					          "<NAMESPACE>": "../"
+				        }
+			     }
+		  },
+		  tests: {}
 	};
 });
 
@@ -102,7 +131,11 @@ The `tests` object is empty for now. For more information on how to add a define
 
 ### The Generic Test Page
 
-The generic test page runs one or multiple test modules. Typically, this file is named `Test.qunit.html`. The generic test page is configured in the test suite module. It will be called with the test suite and test name in order to run a test.
+The generic test page is used to run individual tests. Typically, this file is named `Test.qunit.html`.
+
+It includes the `sap/ui/test/starter/runTest.js` script which is responsible for loading the test suite configuration and starting the test. In the test suite module, the page is configured as `page`. It receives test suite and test name through query parameters to run a test.
+
+Unlike the UI5 bootstrap, the generic test page only accepts the `data-sap-ui-resource-roots` configuration where project-specific namespaces should be registered. All other UI5 configuration must be provided in the test suite module as described above \(`ui5` property\).
 
 ```
 

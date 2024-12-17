@@ -104,9 +104,9 @@ We replace the instantiation of the `sap/m/Text` control by our new `App.view.xm
 
 **Parent topic:**[Walkthrough Tutorial \(JavaScript\)](Walkthrough_Tutorial_JavaScript_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:**[Step 3: Controls](Step_3_Controls_ddbceec.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the JavaScript control API to set up the UI, the control instance is then placed into the HTML body.")
+**Next:**[Step 3: Controls](Step_3_Controls_ddbceec.md "Now it is time to build our first little UI by replacing the &quot;Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the JavaScript control API to set up the UI, the control instance is then placed into the HTML body.")
 
-**Previous:**[Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's press event is implemented in the controller of the view.")
+**Previous:**[Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the &quot;Hello World” message when the button is pressed. The handling of the button's press event is implemented in the controller of the view.")
 
 **Related Information**  
 

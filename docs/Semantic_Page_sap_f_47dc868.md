@@ -163,7 +163,7 @@ Adding semantic content:
    <semantic:SemanticPage>
       ...
 
-      <!-- will automatically create a button with “email” icon and style and position it in accord with the underlying semantics -->
+      <!-- will automatically create a button with "email” icon and style and position it in accord with the underlying semantics -->
       <semantic:sendEmailAction press=”onSendEmailPress >
          <semantic:SendEmailAction />
       </semantic:sendEmailAction>

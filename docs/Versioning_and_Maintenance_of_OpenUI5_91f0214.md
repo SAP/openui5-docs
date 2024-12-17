@@ -32,7 +32,7 @@ To get an overview of the new features of each version, see [What's New in OpenU
 
 Every month, OpenUI5 releases a new version for productive usage.
 
-The release strategy follows the principle of “one innovation code line”: Subsequent versions ensure continuous innovation with an evolving code line.
+The release strategy follows the principle of "one innovation code line”: Subsequent versions ensure continuous innovation with an evolving code line.
 
 Once a year, a version with long-term support is released. All other versions do not have a maintenance period and no patches are provided. Required fixes are available with the next minor versions together with the new features. However, in exceptional cases, also the most recent version may be patched with correction code.
 

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/dad190
 
 In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.
 
-We first introduce you to the basic development paradigms like *Model-View-Controller* and establish a best-practice structure of our application. We'll do this along the classic example of “Hello World” and start a new app from scratch. Next, we'll introduce the fundamental data binding concepts of OpenUI5 and extend our app to show a list of invoices. We'll continue to add more functionality by adding navigation, extending controls, and making our app responsive. We'll also have a look at the testing features and the built-in support tools of OpenUI5.
+We first introduce you to the basic development paradigms like *Model-View-Controller* and establish a best-practice structure of our application. We'll do this along the classic example of "Hello World” and start a new app from scratch. Next, we'll introduce the fundamental data binding concepts of OpenUI5 and extend our app to show a list of invoices. We'll continue to add more functionality by adding navigation, extending controls, and making our app responsive. We'll also have a look at the testing features and the built-in support tools of OpenUI5.
 
 ***
 
@@ -30,25 +30,25 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 The tutorial consists of the following steps. To start, just open the first link - you'll be guided from there.
 
 1.  [Step 1: Hello World! \(TypeScript\)](Step_1_Hello_World_TypeScript_c20489e.md "As you know OpenUI5 is all about HTML5. Let’s get started with building a
-		first “Hello World” with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with
+		first &quot;Hello World” with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with
 		it.")  
-As you know OpenUI5 is all about HTML5. Let’s get started with building a first “Hello World” with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.
+As you know OpenUI5 is all about HTML5. Let’s get started with building a first "Hello World” with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.
 2.  [Step 2: Bootstrap \(TypeScript\)](Step_2_Bootstrap_TypeScript_32b14d8.md "Before we can do something with OpenUI5, we need to load and
 		initialize it. This process of loading and initializing OpenUI5 is called
 		bootstrapping. Once this bootstrapping is finished, we simply
 		display an alert.")  
 Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called **bootstrapping**. Once this bootstrapping is finished, we simply display an alert.
-3.  [Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
+3.  [Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the &quot;Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
 		TypeScript control API to set up the UI, the control instance is then placed into the HTML body. ")  
-Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.
+Now it is time to build our first little UI by replacing the "Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.
 4.  [Step 4: XML Views \(TypeScript\)](Step_4_XML_Views_TypeScript_6c66ed8.md "Putting all our UI into the index.ts file will very soon result in a messy setup, and there is quite a bit of work ahead
 		of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated
 		view.")  
 Putting all our UI into the `index.ts` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
-5.  [Step 5: Controllers \(TypeScript\)](Step_5_Controllers_TypeScript_e5c58fe.md "In this step, we replace the text with a button and show the “Hello World” message
+5.  [Step 5: Controllers \(TypeScript\)](Step_5_Controllers_TypeScript_e5c58fe.md "In this step, we replace the text with a button and show the &quot;Hello World” message
 		when the button is pressed. The handling of the button's press event is
 		implemented in the controller of the view.")  
-In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
+In this step, we replace the text with a button and show the "Hello World” message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
 6.  [Step 6: Modules \(TypeScript\)](Step_6_Modules_TypeScript_3510034.md "In OpenUI5, resources are often referred to as modules. In this step, we
 		replace the alert from the last exercise with a proper Message Toast from the sap.m library.")  
 In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the `sap.m` library.
@@ -130,9 +130,9 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
 		service to visualize remote data.")  
 So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.
 26. [Step 26: Mock Server Configuration \(TypeScript\)](Step_26_Mock_Server_Configuration_TypeScript_3e1c64f.md "We just ran our app against a real service, but for developing and testing our app we
-		do not want to rely on the availability of the “real” service or put additional load on the
+		do not want to rely on the availability of the &quot;real” service or put additional load on the
 		system where the data service is located.")  
-We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the “real” service or put additional load on the system where the data service is located.
+We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the "real” service or put additional load on the system where the data service is located.
 27. [Step 27: Unit Test with QUnit \(TypeScript\)](Step_27_Unit_Test_with_QUnit_TypeScript_750c8c1.md "Now that we have a test folder in the app, we can start to increase our test
 		coverage. ")  
 Now that we have a test folder in the app, we can start to increase our test coverage.

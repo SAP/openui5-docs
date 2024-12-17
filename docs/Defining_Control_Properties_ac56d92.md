@@ -109,7 +109,7 @@ JavaScript string literal \(`typeof value === "string"`\) or a `String` object \
 
 Plain JavaScript object \(an object whose constructor is `Object`\). Most of the time, other objects are accepted as well, but deserializers \(e.g. for XML views\) will try to convert the object from or to a JSON string. The default value is `null`.
 
-Don't mix this type up with the `any` type! \(Sorry, we maybe should have named it „`serializable`“ or „`JSON`“ or something like that, to make this more clear...\).
+Don't mix this type up with the `any` type! \(Sorry, we maybe should have named it „`serializable`" or „`JSON`" or something like that, to make this more clear...\).
 
 </td>
 </tr>

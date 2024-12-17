@@ -97,9 +97,9 @@ XMLView.create({
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
-**Next:**[Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.")
+**Next:**[Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the &quot;Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.")
 
-**Previous:**[Step 5: Controllers \(TypeScript\)](Step_5_Controllers_TypeScript_e5c58fe.md "In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's press event is implemented in the controller of the view.")
+**Previous:**[Step 5: Controllers \(TypeScript\)](Step_5_Controllers_TypeScript_e5c58fe.md "In this step, we replace the text with a button and show the &quot;Hello World” message when the button is pressed. The handling of the button's press event is implemented in the controller of the view.")
 
 **Related Information**  
 

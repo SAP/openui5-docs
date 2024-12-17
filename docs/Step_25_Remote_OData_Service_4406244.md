@@ -123,7 +123,7 @@ Our component now automatically creates an instance of `sap.ui.model.odata.v2.OD
 
 **Next:**[Step 24: Sorting and Grouping](Step_24_Sorting_and_Grouping_c4b2a32.md "To make our list of invoices even more user-friendly, we sort it alphabetically instead of just showing the order from the data model. Additionally, we introduce groups and add the company that ships the products so that the data is easier to consume.")
 
-**Previous:**[Step 26: Mock Server Configuration](Step_26_Mock_Server_Configuration_bae9d90.md "We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the “real” service or put additional load on the system where the data service is located.")
+**Previous:**[Step 26: Mock Server Configuration](Step_26_Mock_Server_Configuration_bae9d90.md "We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the &quot;real” service or put additional load on the system where the data service is located.")
 
 **Related Information**  
 

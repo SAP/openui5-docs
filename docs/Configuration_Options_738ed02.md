@@ -12,6 +12,12 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/738ed0
 
 The UI5 test suite module contains the configuration for the UI5 test suite.
 
+***
+
+<a name="loio738ed025b36e484fa99046d0f80552fd__section_vyx_hpm_sdc"/>
+
+### **Available Options and Default Values**
+
 The following options are available on the `defaults` and the individual test configuration objects:
 
 > ### Note:  
@@ -156,8 +162,15 @@ The following options are available on the `defaults` and the individual test co
 		theme: "sap_horizon"
 	},
 
+     /*
+	 * UI5 Loader configuration.
+	 *
+	 * The provided configuration will be passed to `sap.ui.loader.config` and can be used to 
+      * configure paths, shims, and other loader configuration.
+	 */
+	 loader: {},
 
-	/*
+	 /*
 	 * Whether the test starter should call QUnit.start() after all prerequisites have been fulfilled
 	 * (e.g. QUnit, Sinon, a bridge, have been loaded, coverage tooling has been loaded and configured,
 	 * the Core has been booted, the test modules have been loaded and executed).

@@ -22,7 +22,7 @@ Set up your development environment and go through our tutorials. They introduce
 
 -   Set up your [Development Environment](Development_Environment_7bb04e0.md). We recommend UI5 Tooling , but you could also use other development environments.
 
--   Set up a folder where you would place the application content. We will refer to this folder as the “app root folder”.
+-   Set up a folder where you would place the application content. We will refer to this folder as the "app root folder”.
 
 
 ***

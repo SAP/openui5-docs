@@ -128,7 +128,7 @@ In the app view, we now remove everything and between the control aggregation `p
 
 We thus have everything we need to define a routing from the start view to the details view we just defined. We'd like to start with the app view loading our new overview view by default and being replaced by the detail view when a specific route has been hit.
 
-We add a new “routing" section to the `sap.ui5` part of the descriptor. There are three subsections that define the routing and navigation structure of the app:
+We add a new "routing" section to the `sap.ui5` part of the descriptor. There are three subsections that define the routing and navigation structure of the app:
 
 -   `config`
 
@@ -187,7 +187,7 @@ We add a new “routing" section to the `sap.ui5` part of the descriptor. There 
 }
 ```
 
-The router will automatically add the view that corresponds to the current URL into the app control. The router identifies the app control with the ID that corresponds to the property `controlId: “app”` in the app descriptor.
+The router will automatically add the view that corresponds to the current URL into the app control. The router identifies the app control with the ID that corresponds to the property `controlId: "app”` in the app descriptor.
 
 The overview view is always shown when the hash is empty. The detail view is shown when the hash matches the pattern `detail`.
 

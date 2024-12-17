@@ -89,7 +89,7 @@ sap.ui.require(["sap/ui/core/Locale", "sap/ui/core/LocaleData"],
 
 #### Plural Forms and RTL
 
-Depending on the set locale/language, the output also correctly regards grammatical plural forms, as well as right-to-left orientation. In some Arabic languages, for example, there is a distinction between “many” and “one”, with “one” being a single string without a number in it:
+Depending on the set locale/language, the output also correctly regards grammatical plural forms, as well as right-to-left orientation. In some Arabic languages, for example, there is a distinction between "many” and "one”, with "one” being a single string without a number in it:
 
 ```
 

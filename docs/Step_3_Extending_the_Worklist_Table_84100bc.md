@@ -72,7 +72,7 @@ We want to display the supplier’s company name in a separate column in the tab
 We expand the supplier because we want to avoid sending one additional request for each product to get the supplier. Furthermore, this allows us to bind directly to `{Supplier/CompanyName}` later.
 
 > ### Note:  
-> **OData’s “expand” Mechanism:**
+> **OData’s "expand” Mechanism:**
 > 
 > OData `$expand` is very helpful when combining data from different service entities. Instead of having to send an additional service request for the second entity, we simply expand the service call to include the second entity as well – similar to a join in a relational database. Have a look at the local service metadata definition file `webapp/localService/metadata.xml` that represents the interface of our service. In the `metadata` you can see a list of entities that are available in this service, for example `Products` and `Suppliers`. Each entity lists a number of fields that we can bind to the properties of our view.
 
@@ -271,7 +271,7 @@ The next task is to define the cells to appear in each row of the table. For eac
 
 -   The *Supplier* cell of each row is a simple `sap.m.Text` control. Its text property is bound to `Supplier/CompanyName`. This references the property `CompanyName` of the entity’s `NavigationProperty` `Supplier`. This `NavigationProperty` will be expanded automatically; we configured this earlier in this step.
 
--   The *Price* cell uses an `sap.m.ObjectNumber` control and a custom formatter. You can find the formatter’s implementation in the `webapp/model/formatter.js` file. The unit property is not bound and hard coded to “EUR” as the currency is not part of the model for our app. The units on order are displayed with a sap.m.ObjectNumber control as well, but without additional formatting. Its `unit` property is hard coded to `PC`, which is the short form for "pieces".
+-   The *Price* cell uses an `sap.m.ObjectNumber` control and a custom formatter. You can find the formatter’s implementation in the `webapp/model/formatter.js` file. The unit property is not bound and hard coded to "EUR” as the currency is not part of the model for our app. The units on order are displayed with a sap.m.ObjectNumber control as well, but without additional formatting. Its `unit` property is hard coded to `PC`, which is the short form for "pieces".
 
 -   The last cell shows the units in stock and was already specified in the previous step. We would like to use this field to show an additional status based on the stock level so we change the binding syntax to an object notation and add an additional formatter `quantityState`. We implemented this formatter in the previous code block above.
 
