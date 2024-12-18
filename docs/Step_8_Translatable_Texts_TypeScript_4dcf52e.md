@@ -100,7 +100,7 @@ export default class AppController extends Controller {
 
 The bundle name \(`ui5.walkthrough.i18n.i18n`\) consists of the application namespace `ui5.walkthrough` \(the application root as defined in the `index.html`\), the resource folder name `i18n`, and finally the base file name `i18n` without extension. The OpenUI5 runtime calculates the correct path to the resource, to which `.properties` is then appended.
 
-During runtime, OpenUI5 tries to load the correct`i18n_*.properties` file based on your browser settings and your locale. In our case we have only created the base `i18n.properties` file to make it simple. However, you can see in the network traffic of your browser’s developer tools that OpenUI5 tries to load one or more `i18n_*.properties` files before falling back to the default `i18n.properties` file.
+During runtime, OpenUI5 tries to load the correct`i18n_*.properties` file based on your browser settings and your locale. In our case we have only created the base `i18n.properties` file to make it simple. However, you can see in the network traffic of your browser's developer tools that OpenUI5 tries to load one or more `i18n_*.properties` files before falling back to the default `i18n.properties` file.
 
 ***
 
@@ -150,7 +150,7 @@ A resource bundle is a flat structure, therefore the preceding slash \(/\) can b
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
-**Next:**[Step 7: JSON Model \(TypeScript\)](Step_7_JSON_Model_TypeScript_cfbbeab.md "Now that we have set up the view and controller, it’s about time to think about the M in MVC.")
+**Next:**[Step 7: JSON Model \(TypeScript\)](Step_7_JSON_Model_TypeScript_cfbbeab.md "Now that we have set up the view and controller, it's about time to think about the M in MVC.")
 
 **Previous:**[Step 9: Component Configuration \(TypeScript\)](Step_9_Component_Configuration_TypeScript_f9d0e2f.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept, we now come to another important structural aspect of OpenUI5.")
 

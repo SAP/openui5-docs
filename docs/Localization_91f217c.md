@@ -20,9 +20,9 @@ For the identification of languages, the framework uses a language code of type 
 		are the language-dependent texts and the keys are language-independent and used by the
 		application to identify and access the corresponding values.")**  
 A resource bundle file is a Java properties file \(as described in the Javadoc of class `java.util.Properties`\). It contains key-value pairs where the values are the language-dependent texts and the keys are language-independent and used by the application to identify and access the corresponding values.
--   **[Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md "You can configure a list of supported locales and a fallback locale in your app’s manifest to control the loading of resource bundles and
-		avoid ‘404 Not Found’ network responses. ")**  
-You can configure a list of supported locales and a fallback locale in your app’s manifest to control the loading of resource bundles and avoid ‘404 Not Found’ network responses.
+-   **[Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md "You can configure a list of supported locales and a fallback locale in your app's manifest to control the loading of resource bundles and
+		avoid '404 Not Found' network responses. ")**  
+You can configure a list of supported locales and a fallback locale in your app's manifest to control the loading of resource bundles and avoid '404 Not Found' network responses.
 -   **[Use of Localized Texts in Applications](Use_of_Localized_Texts_in_Applications_91f3859.md "OpenUI5 provides two
 		options to use localized texts in applications: The
 			sap/base/i18n/ResourceBundle module and data binding.")**  

@@ -239,7 +239,7 @@ Control
 
 We have applied the following visual changes, which improve the prioritization of the displayed information on small screen sizes:
 
--   The title of the `sap.m.NotificationListGroup` doesn’t truncate any more. Instead, it wraps to as many lines it needs.
+-   The title of the `sap.m.NotificationListGroup` doesn't truncate any more. Instead, it wraps to as many lines it needs.
 
 -   The avatar of the `sap.m.NotificationListItem` is hidden in small \(S\) control size.
 

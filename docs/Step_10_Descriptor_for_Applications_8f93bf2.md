@@ -81,7 +81,7 @@ You can view and download all files at [Walkthrough - Step 10](https://sdk.openu
 > ### Note:  
 > In this tutorial, we only introduce the most important settings and parameters of the descriptor file. In some development environments you may get validation errors because some settings are missing - you can ignore those in this context.
 
-The content of the `manifest.json` file is a configuration object in JSON format that contains all global application settings and parameters. The manifest file is called the descriptor for applications, components, and libraries and is also referred to as "descriptor” or "app descriptor” when used for applications. It is stored in the `webapp` folder and read by OpenUI5 to instantiate the component. There are three important sections defined by namespaces in the `manifest.json` file:
+The content of the `manifest.json` file is a configuration object in JSON format that contains all global application settings and parameters. The manifest file is called the descriptor for applications, components, and libraries and is also referred to as "descriptor" or "app descriptor" when used for applications. It is stored in the `webapp` folder and read by OpenUI5 to instantiate the component. There are three important sections defined by namespaces in the `manifest.json` file:
 
 -   **`sap.app`**
 
@@ -234,7 +234,7 @@ In the component's `metadata` section, we now replace the `rootView` property wi
 
 **Next:**[Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept, we now come to another important structural aspect of OpenUI5.")
 
-**Previous:**[Step 11: Pages and Panels](Step_11_Pages_and_Panels_3b9d9f8.md "After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the sap.m library to add a bit more &quot;bling&quot; to our UI. You will also learn about control aggregations in this step.")
+**Previous:**[Step 11: Pages and Panels](Step_11_Pages_and_Panels_3b9d9f8.md "After all the work on the app structure it's time to improve the look of our app. We will use two controls from the sap.m library to add a bit more &quot;bling&quot; to our UI. You will also learn about control aggregations in this step.")
 
 **Related Information**  
 

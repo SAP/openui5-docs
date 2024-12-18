@@ -40,6 +40,6 @@ You may just want to get the runtime from the OpenUI5 website at [http://openui5
 
 2.  Unzip this archive and put the entire content onto the web server where your application runs \(or you could package it within your application to deploy it along with the app\).
 
-3.  In your app’s main HTML file, load OpenUI5 by referring to the `resources/sap-ui-core.js` file that was contained in the ZIP archive. \(See [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).\)
+3.  In your app's main HTML file, load OpenUI5 by referring to the `resources/sap-ui-core.js` file that was contained in the ZIP archive. \(See [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).\)
 
 

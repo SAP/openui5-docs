@@ -80,7 +80,7 @@ We also have one dedicated folder for **localization** files. An OpenUI5 app wil
 
 **The `localService` Folder**
 
-The `localService` folder is used to emulate OData services for tests or as a preview mode for your application. It is also intended for design-time tools since it contains the `metadata.xml` file, which describes the backend connection of your application. You need to have one `metadata.xml` file per OData service, which exactly matches the remote service’s metadata. The location of this file also needs to be maintained in the data sources section of the `manifest.json` file. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md).
+The `localService` folder is used to emulate OData services for tests or as a preview mode for your application. It is also intended for design-time tools since it contains the `metadata.xml` file, which describes the backend connection of your application. You need to have one `metadata.xml` file per OData service, which exactly matches the remote service's metadata. The location of this file also needs to be maintained in the data sources section of the `manifest.json` file. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](Manifest_Descriptor_for_Applications_Components_and_Libraries_be0cf40.md).
 
 ![](images/loio00728aff82c54419b1d7acd61c76455f_HiRes.png)
 

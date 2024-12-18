@@ -187,7 +187,7 @@ We add a new "routing" section to the `sap.ui5` part of the descriptor. There ar
 }
 ```
 
-The router will automatically add the view that corresponds to the current URL into the app control. The router identifies the app control with the ID that corresponds to the property `controlId: "app”` in the app descriptor.
+The router will automatically add the view that corresponds to the current URL into the app control. The router identifies the app control with the ID that corresponds to the property `controlId: "app"` in the app descriptor.
 
 The overview view is always shown when the hash is empty. The detail view is shown when the hash matches the pattern `detail`.
 

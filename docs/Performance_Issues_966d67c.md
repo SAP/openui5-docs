@@ -138,7 +138,7 @@ Controller code:
 	...
 ```
 
-In other scenarios, at the time of developing you may not know which UI part is displayed initially. In this case, you can define that the UI is empty \(showing none of the panels\) in the view definition, and the controller’s `onInit()` method decides which fragment to instantiate and display initially:
+In other scenarios, at the time of developing you may not know which UI part is displayed initially. In this case, you can define that the UI is empty \(showing none of the panels\) in the view definition, and the controller's `onInit()` method decides which fragment to instantiate and display initially:
 
 ```js
 	...
@@ -160,7 +160,7 @@ In other scenarios, at the time of developing you may not know which UI part is 
 > ### Note:  
 > Although the example above shows an XML view and an XML fragment, the problem and the solution apply to all view types.
 > 
-> Please also note that this guideline is not set in stone: If the hidden UI elements are just small or few in number, using fragments would not help but add additional overhead instead. Having said that, creating several big tables and displaying only one of them is **not** a good idea. There is no definite rule where to draw the line, it depends on many factors like application size, number of libraries being loaded, and additional data requested by those hidden controls. If in doubt, you can test the performance using the performance tracing tools in the browser’s developer console with the controls in question being hidden, against them being removed.
+> Please also note that this guideline is not set in stone: If the hidden UI elements are just small or few in number, using fragments would not help but add additional overhead instead. Having said that, creating several big tables and displaying only one of them is **not** a good idea. There is no definite rule where to draw the line, it depends on many factors like application size, number of libraries being loaded, and additional data requested by those hidden controls. If in doubt, you can test the performance using the performance tracing tools in the browser's developer console with the controls in question being hidden, against them being removed.
 
 See also: [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md).
 

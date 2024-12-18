@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/dad190
 
 In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.
 
-We first introduce you to the basic development paradigms like *Model-View-Controller* and establish a best-practice structure of our application. We'll do this along the classic example of "Hello World” and start a new app from scratch. Next, we'll introduce the fundamental data binding concepts of OpenUI5 and extend our app to show a list of invoices. We'll continue to add more functionality by adding navigation, extending controls, and making our app responsive. We'll also have a look at the testing features and the built-in support tools of OpenUI5.
+We first introduce you to the basic development paradigms like *Model-View-Controller* and establish a best-practice structure of our application. We'll do this along the classic example of "Hello World" and start a new app from scratch. Next, we'll introduce the fundamental data binding concepts of OpenUI5 and extend our app to show a list of invoices. We'll continue to add more functionality by adding navigation, extending controls, and making our app responsive. We'll also have a look at the testing features and the built-in support tools of OpenUI5.
 
 ***
 
@@ -29,32 +29,32 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 
 The tutorial consists of the following steps. To start, just open the first link - you'll be guided from there.
 
-1.  [Step 1: Hello World! \(TypeScript\)](Step_1_Hello_World_TypeScript_c20489e.md "As you know OpenUI5 is all about HTML5. Let’s get started with building a
-		first &quot;Hello World” with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with
+1.  [Step 1: Hello World! \(TypeScript\)](Step_1_Hello_World_TypeScript_c20489e.md "As you know OpenUI5 is all about HTML5. Let's get started with building a
+		first &quot;Hello World&quot; with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with
 		it.")  
-As you know OpenUI5 is all about HTML5. Let’s get started with building a first "Hello World” with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.
+As you know OpenUI5 is all about HTML5. Let's get started with building a first "Hello World" with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.
 2.  [Step 2: Bootstrap \(TypeScript\)](Step_2_Bootstrap_TypeScript_32b14d8.md "Before we can do something with OpenUI5, we need to load and
 		initialize it. This process of loading and initializing OpenUI5 is called
 		bootstrapping. Once this bootstrapping is finished, we simply
 		display an alert.")  
 Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called **bootstrapping**. Once this bootstrapping is finished, we simply display an alert.
-3.  [Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the &quot;Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
+3.  [Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the &quot;Hello World&quot; text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
 		TypeScript control API to set up the UI, the control instance is then placed into the HTML body. ")  
-Now it is time to build our first little UI by replacing the "Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.
+Now it is time to build our first little UI by replacing the "Hello World" text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.
 4.  [Step 4: XML Views \(TypeScript\)](Step_4_XML_Views_TypeScript_6c66ed8.md "Putting all our UI into the index.ts file will very soon result in a messy setup, and there is quite a bit of work ahead
-		of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated
+		of us. So let's do a first modularization by putting the sap/m/Text control into a dedicated
 		view.")  
-Putting all our UI into the `index.ts` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
-5.  [Step 5: Controllers \(TypeScript\)](Step_5_Controllers_TypeScript_e5c58fe.md "In this step, we replace the text with a button and show the &quot;Hello World” message
+Putting all our UI into the `index.ts` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let's do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
+5.  [Step 5: Controllers \(TypeScript\)](Step_5_Controllers_TypeScript_e5c58fe.md "In this step, we replace the text with a button and show the &quot;Hello World&quot; message
 		when the button is pressed. The handling of the button's press event is
 		implemented in the controller of the view.")  
-In this step, we replace the text with a button and show the "Hello World” message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
+In this step, we replace the text with a button and show the "Hello World" message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
 6.  [Step 6: Modules \(TypeScript\)](Step_6_Modules_TypeScript_3510034.md "In OpenUI5, resources are often referred to as modules. In this step, we
 		replace the alert from the last exercise with a proper Message Toast from the sap.m library.")  
 In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the `sap.m` library.
-7.  [Step 7: JSON Model \(TypeScript\)](Step_7_JSON_Model_TypeScript_cfbbeab.md "Now that we have set up the view and controller, it’s about time to think about the M
+7.  [Step 7: JSON Model \(TypeScript\)](Step_7_JSON_Model_TypeScript_cfbbeab.md "Now that we have set up the view and controller, it's about time to think about the M
 		in MVC.")  
-Now that we have set up the view and controller, it’s about time to think about the M in MVC.
+Now that we have set up the view and controller, it's about time to think about the M in MVC.
 8.  [Step 8: Translatable Texts \(TypeScript\)](Step_8_Translatable_Texts_TypeScript_4dcf52e.md "In this step we move the texts of our UI to a separate resource file.")  
 In this step we move the texts of our UI to a separate resource file.
 9.  [Step 9: Component Configuration \(TypeScript\)](Step_9_Component_Configuration_TypeScript_f9d0e2f.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept,
@@ -67,14 +67,14 @@ After we have introduced all three parts of the Model-View-Controller \(MVC\) co
 		are realized as components and come with a descriptor file in order to be hosted in the
 			SAP Fiori launchpad.")  
 All application-specific configuration settings will now further be put in a separate descriptor file called `manifest.json`. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.
-11. [Step 11: Pages and Panels \(TypeScript\)](Step_11_Pages_and_Panels_TypeScript_feed613.md "After all the work on the app structure it’s time to improve the look of our app. We
+11. [Step 11: Pages and Panels \(TypeScript\)](Step_11_Pages_and_Panels_TypeScript_feed613.md "After all the work on the app structure it's time to improve the look of our app. We
 		will use two controls from the sap.m library to add a bit more &quot;bling&quot; to
 		our UI. You will also learn about control aggregations in this step.")  
-After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the `sap.m` library to add a bit more "bling" to our UI. You will also learn about control aggregations in this step.
+After all the work on the app structure it's time to improve the look of our app. We will use two controls from the `sap.m` library to add a bit more "bling" to our UI. You will also learn about control aggregations in this step.
 12. [Step 12: Shell Control as Container \(TypeScript\)](Step_12_Shell_Control_as_Container_TypeScript_4af44cb.md "Now we use a shell control as container for our app and use it as our new root
-		element. The shell takes care of visual adaptation of the application to the device’s screen
+		element. The shell takes care of visual adaptation of the application to the device's screen
 		size by introducing a so-called letterbox on desktop screens.")  
-Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device’s screen size by introducing a so-called letterbox on desktop screens.
+Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device's screen size by introducing a so-called letterbox on desktop screens.
 13. [Step 13: Margins and Paddings \(TypeScript\)](Step_13_Margins_and_Paddings_TypeScript_5826c0c.md "Our app content is still glued to the corners of the letterbox. To fine-tune our
 		layout, we can add margins and paddings to the controls that we added in the previous step. ")  
 Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.
@@ -130,9 +130,9 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
 		service to visualize remote data.")  
 So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.
 26. [Step 26: Mock Server Configuration \(TypeScript\)](Step_26_Mock_Server_Configuration_TypeScript_3e1c64f.md "We just ran our app against a real service, but for developing and testing our app we
-		do not want to rely on the availability of the &quot;real” service or put additional load on the
+		do not want to rely on the availability of the &quot;real&quot; service or put additional load on the
 		system where the data service is located.")  
-We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the "real” service or put additional load on the system where the data service is located.
+We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the "real" service or put additional load on the system where the data service is located.
 27. [Step 27: Unit Test with QUnit \(TypeScript\)](Step_27_Unit_Test_with_QUnit_TypeScript_750c8c1.md "Now that we have a test folder in the app, we can start to increase our test
 		coverage. ")  
 Now that we have a test folder in the app, we can start to increase our test coverage.
@@ -170,11 +170,11 @@ In this step, we improve the responsiveness of our app. OpenUI5 applications can
 		we run the application on. By making use of the sap.ui.Device API and
 		defining a device model we will make the app look great on many devices.")  
 We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the `sap.ui.Device` API and defining a device model we will make the app look great on many devices.
-36. [Step 36: Content Density \(TypeScript\)](Step_36_Content_Density_TypeScript_667aa4a.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. Content density refers to the spacing
+36. [Step 36: Content Density \(TypeScript\)](Step_36_Content_Density_TypeScript_667aa4a.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user's device. Content density refers to the spacing
 		and sizing of the UI controls and elements within your application. OpenUI5
 		contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for
 		devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")  
-In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. Content density refers to the spacing and sizing of the UI controls and elements within your application. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.
+In this step of our Walkthrough tutorial, we adjust the content density based on the user's device. Content density refers to the spacing and sizing of the UI controls and elements within your application. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.
 37. [Step 37: Accessibility \(TypeScript\)](Step_37_Accessibility_TypeScript_5a74cea.md "In this step we're going to improve the accessibility of our app.")  
 In this step we're going to improve the accessibility of our app.
 38. [Step 38: Build Your Application \(TypeScript\)](Step_38_Build_Your_Application_TypeScript_be33d01.md "In this step we're going to build our application and consume the speed of a built OpenUI5 application.")  

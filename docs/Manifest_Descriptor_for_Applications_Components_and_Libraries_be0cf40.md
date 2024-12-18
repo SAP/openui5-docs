@@ -1985,7 +1985,7 @@ Specifies the root view that shall be opened; can be the view name as a string f
 </td>
 <td valign="top">
 
-true, false \(default\), Enables the auto prefixing for the UIComponent for IDs of ManagedObjects \(controls or elements\) which are created in the context of the `createContent` function, or any other invocation of the `Component.prototype.runAsOwner()` function \(for example a component’s router uses this method when creating new views\).
+true, false \(default\), Enables the auto prefixing for the UIComponent for IDs of ManagedObjects \(controls or elements\) which are created in the context of the `createContent` function, or any other invocation of the `Component.prototype.runAsOwner()` function \(for example a component's router uses this method when creating new views\).
 
 In former OpenUI5 releases this prefixing of the ID needed to be done with `oComponent.createId` by overwriting the method `getAutoPrefixId`. The same can now be achieved declaratively by setting `autoPrefixId` to true.
 
@@ -2183,7 +2183,7 @@ Describes the card type; possible values are `list` and `analytical`
 </td>
 <td valign="top">
 
-Specifies the card’s header area
+Specifies the card's header area
 
 </td>
 </tr>

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/03b914
 
 In this guide we cover the most important accessibility aspects for application development, based on OpenUI5.
 
-As an application developer, you need to be aware of accessibility in every step of the process. OpenUI5 controls have built-in accessibility features, but you need to take care when building and combining them into an application. First check the information in [Accessibility](Accessibility_322f55d.md) in the Essentials section, if you haven’t already.
+As an application developer, you need to be aware of accessibility in every step of the process. OpenUI5 controls have built-in accessibility features, but you need to take care when building and combining them into an application. First check the information in [Accessibility](Accessibility_322f55d.md) in the Essentials section, if you haven't already.
 
 The following chapters showcase different aspects and offer tips how to test your app.
 

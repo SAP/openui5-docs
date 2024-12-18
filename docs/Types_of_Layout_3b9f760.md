@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3b9f76
 
 Overview of the possible layouts for an `sap.f.FlexibleColumnLayout`, as defined in the `sap.f.LayoutType` enumeration.
 
-Although the `FlexibleColumnLayout` can display 2 or 3 pages at one time, they can never have equal width \(50%/50% or 33%/33%/33%\). One of the pages is always larger \(expanded\) or even takes up the full width of the control \(fullscreen\). This is intentional because users should have a clear indication of what to focus their attention on at any given moment, for example, a list of items, one particular item, one item’s details.
+Although the `FlexibleColumnLayout` can display 2 or 3 pages at one time, they can never have equal width \(50%/50% or 33%/33%/33%\). One of the pages is always larger \(expanded\) or even takes up the full width of the control \(fullscreen\). This is intentional because users should have a clear indication of what to focus their attention on at any given moment, for example, a list of items, one particular item, one item's details.
 
 Transitioning from a one-column layout to any two-column layout, and then to any three-column layout is seen by the user as new columns appearing/disappearing on desktop/tablet or the next column replacing the previous one - on phone \(small screen size\). The app does not need to provide separate logic for the different screen sizes, but only change the layout based on the user input and desired behavior. The `FlexibleColumnLayout` will internally manage column visibility and resizing. If at any time, the browser size changes, this will be reflected by the control automatically.
 

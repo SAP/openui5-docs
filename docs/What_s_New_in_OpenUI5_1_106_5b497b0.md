@@ -130,7 +130,7 @@ Control
 
     For more information, see the [Object Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/typesDeclarative/object) section and the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/object/titleMaxLinesAndLabelWrapping) in the Card Explorer.
 
--   You can now control the visibility of List card item’s attributes using the new `visible` Boolean property.
+-   You can now control the visibility of List card item's attributes using the new `visible` Boolean property.
 
     For more information, see the [List Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/typesDeclarative/list) section and the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list/attributesVisibility) in the Card Explorer.
 

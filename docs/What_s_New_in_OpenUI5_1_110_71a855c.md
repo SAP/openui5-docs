@@ -693,7 +693,7 @@ Control
 
 **`sap.m.Carousel`**
 
-Using the new `backgroundDesign` property, you can now set the carousel’s background color as `Translucent` \(Default\), `Solid`, or `Transparent`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Carousel) and the [Sample](https://sdk.openui5.org/entity/sap.m.Carousel/sample/sap.m.sample.CarouselWithDisplayOptions).
+Using the new `backgroundDesign` property, you can now set the carousel's background color as `Translucent` \(Default\), `Solid`, or `Transparent`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Carousel) and the [Sample](https://sdk.openui5.org/entity/sap.m.Carousel/sample/sap.m.sample.CarouselWithDisplayOptions).
 
 <sub>Changed•Control•Info Only•1.110</sub>
 

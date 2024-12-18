@@ -59,7 +59,7 @@ The binding mode defines how the data sources are bound to the UI. OpenUI5 provi
     > For more information on the different types of binding available, see [Binding Types](Binding_Types_91f0d8a.md).
 
     > ### Note:  
-    > When using formatter functions, the binding is automatically switched to "one-way". So you can’t use a formatter function for "two-way" scenarios, but you can use [Data Types](Formatting_Parsing_and_Validating_Data_07e4b92.md#loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes).
+    > When using formatter functions, the binding is automatically switched to "one-way". So you can't use a formatter function for "two-way" scenarios, but you can use [Data Types](Formatting_Parsing_and_Validating_Data_07e4b92.md#loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes).
 
 -   **One-time binding** means from model to view once.
 

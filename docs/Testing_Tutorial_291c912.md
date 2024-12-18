@@ -71,11 +71,11 @@ Now that we have implemented the conversion tests, we add the corresponding func
 		with the unit test, we start by writing an integration test for this feature and then add
 		the application functionality later.")  
 A bulletin board may contain many posts. We expect to have a high data load once it is officially released. Then, there might be performance issues and long loading times if we display all entries at the same time. Therefore we will introduce a feature that limits the initial display to 20 items. The user can then click on a more button to view more items. As with the unit test, we start by writing an integration test for this feature and then add the application functionality later.
-7.  [Step 7: Changing the Table to a Growing Table](Step_7_Changing_the_Table_to_a_Growing_Table_016e0d4.md "Let’s switch back to developing and add the missing feature for the test we
+7.  [Step 7: Changing the Table to a Growing Table](Step_7_Changing_the_Table_to_a_Growing_Table_016e0d4.md "Let's switch back to developing and add the missing feature for the test we
 		implemented in the previous step. We will simply change the table to a growing table as this
 		is a basic feature of the table. This will display a trigger at the end of the table that
 		the user can click on to display more items.")  
-Let’s switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.
+Let's switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.
 8.  [Step 8: Testing Navigation](Step_8_Testing_Navigation_10592af.md "So far, we have a list of posts on the home page of the app. But typically, a
 			post comes with more details that should be displayed on a separate detail page. We call
 			it the post page because it displays details of a post. In this step we will introduce a new journey to test the post page. We write

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/322f55
 
 Accessibility features are essential for the usability of each application and essential for users with disabilities. In an ongoing approach, OpenUI5 controls aim to comply with various accessibility standards such as screen reader support, high contrast theming, and keyboard handling.
 
-OpenUI5 is constantly evolving and improving along the line of accessibility. SAP is including latest changes to accessibility regulations and industry standards into its guiding accessibility development policy and related accessibility testing procedures. We are continuously making improvements with every new version of the framework. Therefore, it’s important, if you want to get the latest and greatest features and enhancements on the topic of accessibility, you should regularly update to the last available version.
+OpenUI5 is constantly evolving and improving along the line of accessibility. SAP is including latest changes to accessibility regulations and industry standards into its guiding accessibility development policy and related accessibility testing procedures. We are continuously making improvements with every new version of the framework. Therefore, it's important, if you want to get the latest and greatest features and enhancements on the topic of accessibility, you should regularly update to the last available version.
 
 The following topics provide important accessibility information related to OpenUI5 controls.
 

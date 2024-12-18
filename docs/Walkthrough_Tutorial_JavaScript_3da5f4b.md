@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3da5f4
 
 In this tutorial we will introduce you to all major development paradigms of OpenUI5.
 
-We first introduce you to the basic development paradigms like *Model-View-Controller* and establish a best-practice structure of our application. We'll do this along the classic example of "Hello World” and start a new app from scratch. Next, we'll introduce the fundamental data binding concepts of OpenUI5 and extend our app to show a list of invoices. We'll continue to add more functionality by adding navigation, extending controls, and making our app responsive. Finally we'll look at the testing features and the built-in support tools of OpenUI5.
+We first introduce you to the basic development paradigms like *Model-View-Controller* and establish a best-practice structure of our application. We'll do this along the classic example of "Hello World" and start a new app from scratch. Next, we'll introduce the fundamental data binding concepts of OpenUI5 and extend our app to show a list of invoices. We'll continue to add more functionality by adding navigation, extending controls, and making our app responsive. Finally we'll look at the testing features and the built-in support tools of OpenUI5.
 
 ***
 
@@ -30,31 +30,31 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 > For more information, see the overview page: [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md).
 
 1.  [Step 1: Hello World!](Step_1_Hello_World_2680aa9.md "As you know OpenUI5 is
-		all about HTML5. Let’s get started with building a first &quot;Hello World” with only
+		all about HTML5. Let's get started with building a first &quot;Hello World&quot; with only
 		HTML.")  
-As you know OpenUI5 is all about HTML5. Let’s get started with building a first "Hello World” with only HTML.
+As you know OpenUI5 is all about HTML5. Let's get started with building a first "Hello World" with only HTML.
 2.  [Step 2: Bootstrap](Step_2_Bootstrap_fe12df2.md "Before we can do something with OpenUI5, we need to load and
 		initialize it. This process of loading and initializing OpenUI5 is called
 			bootstrapping. Once this bootstrapping is finished, we simply
 		display an alert.")  
 Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called **bootstrapping**. Once this bootstrapping is finished, we simply display an alert.
-3.  [Step 3: Controls](Step_3_Controls_ddbceec.md "Now it is time to build our first little UI by replacing the &quot;Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
+3.  [Step 3: Controls](Step_3_Controls_ddbceec.md "Now it is time to build our first little UI by replacing the &quot;Hello World&quot; text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
 		JavaScript control API to set up the UI, the control instance is then placed into the HTML body. ")  
-Now it is time to build our first little UI by replacing the "Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the JavaScript control API to set up the UI, the control instance is then placed into the HTML body.
+Now it is time to build our first little UI by replacing the "Hello World" text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the JavaScript control API to set up the UI, the control instance is then placed into the HTML body.
 4.  [Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.js file will very soon result in a messy setup, and there is quite a bit of work ahead
-		of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated
+		of us. So let's do a first modularization by putting the sap/m/Text control into a dedicated
 		view.")  
-Putting all our UI into the `index.js` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
-5.  [Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the &quot;Hello World” message
+Putting all our UI into the `index.js` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let's do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
+5.  [Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the &quot;Hello World&quot; message
 		when the button is pressed. The handling of the button's press event is
 		implemented in the controller of the view.")  
-In this step, we replace the text with a button and show the "Hello World” message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
+In this step, we replace the text with a button and show the "Hello World" message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
 6.  [Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we
 		replace the alert from the last exercise with a proper Message Toast from the sap.m library.")  
 In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the `sap.m` library.
-7.  [Step 7: JSON Model](Step_7_JSON_Model_70ef981.md "Now that we have set up the view and controller, it’s about time to think about the M
+7.  [Step 7: JSON Model](Step_7_JSON_Model_70ef981.md "Now that we have set up the view and controller, it's about time to think about the M
 		in MVC.")  
-Now that we have set up the view and controller, it’s about time to think about the M in MVC.
+Now that we have set up the view and controller, it's about time to think about the M in MVC.
 8.  [Step 8: Translatable Texts](Step_8_Translatable_Texts_df86bfb.md "In this step we move the texts of our UI to a separate resource file.")  
 In this step we move the texts of our UI to a separate resource file.
 9.  [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept,
@@ -67,14 +67,14 @@ After we have introduced all three parts of the Model-View-Controller \(MVC\) co
 		are realized as components and come with a descriptor file in order to be hosted in the
 			SAP Fiori launchpad.")  
 All application-specific configuration settings will now further be put in a separate descriptor file called `manifest.json`. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.
-11. [Step 11: Pages and Panels](Step_11_Pages_and_Panels_3b9d9f8.md "After all the work on the app structure it’s time to improve the look of our app. We
+11. [Step 11: Pages and Panels](Step_11_Pages_and_Panels_3b9d9f8.md "After all the work on the app structure it's time to improve the look of our app. We
 		will use two controls from the sap.m library to add a bit more &quot;bling&quot; to
 		our UI. You will also learn about control aggregations in this step.")  
-After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the `sap.m` library to add a bit more "bling" to our UI. You will also learn about control aggregations in this step.
+After all the work on the app structure it's time to improve the look of our app. We will use two controls from the `sap.m` library to add a bit more "bling" to our UI. You will also learn about control aggregations in this step.
 12. [Step 12: Shell Control as Container](Step_12_Shell_Control_as_Container_4df1d91.md "Now we use a shell control as container for our app and use it as our new root
-		element. The shell takes care of visual adaptation of the application to the device’s screen
+		element. The shell takes care of visual adaptation of the application to the device's screen
 		size by introducing a so-called letterbox on desktop screens.")  
-Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device’s screen size by introducing a so-called letterbox on desktop screens.
+Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device's screen size by introducing a so-called letterbox on desktop screens.
 13. [Step 13: Margins and Paddings](Step_13_Margins_and_Paddings_17b87fb.md "Our app content is still glued to the corners of the letterbox. To fine-tune our
 		layout, we can add margins and paddings to the controls that we added in the previous step. ")  
 Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.
@@ -130,9 +130,9 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
 		service to visualize remote data.")  
 So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.
 26. [Step 26: Mock Server Configuration](Step_26_Mock_Server_Configuration_bae9d90.md "We just ran our app against a real service, but for developing and testing our app we
-		do not want to rely on the availability of the &quot;real” service or put additional load on the
+		do not want to rely on the availability of the &quot;real&quot; service or put additional load on the
 		system where the data service is located.")  
-We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the "real” service or put additional load on the system where the data service is located.
+We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the "real" service or put additional load on the system where the data service is located.
 27. [Step 27: Unit Test with QUnit](Step_27_Unit_Test_with_QUnit_e1ce1de.md "Now that we have a test folder in the app, we can start to increase our test
 		coverage. ")  
 Now that we have a test folder in the app, we can start to increase our test coverage.
@@ -171,11 +171,11 @@ In this step, we improve the responsiveness of our app. OpenUI5 applications can
 		defining a device model we will make the app look great on many devices.")  
 We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the `sap.ui.Device` API and defining a device model we will make the app look great on many devices.
 36. [Step 36: Content Density](Step_36_Content_Density_d935dbf.md "In this step of our Walkthrough tutorial, we adjust the content density based on the
-		user’s device. OpenUI5 contains
+		user's device. OpenUI5 contains
 		different content densities allowing you to display larger controls for touch-enabled
 		devices and a smaller, more compact design for devices that are operated by mouse. In our
 		app, we will detect the device and adjust the density accordingly.")  
-In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.
+In this step of our Walkthrough tutorial, we adjust the content density based on the user's device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.
 37. [Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md "In this step we're going to improve the accessibility of our app.")  
 In this step we're going to improve the accessibility of our app.
 38. [Step 38: Build Your Application](Step_38_Build_Your_Application_ae1be8c.md "In this step we're going to build our application and consume the speed of a built OpenUI5 application.")  

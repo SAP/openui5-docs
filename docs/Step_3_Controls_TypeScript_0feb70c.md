@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0feb70
 
 ## Step 3: Controls \(TypeScript\)
 
-Now it is time to build our first little UI by replacing the "Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.
+Now it is time to build our first little UI by replacing the "Hello World" text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.
 
 ***
 
@@ -49,7 +49,7 @@ This will install the type definitions for OpenUI5 and update the `package.json`
 
 ### webapp/index.ts
 
-We then make some changes to our `index.ts` file: We remove the `alert` method and instantiate an OpenUI5 `Text` control instead; its options are passed to the constructor with a TypeScript object. For our control we set the `text` property to the value "Hello World”.
+We then make some changes to our `index.ts` file: We remove the `alert` method and instantiate an OpenUI5 `Text` control instead; its options are passed to the constructor with a TypeScript object. For our control we set the `text` property to the value "Hello World".
 
 We chain the constructor call of the control to the standard `placeAt` method that is used to place OpenUI5 controls inside a node of the document object model \(DOM\) or any other OpenUI5 control instance. We pass the `content` ID as an argument.
 
@@ -121,7 +121,7 @@ This will configure the `sap.m` OpenUI5 library as a dependency in our `ui5.yaml
 
 **Next:**[Step 2: Bootstrap \(TypeScript\)](Step_2_Bootstrap_TypeScript_32b14d8.md "Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called bootstrapping. Once this bootstrapping is finished, we simply display an alert.")
 
-**Previous:**[Step 4: XML Views \(TypeScript\)](Step_4_XML_Views_TypeScript_6c66ed8.md "Putting all our UI into the index.ts file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated view.")
+**Previous:**[Step 4: XML Views \(TypeScript\)](Step_4_XML_Views_TypeScript_6c66ed8.md "Putting all our UI into the index.ts file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let's do a first modularization by putting the sap/m/Text control into a dedicated view.")
 
 **Related Information**  
 

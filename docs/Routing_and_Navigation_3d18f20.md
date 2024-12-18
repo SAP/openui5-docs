@@ -27,7 +27,7 @@ You use routing in the following cases:
 
 ![](images/loio3b3a63b7581c4d36b9657f07d678f176_LowRes.png "Routing overview")
 
-In OpenUI5, navigation and routing is implemented using a "router” to forward the hash change and the data in the hash to one or more views of the app.
+In OpenUI5, navigation and routing is implemented using a "router" to forward the hash change and the data in the hash to one or more views of the app.
 
 You use **routes** to notify your application that the hash has changed to a certain value. For each route, you define the pattern that can be used in the app implementation.
 
@@ -103,9 +103,9 @@ If you want to navigate to multiple targets with the same hash, you can either a
 -   **[Using the title Property in Targets](Using_the_title_Property_in_Targets_1238d70.md "Routing in OpenUI5 allows
         you to define titles declaratively in the configuration. The title can be set with valid
         binding syntax which is then resolved under the scope of the target to which it belongs.
-        This means that the title can be translated when it’s bound to the i18n model or resolved
+        This means that the title can be translated when it's bound to the i18n model or resolved
         dynamically under the current binding context.")**  
-Routing in OpenUI5 allows you to define titles declaratively in the configuration. The title can be set with valid binding syntax which is then resolved under the scope of the target to which it belongs. This means that the title can be translated when it’s bound to the i18n model or resolved dynamically under the current binding context.
+Routing in OpenUI5 allows you to define titles declaratively in the configuration. The title can be set with valid binding syntax which is then resolved under the scope of the target to which it belongs. This means that the title can be translated when it's bound to the i18n model or resolved dynamically under the current binding context.
 -   **[Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md "Every OpenUI5 component
         can define routing configuration in its manifest and a UI5 router instance will be created
         automatically after the component is instantiated.")**  

@@ -175,7 +175,7 @@ We move the content of the previous steps from the `App` view to a new `Overview
 </mvc:View>
 ```
 
-Our `App` view is now only containing the empty app tag. The router will automatically add the view that corresponds to the current URL into the app control. The router identifies the app control with the ID that corresponds to the property `controlId: "app”` in the `AppDescriptor`.
+Our `App` view is now only containing the empty app tag. The router will automatically add the view that corresponds to the current URL into the app control. The router identifies the app control with the ID that corresponds to the property `controlId: "app"` in the `AppDescriptor`.
 
 ***
 

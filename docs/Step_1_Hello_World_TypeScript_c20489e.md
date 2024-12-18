@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c20489
 
 ## Step 1: Hello World! \(TypeScript\)
 
-As you know OpenUI5 is all about HTML5. Let’s get started with building a first "Hello World” with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.
+As you know OpenUI5 is all about HTML5. Let's get started with building a first "Hello World" with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.
 
 ***
 
@@ -40,7 +40,7 @@ Open a terminal and install UI5 Tooling globally on your machine by executing th
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 1: Hello World!](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/01) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-01.zip).
 
-Create a folder on your local machine which will contain all the sources of the app we're going to build. We refer to this folder as the "app root directory”.
+Create a folder on your local machine which will contain all the sources of the app we're going to build. We refer to this folder as the "app root directory".
 
 ***
 
@@ -70,7 +70,7 @@ In our `webapp` folder, we create a new HTML file named `index.html` and enter t
 > 
 > Using meta tags, we can influence the behavior of the browser. In this case, we tell the browser to use `UTF-8` as the document character set.
 > 
-> We also give our app a title that will be displayed in the browser. Our hard-coded title can be overruled by the app, for example to show a title in the language of the user. The body part describes the layout of the page. In our case, we simply display "Hello World” by using a `div` tag.
+> We also give our app a title that will be displayed in the browser. Our hard-coded title can be overruled by the app, for example to show a title in the language of the user. The body part describes the layout of the page. In our case, we simply display "Hello World" by using a `div` tag.
 
 ***
 

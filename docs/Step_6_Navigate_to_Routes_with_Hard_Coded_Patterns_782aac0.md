@@ -226,7 +226,7 @@ ListOfAllEmployees=List of all employees
 
 Add the new texts to the `i18n.properties` file.
 
-Now you can open the app and press the *Show Employee List* button to navigate to the employee list. From there, you can press either the browser’s or the app’s *Back* button to get back to the home page.
+Now you can open the app and press the *Show Employee List* button to navigate to the employee list. From there, you can press either the browser's or the app's *Back* button to get back to the home page.
 
 **Parent topic:**[Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 

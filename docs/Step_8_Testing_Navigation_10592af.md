@@ -79,7 +79,7 @@ sap.ui.define([
 
 This new journey for the *Post* page introduces a test case that tests the navigation and also tests if the browser history is in the correct state, so that the user can navigate through our app with the back and forward button of the browser. This time, instead of adding a test we will add a new journey.
 
-A journey represents a user’s task in our app. Journeys start with the startup of our app and end with a teardown in the last test. We don’t write isolated tests here, since starting up the app takes a lot of time and doing it too often slows down our test execution and feedback time considerably. If the execution speed of the tests is no problem, you may also write isolated tests.
+A journey represents a user's task in our app. Journeys start with the startup of our app and end with a teardown in the last test. We don't write isolated tests here, since starting up the app takes a lot of time and doing it too often slows down our test execution and feedback time considerably. If the execution speed of the tests is no problem, you may also write isolated tests.
 
 Our new journey consists of three user interaction steps:
 
@@ -181,7 +181,7 @@ After navigating to the *Post* page, we need a new OPA5 `Page` object for the pa
 
 An OPA5 `Page` object is used to group and reuse actions and assertions that are related to a specific part of the screen. For more information, see [Cookbook for OPA5](Cookbook_for_OPA5_ce4b180.md).
 
-We implement a `press` event on the page’s `nav` button and we assert that we are on the correct page by checking the title in the object header. The `nav` button is retrieved via DOM reference, because the page does not offer us an API here. Since the DOM ID is the most stable attribute, we are using this to retrieve the button.
+We implement a `press` event on the page's `nav` button and we assert that we are on the correct page by checking the title in the object header. The `nav` button is retrieved via DOM reference, because the page does not offer us an API here. Since the DOM ID is the most stable attribute, we are using this to retrieve the button.
 
 ***
 
@@ -231,7 +231,7 @@ sap.ui.define([
 	}); 
 ```
 
-We now implement an action that is triggered when the *Forward* button is chosen. Since it is not part of the browser's UI and it could be used on any page of our application, we just declare our browser’s UI as an own OPA page object. To simulate the *Forward* button, we use the `history` API of the browser. We have to wrap our action in a `waitFor` statement. Otherwise the action would be executed before our app is started.
+We now implement an action that is triggered when the *Forward* button is chosen. Since it is not part of the browser's UI and it could be used on any page of our application, we just declare our browser's UI as an own OPA page object. To simulate the *Forward* button, we use the `history` API of the browser. We have to wrap our action in a `waitFor` statement. Otherwise the action would be executed before our app is started.
 
 ***
 
@@ -260,7 +260,7 @@ If you execute the tests now, you can see in the logs of the developer tools tha
 
 **Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Next:**[Step 7: Changing the Table to a Growing Table](Step_7_Changing_the_Table_to_a_Growing_Table_016e0d4.md "Let’s switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.")
+**Next:**[Step 7: Changing the Table to a Growing Table](Step_7_Changing_the_Table_to_a_Growing_Table_016e0d4.md "Let's switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.")
 
 **Previous:**[Step 9: Adding the Post Page](Step_9_Adding_the_Post_Page_4a9f063.md "Now that we have covered all kinds of tests for navigation, we introduce our Post page that shows details of a post in the bulletin board. To achieve this, we have to introduce a new view/controller pair and adjust the routing of the application.")
 

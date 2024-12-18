@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/50579d
 
 ## Step 5: Controllers
 
-In this step, we replace the text with a button and show the "Hello World” message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
+In this step, we replace the text with a button and show the "Hello World" message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
 
 ***
 
@@ -43,7 +43,7 @@ You can view and download all files at [Walkthrough - Step 5](https://sdk.openui
 </mvc:View>
 ```
 
-We add a reference to the controller and replace the text control with a button with text "Say Hello”. The button triggers the `.onShowHello` event handler function when being pressed. We also have to specify the name of the controller that is connected to the view and holds the `.onShowHello` function by setting the `controllerName` attribute of the view. The `controllerName` is a combination of the namespace of your application followed by the actual name of the controller. We'll also use it in the next step when defining the controller.
+We add a reference to the controller and replace the text control with a button with text "Say Hello". The button triggers the `.onShowHello` event handler function when being pressed. We also have to specify the name of the controller that is connected to the view and holds the `.onShowHello` function by setting the `controllerName` attribute of the view. The `controllerName` is a combination of the namespace of your application followed by the actual name of the controller. We'll also use it in the next step when defining the controller.
 
 A view does not necessarily need an explicitly assigned controller. You do not have to create a controller if the view is just displaying information and no additional functionality is required. If a controller is specified, it is instantiated after the view is loaded.
 
@@ -83,7 +83,7 @@ We create the folder `webapp/controller` and a new file `App.controller.js` insi
 
 **Parent topic:**[Walkthrough Tutorial \(JavaScript\)](Walkthrough_Tutorial_JavaScript_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:**[Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.js file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated view.")
+**Next:**[Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.js file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let's do a first modularization by putting the sap/m/Text control into a dedicated view.")
 
 **Previous:**[Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the sap.m library.")
 

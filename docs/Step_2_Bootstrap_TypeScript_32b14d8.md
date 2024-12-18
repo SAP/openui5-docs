@@ -200,9 +200,9 @@ Now you can benefit from live reload on changes, built framework resources at de
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
-**Next:**[Step 1: Hello World! \(TypeScript\)](Step_1_Hello_World_TypeScript_c20489e.md "As you know OpenUI5 is all about HTML5. Let’s get started with building a first &quot;Hello World” with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.")
+**Next:**[Step 1: Hello World! \(TypeScript\)](Step_1_Hello_World_TypeScript_c20489e.md "As you know OpenUI5 is all about HTML5. Let's get started with building a first &quot;Hello World&quot; with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.")
 
-**Previous:**[Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the &quot;Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.")
+**Previous:**[Step 3: Controls \(TypeScript\)](Step_3_Controls_TypeScript_0feb70c.md "Now it is time to build our first little UI by replacing the &quot;Hello World&quot; text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the TypeScript control API to set up the UI, the control instance is then placed into the HTML body.")
 
 **Related Information**  
 

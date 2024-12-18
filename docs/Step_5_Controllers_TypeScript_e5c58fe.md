@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e5c58f
 
 ## Step 5: Controllers \(TypeScript\)
 
-In this step, we replace the text with a button and show the "Hello World” message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
+In this step, we replace the text with a button and show the "Hello World" message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
 
 ***
 
@@ -62,7 +62,7 @@ export default class AppController extends Controller {
 
 We add a reference to the controller by setting the `controllerName` attribute of the view. This way we get access to the event handlers and other functionalities defined in the controller.
 
-We also replace the text control with a button with text "Say Hello” and assign a press event to it. When pressed, the button triggers the `onShowHello` event handler function we introduced in the controller of the view. To point out that the press event handler of the button is located in the controller of the view and not in the Global Namespace, we prefix the handler name with a "`.`" character.
+We also replace the text control with a button with text "Say Hello" and assign a press event to it. When pressed, the button triggers the `onShowHello` event handler function we introduced in the controller of the view. To point out that the press event handler of the button is located in the controller of the view and not in the Global Namespace, we prefix the handler name with a "`.`" character.
 
 ```xml
 <mvc:View
@@ -93,7 +93,7 @@ A view does not necessarily need an explicitly assigned controller. You do not h
 
 **Parent topic:**[Walkthrough Tutorial \(TypeScript\)](Walkthrough_Tutorial_TypeScript_dad1905.md "In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.")
 
-**Next:**[Step 4: XML Views \(TypeScript\)](Step_4_XML_Views_TypeScript_6c66ed8.md "Putting all our UI into the index.ts file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated view.")
+**Next:**[Step 4: XML Views \(TypeScript\)](Step_4_XML_Views_TypeScript_6c66ed8.md "Putting all our UI into the index.ts file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let's do a first modularization by putting the sap/m/Text control into a dedicated view.")
 
 **Previous:**[Step 6: Modules \(TypeScript\)](Step_6_Modules_TypeScript_3510034.md "In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the sap.m library.")
 

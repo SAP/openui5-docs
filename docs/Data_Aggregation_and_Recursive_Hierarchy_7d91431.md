@@ -17,7 +17,7 @@ The `$$aggregation` binding parameter at [`sap.ui.model.odata.v4.ODataModel#bind
 Since 1.117.0, either a read-only recursive hierarchy \(see below\) or \(pure\) data aggregation is supported, but no mix; `hierarchyQualifier` is the leading property that decides between these two use cases. Since 1.125.0, maintenance of a recursive hierarchy is supported.
 
 > ### Note:  
-> -   Data aggregation or a recursive hierarchy cannot be combined with grouping via a list binding’s first sorter.For more information, see the `vGroup` parameter of [`sap.ui.model.Sorter`](https://sdk.openui5.org/api/sap.ui.model.Sorter).
+> -   Data aggregation or a recursive hierarchy cannot be combined with grouping via a list binding's first sorter.For more information, see the `vGroup` parameter of [`sap.ui.model.Sorter`](https://sdk.openui5.org/api/sap.ui.model.Sorter).
 > 
 > -   Data aggregation or a recursive hierarchy do not support the [creation](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.ODataListBinding/methods/create), [deletion](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.Context/methods/delete), or [refreshing](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.Context/methods/refresh) of data. Additional property requests for an entity that already has been requested \(see [Data Reuse](Data_Reuse_648e360.md)\) as well as [updating](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.Context/methods/setProperty) of data including [invocation](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.ODataContextBinding/methods/invoke) of bound actions and [side effects](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.Context/methods/requestSideEffects) are only supported for a recursive hierarchy.
 
