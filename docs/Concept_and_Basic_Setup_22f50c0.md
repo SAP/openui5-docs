@@ -100,7 +100,7 @@ sap.ui.define(function() {
 
 	return {
             name: "QUnit test suite for NAMESPACE",
-		  defaults: {
+            defaults: {
 			     page: "ui5://test-resources/<NAMESPACE>/Test.qunit.html?testsuite={suite}&test={name}",
 			     qunit: {
 				       version: 2
