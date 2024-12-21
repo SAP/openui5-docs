@@ -59,10 +59,10 @@ In this step we will modify the app and introduce routing. Instead of having the
 3.  [Step 3: Catch Invalid Hashes](Step_3_Catch_Invalid_Hashes_e047e05.md "Sometimes it is important to display an indication that the requested resource was
 		not found. To give you an example: If a user tries to access an invalid pattern which does
 		not match any of the configured routes, the user is notified that something went wrong. You
-		might also know this as a “404” or Not Found Page from
+		might also know this as a &quot;404&quot; or Not Found Page from
 		traditional web pages. In this step, we will implement a feature that detects invalid hashes
 		and visualizes this in a nice way.")  
-Sometimes it is important to display an indication that the requested resource was not found. To give you an example: If a user tries to access an invalid pattern which does not match any of the configured routes, the user is notified that something went wrong. You might also know this as a “404” or *Not Found Page* from traditional web pages. In this step, we will implement a feature that detects invalid hashes and visualizes this in a nice way.
+Sometimes it is important to display an indication that the requested resource was not found. To give you an example: If a user tries to access an invalid pattern which does not match any of the configured routes, the user is notified that something went wrong. You might also know this as a "404" or *Not Found Page* from traditional web pages. In this step, we will implement a feature that detects invalid hashes and visualizes this in a nice way.
 4.  [Step 4: Add a Back Button to Not Found Page](Step_4_Add_a_Back_Button_to_Not_Found_Page_66670b0.md "When we are on the Not Found page because of an invalid hash,
 		we want to get back to our app to select another page. Therefore, we will add a
 			Back button to the Not Found view and make
@@ -81,24 +81,24 @@ In this step, we'll create a second button on the home page, with which we can n
 		mandatory parameters to identify objects in an app.")  
 In this step, we implement a feature that allows the user to click on an employee in the list to see additional details of the employee. A route pattern can have one or more mandatory parameters to identify objects in an app.
 8.  [Step 8: Navigate with Flip Transition](Step_8_Navigate_with_Flip_Transition_3e5f6f3.md "In this step, we want to illustrate how to navigate to a page with a custom
-		transition animation. Both forward and backward navigation will use the “flip”
+		transition animation. Both forward and backward navigation will use the &quot;flip&quot;
 		transition but with a different direction. We will create a simple link on the
 			Employee view that triggers a flip navigation to a page that
 		displays the resume data of a certain employee. Pressing the Back
 		button will navigate back to the Employee view with a reversed flip
 		transition.")  
-In this step, we want to illustrate how to navigate to a page with a custom transition animation. Both forward and backward navigation will use the “flip” transition but with a different direction. We will create a simple link on the *Employee* view that triggers a flip navigation to a page that displays the resume data of a certain employee. Pressing the *Back* button will navigate back to the *Employee* view with a reversed flip transition.
+In this step, we want to illustrate how to navigate to a page with a custom transition animation. Both forward and backward navigation will use the "flip" transition but with a different direction. We will create a simple link on the *Employee* view that triggers a flip navigation to a page that displays the resume data of a certain employee. Pressing the *Back* button will navigate back to the *Employee* view with a reversed flip transition.
 9.  [Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](Step_9_Allow_Bookmarkable_Tabs_with_Optional_Query_Parameters_b8561ff.md "The resume view contains four tabs as we have seen in the previous
 		steps. However, when the user navigates to the resume page, only the first
 		tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is
 		not yet supported in our current app.")  
 The `resume` view contains four tabs as we have seen in the previous steps. However, when the user navigates to the `resume` page, only the first tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is not yet supported in our current app.
-10. [Step 10: Implement Lazy Loading](Step_10_Implement_Lazy_Loading_cdab0a1.md "In the previous steps, we have implemented a Resume view that
+10. [Step 10: Implement "Lazy Loading"](Step_10_Implement_Lazy_Loading_cdab0a1.md "In the previous steps, we have implemented a Resume view that
 		uses tabs to display data. The complete content of the tabs is loaded once, no matter which
 		tab is currently displayed. We can increase the performance of our app by avoiding to load
-		content that is not visible. Therefore, we implement a “lazy loading” feature that only
+		content that is not visible. Therefore, we implement a &quot;lazy loading&quot; feature that only
 		loads the view and data when requested by the user. ")  
-In the previous steps, we have implemented a *Resume* view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a “lazy loading” feature that only loads the view and data when requested by the user.
+In the previous steps, we have implemented a *Resume* view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a "lazy loading" feature that only loads the view and data when requested by the user.
 11. [Step 11: Assign Multiple Targets](Step_11_Assign_Multiple_Targets_b01840e.md "In this step, we will add a new button to the home page to illustrate the usage of
 		multiple targets for a route. When the button is pressed, a new page opens that contains two
 		parts: a header part at the top and a content part. The content part displays a table of

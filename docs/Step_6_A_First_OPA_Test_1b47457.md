@@ -37,7 +37,7 @@ All integration tests are located in the `webapp/test/integration` folder and ca
 We write integration tests with OPA5 – a tool that is integrated and delivered with SAPUI5. It is the short name for One-Page Acceptance tests for SAPUI5. "One-Page" here means that OPA5 is designed for single-page Web applications, i.e. applications that consist only of one HTML file. OPA5 runs in the same browser window as the application to be tested.
 
 > ### Note:  
-> There is also a stand-alone version of OPA5 called “OPA” available that can be used for testing any kind of single-page Web application and that does not provide any OpenUI5-specific functionality. In this tutorial, “OPA” always refers to OPA5. It includes functionality for easily finding and matching OpenUI5 controls as well as their properties and aggregations.
+> There is also a stand-alone version of OPA5 called "OPA" available that can be used for testing any kind of single-page Web application and that does not provide any OpenUI5-specific functionality. In this tutorial, "OPA" always refers to OPA5. It includes functionality for easily finding and matching OpenUI5 controls as well as their properties and aggregations.
 
   
   
@@ -45,9 +45,9 @@ We write integration tests with OPA5 – a tool that is integrated and delivered
 
 ![](images/loio596ebcf8996a4a838c0ab4189ddf1804_LowRes.png "Integration test infrastructure in the project")
 
-For structuring integration tests with OPA we use “journeys”. A test journey contains all test cases for a specific view or use case, for example the navigation journey simulates user interaction with the app.
+For structuring integration tests with OPA we use "journeys". A test journey contains all test cases for a specific view or use case, for example the navigation journey simulates user interaction with the app.
 
-The journey uses another structuring element of OPA called “page object” that encapsulates actions and assertions needed to describe the journey. Typically those are related to a view in the app but there can also be stand-alone pages for browsers or common functionality.
+The journey uses another structuring element of OPA called "page object" that encapsulates actions and assertions needed to describe the journey. Typically those are related to a view in the app but there can also be stand-alone pages for browsers or common functionality.
 
 > ### Note:  
 > When you first start writing tests, you may find it difficult to figure out the correct control locators. The *Test Recorder* tool can suggest a solution in the form of a code snippet. For most controls, it can find a combination of matchers that match a single control. Then, all you need to do is copy the code snippet to your OPA5 page object. For more information, see [Test Recorder](Test_Recorder_2535ef9.md).

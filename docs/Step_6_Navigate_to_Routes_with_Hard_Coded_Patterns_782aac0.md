@@ -158,7 +158,7 @@ The view that we are about to create has to be placed in the `webapp/view/employ
 > ### Note:  
 > We could also have left out the `path` property to use the default `path` defined in the `config` section. In that case, we would have to change the `name` to `employee.EmployeeList` to achieve the same effect.
 
-Setting the `level` to `2` helps the router to determine how to animate the \(in our case\) `slide` transition. For us, this means that a navigation from the home page to the `employees` target will be animated with a “Slide to Left” animation. In contrast to that, the back navigation from the `employees` target to the home page will be animated with a “Slide to Right” animation. This behavior is due to the fact that the home page has a lower `level` than the `employees` target.
+Setting the `level` to `2` helps the router to determine how to animate the \(in our case\) `slide` transition. For us, this means that a navigation from the home page to the `employees` target will be animated with a "Slide to Left" animation. In contrast to that, the back navigation from the `employees` target to the home page will be animated with a "Slide to Right" animation. This behavior is due to the fact that the home page has a lower `level` than the `employees` target.
 
 ***
 

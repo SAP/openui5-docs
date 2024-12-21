@@ -47,7 +47,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 </mvc:View>
 ```
 
-In the `NotFound` view, we set the property `showNavButton` of the `MessagePage` control to `true` to automatically display the *Back* button. We also add an event handler function `onNavBack` to the `navButtonPress` event of the control. The `onNavBack` function will handle the actual back navigation. We could directly add this function to the view's controller. However, we are smart enough to anticipate that we might need the same handler function for different views. DRY \(“Don't Repeat Yourself”\) is the right approach for us, so let's create a `BaseController` from which all other controllers will inherit.
+In the `NotFound` view, we set the property `showNavButton` of the `MessagePage` control to `true` to automatically display the *Back* button. We also add an event handler function `onNavBack` to the `navButtonPress` event of the control. The `onNavBack` function will handle the actual back navigation. We could directly add this function to the view's controller. However, we are smart enough to anticipate that we might need the same handler function for different views. DRY \("Don't Repeat Yourself"\) is the right approach for us, so let's create a `BaseController` from which all other controllers will inherit.
 
 ***
 
@@ -166,7 +166,7 @@ The same applies to our home controller, we also extend it with the base control
 
 **Parent topic:**[Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Next:**[Step 3: Catch Invalid Hashes](Step_3_Catch_Invalid_Hashes_e047e05.md "Sometimes it is important to display an indication that the requested resource was not found. To give you an example: If a user tries to access an invalid pattern which does not match any of the configured routes, the user is notified that something went wrong. You might also know this as a “404” or Not Found Page from traditional web pages. In this step, we will implement a feature that detects invalid hashes and visualizes this in a nice way.")
+**Next:**[Step 3: Catch Invalid Hashes](Step_3_Catch_Invalid_Hashes_e047e05.md "Sometimes it is important to display an indication that the requested resource was not found. To give you an example: If a user tries to access an invalid pattern which does not match any of the configured routes, the user is notified that something went wrong. You might also know this as a &quot;404&quot; or Not Found Page from traditional web pages. In this step, we will implement a feature that detects invalid hashes and visualizes this in a nice way.")
 
 **Previous:**[Step 5: Display a Target Without Changing the Hash](Step_5_Display_a_Target_Without_Changing_the_Hash_d9efab3.md "In this step, you will learn more about targets and how to display a target from the routing configuration manually.")
 
