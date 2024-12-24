@@ -12,9 +12,18 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/28fcd5
 
 This page is a good starting point for you to ensure your code bases, specifically your OpenUI5 applications and libraries, are ready for the future and won't become outdated.
 
+**On this page:**
+
+-   [Alignment for Future-Proof Code](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_afpc)
+-   [Best Practices for Legacy-Free Code](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_blfc)
+-   [App Development](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_appdev)
+-   [Control Development](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_ctrldev)
+-   [Library Development](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_libdev)
+-   [Testing](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_tst)
+
 ***
 
-<a name="loio28fcd55b04654977b63dacbee0552712__section_kg5_3nj_rzb"/>
+<a name="loio28fcd55b04654977b63dacbee0552712__section_afpc"/>
 
 ### Alignment for Future-Proof Code
 
@@ -24,7 +33,7 @@ Therefore, it's important that you keep applying best practices. To help you, we
 
 ***
 
-<a name="loio28fcd55b04654977b63dacbee0552712__section_z2p_zqm_21c"/>
+<a name="loio28fcd55b04654977b63dacbee0552712__section_blfc"/>
 
 ### Best Practices for Legacy-Free Code
 
@@ -116,7 +125,7 @@ Identify and resolve cyclic dependencies with the help of the OpenUI5 configurat
 
 ***
 
-<a name="loio28fcd55b04654977b63dacbee0552712__section_tqd_z1n_21c"/>
+<a name="loio28fcd55b04654977b63dacbee0552712__section_appdev"/>
 
 ### App Development
 
@@ -293,7 +302,7 @@ Implement strict error handling to address critical issues.
 
 ***
 
-<a name="loio28fcd55b04654977b63dacbee0552712__section_km4_ms1_f1c"/>
+<a name="loio28fcd55b04654977b63dacbee0552712__section_ctrldev"/>
 
 ### Control Development
 
@@ -319,7 +328,7 @@ Implement strict error handling to address critical issues.
 
 ***
 
-<a name="loio28fcd55b04654977b63dacbee0552712__section_gjb_rs1_f1c"/>
+<a name="loio28fcd55b04654977b63dacbee0552712__section_libdev"/>
 
 ### Library Development
 
@@ -361,7 +370,7 @@ Prevent bundling modules \(`library-preload.js`\) into strings.
 
 ***
 
-<a name="loio28fcd55b04654977b63dacbee0552712__section_dkp_ws1_f1c"/>
+<a name="loio28fcd55b04654977b63dacbee0552712__section_tst"/>
 
 ### Testing
 
