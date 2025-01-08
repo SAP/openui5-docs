@@ -162,15 +162,15 @@ The following options are available on the `defaults` and the individual test co
 		theme: "sap_horizon"
 	},
 
-     /*
+	/*
 	 * UI5 Loader configuration.
 	 *
 	 * The provided configuration will be passed to `sap.ui.loader.config` and can be used to 
-      * configure paths, shims, and other loader configuration.
+	 * configure paths, shims, and other loader configuration.
 	 */
-	 loader: {},
+	loader: {},
 
-	 /*
+	/*
 	 * Whether the test starter should call QUnit.start() after all prerequisites have been fulfilled
 	 * (e.g. QUnit, Sinon, a bridge, have been loaded, coverage tooling has been loaded and configured,
 	 * the Core has been booted, the test modules have been loaded and executed).

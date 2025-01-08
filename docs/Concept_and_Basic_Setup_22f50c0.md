@@ -101,20 +101,20 @@ sap.ui.define(function() {
 	return {
             name: "QUnit test suite for NAMESPACE",
             defaults: {
-			     page: "ui5://test-resources/<NAMESPACE>/Test.qunit.html?testsuite={suite}&test={name}",
-			     qunit: {
-				       version: 2
+			     page:  "ui5://test-resources/<NAMESPACE>/Test.qunit.html?testsuite={suite}&test={name}",
+			     qunit:  {
+				        version: 2
 			     },
-			     sinon: {
-				       version: 4
+			     sinon:  {
+				        version: 4
 			     },
-			     ui5:   {
-				 	 theme: "sap_horizon"
+			     ui5:    {
+				        theme: "sap_horizon"
 			     },
 				loader: {
-				        paths: {
-					          "<NAMESPACE>": "../"
-				        }
+				         paths: {
+					           "<NAMESPACE>": "../"
+				         }
 			     }
 		  },
 		  tests: {}

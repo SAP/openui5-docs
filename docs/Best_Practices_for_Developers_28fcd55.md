@@ -14,7 +14,6 @@ This page is a good starting point for you to ensure your code bases, specifical
 
 **On this page:**
 
--   [Alignment for Future-Proof Code](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_afpc)
 -   [Best Practices for Legacy-Free Code](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_blfc)
 -   [App Development](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_appdev)
 -   [Control Development](Best_Practices_for_Developers_28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_ctrldev)
@@ -23,19 +22,13 @@ This page is a good starting point for you to ensure your code bases, specifical
 
 ***
 
-<a name="loio28fcd55b04654977b63dacbee0552712__section_afpc"/>
-
-### Alignment for Future-Proof Code
-
-The OpenUI5 framework is always evolving to benefit from newer features in web browsers \(like ECMAScript support\) or to account for their end of maintenance \(like the end of IE11 support\). This is a continuous journey towards future major framework versions and improvements.
-
-Therefore, it's important that you keep applying best practices. To help you, we frequently update the documentation in many places. This page collects fundamental information and offers practical guidance, and it will continue to evolve over time.
-
-***
-
 <a name="loio28fcd55b04654977b63dacbee0552712__section_blfc"/>
 
 ### Best Practices for Legacy-Free Code
+
+The OpenUI5 framework is always evolving to benefit from newer features in web browsers \(like ECMAScript support\) or to account for their end of maintenance \(like the end of IE11 support\). This is a continuous journey towards future major framework versions and improvements.
+
+It is therefore important that you keep applying best practices. To help you, we frequently update the documentation in many places. This page collects fundamental information and offers practical guidance, and it will continue to evolve over time.
 
 > ### Note:  
 > The following information is a preliminary yet practical collection of best practices to ensure legacy-free OpenUI5 development. We're continuously improving it to reflect our latest recommendations. It will be further enhanced to both help transform existing code bases and provide guidance for creating new code.
