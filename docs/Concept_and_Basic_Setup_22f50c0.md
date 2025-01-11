@@ -104,18 +104,18 @@ sap.ui.define(function() {
 				page:  "ui5://test-resources/<NAMESPACE>/Test.qunit.html?testsuite={suite}&test={name}",
 				qunit:  {
 				        version: 2
-			     },
+			    },
 				sinon:  {
 				        version: 4
-			     },
+			    },
 				ui5:    {
 				        theme: "sap_horizon"
-			     },
+			    },
 				loader: {
 				        paths: {
 					           "<NAMESPACE>": "../"
 				         }
-			     }
+			    }
 		  },
 		  tests: {}
 	};
