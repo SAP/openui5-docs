@@ -95,32 +95,31 @@ It also provides [Configuration of the OpenUI5 Runtime](Configuration_of_the_Ope
 
 ```
 
-sap.ui.define(function() {
+sap.ui.define(function () {
 	"use strict";
 
 	return {
-            name: "QUnit test suite for NAMESPACE",
-            defaults: {
-				page:  "ui5://test-resources/<NAMESPACE>/Test.qunit.html?testsuite={suite}&test={name}",
-				qunit:  {
-				        version: 2
-			    },
-				sinon:  {
-				        version: 4
-			    },
-				ui5:    {
-				        theme: "sap_horizon"
-			    },
-				loader: {
-				        paths: {
-					           "<NAMESPACE>": "../"
-				         }
-			    }
-		  },
-		  tests: {}
+		name: "QUnit test suite for NAMESPACE",
+		defaults: {
+			page: "ui5://test-resources/<NAMESPACE>/Test.qunit.html?testsuite={suite}&test={name}",
+			qunit: {
+				version: 2,
+			},
+			sinon: {
+				version: 4,
+			},
+			ui5: {
+				theme: "sap_horizon",
+			},
+			loader: {
+				paths: {
+					"<NAMESPACE>": "../",
+				},
+			},
+		},
+		tests: {},
 	};
 });
-
 ```
 
 The `tests` object is empty for now. For more information on how to add a defined test module to an existing test suite, see [Adding a QUnit Test Module to a Test Suite](Creating_a_QUnit_Test_7080029.md#loio708002929ea548fd9433954a9275eb5f__section_hp4_xhn_vcc).

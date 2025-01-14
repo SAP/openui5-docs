@@ -57,8 +57,3 @@ sap.ui.define(["sap/ui/base/Object"], function(BaseObject) {
 });
 ```
 
-**Related Information**  
-
-
-[Example for Defining a Class](Example_for_Defining_a_Class_f6fba4c.md "Full example of a class definition, including JSDoc")
-

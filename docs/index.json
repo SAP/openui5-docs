@@ -2385,15 +2385,7 @@
 						"link": "Development_Conventions_and_Guidelines_753b326.md",
 						"items": {
 							"JavaScript Coding Guidelines": {
-								"link": "JavaScript_Coding_Guidelines_eded636.md",
-								"items": {
-									"JavaScript Namespaces": {
-										"link": "JavaScript_Namespaces_5a978fe.md"
-									},
-									"Example for Defining a Class": {
-										"link": "Example_for_Defining_a_Class_f6fba4c.md"
-									}
-								}
+								"link": "JavaScript_Coding_Guidelines_eded636.md"
 							},
 							"TypeScript Guidelines": {
 								"link": "TypeScript_Guidelines_192397d.md"

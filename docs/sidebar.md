@@ -724,8 +724,6 @@
     -   [Developing Controls](Developing_Controls_8dcab00.md)
         -   [Development Conventions and Guidelines](Development_Conventions_and_Guidelines_753b326.md)
             -   [JavaScript Coding Guidelines](JavaScript_Coding_Guidelines_eded636.md)
-                -   [JavaScript Namespaces](JavaScript_Namespaces_5a978fe.md)
-                -   [Example for Defining a Class](Example_for_Defining_a_Class_f6fba4c.md)
             -   [TypeScript Guidelines](TypeScript_Guidelines_192397d.md)
             -   [OpenUI5 Control Development Guidelines](OpenUI5_Control_Development_Guidelines_4549da6.md)
                 -   [Control Development Guidelines: Theming/CSS](Control_Development_Guidelines_Theming_CSS_5e08ff9.md)
