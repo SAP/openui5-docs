@@ -46,8 +46,7 @@ The app provides the following features:
   
 **list-detail-detail pattern with sap.f.FlexibleColumnLayout, sap.f.DynamicPage and sap.uxap.ObjectPageLayout**
 
-![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "list-detail-detail pattern with sap.f.FlexibleColumnLayout,
-						sap.f.DynamicPage and
+![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "list-detail-detail pattern with sap.f.FlexibleColumnLayout, sap.f.DynamicPage and
 						sap.uxap.ObjectPageLayout")
 
 ***
@@ -55,15 +54,13 @@ The app provides the following features:
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
 > 
-> You can view and download the files for all steps in the Demo Kit at [Flexible Column Layout App](https://sdk.openui5.org/entity/sap.f.tutorial.fiori2). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
+> You can view and download the files for all steps in the Demo Kit at [Flexible Column Layout App](https://sdk.openui5.org/entity/sap.f.tutorial.fcl). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
 > 
 > For more information check the [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download) section of the tutorials overview page [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md).
 
-1.  [Step 1: Setting Up the Initial App](Step_1_Setting_Up_the_Initial_App_59b772b.md "We start by setting up a basic OpenUI5 app for this
-		tutorial.")  
+1.  [Step 1: Setting Up the Initial App](Step_1_Setting_Up_the_Initial_App_59b772b.md "We start by setting up a basic OpenUI5 app for this tutorial.")  
 We start by setting up a basic OpenUI5 app for this tutorial.
-2.  [Step 2: Creating an Empty Flexible Column Layout](Step_2_Creating_an_Empty_Flexible_Column_Layout_bf38e4d.md "In this step, we add an instance of the sap.f.FlexibleColumnLayout
-		control in the main view of the app.")  
+2.  [Step 2: Creating an Empty Flexible Column Layout](Step_2_Creating_an_Empty_Flexible_Column_Layout_bf38e4d.md "In this step, we add an instance of the sap.f.FlexibleColumnLayout control in the main view of the app.")  
 In this step, we add an instance of the `sap.f.FlexibleColumnLayout` control in the main view of the app.
 3.  [Step 3: Using Dynamic Page for the List View](Step_3_Using_Dynamic_Page_for_the_List_View_0830bce.md "In this step, we create the list view of the app using
 			sap.f.DynamicPage control.")  

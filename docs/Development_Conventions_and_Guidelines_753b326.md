@@ -36,9 +36,8 @@ The following list gives some general guidelines to be adhered to when developin
 -   Use comments; do **not** rephrase the code, but tell the reader what is **not** in the code. Describe why your code does what it does. Prefer line comments.
 
 
--   **[JavaScript Coding Guidelines](JavaScript_Coding_Guidelines_eded636.md "Provides an overview of the guidelines for JavaScript coding for OpenUI5 with regard to code
-		formatting, naming conventions, and creating classes.")**  
-Provides an overview of the guidelines for JavaScript coding for OpenUI5 with regard to code formatting, naming conventions, and creating classes.
+-   **[JavaScript Coding Guidelines](JavaScript_Coding_Guidelines_eded636.md "Provides an overview of the guidelines for JavaScript coding for OpenUI5.")**  
+Provides an overview of the guidelines for JavaScript coding for OpenUI5.
 -   **[TypeScript Guidelines](TypeScript_Guidelines_192397d.md "Provides an overview how to develop OpenUI5 control libraries in
 		TypeScript.")**  
 Provides an overview how to develop OpenUI5 control libraries in TypeScript.

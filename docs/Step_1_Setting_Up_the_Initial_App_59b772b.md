@@ -24,8 +24,7 @@ The structure in this step will be used throughout the rest of this tutorial. Th
   
 **The basic OpenUI5 app**
 
-![](images/loio613be5aa54644aabbd11fbbb43fd5fcc_HiRes.png "The basic OpenUI5
-					app")
+![](images/loio613be5aa54644aabbd11fbbb43fd5fcc_HiRes.png "The basic OpenUI5 app")
 
 ***
 
@@ -33,7 +32,7 @@ The structure in this step will be used throughout the rest of this tutorial. Th
 
 ### Setup
 
-1.  To set up your project for this tutorial, download the files at [Flexible Column Layout App - Step 1](https://sdk.openui5.org/entity/sap.f.tutorial.fiori2/sample/sap.f.tutorial.fiori2.01).
+1.  To set up your project for this tutorial, download the files at [Flexible Column Layout App - Step 1](https://sdk.openui5.org/entity/sap.f.tutorial.fcl/sample/sap.f.tutorial.fcl.01).
 
 2.  Extract the downloaded `.zip` file at the desired location on your local machine.
 3.  Open a shell in the extracted folder and execute `npm install`.

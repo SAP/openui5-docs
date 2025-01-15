@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/eded63
 
 ## JavaScript Coding Guidelines
 
-Provides an overview of the guidelines for JavaScript coding for OpenUI5 with regard to code formatting, naming conventions, and creating classes.
+Provides an overview of the guidelines for JavaScript coding for OpenUI5.
 
 For JavaScript, the following **general** guidelines apply:
 

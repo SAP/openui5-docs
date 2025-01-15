@@ -107,8 +107,8 @@ In this tutorial, we will explore some advanced features of the OData V2 mock se
 -   **[Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a
 		shop owner can use to manage his product stock levels.")**  
 In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.
--   **[Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout
-		patterns that comply with the SAP Fiori design guidelines.")**  
+-   **[Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the
+		layout patterns that comply with the SAP Fiori design guidelines.")**  
 In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.
 -   **[Demo Apps](Demo_Apps_a3ab54e.md "With the Demo Kit, we deliver some demo apps that show you how you can use the
 		various features and controls of OpenUI5.")**  
