@@ -61,7 +61,7 @@ V51 \(1.110\)
 </td>
 <td valign="top">
 
-Release status for the developer adaptation in SAP S/4HANA Cloud and SAP BTP, ABAP environment \(SAP-internal\).
+Release status for the developer adaptation in SAP S/4HANA Cloud Public Edition and SAP BTP, ABAP environment \(SAP-internal\).
 
 Supported types:
 
