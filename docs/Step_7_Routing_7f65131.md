@@ -22,7 +22,7 @@ In this step, we utilize the `sap.f.routing.Router`.
   
 **Changing layouts based on the sap.f.routing.Router \(no visual changes to last step\)**
 
-![](images/loio24122e039ed14a7a874ec26d0cf51614_HiRes.png "Changing layouts based on the sap.f.routing.Router (no
+![](images/loio24122e039ed14a7a874ec26d0cf51614_LowRes.png "Changing layouts based on the sap.f.routing.Router (no
 					visual changes to last step)")
 
 ***

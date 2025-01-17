@@ -24,7 +24,7 @@ Apps using the list-detail pattern operate with a layout divided into two separa
   
 **list-detail pattern with FlexibleColumnLayout**
 
-![](images/loio267d05fd0b294310b7bebdeda5f70e3b_HiRes.gif "list-detail pattern with FlexibleColumnLayout")
+![](images/loio267d05fd0b294310b7bebdeda5f70e3b_LowRes.gif "list-detail pattern with FlexibleColumnLayout")
 
 ***
 

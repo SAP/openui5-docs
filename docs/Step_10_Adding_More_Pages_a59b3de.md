@@ -22,7 +22,7 @@ In this step, we create an additional page that is displayed in a separate fulls
   
 **Additional page displayed in a separate fullscreen column**
 
-![](images/loio41f6ae105130408ca78197f7c528e388_HiRes.gif "Additional page displayed in a separate fullscreen column")
+![](images/loio41f6ae105130408ca78197f7c528e388_LowRes.gif "Additional page displayed in a separate fullscreen column")
 
 ***
 

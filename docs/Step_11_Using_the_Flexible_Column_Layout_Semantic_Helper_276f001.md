@@ -29,7 +29,7 @@ For more information, see [Flexible Column Layout Semantic Helper](Flexible_Colu
   
 **List-detail-detail pattern using sap.f.FlexibleColumnLayoutSemanticHelper**
 
-![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "List-detail-detail pattern using
+![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_LowRes.gif "List-detail-detail pattern using
 						sap.f.FlexibleColumnLayoutSemanticHelper")
 
 ***

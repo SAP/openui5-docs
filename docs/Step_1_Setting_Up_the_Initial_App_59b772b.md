@@ -24,7 +24,7 @@ The structure in this step will be used throughout the rest of this tutorial. Th
   
 **The basic OpenUI5 app**
 
-![](images/loio613be5aa54644aabbd11fbbb43fd5fcc_HiRes.png "The basic OpenUI5 app")
+![](images/loio613be5aa54644aabbd11fbbb43fd5fcc_LowRes.png "The basic OpenUI5 app")
 
 ***
 
@@ -44,7 +44,7 @@ You should have the same files as displayed in the following figure:
   
 **Folder structure with downloaded files**
 
-![](images/loiobc4395be3fd64b8aa49058340e92a192_HiRes.png "Folder structure with downloaded files")
+![](images/loiobc4395be3fd64b8aa49058340e92a192_LowRes.png "Folder structure with downloaded files")
 
 **Parent topic:**[Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
 

@@ -22,7 +22,7 @@ In this step, we create the list view of the app using `sap.f.DynamicPage` contr
   
 **List page with sap.f.DynamicPage**
 
-![](images/loiob31948bf54134343bfcb5dc64e00a1e1_HiRes.gif "List page with sap.f.DynamicPage")
+![](images/loiob31948bf54134343bfcb5dc64e00a1e1_LowRes.gif "List page with sap.f.DynamicPage")
 
 ***
 

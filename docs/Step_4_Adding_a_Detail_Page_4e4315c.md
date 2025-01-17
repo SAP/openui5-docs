@@ -22,7 +22,7 @@ In this step, we add an empty detail page.
   
 **List Page with Empty Detail Page**
 
-![](images/loio10dec0cd47ca4a6fb9ce1caf2ba768e3_HiRes.gif "List Page with Empty Detail Page")
+![](images/loio10dec0cd47ca4a6fb9ce1caf2ba768e3_LowRes.gif "List Page with Empty Detail Page")
 
 ***
 

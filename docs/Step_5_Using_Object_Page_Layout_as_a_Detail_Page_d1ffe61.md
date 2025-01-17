@@ -28,7 +28,7 @@ Compared to `sap.f.DynamicPage`, the `sap.uxap.ObjectPageLayout` can provide a m
   
 **ObjectPageLayout with dynamic header for the detail page**
 
-![](images/loioda38488f47f941a0b53509d22ef9027c_HiRes.gif "ObjectPageLayout with dynamic header for the detail
+![](images/loioda38488f47f941a0b53509d22ef9027c_LowRes.gif "ObjectPageLayout with dynamic header for the detail
 					page")
 
 ***
