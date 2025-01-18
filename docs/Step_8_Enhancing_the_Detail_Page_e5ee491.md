@@ -22,8 +22,7 @@ With routing implemented, the model of the detail page is updated for each produ
   
 **Enhanced detail page displaying information specific to the selected product**
 
-![](images/loiob687506e7e55437193741a31ff739b7b_LowRes.gif "Enhanced detail page displaying information specific to the selected
-					product")
+![](images/loiob687506e7e55437193741a31ff739b7b_LowRes.gif "Enhanced detail page displaying information specific to the selected product")
 
 ***
 
@@ -31,7 +30,7 @@ With routing implemented, the model of the detail page is updated for each produ
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 8](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.08/preview).
+You can view and download all files at [Flexible Column Layout App - Step 8](https://sdk.openui5.org/sample/sap.f.tutorial.fcl.08/preview).
 
 ***
 
@@ -41,7 +40,7 @@ You can view and download all files at [Flexible Column Layout App - Step 8](htt
 
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.fiori2.controller.Detail"
+	controllerName="sap.ui.demo.fcl.controller.Detail"
 	xmlns="sap.uxap"
 	xmlns:m="sap.m"
 	xmlns:f="sap.f"
@@ -64,7 +63,7 @@ You can view and download all files at [Flexible Column Layout App - Step 8](htt
 				<snappedHeading>
 					<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Center">
 						<m:FlexBox wrap="NoWrap" fitContainer="true" alignItems="Center" class="sapUiTinyMarginEnd">
-							<f:Avatar
+							<m:Avatar
 								src="https://sdk.openui5.org/{products>ProductPicUrl}"
 								displaySize="S"
 								displayShape="Square"
@@ -90,12 +89,12 @@ Using the `expandedHeading` and `snappedHeading` aggregations, we specify differ
 		...
 		<headerContent>
 			<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Stretch">
-				<f:Avatar
+				<m:Avatar
 					src="https://sdk.openui5.org/{products>ProductPicUrl}"
 					displaySize="L"
 					displayShape="Square"
 					class="sapUiTinyMarginEnd">
-				</f:Avatar>
+				</m:Avatar>
 				<m:VBox justifyContent="Center" class="sapUiSmallMarginEnd">
 					<m:Label text="Main Category"/>
 					<m:Text text="{products>MainCategory}"/>

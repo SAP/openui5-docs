@@ -28,8 +28,7 @@ Compared to `sap.f.DynamicPage`, the `sap.uxap.ObjectPageLayout` can provide a m
   
 **ObjectPageLayout with dynamic header for the detail page**
 
-![](images/loioda38488f47f941a0b53509d22ef9027c_LowRes.gif "ObjectPageLayout with dynamic header for the detail
-					page")
+![](images/loioda38488f47f941a0b53509d22ef9027c_LowRes.gif "ObjectPageLayout with dynamic header for the detail page")
 
 ***
 
@@ -37,7 +36,7 @@ Compared to `sap.f.DynamicPage`, the `sap.uxap.ObjectPageLayout` can provide a m
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 5](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.05/preview).
+You can view and download all files at [Flexible Column Layout App - Step 5](https://sdk.openui5.org/sample/sap.f.tutorial.fcl.05/preview).
 
 ***
 
@@ -47,9 +46,9 @@ You can view and download all files at [Flexible Column Layout App - Step 5](htt
 
 ```json
 {
-	"_version": "1.12.0",
+	"_version": "1.38.0",
 	"sap.app": {
-		"id": "sap.ui.demo.fiori2",
+		"id": "sap.ui.demo.fcl",
 		"type": "application",
 		"applicationVersion": {
 			"version": "1.0.0"
@@ -57,17 +56,17 @@ You can view and download all files at [Flexible Column Layout App - Step 5](htt
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "sap.ui.demo.fiori2.view.App",
+			"viewName": "sap.ui.demo.fcl.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "fcl"
 		},
 		"dependencies": {
-			"minUI5Version": "1.60.0",
+			"minUI5Version": "1.98.0",
 			"libs": {
-				"sap.ui.core": {},
-				"sap.m": {},
 				"sap.f": {},
+				"sap.m": {},
+				"sap.ui.core": {},
 				"sap.uxap": {}
 				}
 		}
@@ -179,11 +178,11 @@ We add the recommended dynamic header with an instance of the `ObjectPageDynamic
 
 		<headerContent>
 			<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Stretch">
-				<f:Avatar
+				<m:Avatar
 					displaySize="L"
 					displayShape="Square"
 					class="sapUiTinyMarginEnd">
-				</f:Avatar>
+				</m:Avatar>
 				<m:VBox justifyContent="Center" class="sapUiSmallMarginEnd">
 					<m:Label text="Main Category"/>
 				</m:VBox>
@@ -200,7 +199,7 @@ We add the recommended dynamic header with an instance of the `ObjectPageDynamic
 </mvc:View>
 ```
 
-We add content in the `headerContent` aggregation. We're using `sap.f.Avatar` as the recommended SAP Fiori control for displaying images.
+We add content in the `headerContent` aggregation. We're using `sap.m.Avatar` as the recommended SAP Fiori control for displaying images.
 
 ***
 
@@ -212,11 +211,11 @@ We add content in the `headerContent` aggregation. We're using `sap.f.Avatar` as
 		...
 		<headerContent>
 			<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Stretch">
-				<f:Avatar
+				<m:Avatar
 					displaySize="L"
 					displayShape="Square"
 					class="sapUiTinyMarginEnd">
-				</f:Avatar>
+				</m:Avatar>
 				<m:VBox justifyContent="Center" class="sapUiSmallMarginEnd">
 					<m:Label text="Main Category"/>
 				</m:VBox>

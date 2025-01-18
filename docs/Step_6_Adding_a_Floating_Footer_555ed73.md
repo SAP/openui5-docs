@@ -30,7 +30,7 @@ In this step, we add a floating footer to the detail page.
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 6](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.06/preview).
+You can view and download all files at [Flexible Column Layout App - Step 6](https://sdk.openui5.org/sample/sap.f.tutorial.fcl.06/preview).
 
 ***
 
@@ -46,10 +46,10 @@ You can view and download all files at [Flexible Column Layout App - Step 6](htt
 	xmlns:mvc="sap.ui.core.mvc">
 	<FlexibleColumnLayout id="flexibleColumnLayout" stateChange="onStateChanged" backgroundDesign="Solid">
 		<beginColumnPages>
-			<mvc:XMLView id="beginView" viewName="sap.ui.demo.fiori2.view.List"/>
+			<mvc:XMLView id="beginView" viewName="sap.ui.demo.fcl.view.List"/>
 		</beginColumnPages>
 		<midColumnPages>
-			<mvc:XMLView id="detailView" viewName="sap.ui.demo.fiori2.view.Detail"/>
+			<mvc:XMLView id="detailView" viewName="sap.ui.demo.fcl.view.Detail"/>
 		</midColumnPages>
 	</FlexibleColumnLayout>
 </mvc:View>
@@ -88,7 +88,7 @@ We add a footer inside the `sap.uxap.ObjectPageLayout`.
 
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.fiori2.controller.Detail"
+	controllerName="sap.ui.demo.fcl.controller.Detail"
 	xmlns="sap.uxap"
 	xmlns:m="sap.m"
 	xmlns:f="sap.f"
@@ -138,7 +138,7 @@ sap.ui.define([
 ], function (Controller) {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.fiori2.controller.Detail", {
+	return Controller.extend("sap.ui.demo.fcl.controller.Detail", {
 		onEditToggleButtonPress: function() {
 			var oObjectPage = this.getView().byId("ObjectPageLayout"),
 				bCurrentShowFooterState = oObjectPage.getShowFooter();

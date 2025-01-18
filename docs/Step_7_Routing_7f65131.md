@@ -22,8 +22,7 @@ In this step, we utilize the `sap.f.routing.Router`.
   
 **Changing layouts based on the sap.f.routing.Router \(no visual changes to last step\)**
 
-![](images/loio24122e039ed14a7a874ec26d0cf51614_LowRes.png "Changing layouts based on the sap.f.routing.Router (no
-					visual changes to last step)")
+![](images/loio24122e039ed14a7a874ec26d0cf51614_LowRes.png "Changing layouts based on the sap.f.routing.Router (no visual changes to last step)")
 
 ***
 
@@ -31,7 +30,7 @@ In this step, we utilize the `sap.f.routing.Router`.
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 7](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.07/preview).
+You can view and download all files at [Flexible Column Layout App - Step 7](https://sdk.openui5.org/sample/sap.f.tutorial.fcl.07/preview).
 
 ***
 
@@ -41,7 +40,7 @@ You can view and download all files at [Flexible Column Layout App - Step 7](htt
 
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.fiori2.controller.App"
+	controllerName="sap.ui.demo.fcl.controller.App"
 	displayBlock="true"
 	height="100%"
 	xmlns="sap.f"
@@ -64,12 +63,12 @@ We remove the hard-coded `beginColumnPages` and `endColumnPages` aggregations \(
 
 ```js
 sap.ui.define([
-	"sap/ui/model/json/JSONModel",
+							   
 	"sap/ui/core/mvc/Controller"
-], function (JSONModel, Controller) {
+], function (Controller) {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.fiori2.controller.App", {
+	return Controller.extend("sap.ui.demo.fcl.controller.App", {
 		onInit: function () {
 			this.oOwnerComponent = this.getOwnerComponent();
 			this.oRouter = this.oOwnerComponent.getRouter();
@@ -100,6 +99,7 @@ sap.ui.define([
 		}
 	});
 });
+
 ```
 
 We access the router and bind to its `routeMatched` event. For more information, see [Router](Router_c6da1a5.md).
@@ -112,17 +112,16 @@ We access the router and bind to its `routeMatched` event. For more information,
 
 ```js
 sap.ui.define([
-	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator",
-	'sap/ui/model/Sorter',
-	'sap/m/MessageBox',
-	'sap/f/library'
-], function (JSONModel, Controller, Filter, FilterOperator, Sorter, MessageBox, fioriLibrary) {
+	"sap/ui/model/Sorter",
+	"sap/m/MessageBox",
+	"sap/f/library"
+], function (Controller, Filter, FilterOperator, Sorter, MessageBox, fioriLibrary) {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.fiori2.controller.List", {
+	return Controller.extend("sap.ui.demo.fcl.controller.List", {
 		onInit: function () {
 			this.oView = this.getView();
 			this._bDescendingSort = false;
@@ -142,11 +141,7 @@ sap.ui.define([
 		},
 
 		onAdd: function () {
-			MessageBox.show("This functionality is not ready yet.", {
-				icon: MessageBox.Icon.INFORMATION,
-				title: "Aw, Snap!",
-				actions: [MessageBox.Action.OK]
-			});
+			MessageBox.information("This functionality is not ready yet.", {title: "Aw, Snap!"});
 		},
 
 		onSort: function () {
@@ -165,6 +160,7 @@ sap.ui.define([
 		}
 	});
 });
+
 ```
 
 We change the event handler for pressing an item from the list view to use the router instead of manually manipulating the `FlexibleColumnLayout` instance. When we call the router's `navTo` method, the router itself will change the `layout` property of the `FlexibleColumnLayout`.
@@ -181,7 +177,7 @@ sap.ui.define([
 ], function (Controller) {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.fiori2.controller.Detail", {
+	return Controller.extend("sap.ui.demo.fcl.controller.Detail", {
 		onInit: function () {
 			var oOwnerComponent = this.getOwnerComponent();
 
@@ -213,6 +209,7 @@ sap.ui.define([
 		}
 	});
 });
+
 ```
 
 We bind the table in the detail view to reflect the currently selected product from the list view.
@@ -231,7 +228,7 @@ sap.ui.define([
 ], function(UIComponent, JSONModel, fioriLibrary) {
 	'use strict';
 
-	return UIComponent.extend('sap.ui.demo.fiori2.Component', {
+	return UIComponent.extend('sap.ui.demo.fcl.Component', {
 
 		metadata: {
 			manifest: 'json'
@@ -248,7 +245,7 @@ sap.ui.define([
 			this.setModel(oModel);
 
 			// set products demo model on this sample
-			oProductsModel = new JSONModel(sap.ui.require.toUrl('sap/ui/demo/mock') + '/products.json');
+			oProductsModel = new JSONModel(sap.ui.require.toUrl('sap/ui/demo/mock/products.json'));
 			oProductsModel.setSizeLimit(1000);
 			this.setModel(oProductsModel, 'products');
 
@@ -282,9 +279,9 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 
 ```json
 {
-	"_version": "1.12.0",
+	"_version": "1.38.0",
 	"sap.app": {
-		"id": "sap.ui.demo.fiori2",
+		"id": "sap.ui.demo.fcl",
 		"type": "application",
 		"applicationVersion": {
 			"version": "1.0.0"
@@ -292,17 +289,17 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "sap.ui.demo.fiori2.view.App",
+			"viewName": "sap.ui.demo.fcl.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "fcl"
 		},
 		"dependencies": {
-			"minUI5Version": "1.60.0",
+			"minUI5Version": "1.98.0",
 			"libs": {
-				"sap.ui.core": {},
-				"sap.m": {},
 				"sap.f": {},
+				"sap.m": {},
+				"sap.ui.core": {},
 				"sap.uxap": {}
 				}
 		},
@@ -311,7 +308,7 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 				"routerClass": "sap.f.routing.Router",
 				"type": "View",
 				"viewType": "XML",
-				"path": "sap.ui.demo.fiori2.view",
+				"path": "sap.ui.demo.fcl.view",
 				"controlId": "flexibleColumnLayout",
 				"transition": "slide",
 				"bypassed": {
