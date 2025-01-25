@@ -216,19 +216,19 @@ The *Network* tab shows the sequence and duration of files being loaded. It can 
 
     You see a list of the files that are currently loaded.
 
-    You can see that the `Button.js` file is loaded, but the view does not contain any `Button` elements, so it is not used anywhere.
+    You can see that the `CheckBox.js` file is loaded, but the view does not contain any `CheckBox` elements, so it is not used anywhere.
 
 3.  You can't edit the code directly in this tab. You have to fix the source files in your development environment and then reload the app.
 
-    Remove the unnecessary reference to the `Button` in the `App.controller` file:
+    Remove the unnecessary reference to the `CheckBox` in the `App.controller` file:
 
     ```
     sap.ui.define([
     	'sap/ui/core/mvc/Controller',
     	'sap/m/MessageToast',
     	'sap/base/Log',
-    	'sap/m/Button'
-    ], function(Controller, MessageToast, Log, Button) {
+    	'sap/m/CheckBox'
+    ], function(Controller, MessageToast, Log, CheckBox) {
     ...
     ```
 
