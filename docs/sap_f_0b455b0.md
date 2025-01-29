@@ -15,9 +15,9 @@ This library contains controls that were built based on the SAP Fiori 2.0 design
 > ### Note:  
 > The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://sdk.openui5.org/api) and the [Samples](https://sdk.openui5.org/controls). 
 
--   **[Building an App with the Flexible Column Layout and Related Classes](Building_an_App_with_the_Flexible_Column_Layout_and_Related_Classes_59a0e11.md "The following sections provide you with best practices and details that help you develop
-		SAP Fiori 2.0 apps with the sap.f.FlexibleColumnLayout control.")**  
-The following sections provide you with best practices and details that help you develop SAP Fiori 2.0 apps with the `sap.f.FlexibleColumnLayout` control.
+-   **[Building an App with the Flexible Column Layout and Related Classes](Building_an_App_with_the_Flexible_Column_Layout_and_Related_Classes_59a0e11.md "The following sections provide you with best practices and details that help you develop SAP Fiori apps with the
+			sap.f.FlexibleColumnLayout control.")**  
+The following sections provide you with best practices and details that help you develop SAP Fiori apps with the `sap.f.FlexibleColumnLayout` control.
 
 **Related Information**  
 
