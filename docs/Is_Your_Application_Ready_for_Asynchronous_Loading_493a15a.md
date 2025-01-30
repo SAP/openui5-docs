@@ -18,7 +18,7 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
 
 -   Existing applications may still use synchronous variants of factory methods. To make your application ready for asynchronous loading, you need to use asynchronous variants of factory methods instead.For information how you can replace the synchronous variants with asynchronous variants, see [Deprecated Factories Replacement](Deprecated_Factories_Replacement_491bd9c.md).
 
--   The global access to legacy APIs triggers a compatibility layer to load such modules synchronously and needs to be replaced to enable your application for asynchronous loading.For information how you replace the global access, see [Deprecated jQuery.sap API Replacement](Deprecated_jQuery_sap_API_Replacement_a075ed8.md).
+-   The global access to legacy APIs triggers a compatibility layer to load such modules synchronously and needs to be replaced to enable your application for asynchronous loading.For information how you replace the global access, see [Replacement of Deprecated jQuery APIs](Replacement_of_Deprecated_jQuery_APIs_a075ed8.md).
 
 -   The Support Assistant also helps you to identify issues in your application, especially issues related to synchronous or asynchronous loading. For information about the Support Assistant, see [Support Assistant](Support_Assistant_57ccd7d.md).
 

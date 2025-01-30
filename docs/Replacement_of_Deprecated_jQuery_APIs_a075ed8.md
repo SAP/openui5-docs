@@ -8,11 +8,14 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a075ed88ef324261bca41813a6ac4a1c) | [demo kit latest release](https://sdk.openui5.org/topic/a075ed88ef324261bca41813a6ac4a1c)</div>
 
-## Deprecated jQuery.sap API Replacement
+## Replacement of Deprecated jQuery APIs
 
 Overview of the mapping of legacy APIs to the new APIs for the migration
 
-The deprecation of the `jQuery.sap` API requires that it is replaced with the new API. The following list provides an overview of the required replacements.
+The deprecation of most `jQuery` APIs might require their replacement by new APIs. The following list provides an overview of the required replacements.
+
+> ### Note:  
+> We only provide replacements for the most important and most frequently used deprecated jQuery APIs. If you cannot find your API in any of the tables below, refer to the jQuery documentation.
 
 ***
 

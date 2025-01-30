@@ -531,7 +531,7 @@
             -   [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md)
                 -   [Troubleshooting for Loading Modules](Troubleshooting_for_Loading_Modules_4363b3f.md)
             -   [Adapting to the Modularization of the Core](Adapting_to_the_Modularization_of_the_Core_b8fdf0c.md)
-                -   [Deprecated jQuery.sap API Replacement](Deprecated_jQuery_sap_API_Replacement_a075ed8.md)
+                -   [Replacement of Deprecated jQuery APIs](Replacement_of_Deprecated_jQuery_APIs_a075ed8.md)
                 -   [Deprecated Factories Replacement](Deprecated_Factories_Replacement_491bd9c.md)
                 -   [Troubleshooting](Troubleshooting_20f6ea7.md)
         -   [Optimizing Applications](Optimizing_Applications_2f492c4.md)

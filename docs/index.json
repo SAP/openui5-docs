@@ -1720,8 +1720,8 @@
 							"Adapting to the Modularization of the Core": {
 								"link": "Adapting_to_the_Modularization_of_the_Core_b8fdf0c.md",
 								"items": {
-									"Deprecated jQuery.sap API Replacement": {
-										"link": "Deprecated_jQuery_sap_API_Replacement_a075ed8.md"
+									"Replacement of Deprecated jQuery APIs": {
+										"link": "Replacement_of_Deprecated_jQuery_APIs_a075ed8.md"
 									},
 									"Deprecated Factories Replacement": {
 										"link": "Deprecated_Factories_Replacement_491bd9c.md"
