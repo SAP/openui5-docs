@@ -12,10 +12,10 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a075ed
 
 Overview of the mapping of legacy APIs to the new APIs for the migration
 
-The deprecation of most `jQuery` APIs might require their replacement by new APIs. The following list provides an overview of the required replacements.
+The deprecation of the `jQuery.sap` APIs and some native jQuery APIs requires that usages of them are replaced in favor of new APIs. The following lists provide an overview of the required replacements.
 
 > ### Note:  
-> We only provide replacements for the most important and most frequently used deprecated jQuery APIs. If you cannot find your API in any of the tables below, refer to the jQuery documentation.
+> For the deprecated native jQuery APIs, we only provide replacements for the most important and most frequently used ones. If you cannot find such a native jQuery API in any of the tables below, refer to the jQuery documentation.
 
 ***
 
