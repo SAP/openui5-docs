@@ -1201,6 +1201,23 @@ Version 69
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Version 70
+
+</td>
+<td valign="top">
+
+\>=1.132
+
+</td>
+<td valign="top">
+
+1.69.0
+
+</td>
+</tr>
 </table>
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Manifest File](Migration_Information_for_Upgrading_the_Manifest_File_a110f76.md)
@@ -2234,7 +2251,7 @@ Current version of the `manifest.json`
 ```
 
 {
-    "_version": "1.68.0",
+    "_version": "1.69.0",
  
     "start_url": "index.html",
  
@@ -2319,7 +2336,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.131.0",
+            "minUI5Version": "1.132.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
