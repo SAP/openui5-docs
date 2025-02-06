@@ -167,7 +167,7 @@ Feature
 
 We have included the theming parameters from the SAP Theming Base Content as CSS custom properties in the Horizon and Quartz themes of OpenUI5. You can now use them in your CSS for your custom controls or applications. We have also extended the Theme Parameter Toolbox to display the CSS custom properties for the Horizon and Quartz themes by default. The previous experimental `xx-css-variables` configuration option is no longer available.
 
-For more information, see [CSS Variables, Functions, and More](Enhanced_Theming_Concepts_45df6df.md#loio45df6dff504647c686ab9ba72af827f6__section_CSS), [Theming](Theming_497c27a.md), , and [Theme Parameter Toolbox](https://sdk.openui5.org/test-resources/sap/m/demokit/theming/webapp/index.html).
+For more information, see [CSS Variables, Functions, and More](Enhanced_Theming_Concepts_45df6df.md#loio45df6dff504647c686ab9ba72af827f6__section_CSS), [Theming](Theming_497c27a.md), and [Theme Parameter Toolbox](https://sdk.openui5.org/test-resources/sap/m/demokit/theming/webapp/index.html).
 
 <sub>Changed•Feature•Info Only•1.127</sub>
 
