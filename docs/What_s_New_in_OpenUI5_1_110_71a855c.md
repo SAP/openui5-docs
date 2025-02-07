@@ -201,7 +201,7 @@ Control
 </td>
 <td valign="top">
 
-**`sap.m.table.ColumnMenu`**
+**`sap.m.table.columnmenu.Menu`**
 
 We have introduced a new control that allows users to do the following in grid and responsive tables:
 
