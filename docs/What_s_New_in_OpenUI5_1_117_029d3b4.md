@@ -401,7 +401,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 -   **Experimental:** You can now create a nested single entity behind a single-valued navigation property in the transient entity.
 
-    For more information, see *Nested Single Entity* in [Deep Create](Creating_an_Entity_c9723f8.md#loioc9723f8265f644af91c0ed941e114d46__section_DCR).
+    For more information, see *Nested Single Entity* in [Deep Create](Creating_an_Entity_in_a_Collection_c9723f8.md#loioc9723f8265f644af91c0ed941e114d46__section_DCR).
 
 -   Support for read-only hierarchies is now available.
 

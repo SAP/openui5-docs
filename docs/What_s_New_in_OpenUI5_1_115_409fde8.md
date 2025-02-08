@@ -209,7 +209,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 -   We now support the "Deep Create" scenario for navigation properties of cardinality "many", that is, collection-valued navigation properties.
 
-    For more information, see [Creating an Entity](Creating_an_Entity_c9723f8.md).
+    For more information, see [Creating an Entity in a Collection](Creating_an_Entity_in_a_Collection_c9723f8.md).
 
 
 <sub>Changed•Feature•Info Only•1.115</sub>

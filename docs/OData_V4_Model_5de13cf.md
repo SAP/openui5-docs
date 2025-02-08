@@ -78,10 +78,13 @@ Certain methods derived from OpenUI5 model and binding superclasses are not supp
 -   **[Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md "This section outlines the main differences between the OData V2 and OData V4
 		models.")**  
 This section outlines the main differences between the OData V2 and OData V4 models.
--   **[Creating an Entity](Creating_an_Entity_c9723f8.md "The sap.ui.model.odata.v4.ODataListBinding#create method creates a
-		new entity. Users can interact with a newly created entity even before it has been sent to
-		the server.")**  
-The `sap.ui.model.odata.v4.ODataListBinding#create` method creates a new entity. Users can interact with a newly created entity even before it has been sent to the server.
+-   **[Creating an Entity in a Collection](Creating_an_Entity_in_a_Collection_c9723f8.md "The sap.ui.model.odata.v4.ODataListBinding#create method creates a new entity inside a collection. Users can interact
+		with a newly created entity even before it has been sent to the server.")**  
+The `sap.ui.model.odata.v4.ODataListBinding#create` method creates a new entity inside a collection. Users can interact with a newly created entity even before it has been sent to the server.
+-   **[Creating a Single Entity](Creating_a_Single_Entity_ba0e73c.md "When a single-valued navigation property has a null value, you can create a new entity via a so-called &quot;upsert&quot; (an
+			update that does an insert ). Usually, no API is needed for this as two-way property bindings
+		are sufficient.")**  
+When a single-valued navigation property has a `null` value, you can create a new entity via a so-called "upsert" \(an **up**date that does an in**sert** \). Usually, no API is needed for this as two-way property bindings are sufficient.
 -   **[Draft Handling with the OData V4 Model](Draft_Handling_with_the_OData_V4_Model_40986e6.md "A draft is an interim version of a business entity that has not yet been explicitly saved. Drafts are saved automatically in the
 		background whenever users add or change information within a business entity.")**  
 A draft is an interim version of a business entity that has not yet been explicitly saved. Drafts are saved automatically in the background whenever users add or change information within a business entity.

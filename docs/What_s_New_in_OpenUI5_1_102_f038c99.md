@@ -384,7 +384,7 @@ Feature
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
--   The creation of inactive rows introduced with OpenUI5 1.97 is no longer experimental. For more information, see [Creating an Entity](Creating_an_Entity_c9723f8.md)and the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23methods/create).
+-   The creation of inactive rows introduced with OpenUI5 1.97 is no longer experimental. For more information, see [Creating an Entity in a Collection](Creating_an_Entity_in_a_Collection_c9723f8.md)and the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23methods/create).
 -   If metadata is already available, key predicates of message targets received from the back end are now normalized to match the key predicates calculated on the client.
 
 <sub>Changed•Feature•Info Only•1.102</sub>

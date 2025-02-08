@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c9723f8265f644af91c0ed941e114d46) | [demo kit latest release](https://sdk.openui5.org/topic/c9723f8265f644af91c0ed941e114d46)</div>
 
-## Creating an Entity
+## Creating an Entity in a Collection
 
-The `sap.ui.model.odata.v4.ODataListBinding#create` method creates a new entity. Users can interact with a newly created entity even before it has been sent to the server.
+The `sap.ui.model.odata.v4.ODataListBinding#create` method creates a new entity inside a collection. Users can interact with a newly created entity even before it has been sent to the server.
+
+> ### Note:  
+> For creating a new single entity which is not part of a collection, see [Creating a Single Entity](Creating_a_Single_Entity_ba0e73c.md).
 
 > ### Note:  
 > The `sap.ui.model.odata.v4.ODataListBinding#create` method is also used for creating records in controller code. For more information, see [Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md).
