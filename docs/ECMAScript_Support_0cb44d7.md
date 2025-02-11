@@ -86,10 +86,25 @@ Please continue to use the regular OpenUI5 APIs `sap.ui.define` and `sap.ui.requ
 
 #### Asynchronous Factory Functions
 
-Do **not** use an `async` factory function when loading or defining OpenUI5 modules. The OpenUI5 Loader will not wait for a returned Promise.
+The OpenUI5 Loader will not wait for a Promise returned as the content of an OpenUI5 module.
+
+While the usage of asynchronous factory functions and Promises as module content is not strictly forbidden, keep in mind that every Promise must be handled by the consumer of the module. An example of handy async factories is their use in top-level modules, like the framework's [`on-init` module](Configuration_Options_and_URL_Parameters_91f2d03.md).
+
+**However**, do **not** use an `async` factory function \(or return a Promise\) when defining OpenUI5 modules that contain entities of the following types, as they will not be awaited/chained in managed functionality, e.g. the processing of `XMLView`s, the loading of `Controller`s, etc.:
+
+-   Controls
+-   Components
+-   Typed views
+-   Fragments \(JS\)
+-   Controllers
+-   Controller extensions
+-   Data types
+
+> ### Note:  
+> `Component`s, Typed `View`s, and `Fragment`s \(JS\) can still return Promises in an async `createContent` implementation; it is only their containing module that must not return a Promise as module content.
 
 > ### Restriction:  
-> **Not supported** 
+> **Example of an unsupported `Controller` module** 
 > 
 > ```
 > // Do NOT use the ECMAScript async/await statements when loading/defining modules
@@ -104,7 +119,7 @@ Do **not** use an `async` factory function when loading or defining OpenUI5 modu
 Do **not** return a Promise when loading or defining OpenUI5 modules.
 
 > ### Restriction:  
-> **Not supported** 
+> **Example of an unsupported `Controller` module** 
 > 
 > ```
 > // Do NOT return a Promise when loading/defining modules

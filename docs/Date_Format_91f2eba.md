@@ -472,14 +472,14 @@ When using `DateFormat.getDateTimeWithTimezoneInstance`, the time zone can be sp
 ```js
 var oDateTimeWithTimezoneFormat = sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance();
 
-oDateTimeWithTimezoneFormat.format(UI5Date.getInstance(), "America/New_York") // Returns "10.02.2022, 10:01:14 America/New_York"
+oDateTimeWithTimezoneFormat.format(UI5Date.getInstance(), "America/New_York") // Returns "10.02.2022, 10:01:14 America, New York"
 ```
 
 ***
 
 #### Mapping of Deprecated Time Zones
 
-The IANA standard classifies certain time zone IDs as deprecated and defines substitutes for them. With [CLDR version 46](https://cldr.unicode.org/downloads/cldr-46#supplemental-data-changes), these time zones are removed, and locale-specific time zone name translations are no longer available for them. To remain backward-compatible, OpenUI5 maps deprecated IANA time zone IDs to the related preferred IANA time zone IDs when formatting or parsing time zones. For example, the translated text in the English locale `Americas, Nipigon` is now formatted to `Americas, Toronto`. In case of parsing, the translated texts cannot be parsed anymore as they are no longer available, e.g. for the English locale `Americas, Nipigon` could not be parsed. If a time zone ID is entered for parsing, the mapped equivalent would be parsed, e.g. if `America/Nipigon` is entered for parsing, it would now be parsed as `America/Toronto`.
+The IANA standard classifies certain time zone IDs as deprecated and defines substitutes for them. With [CLDR version 46](https://cldr.unicode.org/downloads/cldr-46#supplemental-data-changes), these time zones are removed, and locale-specific time zone name translations are no longer available for them. To remain backward-compatible, OpenUI5 maps deprecated IANA time zone IDs to the related preferred IANA time zone IDs when formatting or parsing time zones. For example, in an English-language locale the translated text `Americas, Nipigon` is now formatted to `Americas, Toronto`. In case of parsing, the translated texts cannot be parsed anymore as they are no longer available, e.g. in an English-language locale `Americas, Nipigon` could no longer be parsed. If a time zone ID is entered for parsing, the mapped equivalent would be parsed, e.g. if `America/Nipigon` is entered for parsing, it would now be parsed as `America/Toronto`.
 
 Below you can find a list of all deprecated time zone IDs and their substitutes.
 
