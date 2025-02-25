@@ -322,7 +322,8 @@ To do this, provide a map of headers to the OData model constructor or use the `
 -   Passing custom headers with the `mparameters` map
 
     ```js
-    var oModel = new sap.ui.model.odata.v2.ODataModel({
+    // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
+    var oModel = new ODataModel({
         headers: {
             "myHeader1" : "value1",
             "myHeader2" : "value2"
@@ -1310,7 +1311,7 @@ Each element of the entity model \(except *association set end*\) can be annotat
 
 ODataMetaModel JSON Format:
 
-```js
+```
 
 "dataServices" : {
     "schema" : [{
@@ -3605,41 +3606,51 @@ With the metadata above, you can use the `sap.ui.model.odata.type.Currency` and 
 
 **Example how to use currency and unit types in a freestyle OpenUI5 application:**
 
-```js
-...
-<Input value="{
-  mode:'TwoWay',
-  parts:[{
-    path : 'WeightMeasure',
-    type : 'sap.ui.model.odata.type.Decimal',
-    constraints : {'precision' : 13, 'scale' : 3, 'nullable' : false}
-  }, {
-    path : 'WeightUnit',
-    type : 'sap.ui.model.odata.type.String',
-    constraints : {'maxLength' : 5, 'nullable' : false}, formatOptions : {'parseKeepsEmptyString' : true}
-  }, {
-    mode : 'OneTime',
-    path : '/##@@requestUnitsOfMeasure',
-    targetType : 'any'
- }],
- type : 'sap.ui.model.odata.type.Unit'}"/>
-...
-<Input value="{
-   mode : 'TwoWay',
-   parts : [{
-    path : 'Price',
-    type : 'sap.ui.model.odata.type.Decimal',
-    constraints : {'precision' : 16, 'scale' : 3, 'nullable' : false}
-  }, {
-    path : 'CurrencyCode',
-    type : 'sap.ui.model.odata.type.String',
-    constraints : {'maxLength' : 5, 'nullable' : false}, formatOptions : {'parseKeepsEmptyString' : true}
-  }, {
-    mode : 'OneTime',
-    path : '/##@@requestCurrencyCodes',
-    targetType : 'any'
-  }],
-  type : 'sap.ui.model.odata.type.Currency'}"/>
+```
+<mvc:View
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    core:require="{
+      CurrencyType: 'sap/ui/model/odata/type/Currency',
+      DecimalType: 'sap/ui/model/odata/type/Decimal,
+      StringType: 'sap/ui/model/odata/type/String',
+      UnitType: 'sap/ui/model/odata/type/Unit
+    }">
+    ...
+    <Input value="{
+      mode:'TwoWay',
+      parts:[{
+        path: 'WeightMeasure',
+        type: 'DecimalType',
+        constraints: {'precision': 13, 'scale': 3, 'nullable': false}
+      }, {
+        path: 'WeightUnit',
+        type: 'StringType',
+        constraints: {'maxLength': 5, 'nullable': false}, formatOptions: {'parseKeepsEmptyString': true}
+      }, {
+        mode: 'OneTime',
+        path: '/##@@requestUnitsOfMeasure',
+        targetType: 'any'
+     }],
+     type: 'UnitType'}"/>
+    ...
+    <Input value="{
+       mode: 'TwoWay',
+       parts: [{
+        path: 'Price',
+        type: 'DecimalType',
+        constraints: {'precision': 16, 'scale': 3, 'nullable': false}
+      }, {
+        path: 'CurrencyCode',
+        type: 'StringType',
+        constraints: {'maxLength': 5, 'nullable': false}, formatOptions: {'parseKeepsEmptyString': true}
+      }, {
+        mode: 'OneTime',
+        path: '/##@@requestCurrencyCodes',
+        targetType: 'any'
+      }],
+      type: 'CurrencyType'}"/>
 ...
 ```
 

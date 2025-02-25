@@ -52,8 +52,13 @@ The formatter functions can be used in binding expressions and `<template:if>` i
     > ### Note:  
     > Unsupported values are turned into strings, and indicated as such. To ensure that the data binding syntax is not corrupted, proper escaping is used.
 
-    ```
-    <Text text="{path: 'meta>Value', formatter: 'sap.ui.model.odata.AnnotationHelper.format'}"/>
+    ```xml
+    <mvc:View
+            xmlns="sap.m"
+            xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+            template:require="{AH: 'sap/ui/model/odata/AnnotationHelper'}">
+            ...
+            <Text text="{path: 'meta>Value', formatter: 'AH.format'}"/>
     ```
 
 -   `getNavigationPath`: Special formatter that extracts a data binding expression for the navigation path from one of the following dynamic expressions: *14.5.2 Expression edm:AnnotationPath*, *"14.5.11 Expression edm:NavigationPropertyPath"*, *"14.5.12 Expression edm:Path"* and *"14.5.13 Expression edm:PropertyPath"*; example:
@@ -63,17 +68,25 @@ The formatter functions can be used in binding expressions and `<template:if>` i
     -   The input value `{}` returns `""`
 
     ```xml
-    
-    <template:if test="{path: 'facet>Target', formatter: 'sap.ui.model.odata.AnnotationHelper.getNavigationPath'}">
-        <form:SimpleForm binding="{path: 'facet>Target', formatter: 'sap.ui.model.odata.AnnotationHelper.getNavigationPath'}" />
-    </template:if>
+    <mvc:View
+            xmlns="sap.m"
+            xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+            template:require="{AH: 'sap/ui/model/odata/AnnotationHelper'}">
+            ...
+            <template:if test="{path: 'facet>Target', formatter: 'AH.getNavigationPath'}">
+                <form:SimpleForm binding="{path: 'facet>Target', formatter: 'AH.getNavigationPath'}" />
+            </template:if>
     ```
 
 -   `isMultiple`: Special formatter that knows about the one of the following dynamic expressions: *14.5.2 Expression edm:AnnotationPath*, *"14.5.11 Expression edm:NavigationPropertyPath"*, *"14.5.12 Expression edm:Path"* and *"14.5.13 Expression edm:PropertyPath"*. The formatter returns the information whether the navigation path ends with an association end with multiple "\*". If the multiple "\*" are not the last characters, the formatter returns an error.
 
     ```xml
-    
-    <template:if test="{path: 'facet>Target', formatter: 'sap.ui.model.odata.AnnotationHelper.isMultiple'}">
+    <mvc:View
+            xmlns="sap.m"
+            xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+            template:require="{AH: 'sap/ui/model/odata/AnnotationHelper'}">
+            ...
+            <template:if test="{path: 'facet>Target', formatter: 'AH.isMultiple'}">
     ```
 
 
