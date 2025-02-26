@@ -40,6 +40,7 @@ You can view and download all files at [Walkthrough - Step 21](https://sdk.openu
 <mvc:View
     controllerName="ui5.walkthrough.controller.InvoiceList"
     xmlns="sap.m"
+    xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc">
     <List
         headerText="{i18n>invoiceListTitle}"
@@ -48,13 +49,16 @@ You can view and download all files at [Walkthrough - Step 21](https://sdk.openu
         items="{invoice>/Invoices}">
         <items>
             <ObjectListItem
+                core:require="{
+                    Currency: 'sap/ui/model/type/Currency'
+                }"
                 title="{invoice>Quantity} x {invoice>ProductName}"
                 number="{
                     parts: [
                         'invoice>ExtendedPrice',
                         'view>/currency'
                     ],
-                    type: 'sap.ui.model.type.Currency',
+                    type: 'Currency',
                     formatOptions: {
                         showMeasure: false
                     }

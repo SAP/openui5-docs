@@ -194,6 +194,7 @@ We add the `number` and `numberUnit` field from the list of the previous steps a
 <mvc:View
     controllerName="ui5.walkthrough.controller.Detail"
     xmlns="sap.m"
+    xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:wt="ui5.walkthrough.control">
     <Page
@@ -201,6 +202,10 @@ We add the `number` and `numberUnit` field from the list of the previous steps a
         showNavButton="true"
         navButtonPress=".onNavBack">
         <ObjectHeader
+            core:require="{
+                Date: 'sap/ui/model/type/Date',
+                Currency: 'sap/ui/model/type/Currency'
+            }"
             responsive="true"
             fullScreenOptimized="true"
             number="{
@@ -208,7 +213,7 @@ We add the `number` and `numberUnit` field from the list of the previous steps a
                     'invoice>ExtendedPrice',
                     'view>/currency'
                 ],
-                type: 'sap.ui.model.type.Currency',
+                type: 'Currency',
                 formatOptions: {
                     showMeasure: false
                 }
@@ -224,11 +229,11 @@ We add the `number` and `numberUnit` field from the list of the previous steps a
                     title="{i18n>dateTitle}"
                     text="{
                         path: 'invoice>ShippedDate',
-                        type: 'sap.ui.model.type.Date',
+                        type: 'Date',
                         formatOptions: {
                             style: 'long',
                             source: {
-                            pattern: 'yyyy-MM-ddTHH:mm:ss'
+                                pattern: 'yyyy-MM-ddTHH:mm:ss'
                             }
                         }
                     }"/>

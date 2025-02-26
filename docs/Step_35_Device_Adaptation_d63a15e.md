@@ -137,6 +137,7 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
 <mvc:View
     controllerName="ui5.walkthrough.controller.Detail"
     xmlns="sap.m"
+    xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:wt="ui5.walkthrough.control">
     <Page
@@ -144,6 +145,10 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
         showNavButton="true"
         navButtonPress=".onNavBack">
         <ObjectHeader
+            core:require="{
+                Date: 'sap/ui/model/type/Date',
+                Currency: 'sap/ui/model/type/Currency'
+            }"
             responsive="true"
             fullScreenOptimized="true"
             number="{
@@ -151,7 +156,7 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
                     'invoice>ExtendedPrice',
                     'view>/currency'
                 ],
-                type: 'sap.ui.model.type.Currency',
+                type: 'Currency',
                 formatOptions: {
                     showMeasure: false
                 }
@@ -167,11 +172,11 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
                     title="{i18n>dateTitle}"
                     text="{
                         path: 'invoice>ShippedDate',
-                        type: 'sap.ui.model.type.Date',
+                        type: 'Date',
                         formatOptions: {
                             style: 'long',
                             source: {
-                            pattern: 'yyyy-MM-ddTHH:mm:ss'
+                                pattern: 'yyyy-MM-ddTHH:mm:ss'
                             }
                         }
                     }"/>

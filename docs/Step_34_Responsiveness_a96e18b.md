@@ -111,16 +111,19 @@ You can view and download all files at [Walkthrough - Step 34](https://sdk.openu
 						}"/>
 					<Text text="{invoice>ShipperName}" />
 					<ObjectNumber
+						core:require="{
+							Currency: 'sap/ui/model/type/Currency'
+						}"
 						number="{
-								parts: [
-									'invoice>ExtendedPrice',
-									'view>/currency'
-								],
-								type: 'sap.ui.model.type.Currency',
-								formatOptions: {
-									showMeasure: false
-								}
-							}"
+							parts: [
+								'invoice>ExtendedPrice',
+								'view>/currency'
+							],
+							type: 'Currency',
+							formatOptions: {
+								showMeasure: false
+							}
+						}"
 						unit="{view>/currency}"
 						state="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }"/>
 				</cells>
