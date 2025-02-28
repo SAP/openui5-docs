@@ -3615,7 +3615,7 @@ With the metadata above, you can use the `sap.ui.model.odata.type.Currency` and 
       CurrencyType: 'sap/ui/model/odata/type/Currency',
       DecimalType: 'sap/ui/model/odata/type/Decimal,
       StringType: 'sap/ui/model/odata/type/String',
-      UnitType: 'sap/ui/model/odata/type/Unit
+      UnitType: 'sap/ui/model/odata/type/Unit'
     }">
     ...
     <Input value="{
