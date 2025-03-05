@@ -165,7 +165,7 @@ Finally we reference the new `integration/opaTests.qunit.ts` in the `testsuite.q
 
 ```ts
 export default {
-       // ...
+	  // ...
 	  tests: {
 		    "unit/unitTests": {
 			       title: "UI5 TypeScript Walkthrough - Unit Tests"

@@ -637,7 +637,7 @@ The OData model allows manual CRUD \(create, read, update, delete\) operations o
 
 ***
 
-The `create` and `update` methods also require a mandatory `oData` parameter for passing the created or changed data object. Each operation returns an object containing a function abort, which can be used to abort the request. If the request is aborted, the error handler is called. This ensures that the success or the error handler is executed for every request. It is also possible to pass additional header data, URL parameters, or an eTag in the cases of updating or deleting an entity.
+The `create` and `update` methods also require a mandatory `oData` parameter for passing the created or changed data object. Each operation returns an object containing a function abort, which can be used to abort the request. If the request is aborted, the error handler is called. This ensures that the success or the error handler is executed for every request. It is also possible to pass additional header data, URL parameters, or an eTag \(the latter in the cases of updating or deleting an entity\).
 
 -   Creating entities
 
