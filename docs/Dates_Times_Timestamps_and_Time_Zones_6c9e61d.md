@@ -272,17 +272,31 @@ Displaying timestamps in a specific time zone provided by the back end is done u
 > <!-- 'DateTimeOffset' refers to an Edm.DateTimeOffset property -->
 > <!-- 'TimezoneID' refers to an Edm.String property holding the IANA time zone ID -->
 > <!-- If no type is set, the OData V4 model automatically determines the types based on the metadata -->
-> <Text text="{
->         parts: ['DateTimeOffset', 'TimezoneID'],
->         type: 'sap.ui.model.odata.type.DateTimeWithTimezone'
->      }" />
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{DateTimeWithTimezone: 'sap/ui/model/odata/type/DateTimeWithTimezone'}">
+>     ...
+>     <Text text="{parts: ['DateTimeOffset', 'TimezoneID'], type: 'DateTimeWithTimezone'}" />
+> 
 > <!-- You must specify the types when copying the OData model values to a JSON model -->
-> <Text text="{
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{
+>         DateTimeOffset: 'sap/ui/model/odata/type/DateTimeOffset',
+>         DateTimeWithTimezone: 'sap/ui/model/odata/type/DateTimeWithTimezone',
+>         StringType: 'sap/ui/model/odata/type/String'
+>     }">
+>     ...
+>     <Text text="{
 >         parts: [
->             {path: 'json>DateTimeOffset', type: 'sap.ui.model.odata.type.DateTimeOffset'},
->             {path: 'json>TimezoneID', type: 'sap.ui.model.odata.type.String'}
+>             {path: 'json>DateTimeOffset', type: 'DateTimeOffset'},
+>             {path: 'json>TimezoneID', type: 'StringType'}
 >         ],
->         type: 'sap.ui.model.odata.type.DateTimeWithTimezone'
+>         type: 'DateTimeWithTimezone'
 >      }" />
 > ```
 
@@ -292,13 +306,18 @@ Displaying timestamps in a specific time zone provided by the back end is done u
 > ```
 > <!-- '/v2/DateTimeOffset' refers to an Edm.DateTimeOffset property -->
 > <!-- 'TimezoneID' refers to an Edm.String property holding the IANA time zone ID -->
-> 
-> <Text text="{
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{DateTimeWithTimezone: 'sap/ui/model/odata/type/DateTimeWithTimezone'}">
+>     ...
+>     <Text text="{
 >         parts: [
 >             {path: '/v2/DateTimeOffset', parameters: {useUndefinedIfUnresolved: true}},
 >             {path: 'TimezoneID', parameters: {useUndefinedIfUnresolved: true}}
 >         ],
->         type: 'sap.ui.model.odata.type.DateTimeWithTimezone'
+>         type: 'DateTimeWithTimezone'
 >      }" />
 > ```
 
@@ -307,10 +326,16 @@ Displaying timestamps in a specific time zone provided by the back end is done u
 > 
 > ```
 > <!-- 'TimezoneID' refers to an Edm.String property holding the IANA time zone ID -->
-> <Text text="{
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{DateTimeWithTimezone: 'sap/ui/model/odata/type/DateTimeWithTimezone'}">
+>     ...
+>     <Text text="{
 >         formatOptions: {showDate: false, showTime: false},
 >         parts: [{value: null}, {path: 'TimezoneID'}],
->         type: 'sap.ui.model.odata.type.DateTimeWithTimezone'
+>         type: 'DateTimeWithTimezone'
 >      }" />
 > ```
 
@@ -405,7 +430,7 @@ If an application has to create new entities for a model and initialize them wit
 >          *
 >          * With OData V4: <DateTimePicker id="deliveryDate::createSalesOrderItemDialog" value="{DeliveryDate}"/>
 >          */
->         onCreateItem : function () {
+>         onCreateItem() {
 >             var oDeliveryDate = UI5Date.getInstance(),
 >                 // Get the data type via the data binding
 >                 oType = this.byId("deliveryDate::createSalesOrderItemDialog").getBinding("value").getType();
@@ -432,8 +457,8 @@ If no data binding is available, the required data type has to be taken from the
 >     "use strict";         
 >  
 >     return Controller.extend("myController", {        
->         onCreateItem : function () {
->             var oDeliveryDate = UI5Date.getInstance();
+>         onCreateItem() {
+>             const oDeliveryDate = UI5Date.getInstance();
 >                 // Get the data type via the metadata    
 >                 oListBinding = this.byId("SO_2_SOITEM").getBinding("items"),
 >                 sPath = oListBinding.getHeaderContext().getPath() + "/DeliveryDate",
@@ -463,7 +488,7 @@ You don't necessarily have to take the type from the binding or the metadata; yo
 >  
 >     return Controller.extend("myController", { 
 >         onCreateItem : function () {
->             var oBirthDay = UI5Date.getInstance(1995, 5, 13);
+>             const oBirthDay = UI5Date.getInstance(1995, 5, 13);
 >                 // Create the type with the constraints as defined in the $metadata document
 >                 oType = new DateTime(undefined, {displayFormat: "date"});  
 >                          
@@ -492,10 +517,13 @@ To ensure consistency and reduce the number of type instances during runtime, we
 > <DatePicker value="{/V4/Date1}" />
 >  
 > <!-- When binding an Edm.Date, for example via a JSON model, you have to specify a type -->
-> <DatePicker value="{
->     path: 'json>/V4/Date1',
->     type: 'sap.ui.model.odata.type.Date'
->     }" />
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{DateType: 'sap/ui/model/odata/type/Date'}">
+>     ...
+>     <DatePicker value="{path: 'json>/V4/Date1', type: 'DateType'}" />
 > ```
 
 > ### Example:  
@@ -503,11 +531,13 @@ To ensure consistency and reduce the number of type instances during runtime, we
 > 
 > ```
 > <!-- Model value is a JavaScript Date object in UTC time zone -->
-> <DatePicker value="{
->     constraints: {displayFormat: 'Date'},
->     path: '/V2/Date1',
->     type: 'sap.ui.model.odata.type.DateTime'
-> }" />
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{DateTime: 'sap/ui/model/odata/type/DateTime'}">
+>     ...
+>     <DatePicker value="{path: '/V2/Date1', type: 'DateTime', constraints: {displayFormat: 'Date'}}" />
 > ```
 
 ***
@@ -523,7 +553,13 @@ To ensure consistency and reduce the number of type instances during runtime, we
 > <TimePicker value="{/V4/Time}"/>
 >  
 > <!-- When binding an Edm.TimeOfDay, for example via a JSON model, you have to specify a type -->
-> <TimePicker value="{path: 'json>/V4/Time', type: 'sap.ui.model.odata.type.TimeOfDay'}"/>
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{TimeOfDay: 'sap/ui/model/odata/type/TimeOfDay'}">
+>     ...
+>     <TimePicker value="{path: 'json>/V4/Time', type: 'TimeOfDay'}"/>
 > ```
 
 > ### Example:  
@@ -531,7 +567,13 @@ To ensure consistency and reduce the number of type instances during runtime, we
 > 
 > ```
 > <!-- Model value is an object like {ms: 41635000, __edmType: 'Edm.Time'} -->
-> <TimePicker value="{path: '/V2/Time', type: 'sap.ui.model.odata.type.Time'}"/>
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{Time: 'sap/ui/model/odata/type/Time'}">
+>     ...
+>    <TimePicker value="{path: '/V2/Time', type: 'Time'}"/>
 > ```
 
 ***
@@ -548,7 +590,13 @@ To ensure consistency and reduce the number of type instances during runtime, we
 >  
 > <!-- When binding an OData V4 Edm.DateTimeOffset, for example via a JSON model, you must specify a type -->
 > <!--    and you have to set the constraint V4 to true. -->
-> <DateTimePicker value="{constraints: {V4: true}, path: 'json>/V4/DateTimeOffset', type: 'sap.ui.model.odata.type.DateTimeOffset'}"/>
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{DateTimeOffset: 'sap/ui/model/odata/type/DateTimeOffset'}">
+>     ...
+>     <DateTimePicker value="{constraints: {V4: true}, path: 'json>/V4/DateTimeOffset', type: 'DateTimeOffset'}"/>
 > ```
 
 > ### Example:  
@@ -557,7 +605,13 @@ To ensure consistency and reduce the number of type instances during runtime, we
 > ```
 > 
 > <!-- Model value is a JavaScript Date object -->
-> <DateTimePicker value="{path: '/V2/DateTimeOffset', type: 'sap.ui.model.odata.type.DateTimeOffset'}"/>
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{DateTimeOffset: 'sap/ui/model/odata/type/DateTimeOffset'}">
+>     ...
+>     <DateTimePicker value="{path: '/V2/DateTimeOffset', type: 'DateTimeOffset'}"/>
 > ```
 
 ***
@@ -571,24 +625,36 @@ With a `DateRangeSelection` control the user can select two dates, a start date 
 > 
 > ```
 > <!-- Date1 and Date2 are Edm.Date properties (V4)) -->
-> <DateRangeSelection value="{
->     formatOptions: {UTC: true},
->     parts: ['/V4/Date1', '/V4/Date2'],
->     type: 'sap.ui.model.type.DateInterval'
-> }" />
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{DateInterval: 'sap/ui/model/type/DateInterval'}">
+>     ...
+>     <DateRangeSelection value="{parts: ['/V4/Date1', '/V4/Date2'], type: 'DateInterval', formatOptions: {UTC: true}}" />
 >  
 > <!-- When binding Edm.Date properties, for example via a JSON model, you have to specify a type -->
-> <DateRangeSelection value="{
->     formatOptions: {UTC: true},
->     parts: [{
->         path: 'json>/V4/Date1',
->         type: 'sap.ui.model.odata.type.Date'
->     }, {
->         path: 'json>/V4/Date2',
->         type: 'sap.ui.model.odata.type.Date'
->     }],
->     type: 'sap.ui.model.type.DateInterval'
-> }" />
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{
+>         DateType: 'sap/ui/model/odata/type/Date',
+>         DateInterval: 'sap/ui/model/type/DateInterval',
+>     }">
+>     ...
+>     <DateRangeSelection
+>         value="{
+>             parts: [{
+>                 path: 'json>/V4/Date1',
+>                 type: 'DateType'
+>             }, {
+>                 path: 'json>/V4/Date2',
+>                 type: 'DateType'
+>             }],
+>             type: 'DateInterval',
+>             formatOptions: {UTC: true}
+>         }" />
 > ```
 
 > ### Example:  
@@ -597,19 +663,28 @@ With a `DateRangeSelection` control the user can select two dates, a start date 
 > ```
 > 
 > <!-- Date1 and Date2 are Edm.DateTime properties with the sap:display-format='Date' annotation -->
-> <DateRangeSelection value="{
->     formatOptions: {UTC: true},
->     parts: [{
->         constraints: {displayFormat: 'Date'},
->         path: '/V2/Date1',
->         type: 'sap.ui.model.odata.type.DateTime'
->     }, {
->         constraints: {displayFormat: 'Date'},
->         path: '/V2/Date2',
->         type: 'sap.ui.model.odata.type.DateTime'
->     }],
->     type: 'sap.ui.model.type.DateInterval'
-> }" />
+> <mvc:View
+>     xmlns:core="sap.ui.core"
+>     xmlns:mvc="sap.ui.core.mvc"
+>     xmlns="sap.m"
+>     core:require="{
+>         DateInterval: 'sap/ui/model/type/DateInterval',
+>         DateTime: 'sap/ui/model/odata/type/DateTime'
+>     }">
+>     <DateRangeSelection
+>         value="{
+>             parts: [{
+>                 path: '/V2/Date1',
+>                 type: 'DateTime',
+>                 constraints: {displayFormat: 'Date'}
+>             }, {
+>                 path: '/V2/Date2',
+>                 type: 'DateTime',
+>                 constraints: {displayFormat: 'Date'}
+>             }],
+>             type: 'DateInterval',
+>             formatOptions: {UTC: true}
+>         }" />
 > ```
 
 ***
@@ -625,34 +700,34 @@ JSON models can also be used if the data is stored in the JSON model in the same
 > **Transfer dates, times, and timestamps between an OData V2 model and a JSON model**
 > 
 > ```
-> transferDatesTimesAndTimestampsFromODataV2ModelToJSONModel: function (oContext) {
+> transferDatesTimesAndTimestampsFromODataV2ModelToJSONModel(oContext) {
 >     // assume "oContext" is an OData V2 context referencing an entity with the properties 
 >     //   "DateTime" (date), "DateTimeOffset" (timestamp) and "Time" (time)
->     var oDate = oContext.getProperty("DateTime"),
->         oDateTimeOffset = oContext.getProperty("DateTimeOffset"),
->         oTime = oContext.getProperty("Time");
+>     const oDate = oContext.getProperty("DateTime");
+>     const oDateTimeOffset = oContext.getProperty("DateTimeOffset");
+>     const oTime = oContext.getProperty("Time");
 >  
 >     return new JSONModel({
->             DateTime: oDate ? UI5Date.getInstance(oDate) : null,
->             DateTimeOffset: oDateTimeOffset ? UI5Date.getInstance(oDateTimeOffset) : null,
->             Time: oTime ? Object.assign({}, oTime) : null
->         });
+>         DateTime: oDate ? UI5Date.getInstance(oDate) : null,
+>         DateTimeOffset: oDateTimeOffset ? UI5Date.getInstance(oDateTimeOffset) : null,
+>         Time: oTime ? Object.assign({}, oTime) : null
+>     });
 > },
-> transferDatesTimesAndTimestampsFromJSONModelToODataV2Model: function (oContext, oJSONModel) {
+> transferDatesTimesAndTimestampsFromJSONModelToODataV2Model(oContext, oJSONModel) {
 >     // assume "oContext"  is an OData V2 context referencing an entity with the properties 
 >     //   "DateTime" (date), "DateTimeOffset" (timestamp) and "Time" (time)
 >     // assume "oJSONModel" is a JSONModel containing the values to be transferred 
 >     //   to the OData V2 model "oDataModel"
->     var oDate = oJSONModel.getProperty("/DateTime"),
->         oDateTimeOffset = oJSONModel.getProperty("/DateTimeOffset"),
->         oTime = oJSONModel.getProperty("/Time"),
->         oDataModel = oContext.getModel();
+>     const oDate = oJSONModel.getProperty("/DateTime");
+>     const oDateTimeOffset = oJSONModel.getProperty("/DateTimeOffset");
+>     const oTime = oJSONModel.getProperty("/Time");
+>     const oDataModel = oContext.getModel();
 >  
 >     oDataModel.setProperty("DateTime", oDate ? UI5Date.getInstance(oDate) : null, oContext);
 >     oDataModel.setProperty("DateTimeOffset", oDateTimeOffset ? UI5Date.getInstance(oDateTimeOffset) : null, oContext);
 >     oDataModel.setProperty("Time", oTime ? Object.assign({}, oTime) : null, oContext);
 > },
-> getJSONModelWithFixInitialValues: function () {
+> getJSONModelWithFixInitialValues() {
 >     return new JSONModel({
 >         DateTime: UI5Date.getInstance(Date.UTC(2022, 11, 15)), // for Dec 15th 2022
 >         DateTimeOffset: UI5Date.getInstance(Date.UTC(2022, 11, 15, 10, 45)), 
@@ -671,16 +746,16 @@ If an OData V4 model is used, cloning is not necessary, as the model representat
 > **Transfer dates, times, and timestamps between an OData V4 model and a JSON model**
 > 
 > ```
-> transferDatesTimesAndTimestampsFromODataV4ModelToJSONModel: function (oContext) {
+> transferDatesTimesAndTimestampsFromODataV4ModelToJSONModel(oContext) {
 >     // assume "oContext" is an OData V4 context referencing an entity with the properties 
 >     //   "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
 >     return new JSONModel({
->             Date: oContext.getProperty("Date"),
->             DateTimeOffset: oContext.getProperty("DateTimeOffset"),
->             TimeOfDay: oContext.getProperty("TimeOfDay")
->         });
+>         Date: oContext.getProperty("Date"),
+>         DateTimeOffset: oContext.getProperty("DateTimeOffset"),
+>         TimeOfDay: oContext.getProperty("TimeOfDay")
+>     });
 > },
-> transferDatesTimesAndTimestampsFromJSONModelToODataV4Model: function (oContext, oJSONModel) {
+> transferDatesTimesAndTimestampsFromJSONModelToODataV4Model(oContext, oJSONModel) {
 >     // assume "oContext"  is an OData V4 context referencing an entity with the properties 
 >     //  "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
 >     // assume "oJSONModel" is a JSONModel containing the values to be transferred 
@@ -689,7 +764,7 @@ If an OData V4 model is used, cloning is not necessary, as the model representat
 >     oContext.setProperty("DateTimeOffset", oJSONModel.getProperty("/DateTimeOffset"));
 >     oContext.setProperty("Time", oJSONModel.getProperty("/Time"));
 > },
-> getJSONModelWithFixInitialValues: function () {
+> getJSONModelWithFixInitialValues() {
 >     return new JSONModel({
 >         Date: "2022-12-15", // for Dec 15th 2022
 >         DateTimeOffset: "2022-12-15T10:45:00Z", 
