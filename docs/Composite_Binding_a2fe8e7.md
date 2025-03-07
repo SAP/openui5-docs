@@ -101,7 +101,7 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 -   You can mix text with calculated fields as follows:
 
     ```
-    <Label text="Hello Mr. {path:'/singleEntry/firstName', formatter: '.myFormatter'}, {/singleEntry/lastName}" />
+    <Label text="Hello Mr. {path: '/singleEntry/firstName', formatter: '.myFormatter'}, {/singleEntry/lastName}"/>
     ```
 
     > ### Note:  
@@ -110,7 +110,7 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 -   Use a syntax with leading quotation marks \("..."\) if you use MVC and your formatter or type is located in the controller. In the following example, the existing type or formatter function in the controller is used:
 
     ```
-    <Text text="{path:'gender', formatter:'.myGenderFormatter'} {firstName}, {lastName}"/>
+    <Text text="{path: 'gender', formatter: '.myGenderFormatter'} {firstName}, {lastName}"/>
     ```
 
 -   If you have a global formatter function, use the following syntax:
@@ -143,9 +143,9 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
             xmlns="sap.m"
             core:require="{Float: 'sap/ui/model/type/Float'}">
     <Label text="A type test: {
-                               path:'/singleEntry/amount', 
-                               type:'Float', 
-                               formatOptions: { minFractionDigits: 1}
+                               path: '/singleEntry/amount', 
+                               type: 'Float', 
+                               formatOptions: {minFractionDigits: 1}
                               } EUR
     "/>
     ```

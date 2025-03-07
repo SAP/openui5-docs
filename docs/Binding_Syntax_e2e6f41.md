@@ -83,7 +83,7 @@ If a control requires data from multiple different model properties, you use a `
         core:require="{globalFormatter: 'my/globalFormatter'}">
         <TextField value="{
                 parts: [{path:'birthday/day'}, {path:'birthday/month'}, {path:'birthday/year'}], 
-                formatter:'my.globalFormatter'
+                formatter:'globalFormatter'
         }"/>
 ```
 

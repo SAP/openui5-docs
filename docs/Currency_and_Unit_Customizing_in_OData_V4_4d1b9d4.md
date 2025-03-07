@@ -160,9 +160,9 @@ With the metadata above, you can use the data types `sap.ui.model.odata.type.Cur
         Unit: 'sap/ui/model/odata/type/Unit'
     }">
     ...
-    <Input value="{mode:'TwoWay', parts:['WeightMeasure', 'WeightUnit', {mode:'OneTime', path:'/##@@requestUnitsOfMeasure', targetType:'any'}], type:'Unit'}"/>
+    <Input value="{mode: 'TwoWay', parts: ['WeightMeasure', 'WeightUnit', {mode: 'OneTime', path: '/##@@requestUnitsOfMeasure', targetType: 'any'}], type: 'Unit'}"/>
     ...
-    <Input value="{mode:'TwoWay', parts:['Price', 'CurrencyCode', {mode:'OneTime', path:'/##@@requestCurrencyCodes', targetType:'any'}], type:'Currency'}"/>
+    <Input value="{mode: 'TwoWay', parts: ['Price', 'CurrencyCode', {mode: 'OneTime', path: '/##@@requestCurrencyCodes', targetType: 'any'}], type: 'Currency'}"/>
     ...
 ```
 
