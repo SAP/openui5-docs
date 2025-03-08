@@ -442,7 +442,7 @@ sap.ui.define([
     "sap/base/strings/formatMessage"
 ], function(Controller, formatMessage) {
     return Controller.extend("sample.App", {
-        onInit () {
+        onInit() {
             ...
         },
         formatMessage: formatMessage,

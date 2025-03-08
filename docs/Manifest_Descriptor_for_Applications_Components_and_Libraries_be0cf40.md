@@ -1235,6 +1235,23 @@ Version 71
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Version 72
+
+</td>
+<td valign="top">
+
+\>=1.134
+
+</td>
+<td valign="top">
+
+1.71.0
+
+</td>
+</tr>
 </table>
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Manifest File](Migration_Information_for_Upgrading_the_Manifest_File_a110f76.md)

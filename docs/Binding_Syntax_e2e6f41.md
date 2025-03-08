@@ -82,8 +82,8 @@ If a control requires data from multiple different model properties, you use a `
         xmlns="sap.m"
         core:require="{globalFormatter: 'my/globalFormatter'}">
         <TextField value="{
-                parts: [{path:'birthday/day'}, {path:'birthday/month'}, {path:'birthday/year'}], 
-                formatter:'globalFormatter'
+                parts: [{path: 'birthday/day'}, {path: 'birthday/month'}, {path: 'birthday/year'}], 
+                formatter: 'globalFormatter'
         }"/>
 ```
 
