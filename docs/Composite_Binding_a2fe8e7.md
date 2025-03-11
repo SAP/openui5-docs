@@ -117,18 +117,18 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 
     ```
     <mvc:View
-            xmlns:core="sap.ui.core"
-            xmlns:mvc="sap.ui.core.mvc"
-            xmlns="sap.m"
-            core:require="{globalFormatter: 'my/globalFormatter'}">
-            <Text text="{
-                  parts: [
-                          {path:'birthday/day'},
-                          {path:'birthday/month'},
-                          {path:'birthday/year'}
-                         ], 
-                  formatter:'globalFormatter'
-    }"/>
+        xmlns:core="sap.ui.core"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m"
+        core:require="{globalFormatter: 'my/globalFormatter'}">
+        <Text text="{
+            parts: [
+                {path:'birthday/day'},
+                {path:'birthday/month'},
+                {path:'birthday/year'}
+            ], 
+            formatter:'globalFormatter'
+        }"/>
     ```
 
     > ### Note:  
@@ -138,16 +138,11 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 
     ```
     <mvc:View
-            xmlns:core="sap.ui.core"
-            xmlns:mvc="sap.ui.core.mvc"
-            xmlns="sap.m"
-            core:require="{Float: 'sap/ui/model/type/Float'}">
-    <Label text="A type test: {
-                               path: '/singleEntry/amount', 
-                               type: 'Float', 
-                               formatOptions: {minFractionDigits: 1}
-                              } EUR
-    "/>
+        xmlns:core="sap.ui.core"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m"
+        core:require="{Float: 'sap/ui/model/type/Float'}">
+        <Label text="A type test: {path: '/singleEntry/amount', type: 'Float', formatOptions: {minFractionDigits: 1}} EUR"/>
     ```
 
 
@@ -174,8 +169,7 @@ It is useful in cases where you'd like to use a common formatter function or typ
 >     tooltip="{
 >         parts: ['deliveryStatus', 'paymentStatus', {value: 'tooltip'}],
 >         formatter: 'formatter.formatStatus'
->     }"
-> />
+>     }"/>
 > ```
 
 **Example 2: Constant part in type**
@@ -194,6 +188,6 @@ This example uses `sap.ui.model.odata.type.DateTimeWithTimezone` to display only
 >         formatOptions: {showDate: false, showTime: false},
 >         parts: [{value: null}, {path: 'TimezoneID'}],
 >         type: 'DateTimeWithTimezone'
->     }" />
+>     }"/>
 > ```
 

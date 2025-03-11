@@ -1330,6 +1330,9 @@
 											},
 											"Currency and Unit Customizing in OData V2": {
 												"link": "OData_V2_Model_6c47b2b.md#loioaa9024c7c5444822a68daeb21a92bd51"
+											},
+											"Handling of Temporarily Unavailable Back Ends": {
+												"link": "OData_V2_Model_6c47b2b.md#loio262f75165c3d43b1817f6469aaad453c"
 											}
 										}
 									},
@@ -1444,6 +1447,9 @@
 											},
 											"Currency and Unit Customizing in OData V4": {
 												"link": "Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md"
+											},
+											"Handling of Temporarily Unavailable Back Ends": {
+												"link": "Handling_of_Temporarily_Unavailable_Back_Ends_b3422ec.md"
 											}
 										}
 									},

@@ -232,7 +232,7 @@ You can also provide parameter values for some of the simple types in your XML v
 </mvc:View>
 ```
 
-Using JavaScript, you can define a type to be used for a property binding by passing it as a third parameter in `bindProperty` or by adding it to the binding information by using the`type` key . The type can be set using either the class object of the type or an instance of the type. When using the class object, you can also provide `formatOptions` and `constraints` directly in the binding information.
+Using JavaScript, you can define a type to be used for a property binding by passing it as a third parameter in `bindProperty` or by adding it to the binding information by using the `type` key. The type can be set using either the class object of the type or an instance of the type. When using the class object, you can also provide `formatOptions` and `constraints` directly in the binding information.
 
 **Example:** Using the Type Class
 
