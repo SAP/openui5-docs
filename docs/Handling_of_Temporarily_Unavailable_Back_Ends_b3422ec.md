@@ -10,11 +10,9 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b3422e
 
 ## Handling of Temporarily Unavailable Back Ends
 
-OpenUI5 offers the `setRetryAfterHandler` API to define when requests should be repeated and how an app is to behave in the meantime. This feature is useful for ensuring smooth application performance.
-
 An OData back end cannot process incoming requests while it is under maintenance. Instead, it can respond with an HTTP 503 status code \(Service Unavailable\) and a "Retry-After" header.
 
-For this scenario OpenUI5 offers the [`v4.ODataModel#setRetryAfterHandler`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23methods/setRetryAfterHandler) API by which an application can set a handler to define when requests should be repeated and how the app should behave in the meantime.
+For this scenario, OpenUI5 offers the [`v4.ODataModel#setRetryAfterHandler`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23methods/setRetryAfterHandler) API, by which an application can set a handler to determine when requests should be repeated and how the app should behave in the meantime.
 
 All requests which are sent after a model's initialisation and the registration of the handler via the `ODataModel#setRetryAfterHandler` API are supported by this feature.
 

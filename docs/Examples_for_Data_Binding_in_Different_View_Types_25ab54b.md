@@ -29,7 +29,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
         globalFormatter: 'my/globalFormatter',
         Float: 'sap/ui/model/type/Float'
     }">
-    <Label text="Hello Mr. {/employees/0/lastName}, {path:'/employees/0/firstName', formatter:'.myFormatter'}"/>
+    <Label text="Hello Mr. {/employees/0/lastName}, {path: '/employees/0/firstName', formatter: '.myFormatter'}"/>
     <Table items="{/employees}">
         <columns>
             <Column>

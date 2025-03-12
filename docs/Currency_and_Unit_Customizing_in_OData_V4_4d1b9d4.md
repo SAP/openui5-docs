@@ -160,9 +160,9 @@ With the metadata above, you can use the data types `sap.ui.model.odata.type.Cur
         Unit: 'sap/ui/model/odata/type/Unit'
     }">
     ...
-    <Input value="{mode: 'TwoWay', parts: ['WeightMeasure', 'WeightUnit', {mode: 'OneTime', path: '/##@@requestUnitsOfMeasure', targetType: 'any'}], type: 'Unit'}"/>
+    <Input value="{mode: 'TwoWay', parts: ['WeightMeasure', 'WeightUnit', {mode: 'OneTime', path: '/##@@requestUnitsOfMeasure', targetType: 'any'}], type: 'Unit'}" />
     ...
-    <Input value="{mode: 'TwoWay', parts: ['Price', 'CurrencyCode', {mode: 'OneTime', path: '/##@@requestCurrencyCodes', targetType: 'any'}], type: 'Currency'}"/>
+    <Input value="{mode: 'TwoWay', parts: ['Price', 'CurrencyCode', {mode: 'OneTime', path: '/##@@requestCurrencyCodes', targetType: 'any'}], type: 'Currency'}" />
     ...
 ```
 
@@ -207,13 +207,13 @@ The composite binding for the `sap.ui.model.odata.type.Currency` and `sap.ui.mod
          <columns>
             <template:repeat list="{lineItem>}" var="field">
                <Column>
-                  <Label text="{field>@@label}"/>
+                  <Label text="{field>@@label}" />
                </Column>
             </template:repeat>
          </columns>
          <ColumnListItem>
             <template:repeat list="{lineItem>}" var="field">
-               <Input value="{field>Value/@@format}"/>
+               <Input value="{field>Value/@@format}" />
             </template:repeat>
          </ColumnListItem>
       </Table>
@@ -241,10 +241,10 @@ The composite binding for the `sap.ui.model.odata.type.Currency` and `sap.ui.mod
             <columns>
                 ...
                 <Column>
-                    <Label text="Weight"/>
+                    <Label text="Weight" />
                 </Column>
                 <Column>
-                    <Label text="Price"/>
+                    <Label text="Price" />
                 </Column>
                 ...
             </columns>

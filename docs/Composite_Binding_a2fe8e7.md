@@ -123,11 +123,11 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
         core:require="{globalFormatter: 'my/globalFormatter'}">
         <Text text="{
             parts: [
-                {path:'birthday/day'},
-                {path:'birthday/month'},
-                {path:'birthday/year'}
+                {path: 'birthday/day'},
+                {path: 'birthday/month'},
+                {path: 'birthday/year'}
             ], 
-            formatter:'globalFormatter'
+            formatter: 'globalFormatter'
         }"/>
     ```
 

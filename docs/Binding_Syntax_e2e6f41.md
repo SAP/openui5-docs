@@ -36,24 +36,24 @@ You can add other properties, such as formatters, data types, or events:
 
     ```xml
     <mvc:View
-            xmlns:core="sap.ui.core"
-            xmlns:mvc="sap.ui.core.mvc"
-            xmlns="sap.m"
-            core:require="{StringType: 'sap/ui/model/type/String'}">
-            ...
-            <Input value="{path: '/firstName', type: 'StringType'}"/>
+        xmlns:core="sap.ui.core"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m"
+        core:require="{StringType: 'sap/ui/model/type/String'}">
+        
+        <Input value="{path: '/firstName', type: 'StringType'}"/>
     ```
 
 -   Formatter:
 
     ```xml
     <mvc:View
-            xmlns:core="sap.ui.core"
-            xmlns:mvc="sap.ui.core.mvc"
-            xmlns="sap.m"
-            core:require="{globalFormatter: 'my/globalFormatter'}">
-            ...
-            <Input value="{path: '/firstName', formatter: 'globalFormatter'}"/>
+        xmlns:core="sap.ui.core"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m"
+        core:require="{globalFormatter: 'my/globalFormatter'}">
+        
+        <Input value="{path: '/firstName', formatter: 'globalFormatter'}"/>
     ```
 
 -   Event:
@@ -77,14 +77,15 @@ If a control requires data from multiple different model properties, you use a `
 
 ```xml
 <mvc:View
-        xmlns:core="sap.ui.core"
-        xmlns:mvc="sap.ui.core.mvc"
-        xmlns="sap.m"
-        core:require="{globalFormatter: 'my/globalFormatter'}">
-        <TextField value="{
-                parts: [{path: 'birthday/day'}, {path: 'birthday/month'}, {path: 'birthday/year'}], 
-                formatter: 'globalFormatter'
-        }"/>
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    core:require="{globalFormatter: 'my/globalFormatter'}">
+
+    <TextField value="{
+        parts: [{path: 'birthday/day'}, {path: 'birthday/month'}, {path: 'birthday/year'}], 
+        formatter: 'globalFormatter'
+    }"/>
 ```
 
 For more information, see [Composite Binding](Composite_Binding_a2fe8e7.md) and [Examples for Data Binding in Different View Types](Examples_for_Data_Binding_in_Different_View_Types_25ab54b.md).

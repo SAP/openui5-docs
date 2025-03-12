@@ -375,7 +375,7 @@ The [`sap.ui.core.date.UI5Date`](https://sdk.openui5.org/api/module:sap/ui/core/
 >  
 >     // Assuming the application is called with this URL parameter: sap-timezone=Pacific/Kiritimati   
 >     // Create an instance of UI5Date with a preset date
->     var oUI5Date = UI5Date.getInstance(2023, 0, 1, 0, 0, 0, 0); // To create an instance of UI5Date for today/now, just use UI5Date.getInstance() without parameters
+>     const oUI5Date = UI5Date.getInstance(2023, 0, 1, 0, 0, 0, 0); // To create an instance of UI5Date for today/now, just use UI5Date.getInstance() without parameters
 >      
 >     Log.info(oUI5Date.getDate()); // Returns 1, the day of the month in the configured time zone
 >   
@@ -423,10 +423,15 @@ If an application has to create new entities for a model and initialize them wit
 >         /**
 >          * Assume you have the following control defined in the corresponding XML view of this controller:
 >          * 
->          * With OData V2: <DateTimePicker id="deliveryDate::createSalesOrderItemDialog" value="{
->          *                              path : 'DeliveryDate',
->          *                              type : 'sap.ui.model.odata.type.DateTimeOffset'
->          *                          }"/>
+>           * With OData V2:
+>           *    <mvc:View
+>           *        xmlns:core="sap.ui.core"
+>           *        xmlns:mvc="sap.ui.core.mvc"
+>           *        xmlns="sap.m"
+>           *        core:require="{DateTimeOffset: 'sap/ui/model/odata/type/DateTimeOffset'}">
+>           *        ...
+>           *        <DateTimePicker id="deliveryDate::createSalesOrderItemDialog"
+>           *            value="{path: 'DeliveryDate', type: 'DateTimeOffset'}"/>
 >          *
 >          * With OData V4: <DateTimePicker id="deliveryDate::createSalesOrderItemDialog" value="{DeliveryDate}"/>
 >          */
@@ -487,10 +492,10 @@ You don't necessarily have to take the type from the binding or the metadata; yo
 >     "use strict";         
 >  
 >     return Controller.extend("myController", { 
->         onCreateItem : function () {
+>         onCreateItem() {
 >             const oBirthDay = UI5Date.getInstance(1995, 5, 13);
->                 // Create the type with the constraints as defined in the $metadata document
->                 oType = new DateTime(undefined, {displayFormat: "date"});  
+>             // Create the type with the constraints as defined in the $metadata document
+>             const oType = new DateTime(undefined, {displayFormat: "date"});  
 >                          
 >             this.byId("contacts").getBinding("rows").create({
 >                 Name: "Max",

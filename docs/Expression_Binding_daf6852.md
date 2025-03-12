@@ -39,15 +39,13 @@ For more information how these values relate to OData types, see the [`sap.ui.mo
 For more information about `targetType`, see the [sap.ui.base.ManagedObject\#bindProperty](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindProperty) API documentation in the Demo Kit.
 
 > ### Note:  
-> Expression binding can also be used with JavaScript. For example:
+> Expression binding can also be used with JavaScript:
 > 
 > ```js
+> // Example 1
 > new Text({"visible": "{=%{status} === 'critical' && %{amount} > 10000 }"});
-> ```
 > 
-> or
-> 
-> ```js
+> // Example 2
 > new Icon({color: "'{=encodeURIComponent(%{/ID}) }'"});
 > ```
 
@@ -431,12 +429,14 @@ errorMsg=Message is too short
          : %{parts: [
              {path: 'i18n>successMsg'},
              {path: '/data/today', type: 'DateType', constraints: {displayFormat: 'Date'}},
-             {path: '/data/tomorrow', type: 'DateType', constraints: {displayFormat:'Date'}}
+             {path: '/data/tomorrow', type: 'DateType', constraints: {displayFormat: 'Date'}}
          ], formatter: '.formatMessage'}}" />
     ...		
 </mvc:View>
+```
 
-<!-- Controller -->
+```
+// Controller
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/base/strings/formatMessage"

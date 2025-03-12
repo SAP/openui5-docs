@@ -103,10 +103,9 @@ The OData V4 model supports server messages sent via an OData V4 service.
       sap.ui.model.odata.type.Currency and sap.ui.model.odata.type.Unit enable you to use code lists with
     customizing for currency codes and units. ")**  
 For amounts or measures, you may sometimes need different currencies or units than defined in the CLDR. The data types `sap.ui.model.odata.type.Currency` and `sap.ui.model.odata.type.Unit` enable you to use code lists with customizing for currency codes and units.
--   **[Handling of Temporarily Unavailable Back Ends](Handling_of_Temporarily_Unavailable_Back_Ends_b3422ec.md "OpenUI5 offers the setRetryAfterHandler API to define when
-		requests should be repeated and how an app is to behave in the meantime. This feature is useful for ensuring smooth application
-		performance.")**  
-OpenUI5 offers the `setRetryAfterHandler` API to define when requests should be repeated and how an app is to behave in the meantime. This feature is useful for ensuring smooth application performance.
+-   **[Handling of Temporarily Unavailable Back Ends](Handling_of_Temporarily_Unavailable_Back_Ends_b3422ec.md "An OData back end cannot process incoming requests while it is under maintenance. Instead, it can respond with an HTTP 503 status code
+		(Service Unavailable) and a &quot;Retry-After&quot; header.")**  
+An OData back end cannot process incoming requests while it is under maintenance. Instead, it can respond with an HTTP 503 status code \(Service Unavailable\) and a "Retry-After" header.
 
 **Related Information**  
 

@@ -311,10 +311,10 @@ Lifecycle Hooks
 > sap.ui.require(["sap/ui/core/mvc/Controller"], (Controller) => {
 >   return Controller.extend("my.controller.Sample", {
 >       // Do NOT use async event handlers for lifecycle hooks such as "onInit" or "onExit"
->       onInit: async() => {
+>       async onInit() {
 >           await doSomething();
 >       },
->       onExit: async() => {
+>       async onExit() {
 >           await doSomethingOnExit();
 >       }
 >   });
@@ -334,7 +334,7 @@ You can implement an asynchronous event handler for control events. However, Ope
 > sap.ui.require(["sap/m/Button"], (Button) => {
 >     const oButton = new Button({
 >         text: "Press me",
->         press: async() => { // async "press" event handler
+>         async press() { // async "press" event handler
 >           await doSomethingAsync();
 >         }
 >     });
