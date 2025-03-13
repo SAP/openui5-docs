@@ -436,9 +436,9 @@ If an application has to create new entities for a model and initialize them wit
 >          * With OData V4: <DateTimePicker id="deliveryDate::createSalesOrderItemDialog" value="{DeliveryDate}"/>
 >          */
 >         onCreateItem() {
->             var oDeliveryDate = UI5Date.getInstance(),
->                 // Get the data type via the data binding
->                 oType = this.byId("deliveryDate::createSalesOrderItemDialog").getBinding("value").getType();
+>             const oDeliveryDate = UI5Date.getInstance();
+>             // Get the data type via the data binding
+>             const oType = this.byId("deliveryDate::createSalesOrderItemDialog").getBinding("value").getType();
 >  
 >             oDeliveryDate.setMonth(oDeliveryDate.getMonth() + 1);            
 >             this.byId("ToLineItems").getBinding("rows").create({
@@ -554,7 +554,7 @@ To ensure consistency and reduce the number of type instances during runtime, we
 > 
 > ```
 > <!-- Model value is a string in the format "hh:mm:ss" resp. "hh:mm:ss.SSS" -->
-> <!--    (the number of S depends on the type's precision) -->
+> <!-- (the number of S depends on the type's precision) -->
 > <TimePicker value="{/V4/Time}"/>
 >  
 > <!-- When binding an Edm.TimeOfDay, for example via a JSON model, you have to specify a type -->
@@ -590,11 +590,11 @@ To ensure consistency and reduce the number of type instances during runtime, we
 > 
 > ```
 > <!-- Model value is a string in the format "yyyy-MM-dd'T'HH:mm:ss" resp. "yyyy-MM-dd'T'HH:mm:ss.SSS" -->
-> <!--   (the number of S depends on the type's precision), e.g. "2015-01-06T07:25:21Z" -->
+> <!-- (the number of S depends on the type's precision), e.g. "2015-01-06T07:25:21Z" -->
 > <DateTimePicker value="{/V4/DateTimeOffset}"/>
 >  
 > <!-- When binding an OData V4 Edm.DateTimeOffset, for example via a JSON model, you must specify a type -->
-> <!--    and you have to set the constraint V4 to true. -->
+> <!-- and you have to set the constraint V4 to true. -->
 > <mvc:View
 >     xmlns:core="sap.ui.core"
 >     xmlns:mvc="sap.ui.core.mvc"
@@ -707,7 +707,7 @@ JSON models can also be used if the data is stored in the JSON model in the same
 > ```
 > transferDatesTimesAndTimestampsFromODataV2ModelToJSONModel(oContext) {
 >     // assume "oContext" is an OData V2 context referencing an entity with the properties 
->     //   "DateTime" (date), "DateTimeOffset" (timestamp) and "Time" (time)
+>     // "DateTime" (date), "DateTimeOffset" (timestamp) and "Time" (time)
 >     const oDate = oContext.getProperty("DateTime");
 >     const oDateTimeOffset = oContext.getProperty("DateTimeOffset");
 >     const oTime = oContext.getProperty("Time");
@@ -719,7 +719,7 @@ JSON models can also be used if the data is stored in the JSON model in the same
 >     });
 > },
 > transferDatesTimesAndTimestampsFromJSONModelToODataV2Model(oContext, oJSONModel) {
->     // assume "oContext"  is an OData V2 context referencing an entity with the properties 
+>     // assume "oContext" is an OData V2 context referencing an entity with the properties 
 >     //   "DateTime" (date), "DateTimeOffset" (timestamp) and "Time" (time)
 >     // assume "oJSONModel" is a JSONModel containing the values to be transferred 
 >     //   to the OData V2 model "oDataModel"
@@ -753,7 +753,7 @@ If an OData V4 model is used, cloning is not necessary, as the model representat
 > ```
 > transferDatesTimesAndTimestampsFromODataV4ModelToJSONModel(oContext) {
 >     // assume "oContext" is an OData V4 context referencing an entity with the properties 
->     //   "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
+>     // "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
 >     return new JSONModel({
 >         Date: oContext.getProperty("Date"),
 >         DateTimeOffset: oContext.getProperty("DateTimeOffset"),
@@ -762,9 +762,9 @@ If an OData V4 model is used, cloning is not necessary, as the model representat
 > },
 > transferDatesTimesAndTimestampsFromJSONModelToODataV4Model(oContext, oJSONModel) {
 >     // assume "oContext"  is an OData V4 context referencing an entity with the properties 
->     //  "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
+>     //   "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
 >     // assume "oJSONModel" is a JSONModel containing the values to be transferred 
->     //  to the OData V4 Model "oDataModel"
+>     //   to the OData V4 Model "oDataModel"
 >     oContext.setProperty("DateTime", oJSONModel.getProperty("/Date"));
 >     oContext.setProperty("DateTimeOffset", oJSONModel.getProperty("/DateTimeOffset"));
 >     oContext.setProperty("Time", oJSONModel.getProperty("/Time"));

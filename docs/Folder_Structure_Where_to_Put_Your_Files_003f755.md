@@ -64,11 +64,9 @@ The `controller` folder contains all the controllers used by your views, and mig
 
 **The `model` Folder**
 
-The `model` folder is where you put any files needed for creating models and logic relating to model data. This includes grouping, filtering and formatting data.
+The `model` folder is where you put any logic relating to model data. This includes grouping, filtering and formatting data.
 
 ![](images/loiof990b6e5f10c4386835d49495dc4259c_LowRes.png)
-
-In the above example, `models.js` is a factory for creating models that are used by our application.
 
 **Localization Folder - `i18n`**
 
@@ -101,7 +99,7 @@ The `test` folder contains three sets of files: files related to unit tests, fil
 
 ![](images/loio7958ae4e55c6419b90320a45cbcc72ae_LowRes.png)
 
-In this example shown above, the files being tested are `webapp/model/formatter.js` and `webapp/model/models.js`. You may be using JavaScript/TypeScript files for defining the tests, and files related to the [Test Starter](Test_Starter_032be2c.md) to execute your tests.
+In this example shown above, the files being tested are `webapp/model/formatter.js` and `webapp/model/grouper.js`. You may be using JavaScript/TypeScript files for defining the tests, and files related to the [Test Starter](Test_Starter_032be2c.md) to execute your tests.
 
 ![](images/loio05316ff7b0c94c00afc68f25a67ee4cf_LowRes.png)
 

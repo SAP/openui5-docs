@@ -78,7 +78,7 @@ In the `manifest.json` descriptor file, we add the `"handleValidation": true` se
 We now run the app using the `index.html` file and enter values that don't match the type and constraints given in the metadata file. For example, enter the string value `Young at Heart` in field *Age*, which requires an integer input \(OpenUI5 type `sap.ui.model.odata.type.Int64`, corresponding to OData type `Edm.Int64`\), or remove an entry from the *User Name* or *First Name* fields, which are mandatory. Fields with incorrect entries are highlighted and an error message is displayed.
 
 > ### Note:  
-> If you explicitly define a type in the binding info of a control, the automatic type detection for that binding will be turned off. For example, if you change the `Input` for `Age` in the view to `<Input value="{path:'Age', type:'sap.ui.model.type.String'}/>`, the `String` type will be used, not the `Int64` type from the service metadata.
+> If you explicitly define a type in the binding info of a control, the automatic type detection for that binding will be turned off. For example, if you change the `Input` for `Age` in the view to `<Input value="{path:'Age', type:'StringType'}/>`, the `String` type will be used, not the `Int64` type from the service metadata. Note that `StringType` has to be required from `sap/ui/model/odata/type/String` as shown in [Binding Syntax](Binding_Syntax_e2e6f41.md).
 
 ***
 
