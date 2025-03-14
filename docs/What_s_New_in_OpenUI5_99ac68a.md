@@ -30,6 +30,10 @@ You are familiar with OpenUI5 app development, but do you want to learn how to d
 
 
 
+-   **[What's New in OpenUI5 1.134](What_s_New_in_OpenUI5_1_134_c512d71.md "With
+		this release OpenUI5 is upgraded
+		from version 1.133 to 1.134.")**  
+With this release OpenUI5 is upgraded from version 1.133 to 1.134.
 -   **[What's New in OpenUI5 1.133](What_s_New_in_OpenUI5_1_133_86d7605.md "With
 		this release OpenUI5 is upgraded
 		from version 1.132 to 1.133.")**  
