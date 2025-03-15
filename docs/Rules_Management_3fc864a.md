@@ -24,7 +24,7 @@ The *Available Rulesets* tab contains the list of the currently loaded rulesets 
   
 **Support Assistant Available Rulesets**
 
-![](images/loiod7d49af739dd4b31a0ba2f457e03a331_HiRes.png "Support Assistant Available Rulesets")
+![](images/loiod7d49af739dd4b31a0ba2f457e03a331_LowRes.png "Support Assistant Available Rulesets")
 
 The *Additional Rulesets* tab shows rules for libraries that are not used by the application at the particular moment.
 
@@ -32,7 +32,7 @@ The *Additional Rulesets* tab shows rules for libraries that are not used by the
   
 **Support Assistant Additional Rulesets**
 
-![](images/loioc34ca5f09e244bdea0217b684adcb875_HiRes.png "Support Assistant Additional Rulesets")
+![](images/loioc34ca5f09e244bdea0217b684adcb875_Source1.png "Support Assistant Additional Rulesets")
 
 You can select the rules from the *Additional Rulesets* tab and choose *Load* to move them to the set of *Available Rulesets* and use them in your analysis.
 
@@ -48,7 +48,7 @@ The Support Assistant allows you to export and import subsets of preselected rul
   
 **Support Assistant Rule Presets**
 
-![Support Assistant - Available Rulesets tab](images/loio562a49a871e04125867052231ec52660_LowRes.png "Support Assistant Rule Presets")
+![Support Assistant - Available Rulesets tab](images/loio562a49a871e04125867052231ec52660_Source1.png "Support Assistant Rule Presets")
 
 ***
 
@@ -89,7 +89,7 @@ You have the option to personalize the Rules view by choosing which columns to b
   
 **Support Assistant Columns Personalization**
 
-![](images/loio3d1206248735431fb4223c4724914997_HiRes.png "Support Assistant Columns Personalization")
+![](images/loio3d1206248735431fb4223c4724914997_Source1.png "Support Assistant Columns Personalization")
 
 > ### Note:  
 > Choosing *I agree to use local storage persistency for* from the settings menu ![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) will also preserve your choice of visible columns.
