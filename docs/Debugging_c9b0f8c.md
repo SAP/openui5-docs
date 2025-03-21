@@ -101,7 +101,7 @@ In the *Debugging* section of the *Diagnostics* window, you can set breakpoints 
 
 5.  Open the developer tools of your browser. Whenever the selected methods are called for any instance of the selected control, the code execution is paused in the debugger.
 
-    ![](images/loiof54ea7bfedff4501959df91b53697579_LowRes.png)
+    ![](images/loiof54ea7bfedff4501959df91b53697579_Source1.png)
 
     In the call stack you find the method for which you set a breakpoint.
 
