@@ -253,6 +253,11 @@ These OpenUI5 configuration options accept the following formats:
 
 ### Current Language Code / Locale
 
+> ### Note:  
+> The `lang` attribute for the current language is set at page level for the entire page. If a page contains text that is not in the current language \(for example, French elements on an English page\), this text cannot be labeled with a different language tag. OpenUI5 doesn't offer dedicated support to mark application parts, sections, etc. that are in a different language.
+> 
+> Depending on the use case, application developers can alternatively use techniques like directly defining the HTML with the `sap.ui.core.HTML` control and set the `lang` attribute accordingly. Another alternative could be iFrame isolation.
+
 OpenUI5 has the notion of a current language. It is determined during the OpenUI5 bootstrap from the following sources of information. The sources are ordered increasingly by priority and the last available user language/locale wins:
 
 1.  Hard-coded OpenUI5 default locale `en`

@@ -442,6 +442,34 @@ by URL parameter
 <tr>
 <td valign="top">
 
+`favicon`
+
+</td>
+<td valign="top">
+
+[Type](Configuration_Options_and_URL_Parameters_91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean | string`
+
+Default value: undefined
+
+Defines whether a favicon is used. If set to `true`, a favicon, defined as part of a custom theme, is used. If no custom favicon has been defined or if the theme is an SAP standard theme, the SAP logo is used as favicon. You can also provide a relative path to a favicon as a string, e.g. to specify a favicon for a dedicated application. Absolute URLs are not allowed as origin for a favicon.
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+[`Theming.setFavicon`](https://sdk.openui5.org/api/module:sap/ui/core/Theming%23methods/sap/ui/core/Theming.setFavicon)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `theme`
 
 </td>

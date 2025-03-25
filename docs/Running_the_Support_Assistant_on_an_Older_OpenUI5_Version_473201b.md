@@ -22,7 +22,7 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
 
 1.  Open the *Technical Information Dialog* using the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [P\] .
 
-2.  Choose the Settings button <span style="color:#ffffff;"><span style="background-color:#009de0;"><span class="SAP-icons-V5"></span></span></span> settings cogwheels button \(![](images/loio4c9d605dc8cf4457b478b618d6824b0f_HiRes.png)\) next to the *Activate Support Assistant* button.
+2.  Choose the Settings button <span style="color:#ffffff;"><span style="background-color:#009de0;"><span class="SAP-icons-V5"></span></span></span> next to the *Activate Support Assistant* button.
 
 3.  Select a predefined version from the dropdown, or select *Custom Location* to paste a custom URL in the input field.
 

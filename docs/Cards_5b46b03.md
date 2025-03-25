@@ -24,7 +24,7 @@ With the use of cards, you can group information, link to details, or present a 
 
 The following table provides an overview of the two main types of card controls in the OpenUI5 framework:
 
-**Overview of Cards and Supported Features**
+**Overview of Cards and Supported Features \(New, Draft\)**
 
 
 <table>
@@ -34,9 +34,9 @@ The following table provides an overview of the two main types of card controls 
 **Feature Supported** 
 
 </th>
-<th valign="top" colspan="2">
+<th valign="top" colspan="4">
 
-\(Integration Card\)
+**\(Integration Card\)**
 
 **<code><a href="Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card">sap.ui.integration.widgets.Card</a></code>**
 
@@ -52,19 +52,33 @@ The following table provides an overview of the two main types of card controls 
 <tr>
 <th valign="top">
 
-Adaptive, Analytical, List, Object, Table, and Timeline cards
+**Declarative Card Types**
+
+\(List Card, Analytical Card, Table Card, Object Card, Timeline Card, Calendar Card\)
 
 </th>
 <th valign="top">
 
-Component card
+**Adaptive Card Types**
+
+\(We recommend using Declarative Card Types\)
+
+</th>
+<th valign="top">
+
+**Component Card** 
+
+</th>
+<th valign="top">
+
+**WebPage Card** 
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-**Fiori 3 card UX** 
+**Fiori 3, Horizon UX** 
 
 </td>
 <td valign="top">
@@ -74,7 +88,27 @@ Component card
 </td>
 <td valign="top">
 
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+> ### Note:  
+> May depend on the customization of the Adaptive Card.
+
+
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+> ### Note:  
+> Depends on the WebPage content.
+
+
 
 </td>
 <td valign="top">
@@ -86,7 +120,17 @@ Component card
 <tr>
 <td valign="top">
 
-**Cross product integration** 
+**Cross-product Integration** 
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
@@ -108,7 +152,160 @@ Component card
 <tr>
 <td valign="top">
 
-**Cross HTML product integration** 
+**Consumption with HTML Custom Element** 
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**SAP Build Work Zone Integration** 
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Joule** 
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+> ### Note:  
+> Declarative Card Types are highly recommended, as Adaptive Card Types are currently incompatible with Joule on mobile devices.
+
+
+
+</td>
+<td valign="top">
+
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**SAP Mobile Start / Mobile SDK** 
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+<td valign="top">
+
+![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Can implement Application Logic** 
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+> ### Note:  
+> Can be implemented in JavaScript extensions.
+
+
+
+</td>
+<td valign="top">
+
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+> ### Note:  
+> Can be implemented in JavaScript extensions.
+
+
 
 </td>
 <td valign="top">
@@ -130,7 +327,7 @@ Component card
 <tr>
 <td valign="top">
 
-**FLP / cFLP integration** 
+**Low-code / No-code Configuration Editor** 
 
 </td>
 <td valign="top">
@@ -145,58 +342,31 @@ Component card
 </td>
 <td valign="top">
 
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+> ### Note:  
+> Highly depends on the Component / WebPage implementation.
 
-**Independent of OpenUI5 runtime** 
+
 
 </td>
 <td valign="top">
 
 ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+> ### Note:  
+> Highly depends on the Component / WebPage implementation.
+
+
 
 </td>
 <td valign="top">
 
 ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-</td>
-<td valign="top">
-
-![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Can implement application logic** 
-
-</td>
-<td valign="top">
-
-![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
-
-</td>
-<td valign="top">
-
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-</td>
-<td valign="top">
-
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
 </table>
-
-1\) Depending on the implementation.  
- 2\) With `CustomElement`.
 
 ***
 
