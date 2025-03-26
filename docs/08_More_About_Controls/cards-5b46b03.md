@@ -88,7 +88,7 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)3
+![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>3</sup> 
 
 </td>
 <td valign="top">
@@ -206,7 +206,7 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)4
+![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>4</sup> 
 
 </td>
 <td valign="top">
@@ -265,12 +265,12 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)5
+![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>5</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)5
+![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>5</sup> 
 
 </td>
 <td valign="top">
@@ -307,14 +307,14 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)6
+![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>6</sup> 
 
 </td>
 <td valign="top">
 
 ![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
 
-<sup>6\)</sup>
+<sup>6</sup>
 
 </td>
 <td valign="top">
