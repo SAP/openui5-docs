@@ -320,9 +320,7 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
-
-<sup>6</sup>
+![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>6</sup> 
 
 </td>
 <td valign="top">
