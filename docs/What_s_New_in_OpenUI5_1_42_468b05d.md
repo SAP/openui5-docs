@@ -823,7 +823,7 @@ Feature
 
 **Behavior-Driven Development with Gherkin**
 
-OpenUI5 now supports behavior-driven development \(BDD\) with Gherkin. Gherkin allows you to write feature files that get translated into executable regression tests. So you can keep your documentation and specification in sync with the actual implementation in your application. It integrates seamlessly with OPA5 and you can completely reuse your OPA and page objects. You only need to translate an OPA journey to a feature file. For more information, see [Behavior-driven Development with Gherkin](Behavior_driven_Development_with_Gherkin_45ac9f1.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.test.gherkin), and the [Samples](https://sdk.openui5.org/entity/sap.ui.test.gherkin). 
+OpenUI5 now supports behavior-driven development \(BDD\) with Gherkin. Gherkin allows you to write feature files that get translated into executable regression tests. So you can keep your documentation and specification in sync with the actual implementation in your application. It integrates seamlessly with OPA5 and you can completely reuse your OPA and page objects. You only need to translate an OPA journey to a feature file. For more information, see [Behavior-Driven Development with Gherkin](Behavior_Driven_Development_with_Gherkin_45ac9f1.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.test.gherkin), and the [Samples](https://sdk.openui5.org/entity/sap.ui.test.gherkin). 
 
 <sub>Changed•Control•Info Only•1.42</sub>
 

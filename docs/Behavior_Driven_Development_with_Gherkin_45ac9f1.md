@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/45ac9f19d9414b30b121c6e00f57433c) | [demo kit latest release](https://sdk.openui5.org/topic/45ac9f19d9414b30b121c6e00f57433c)</div>
 
-## Behavior-driven Development with Gherkin
+## Behavior-Driven Development with Gherkin
 
 A software development process driven by app behavior.
 
@@ -93,7 +93,7 @@ During testing with Gherkin, errors are logged to the test execution Web page.
 **Related Information**  
 
 
-[cucumber Home Page](https://cucumber.io/)
+[Cucumber Home Page](https://cucumber.io/)
 
 [Gherkin documentation on GitHub](https://github.com/cucumber/cucumber/wiki/Gherkin)
 

@@ -60,7 +60,7 @@ A mock server mimics one or more back-end services. It is used to simplify integ
 		included in your project setup so that it is called whenever code changes are
 		submitted.")**  
 To make sure that the code is always tested thoroughly before it is included in a productive app, you should use a test runner that automates tests. The test runner can be included in your project setup so that it is called whenever code changes are submitted.
--   **[Behavior-driven Development with Gherkin](Behavior_driven_Development_with_Gherkin_45ac9f1.md "A software development process driven by app behavior.")**  
+-   **[Behavior-Driven Development with Gherkin](Behavior_Driven_Development_with_Gherkin_45ac9f1.md "A software development process driven by app behavior.")**  
 A software development process driven by app behavior.
 -   **[Test Recorder](Test_Recorder_2535ef9.md "The Test Recorder tool supports app developers who write integration and system
 		tests.")**  
