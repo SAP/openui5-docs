@@ -588,7 +588,7 @@ OpenUI5 Version
                 -   [Installing Karma for Automated Testing](04_Essentials/test-automation-ae44824.md#loioa182676ed3714bd5b4f011eb29076f6c)
                 -   [Continuous Integration With Headless Chrome](04_Essentials/test-automation-ae44824.md#loio8c27b0ab239242c69f181208c9b8fb1d)
                 -   [Code Coverage](04_Essentials/test-automation-ae44824.md#loio1851a066b0e34d84ae00f887445239e5)
-            -   [Behavior-driven Development with Gherkin](04_Essentials/behavior-driven-development-with-gherkin-45ac9f1.md)
+            -   [Behavior-Driven Development with Gherkin](04_Essentials/behavior-driven-development-with-gherkin-45ac9f1.md)
                 -   [Feature Files](04_Essentials/feature-files-9113397.md)
                     -   [Additional Options for Feature Files](04_Essentials/additional-options-for-feature-files-a509db4.md)
                 -   [Basic Example How to Use Gherkin](04_Essentials/basic-example-how-to-use-gherkin-4b0c519.md)

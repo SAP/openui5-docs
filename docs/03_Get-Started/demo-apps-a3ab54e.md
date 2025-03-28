@@ -81,7 +81,7 @@ Sorting
 
 Formatting
 
-[Behavior-driven Development with Gherkin](../04_Essentials/behavior-driven-development-with-gherkin-45ac9f1.md)
+[Behavior-Driven Development with Gherkin](../04_Essentials/behavior-driven-development-with-gherkin-45ac9f1.md)
 
 [Mock Server](../04_Essentials/mock-server-69d3cbd.md) \(OData V2\)
 
