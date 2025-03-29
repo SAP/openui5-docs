@@ -163,8 +163,6 @@ If you use **JavaScript**, you can add a formatter function to the binding info 
 > The `this` context may not be the control. For more information, see *`this` Context for Formatter Functions* in [Formatters](Formatting_Parsing_and_Validating_Data_07e4b92.md#loio07e4b920f5734fd78fdaa236f26236d8__section_rgn_hc5_xcb).
 
 ```js
-//"Input" required from module sap/m/Input
-
 oTextField.bindProperty("value", {
     path: "/company/title",
     formatter: (sValue) => sValue?.toUpperCase()

@@ -184,7 +184,7 @@ Opa5.extendConfig({
 
 The `viewNamespace` is very important for finding the correct view. As you probably do not want to set this in every single `waitFor`, a default is provided. You can now launch the test page and the OPA test should run. If everything worked, you get the following result:
 
-![](images/loiob7d6ee389a984eada89d1e21cc1a27f6_LowRes.jpg)
+![](images/loiob7d6ee389a984eada89d1e21cc1a27f6_LowRes.png)
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.test) and the [Samples](https://sdk.openui5.org/entity/sap.ui.test.Opa5). 
 
