@@ -16,7 +16,7 @@ This repository contains the official OpenUI5 documentation from the OpenUI5 Dem
 
 1. A daily job fills the `docs` folder of this repository from our content management system.
 
-2. You can view the content by opening **[OpenUI5 Markdown Documentation](docs/index.md) (raw)**. The `docs` folder contains an enriched markdown export of the official OpenUI5 documentation from the [OpenUI5 Demo Kit](https://sdk.openui5.org/topic). This is already quite usable to browse the documentation and find topics you want to improve.
+2. You can view the content by opening **[OpenUI5 Markdown Documentation](docs/index.md) (raw)**. The `docs` folder contains an enriched markdown export of the official OpenUI5 documentation from the [OpenUI5 Demo Kit](https://sdk.openui5.org/topic). You can use it to browse the documentation and find topics you want to improve.
 
 3. You can make suggestions and improve the content. Please check our [contribution guidelines](CONTRIBUTING.md).
 
