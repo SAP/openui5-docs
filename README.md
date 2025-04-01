@@ -16,15 +16,7 @@ This repository contains the official OpenUI5 documentation from the OpenUI5 Dem
 
 1. A daily job fills the `docs` folder of this repository from our content management system.
 
-2. You can view the content in two ways:
-
-   * **[OpenUI5 Markdown Documentation](docs/index.md) (raw)**
-
-     The `docs` folder contains an enriched markdown export of the official OpenUI5 documentation from the [OpenUI5 Demo Kit](https://sdk.openui5.org/topic). This is already quite usable to browse the documentation and find topics you want to improve.
-
-   * **[OpenUI5 Markdown Documentation](https://sap.github.io/openui5-docs/) (docsify)**
-
-     This is a shinier version of the markdown documentation with better search options powered by [docsify](https://docsify.js.org/) - Made with ❤️. The contents of the raw version and the docsified version are the same.
+2. You can view the content by opening **[OpenUI5 Markdown Documentation](docs/index.md) (raw)**. The `docs` folder contains an enriched markdown export of the official OpenUI5 documentation from the [OpenUI5 Demo Kit](https://sdk.openui5.org/topic). You can use it to browse the documentation and find topics you want to improve.
 
 3. You can make suggestions and improve the content. Please check our [contribution guidelines](CONTRIBUTING.md).
 
@@ -36,5 +28,5 @@ We invite you to improve our documentation. If you're interested, please check o
 
 ## License
 
-Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved.
+Copyright (c) 2025 SAP SE or an SAP affiliate company. All rights reserved.
 This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License except as noted otherwise in the [LICENSE](/LICENSE) file.
