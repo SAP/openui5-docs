@@ -114,13 +114,13 @@ Identify and resolve cyclic dependencies with the help of the OpenUI5 configurat
 
 ## App Development
 
-In the following we'll focus on crucial aspects of app development, specifically on asynchronous loading and best practices around Components, Controllers, Views, Fragments, and Models.
+In the following we'll focus on crucial aspects of app development, specifically on asynchronous loading and best practices around Components, Controllers, Views, Fragments, Models, and ResourceBundles.
 
 
 
 ### Asynchronous Loading
 
--   Use asynchronous loading for views, fragments, and components to enhance performance; see, for example, [Deprecated Factories Replacement](../04_Essentials/deprecated-factories-replacement-491bd9c.md).
+-   Use asynchronous loading for views, fragments, components, and resource bundles to enhance performance; see, for example, [Deprecated Factories Replacement](../04_Essentials/deprecated-factories-replacement-491bd9c.md).
 -   Implement the `sap.ui.core.IAsyncContentCreation` marker interface in your [Component.js file](../04_Essentials/component-controller-27ce0e4.md) to allow the content to be created fully asynchronously and for a stricter handling of certain types of errors during its view processing.
 -   Make sure that dependent libraries and components are preloaded before modules from the respective preload are accessed. For example, if the `sap.f.FlexibleColumnLayout` control is part of the root view, `"sap.f": {}` should be included in the `sap.ui5/dependencies/libs` section of the `manifest.json`. Avoid setting `{ "lazy": true }` if the application does not intend to preload the bundle manually. For more information, see [Ensure that Library Preloads are Enabled](../05_Developing_Apps/performance-speed-up-your-app-408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_LibraryPreloads).
 
@@ -227,6 +227,8 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 -   Use the `loadFragment` method of the `sap.ui.core.mvc.Controller` to load fragments asynchronously.
 
 -   Don't use global names in your XML. Ensure that the target function or object is defined as a module and require the defined module via [`core:require` in the XML](../04_Essentials/require-modules-in-xml-view-and-fragment-b11d853.md). Use `template:require` if the XML content needs preprocessing.
+
+-   When creating a Typed View, Controller, or JS Fragment using the factory APIs, use the module name syntax \(e.g., `module:myapp/views/MyView`\). This syntax provides greater flexibility by allowing you to name entities without requiring the `.view.js`, `.controller.js`, or `.fragment.js` suffixes.
 
 
 **Additional Information:**

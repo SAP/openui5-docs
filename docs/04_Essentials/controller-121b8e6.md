@@ -17,10 +17,26 @@ sap.ui.define([
 });
 ```
 
-The string in quotes specifies the controller name. The controller file's name should be named as the string in the quotes, `Address.controller.js`.
+The string in quotes specifies the controller name. The controller file should be named as the string in the quotes, for example, `Address.controller.js`.
 
 > ### Note:  
-> The suffix `.controller.js` is mandatory for controllers.
+> When you reference a controller in your XML view using dot notation \(e.g., `sap.hcm.Adress`\), the name of your controller file must contain the mandatory `.controller.js` suffix.
+> 
+> ```
+> <mvc:View controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"></mvc:View>
+> ```
+> 
+> You could also use the module name syntax \(e.g., `module:sap/hcm/Address`\) to reference the controller. This would allow you to name your controller file without a `.controller.js` suffix, e.g., `Address.js`.
+> 
+> ```
+> <mvc:View controllerName="module:sap/hcm/Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"></mvc:View>
+> ```
+> 
+> or
+> 
+> ```
+> <mvc:View controllerName="module:sap/hcm/Address.controller" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"></mvc:View>
+> ```
 
 
 
