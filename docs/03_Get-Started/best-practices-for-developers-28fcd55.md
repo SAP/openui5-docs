@@ -228,7 +228,7 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 
 -   Don't use global names in your XML. Ensure that the target function or object is defined as a module and require the defined module via [`core:require` in the XML](../04_Essentials/require-modules-in-xml-view-and-fragment-b11d853.md). Use `template:require` if the XML content needs preprocessing.
 
--   When creating a Typed View, Controller, or JS Fragment using the factory APIs, use the module name syntax \(e.g., `module:myapp/views/MyView`\). This syntax provides greater flexibility by allowing you to name entities without requiring the `.view.js`, `.controller.js`, or `.fragment.js` suffixes.
+-   Use the module name syntax \(e.g., `module:myapp/views/MyView`\) when creating a Typed View, Controller, or JS Fragment via factory API. This syntax provides greater flexibility by allowing you to name entities without requiring the `.view.js`, `.controller.js`, or `.fragment.js` suffixes.
 
 
 **Additional Information:**
