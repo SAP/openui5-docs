@@ -1,22 +1,22 @@
 <!-- loio6c7c5c266b534e7ea9a28f861dc515f5 -->
 
-# Step 13: Element Binding
+## Step 13: Element Binding
 
 Now, let's do something with that newly generated list. Typically, you use a list to allow selection of an item and then display the details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via element binding.
 
 
 
-## Preview
+### Preview
 
   
   
 **A fourth panel with details for a selected product is displayed**
 
-![The graphic has an explanatory text](images/Tutorial_Data_Binding_Step_13_872d2ed.png "A fourth panel with details for a selected product is displayed")
+![The graphic has an explanatory text](images/loio872d2ed3f9144fbfb82e028b17c52ce3_LowRes.png "A fourth panel with details for a selected product is displayed")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 13](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.13).
 

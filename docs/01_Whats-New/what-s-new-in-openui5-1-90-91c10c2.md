@@ -1,6 +1,6 @@
 <!-- loio91c10c22e72448ca8b78d12f74169c18 -->
 
-# What's New in OpenUI5 1.90
+## What's New in OpenUI5 1.90
 
 With this release OpenUI5 is upgraded from version 1.89 to 1.90.
 
@@ -407,7 +407,7 @@ Control
 
 We have redesigned the control, and now when you select the TimePicker icon, a new clock-dial interface appears instead of sliders. On desktop devices, the behavior of the input field remains unchanged; but on a mobile device - a new popover with numeric inputs and a numeric keyboard appears.
 
-![](images/WhatsNew_190_Timepicker_e3278ca.png)
+![](images/loioe3278caff5d24f67b4d826d8b784d7c5_LowRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.TimePicker) and the [Samples](https://ui5.sap.com/#/entity/sap.m.TimePicker).
 

@@ -1,6 +1,6 @@
 <!-- loioef2af4957fae469e9203e98006d3ee75 -->
 
-# Step 5: Batch Groups
+## Step 5: Batch Groups
 
 In this step, we have a closer look at batch groups. Batch groups are used to group multiple requests into one server request to improve the overall performance.
 
@@ -8,19 +8,19 @@ In this step, we have a closer look at batch groups. Batch groups are used to gr
 
 <a name="loioef2af4957fae469e9203e98006d3ee75__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **No visual change compared to the last step**
 
-![](images/Tutorial_OData_V4_Step_4_3ac4fcc.png "No visual change compared to the last step")
+![](images/loio3ac4fcc0ea714c7c9157b22cbca4db79_LowRes.png "No visual change compared to the last step")
 
 
 
 <a name="loioef2af4957fae469e9203e98006d3ee75__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 5](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.05).
 
@@ -28,7 +28,7 @@ You can view and download all files at [OData V4 - Step 5](https://ui5.sap.com/#
 
 <a name="loioef2af4957fae469e9203e98006d3ee75__section_pp2_mxc_z1b"/>
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```json
 ...

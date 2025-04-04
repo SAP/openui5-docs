@@ -1,28 +1,28 @@
 <!-- loio39759878ae4f48dcad0cf34da1d299f0 -->
 
-# Step 13: Make Table Sorting Bookmarkable
+## Step 13: Make Table Sorting Bookmarkable
 
 In this step, we will create a button at the top of the table which will change the sorting of the table. When the current sorting state of the table is changed, the sorting state will be reflected in the URL. This illustrates how to make the table sorting bookmarkable.
 
 
 
-## Preview
+### Preview
 
   
   
 **Bookmarkable search and sorting**
 
-![](images/Tutorial_Navigation_and_Routing_Step_13_7ec54ef.png "Bookmarkable search and sorting")
+![](images/loio7ec54ef9b041497aaa70694e80016a9c_LowRes.png "Bookmarkable search and sorting")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 13](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.13).
 
 
 
-## webapp/controller/employee/overview/EmployeeOverviewContent.controller.js
+### webapp/controller/employee/overview/EmployeeOverviewContent.controller.js
 
 ```js
 sap.ui.define([

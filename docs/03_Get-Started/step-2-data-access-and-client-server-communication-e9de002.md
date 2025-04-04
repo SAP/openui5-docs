@@ -1,6 +1,6 @@
 <!-- loioe9de002ddf1e478fbb9232bfba83dcf0 -->
 
-# Step 2: Data Access and Client-Server Communication
+## Step 2: Data Access and Client-Server Communication
 
 In this step, we see how the `Table` that is bound to the `People` entity set initially requests its data, and how the data can be refreshed. We use the *Console* tab in the browser developer tools to monitor the communication between the browser and the server. We see the initial request as well as the requests for refreshing the data.
 
@@ -8,20 +8,20 @@ In this step, we see how the `Table` that is bound to the `People` entity set in
 
 <a name="loioe9de002ddf1e478fbb9232bfba83dcf0__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **App with a toolbar that contains a Refresh button**
 
-![](images/Tutorial_OData_V4_Step_2_0abcbb6.png "App with a toolbar that contains a Refresh
+![](images/loio0abcbb65bba54780948b00c20ce53690_LowRes.png "App with a toolbar that contains a Refresh
 					button")
 
 
 
 <a name="loioe9de002ddf1e478fbb9232bfba83dcf0__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 2](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.02).
 
@@ -29,7 +29,7 @@ You can view and download all files at [OData V4 - Step 2](https://ui5.sap.com/#
 
 <a name="loioe9de002ddf1e478fbb9232bfba83dcf0__section_pvc_fyc_z1b"/>
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([
@@ -80,7 +80,7 @@ We also add the private method `_getText` to retrieve translatable texts from th
 
 <a name="loioe9de002ddf1e478fbb9232bfba83dcf0__section_pp2_mxc_z1b"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 ...
@@ -116,7 +116,7 @@ We add the `headerToolbar` with a single `Button` to the `Table`. The button has
 
 <a name="loioe9de002ddf1e478fbb9232bfba83dcf0__section_etg_fyc_z1b"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```
 # App Descriptor
@@ -143,7 +143,7 @@ We add the tooltip and message texts to the `properties` file.
 
 <a name="loioe9de002ddf1e478fbb9232bfba83dcf0__section_kk1_cq1_mcb"/>
 
-## Under the Hood
+### Under the Hood
 
 To get more insight into the client-server communication, we open the *Console* tab of the browser developer tools and then reload the app.
 

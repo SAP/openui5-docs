@@ -1,6 +1,6 @@
 <!-- loioacae0f2794234730b74ed219d2532b77 -->
 
-# Team Calendar
+## Team Calendar
 
 The **Team Calendar** application demonstrates the integration between `sap.m.PlanningCalendar` and `sap.m.SinglePlanningCalendar` controls, sharing the same data source. It can be used as a starting point for building a complex application with the full functionality that these controls offer \(adding, editing, deleting and moving of appointments, etc.\).
 
@@ -19,11 +19,11 @@ There are some additional buttons \(`sap.m.Button`\), that activate features lik
 
 <a name="loioacae0f2794234730b74ed219d2532b77__section_k2c_k5x_vkb"/>
 
-## Team Calendar
+### Team Calendar
 
 The Team Calendar is implemented using `sap.m.PlanningCalendar` control.
 
-![](images/Team_Calendar_main_17a9e5e.png)
+![](images/loio17a9e5e844004429a833588cb983a738_LowRes.png)
 
 All members of the team are displayed with their appointments. There are also:
 
@@ -40,9 +40,9 @@ All members of the team are displayed with their appointments. There are also:
 
 <a name="loioacae0f2794234730b74ed219d2532b77__section_eky_wt2_wkb"/>
 
-## Team Member Calendar
+### Team Member Calendar
 
-![](images/Team_Calendar_single_b48de99.png)
+![](images/loiob48de99c4817492d818149a9cb9a9408_LowRes.png)
 
 Team Member Calendar \(`sap.m.SinglePlanningCalendar`\) displays appointments of a single selected team member. It also includes:
 
@@ -59,15 +59,15 @@ Team Member Calendar \(`sap.m.SinglePlanningCalendar`\) displays appointments of
 
 <a name="loioacae0f2794234730b74ed219d2532b77__section_vnc_n52_wkb"/>
 
-## Navigation
+### Navigation
 
 The navigation between Team Calendar and Team Member Calendar is available using the Team Member Selector.
 
-![](images/Team_Calendar_selector_a0c46be.png)
+![](images/loioa0c46be284e7435db1dafb9936c3a66a_LowRes.png)
 
 The *Create* button adds new appointments and the Calendar Legend button displays the legend.
 
-![](images/Team_Calendar_Legend_772939a.png)
+![](images/loio772939a7c47f402688fbe0c829a9974c_LowRes.png)
 
 
 

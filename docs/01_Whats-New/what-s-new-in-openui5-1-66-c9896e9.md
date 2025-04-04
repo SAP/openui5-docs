@@ -1,6 +1,6 @@
 <!-- loioc9896e9fefee401fbdb3fbef8e06f733 -->
 
-# What's New in OpenUI5 1.66
+## What's New in OpenUI5 1.66
 
 With this release OpenUI5 is upgraded from version 1.65 to 1.66.
 

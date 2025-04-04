@@ -1,6 +1,6 @@
 <!-- loio91f2c24b6f4d1014b6dd926db0e91070 -->
 
-# Right-to-Left Support in Controls
+## Right-to-Left Support in Controls
 
 OpenUI5 supports right-to-left directionality \(RTL\) in controls.
 
@@ -32,7 +32,7 @@ In a nutshell, this means the following:
 
 <a name="loio91f2c24b6f4d1014b6dd926db0e91070__section_0B022A7E260F4CC4BAA335BBDBB43D3B"/>
 
-## General Algorithm
+### General Algorithm
 
 If OpenUI5 is configured for RTL mode, the OpenUI5 core performs the following steps:
 

@@ -1,12 +1,12 @@
 <!-- loiocc467b9a1c574410ac4a08a5dc2f55a2 -->
 
-# Code Editor
+## Code Editor
 
 The `sap.ui.codeeditor.CodeEditor` offers functionality to display and edit source code artifacts with syntax highlighting and code completion capabilities for various programming languages.
 
 
 
-## Overview
+### Overview
 
 The `sap.ui.codeeditor.CodeEditor` provides simple OpenUI5 wrapper control that exposes a subset of API and functionality provided by the third-party ACE \(Ajax.org Cloud9 Editor\) implementation. You can find more information about ACE on the website [https://ace.c9.io/](https://ace.c9.io/).
 
@@ -19,11 +19,11 @@ The `sap.ui.codeeditor.CodeEditor` provides simple OpenUI5 wrapper control that 
 
 <a name="loiocc467b9a1c574410ac4a08a5dc2f55a2__section_lsh_hbb_ybb"/>
 
-## Details
+### Details
 
 
 
-### Autocompletion
+#### Autocompletion
 
 The sap.ui.codeeditor.CodeEditor control is enabled with two modes of autocompletion:
 

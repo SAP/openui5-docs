@@ -1,6 +1,6 @@
 <!-- loio91f0a22d6f4d1014b6dd926db0e91070 -->
 
-# Working with Controls
+## Working with Controls
 
 Controls are used to define the appearance and behavior of screen areas.
 
@@ -37,7 +37,7 @@ The base class for all controls in OpenUI5 is `sap.ui.core.Control`. To inherit 
 
 
 
-## UI Control Constructors
+### UI Control Constructors
 
 A constructor is a special type of function that is called to create an object. The constructor uses values to set control properties, thus preparing the new object for use.
 

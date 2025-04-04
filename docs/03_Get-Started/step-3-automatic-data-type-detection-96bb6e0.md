@@ -1,6 +1,6 @@
 <!-- loio96bb6e06fa22491fa65a5040f6da099c -->
 
-# Step 3: Automatic Data Type Detection
+## Step 3: Automatic Data Type Detection
 
 In this step, we use the automatic data type detection of the OData V4 model to parse, validate, and format user entries. The service metadata contains type information for the properties of each entity.
 
@@ -10,19 +10,19 @@ The OData V4 Model utilizes this information to compute the corresponding OpenUI
 
 <a name="loio96bb6e06fa22491fa65a5040f6da099c__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **Input does not match the underlying data type**
 
-![](images/Tutorial_OData_V4_Step_3_8320fcf.png "Input does not match the underlying data type")
+![](images/loio8320fcfb59db4d209e17a84c21e44647_LowRes.png "Input does not match the underlying data type")
 
 
 
 <a name="loio96bb6e06fa22491fa65a5040f6da099c__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 3](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.03).
 
@@ -30,7 +30,7 @@ You can view and download all files at [OData V4 - Step 3](https://ui5.sap.com/#
 
 <a name="loio96bb6e06fa22491fa65a5040f6da099c__section_pp2_mxc_z1b"/>
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```json
 {
@@ -76,7 +76,7 @@ We now run the app using the `index.html` file and enter values that don't match
 
 <a name="loio96bb6e06fa22491fa65a5040f6da099c__section_pvc_fyc_z1b"/>
 
-## localService/metadata.xml
+### localService/metadata.xml
 
 ```xml
 <EntityType Name="Person">

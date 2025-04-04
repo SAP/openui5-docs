@@ -1,6 +1,6 @@
 <!-- loio91f21f176f4d1014b6dd926db0e91070 -->
 
-# Identifying the Language Code / Locale
+## Identifying the Language Code / Locale
 
 For the identification of languages, the framework uses a language code of type `string`.
 
@@ -243,7 +243,7 @@ These OpenUI5 configuration options accept the following formats:
 
 <a name="loio91f21f176f4d1014b6dd926db0e91070__section_6CAF7D95C27C487CB201CE83345AC370"/>
 
-## Current Language Code / Locale
+### Current Language Code / Locale
 
 > ### Note:  
 > The `lang` attribute for the current language is set at page level for the entire page. If a page contains text that is not in the current language \(for example, French elements on an English page\), this text cannot be labeled with a different language tag. OpenUI5 doesn't offer dedicated support to mark application parts, sections, etc. that are in a different language.

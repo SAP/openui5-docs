@@ -1,6 +1,6 @@
 <!-- loioa3c3c5eb54bc4cc38e6cfbd8e90c6a01 -->
 
-# Personalization Dialog
+## Personalization Dialog
 
 The `sap.m.p13n.Popup` control in the `sap.m.p13n` namespace provides a dialog or popover for personalizing content, for example, of a table, such as selecting columns and adapting their order.
 
@@ -8,7 +8,7 @@ For more information about this control, see the [API Reference](https://ui5.sap
 
 
 
-## Overview
+### Overview
 
 The `sap.m.p13n` namespace offers you personalization content and allows the consuming application to define various settings for controls, as shown in the example below for tables using panels. Different panels with reusable content for the various types of personalization are available for freestyle use in the application.
 
@@ -16,7 +16,7 @@ The panels represent the settings on the user interface. They are aggregated to 
 
 
 
-## Details
+### Details
 
 The following panels are available in the `sap.m.p13n.Popup` control:
 

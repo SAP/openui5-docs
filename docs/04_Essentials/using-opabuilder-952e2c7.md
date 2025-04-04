@@ -1,6 +1,6 @@
 <!-- loio952e2c7458e14d6581cdfc510fbb272a -->
 
-# Using `OpaBuilder`
+## Using `OpaBuilder`
 
 Write tests by leveraging the builder pattern to create OPA5 descriptors.
 
@@ -14,7 +14,7 @@ In [Simulating User Interactions on Controls](simulating-user-interactions-on-co
 
 <a name="loio952e2c7458e14d6581cdfc510fbb272a__section_zys_cq4_xjb"/>
 
-## Simulating a `press` Event
+### Simulating a `press` Event
 
 The `waitFor` options for this straightforward example are as follows:
 
@@ -51,7 +51,7 @@ For more information, see [`OpaBuilder.build`](https://ui5.sap.com/#/api/sap.ui.
 
 <a name="loio952e2c7458e14d6581cdfc510fbb272a__section_lvr_tt4_xjb"/>
 
-## Complex Interaction with Child Elements
+### Complex Interaction with Child Elements
 
 Let's assume we want to show the suggestion list with a filter for "Jo". The `waitFor` definition could look like this:
 
@@ -100,7 +100,7 @@ For more information, see [`OpaBuilder.doOnAggregation`](https://ui5.sap.com/#/a
 
 <a name="loio952e2c7458e14d6581cdfc510fbb272a__section_nyd_yv4_xjb"/>
 
-## Custom Functions and Chaining
+### Custom Functions and Chaining
 
 Let's have a look at an example including a custom matcher and an action:
 
@@ -188,13 +188,13 @@ OpaBuilder.create()
 
 <a name="loio952e2c7458e14d6581cdfc510fbb272a__section_dlk_2z4_xjb"/>
 
-## Additional Features
+### Additional Features
 
 While `OpaBuilder` itself cannot extend the features provided by `Opa5.waitFor`, it comes with some convenient methods to support test definition. Besides the already mentioned child element support, method chaining, and most commonly used matchers and actions as predefined functions, there are some less obvious features.
 
 
 
-### Generated Error Message
+#### Generated Error Message
 
 If no error message is explicitly defined, `OpaBuilder` generates an error message when calling `build()`. The message consists of the `controlType` and `id` properties as well as the number of any additional matchers. A generated `errorMessage` can look like this:
 
@@ -204,7 +204,7 @@ sap.m.Button#myButton with 1 additional matcher(s) not found
 
 
 
-### Success Message and Description
+#### Success Message and Description
 
 When defining an OPA5 test without an assertion, there's no output on success. Most often, such an output is useful for longer journeys, so the `OpaBuilder.success` method also accepts a string argument. This generates a simple truthy assertion with the provided message as a success function:
 
@@ -229,7 +229,7 @@ Pressing 'Cancel' button - FAILURE
 
 
 
-### Aggregation Matcher
+#### Aggregation Matcher
 
 A common use case of tests is finding and operating on a control with one or more aggregation items that fulfill certain conditions. While there are already some predefined matchers for aggregations in place, `OpaBuilder` comes with the generic `hasAggregation` and the most commonly used `hasAggregationProperties` methods. The `vMatchers` parameter of `hasAggregation` can be any matcher method \(or matcher chain\) that is executed against the items of the defined aggregation of the matching control.
 
@@ -256,7 +256,7 @@ OpaBuilder.create(oOpa)
 
 
 
-### Conditional Actions
+#### Conditional Actions
 
 When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions is not suitable. For example, a test fails if no control is found that matches the conditions. This could be a challenge if the control being tested is not guaranteed to exist.
 
@@ -288,7 +288,7 @@ OpaBuilder.create(oOpa)
 
 
 
-### Commonly Used Matchers and Actions
+#### Commonly Used Matchers and Actions
 
 As already seen in the last example, `OpaBuilder` has two static members: `OpaBuilder.Matchers` and `OpaBuilder.Actions`. While there's no issue in using any matchers from `sap.ui.test.Matchers` in the `OpaBuilder` definition, the goal of the two members is to provide the most commonly used matchers and actions to be directly accessed when working with `OpaBuilder` without explicitly requiring them in the test class.
 

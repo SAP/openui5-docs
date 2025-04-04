@@ -1,6 +1,6 @@
 <!-- loio27ce0e4987cd426f8fa3e60836316428 -->
 
-# Component Controller
+## Component Controller
 
 The component controller is a script file \(written in either JavaScript or TypeScript\) that provides the runtime metadata and contains the component methods.
 

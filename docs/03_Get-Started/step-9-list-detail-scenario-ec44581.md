@@ -1,6 +1,6 @@
 <!-- loioec445816634f45eb88a7e559187dac46 -->
 
-# Step 9: List-Detail Scenario
+## Step 9: List-Detail Scenario
 
 In this step we add a detail area with additional information.
 
@@ -8,19 +8,19 @@ In this step we add a detail area with additional information.
 
 <a name="loioec445816634f45eb88a7e559187dac46__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **A detail area containing information about the selected user is added**
 
-![A list of users with an added detail area](images/Tut_OD4_Step_9_6e9025b.png "A detail area containing information about the selected user is added")
+![A list of users with an added detail area](images/loio6e9025bc4522494c97d1b60a3f8eec31_LowRes.png "A detail area containing information about the selected user is added")
 
 
 
 <a name="loioec445816634f45eb88a7e559187dac46__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 9](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.09/code).
 
@@ -28,7 +28,7 @@ You can view and download all files at [OData V4 - Step 9](https://ui5.sap.com/#
 
 <a name="loioec445816634f45eb88a7e559187dac46__section_pvc_fyc_z1b"/>
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 ...
@@ -97,7 +97,7 @@ The application also needs to close the detail area if its binding context is de
 
 <a name="loioec445816634f45eb88a7e559187dac46__section_pp2_mxc_z1b"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -278,7 +278,7 @@ One of the most vital parts of the data reuse functionality is the usage of the 
 
 <a name="loioec445816634f45eb88a7e559187dac46__section_kl4_d1x_4cb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...

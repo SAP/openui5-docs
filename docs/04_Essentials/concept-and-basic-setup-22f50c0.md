@@ -1,6 +1,6 @@
 <!-- loio22f50c0f0b104bf3ba84620880793d3f -->
 
-# Concept and Basic Setup
+## Concept and Basic Setup
 
 To apply the test starter concept to your OpenUI5 project, you need to create a test suite and a generic test page that allows for the running of one or multiple test modules.
 
@@ -13,7 +13,7 @@ To apply the test starter concept to your OpenUI5 project, you need to create a 
 
 <a name="loio22f50c0f0b104bf3ba84620880793d3f__section_v1s_4qg_vcc"/>
 
-## The UI5 Test Suite
+### The UI5 Test Suite
 
 A test suite configures the environment for the tests. It consists of a `*.qunit.html` page often named `testsuite.qunit.html` and a corresponding `*.qunit.js` module.
 
@@ -23,7 +23,7 @@ There can be multiple test suites in a project. When adding more test suites, th
 
 
 
-### The UI5 Test Suite Page
+#### The UI5 Test Suite Page
 
 The test suite page uses the `sap/ui/test/starter/createSuite.js` script to initialize the test suite in a way which is compliant to the content security policy, based on the externalized test configuration provided in the test suite module.
 
@@ -58,7 +58,7 @@ Unlike with the UI5 bootstrap, this script only accepts a limited set of configu
 
 
 
-### The UI5 Test Suite Module
+#### The UI5 Test Suite Module
 
 The test suite module represents the configuration file for the UI5 test suite. The module must return a configuration object in the following basic structure:
 
@@ -120,7 +120,7 @@ The `tests` object is empty for now. For more information on how to add a define
 
 <a name="loio22f50c0f0b104bf3ba84620880793d3f__section_gts_ptg_vcc"/>
 
-## The Generic Test Page
+### The Generic Test Page
 
 The generic test page is used to run individual tests. Typically, this file is named `Test.qunit.html`.
 

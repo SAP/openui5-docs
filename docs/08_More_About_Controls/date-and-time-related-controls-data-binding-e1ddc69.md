@@ -1,6 +1,6 @@
 <!-- loioe1ddc69c01474faf830a522db8c9238a -->
 
-# Date and Time Related Controls: Data Binding
+## Date and Time Related Controls: Data Binding
 
 Date and time related controls can be bound to an `OData` service.
 
@@ -8,17 +8,17 @@ Date and time related controls can be bound to an `OData` service.
 
 <a name="loioe1ddc69c01474faf830a522db8c9238a__section_i2c_p4g_cdb"/>
 
-## OData V4
+### OData V4
 
 The property binding automatically determines the appropriate type depending on the property's metadata, unless a type is specified explicitly. Check the information about automatic type determination in OData V4 under [Type Determination](../04_Essentials/type-determination-53cdd55.md).
 
 
 
-## OData V2
+### OData V2
 
 
 
-### Introduction
+#### Introduction
 
 According to the `OData Version 2.0` specification, the following date and time related primitive data types exist:
 
@@ -31,7 +31,7 @@ According to the `OData Version 2.0` specification, the following date and time 
 
 
 
-### Binding of time values to `TimePicker`
+#### Binding of time values to `TimePicker`
 
 1.  With a dedicated `Edm.Time`:
 
@@ -58,7 +58,7 @@ According to the `OData Version 2.0` specification, the following date and time 
 
 
 
-### Binding of date values to `DatePicker`
+#### Binding of date values to `DatePicker`
 
 ```xml
 <DatePicker
@@ -80,7 +80,7 @@ Above you can see an example of the `displayFormat` constraint. It specifies if 
 
 
 
-### Binding of date and time values to `DateTimePicker`
+#### Binding of date and time values to `DateTimePicker`
 
 ```xml
 <DateTimePicker
@@ -97,7 +97,7 @@ In this example, the binding type specifies that the backend data will be interp
 
 
 
-### Binding of date ranges
+#### Binding of date ranges
 
 1.  With a dedicated EDM type \(`Edm.DateTime`, `Edm.DateTimeOffset`\):
 

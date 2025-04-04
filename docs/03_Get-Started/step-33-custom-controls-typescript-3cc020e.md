@@ -1,24 +1,24 @@
 <!-- loio3cc020e232a2472c9f7fde2e99230633 -->
 
-# Step 33: Custom Controls \(TypeScript\)
+## Step 33: Custom Controls \(TypeScript\)
 
 In this step, we are going to extend the functionality of OpenUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the OpenUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.
 
 
 
-## Preview
+### Preview
 
   
   
 **A custom product rating control is added to the detail page**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_33_21dd14c.png "A custom product rating control is added to the detail page")
+![The graphic has an explanatory text](images/loio21dd14c37b67473b817c8865f168f668_LowRes.png "A custom product rating control is added to the detail page")
 
 
 
 <a name="loio3cc020e232a2472c9f7fde2e99230633__section_ylk_pbn_tyb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 33: Custom Controls](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/33) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-33.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 33: Custom Cont
 
 <a name="loio3cc020e232a2472c9f7fde2e99230633__section_bzj_rbn_tyb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 For our new product-rating custom control we will need some additional text resources: Firstly, we'll need some labels for the custom control, interacting with the user. Then we want to display a confirmation message on the detail page once a user has provided their rating.
 
@@ -47,7 +47,7 @@ productRatingButton=Rate
 
 <a name="loio3cc020e232a2472c9f7fde2e99230633__section_azj_rbn_tyb"/>
 
-## webapp/css/style.css
+### webapp/css/style.css
 
 To layout our new custom control, we specify some additional css. We create a root class `myAppDemoWTProductRating` that sets the padding to `0.75rem`. We will use this class to specify some space around our inner controls. In a second rule we reset the vertical alignment of controls with the class `sapMRI` assigned to inside controls with the class `myAppDemoWTProductRating` to the initial value. We will need this rule to align all the controls we use with our composition.
 
@@ -77,7 +77,7 @@ We could also do this with more HTML in the renderer, but this is the simplest w
 
 <a name="loio3cc020e232a2472c9f7fde2e99230633__section_zlk_pbn_tyb"/>
 
-## webapp/control/ProductRating.ts \(New\)
+### webapp/control/ProductRating.ts \(New\)
 
 Custom controls are small reuse components that can be created within the app very easily. Due to their nature, they are sometimes also referred to as "notepad" or "on the fly" controls. A custom control is a script object that has two special sections \(`metadata` and `renderer`\) and a number of methods that implement the functionality of the control.
 
@@ -131,7 +131,7 @@ For now, the metadata section plus `init` and `render` function are empty. We wi
 
 <a name="loio3cc020e232a2472c9f7fde2e99230633__section_bvh_qbn_tyb"/>
 
-## webapp/control/ProductRating.ts
+### webapp/control/ProductRating.ts
 
 We now enhance our new custom control with the custom functionality that we need. In our case we want to create an interactive product rating, so we define a value and use three internal controls that are displayed updated by our control automatically. A `RatingIndicator` control is used to collect user input on the product, a label is displaying further information, and a button submits the rating to the app to store it.
 
@@ -310,7 +310,7 @@ export default class ProductRating extends Control {
 
 <a name="loio3cc020e232a2472c9f7fde2e99230633__section_s2z_hkw_4zb"/>
 
-## Generate Control Interfaces to Resolve the TypeScript Errors
+### Generate Control Interfaces to Resolve the TypeScript Errors
 
 While the application would run successfully, the editor still displays an error in the `ProductRating.ts` renderer.
 
@@ -331,7 +331,7 @@ You can now stop the interface generator again, as no further control API change
 
 <a name="loio3cc020e232a2472c9f7fde2e99230633__section_a4x_1kw_4zb"/>
 
-## webapp/controller/Detail.controller.ts
+### webapp/controller/Detail.controller.ts
 
 In the `Detail` controller we implement a new `onRatingChange` event that reads the value of our coustom change event that is fired when a rating has been submitted. This requires to import our new control, as well as the `ProductRating$ChangeEvent` type we just defined to the detail controller. To keep the sample simple we only display a message message instead of sending the rating to the back end. We therefore load the `MessageToast` module from the `sap.m` namespace to our script. In addition we need the `ResourceBundle` module from the `sap/base/i18n` namespace as well as the `ResourceModel` module from the `sap/ui/model/resource` namespace, as we want to display the confirmation message we specified in our resource bundle in the message toast.
 
@@ -391,7 +391,7 @@ export default class Detail extends Controller {
 
 
 
-## webapp/view/Detail.view.xml
+### webapp/view/Detail.view.xml
 
 All we need now is to add our new control to the detail view. To do so we must add a new namespace `wt`on the view so that we can reference our custom controls easily in the view. We then add an instance of the `ProductRating` control to our detail page and register our event handler for the change event. As we want to reset the value when navigating away, we need to assign an ID to the control. To have a proper layout, we also add a margin style class.
 
@@ -424,7 +424,7 @@ We can now rate a product on the detail page with our brand new control.
 
 <a name="loio3cc020e232a2472c9f7fde2e99230633__section_zpb_2kw_4zb"/>
 
-## webapp/control/ProductRating.ts
+### webapp/control/ProductRating.ts
 
 When opening the detail page you'll see the following note in the console informing you that there is still something missing in our `ProductRating` script:
 
@@ -471,7 +471,7 @@ Adding the block at this position provides the constructors and the structure of
 
 
 
-## Conventions
+### Conventions
 
 -   Put custom controls in the `control` folder of your app.
 

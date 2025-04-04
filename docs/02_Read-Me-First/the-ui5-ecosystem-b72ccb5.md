@@ -1,6 +1,6 @@
 <!-- loiob72ccb50eda94ac9b9be454a03ca4213 -->
 
-# The UI5 Ecosystem
+## The UI5 Ecosystem
 
 This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
 
@@ -8,7 +8,7 @@ This page contains some of the complementary offerings from the UI5 ecosystem - 
 
 <!-- loiod8ab43d845cd42ceb0aa4e47b44a8fcc -->
 
-## UI5 Tooling
+### UI5 Tooling
 
 
 
@@ -22,7 +22,7 @@ UI5 Tooling is a state-of-the-art way to develop OpenUI5 projects by consuming O
 
 
 
-### Further Information
+#### Further Information
 
 -   [UI5 Tooling on GitHub](https://sap.github.io/ui5-tooling/)
 
@@ -30,7 +30,7 @@ UI5 Tooling is a state-of-the-art way to develop OpenUI5 projects by consuming O
 
 <!-- loiof9c9470583b2455c94bed2bf934e0f1f -->
 
-## UI5 Linter
+### UI5 Linter
 
 
 
@@ -47,7 +47,7 @@ UI5 linter scans your OpenUI5 project and detects issues that can prevent the pr
 
 
 
-### Further Information
+#### Further Information
 
 -   [UI5 linter on GitHub](https://github.com/SAP/ui5-linter)
 
@@ -55,7 +55,7 @@ UI5 linter scans your OpenUI5 project and detects issues that can prevent the pr
 
 <!-- loio702f08a7481e46688c5603385b5bdc68 -->
 
-## Easy-UI5 Generator
+### Easy-UI5 Generator
 
 
 
@@ -67,7 +67,7 @@ The purpose of this generator is to guide you through your first steps with Open
 
 
 
-### Further Information
+#### Further Information
 
 -   [Easy-UI5 on GitHub](https://github.com/SAP/generator-easy-ui5)
 -   [Easy-UI5 on NPMJS](https://www.npmjs.com/package/generator-easy-ui5)
@@ -77,7 +77,7 @@ The purpose of this generator is to guide you through your first steps with Open
 
 <!-- loioab4f18de7652442da85fc08b38a8a8ce -->
 
-## UI5-TypeScript
+### UI5-TypeScript
 
 
 
@@ -89,7 +89,7 @@ For OpenUI5, we have published definition files that contain type definitions de
 
 <a name="loioab4f18de7652442da85fc08b38a8a8ce__section_grr_32p_k5c"/>
 
-## Related Information
+### Related Information
 
 [Main topic: TypeScript Support in UI5](typescript-support-a7ee961.md)
 
@@ -108,7 +108,7 @@ npm packages \(check the individual packages for licensing information\):
 
 <!-- loiof92b537272ba43abbfc157ba4ec8f010 -->
 
-## wdi5
+### wdi5
 
 
 
@@ -116,7 +116,7 @@ wdi5 is a Webdriver.IO service that uses OpenUI5's test API. It is designed to r
 
 
 
-### Further Information
+#### Further Information
 
 -   [wdi5 on GitHub](https://ui5-community.github.io/wdi5/#/)
 
@@ -127,7 +127,7 @@ wdi5 is a Webdriver.IO service that uses OpenUI5's test API. It is designed to r
 
 <!-- loio23a0a11a88df42578b5baae11c06a89b -->
 
-## Best of UI5
+### Best of UI5
 
 The Best of UI5 page lists a number projects related to the UI5 ecosystem. It includes UI5 tooling extensions \(tasks and middlewares\), Easy-UI5 subgenerators, custom UI5 libraries, as well as custom UI5 controls \(as standalone NPM packages\). It's the central place to find reusable projects around UI5.
 
@@ -137,7 +137,7 @@ It's entirely comminuty-based, so any new additions are welcome!
 
 
 
-### Further Information
+#### Further Information
 
 -   [https://bestofui5.org/](https://bestofui5.org/)
 

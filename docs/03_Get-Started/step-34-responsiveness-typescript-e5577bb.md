@@ -1,24 +1,24 @@
 <!-- loioe5577bbb63154a56a2f9797caf2e5e38 -->
 
-# Step 34: Responsiveness \(TypeScript\)
+## Step 34: Responsiveness \(TypeScript\)
 
 In this step, we improve the responsiveness of our app. OpenUI5 applications can be run on phone, tablet, and desktop devices and we can configure the application to make best use of the screen estate for each scenario. Fortunately, OpenUI5 controls like the `sap.m.Table` already deliver a lot of features that we can use.
 
 
 
-## Preview
+### Preview
 
   
   
 **A responsive table is hiding some of the columns on small devices**
 
-![The application contains a Hello World header with buttons and a text input. The lower part displays invoices with some details.](images/UI5_Walkthrough_Step_34_cc3f2e0.png "A responsive table is hiding some of the columns on small devices")
+![The application contains a Hello World header with buttons and a text input. The lower part displays invoices with some details.](images/loiocc3f2e0d8ac6471288af6495836c2f07_LowRes.png "A responsive table is hiding some of the columns on small devices")
 
 
 
 <a name="loioe5577bbb63154a56a2f9797caf2e5e38__section_jd5_1fn_tyb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 34: Responsiveness](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/34) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-34.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 34: Responsiven
 
 <a name="loioe5577bbb63154a56a2f9797caf2e5e38__section_chg_f3w_4zb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 In this step we will exchange the list we used on the invoice list view by a responsive table. Obviously the column titles needs to be translatable texts. So we add text-value pairs for quantity, name, supplier, status, and price to our resource bundle file.
 
@@ -51,7 +51,7 @@ columnPrice=Price
 
 <a name="loioe5577bbb63154a56a2f9797caf2e5e38__section_kd5_1fn_tyb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 On the invoice list view we exchange the list with a table simply by replacing the tag `<List>` with `<Table>`. The table has a built-in responsiveness feature that allows us to make the app more flexible. The table and the list share the same set of properties so we can simply reuse these and also the sorter.
 
@@ -207,7 +207,7 @@ We can see the results when we decrease the browser's screen size or open the ap
 
 
 
-## Conventions
+### Conventions
 
 -   Optimize your application for the different screen sizes of phone, tablet, and desktop devices.
 

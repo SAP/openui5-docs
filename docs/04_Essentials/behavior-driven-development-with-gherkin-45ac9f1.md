@@ -1,6 +1,6 @@
 <!-- loio45ac9f19d9414b30b121c6e00f57433c -->
 
-# Behavior-Driven Development with Gherkin
+## Behavior-Driven Development with Gherkin
 
 A software development process driven by app behavior.
 
@@ -16,7 +16,7 @@ Since writing integration tests can be time-consuming, it's better to use unit t
 
 
 
-## Gherkin
+### Gherkin
 
 Gherkin is written in JavaScript and is fully compatible with OpenUI5, OPA, and QUnit. It is based on the "cucumber" tool.
 

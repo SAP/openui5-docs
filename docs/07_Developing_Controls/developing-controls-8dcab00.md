@@ -1,6 +1,6 @@
 <!-- loio8dcab0011d274051808f959800cabf9f -->
 
-# Developing Controls
+## Developing Controls
 
 You can create own content for OpenUI5. To develop controls in JavaScript, you can either extend existing controls or create new ones.
 

@@ -1,6 +1,6 @@
 <!-- loio91f080966f4d1014b6dd926db0e91070 -->
 
-# Cache Buster for OpenUI5
+## Cache Buster for OpenUI5
 
 A cache buster allows OpenUI5 to notify the browser to refresh the resources only when the OpenUI5 resources have been changed. As long as they are not changed, the resources can always be fetched from the browser's cache.
 
@@ -27,7 +27,7 @@ The bootstrap JavaScript will be included via the URL `resources/sap-ui-cachebus
 
 <a name="loio91f080966f4d1014b6dd926db0e91070__section_854964900D904B06AC93A9948B313E31"/>
 
-## Mechanism
+### Mechanism
 
 The basic mechanism is implemented in the `ResourceServlet`. For the request to the bootstrap JavaScript it now serves a JavaScript file with the following content:
 
@@ -67,7 +67,7 @@ By default all cache buster resources will be cached for one year.
 
 <a name="loio91f080966f4d1014b6dd926db0e91070__section_CE7E0979C4904BAB8D627BDBF74DC262"/>
 
-## Request Flow
+### Request Flow
 
 When using the cache buster mechanism, the first request must never be cached because it is being used to determine the timestamp / and to finally redirect to the correct script. The following list explains the flow:
 
@@ -80,7 +80,7 @@ When using the cache buster mechanism, the first request must never be cached be
 
 <a name="loio91f080966f4d1014b6dd926db0e91070__section_EA1BCA523C48462CB21AC33F705872FA"/>
 
-## Timestamp
+### Timestamp
 
 If you are interested in the timestamp of the cache buster, you can grab it with the following request:
 

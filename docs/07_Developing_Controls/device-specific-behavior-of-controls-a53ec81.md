@@ -1,6 +1,6 @@
 <!-- loioa53ec81aca59413cac86267b0fd5c787 -->
 
-# Device-specific Behavior of Controls
+## Device-specific Behavior of Controls
 
 Some controls have different behaviors between running on different device types \(mobile, desktop, tablet\).
 

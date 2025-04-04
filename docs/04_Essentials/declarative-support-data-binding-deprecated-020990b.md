@@ -1,6 +1,6 @@
 <!-- loio020990b1210e47c89a58a4f4e790c476 -->
 
-# Declarative Support: Data Binding \(deprecated\)
+## Declarative Support: Data Binding \(deprecated\)
 
 Declarative support in OpenUI5 also enables data binding.
 

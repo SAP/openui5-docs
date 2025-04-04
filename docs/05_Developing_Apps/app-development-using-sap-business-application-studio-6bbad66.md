@@ -1,6 +1,6 @@
 <!-- loio6bbad66475d040f39df6fbbaabe6f40f -->
 
-# App Development Using SAP Business Application Studio
+## App Development Using SAP Business Application Studio
 
 Learn how you can use SAP Business Application Studio together with UI5 Tooling to develop state-of-the-art UI5 apps.
 
@@ -8,7 +8,7 @@ Learn how you can use SAP Business Application Studio together with UI5 Tooling 
 
 <a name="loio6bbad66475d040f39df6fbbaabe6f40f__section_w2q_sky_ymb"/>
 
-## Overview
+### Overview
 
 SAP Business Application Studio is an SAP Business Technology Platform service in the Cloud Foundry environment. It is built on open-source and leading industry standards and supports a modular approach to developing different kinds of apps.
 
@@ -18,7 +18,7 @@ For a general overview and more information about the capabilities of SAP Busine
 
 <a name="loio6bbad66475d040f39df6fbbaabe6f40f__section_chw_xrb_vmb"/>
 
-## Selected Features
+### Selected Features
 
 SAP Business Application Studio offers the following features \(selection\):
 
@@ -34,7 +34,7 @@ SAP Business Application Studio offers the following features \(selection\):
 
 <a name="loio6bbad66475d040f39df6fbbaabe6f40f__section_v1r_lcs_ymb"/>
 
-## How to access SAP Business Application Studio
+### How to access SAP Business Application Studio
 
 If you do not have existing access to SAP Business Application Studio, you can get a fully-functional SAP BTP free tier account. From there, you can access and use SAP Business Application Studio.
 

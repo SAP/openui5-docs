@@ -1,6 +1,6 @@
 <!-- loio08197fa68e4f479cbe30f639cc1cd22c -->
 
-# sap.ui.table
+## sap.ui.table
 
 Table-like controls, mainly for desktop scenarios.
 
@@ -9,7 +9,7 @@ Table-like controls, mainly for desktop scenarios.
 
 
 
-## Row Virtualization
+### Row Virtualization
 
 To improve rendering and memory performance, only the number of rows that are visible on the user interface are created internally for `sap.ui.table.Table` \(this is called "row virtualization"\). For example, if the table has enough space to render 20 rows, exactly 20 rows are created internally.
 
@@ -18,7 +18,7 @@ To improve rendering and memory performance, only the number of rows that are vi
 
 
 
-## OData Model
+### OData Model
 
 OData as a RESTful protocol provides a specified and a generalized way to access back-end services via HTTP requests. The OpenUI5 OData model provides a stable module for querying OData services via the network. All `sap.ui.table.*` controls fully support data bindings over OData V2. Since OData services can hold millions of entries, and these entries have to be loaded somehow to the client and rendered, the `sap.ui.table.*` controls implement advanced paging mechanisms based on the underlying `ODataListBinding` and `ODataTreeBinding`. The OpenUI5 OData bindings take care of all necessary back-end requests to retrieve the currently-needed data entries. This is done as efficiently as possible with the minimum amount of back-end requests.
 

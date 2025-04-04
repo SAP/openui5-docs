@@ -1,6 +1,6 @@
 <!-- loio28fa7538c67e4280a0b7708de2951278 -->
 
-# Create a neo-app.json Project Configuration File
+## Create a neo-app.json Project Configuration File
 
 The `neo-app.json` file contains all project settings for SAP Web IDE and is created in the root folder of your project. It is a JSON format file consisting of multiple configuration keys. The most important setting for you to configure is the path where the OpenUI5 runtime is located when starting the app.
 
@@ -26,7 +26,7 @@ SAP Web IDE reads these settings automatically when running the app. You can see
 
 
 
-## Procedure
+### Procedure
 
 1.  Select the *New File* icon and enter `neo-app.json` as the file name.
 2.  Open the newly created file from the tree structure on the left side of the screen.

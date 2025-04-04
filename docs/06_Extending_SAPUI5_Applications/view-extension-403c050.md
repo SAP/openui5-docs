@@ -1,6 +1,6 @@
 <!-- loio403c050da4ae4566b6aafec2bc590389 -->
 
-# View Extension
+## View Extension
 
 OpenUI5 uses extension points for extending standard views with custom content. The assignment of a custom view to an extension point is done in component customizing.
 
@@ -61,7 +61,7 @@ For table-like controls with aggregations that span two dimensions, for example,
 
 
 
-## Extension Points with Default Content
+### Extension Points with Default Content
 
 Applications can also use extension points to provide default content, which is used as long as no custom content is defined and ignored when custom content is defined. This feature is particularly interesting for aggregations, which are filled by data binding: In XML views, one item is given which is used as a template. In applications that enable exchanging these items by custom `ListItems`, the default list items can be enclosed in an `<ExtensionPoint>` tag.
 
@@ -88,7 +88,7 @@ The function provided as a callback needs to return a control or an array of con
 
 
 
-## Extension Point Implementation
+### Extension Point Implementation
 
 The extension content, which will then be inserted at the position of an extension point, is defined in the custom application. For example, for the extension points that have been defined in the standard application described in the section above, custom content can be defined for each extension. This is shown in the example below together with a description of the customizing that connects the extension point in the delivered standard application and the extension content in the customer application.
 

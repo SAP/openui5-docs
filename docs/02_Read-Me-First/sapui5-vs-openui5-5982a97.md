@@ -1,12 +1,12 @@
 <!-- loio5982a9734748474aa8d4af9c3d8f31c0 -->
 
-# SAPUI5 vs. OpenUI5
+## SAPUI5 vs. OpenUI5
 
 With SAPUI5 and OpenUI5 we provide two deliveries of our UI development toolkit. Both are very closely related, but have their differences.
 
 
 
-## Licenses
+### Licenses
 
 The main difference is the license.
 
@@ -25,7 +25,7 @@ The main difference is the license.
 
 
 
-## Content
+### Content
 
 The easiest way to get an overview of which libraries are delivered is to have a look at the *API Reference* of each Demo Kit. You'll see that the list of libraries in SAPUI5 is much longer... which in no way means that OpenUI5 provides just a very limited scope!
 
@@ -37,7 +37,7 @@ The additional libraries in SAPUI5 include more controls on top, like charts, an
 
 
 
-## Contributing to OpenUI5
+### Contributing to OpenUI5
 
 OpenUI5 is Open Source, and is available on [GitHub](https://github.com/SAP/openui5/).
 
@@ -45,7 +45,7 @@ If you find a bug or have an idea for a new feature - just go ahead and propose 
 
 
 
-## Resources
+### Resources
 
 For the OpenUI5 version, visit [https://openui5.org/](https://openui5.org/) where you can download the runtime and the Demo Kit \(SDK\) at [https://openui5.org/releases/](https://openui5.org/releases/).
 
@@ -55,7 +55,7 @@ Both resources are also available online via the content delivery network provid
 
 
 
-## Compatibility of OpenUI5 and SAPUI5
+### Compatibility of OpenUI5 and SAPUI5
 
 Technically, you can switch between OpenUI5 and SAPUI5 \(provided you have a product where SAPUI5 is included\), for example, if you want to use the SAPUI5-specific features.
 

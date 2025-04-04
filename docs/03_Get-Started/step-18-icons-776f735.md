@@ -1,24 +1,24 @@
 <!-- loio776f7352807e4f82b18176c8fbdc0c56 -->
 
-# Step 18: Icons
+## Step 18: Icons
 
 Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large icon font that contains more than 500 icons, we will add an icon to greet our users when the dialog is opened.
 
 
 
-## Preview
+### Preview
 
   
   
 **An icon is now displayed in the dialog box**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_18_fbc48e2.png "An icon is now displayed in the dialog box")
+![The graphic has an explanatory text.](images/loiofbc48e23cc7d45e393cc95bbbfc6e0a3_LowRes.png "An icon is now displayed in the dialog box")
 
 
 
 <a name="loio776f7352807e4f82b18176c8fbdc0c56__section_pg2_zgk_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 18](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.18).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 18](https://ui5.sap.c
 
 <a name="loio776f7352807e4f82b18176c8fbdc0c56__section_qg2_zgk_syb"/>
 
-## webapp/view/HelloPanel.view.xml
+### webapp/view/HelloPanel.view.xml
 
 ```xml
 <mvc:View
@@ -69,7 +69,7 @@ We add an icon to the button that opens the dialog. The `sap-icon://` protocol i
 
 
 
-## webapp/view/HelloDialog.fragment.xml
+### webapp/view/HelloDialog.fragment.xml
 
 ```xml
 <core:FragmentDefinition
@@ -97,7 +97,7 @@ In the dialog fragment, we add an icon control to the content aggregation of the
 
 
 
-## Conventions
+### Conventions
 
 -   Always use icon fonts rather than images wherever possible, as they are scalable without quality loss \(vector graphics\) and do not need to be loaded separately.
 

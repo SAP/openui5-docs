@@ -1,6 +1,6 @@
 <!-- loiof7cbafc9a76140ec8fc55b51a63cf467 -->
 
-# Create an index.html File
+## Create an index.html File
 
 A minimalistic `index.html` file is needed to test the project configuration. This file contains the OpenUI5 bootstrap and an `sap.m.Text` control that displays the text "**OpenUI5 is loaded successfully!**".
 

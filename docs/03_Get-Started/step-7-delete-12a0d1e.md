@@ -1,6 +1,6 @@
 <!-- loio12a0d1ef150a42ef81e9f07fe6407018 -->
 
-# Step 7: Delete
+## Step 7: Delete
 
 In this step, we make it possible to delete user data.
 
@@ -8,19 +8,19 @@ In this step, we make it possible to delete user data.
 
 <a name="loio12a0d1ef150a42ef81e9f07fe6407018__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **A new Delete User button is added**
 
-![](images/Tutorial_OData_V4_Step_7_32509f4.png "A new Delete User button is added")
+![](images/loio32509f45ef8549998c73af49b8cfaa01_LowRes.png "A new Delete User button is added")
 
 
 
 <a name="loio12a0d1ef150a42ef81e9f07fe6407018__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 7](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.07).
 
@@ -28,7 +28,7 @@ You can view and download all files at [OData V4 - Step 7](https://ui5.sap.com/#
 
 <a name="loio12a0d1ef150a42ef81e9f07fe6407018__section_pvc_fyc_z1b"/>
 
-## webapp/App.controller.js
+### webapp/App.controller.js
 
 ```
 ...
@@ -106,7 +106,7 @@ We add the `onDelete` event handler to the controller. In the event handler, we 
 
 <a name="loio12a0d1ef150a42ef81e9f07fe6407018__section_pp2_mxc_z1b"/>
 
-## webapp/App.view.xml
+### webapp/App.view.xml
 
 ```
 <mvc:View
@@ -181,7 +181,7 @@ We add the *Delete* button to the toolbar. With the `OverflowToolbarLayoutData p
 
 <a name="loio12a0d1ef150a42ef81e9f07fe6407018__section_kl4_d1x_4cb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...

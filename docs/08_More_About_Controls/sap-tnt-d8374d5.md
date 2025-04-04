@@ -1,6 +1,6 @@
 <!-- loiod8374d578a4c4f9498f9f14a6672c8bb -->
 
-# sap.tnt
+## sap.tnt
 
 This library contains controls that provide the basic structure of a tool app.
 
@@ -10,7 +10,7 @@ The goal of these controls is to ensure consistency of the user interfaces in th
   
 **Basic Page Structure of a Tool**
 
-![](images/General_page_structure_of_a_tool_1401097.png "Basic Page Structure of a Tool")
+![](images/loio1401097cea0e42689fc9c57c1097dfe7_LowRes.png "Basic Page Structure of a Tool")
 
 > ### Note:  
 > This set of controls described in this article has been designed exclusively for the SAP tool landscape for the SAP Business Technology Platform.

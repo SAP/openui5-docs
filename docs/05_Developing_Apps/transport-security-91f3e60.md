@@ -1,6 +1,6 @@
 <!-- loio91f3e6056f4d1014b6dd926db0e91070 -->
 
-# Transport Security
+## Transport Security
 
 Transport security comprises topics such as encryption and session security.
 
@@ -10,7 +10,7 @@ Security on the client and server side is not sufficient if the data transport b
 
 <a name="loio91f3e6056f4d1014b6dd926db0e91070__section_745F982F3B5047529CC3C89AA359B4AF"/>
 
-## Encryption
+### Encryption
 
 Sending the HTTP protocol over a SSL secured connection is not only standardized, but also required for SAP applications.
 
@@ -20,7 +20,7 @@ OpenUI5 fully supports the use of HTTPS, but there are some restrictions regardi
 
 <a name="loio91f3e6056f4d1014b6dd926db0e91070__section_EA424BD729FC44DABF009B60BBF59361"/>
 
-## Session Security
+### Session Security
 
 Even if the data transport is secured using SSL or TLS, there are possibilities to hijack such a secure connection and send malicious requests from the client. Cross-site request forgery and session fixation are two of the prominent examples of this class of attacks.
 

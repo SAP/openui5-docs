@@ -1,6 +1,6 @@
 <!-- loio2d3eb2f322ea4a82983c1c62a33ec4ae -->
 
-# Variant for Bootstrapping from Content Delivery Network
+## Variant for Bootstrapping from Content Delivery Network
 
 OpenUI5 can either be loaded locally with a relative path from a Web server or externally from a Content Delivery Network \(CDN\). 
 
@@ -11,14 +11,14 @@ OpenUI5 can either be loaded locally with a relative path from a Web server or e
 
 <a name="loio2d3eb2f322ea4a82983c1c62a33ec4ae__section_CDN"/>
 
-## Bootstrapping From OpenUI5 CDN
+### Bootstrapping From OpenUI5 CDN
 
 > ### Note:  
 > To ensure outdated versions no longer pose a potential security risk, SAP removes OpenUI5 versions from the OpenUI5 CDN one year after their end of maintenance. Also patches of versions in maintenance which are older than one year will be removed. For more information, see [this blog post](https://blogs.sap.com/2021/01/26/removing-outdated-ui5-versions-from-ui5-cdn/). The end dates for the cloud provisioning of OpenUI5 versions and patches can be found at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html)
 
 
 
-### Specific Version
+#### Specific Version
 
 The specific version allows you to select a particular fixed version for bootstrapping. You can refer to a specific version by using a versioned URL as in the following example:
 
@@ -39,7 +39,7 @@ Check the available versions with the respective maintenance status at [https://
 
 
 
-### Evergreen Version
+#### Evergreen Version
 
 The evergreen version allows you to automatically select the latest available patch level of a specific \(minor\) long-term maintenance version for bootstrapping. You refer to a particular *`<majorVersion>.<minorVersion>`* long-term maintenance version using a versioned URL as in the following example:
 
@@ -76,7 +76,7 @@ When using the patch-level independent bootstrap you must use `data-sap-ui-async
 
 
 
-### Default Version
+#### Default Version
 
 The default version of our libraries has the generic URL `https://sdk.openui5.org/resources/sap-ui-core.js` \(OpenUI5\).
 
@@ -85,7 +85,7 @@ The default version of our libraries has the generic URL `https://sdk.openui5.or
 
 
 
-### Cache Control
+#### Cache Control
 
 The cache control is different for dynamic and static resources. If you refer to the latest maintenance version \(dynamic\), you have a maximum cache age of one week, if you refer to a specific \(static\) version, you have a maximum cache age of 10 years. In both cases, cross-origin resource sharing \(CORS\) headers are set, so that you can consume resources from the central location without any proxy in between.
 

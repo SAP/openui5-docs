@@ -1,24 +1,24 @@
 <!-- loio354f98ed2b514ba9960556333428d35e -->
 
-# Step 17: Fragment Callbacks
+## Step 17: Fragment Callbacks
 
 Now that we have integrated the dialog, it's time to add some user interaction. The user will definitely want to close the dialog again at some point, so we add a button to close the dialog and assign an event handler.
 
 
 
-## Preview
+### Preview
 
   
   
 **The dialog now has an "OK" button**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_17_c351bbd.png "The dialog now has an "OK" button")
+![The graphic has an explanatory text.](images/loioc351bbd078824c43bf1758b0c3679cbd_LowRes.png "The dialog now has an "OK" button")
 
 
 
 <a name="loio354f98ed2b514ba9960556333428d35e__section_mt1_5fk_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 17](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.17).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 17](https://ui5.sap.c
 
 <a name="loio354f98ed2b514ba9960556333428d35e__section_nt1_5fk_syb"/>
 
-## webapp/controller/HelloPanel.controller.js
+### webapp/controller/HelloPanel.controller.js
 
 ```js
 sap.ui.define([
@@ -69,7 +69,7 @@ The event handler function is put into the same controller file, and it closes t
 
 
 
-## webapp/view/HelloDialog.fragment.xml
+### webapp/view/HelloDialog.fragment.xml
 
 ```xml
 <core:FragmentDefinition
@@ -93,7 +93,7 @@ In the fragment definition, we add a button to the `beginButton` aggregation of 
 
 <a name="loio354f98ed2b514ba9960556333428d35e__section_d5m_ypr_r2b"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 # App Descriptor

@@ -1,6 +1,6 @@
 <!-- loio9790d9aa686e4f818f2ad99057adb7ee -->
 
-# Step 6: Resource Models
+## Step 6: Resource Models
 
 Business applications often require language-specific \(translatable\) text used as labels and descriptions on the user interface.
 
@@ -8,17 +8,17 @@ The example we used at the start of this tutorial was quite simplistic as we sto
 
 
 
-## Preview
+### Preview
 
   
   
 **The texts are now derived from a resource model \(No visual change to last step\)**
 
-![The graphic has an explanatory text](images/Tutorial_Data_Binding_Step_4_61d68f1.png "The texts are now derived from a resource model (No visual change to last step)")
+![The graphic has an explanatory text](images/loio61d68f167778425bbdd2abd7d550ae65_LowRes.png "The texts are now derived from a resource model (No visual change to last step)")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 6](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.06).
 

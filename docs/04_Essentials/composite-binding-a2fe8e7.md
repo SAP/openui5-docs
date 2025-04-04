@@ -1,6 +1,6 @@
 <!-- loioa2fe8e763014477e87990ff50657a0d0 -->
 
-# Composite Binding
+## Composite Binding
 
 Calculated fields enable the binding of multiple properties in different models to a single property of a control.
 
@@ -18,7 +18,7 @@ Each binding is created by the specified parts and assigned information. A part 
 
 <a name="loioa2fe8e763014477e87990ff50657a0d0__section_N10044_N10011_N10001"/>
 
-## Constructor Declaration
+### Constructor Declaration
 
 1.  Use binding objects to add additional parameters, for example the type:
 
@@ -59,7 +59,7 @@ Each binding is created by the specified parts and assigned information. A part 
 
 <a name="loioa2fe8e763014477e87990ff50657a0d0__section_N10062_N10011_N10001"/>
 
-## Bind Property Declaration
+### Bind Property Declaration
 
 1.  Use binding objects to add additional parameters, for example the type:
 
@@ -86,7 +86,7 @@ These samples also work with a relative binding path, when you use them as a tem
 
 <a name="loioa2fe8e763014477e87990ff50657a0d0__section_tlp_5np_rcb"/>
 
-## Complex Syntax for Calculated Fields
+### Complex Syntax for Calculated Fields
 
 Complex \(or "extended"\) syntax can be used for calculated fields in declarative views, such as HTML and XML views. The following examples show how to use the feature:
 
@@ -142,7 +142,7 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 
 <a name="loioa2fe8e763014477e87990ff50657a0d0__section_v3n_qyz_gbc"/>
 
-## Composite Binding With Static Binding Parts
+### Composite Binding With Static Binding Parts
 
 An [`sap.ui.model.StaticBinding`](https://ui5.sap.com/#/api/sap.ui.model.StaticBinding) is the way to define a part in a composite binding with a constant value.
 

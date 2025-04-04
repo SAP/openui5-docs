@@ -1,6 +1,6 @@
 <!-- loio21ea0ea94614480d9a910b2e93431291 -->
 
-# Icon and Icon Pool
+## Icon and Icon Pool
 
 The `sap-icon://` protocol supports the use of icons in your application based on the icon font concept, which uses an embedded font instead of a pixel image.
 
@@ -11,7 +11,7 @@ Compared to image-based icons, icon font is easily scalable and you can change t
 
 
 
-## Using Custom Icons
+### Using Custom Icons
 
 To display your custom icons in all browsers that OpenUI5 supports, you need the `woff2` version of your icon file. To use your own icon font file in the `Icon` control, the font file and the metadata for the icons in the font file need to be registered in the `IconPool`. You can register both of them by calling the `IconPool.registerFont` with a config object which contains the following options:
 
@@ -52,7 +52,7 @@ To display your custom icons in all browsers that OpenUI5 supports, you need the
 
 
 
-### Theme-Dependent Icons
+#### Theme-Dependent Icons
 
 Since UI5 version 1.117, a `config` section can be defined, into which the path configuration for the theme-dependent icon designs \(e.g. Horizon theme\) can be written. The **key** defines a regluar expression that matches the theme name, and the **value** represents the font file location for the respective theme. If the `config` property is defined, the mapping of the icons' names and hex codes must be defined under an `icons` property as shown below.
 
@@ -95,7 +95,7 @@ IconPool.registerFont({
 
 
 
-## Referencing Icons
+### Referencing Icons
 
 To reference icons, you assign the icon URI to a control by setting `sURI` for the control's corresponding property. To get the icon URI, the following two options exist:
 
@@ -119,7 +119,7 @@ To reference icons, you assign the icon URI to a control by setting `sURI` for t
 
 
 
-## Using Icons in Controls
+### Using Icons in Controls
 
 The following code snippet shows how the sap.m.Dialog control that already supported image URI has been adapted to also support icon URI. `IconPool.createControlByURI` returns an instance of `Icon` if `sURI` is an icon URI. Otherwise, the second parameter is called as a constructor method to create an instance. The `sURI` is set for the `src` property of the instance.
 
@@ -158,7 +158,7 @@ Font face is inserted into the style sheet dynamically when `Icon` or `writeIcon
 
 
 
-## Styling the Icon Control
+### Styling the Icon Control
 
 If you render the icon span directly in your control, or use icon font in your CSS, you have the maximal freedom to style the Icon control.
 
@@ -168,7 +168,7 @@ If you use the icon by creating an instance of `Icon` within your control, howev
 
 <a name="loio21ea0ea94614480d9a910b2e93431291__section_whp_y2l_mmb"/>
 
-## Consuming SAP Icon Font in a Non-UI5 Environment
+### Consuming SAP Icon Font in a Non-UI5 Environment
 
 You can consume the predefined `SAP-icons` icon font also in an environment where UI5 isn't available. An integration could look like the following:
 

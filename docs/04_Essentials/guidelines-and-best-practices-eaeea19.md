@@ -1,6 +1,6 @@
 <!-- loioeaeea19a991d46f29e6d8d8827317d0e -->
 
-# Guidelines and Best Practices
+## Guidelines and Best Practices
 
 There are some general guidelines for writing succinct and meaningful rules to ensure high quality, consistency and better usability of the reported issues.
 
@@ -8,7 +8,7 @@ There are some general guidelines for writing succinct and meaningful rules to e
 
 <a name="loioeaeea19a991d46f29e6d8d8827317d0e__section_sws_qkx_d1b"/>
 
-## Rule Property Values
+### Rule Property Values
 
 The following table contains guidelines and examples on how to set the rule property values.
 
@@ -310,7 +310,7 @@ Check function code
 
 <a name="loioeaeea19a991d46f29e6d8d8827317d0e__section_qpw_fn5_tz"/>
 
-## Check Function Guidelines
+### Check Function Guidelines
 
 Here are some general guidelines that you should consider when creating a new rule:
 

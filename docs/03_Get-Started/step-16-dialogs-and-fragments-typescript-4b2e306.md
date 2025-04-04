@@ -1,6 +1,6 @@
 <!-- loio4b2e306f4bcd4777b068e5a99e007e85 -->
 
-# Step 16: Dialogs and Fragments \(TypeScript\)
+## Step 16: Dialogs and Fragments \(TypeScript\)
 
 In this step, we will take a closer look at another element which can be used to assemble views: the fragment.
 
@@ -12,19 +12,19 @@ We will now add a dialog to our app. Dialogs are special, because they open on t
 
 
 
-## Preview
+### Preview
 
   
   
 **A dialog opens when the new "Say Hello With Dialog" button is clicked**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_16_0916080.png "A dialog opens when the new "Say Hello With Dialog" button is clicked")
+![The graphic has an explanatory text.](images/loio0916080895e144ed8b31963bfb18e17f_LowRes.png "A dialog opens when the new "Say Hello With Dialog" button is clicked")
 
 
 
 <a name="loio4b2e306f4bcd4777b068e5a99e007e85__section_kj4_41f_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 16: Dialogs and Fragments](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/16) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-16.zip).
 
@@ -32,7 +32,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 16: Dialogs and
 
 <a name="loio4b2e306f4bcd4777b068e5a99e007e85__section_pd3_2my_nzb"/>
 
-## webapp/view/HelloDialog.fragment.xml \(New\)
+### webapp/view/HelloDialog.fragment.xml \(New\)
 
 We add a new XML file to declaratively define our dialog in a fragment. The fragment assets are located in the `core` namespace, so we add an `xml` namespace for it inside the `FragmentDefinition` tag.
 
@@ -52,7 +52,7 @@ The syntax is similar to a view, but since fragments do not have a controller th
 
 <a name="loio4b2e306f4bcd4777b068e5a99e007e85__section_v4g_hmy_nzb"/>
 
-## webapp/controller/HelloPanel.controller.ts
+### webapp/controller/HelloPanel.controller.ts
 
 In the `HelloPanel` controller, we define a new event handler function `onOpenDialog`, which calls the dialog in the `HelloDialog` fragment when triggered. To do so, we need to import the `sap.m.Dialog` module.
 
@@ -93,7 +93,7 @@ export default class HelloPanel extends Controller {
 
 <a name="loio4b2e306f4bcd4777b068e5a99e007e85__section_d5m_ypr_r2b"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 We add a new text for the button to open the dialog to the text bundle. We will add this button to the `HelloPanel` view in the next step.To reuse the dialog opening and closing functionality in other controllers, you can create a new file
 
@@ -114,7 +114,7 @@ openDialogButtonText=Say Hello With Dialog
 
 <a name="loio4b2e306f4bcd4777b068e5a99e007e85__section_lj4_41f_syb"/>
 
-## webapp/view/HelloPanel.view.xml
+### webapp/view/HelloPanel.view.xml
 
 We add a new button to the view to open the dialog and assign an unique `id` to it. The button calls the `onOpenDialog` event handler function in the controller of the panel's content view. We assign the new text to the text property of the button and refer its class to `sapUiResponsiveMargin` to pimp up the design.
 

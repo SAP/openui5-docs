@@ -1,25 +1,25 @@
 <!-- loio9bbbfaa828a14fee8ca9ac31464cc073 -->
 
-# Step 15: Nested Views \(TypeScript\)
+## Step 15: Nested Views \(TypeScript\)
 
 Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.
 
 
 
-## Preview
+### Preview
 
   
   
 **The panel content is now refactored to a separate view \(No visual changes to last step\)**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_15_f3724d2.png "The panel content is now refactored to a separate view (No visual changes to last
+![The graphic has an explanatory text.](images/loiof3724d2f97e94a78b27d8ab01ff9c37d_LowRes.png "The panel content is now refactored to a separate view (No visual changes to last
                step)")
 
 
 
 <a name="loio9bbbfaa828a14fee8ca9ac31464cc073__section_rjd_vt2_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 15: Nested Views](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/15) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-15.zip).
 
@@ -27,7 +27,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 15: Nested View
 
 <a name="loio9bbbfaa828a14fee8ca9ac31464cc073__section_xkd_njy_nzb"/>
 
-## webapp/controller/HelloPanel.controller.ts \(New\)
+### webapp/controller/HelloPanel.controller.ts \(New\)
 
 In our `webapp/controller` folder we create a new `HelloPanel.controller.ts` file and move the `onShowHello` method from the app controller to it, so we get a reusable asset.
 
@@ -59,7 +59,7 @@ export default class HelloPanel extends Controller {
 
 <a name="loio9bbbfaa828a14fee8ca9ac31464cc073__section_hfz_fky_nzb"/>
 
-## webapp/view/HelloPanel.view.xml \(New\)
+### webapp/view/HelloPanel.view.xml \(New\)
 
 We create a new `HelloPanel.view.xml` file in our `webapp/view` folder and move the whole panel from the app view to it. We also reference the controller we just created for the view by setting it to the `controllerName` attribute of the XML view.
 
@@ -93,7 +93,7 @@ We create a new `HelloPanel.view.xml` file in our `webapp/view` folder and move 
 
 <a name="loio9bbbfaa828a14fee8ca9ac31464cc073__section_sjd_vt2_syb"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 In the app view, we remove the panel control and its content and put the `XMLView` control into the content of the page instead. We add the `viewName` attribute with the value `ui5.walkthrough.view.HelloPanel` to reference the new view that now contains the panel.
 
@@ -119,7 +119,7 @@ In the app view, we remove the panel control and its content and put the `XMLVie
 
 
 
-## webapp/controller/App.controller.ts
+### webapp/controller/App.controller.ts
 
 We remove the `onShowHello` method from the app controller, as this is not needed anymore.
 

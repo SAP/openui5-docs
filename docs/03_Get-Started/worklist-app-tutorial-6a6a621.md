@@ -1,6 +1,6 @@
 <!-- loio6a6a621c978145ad9eef2b221d2cf21d -->
 
-# Worklist App Tutorial
+## Worklist App Tutorial
 
 In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.
 
@@ -19,19 +19,19 @@ We will use the worklist template as a starting point for this tutorial and add 
 
 
 
-## Preview
+### Preview
 
   
   
 **Start page of the app with list of products and actions**
 
-![](images/Tutorial_Worklist_Step_5_Preview_016d473.png "Start page of the app with list of products and actions")
+![](images/loio016d473029e04ec9be5ed43fa897e69b_HiRes.png "Start page of the app with list of products and actions")
 
   
   
 **Product detail page of the app**
 
-![](images/Tutorial_Worklist_Step_7_Preview_a517fe5.png "Product detail page of the app")
+![](images/loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Product detail page of the app")
 
 
 

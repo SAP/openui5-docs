@@ -1,6 +1,6 @@
 <!-- loio1d18eb5973ac477ba87f16057adb2571 -->
 
-# What's New in OpenUI5 1.85
+## What's New in OpenUI5 1.85
 
 With this release OpenUI5 is upgraded from version 1.84 to 1.85.
 
@@ -332,7 +332,7 @@ Control
 
 If the sum of the width of all columns in a table is less than the available space for the whole table, we now render a placeholder column to occupy the remaining unused space. This feature is enabled by default.
 
-![](images/Dummy_Column_1da07e7.png)
+![](images/loio1da07e72426044b6a23a58549b95e2b5_Source1.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.Table).
 

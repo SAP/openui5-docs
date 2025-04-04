@@ -1,24 +1,24 @@
 <!-- loio0f8626ed7b7542ffaa44601828db20de -->
 
-# Step 22: Custom Formatters
+## Step 22: Custom Formatters
 
 If we want to do a more complex logic for formatting properties of our data model, we can also write a custom formatting function. We will now add a localized status with a custom formatter, because the status in our data model is in a rather technical format.
 
 
 
-## Preview
+### Preview
 
   
   
 **A status is now displayed with a custom formatter**
 
-![A list of invoices is displayed below the panel](images/UI5_Walkthrough_Step_22_7aa185a.png "A status is now displayed with a custom formatter")
+![A list of invoices is displayed below the panel](images/loio7aa185a90dd7495cb6ec30c96bc80a54_LowRes.png "A status is now displayed with a custom formatter")
 
 
 
 <a name="loio0f8626ed7b7542ffaa44601828db20de__section_lp1_2nk_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 22](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.22).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 22](https://ui5.sap.c
 
 <a name="loio0f8626ed7b7542ffaa44601828db20de__section_mp1_2nk_syb"/>
 
-## webapp/model/formatter.js \(New\)
+### webapp/model/formatter.js \(New\)
 
 ```js
 sap.ui.define([], () => {
@@ -64,7 +64,7 @@ The `statusText` function gets the technical status from the data model as input
 
 
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View
@@ -117,7 +117,7 @@ We add a status using the `firstStatus` aggregation to our `ObjectListItem` that
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 # App Descriptor

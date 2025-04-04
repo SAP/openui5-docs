@@ -1,6 +1,6 @@
 <!-- loiob2825eabd7bb43d79b475fee4194c609 -->
 
-# Interaction Tracking for Performance Measurement
+## Interaction Tracking for Performance Measurement
 
 You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.
 
@@ -14,7 +14,7 @@ You can use `Interaction.filter` from module `sap/ui/performance/trace/Interacti
 
 
 
-## Example of an Interaction Measurement
+### Example of an Interaction Measurement
 
 ```js
 InteractionMeasurement = {
@@ -42,7 +42,7 @@ InteractionMeasurement = {
 
 
 
-## Properties of Interaction Measurements
+### Properties of Interaction Measurements
 
 
 <table>
@@ -434,9 +434,9 @@ Time during which a `BusyIndicator` was rendered and hence blocking the UI durin
 
 
 
-## Calculation of Times
+### Calculation of Times
 
-![](images/Interaction_Tracking_9678404.png)
+![](images/loio9678404bdf5a4065ac270e76191984d0_LowRes.png)
 
 **Related Information**  
 

@@ -1,6 +1,6 @@
 <!-- loio4363b3fe3561414ca1b030afc8cd30ce -->
 
-# Troubleshooting for Loading Modules
+## Troubleshooting for Loading Modules
 
 The following sections give examples that you must avoid because they cause problems when loading your module.
 
@@ -8,13 +8,13 @@ The following sections give examples that you must avoid because they cause prob
 
 <a name="loio4363b3fe3561414ca1b030afc8cd30ce__section_moduleloading"/>
 
-## Why was my Module Not Loaded Correctly?
+### Why was my Module Not Loaded Correctly?
 
 The following list contains possible reasons why your module does not load. To see how it is done correctly, see [Best Practices for Loading Modules - How to Define Modules](best-practices-for-loading-modules-00737d6.md#loio00737d6c1b864dc3ab72ef56611491c4__section_DefineModules).
 
 
 
-### The module name is given in `sap.ui.define`
+#### The module name is given in `sap.ui.define`
 
 If you explicitly give the module name in `sap.ui.define`, you introduce additional complexity to the project structure which may cause inconcistencies and clashing module names. This problem is difficult to detect and can easily and proactively be avoided by omitting the module name in `sap.ui.define`.
 
@@ -31,7 +31,7 @@ sap.ui.define("myLib.MyModule", [], function(){
 
 
 
-### Using multiple `sap.ui.define` calls with unnamed modules
+#### Using multiple `sap.ui.define` calls with unnamed modules
 
 If you have more than one `sap.ui.define` call in a JavaScript file, the module loader does not know which definition actually represents the module. As there is no scenario that requires multiple module definitions in one file and in order to comply with the AMD specification \(see [https://github.com/amdjs/amdjs-api/wiki/AMD](https://github.com/amdjs/amdjs-api/wiki/AMD)\), the async variant of the OpenUI5 module loader does *not* tolerate multiple definitions anymore and throws an error.
 
@@ -51,7 +51,7 @@ sap.ui.define([], function(){
 
 
 
-### Combining conditional modules with `sap.ui.define`
+#### Combining conditional modules with `sap.ui.define`
 
 Conditional module definitions should *not* be used because of the following reasons:
 
@@ -81,7 +81,7 @@ else {
 
 
 
-### Mixing old and new loader APIs
+#### Mixing old and new loader APIs
 
 Using deprecated APIs is not recommended and mixing old and new loader APIs is even worse: If the synchronicity has changed between older and newer APIs, mixing them will cause timing-related issues as well as general inconsistencies.
 
@@ -99,7 +99,7 @@ sap.ui.define([], function(){
 
 
 
-### Using `sap.ui.require` instead of `sap.ui.define` on the top level
+#### Using `sap.ui.require` instead of `sap.ui.define` on the top level
 
 Although the API signature for `sap.ui.define` and `sap.ui.require` looks similar, you must use the `sap.ui.define` API to define a reusable JavaScript object \(that is, a module\). Note the following differences between `sap.ui.require` and `sap.ui.define`:
 
@@ -194,11 +194,11 @@ The dependent modules are waiting for the module callback execution to be finish
 
 **Example**: The file for module C has one top-level `sap.ui.require` instead of a top-level `sap.ui.define` call. The module callback evaluation order starts with module B, because it has no dependencies. Afterwards, the framework can execute module A or module C, because the intended module C is not a module from the module loader perspective. Furthermore, the undefined export value of module C will most probably lead to errors in module A. If module C is defined correctly via a top-level `sap.ui.define` call, the module callback execution order is clear: B - C - A.
 
-![](images/Image_Module_Loading_BP_4_87c101d.png)
+![](images/loio87c101d607a94ae689013c3478799879_LowRes.png)
 
 
 
-### Defining \(unnamed\) modules via inline scripts
+#### Defining \(unnamed\) modules via inline scripts
 
 It is unclear how modules that are defined via inline scripts can by addresses by other modules. Therefore, the inline scripts must be omitted.
 
@@ -228,7 +228,7 @@ It is unclear how modules that are defined via inline scripts can by addresses b
 
 
 
-### Avoiding synchronous access to a module definition export
+#### Avoiding synchronous access to a module definition export
 
 Never do a synchronous access to the export of a module definition because the module definition could be done asynchronously. Never rely on the synchronicity of a module definition, even if a module has no dependencies.
 
@@ -250,7 +250,7 @@ For more information, see the API Reference for [sap.ui.define - Asynchronuous C
 
 
 
-### Avoid synchronous probing after module definition
+#### Avoid synchronous probing after module definition
 
 Similar to the synchronous access of a module's export value, you also must omit the synchronous probing for modules defined in the same browser task.
 
@@ -270,13 +270,13 @@ var MyModule = sap.ui.require('myLib/MyModule');
 
 <a name="loio4363b3fe3561414ca1b030afc8cd30ce__section_moduleaddressing"/>
 
-## What is wrong with the way I am addressing the modules?
+### What is wrong with the way I am addressing the modules?
 
 The following examples show how you should *not* address a module. To see how it is done correctly, see [Best Practices for Loading Modules - How to Address Modules](best-practices-for-loading-modules-00737d6.md#loio00737d6c1b864dc3ab72ef56611491c4__section_AddressModules).
 
 
 
-### Case insensitivity when addressing modules
+#### Case insensitivity when addressing modules
 
 Addressing a module inconsistently can cause various side-effects. If the server is not case sensitive, for example, the same resource can be addressed with URLs that differ only in case sensitivity. Besides that, it is bad from a performance perspective if the same resource is loaded twice and the same module is defined twice. This is similar to the example for multiple definitions above: multiple definitions of the same module can cause several issues, such as failing checks of `instanceof`.
 
@@ -310,7 +310,7 @@ Addressing a module inconsistently can cause various side-effects. If the server
 
 
 
-### Manual loading of UI5 modules via script tags
+#### Manual loading of UI5 modules via script tags
 
 When you load modules manually, the module loader cannot know how the module shall be named. Therefore, UI5 modules must always be loaded and evaluated via the UI5 module loader APIs.
 
@@ -330,7 +330,7 @@ Example: The `myModule` module is loaded via a script tag. Instead, use a `sap.u
 
 <a name="loio4363b3fe3561414ca1b030afc8cd30ce__section_cyclicdependencies"/>
 
-## How can I remove project structures with cyclic dependencies?
+### How can I remove project structures with cyclic dependencies?
 
 When you use cyclic dependencies in the project structure, the module dependencies cannot be resolved. The UI5 module load detects the cycle and returns an undefined value instead of the correct module export.
 
@@ -340,13 +340,13 @@ To see how to set up a correct project structure, see [Best Practices for Loadin
 
 **Example**: All modules have exactly one dependency, which cannot be resolved correctly.
 
-![](images/Image_Module_Loading_BP2_01905ac.png)
+![](images/loio01905ac71cff4f7db3cb4d76142b887b_LowRes.png)
 
 *Solution 1 – Resolved cycle*: The following figure shows how the cycle can be resolved by moving the functionality of module A, which is used by module B, to a separate module \(module A2\). In general, resolving cyclic dependencies can require a larger refactoring of all involved modules, especially when multiple cycles have to be resolved.
 
-![](images/Image_Module_Loading_BP_3_544e019.png)
+![](images/loio544e019da7f6421394bf838f218e814f_LowRes.png)
 
 *Solution 2 – Probing modules*: In the example given in the following figure, the cycle is not resolved, but the involved modules do not access the dependent modules directly when the module callback is executed. They access them later via probing.
 
-![](images/Image_LoadingModules_TS_e598bbc.png)
+![](images/loioe598bbc91b504be4bf3ad08191260b47_LowRes.png)
 

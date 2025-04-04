@@ -1,6 +1,6 @@
 <!-- loio62b1481d3e084cb49dd30956d183c6a0 -->
 
-# Error, Warning, and Info Messages
+## Error, Warning, and Info Messages
 
 OpenUI5 provides a central place for storing and managing info, warning, and error messages.
 
@@ -10,7 +10,7 @@ Messages can be used to notify the user about specific states of the application
 
 <a name="loio62b1481d3e084cb49dd30956d183c6a0__section_xkx_xr3_rhb"/>
 
-## Message Object Properties
+### Message Object Properties
 
 The following properties of `sap.ui.core.message.Message` instances are important:
 
@@ -34,7 +34,7 @@ The following properties of `sap.ui.core.message.Message` instances are importan
 
 <a name="loio62b1481d3e084cb49dd30956d183c6a0__section_fjj_1s3_rhb"/>
 
-## Message Creation
+### Message Creation
 
 There are several ways to create messages automatically and push them into the central message model:
 

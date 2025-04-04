@@ -1,6 +1,6 @@
 <!-- loio91f29fea6f4d1014b6dd926db0e91070 -->
 
-# Object Metadata and Implementation
+## Object Metadata and Implementation
 
 OpenUI5 supports the extension of plain objects that are not elements or controls.
 

@@ -1,12 +1,12 @@
 <!-- loiocfabbd4dfc054936997d9d00916e1668 -->
 
-# Integrating the Rules in OPA Tests
+## Integrating the Rules in OPA Tests
 
 The Support Assistant can be used as part of an existing OPA test to cover more test aspects of the application.
 
 
 
-## Context
+### Context
 
 The Support Assistant can be used in OPA tests to check if there are issues in the different states of the application. To do that, you need to use the Support Assistant OPA extension. This extension is available as of version 1.48. It provides three assertions:
 
@@ -43,7 +43,7 @@ This special URL parameter could be used temporarily in cases when you extend an
 
 
 
-## Procedure
+### Procedure
 
 1.  Enable the Support Assistant OPA extension in the OPA configuration file.
 
@@ -145,7 +145,7 @@ This special URL parameter could be used temporarily in cases when you extend an
       
     **OPA Test Results**
 
-    ![](images/Support_Assistant_OPA_report_2d0db16.png "OPA Test Results")
+    ![](images/loio2d0db1687d01471095d520ccdcce6d68_HiRes.png "OPA Test Results")
 
 
 **Related Information**  

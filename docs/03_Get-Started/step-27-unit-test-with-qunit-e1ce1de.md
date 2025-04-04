@@ -1,6 +1,6 @@
 <!-- loioe1ce1de315994a02bf162f4b3b5a9f09 -->
 
-# Step 27: Unit Test with QUnit
+## Step 27: Unit Test with QUnit
 
 Now that we have a test folder in the app, we can start to increase our test coverage.
 
@@ -11,17 +11,17 @@ Actually, every feature that we added to the app so far, would require a separat
 
 
 
-## Preview
+### Preview
 
   
   
 **A unit test for our formatters is now available**
 
-![Preview of the unit test](images/UI5_Walkthrough_Step_27_0d29491.png "A unit test for our formatters is now available")
+![Preview of the unit test](images/loio0d29491d96574cfe8d8158d60a0a32e2_LowRes.png "A unit test for our formatters is now available")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 27](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.27).
 
@@ -29,13 +29,13 @@ You can view and download all files at [Walkthrough - Step 27](https://ui5.sap.c
   
 **Folder Structure for this Step**
 
-![The graphic has an explanatory text.](images/SAPUI5_Walkthrough_Step_27_2_1b5613a.png "Folder Structure for this Step")
+![The graphic has an explanatory text.](images/loio1b5613ac3ab94757af2c7823039222a9_LowRes.png "Folder Structure for this Step")
 
 We add a new folder `unit` under the `test` folder and a `model` subfolder where we will place our formatter unit test. The folder structure matches the app structure to easily find the corresponding unit tests.
 
 
 
-## webapp/test/unit/model/formatter.js \(New\)
+### webapp/test/unit/model/formatter.js \(New\)
 
 ```js
 sap.ui.define([
@@ -86,7 +86,7 @@ Finally, we perform our assertions. We check each branch of the formatter logic 
 
 <a name="loioe1ce1de315994a02bf162f4b3b5a9f09__section_jmd_45y_kdc"/>
 
-## webapp/test/unit/unitTests.qunit.js \(New\)
+### webapp/test/unit/unitTests.qunit.js \(New\)
 
 We create a new `unitTests.qunit.js` file under `webapp/test/unit/`. This module will serve as the entry point for all our unit tests. It will be referenced in the test suite that we will set up later on.
 
@@ -103,7 +103,7 @@ sap.ui.define([
 
 <a name="loioe1ce1de315994a02bf162f4b3b5a9f09__section_gnt_54c_yfb"/>
 
-## webapp/test/Test.qunit.html \(New\)
+### webapp/test/Test.qunit.html \(New\)
 
 We also need a generic test page that will be used to run individual tests. It includes the `sap/ui/test/starter/runTest.js` script which is responsible for loading the test suite configuration and starting the test.
 
@@ -134,7 +134,7 @@ The page will be referenced in the test suite that we will create next.
 
 <a name="loioe1ce1de315994a02bf162f4b3b5a9f09__section_edn_cwy_kdc"/>
 
-## webapp/test/testsuite.qunit.js \(New\)
+### webapp/test/testsuite.qunit.js \(New\)
 
 The `testsuite.qunit.js` file contains the configuration for our test suite. Although it comes with a set of defaults, we recommend specifying the used QUnit version to prevent potential future updates from breaking our tests.
 
@@ -174,7 +174,7 @@ sap.ui.define(() => {
 
 <a name="loioe1ce1de315994a02bf162f4b3b5a9f09__section_yjf_zwy_kdc"/>
 
-## webapp/test/testsuite.qunit.html \(New\)
+### webapp/test/testsuite.qunit.html \(New\)
 
 We also create a corresponding `testsuite.qunit.html` in the same folder. This is the page we will open in the browser to see a list of all our tests and run them by clicking on the test name.
 
@@ -202,7 +202,7 @@ If we now open the `webapp/test/testsuite.qunit.html` file in the browser and se
 
 
 
-## Conventions
+### Conventions
 
 -   All unit tests are placed in the webapp/test/unit folder of the app.
 

@@ -1,18 +1,18 @@
 <!-- loiofe12df2e338e43598977d09f3d191b7b -->
 
-# Step 2: Bootstrap
+## Step 2: Bootstrap
 
 Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called **bootstrapping**. Once this bootstrapping is finished, we simply display an alert.
 
 
 
-## Preview
+### Preview
 
-![An alert "UI5 is ready" is displayed](images/UI5_Walkthrough_Step_02_0f6b6b9.png)
+![An alert "UI5 is ready" is displayed](images/loio0f6b6b9dc46a474da9287c382c8d3456_LowRes.png)
 
 
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 2](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.02).
 
@@ -20,7 +20,7 @@ You can view and download all files at [Walkthrough - Step 2](https://ui5.sap.co
 
 <a name="loiofe12df2e338e43598977d09f3d191b7b__section_mkm_zwb_syb"/>
 
-## UI5 Tooling
+### UI5 Tooling
 
 First, let's enhance your UI5 Tooling setup:
 
@@ -31,7 +31,7 @@ First, let's enhance your UI5 Tooling setup:
 
 
 
-## webapp/index.html
+### webapp/index.html
 
 ```html
 <!DOCTYPE html>
@@ -80,7 +80,7 @@ In this step, we load the OpenUI5 framework from the webserver provided by UI5 T
 
 <a name="loiofe12df2e338e43598977d09f3d191b7b__section_ks2_1bv_xfb"/>
 
-## webapp/index.js \(New\)
+### webapp/index.js \(New\)
 
 ```js
 sap.ui.define([], () => {

@@ -1,6 +1,6 @@
 <!-- loio91f0a8dc6f4d1014b6dd926db0e91070 -->
 
-# Adding Method Implementations
+## Adding Method Implementations
 
 After defining the metadata of a control, you add the method implementation to the control.
 

@@ -1,6 +1,6 @@
 <!-- loio4da72985139b4b83b5f1c1e0c0d2ed5a -->
 
-# Step 16: Dialogs and Fragments
+## Step 16: Dialogs and Fragments
 
 In this step, we will take a closer look at another element which can be used to assemble views: the fragment.
 
@@ -12,19 +12,19 @@ We will now add a dialog to our app. Dialogs are special, because they open on t
 
 
 
-## Preview
+### Preview
 
   
   
 **A dialog opens when the new "Say Hello With Dialog" button is clicked**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_16_0916080.png "A dialog opens when the new "Say Hello With Dialog" button is clicked")
+![The graphic has an explanatory text.](images/loio0916080895e144ed8b31963bfb18e17f_LowRes.png "A dialog opens when the new "Say Hello With Dialog" button is clicked")
 
 
 
 <a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__section_kj4_41f_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 16](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.16).
 
@@ -32,7 +32,7 @@ You can view and download all files at [Walkthrough - Step 16](https://ui5.sap.c
 
 <a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__section_lj4_41f_syb"/>
 
-## webapp/view/HelloPanel.view.xml
+### webapp/view/HelloPanel.view.xml
 
 ```xml
 <mvc:View
@@ -71,7 +71,7 @@ It is a good practice to set a unique ID like `helloWorldButton` to key controls
 
 
 
-## webapp/view/HelloDialog.fragment.xml \(New\)
+### webapp/view/HelloDialog.fragment.xml \(New\)
 
 ```xml
 <core:FragmentDefinition
@@ -89,7 +89,7 @@ The syntax is similar to a view, but since fragments do not have a controller th
 
 
 
-## webapp/controller/HelloPanel.controller.js
+### webapp/controller/HelloPanel.controller.js
 
 ```js
 sap.ui.define([
@@ -132,7 +132,7 @@ If the dialog fragment does not exist yet, the fragment is instantiated by calli
 
 <a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__section_d5m_ypr_r2b"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 # App Descriptor

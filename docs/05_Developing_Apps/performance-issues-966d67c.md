@@ -1,6 +1,6 @@
 <!-- loio966d67c8cc5046419d1b35556cd9e447 -->
 
-# Performance Issues
+## Performance Issues
 
 This section lists some of the most important issues that should be avoided to improve performance in OpenUI5 applications.
 
@@ -8,7 +8,7 @@ This section lists some of the most important issues that should be avoided to i
 
 <a name="loio966d67c8cc5046419d1b35556cd9e447__section_LLAOD"/>
 
-## Loading Large Amounts of Data
+### Loading Large Amounts of Data
 
 A critical factor for application performance is the loading of data from a server. The runtime of triggered requests depends on the number of records retrieved. Loading large amounts of data may also have a negative impact on memory consumption.
 
@@ -26,7 +26,7 @@ Whenever you use methods like [`sap.ui.model.odata.v4.ODataListBinding#requestCo
 
 <a name="loio966d67c8cc5046419d1b35556cd9e447__1"/>
 
-## Don't use visibility for lazy instantiation
+### Don't use visibility for lazy instantiation
 
 When an application has areas that are not visible initially, or if only one of multiple options is visible at a time, **do not** create all UI controls and set most of them to non-visible! If you do, OpenUI5 will instantiate and initialize all of those controls, which consumes unnecessary time and memory, even when they are not rendered. On top of this, the data binding will also be initialized, which may trigger back-end requests that are not needed at this stage. The impact is particularly big when the parts of the UI that are not visible initially are complex or numerous.
 

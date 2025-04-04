@@ -1,6 +1,6 @@
 <!-- loio21aeff6928f84d179a47470123afee59 -->
 
-# Retrieving Controls
+## Retrieving Controls
 
 Common use cases for retrieving controls
 
@@ -8,7 +8,7 @@ Common use cases for retrieving controls
 
 <a name="loio21aeff6928f84d179a47470123afee59__section_nyd_prc_wbb"/>
 
-## Retrieving a Control by Its ID
+### Retrieving a Control by Its ID
 
 ```js
 new sap.ui.test.Opa5().waitFor({
@@ -42,7 +42,7 @@ In this example, the `check` function is omitted. In this case, OPA5 creates its
 
 <a name="loio21aeff6928f84d179a47470123afee59__section_zkc_qrc_wbb"/>
 
-## Retrieving a Control That Doesn't Have an ID
+### Retrieving a Control That Doesn't Have an ID
 
 Sometimes you need to test for a control that has no explicit ID set and maybe you can't or don't want to provide one for your test. To get around this issue, use a custom check function to filter for this control. Let's assume we have a view called `Detail` and there are multiple `sap.m.ObjectHeaders` on this page. We want to wait until there's an object header with the title `myTitle`.
 
@@ -70,7 +70,7 @@ Since no ID is specified, OPA passes an array of controls to the `check` functio
 
 <a name="loio21aeff6928f84d179a47470123afee59__section_n1n_rrc_wbb"/>
 
-## More About Matchers
+### More About Matchers
 
 For more information about all matchers, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.test.matchers) and the [Samples](https://ui5.sap.com/#/entity/sap.ui.test.matchers). 
 
@@ -257,7 +257,7 @@ For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.t
 
 <a name="loio21aeff6928f84d179a47470123afee59__section_ys1_trc_wbb"/>
 
-## Searching for Controls Inside a Dialog
+### Searching for Controls Inside a Dialog
 
 Use the option `searchOpenDialogs` to restrict control search to open dialogs only. You can combine `searchOpenDialogs` with `controlType` or any predefined or custom matcher.As of version 1.62, the ID option is also effective in combination with `searchOpenDialogs`. If the dialog is inside a view, the `viewName` option ensures that the given ID is relative to the view. Otherwise, the search is done by global ID.
 
@@ -304,7 +304,7 @@ iPressOrderNow : function () {
 
 <a name="loio21aeff6928f84d179a47470123afee59__section_n4y_vsy_pgb"/>
 
-## Searching for Controls Inside a Fragment
+### Searching for Controls Inside a Fragment
 
 As of version 1.63, you can limit the control search to a fragment with the option `fragmentId`.
 
@@ -326,7 +326,7 @@ this.waitFor({
 
 <a name="loio21aeff6928f84d179a47470123afee59__section_q2d_b5d_nhb"/>
 
-## Searching for Missing Controls
+### Searching for Missing Controls
 
 In OPA5, you can look for controls that are invisible, disabled, or noninteractable by using the respective `waitFor` boolean properties: `visible`, `enabled`, and `interactable`.
 
@@ -360,7 +360,7 @@ this.waitFor({
 
 <a name="loio21aeff6928f84d179a47470123afee59__section_wyv_hxv_hhb"/>
 
-## Searching for Disabled Controls
+### Searching for Disabled Controls
 
 As of version 1.65, you can search for controls by their enabled state using the `enabled` property. When `enabled` is set to `true`, only enabled controls will match. When `enabled` is set to `false`, both enabled and disabled controls will match.
 
@@ -388,7 +388,7 @@ this.waitFor({
 
 <a name="loio21aeff6928f84d179a47470123afee59__section_p4z_5rc_wbb"/>
 
-## Writing Nested Arrangements and Actions
+### Writing Nested Arrangements and Actions
 
 UI elements can be recursive, for example in a tree. Instead of triggering the action for each known element, you can also define it recursively \(see the code snippet below\). OPA ensures that the `waitFor` statements triggered in a success handler are executed before the next arrangement, action, or assertion. That also allows you to work with an unknown number of entries, for example in a list. First, you wait for the list, and then trigger actions on each list item.
 
@@ -413,11 +413,11 @@ iExpandRecursively : function() {
 
 <a name="loio21aeff6928f84d179a47470123afee59__section_tkk_cbs_kjb"/>
 
-## Declarative Syntax
+### Declarative Syntax
 
 
 
-### Overview
+#### Overview
 
 As of version 1.72, OPA5 supports the declarative matcher syntax that allows you to declare built-in matchers in a literal object. A matcher declaration is a JSON object. The OPA5 `waitFor` statement is simplified by using a single JSON object, instead of the more verbose matcher instances. Only built-in matchers are allowed. Inline matcher functions and custom matcher instances are only allowed in the matchers `waitFor` parameter:
 
@@ -467,7 +467,7 @@ If there are matchers declared in both places, they're combined.
 
 
 
-### Matcher Properties
+#### Matcher Properties
 
 A matcher is declared by its name and properties. The name is a key in the matchers object literal and has to start with a lower-case letter. For example, to declare an `sap.ui.test.matchers.Properties` matcher, use the name `properties`. Every matcher accepts a specific set of properties, which has to be declared as a value in the matchers object. This value has to be an object literal. Behind the scenes, every matcher declaration is transformed into a matcher instance. Every value in the declaration represents the properties that are fed to one matcher instance. There's an example for every built-in matcher in the API documentation.
 
@@ -528,7 +528,7 @@ this.waitFor({
 
 
 
-### Ancestors and Descendants
+#### Ancestors and Descendants
 
 When declaring an `sap.ui.test.matchers.Ancestor` or `sap.ui.test.matchers.Descendant`, you have to declare which control is ancestor or descendant. With matcher instances, you simply pass the control instance that you have already located in a previous `waitFor` statement. Keep in mind that with matcher declarations you can't use object instances or functions as values. The solution is to use a nested declarative matcher for the ancestor or descendant. It's assumed that it will match exactly one control and if it doesn't, any one of the matches is used. This is a special matcher, which supports a superset of matchers, such as, `controlType`, `ID`, and any other JSON-compatible properties available in a typical `waitFor` statement.
 

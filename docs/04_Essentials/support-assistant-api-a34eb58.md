@@ -1,6 +1,6 @@
 <!-- loioa34eb58aaf124f538a3ead23a6cab04a -->
 
-# Support Assistant API
+## Support Assistant API
 
 The Support Assistant can also run in silent mode and accept calls through its API. This way it can be integrated in more complex automated scenarios.
 
@@ -8,7 +8,7 @@ The Support Assistant can also run in silent mode and accept calls through its A
 
 <a name="loioa34eb58aaf124f538a3ead23a6cab04a__section_fzf_d3y_zy"/>
 
-## General Information
+### General Information
 
 The Support Assistant is currently separated into two main parts:
 
@@ -23,7 +23,7 @@ In the following diagram you can see how the Support Assistant is connected to t
   
 **Support Assistant Architecture**
 
-![](images/Support_Assistant_Architecture_fad73ed.png "Support Assistant Architecture")
+![](images/loiofad73ed570df460bbbc5b828c3fe4e15_LowRes.png "Support Assistant Architecture")
 
 There are two different use cases for its integration:
 
@@ -38,7 +38,7 @@ We will take a closer look into these use cases in the following sections.
 
 <a name="loioa34eb58aaf124f538a3ead23a6cab04a__section_n33_bky_zy"/>
 
-## Window Messaging API
+### Window Messaging API
 
 The window messaging API is an asynchronous API based on the browser low-level `postMessage`/`onMessage` APIs. It is enabled by using a custom generic communication bus component - `WindowCommunicationBus`, delivered with the Support Assistant. The `WindowCommunicationBus` is used for implementing the remote UI interaction between the Support Assistant and the application `iFrame`.
 
@@ -46,13 +46,13 @@ The window messaging API is an asynchronous API based on the browser low-level `
 
 <a name="loioa34eb58aaf124f538a3ead23a6cab04a__section_cgr_r3y_zy"/>
 
-## Programming API
+### Programming API
 
 This section illustrates how to use the Support Assistant programming API through specific **`sap.ui.support.RuleAnalyzer` API examples**.
 
 
 
-### Add a Temporary Rule
+#### Add a Temporary Rule
 
 After the Support Assistant has been started, if in silent mode, you can add a new temporary rule by using the `addRule` method. Then you can run an analysis with this rule.
 
@@ -72,7 +72,7 @@ For more information about rule properties, see [Guidelines and Best Practices](
 
 
 
-### Run the Analysis
+#### Run the Analysis
 
 The Support Assistant API allows you to:
 
@@ -224,7 +224,7 @@ The Support Assistant API allows you to:
 
 
 
-### View the Results
+#### View the Results
 
 -   `RuleAnalyzer.getAnalysisHistory()` - Returns all the analysis history objects.
 

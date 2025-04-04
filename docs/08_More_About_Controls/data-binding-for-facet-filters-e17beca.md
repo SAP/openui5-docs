@@ -1,6 +1,6 @@
 <!-- loioe17becae8bf446ac92f169b726373f0a -->
 
-# Data Binding for Facet Filters
+## Data Binding for Facet Filters
 
 `FacetFilter` fully supports the OpenUI5 data binding concept.
 

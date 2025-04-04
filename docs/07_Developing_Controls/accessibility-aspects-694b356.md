@@ -1,6 +1,6 @@
 <!-- loio694b3568fcc94f089ac7515d6fadbd5d -->
 
-# Accessibility Aspects
+## Accessibility Aspects
 
 If you are developing OpenUI5 controls, you have to be aware of the accessibility aspects. A deeper understanding is needed, so that all accessibility requirements are met.
 

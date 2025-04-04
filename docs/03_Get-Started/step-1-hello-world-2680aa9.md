@@ -1,20 +1,20 @@
 <!-- loio2680aa9b16c14a00b01261d04babbb39 -->
 
-# Step 1: Hello World!
+## Step 1: Hello World!
 
 As you know OpenUI5 is all about HTML5. Let's get started with building a first "Hello World" with only HTML.
 
 
 
-## Preview
+### Preview
 
-![The browser shows the text "Hello World"](images/UI5_Walkthrough_Step_01_1dd4563.png)
+![The browser shows the text "Hello World"](images/loio1dd456361379431aab7e5bcdaaeff00f_LowRes.png)
 
 
 
 <a name="loio2680aa9b16c14a00b01261d04babbb39__section_lv5_lvy_zbc"/>
 
-## Setup
+### Setup
 
 Open a terminal and install UI5 Tooling globally on your machine by executing the following command:
 
@@ -22,7 +22,7 @@ Open a terminal and install UI5 Tooling globally on your machine by executing th
 
 
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 1](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.01).
 

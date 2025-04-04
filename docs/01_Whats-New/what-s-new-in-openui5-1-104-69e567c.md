@@ -1,6 +1,6 @@
 <!-- loio69e567c96e704a73b1d066e088fa41d6 -->
 
-# What's New in OpenUI5 1.104
+## What's New in OpenUI5 1.104
 
 With this release OpenUI5 is upgraded from version 1.103 to 1.104.
 

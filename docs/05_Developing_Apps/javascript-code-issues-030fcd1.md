@@ -1,6 +1,6 @@
 <!-- loio030fcd14963048218488048f407f8f34 -->
 
-# JavaScript Code Issues
+## JavaScript Code Issues
 
 This section lists some of the most important issues that should be avoided when writing JavaScript code in OpenUI5.
 
@@ -8,7 +8,7 @@ This section lists some of the most important issues that should be avoided when
 
 <a name="loio030fcd14963048218488048f407f8f34__1"/>
 
-## Don't use methods or properties that are not public
+### Don't use methods or properties that are not public
 
 Don't use or override "private" methods or properties. Private functions are typically \(but not always\) prefixed with "`_`".
 
@@ -76,7 +76,7 @@ For more information, see [Compatibility Rules](../02_Read-Me-First/compatibilit
 
 <a name="loio030fcd14963048218488048f407f8f34__1a"/>
 
-## Don't use references to global names
+### Don't use references to global names
 
 Use only local variables inside the AMD factory function, do not access the content of other modules via their global names, not even for such fundamental stuff like `jQuery` or `sap.ui.Device`. You can't be sure that the modules are already loaded and the namespace is available.
 
@@ -137,7 +137,7 @@ sap.ui.define(['sap/m/Input'], function(Input) {
 
 
 
-### Exceptions
+#### Exceptions
 
 OpenUI5 provides a couple of static functions that can be referred to via their global name:
 
@@ -152,7 +152,7 @@ OpenUI5 provides a couple of static functions that can be referred to via their 
 
 <a name="loio030fcd14963048218488048f407f8f34__2"/>
 
-## Don't use deprecated APIs
+### Don't use deprecated APIs
 
 Entities marked as "deprecated" in the API Reference documentation \(this includes properties, methods, events, and their parameters as well as entire controls and other APIs\) are no longer intended to be used. They will not get feature updates in the future. Alternatives, if available, are described in the API Reference documentation.
 
@@ -164,7 +164,7 @@ For more information, see the [Deprecated APIs](https://ui5.sap.com/#/api/deprec
 
 <a name="loio030fcd14963048218488048f407f8f34__3"/>
 
-## Don't override or add control methods
+### Don't override or add control methods
 
 If you override methods like `onBeforeRendering`, `onAfterRendering`, or getters and setters, the original methods will no longer be called. You have to make sure that you call them in your method explicitly. Even if they are not implemented right now, they could be added in the future. This applies to control inheritance in particular.
 
@@ -234,7 +234,7 @@ See also: [sap.ui.core.Element - addEventDelegate](https://ui5.sap.com/#/api/sap
 
 <a name="loio030fcd14963048218488048f407f8f34__4"/>
 
-## Don't manipulate the DOM structure within controls
+### Don't manipulate the DOM structure within controls
 
 Manipulating the DOM structure of controls rendered by OpenUI5 can result in undesired behavior and only has a temporary effect. Changes will be overridden after the next rerendering or the DOM might change in a future version of OpenUI5, which can break your code. In addition, your DOM changes could break the code of the OpenUI5 control if it relies on a certain structure.
 
@@ -301,7 +301,7 @@ oControl.addEventDelegate({
 
 <a name="loio030fcd14963048218488048f407f8f34__5"/>
 
-## Don't attach DOM event handlers
+### Don't attach DOM event handlers
 
 Use `attachBrowserEvent()` if you need to listen to any DOM event on OpenUI5 controls. An even better approach is to use `addEventDelegate()` for the most important event types instead, as it avoids additional event registrations and listens to the regular OpenUI5 event dispatching.
 
@@ -333,7 +333,7 @@ See also: [sap.ui.core.Control - attachBrowserEvent](https://ui5.sap.com/#/api/s
 
 <a name="loio030fcd14963048218488048f407f8f34__6"/>
 
-## Don't create global IDs \(when running with other views or apps\)
+### Don't create global IDs \(when running with other views or apps\)
 
 When you create typed views or applications that will be running together with views or applications from other sources \(that are not owned by you\), or typed views that will be instantiated several times in parallel, you must not create stable IDs for your controls, fragments, or views in OpenUI5. Doing so might result in duplicate ID errors that will break your app. Especially when running together with other apps, there could be name clashes or other errors.
 
@@ -391,7 +391,7 @@ See also: [sap.ui.core.mvc.View - createId](https://ui5.sap.com/#/api/sap.ui.cor
 
 <a name="loio030fcd14963048218488048f407f8f34__7"/>
 
-## Don't forget about control lifecycle management
+### Don't forget about control lifecycle management
 
 OpenUI5 controls are kept alive until they are destroyed, so lifecycle management of controls is important since multiple apps can be opened and closed in the same user session. Controls that are not destroyed cause memory leaks and may slow down the browser after prolonged use.
 
@@ -403,7 +403,7 @@ See also: [sap.ui.core.Element - destroy](https://ui5.sap.com/#/api/sap.ui.core.
 
 <a name="loio030fcd14963048218488048f407f8f34__8"/>
 
-## Don't hard code or concatenate strings that need to be translatable
+### Don't hard code or concatenate strings that need to be translatable
 
 Hard coding UI strings will exclude them from translation. In addition, concatenating translatable strings in applications might lead to errors in internationalization: the texts in question might have a different translation order in other languages and will then be syntactically wrong.
 
@@ -441,7 +441,7 @@ Using a complete sentence including a placeholder in the translation file: " you
 
 <a name="loio030fcd14963048218488048f407f8f34__9"/>
 
-## Don't forget about proper "this" handling
+### Don't forget about proper "this" handling
 
 For developers new to JavaScript, it is often confusing to understand how the "this" keyword behaves. In event handlers in particular, but also for other callback functions, the "this"-pointer must be used correctly, so make sure you check what it actually refers to. Without proper usage of the execution context, unexpected results can occur \(this-pointer might be the global window object or a different control\).
 
@@ -449,7 +449,7 @@ For developers new to JavaScript, it is often confusing to understand how the "t
 
 <a name="loio030fcd14963048218488048f407f8f34__10"/>
 
-## Don't use `console.log()`
+### Don't use `console.log()`
 
 There is a native browser API available for logging errors and warnings in the developer console of your browser \(`console`\). Calling it directly is not recommended as it doesn't allow control over the amount of log entries that are created and it provides no criteria to associate a log entry with a specific topic or software component. Instead, add a dependency to the `sap/base/Log` module and use its methods to write log entries, for example `Log.error` or `Log.warning`. Create a dedicated logger for a topic or use the `sComponent` parameter of the log calls to assign the log entry to a topic. Use `Log.setLevel()` to define the minimum severity to be logged.
 
@@ -491,7 +491,7 @@ See also: [Namespace sap/base/Log](https://ui5.sap.com/#/api/module%3Asap%2Fbase
 
 <a name="loio030fcd14963048218488048f407f8f34__11"/>
 
-## Don't use timeouts
+### Don't use timeouts
 
 Executing logic with timeouts is often a workaround for faulty behavior and does not fix the root cause. The timing that works for you may not work under different circumstances \(other geographical locations with greater network latency, or other devices that have slower processors\) or when the code is changed. Use callbacks or events instead, if available.
 
@@ -538,7 +538,7 @@ jQuery.ajax("someData.json").done(fnProcessResults);
 
 <a name="loio030fcd14963048218488048f407f8f34__12"/>
 
-## Don't build apps without reasonable automated tests
+### Don't build apps without reasonable automated tests
 
 This should not come as surprise, but it is very difficult to refactor or modify apps that do not have any \(or have bad\) automated test cases. There are substantial risks when QUnit and OPA tests are missing in applications.
 

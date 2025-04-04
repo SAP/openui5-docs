@@ -1,6 +1,6 @@
 <!-- loio97830de2d7314e93b5c1ee3878a17be9 -->
 
-# Step 12: Aggregation Binding Using Templates
+## Step 12: Aggregation Binding Using Templates
 
 Aggregation binding, also known as "list binding", lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.
 
@@ -13,17 +13,17 @@ The system automatically creates as many child controls as are needed to display
 
 
 
-## Preview
+### Preview
 
   
   
 **A third panel with a list of products is displayed**
 
-![The graphic has an explanatory text](images/Tutorial_Data_Binding_Step_12_1642433.png "A third panel with a list of products is displayed")
+![The graphic has an explanatory text](images/loio16424336ab62402e8c27d5d7dac069b1_LowRes.png "A third panel with a list of products is displayed")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 12](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.12).
 

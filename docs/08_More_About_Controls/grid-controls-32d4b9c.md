@@ -1,6 +1,6 @@
 <!-- loio32d4b9c2b981425dbc374d3e9d5d0c2e -->
 
-# Grid Controls
+## Grid Controls
 
 OpenUI5 provides several different grid layouts that are suitable for different use cases.
 
@@ -8,7 +8,7 @@ OpenUI5 provides several different grid layouts that are suitable for different 
 
 <a name="loio32d4b9c2b981425dbc374d3e9d5d0c2e__section_r2d_sdw_hhb"/>
 
-## `sap.f.GridContainer`
+### `sap.f.GridContainer`
 
 The `sap.f.GridContainer` is a layout control used to align tiles, cards, or other controls in configuration, such as an overview page. It provides a regular grid system in which all rows have the same height and all columns have the same width. Each item can be configured to take different number of rows and columns inside that mesh. If rows span is unknown for an item, it is automatically calculated by the `GridContainer`, based on the height of the item.
 
@@ -16,7 +16,7 @@ The `sap.f.GridContainer` is a layout control used to align tiles, cards, or oth
 
 <a name="loio32d4b9c2b981425dbc374d3e9d5d0c2e__section_vmk_v43_4fb"/>
 
-## `sap.f.GridList`
+### `sap.f.GridList`
 
 The `sap.f.GridList` is a layout control that provides the flexibility to display list items in a two-dimensional grid. It extends the `sap.m.ListBase` control and therefore receives all of its features. The layout used is based on the CSS display grid and the control has a default configuration that displays the list items in a grid.
 
@@ -24,7 +24,7 @@ The `sap.f.GridList` is a layout control that provides the flexibility to displa
 
 <a name="loio32d4b9c2b981425dbc374d3e9d5d0c2e__section_b1w_bp3_4fb"/>
 
-## `sap.ui.layout.cssgrid.CSSGrid`
+### `sap.ui.layout.cssgrid.CSSGrid`
 
 The `sap.ui.layout.cssgrid.CSSGrid` is a layout control, used to create full-page layouts or user interface elements. It is based on the browser-native CSS display grid and works by the HTML standard specification of a grid. This grid is two-dimensional, meaning that it is possible to specify both rows and columns. The dimensions and position of a single item can be configured, for example, an item can take two rows and two columns from the grid. The control can be used along with the `sap.m.FlexBox` control as a one-dimensional alternative for layouting.
 
@@ -32,7 +32,7 @@ The `sap.ui.layout.cssgrid.CSSGrid` is a layout control, used to create full-pag
 
 <a name="loio32d4b9c2b981425dbc374d3e9d5d0c2e__section_xlx_bp3_4fb"/>
 
-## `sap.ui.layout.Grid`
+### `sap.ui.layout.Grid`
 
 The `sap.ui.layout.Grid` control defines how many columns are displayed depending on the available screen size with a maximum of 12. The height of a single row is always based on the content of the highest item in that row.
 
@@ -40,7 +40,7 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 
 <a name="loio32d4b9c2b981425dbc374d3e9d5d0c2e__section_csk_543_4fb"/>
 
-## Overview of Grids and Supported Features
+### Overview of Grids and Supported Features
 
 
 <table>
@@ -79,22 +79,22 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -133,22 +133,22 @@ Up to 12
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -160,22 +160,22 @@ Up to 12
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -187,22 +187,22 @@ Up to 12
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -241,22 +241,22 @@ Horizontal only
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -270,22 +270,22 @@ The ability to define how many rows and columns an item should take.
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -297,22 +297,22 @@ The ability to define how many rows and columns an item should take.
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -326,22 +326,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>1</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>1</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -353,22 +353,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>1</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>1</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -380,22 +380,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>1</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>1</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -407,22 +407,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -434,22 +434,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -461,22 +461,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>2</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -488,22 +488,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -515,22 +515,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -542,22 +542,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -569,22 +569,22 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>

@@ -1,6 +1,6 @@
 <!-- loio59a0e11712e84a648bb990a1dba76bc7 -->
 
-# Building an App with the Flexible Column Layout and Related Classes
+## Building an App with the Flexible Column Layout and Related Classes
 
 The following sections provide you with best practices and details that help you develop SAP Fiori apps with the `sap.f.FlexibleColumnLayout` control.
 

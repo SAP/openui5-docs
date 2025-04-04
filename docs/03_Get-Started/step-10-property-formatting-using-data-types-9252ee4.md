@@ -1,22 +1,22 @@
 <!-- loio9252ee4015f24fc49c71c295394d1b8d -->
 
-# Step 10: Property Formatting Using Data Types
+## Step 10: Property Formatting Using Data Types
 
 OpenUI5 offers a set of simple data types, including `Boolean`, `Currency`, `Date` and `Float`. You can apply these data types to controls to ensure that the value displayed on the screen is formatted correctly. If the field is open for input, this also ensures that the user input meets the requirements of that data type. Let's add a new field called *Sales Amount* of type `Currency`.
 
 
 
-## Preview
+### Preview
 
   
   
 **An input field for a currency amount is added to the second panel**
 
-![The graphic has an explanatory text](images/Tutorial_Data_Binding_Step_10_d15f8bc.png "An input field for a currency amount is added to the second panel")
+![The graphic has an explanatory text](images/loiod15f8bc61efe47d9af2afdeea943cd9c_LowRes.png "An input field for a currency amount is added to the second panel")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 10](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.10).
 

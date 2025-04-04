@@ -1,6 +1,6 @@
 <!-- loioc512d71312e54b77809ba62b813239a1 -->
 
-# What's New in OpenUI5 1.134
+## What's New in OpenUI5 1.134
 
 With this release OpenUI5 is upgraded from version 1.133 to 1.134.
 

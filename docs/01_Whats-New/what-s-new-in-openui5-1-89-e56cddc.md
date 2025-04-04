@@ -1,6 +1,6 @@
 <!-- loioe56cddc7bade4f0ea38d96c6c6c3ebe1 -->
 
-# What's New in OpenUI5 1.89
+## What's New in OpenUI5 1.89
 
 With this release OpenUI5 is upgraded from version 1.88 to 1.89.
 
@@ -78,11 +78,11 @@ Here are some Demo Kit improvements that we implemented based on your feedback:
 
 -   We implemented a copy button in all code samples in the *Documentation* section:
 
-    ![](images/WN_1_89_DemoKit_Copy_Button_5757eab.png)
+    ![](images/loio5757eab2d22b4718a11e0f544bebea0b_HiRes.png)
 
 -   We added a link for each API in the Demo Kit and you can now go directly to the source code file in GitHub:
 
-    ![](images/WN_1_89_DemoKit_GitHub_Link_92d89d9.png)
+    ![](images/loio92d89d918b65410cab9ea44013fff92b_HiRes.png)
 
 
 <sub>Changed•Feature•Info Only•1.89</sub>

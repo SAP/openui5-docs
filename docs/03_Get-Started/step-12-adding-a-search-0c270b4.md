@@ -1,28 +1,28 @@
 <!-- loio0c270b45dd904429ba634656e3a37a73 -->
 
-# Step 12: Adding a Search
+## Step 12: Adding a Search
 
 We now add a search field to our bulletin board and define a filter that represents the search term. This is done similarly as in step 24 of the Walkthrough tutorial.
 
 
 
-## Preview
+### Preview
 
   
   
 **Search field**
 
-![](images/Tutorial_Testing_Step_12_b012fdf.jpg "Search field")
+![](images/loiob012fdf751b947f08cf77cf124334c9f_LowRes.jpg "Search field")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 12](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.12).
 
 
 
-## webapp/view/Worklist.view.xml
+### webapp/view/Worklist.view.xml
 
 ```xml
 ...
@@ -54,7 +54,7 @@ We add a `ToolbarSpacer` and a `SearchField` to the `headerToolbar` of our table
 
 
 
-## webapp/controller/Worklist.controller.js
+### webapp/controller/Worklist.controller.js
 
 ```js
 sap.ui.define([

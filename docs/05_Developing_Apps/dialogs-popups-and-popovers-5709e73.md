@@ -1,18 +1,18 @@
 <!-- loio5709e73d51f2401a9a5a89d8f5479132 -->
 
-# Dialogs, Popups, and Popovers
+## Dialogs, Popups, and Popovers
 
 OpenUI5 dialog controls can serve different purposes within the application and are therefore handled differently by the screen reader.
 
 
 
-## General Behavior
+### General Behavior
 
 Dialog controls are used to interact with the user in two main ways. Popups, message boxes, and busy dialogs interrupt the user and require some additional interaction. Message toast and message strip are used to just display some status information without interrupting the user. Interrupting dialogs have a more complex structure, but all generally follow the same structure - a title, content area and some actions. The title should be the first thing read by the screen reader. It should explain the general purpose of the dialog \(i.e. Data confirmation, Interruption\). If the dialog contains initially focused elements, like action buttons, those should be read after the title announcement. The contents of the dialog should be read in their respective order.
 
 
 
-## Titles and Labels
+### Titles and Labels
 
 The behavior of controls based on Dialog/Popup \(`role="dialog"`\) changes depending on their `aria-labelledby` attribute.
 

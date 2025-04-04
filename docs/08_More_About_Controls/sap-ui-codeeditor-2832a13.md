@@ -1,6 +1,6 @@
 <!-- loio2832a13753f24c9b89a6d5cf6de32d91 -->
 
-# sap.ui.codeeditor
+## sap.ui.codeeditor
 
 This library contains the `CodeEditor` control.
 

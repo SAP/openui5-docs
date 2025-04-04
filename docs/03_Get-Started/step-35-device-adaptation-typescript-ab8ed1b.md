@@ -1,25 +1,25 @@
 <!-- loioab8ed1bb1bd845c28b310b9269149314 -->
 
-# Step 35: Device Adaptation \(TypeScript\)
+## Step 35: Device Adaptation \(TypeScript\)
 
 We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the `sap.ui.Device` API and defining a device model we will make the app look great on many devices.
 
 
 
-## Preview
+### Preview
 
   
   
 **On phone devices, the panel is collapsed to save screen space and a button is hidden**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_35_0b0d57e.png "On phone devices, the panel is collapsed to save screen space and a button is
+![The graphic has an explanatory text.](images/loio0b0d57e04e574d7fbc4b10395e6cb260_LowRes.png "On phone devices, the panel is collapsed to save screen space and a button is
 					hidden")
 
 
 
 <a name="loioab8ed1bb1bd845c28b310b9269149314__section_qzn_hln_tyb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 35: Device Adaptation](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/35) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-35.zip).
 
@@ -27,7 +27,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 35: Device Adap
 
 <a name="loioab8ed1bb1bd845c28b310b9269149314__section_ut1_ffw_4zb"/>
 
-## webapp/Component.ts
+### webapp/Component.ts
 
 In the `app` component we add a dependency to `sap.ui.Device` and initialize the device model in the `init` method. We can simply pass the loaded dependency `Device` to the constructor function of the JSONModel. This will make most properties of the OpenUI5 device API available as a JSON model. The model is then set on the component as a named model, so that we can reference it in data binding as we have seen in the view above.
 
@@ -74,7 +74,7 @@ export default class Component extends UIComponent {
 
 <a name="loioab8ed1bb1bd845c28b310b9269149314__section_rzn_hln_tyb"/>
 
-## webapp/view/HelloPanel.view.xml
+### webapp/view/HelloPanel.view.xml
 
 We add two new properties `expandable` and `expanded` to the panel control. The user can now close and open the panel to have more space for the table below on devices with small screens. The property `expandable` is bound to a model named `device` and the path `/system/phone`. So the panel can be expanded on phone devices only. The `expanded` property controls the state of the panel, and we use expression binding syntax to close it on phone devices and have the panel expanded on all other devices.
 
@@ -125,7 +125,7 @@ We can also hide single controls by device type when we set a CSS class like `sa
 
 <a name="loioab8ed1bb1bd845c28b310b9269149314__section_kdl_hfw_4zb"/>
 
-## webapp/controller/Detail.controller.ts
+### webapp/controller/Detail.controller.ts
 
 In the `Detail` controller we simply add the view model with our currency definition to display the number properly. It is the same code as in the `InvoiceList` controller file.
 
@@ -162,7 +162,7 @@ export default class Detail extends Controller {
 
 <a name="loioab8ed1bb1bd845c28b310b9269149314__section_gjz_3fw_4zb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 We will introduce two new fields on our detail page: Shipped date and quantity. We therefore add a text-value pair for these two fields to our `i18n` file
 
@@ -176,7 +176,7 @@ quantityTitle=Quantity
 
 
 
-## webapp/view/Detail.view.xml
+### webapp/view/Detail.view.xml
 
 Some controls already have built-in responsive features that can be configured. The `ObjectHeader` control can be put in a more flexible mode by setting the attribute `responsive` to `true` and `fullScreenOptimized` to true as well. This will show the data that we add to the view now at different positions on the screen based on the device size.
 
@@ -246,7 +246,7 @@ We can see the results when we decrease the browser's screen size or open the ap
 
 
 
-## Conventions
+### Conventions
 
 Optimize your application for the different screen sizes of phone, tablet, and desktop devices.
 

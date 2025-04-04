@@ -1,6 +1,6 @@
 <!-- loio04eb5203d1c649b796fab12a09e600ef -->
 
-# Options for Further Adaptation
+## Options for Further Adaptation
 
 In addition to those performed automatically by OpenUI5, the application can apply further platform adaptations.
 
@@ -12,7 +12,7 @@ Besides using this API, there are also several options available for you to use 
 
 <a name="loio04eb5203d1c649b796fab12a09e600ef__section_N10018_N10011_N10001"/>
 
-## Hiding/Displaying Controls Depending on the Device
+### Hiding/Displaying Controls Depending on the Device
 
 To determine a control’s visibility in a device-dependent way, you can use the following CSS classes:
 
@@ -38,7 +38,7 @@ The names are actually self-explanatory; for each device, you have a correspondi
 
 <a name="loio04eb5203d1c649b796fab12a09e600ef__section_N100DD_N10011_N10001"/>
 
-## Responsive Margin and Padding Classes
+### Responsive Margin and Padding Classes
 
 In order to make it possible for app developers to adjust margins and paddings in their apps without needing to write their own CSS, OpenUI5 provides them with convenience classes. For responsiveness, the classes `sapUiResponsiveMargin` and `sapUiResponsiveContentPadding` are particularly useful.
 
@@ -46,7 +46,7 @@ To read more detailed documentation about margins and padding classes, see [Usin
 
 
 
-## Writing Device-Dependent Custom CSS
+### Writing Device-Dependent Custom CSS
 
 It is easy to add your own device-dependent or screen-size-dependent custom CSS by prefixing your selectors with the classes that come from the device API \(for more information about the device API, see the link below under *Related Information*\). Whenever you need to set a particular style on, say, a small screen like a phone only, you can do so by picking the `sapUiMedia-Std-Phone` CSS class as part of your selector. For example, a particular style for phone only could look like this:
 

@@ -1,6 +1,6 @@
 <!-- loio91f1b3856f4d1014b6dd926db0e91070 -->
 
-# Browser Events
+## Browser Events
 
 To react to browser events, a control needs to register for the event either explicitly, or by implementing the event handler.
 

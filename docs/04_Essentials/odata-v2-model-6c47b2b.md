@@ -1,6 +1,6 @@
 <!-- loio6c47b2b39db9404582994070ec3d57a2 -->
 
-# OData V2 Model
+## OData V2 Model
 
 The OData V2 Model enables binding of controls to data from OData services.
 
@@ -222,7 +222,7 @@ The requests to the service to fetch data are made automatically based on the da
 
 <!-- loio218afa0780da42fd982b72e992fb57d2 -->
 
-## Creating the Model Instance
+### Creating the Model Instance
 
 One OData model instance can only cover one OData service. For accessing multiple services, you have to create multiple OData model instances.
 
@@ -246,7 +246,7 @@ http://services.odata.org/Northwind/Northwind.svc/$metadata
 
 <!-- loio71a3ae02691147abaf6d78a553d50161 -->
 
-## Service Metadata
+### Service Metadata
 
 The service metadata is cached per service URL. Multiple OData models that are using the same service can share this metadata.
 
@@ -264,7 +264,7 @@ var oMetadata = oModel.getServiceMetadata();
 
 <!-- loio82afe9152177428290cc9d5dbd90e245 -->
 
-## Adding Additional URL Parameters
+### Adding Additional URL Parameters
 
 For OData services, you can use URL parameters for configuration. OpenUI5 sets most URL parameters automatically, according to the respective binding.
 
@@ -305,7 +305,7 @@ There are different ways to add URL parameters to the requests:
 
 <!-- loio7370a173015e49929e011d6ab6b4885c -->
 
-## Custom HTTP Headers
+### Custom HTTP Headers
 
 You can add custom headers which are sent with each request.
 
@@ -347,7 +347,7 @@ To do this, provide a map of headers to the OData model constructor or use the `
 
 <!-- loioc4be40ce21ff4d0485b1d8f8114f7426 -->
 
-## Addressing Entities: Binding Path Syntax
+### Addressing Entities: Binding Path Syntax
 
 The binding path syntax for OData models matches the URL path relative to the service URL used in OData to access specific entities or entity sets.
 
@@ -393,7 +393,7 @@ For more information on addressing OData entries, see the URI conventions docume
 
 <!-- loioadd47c3966dd40489e952bb4f5f74a7c -->
 
-## Accessing Data from an OData Model
+### Accessing Data from an OData Model
 
 The data requested from an OData service is cached in the OData model.
 
@@ -415,7 +415,7 @@ You can only access single entities and properties with this method. To access e
 
 <!-- loio4c4cd99af9b14e08bb72470cc7cabff4 -->
 
-## Creating Entities
+### Creating Entities
 
 Three different approaches exist to create new entities in the OData V2 model. The approach that suits best depends on the application use case.
 
@@ -425,7 +425,7 @@ For all approaches, the corresponding APIs take a `groupId` that specifies a bat
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_xdj_4tx_gsb"/>
 
-## ODataModel\#createEntry
+### ODataModel\#createEntry
 
 [`ODataModel#createEntry`](https://ui5.sap.com/#/api/sap.ui.model.odata.v2.ODataModel/methods/createEntry) creates an entry and returns a [context](https://ui5.sap.com/#/api/sap.ui.model.odata.v2.Context) corresponding to it. Use this approach in the following cases:
 
@@ -479,7 +479,7 @@ The optional `inactive` parameter determines whether an **inactive** transient c
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_qyp_stx_gsb"/>
 
-## ODataListBinding\#create
+### ODataListBinding\#create
 
 [`ODataListBinding#create`](https://ui5.sap.com/#/api/sap.ui.model.odata.v2.ODataListBinding/methods/create) creates an entry and inserts it at the beginning or end of a list of entries. The entry is visible at the corresponding position of the bound control without the need to first save it to the back end and then refresh the binding; this is an advantage compared to the `ODataModel#createEntry` API.
 
@@ -556,7 +556,7 @@ With **inactive** entries, you can build **inline creation rows** in a table tha
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_fcd_ttx_gsb"/>
 
-## ODataModel\#create
+### ODataModel\#create
 
 [`ODataModel#create`](https://ui5.sap.com/#/api/sap.ui.model.odata.v2.ODataModel/methods/create) triggers a POST request with the given initial data to the OData service to create an entity. This API does not provide a binding context to bind controls to the newly created entry nor does it store the created entry data in model's data cache. As a consequence, **data binding to the created entry is not possible**.
 
@@ -568,7 +568,7 @@ The method returns an abort handle to abort the creation POST request. To find o
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_DCR"/>
 
-## Deep Create
+### Deep Create
 
 One or more subentities for a navigation property of a newly created parent entity can be created with a **single** OData request. This is known as a **deep create**. The OData V2 model supports the deep create scenario for navigation properties with cardinality "many". You can nest deep creates, i.e. create entities for a navigation property of a subentity. The entity in a deep create which has only subentities but no transient parent entity is called **root entity**.
 
@@ -623,7 +623,7 @@ The following example shows snippets for a view controller coding that implement
 
 <!-- loioff667e12b8714f3595e68f3e7c0e7a14 -->
 
-## CRUD Operations
+### CRUD Operations
 
 The OData model allows manual CRUD \(create, read, update, delete\) operations on the OData service. If a manual operation returns data, the data is imported into the data cache of the OData model. All operations require a mandatory `sPath` parameter as well as an optional `mParameters` map.
 
@@ -679,7 +679,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
 <!-- loio94e302455f8044e79de759c86bb295a2 -->
 
-## Concurrency Control and ETags
+### Concurrency Control and ETags
 
 OData uses HTTP ETags for optimistic concurrency control. The service must be configured to provide them. The ETag can be passed within the parameters map when updating or deleting entities. If no ETag is passed, the ETag of the cached entity is used, if it is loaded already.
 
@@ -687,7 +687,7 @@ OData uses HTTP ETags for optimistic concurrency control. The service must be co
 
 <!-- loio30362c1cafd244dd86752e28993bbcdd -->
 
-## XSRF Token
+### XSRF Token
 
 To address cross-site request forgery, an OData service may require XSRF tokens for change requests by the client application. In this case, the client has to fetch a token from the server and send it with each change request to the server. The OData model fetches the XSRF token when reading the metadata and then automatically sends it with each write request header. If the token is no longer valid, a new token can be fetched by calling the `refreshSecurityToken` function on the OData model. The token is fetched with a request to the service root URL, which usually responds with the service document. To get a valid token, make sure that the response is **not** cached.
 
@@ -695,7 +695,7 @@ To address cross-site request forgery, an OData service may require XSRF tokens 
 
 <!-- loio66a130fa4d10411b8fc90df00185554b -->
 
-## Refreshing the Model
+### Refreshing the Model
 
 The `refresh` function refreshes all data within an OData model. Each binding reloads its data from the server. For list or context bindings, a new request to the back end is triggered. If the XSRF token is no longer valid, it has to be fetched again with a `read` request to the service document. Data that has been imported via manual CRUD requests is **not** reloaded automatically.
 
@@ -703,7 +703,7 @@ The `refresh` function refreshes all data within an OData model. Each binding re
 
 <!-- loio8a6ae1d390534d05a560bf350af59c29 -->
 
-## Batch Processing
+### Batch Processing
 
 In batch processing, the `v2.ODataModel` sends one or more OData requests in a single $batch http request.
 
@@ -782,7 +782,7 @@ Similar to the `groupId`, you can use a `changeSetId` for OData change requests:
 
 <!-- loio42b3ca19a47d49a3b4ba5f34ca0d1f7e -->
 
-## Two-Way Binding
+### Two-Way Binding
 
 The `v2.ODataModel` enables two-way binding. Per default, all changes are collected in a batch group called "changes" which is set to deferred.
 
@@ -830,7 +830,7 @@ oModel.resetChanges(["/myEntity(0)"]);
 
 <!-- loiobf1fc3b4c9ab4bbc845a3f0e0940c004 -->
 
-## Binding-specific Parameters
+### Binding-specific Parameters
 
 The OData protocol specifies different URL parameters.
 
@@ -900,7 +900,7 @@ You can use these parameters in bindings in addition to the parameters described
 
 <!-- loio62149734b5c24507868e722fe87a75db -->
 
-## Optimizing Dependent Bindings
+### Optimizing Dependent Bindings
 
 In its constructor the OData V2 model supports a flag called `preliminaryContext`. With this option set to `true`, the model is able to bundle OData calls for dependent bindings into fewer $batch requests.
 
@@ -908,7 +908,7 @@ In its constructor the OData V2 model supports a flag called `preliminaryContext
 
 <a name="loio62149734b5c24507868e722fe87a75db__section_mjn_51f_zbb"/>
 
-## Introduction
+### Introduction
 
 A relative binding depends on a different binding \(its **parent binding**\) if the parent binding reads the OData entity corresponding to the context that is set for the dependent binding.
 
@@ -920,7 +920,7 @@ In case the parent binding is a context binding, you can improve performance by 
 
 <a name="loio62149734b5c24507868e722fe87a75db__section_svw_z1f_zbb"/>
 
-## Settings and Usage
+### Settings and Usage
 
 You may set the `preliminaryContext` parameter when creating an OData V2 model. This switches on preliminary contexts for **all** bindings created for this model. The following then applies:
 
@@ -935,7 +935,7 @@ The following example shows a context binding with the path **"/Products\(1\)"**
   
 **Simple Binding Example: Default Binding Resolution**
 
-![](images/Simple_Binding_Example_e2fe691.png "Simple Binding Example: Default Binding Resolution")
+![](images/loioe2fe691bea0f4181b6d835c11c92e9ba_LowRes.png "Simple Binding Example: Default Binding Resolution")
 
 Without using preliminary contexts, two consecutive OData requests will be issued, one for `Binding 0`, and afterwards one for `Binding 1`, as shown in the following table:
 
@@ -987,7 +987,7 @@ You can optimize the requests by setting the binding parameters as shown below:
   
 **Simple Binding Example: Binding Resolution Optimized**
 
-![](images/Simple_Binding_Example_Optimized_57a4d12.png "Simple Binding Example: Binding Resolution Optimized")
+![](images/loio57a4d12d4e5d41ecb74298a55b60d0fb_LowRes.png "Simple Binding Example: Binding Resolution Optimized")
 
 Here, `Binding 1` uses the preliminary context created by `Binding 0`, and thus the request URL can directly be resolved.
 
@@ -1041,7 +1041,7 @@ Content
 
 <!-- loio6cb8d585ed594ee4b447b5b560f292a4 -->
 
-## Function Import
+### Function Import
 
 The `ODataModel` supports the invoking of function imports or actions by the `callFunction` method.
 
@@ -1058,7 +1058,7 @@ If the `callFunction` request is deferred, it can be submitted via the `submitCh
 
 <a name="loio6cb8d585ed594ee4b447b5b560f292a4__section_qwk_mtz_xbb"/>
 
-## Binding of Function Import Parameters
+### Binding of Function Import Parameters
 
 You can use data binding to modify values of function import parameters: The `callFunction` method returns a request handle that has a `contextCreated` function which returns a `promise`. This `promise` resolves with an `sap.ui.model.odata.v2.Context` object that can be used as a binding context to change the input parameters of the function import and to bind the result of the function import call.
 
@@ -1115,7 +1115,7 @@ Failed function imports with changed parameter values are repeated automatically
 
 <!-- loioc40fc72612754bad877f374bdeb0f893 -->
 
-## Language
+### Language
 
 OpenUI5 uses the concept of a "current language" \(see [Identifying the Language Code / Locale](identifying-the-language-code-locale-91f21f1.md)\). This language is automatically propagated to the OData service by the OData V2 model. For this reason, applications must not hard code the language themselves, e.g. they must not specify the `"sap-language"` URL parameter as a custom query option.
 
@@ -1123,7 +1123,7 @@ OpenUI5 uses the concept of a "current language" \(see [Identifying the Language
 
 <!-- loio341823349ed04df1813197f2a0d71db2 -->
 
-## Meta Model for OData V2
+### Meta Model for OData V2
 
 The implementation `sap.ui.model.odata.ODataMetaModel` offers a unified access to both OData Version 2.0 metadata and Version 4.0 annotations.
 
@@ -1133,7 +1133,7 @@ You can get an instance of `sap.ui.model.odata.ODataMetaModel` from an instance 
 
 
 
-## Basic Structure
+### Basic Structure
 
 The basic structure of `sap.ui.model.odata.ODataMetadata` is shown in the following code snippet. It shows you how the most important elements of the entity model are nested. Each of these elements \(except *association set end*\) can have `extensions`, that is, XML attribute values from some namespace. The code snippets below show how these extensions are stored and processed.
 
@@ -1264,7 +1264,7 @@ The following code snippet gives a closer look and has more properties:
 
 
 
-## Accessing Objects and Properties
+### Accessing Objects and Properties
 
 The objects in the OData meta model are arranged in arrays. `/dataServices/schema`, for example, is an array of schemas where each schema has an `entityType` property with an array of entity types, and so on. So, `/dataServices/schema/0/entityType/16` can be the path to the entity type with name "Order" in the schema with namespace "MySchema".
 
@@ -1276,7 +1276,7 @@ Each of these queries is self-contained. The query can refer to properties of th
 
 
 
-## Extensions
+### Extensions
 
 `extensions` array and transformed from objects into simple properties with an `sap:` prefix added to their name, see line number 8 in the following code snippet.
 
@@ -1297,7 +1297,7 @@ Each of these queries is self-contained. The query can refer to properties of th
 
 
 
-## OData V4 Annotations
+### OData V4 Annotations
 
 Each element of the entity model \(except *association set end*\) can be annotated. These annotations from the existing `sap.ui.model.odata.v2.ODataAnnotations` are merged directly into the corresponding element. The following code snippet shows how the structure from the existing `sap.ui.model.odata.ODataMetadata`, as explained above and including extensions and constraints such as `nullable` or `maxLength`, is fleshed out with lifted v2 annotations and inlined v4 annotations, such as `Org.OData.Measures.V1.Unit` or `com.sap.vocabularies.UI.v1.Identification`. If you want to navigate the structure, for example for XML templating, it is important to understand this structure.
 
@@ -1373,7 +1373,7 @@ ODataMetaModel JSON Format:
 
 <a name="loio341823349ed04df1813197f2a0d71db2__Enhancement"/>
 
-## Enhancement of the OData Meta Model
+### Enhancement of the OData Meta Model
 
 In addition to the easy access to the SAP-specific OData annotations, such as `sap:label`, corresponding vocabulary-based annotations are mixed in if they are not yet defined in the OData Version 4.0 annotations of the existing `sap.ui.model.odata.v2.ODataAnnotations`.
 
@@ -3448,7 +3448,7 @@ At `Property`:
 
 <!-- loioaa9024c7c5444822a68daeb21a92bd51 -->
 
-## Currency and Unit Customizing in OData V2
+### Currency and Unit Customizing in OData V2
 
 For amounts or measures you may sometimes need different currencies or units than defined in the CLDR. The `sap.ui.model.odata.type.Currency` and `sap.ui.model.odata.type.Unit` data types enable you to use code lists with customizing for currency codes and units.
 
@@ -3654,7 +3654,7 @@ Note that the format options of the `Decimal` type for the `'WeightMeasure'` or 
 
 <!-- loio262f75165c3d43b1817f6469aaad453c -->
 
-## Handling of Temporarily Unavailable Back Ends
+### Handling of Temporarily Unavailable Back Ends
 
 An OData back end cannot process incoming requests while it is under maintenance. Instead, it can respond with an HTTP 503 status code \(Service Unavailable\) and a "Retry-After" header.
 

@@ -1,6 +1,6 @@
 <!-- loioda7f3fc826f7418d9cc3b5a61285a08d -->
 
-# Drag-and-Drop Metadata
+## Drag-and-Drop Metadata
 
 To influence the drag-and-drop behavior, use the metadata definition of a control.
 
@@ -8,7 +8,7 @@ To influence the drag-and-drop behavior, use the metadata definition of a contro
 
 <a name="loioda7f3fc826f7418d9cc3b5a61285a08d__section_itw_shl_bfb"/>
 
-## Overview
+### Overview
 
 You can use the `dnd` key for the drag-and-drop behavior of a control. Here is an example that shows you how the `dnd` key can be used:
 

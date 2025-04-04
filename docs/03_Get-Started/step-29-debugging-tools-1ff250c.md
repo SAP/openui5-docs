@@ -1,6 +1,6 @@
 <!-- loio1ff250c2038849f5991209f7e6c36f1f -->
 
-# Step 29: Debugging Tools
+## Step 29: Debugging Tools
 
 Even though we have added a basic test coverage in the previous steps, it seems like we accidentally broke our app, because it does not display prices to our invoices anymore. We need to debug the issue and fix it before someone finds out.
 
@@ -10,19 +10,19 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
 <a name="loio1ff250c2038849f5991209f7e6c36f1f__section_chj_s5x_31b"/>
 
-## Preview
+### Preview
 
   
   
 **The diagnostics window**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_29a_930de31.png "The diagnostics window")
+![The graphic has an explanatory text.](images/loio930de31b311f43ffa9df9261ca760da0_LowRes.png "The diagnostics window")
 
 
 
 <a name="loio1ff250c2038849f5991209f7e6c36f1f__section_dhj_s5x_31b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 29](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.29).
 
@@ -30,7 +30,7 @@ You can view and download all files at [Walkthrough - Step 29](https://ui5.sap.c
 
 <a name="loio1ff250c2038849f5991209f7e6c36f1f__section_ykp_sth_tyb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View
@@ -115,7 +115,7 @@ Sometimes errors are not as easy to spot and you actually need to debug the Java
   
 **Technical information dialog**
 
-![Displays general information about the application, UI5,, and user browser](images/UI5_Walkthrough_Step_29b_34c4b02.png "Technical information dialog ")
+![Displays general information about the application, UI5,, and user browser](images/loio34c4b02c74eb4848b8b720d86042bfdc_LowRes.png "Technical information dialog ")
 
 For a more detailed explanation of the OpenUI5 support tools, go through the [Troubleshooting Tutorial](troubleshooting-tutorial-5661952.md) tutorial.
 
@@ -125,7 +125,7 @@ If you're stuck and need help for some development task, you can also post a que
 
 <a name="loio1ff250c2038849f5991209f7e6c36f1f__section_lvc_gkw_31b"/>
 
-## Conventions
+### Conventions
 
 -   As per OpenUI5 convention uncompressed source files end with `*-dbg.js`
 

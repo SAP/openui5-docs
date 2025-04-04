@@ -1,6 +1,6 @@
 <!-- loiod4ac0edbc467483585d0c53a282505a5 -->
 
-# exit\(\) Method
+## exit\(\) Method
 
 The `exit()` method is used to clean up resources and to deregister event handlers.
 

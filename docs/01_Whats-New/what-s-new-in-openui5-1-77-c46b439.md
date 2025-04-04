@@ -1,6 +1,6 @@
 <!-- loioc46b43916bd54813926e1027d723830e -->
 
-# What's New in OpenUI5 1.77
+## What's New in OpenUI5 1.77
 
 With this release OpenUI5 is upgraded from version 1.76 to 1.77.
 

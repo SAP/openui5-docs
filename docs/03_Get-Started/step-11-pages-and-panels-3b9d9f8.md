@@ -1,24 +1,24 @@
 <!-- loio3b9d9f84930d43df90ad0789d99bd4a3 -->
 
-# Step 11: Pages and Panels
+## Step 11: Pages and Panels
 
 After all the work on the app structure it's time to improve the look of our app. We will use two controls from the `sap.m` library to add a bit more "bling" to our UI. You will also learn about control aggregations in this step.
 
 
 
-## Preview
+### Preview
 
   
   
 **A panel is now displaying the controls from the previous steps**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_11_97feb54.png "A panel is now displaying the controls from the previous steps")
+![The graphic has an explanatory text.](images/loio97feb5417c89462ead5b4259f3ecfd47_LowRes.png "A panel is now displaying the controls from the previous steps")
 
 
 
 <a name="loio3b9d9f84930d43df90ad0789d99bd4a3__section_dkx_kp2_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 11](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.11).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 11](https://ui5.sap.c
 
 <a name="loio3b9d9f84930d43df90ad0789d99bd4a3__section_ekx_kp2_syb"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -69,7 +69,7 @@ In order to make the fullscreen height of the view work properly, we add the `di
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 # App Descriptor

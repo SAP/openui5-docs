@@ -1,6 +1,6 @@
 <!-- loio674890e6d8534eaba2eaf63242e077eb -->
 
-# Flex Box
+## Flex Box
 
 The `sap.m.FlexBox` control allows to develop layouts which adjust to the available space and avoid unused space or overflow.
 

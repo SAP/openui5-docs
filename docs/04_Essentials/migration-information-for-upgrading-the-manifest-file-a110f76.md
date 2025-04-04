@@ -1,6 +1,6 @@
 <!-- loioa110f762148a4933a33d30751a37a743 -->
 
-# Migration Information for Upgrading the Manifest File
+## Migration Information for Upgrading the Manifest File
 
 Information how to add new attributes of manifest \(also known as descriptor\) versions higher than V2 \(OpenUI5 1.30\) to the manifest file.
 

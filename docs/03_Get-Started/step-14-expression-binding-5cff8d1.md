@@ -1,22 +1,22 @@
 <!-- loio5cff8d1c3fb84c5db7a00f2daca125af -->
 
-# Step 14: Expression Binding
+## Step 14: Expression Binding
 
 An expression binding lets you display a calculated value on the screen, which is derived from values found in a model object. This feature allows you to insert simple formatting or calculations directly into the data binding string. In this example, we're changing the color of the price depending on whether it's above or below a certain threshold. The threshold value is stored in the JSON model.
 
 
 
-## Preview
+### Preview
 
   
   
 **Prices are color-coded depending on a selected threshold**
 
-![The graphic has an explanatory text](images/Tutorial_Data_Binding_Step_14_b9fb758.png "Prices are color-coded depending on a selected threshold")
+![The graphic has an explanatory text](images/loiob9fb758efb0a481cb88a412a0712972f_LowRes.png "Prices are color-coded depending on a selected threshold")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 14](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.14).
 

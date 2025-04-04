@@ -1,6 +1,6 @@
 <!-- loioc24569de859446819798c5dc53ac604d -->
 
-# Create a Rule
+## Create a Rule
 
 A rule consists of properties that test and advise on how possible issues can be resolved and a check function that tests the application for a specific issue. To create a rule, you need to set the properties and add a check function.
 
@@ -12,7 +12,7 @@ You can find best practices on how to create rules in [Guidelines and Best Pract
 
 <a name="loioc24569de859446819798c5dc53ac604d__section_uss_5gd_21b"/>
 
-## Properties
+### Properties
 
 You need to set the following properties :
 
@@ -156,7 +156,7 @@ Function that checks the application against the rule. It is described in more d
 
 <a name="loioc24569de859446819798c5dc53ac604d__section_bmv_fhd_21b"/>
 
-## Check Function
+### Check Function
 
 The check function has three main and one optional parameters. The main ones are `oIssueManager`, `oCoreFacade` and `oScope`, and the optional one is `fnResolve`. Here is more information about them:
 

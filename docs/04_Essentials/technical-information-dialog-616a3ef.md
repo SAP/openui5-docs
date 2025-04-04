@@ -1,6 +1,6 @@
 <!-- loio616a3ef07f554e20a3adf749c11f64e9 -->
 
-# Technical Information Dialog
+## Technical Information Dialog
 
 The *Technical Information* dialog shows details of the OpenUI5 version currently being used in an app built with OpenUI5. You can use the *Technical Information* dialog to enable debug resources and open additional support tools to debug your app.
 
@@ -8,7 +8,7 @@ To open the technical information dialog from within a supported desktop browser
 
 [Ctrl\] + [Shift\] + [Left-Alt\] /[Left-Option\] + [P\] 
 
-![](../03_Get-Started/images/Technical_Information_Dialog_OpenUI5_8bf9780.png)
+![](../03_Get-Started/images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png)
 
 The dialog contains the following information:
 
@@ -27,7 +27,7 @@ You can download the technical information, so that you can attach it to a ticke
 
 <!-- copyda1306a437244116b156c4428b3c5b5f -->
 
-## Loading Debug Sources
+### Loading Debug Sources
 
 For performance reasons, the OpenUI5 files are loaded in a minified version, this means that all possible variable names are shortened and comments are removed. This makes debugging harder because the code is less readable.
 
@@ -62,7 +62,7 @@ Choose [Ctrl\] + [O\]  \(Windows\) or [Command\] + [O\]  \(macOS\) and type the 
 
 <!-- loiob5dcf47c7d4a4228ab40d77f835648e3 -->
 
-## Technical Information Dialog on Mobile Devices
+### Technical Information Dialog on Mobile Devices
 
 On mobile devices, the *Technical Information* dialog provides some additional features.
 
@@ -82,24 +82,24 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 <tr>
 <td valign="top">
 
-![Technical Information in Mobile App](images/Mobile_Technical_Information_Dialog_1_f11a082.jpg)
+![Technical Information in Mobile App](images/loiof11a08225adf4264a9ec9cbc2daad467_LowRes.jpg)
 
 </td>
 <td valign="top">
 
-![Technical Information in Mobile App](images/Mobile_Technical_Information_Dialog_2_d1e10c1.jpg)
+![Technical Information in Mobile App](images/loiod1e10c1bbf3d4983b8c2e39db7dbcdb0_LowRes.jpg)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-![Technical Information in Mobile App](images/Mobile_Technical_Information_Dialog_3_ca7ba5f.jpg)
+![Technical Information in Mobile App](images/loioca7ba5f050484b99bede25b6c720ce30_LowRes.jpg)
 
 </td>
 <td valign="top">
 
-![Technical Information in Mobile App](images/Mobile_Technical_Information_Dialog_4_fc573fe.jpg)
+![Technical Information in Mobile App](images/loiofc573fe3283d4e6da322a54e70bda756_LowRes.jpg)
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 
 
 
-### Accessing the Technical Information Dialog on Mobile Devices
+#### Accessing the Technical Information Dialog on Mobile Devices
 
 To open the *Technical Information* dialog on your mobile device, proceed as follows:
 
@@ -121,11 +121,11 @@ To open the *Technical Information* dialog on your mobile device, proceed as fol
   
 **Gesture for opening the technical information dialog**
 
-![](images/SAPUI5_Mobile_Diagnostics_-_Opening_Gesture_df42057.png "Gesture for opening the technical information dialog")
+![](images/loiodf42057180444e1ca483af61049f0555_LowRes.png "Gesture for opening the technical information dialog")
 
 
 
-### Using the End-to-End \(E2E\) Trace Function
+#### Using the End-to-End \(E2E\) Trace Function
 
 The *E2E Trace* is used to create an XML file that traces the communication to a different part of your app.
 

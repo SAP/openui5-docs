@@ -1,6 +1,6 @@
 <!-- loioc9723f8265f644af91c0ed941e114d46 -->
 
-# Creating an Entity in a Collection
+## Creating an Entity in a Collection
 
 The `sap.ui.model.odata.v4.ODataListBinding#create` method creates a new entity inside a collection. Users can interact with a newly created entity even before it has been sent to the server.
 
@@ -91,13 +91,13 @@ The `promise` returned by [`Context#created`](https://ui5.sap.com/#/api/sap.ui.m
 
 <a name="loioc9723f8265f644af91c0ed941e114d46__section_DCR"/>
 
-## Deep Create
+### Deep Create
 
 It is also possible to create nested entities in a navigation property with a single request together with their parent entity \(so-called "deep create"; the request itself is called "deep insert" in the [OData specification](http://docs.oasis-open.org/odata/odata/v4.01/os/part1-protocol/odata-v4.01-os-part1-protocol.html#sec_CreateRelatedEntitiesWhenCreatinganE)\).
 
 
 
-### Nested Collection
+#### Nested Collection
 
 Bind the list for the nested collection relative to the transient context of the created main entity. A [`create`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) in the nested table then creates a row which contributes to the POST request of the main entity. A deep create is not restricted to one level; it is also possible that a nested entity has a nested collection itself.
 
@@ -181,7 +181,7 @@ As long as the parent context is still transient, requesting data from the serve
 
 
 
-### Nested Single Entity
+#### Nested Single Entity
 
 No API is required here. Simply bind the properties of the nested entity relative to the transient context of the created main entity. If the user enters a value in such a field, this value is automatically added to the payload of the POST request, making it a deep create.
 
@@ -205,7 +205,7 @@ It is also possible to have this navigation property in the initial data.
 
 <a name="loioc9723f8265f644af91c0ed941e114d46__section_ICR"/>
 
-## Inline Creation Rows
+### Inline Creation Rows
 
 In some applications users need to be able to quickly enter a large amount of new records. A "Create" button or the related keyboard shortcut that needs to be explicitly pressed would slow down the user. To avoid this, the application could provide multiple **inline creation rows** in the table that are initially filled with default values and are not persisted in the back end.
 
@@ -215,7 +215,7 @@ You can create such an inline creation row by calling [`sap.ui.model.odata.v4.OD
 
 <a name="loioc9723f8265f644af91c0ed941e114d46__section_CST"/>
 
-## Context States
+### Context States
 
 -   `persisted`: An already existing entity that was read from the server.
 -   `inactive`: An inline creation row without any property update yet; it is waiting for a property change before adding a POST to the batch queue.
@@ -228,7 +228,7 @@ You can create such an inline creation row by calling [`sap.ui.model.odata.v4.OD
   
 **Internal States of an OData V4 Binding Context**
 
-![](images/Create_States_f359082.png "Internal States of an OData V4 Binding Context")
+![](images/loiof359082361f445868c75940f778a8c2e_LowRes.png "Internal States of an OData V4 Binding Context")
 
 The state of a context can be checked via the following API functions:
 

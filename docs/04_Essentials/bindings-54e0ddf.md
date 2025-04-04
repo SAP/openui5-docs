@@ -1,6 +1,6 @@
 <!-- loio54e0ddf695af4a6c978472cecb01c64d -->
 
-# Bindings
+## Bindings
 
 Bindings connect OpenUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.
 

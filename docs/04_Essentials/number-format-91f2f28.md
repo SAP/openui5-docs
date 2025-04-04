@@ -1,6 +1,6 @@
 <!-- loio91f2f2866f4d1014b6dd926db0e91070 -->
 
-# Number Format
+## Number Format
 
 The `sap.ui.core.format.NumberFormat` class can be used to parse a string representing a number \(float or integer\) into a JavaScript `number` and vice versa \(also known as `format`\).
 
@@ -21,7 +21,7 @@ There are five types of formatters defined in `NumberFormat`:
 
 
 
-## Instantiation
+### Instantiation
 
 The instantiation of `sap.ui.core.format.NumberFormat` is done by calling a getter defined on `NumberFormat` \(and not by using the constructor\).
 
@@ -35,7 +35,7 @@ var oCurrencyFormat = NumberFormat.getCurrencyInstance();
 
 
 
-## Parameters
+### Parameters
 
 All parameters have their default value defined in the current locale. Therefore, if no parameter is given when instantiating the formatter instance, it fetches the parameters from the current locale. The samples here assume that the current locale is `en-US`.
 
@@ -43,7 +43,7 @@ All parameters can be overwritten by giving a format option object in the getter
 
 
 
-### Integer and Decimal Digits
+#### Integer and Decimal Digits
 
 -   `minIntegerDigits`: minimal number of non-fractional digits. If there are fewer integer digits in the number than the value defined here, `"0"`s are prepended to the final result.
 
@@ -122,7 +122,7 @@ oFloatFormat.format(123.456); // returns "123.5" (non-shortified number takes th
 
 
 
-### Separator and Signs
+#### Separator and Signs
 
 -   `decimalSeparator` defines the symbol used for the decimal point.
 
@@ -141,7 +141,7 @@ oFloatFormat.format(123.456); // returns "123.5" (non-shortified number takes th
 
 
 
-### Compact Format
+#### Compact Format
 
 You can use compact format to format a number using a given scale. For example, 1000000 may be formatted under en-US locale as *1 Million*.
 
@@ -156,11 +156,11 @@ To control the starting point of numbers which should be displayed in compact fo
 > ### Example:  
 > In the following chart, all numbers both on the chart and the axis should be formatted using the same scaling factor. The scaling factor should only appear in the chart title and be hidden from the formatted number. In order to achieve this, the option `shortRefNumber` is set to `1000000`, and `showScale` is set to `false`. The corresponding scaling factor name is returned by calling the `getScale` method.
 > 
-> ![](images/NumberFormatShortRefNumber_dd8f106.png)
+> ![](images/loiodd8f106a130b484a86f4c56955006207_LowRes.png)
 
 
 
-### Miscellaneous
+#### Miscellaneous
 
 -   `emptyString` defines what empty string \(`""`\) is parsed as and what is formatted as `emptyString`. The allowed values are only `NaN`, `null` or `0`. Default setting is `NaN`.
 
@@ -508,7 +508,7 @@ To control the starting point of numbers which should be displayed in compact fo
 
 <a name="loio91f2f2866f4d1014b6dd926db0e91070__section_NFP"/>
 
-## Parsing and Validation of User Input
+### Parsing and Validation of User Input
 
 You can parse a formatted number, which can contain locale-dependent grouping separators, a locale-dependent decimal separator or a percentage sign, into a number object using `sap.ui.core.format.NumberFormat`. Such a number string may not be correctly parsed by using `parseInt` or `parseFloat` in JavaScript.
 
@@ -526,7 +526,7 @@ To prevent an accidental mix-up of decimal and grouping separator in the user in
 
 
 
-### Decimal Separator Validation
+#### Decimal Separator Validation
 
 If not otherwise mentioned, the examples below are based on the US locale standard settings \(en-US\):
 
@@ -613,7 +613,7 @@ The following user input is considered to be **valid**:
 
 
 
-### Strict Grouping Validation \(optional\)
+#### Strict Grouping Validation \(optional\)
 
 For an even stricter parsing of number strings, you have the option of additionally enforcing **strict grouping validation** by setting the `strictGroupingValidation` format option to `true`.For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.core.format.NumberFormat).
 

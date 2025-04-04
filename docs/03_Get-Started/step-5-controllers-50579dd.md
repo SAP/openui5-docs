@@ -1,20 +1,20 @@
 <!-- loio50579ddf2c934ce789e056cfffe9efa9 -->
 
-# Step 5: Controllers
+## Step 5: Controllers
 
 In this step, we replace the text with a button and show the "Hello World" message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
 
 
 
-## Preview
+### Preview
 
-![A Say Hello button is added](images/UI5_Walkthrough_Step_05_cedfdf8.png)
+![A Say Hello button is added](images/loiocedfdf89b30643ddbfcab1fe50bfa892_LowRes.png)
 
 
 
 <a name="loio50579ddf2c934ce789e056cfffe9efa9__section_yqd_crc_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 5](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.05).
 
@@ -22,7 +22,7 @@ You can view and download all files at [Walkthrough - Step 5](https://ui5.sap.co
 
 <a name="loio50579ddf2c934ce789e056cfffe9efa9__section_zqd_crc_syb"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -41,7 +41,7 @@ A view does not necessarily need an explicitly assigned controller. You do not h
 
 
 
-## webapp/controller/App.controller.js \(New\)
+### webapp/controller/App.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -62,7 +62,7 @@ We create the folder `webapp/controller` and a new file `App.controller.js` insi
 
 
 
-## Conventions
+### Conventions
 
 -   Controller names are capitalized
 

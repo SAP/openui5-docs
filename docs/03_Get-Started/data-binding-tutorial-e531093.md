@@ -1,6 +1,6 @@
 <!-- loioe5310932a71f42daa41f3a6143efca9c -->
 
-# Data Binding Tutorial
+## Data Binding Tutorial
 
 In this tutorial, we explain the concepts of data binding in OpenUI5.
 
@@ -12,9 +12,9 @@ The UI uses data binding to bind controls to the model which holds the applicati
 
 
 
-## Preview
+### Preview
 
-![Preview of three panels of the UI5 application that is going to be built in this tutorial. Contains three panels with name input fields, address details, and a product list.](images/Tutorial_Data_Binding_896048e.png)
+![Preview of three panels of the UI5 application that is going to be built in this tutorial. Contains three panels with name input fields, address details, and a product list.](images/loio896048ebce6b47488068c9630b71c43a_LowRes.png)
 
 > ### Tip:  
 > You don't have to do all tutorial steps in order; you can jump directly to any step you want. Just download the code from the previous step, copy it to your workspace, and ensure that the application runs by calling the `webapp/index.html` file.

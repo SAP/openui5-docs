@@ -1,6 +1,6 @@
 <!-- loio84f3d52f492648d5b594e4f45dca7727 -->
 
-# Semantic Pages
+## Semantic Pages
 
 The semantic page controls help the app designers and developers implement and comply with the SAP Fiori design guidelines more easily.
 

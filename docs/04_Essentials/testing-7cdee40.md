@@ -1,6 +1,6 @@
 <!-- loio7cdee404cac441888539ed7bfe076e57 -->
 
-# Testing
+## Testing
 
 OpenUI5 provides several testing options, like to unit and integration tests and the OData V2 mock server.
 
@@ -10,7 +10,7 @@ Before you start implementing your first test, you should think about how to tes
   
 **Testing Pyramid**
 
-![](../03_Get-Started/images/Tutorial_Testing_Step_01_2_88758c3.png "Testing Pyramid")
+![](../03_Get-Started/images/loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing Pyramid")
 
 You can use a local test runner, such as Selenium or Karma, that automatically executes all tests whenever a file in the app project has been changed.
 
@@ -18,17 +18,17 @@ You can use a local test runner, such as Selenium or Karma, that automatically e
 
 <a name="loio7cdee404cac441888539ed7bfe076e57__section_ojr_rzb_qnb"/>
 
-## Recommended Tools
+### Recommended Tools
 
 
 
-### OPA5
+#### OPA5
 
 We recommend OPA5 for integration tests. OPA5 is part of OpenUI5. It is built on top of QUnit and provides good integration with OpenUI5.
 
 
 
-### wdi5
+#### wdi5
 
 WebdriverIO \(WDIO\) is a hugely popular end-to-end testing framework. It can work with any web app but lacks the awareness of the web framework that the application uses. wdi5, which is a WDIO plugin, bridges this gap and provides two key benefits, namely control locators and synchronization with the web framework. wdi5 uses a real browser and interacts with your app the same way a real user would.
 

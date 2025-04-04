@@ -1,29 +1,29 @@
 <!-- loio4a063b8250f24d0cbf7c689821df7199 -->
 
-# Step 17: Listen to Matched Events of Any Route
+## Step 17: Listen to Matched Events of Any Route
 
 In the previous step, we have listened for bypassed events to detect possible technical issues with our app. In this step, we want to improve the analysis use case even more by listening to any matched event of the route. We could use this information to measure how the app is used and how frequently the pages are called. Many Web analytic tools track page hits this way. The collected information can be used, for example to improve our app and its usability.
 
 
 
-## Preview
+### Preview
 
   
   
 **Console output for routes matched by listening to routeMatched events**
 
-![](images/Tutorial_Navigation_and_Routing_Step_17_ea12aae.png "Console output for routes matched by listening to
+![](images/loioea12aae79b3841fe927f8e57f2f73e3b_HiRes.png "Console output for routes matched by listening to
 						routeMatched events")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 17](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.17).
 
 
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([

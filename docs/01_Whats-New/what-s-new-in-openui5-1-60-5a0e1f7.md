@@ -1,6 +1,6 @@
 <!-- loio5a0e1f79c4cf4772a177310e7a9c7ba0 -->
 
-# What's New in OpenUI5 1.60
+## What's New in OpenUI5 1.60
 
 With this release OpenUI5 is upgraded from version 1.58 to 1.60.
 
@@ -72,7 +72,7 @@ Feature
 
 OpenUI5 now allows you to hyphenate words in multiline texts when controls are in wrapping mode. You can enable hyphenation through the `wrappingType` property for the `sap.m.Text`, `sap.m.Title`, and `sap.m.Label` text controls, or you can use the API of the The hyphenation feature uses third-party and browser-native tools. We are not responsible for any inconsistencies or incorrect grammar. Also, the variety of supported languages is outside the scope of our control and may be subject to future changes.`sap.ui.core.hyphenation.Hyphenation` class directly.
 
-![](images/New_Feature_Hyphenation_8a74466.png)
+![](images/loio8a74466e5393433c856234e3a40f126a_HiRes.png)
 
 > ### Caution:  
 
@@ -123,7 +123,7 @@ In addition to the custom rule presets that users can create, we've introduced s
 
 The first system preset we've introduced is for accessibility-related rules.
 
-![](images/System_Presets_Accessibility_ae05ff4.png)
+![](images/loioae05ff406b4e4fcc83d01eaf896e7ae4_HiRes.png)
 
 For more information, see [Rules Management](../04_Essentials/rules-management-3fc864a.md).
 
@@ -133,7 +133,7 @@ The Analysis Report now includes information about the rule preset used during t
 
 We have also improved the design of the report itself.
 
-![](images/Presets_in_the_Analysis_Report_d44c5ac.png)
+![](images/loiod44c5ac7009b49d49441abb28ddf93c9_HiRes.png)
 
 For more information, see [Analysis Report](../04_Essentials/analysis-report-29bcdec.md).
 
@@ -237,7 +237,7 @@ Control
 
 A list-based control with grid layout capabilities. It is based on the `sap.m.ListBase` control, and it adds flexibility to configure different grid layouts. The layout used is based on the CSS display grid, and the control has a default configuration.
 
-![](images/sap_f_GridList_New_Control_c43df4c.png)
+![](images/loioc43df4c27715425ba98a7a7a40e71fd4_HiRes.png)
 
 For more information, see [Grid Controls](../08_More_About_Controls/grid-controls-32d4b9c.md), the [API Reference](https://ui5.sap.com/#/api/sap.f.GridList), and the [Samples](https://ui5.sap.com/#/entity/sap.f.GridList)..
 
@@ -282,7 +282,7 @@ Control
 
 `sap.m.FlexBox` which is the one-dimensional alternative for layouting. A layout control, used to create full-page layouts or user interface elements. It is a two-dimensional layout based on the browser-native CSS display grid that handles both columns and rows. The control can be used together with
 
-![](images/sap_ui_layout_cssgrid_CSSGrid_New_Control_2bdf9f5.png)
+![](images/loio2bdf9f5e96f44a2aa2bd626c9cabcbff_HiRes.png)
 
 For more information, see [Grid Controls](../08_More_About_Controls/grid-controls-32d4b9c.md), the [API Reference](https://ui5.sap.com/#/api/sap.ui.layout.cssgrid.CSSGrid), and the [Samples](https://ui5.sap.com/#/entity/sap.ui.layout.cssgrid.CSSGrid)..
 
@@ -327,7 +327,7 @@ Control
 
 A wrapper around the `sap.ui.unified.ColorPicker`A control that allows it to be displayed as a popover or a dialog depending on the device. The `ColorPickerPopover` has the same properties as the `ColorPicker` control but it has two additional methods - `openBy` and `close` to control the popover. Another difference between the new control and the `ColorPicker` control is that there is no `liveChange` event, and the `change` event is fired only when the *Submit* button is pressed. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.unified.ColorPickerPopover) and the [Sample](https://ui5.sap.com/#/sample/sap.ui.unified.sample.ColorPickerPopover/preview).
 
-![](images/Color_Picker_in_Popover_and_Dialog_c983fe1.png)
+![](images/loioc983fe12e5f2461a9ca0f608d9e03415_LowRes.png)
 
 <sub>New•Control•Info Only•1.60</sub>
 

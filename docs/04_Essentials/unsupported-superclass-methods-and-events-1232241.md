@@ -1,6 +1,6 @@
 <!-- loio1232241b99d7437ba3614698d53dfa4b -->
 
-# Unsupported Superclass Methods and Events
+## Unsupported Superclass Methods and Events
 
 Certain methods derived from OpenUI5 model and binding superclasses are not supported in OData V4 model classes or have limited support.
 

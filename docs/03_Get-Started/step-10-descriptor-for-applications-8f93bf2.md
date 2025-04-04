@@ -1,6 +1,6 @@
 <!-- loio8f93bf2b2b13402e9f035128ce8b495f -->
 
-# Step 10: Descriptor for Applications
+## Step 10: Descriptor for Applications
 
 All application-specific configuration settings will now further be put in a separate descriptor file called `manifest.json`. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.
 
@@ -8,19 +8,19 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
 
 
-## Preview
+### Preview
 
-![An input field and a description displaying the value of the input field (No visual changes to last step)](images/UI5_Walkthrough_Step_10_7b2aef8.png)
+![An input field and a description displaying the value of the input field (No visual changes to last step)](images/loio7b2aef85c016485da4a31c087bf4c0f0_LowRes.png)
 
 
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 10](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.10).
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```
 {
@@ -124,7 +124,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
 
 <a name="loio8f93bf2b2b13402e9f035128ce8b495f__section_ok2_4n5_zgb"/>
 
-## webapp\\index.html
+### webapp\\index.html
 
 ```html
 <!DOCTYPE html>
@@ -156,7 +156,7 @@ We can delete our `index.js`, because the descriptor now takes care of everythin
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 # App Descriptor
@@ -173,7 +173,7 @@ In the resource bundle we simply add the texts for the app and add comments to s
 
 
 
-## webapp/Component.js
+### webapp/Component.js
 
 ```js
 sap.ui.define([
@@ -215,7 +215,7 @@ In the component's `metadata` section, we now replace the `rootView` property wi
 
 
 
-## Conventions
+### Conventions
 
 -   The descriptor file is named `manifest.json` and located in the `webapp` folder.
 

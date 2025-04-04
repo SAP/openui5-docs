@@ -1,6 +1,6 @@
 <!-- loio99c4cdcdf896487182d7911cb34999ec -->
 
-# What's New in OpenUI5 1.79
+## What's New in OpenUI5 1.79
 
 With this release OpenUI5 is upgraded from version 1.78 to 1.79.
 

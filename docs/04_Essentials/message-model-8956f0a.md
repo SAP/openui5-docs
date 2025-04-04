@@ -1,6 +1,6 @@
 <!-- loio8956f0a223284d729900ebad4ca88356 -->
 
-# Message Model
+## Message Model
 
 The message model contains all messages and is used to bind to the messages to display them.
 
@@ -8,7 +8,7 @@ The message model is retrieved from the message manager by calling the `getMessa
 
 
 
-## Using the Message Model
+### Using the Message Model
 
 You use the message model like any other model to bind an aggregation to a root path \("`/`"\), for example the items in a list, and add filters and sorters. Each item in the collection for "`/`" represents an [`sap.ui.core.message.Message`](https://ui5.sap.com/#/api/sap.ui.core.message.Message) object, so that you can bind to all properties specified for such an object. The `MessagePopover` control is used to display the messages to the user:
 

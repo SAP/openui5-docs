@@ -1,6 +1,6 @@
 <!-- loio9613f1f2d88747cab21896f7216afdac -->
 
-# Model Instantiation and Data Access
+## Model Instantiation and Data Access
 
 One OData V4 model instance can only cover one OData service. This section describes the creation of a model instance in more detail.
 
@@ -21,7 +21,7 @@ sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
 
 
 
-## OData Custom Query Options
+### OData Custom Query Options
 
 An OData service accepts query options placed in the service URL query part, as explained on the URL conventions page [OData Version 4.0 Part 2: URL Conventions](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part2-url-conventions.html) in chapter 2 *URL Components*. The OData V4 model accepts OData custom query options only as explained in section 5.2 *Custom Query Options* of the URL conventions page; you must not provide OData system query options \(starting with "$"\) or OData parameter aliases \(starting with "@"\) at model level, see sections 5.1 *System Query Options* and 5.3 *Parameter Aliases* in the URL conventions page.
 
@@ -41,7 +41,7 @@ sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
 
 
 
-## Default Groups for Batch Control
+### Default Groups for Batch Control
 
 The OData V4 model allows you to specify whether or not requests are bundled and sent as a batch request, and when the requests are sent. For more information, see [Batch Control](batch-control-74142a3.md).
 
@@ -63,7 +63,7 @@ sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
 
 
 
-## Instantiating an OData V4 Model Using the Descriptor File \(`manifest.json`\)
+### Instantiating an OData V4 Model Using the Descriptor File \(`manifest.json`\)
 
 The code sample below shows the parts of a [Manifest \(Descriptor for Applications, Components, and Libraries\)](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md) \(`manifest.json`\) that are relevant for instantiating an OData V4 model:
 
@@ -96,13 +96,13 @@ The code sample below shows the parts of a [Manifest \(Descriptor for Applicatio
 
 
 
-## Data Access
+### Data Access
 
 The OData V4 model only supports data access using bindings. It does not provide any direct access to the data. For more information, see [Unsupported Superclass Methods and Events](unsupported-superclass-methods-and-events-1232241.md). One exception is [sap.ui.model.odata.v4.Context\#setProperty](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/setProperty). It allows to update a property without using a property binding, even without reading the data first. You can create bindings that are independent of controls. For more information, see [Accessing Data in Controller Code](accessing-data-in-controller-code-17b30ac.md).
 
 
 
-## Language
+### Language
 
 OpenUI5 uses the concept of a "current language" \(see [Identifying the Language Code / Locale](identifying-the-language-code-locale-91f21f1.md)\). This language is automatically propagated to the OData service by the OData V4 model. For this reason, applications must not hard code the language themselves, e.g. they must not specify the `"sap-language"` URL parameter as a custom query option.
 
@@ -110,7 +110,7 @@ OpenUI5 uses the concept of a "current language" \(see [Identifying the Language
 
 <a name="loio9613f1f2d88747cab21896f7216afdac__section_oyf_bpb_fjb"/>
 
-## Set HTTP Header Fields
+### Set HTTP Header Fields
 
 You can set headers for HTTP requests sent by the OData V4 model: This is possible statically by adding them to the `manifest.json`, or dynamically with the method [ODataModel\#changeHttpHeaders](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel). These headers are applied to data and metadata requests sent by the model. The `ODataModel` propagates its HTTP headers to value list models created via [ODataMetaModel\#createValueListInfo](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataMetaModel); when changing HTTP headers for the model, however, these changes are not applied to existing value list models: If value list models require the new headers, you have to additionally call `ODataModel#changeHttpHeaders` for each of them. For details, see [ODataModel\#changeHttpHeaders](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel).
 
@@ -151,7 +151,7 @@ Sample: Set HTTP header `custom` in manifest.json:
 
 <a name="loio9613f1f2d88747cab21896f7216afdac__section_STH"/>
 
-## Security Token Handling
+### Security Token Handling
 
 The OData V4 model automatically handles a security token via an "X-CSRF-Token" header if needed by its service. To achieve this, the "X-CSRF-Token" header starts with a value of "Fetch" and will be included in every data request. If a data response contains the "X-CSRF-Token" header, that new value will be remembered and used from that time on. If a data request fails with status 403 and an "X-CSRF-Token" response header value "required" \(case insensitive\), a new security token will be fetched and the data request will be repeated automatically and transparently.
 
@@ -161,13 +161,13 @@ If a service does not require an "X-CSRF-Token" header, it should ignore that re
 
 
 
-### Early requests
+#### Early requests
 
 Often, the first request is a POST to $batch and would fail for services requiring an "X-CSRF-Token" header. To improve performance, you should enable [Early Requests for Metadata and Security Token](performance-aspects-5a0d286.md#loio5a0d286c5606424b8e0d663c87445733__section_ER4MST).
 
 
 
-### Security token handlers
+#### Security token handlers
 
 Some services do not support an "X-CSRF-Token" request header value "Fetch", for example because the "X-CSRF-Token" header value is fixed, known from the beginning, not fetched via the OData service, or does not expire. In other cases, a different header name might be needed. Sometimes it is enough to call [v4.ODataModel\#changeHttpHeaders](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/changeHttpHeaders) early on. At other times you might need to provide your own security token handler. You can do so before the OData model is created via [OpenUI5's "securityTokenHandlers" configuration option](configuration-options-and-url-parameters-91f2d03.md). You can provide a list of functions which are invoked one by one with the model's service URL as the only argument. The first handler which does not return `undefined` wins and is expected to return a `Promise` that resolves with a map of header names and values. This works much like [v4.ODataModel\#changeHttpHeaders](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/changeHttpHeaders), but overriding the "X-CSRF-Token" : "Fetch" pair. This means you either provide your own "X-CSRF-Token" value, or that header is not used at all. Note that expiration is currently only supported for the "X-CSRF-Token" header.
 
@@ -175,7 +175,7 @@ Some services do not support an "X-CSRF-Token" request header value "Fetch", for
 
 <a name="loio9613f1f2d88747cab21896f7216afdac__section_RHD"/>
 
-## Response Headers
+### Response Headers
 
 The OData model processes some of the response headers, namely:
 

@@ -1,6 +1,6 @@
 <!-- loio91f2c9076f4d1014b6dd926db0e91070 -->
 
-# Initialization Process
+## Initialization Process
 
 The initialization process starts after OpenUI5 runtime is loaded.
 
@@ -25,13 +25,13 @@ The initialization of the OpenUI5 runtime comprises the following steps:
 
 <a name="loio91f2c9076f4d1014b6dd926db0e91070__section_d2s_tlg_vgb"/>
 
-## Initialization Readiness
+### Initialization Readiness
 
 The optimal point in time to execute or start an application is after the framework has been initialized. There are three ways to hook yourself into this timeframe. The following list describes these initialization readiness hooks in detail and gives you examples when to use them. Depending on your use case you might prefer one way over another.
 
 
 
-### `ComponentSupport` module
+#### `ComponentSupport` module
 
 The most sophisticated way to execute code after the framework has been initialized is to use `sap.ui.core.ComponentSupport`. This option is viable for scenarios in which you want to use an `sap.ui.core.UIComponent` as the entry point of your application.
 
@@ -41,7 +41,7 @@ For a detailed usage guide, please see the [`ComponentSupport` documentation](de
 
 
 
-### Standalone `data-sap-ui-on-init` module
+#### Standalone `data-sap-ui-on-init` module
 
 Besides using `sap.ui.core.ComponentSupport`, you can also define a data attribute called `data-sap-ui-on-init` on the OpenUI5 bootstrap script element.
 
@@ -66,7 +66,7 @@ Please also have a look at our tutorial section, including the [Quickstart Tutor
 
 
 
-### `Core.ready()` Promise
+#### `Core.ready()` Promise
 
 The `Core.ready()` function, where `Core` is required from the `sap/ui/core/Core` module, returns a promise which resolves after the framework has been initialized. This code can be written inside your main HTML file in a separate inline `<script>` tag:
 
@@ -82,7 +82,7 @@ sap.ui.require(["sap/ui/core/Core"], function (Core) {
 
 <!-- loiobf10bd41ac8f49048a1ccb743fbfbb8a -->
 
-## Loading of Additional Resources During Bootstrap
+### Loading of Additional Resources During Bootstrap
 
 The OpenUI5 runtime loads and interprets additional resources for the control libraries during bootstrap.
 
@@ -101,7 +101,7 @@ The files are loaded in the following sequence:
 
 <!-- loiobbce44f06ddc48fda7aeb44eae52ebbc -->
 
-## Dynamic Loading of Libraries
+### Dynamic Loading of Libraries
 
 OpenUI5 provides the `Libary.load()` method to load libraries at runtime in addition to the libraries declared in the runtime configuration. `Library` is required from the `sap/ui/core/Lib` module.
 

@@ -1,6 +1,6 @@
 <!-- loiof5e2a21dd36d4b81a12ad30f5d5db20e -->
 
-# What's New in OpenUI5 1.81
+## What's New in OpenUI5 1.81
 
 With this release OpenUI5 is upgraded from version 1.80 to 1.81.
 
@@ -601,7 +601,7 @@ Feature
 
 We have added a new *Pattern* category in the *Samples* section of the Demo Kit app. The samples added in this category aim to improve the representation of more complex scenarios, such as layouts and floorplans.
 
-![](images/Samples_Pattern_WN_1_81_5004e44.png)
+![](images/loio5004e443d73749a48ba7926a0c0d6f69_HiRes.png)
 
 <sub>Changed•Feature•Info Only•1.81</sub>
 

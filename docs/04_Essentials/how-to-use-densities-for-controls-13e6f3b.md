@@ -1,6 +1,6 @@
 <!-- loio13e6f3bfc54c4bd7952403e20ff447e7 -->
 
-# How to Use Densities for Controls
+## How to Use Densities for Controls
 
 How content densities are set and how they can be used in the SAP Fiori launchpad is explained and shown in the following code samples \(using the *Compact* density as an example\).
 
@@ -9,7 +9,7 @@ How content densities are set and how they can be used in the SAP Fiori launchpa
 
 
 
-## Using Densities
+### Using Densities
 
 A density is triggered by the related CSS class, for example, `sapUiSizeCompact` for the *Compact* density, set on a parent element of the UI region for which you want to use the controls. This means that some parts of the UI or different apps inside a `sap.m.Shell` can use the standard density of the `sap.m` controls, while other parts can use a different density at the same time. However, sub-parts of the UI part that is set to *Compact* density **cannot** use the *Cozy* density because the CSS class affects the entire HTML subtree.
 
@@ -69,7 +69,7 @@ As the check depends on several factors, you may not want to repeat the same log
 
 
 
-## Synchronizing a Density for a Dialog
+### Synchronizing a Density for a Dialog
 
 As dialogs are rendered in a different part of the HTML tree, they do **not** automatically inherit the density. To decide if you set the relevant density for a dialog, either perform the same check as for the view or use the convenience function `syncStyleClass` from `sap/ui/core/syncStyleClass`. This convenience function synchronizes a style class between elements. The function accepts the following parameters: Name of the style class, source element, and destination element. The following code snippet shows an example:
 
@@ -120,7 +120,7 @@ When calling `syncStyleClass` from `sap/ui/core/syncStyleClass`, the source elem
 
 
 
-## Checking for the Density Style Class
+### Checking for the Density Style Class
 
 To determine if the relevant style class is set anywhere above a certain HTML element, you can use the `closest` function from jQuery as shown in the following example:
 
@@ -149,7 +149,7 @@ var btn = new Button({
 
 
 
-## Providing Density Support for a Control
+### Providing Density Support for a Control
 
 If you want to apply content densities to your own controls, provide the default CSS styling for the *Cozy* density regardless of any size density classes and provide additional CSS styling to shrink the size, if an ancestor element has the `sapUiSizeCompact` class, for example, for the *Compact* density. The following code snippet shows you an example:
 

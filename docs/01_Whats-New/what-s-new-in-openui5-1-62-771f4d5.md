@@ -1,6 +1,6 @@
 <!-- loio771f4d5cb01c4b6da7232ef8a841683d -->
 
-# What's New in OpenUI5 1.62
+## What's New in OpenUI5 1.62
 
 With this release OpenUI5 is upgraded from version 1.61 to 1.62.
 
@@ -72,7 +72,7 @@ Control
 
 The new `sap.m.GenericTag` control displays complimentary information related to the current page, such as key performance indicators \(KPI\) and situations.
 
-![](images/sap_m_GenericTag_New_Control_1_7fe88c5.png)
+![](images/loio7fe88c577d264962b6bec8427efc968d_HiRes.png)
 
 It consists of four different parts:
 
@@ -85,7 +85,7 @@ It consists of four different parts:
 -   An optional content area that can display either a control of type `sap.m.ObjectNumber` or a warning icon \(D\)
 
 
-![](images/sap_m_GenericTag_New_Control_2_fb7c92b.png)
+![](images/loiofb7c92bd4aca46a2abb579058c481ded_HiRes.png)
 
 The control can move to the overflow area of `sap.m.OverflowToolbar`.
 
@@ -136,7 +136,7 @@ A card is a user experience design pattern that displays the most concise pieces
   
 **Analytical card**
 
-![](images/Cards_3ff4cba.png "Analytical card")
+![](images/loio3ff4cbace0714a71924a628d8c81d480_LowRes.png "Analytical card")
 
 Using cards, you can group information, link additional details, and present a summary. You can also get direct insights without leaving the current screen and choose further navigation options. Each card is designed in a different style and contains various content formats.
 
@@ -723,7 +723,7 @@ Feature
 
 -   We added a live code editor to the Demo Kit welcome page that showcases a simple app. You can edit the code directly and see your changes immediately in the *Result* area.
 
-    ![](images/Demo_Kit_Live_Editor_fbae7e8.png)
+    ![](images/loiofbae7e8570c641a1837ac4d919832d30_HiRes.png)
 
 
 **Settings Dialog in Samples Section**

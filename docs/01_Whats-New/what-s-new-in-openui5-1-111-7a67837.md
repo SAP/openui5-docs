@@ -1,6 +1,6 @@
 <!-- loio7a67837a0ee544eea8f19b19e288d507 -->
 
-# What's New in OpenUI5 1.111
+## What's New in OpenUI5 1.111
 
 With this release OpenUI5 is upgraded from version 1.110 to 1.111.
 

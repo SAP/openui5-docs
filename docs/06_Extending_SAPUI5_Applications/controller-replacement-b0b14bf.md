@@ -1,6 +1,6 @@
 <!-- loiob0b14bf4dcdb476fb0d63877c1beff7c -->
 
-# Controller Replacement
+## Controller Replacement
 
 Standard controller can be replaced by specifying a new controller name in a replacement View and implementing this Controller.
 
@@ -29,7 +29,7 @@ sap.ui.define([
 
 <a name="loiob0b14bf4dcdb476fb0d63877c1beff7c__section_zwn_zkg_3mb"/>
 
-## Controller Extension with Controller Replacement Confguration
+### Controller Extension with Controller Replacement Confguration
 
 Typed controllers cannot be used in the controller extension configuration \(`sap.ui.controllerExtensions`\). Instead, you have to use the controller replacement configuration \(`sap.ui.controllerReplacements`\) to extend a typed controller with the `extend` syntax and call the original methods in the custom implementation:
 

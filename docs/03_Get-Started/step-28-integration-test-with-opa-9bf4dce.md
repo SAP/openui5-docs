@@ -1,6 +1,6 @@
 <!-- loio9bf4dce43b7943d0909cd6c58a933589 -->
 
-# Step 28: Integration Test with OPA
+## Step 28: Integration Test with OPA
 
 If we want to test interaction patterns or more visual features of our app, we can also write an integration test.
 
@@ -11,17 +11,17 @@ We haven't thought about testing our interaction with the app yet, so in this st
 
 
 
-## Preview
+### Preview
 
   
   
 **An OPA test opens the "Hello" dialog from step 16**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_28_250d5b9.png "An OPA test opens the "Hello" dialog from step 16")
+![The graphic has an explanatory text.](images/loio250d5b92921d44a4b432cc0fade88cc9_LowRes.png "An OPA test opens the "Hello" dialog from step 16")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 28](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.28).
 
@@ -29,13 +29,13 @@ You can view and download all files at [Walkthrough - Step 28](https://ui5.sap.c
   
 **Folder Structure for this Step**
 
-![The graphic has an explanatory text.](images/SAPUI5_Walkthrough_Step_28_2_72406ab.png "Folder Structure for this Step")
+![The graphic has an explanatory text.](images/loio72406abd1014466fb961d4c4dd1ade58_LowRes.png "Folder Structure for this Step")
 
 We add a new folder `integration` below the `test` folder, where we put our new test cases. Page objects that help structuring such integration tests are put in the `pages` subfolder that we also create now.
 
 
 
-## webapp/test/integration/NavigationJourney.js \(New\)
+### webapp/test/integration/NavigationJourney.js \(New\)
 
 ```js
 sap.ui.define([
@@ -89,7 +89,7 @@ As you can see, the test case reads like a user story, we actually do not need t
 
 
 
-## webapp/test/integration/pages/App.js \(New\)
+### webapp/test/integration/pages/App.js \(New\)
 
 ```js
 sap.ui.define([
@@ -140,7 +140,7 @@ In the assertions section we define a `waitFor` statement that checks if a `sap.
 
 <a name="loio9bf4dce43b7943d0909cd6c58a933589__section_srf_xpc_yfb"/>
 
-## webapp/test/integration/opaTests.qunit.js \(New\)
+### webapp/test/integration/opaTests.qunit.js \(New\)
 
 We create a new `opaTests.qunit.js` file under `webapp/test/integration/`.
 
@@ -156,7 +156,7 @@ sap.ui.define([
 
 <a name="loio9bf4dce43b7943d0909cd6c58a933589__section_trf_xpc_yfb"/>
 
-## webapp/test/testsuite.qunit.js
+### webapp/test/testsuite.qunit.js
 
 Finally we reference the new `integration/opaTests.qunit.js` in the `testsuite.qunit.js` file. The `.qunit.js` extension is omitted and will be added automatically during runtime.
 
@@ -181,7 +181,7 @@ If we now open the `webapp/test/testsuite.qunit.html` file in the browser and se
 
 
 
-## Conventions
+### Conventions
 
 -   OPA tests are located in the `webapp/test/integration` folder of the application.
 

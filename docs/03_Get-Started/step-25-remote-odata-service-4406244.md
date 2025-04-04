@@ -1,6 +1,6 @@
 <!-- loio44062441f3bd4c67a4f665ae362d1109 -->
 
-# Step 25: Remote OData Service
+## Step 25: Remote OData Service
 
 So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.
 
@@ -13,20 +13,20 @@ In the real world, data often resides on remote servers and is accessed via an O
 
 
 
-## Preview
+### Preview
 
   
   
 **Products from the OData invoices test service are now shown within our app**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_25_5b76bb4.png "Products from the OData invoices test service are now shown within our
+![The graphic has an explanatory text.](images/loio5b76bb4b15eb44e1862d0b6c1c802571_LowRes.png "Products from the OData invoices test service are now shown within our
 					app")
 
 
 
 <a name="loio44062441f3bd4c67a4f665ae362d1109__section_umn_sdl_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 25](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.25).
 
@@ -34,7 +34,7 @@ You can view and download all files at [Walkthrough - Step 25](https://ui5.sap.c
 
 <a name="loio44062441f3bd4c67a4f665ae362d1109__section_q14_5fl_syb"/>
 
-## Install Proxy Server
+### Install Proxy Server
 
 In this step, we want to use the publicly available Northwind OData service located at `https://services.odata.org/V2/Northwind/Northwind.svc/`. Therefore, our URI points to the official Northwind OData service. In order to avoid cross-origin resource sharing, the typical procedure is to use a proxy in UI5 Tooling and maintain only a path in the `URI` property of the data source of our app.
 
@@ -44,7 +44,7 @@ A bunch of proxy solutions are available from the UI5 community as [UI5 Tooling 
 
 <a name="loio44062441f3bd4c67a4f665ae362d1109__section_mcv_bhl_syb"/>
 
-## ui5.yaml
+### ui5.yaml
 
 ```
 specVersion: '3.0'
@@ -73,7 +73,7 @@ The `ui5.yaml` configuration file was automatically generated in the app root fo
 
 <a name="loio44062441f3bd4c67a4f665ae362d1109__section_vmn_sdl_syb"/>
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```
 {

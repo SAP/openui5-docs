@@ -1,6 +1,6 @@
 <!-- loio1f9de72bea734beaafa86b80c2c4222c -->
 
-# Devices Supporting both Mouse and Touch Input
+## Devices Supporting both Mouse and Touch Input
 
 Devices such as touch-enabled laptops support simultaneous mouse and touch input. As a control developer you have to take this into consideration.
 
@@ -11,13 +11,13 @@ When you develop your own controls, consider the following:
 
 
 
-## Background: How OpenUI5 handles events
+### Background: How OpenUI5 handles events
 
 With the introduction of touch-enabled devices, touch is becoming part of the expected desktop experience. In the past, UI5 statically detected whether the running environment supported touch events. Then the assumption was made that only touch \(and not mouse\) events need to be supported. This assumption became faulty with the emerging of touch-enabled laptops and desktop PCs. The fact that touch events are supported does not mean that users won't use other input devices as well. Therefore, "support touch" is no longer equal to "doesn't need mouse support". We don't switch between touch and mouse - we now support both at the same time!
 
 The following figure shows how this is implemented:
 
-![](images/SAPUI5_Support_Touch_and_Mouse_Events_Together_56d796e.png)
+![](images/loio56d796e4026f463ab92c1ec10818f339_LowRes.png)
 
 A desktop control is defined as a control that listens to mouse events, whereas a mobile control listens to touch events. To ensure that all events can be received, touch simulation events are created for mouse events, and mouse simulation events for touch events, respectively. So the UI Area, which acts as an event delegate, receives the correct events. In detail:
 
@@ -31,7 +31,7 @@ So it is ensured that all events can be handled and no event is triggered twice.
 
 
 
-## Support mouse and touch events together
+### Support mouse and touch events together
 
 Touch interfaces try to emulate mouse/click events, because they need to interact with applications that previously only interacted with mouse events. For a single tap on touch interfaces, the following events are fired in the given order:
 

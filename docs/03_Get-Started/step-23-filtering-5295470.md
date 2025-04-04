@@ -1,24 +1,24 @@
 <!-- loio5295470d7eee46c1898ee46c1b9ad763 -->
 
-# Step 23: Filtering
+## Step 23: Filtering
 
 In this step, we add a search field for our product list and define a filter that represents the search term. When searching, the list is automatically updated to show only the items that match the search term.
 
 
 
-## Preview
+### Preview
 
   
   
 **A search field is displayed above the list**
 
-![A filtered list of invoices is displayed below the panel](images/UI5_Walkthrough_Step_23_472ab6b.png "A search field is displayed above the list")
+![A filtered list of invoices is displayed below the panel](images/loio472ab6bf88674c23ba103efd97163133_LowRes.png "A search field is displayed above the list")
 
 
 
 <a name="loio5295470d7eee46c1898ee46c1b9ad763__section_qx5_wch_ycb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 23](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.23).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 23](https://ui5.sap.c
 
 <a name="loio5295470d7eee46c1898ee46c1b9ad763__section_rx5_wch_ycb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View
@@ -58,7 +58,7 @@ The `headerToolbar` aggregation replaces the simple `title` property that we use
 
 
 
-## webapp/controller/InvoiceList.controller.js
+### webapp/controller/InvoiceList.controller.js
 
 ```js
 sap.ui.define([

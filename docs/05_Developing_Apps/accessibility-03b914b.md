@@ -1,6 +1,6 @@
 <!-- loio03b914b46e624b138a6fb1b7cf2049ae -->
 
-# Accessibility
+## Accessibility
 
 In this guide we cover the most important accessibility aspects for application development, based on OpenUI5.
 

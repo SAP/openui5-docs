@@ -1,24 +1,24 @@
 <!-- loioa96e18b4cd924196b255eb9623431dbb -->
 
-# Step 34: Responsiveness
+## Step 34: Responsiveness
 
 In this step, we improve the responsiveness of our app. OpenUI5 applications can be run on phone, tablet, and desktop devices and we can configure the application to make best use of the screen estate for each scenario. Fortunately, OpenUI5 controls like the `sap.m.Table` already deliver a lot of features that we can use.
 
 
 
-## Preview
+### Preview
 
   
   
 **A responsive table is hiding some of the columns on small devices**
 
-![The application contains a Hello World header with buttons and a text input. The lower part displays invoices with some details.](images/UI5_Walkthrough_Step_34_cc3f2e0.png "A responsive table is hiding some of the columns on small devices")
+![The application contains a Hello World header with buttons and a text input. The lower part displays invoices with some details.](images/loiocc3f2e0d8ac6471288af6495836c2f07_LowRes.png "A responsive table is hiding some of the columns on small devices")
 
 
 
 <a name="loioa96e18b4cd924196b255eb9623431dbb__section_jd5_1fn_tyb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 34](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.34).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 34](https://ui5.sap.c
 
 <a name="loioa96e18b4cd924196b255eb9623431dbb__section_kd5_1fn_tyb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View
@@ -177,7 +177,7 @@ Now we have defined our table responsively and can see the results when we decre
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...
@@ -202,7 +202,7 @@ We can see the results when we decrease the browser's screen size or open the ap
 
 
 
-## Conventions
+### Conventions
 
 -   Optimize your application for the different screen sizes of phone, tablet, and desktop devices.
 

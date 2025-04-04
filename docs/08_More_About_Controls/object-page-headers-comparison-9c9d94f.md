@@ -1,6 +1,6 @@
 <!-- loio9c9d94fd28284539a9a5a57e9caf82a8 -->
 
-# Object Page Headers Comparison
+## Object Page Headers Comparison
 
 This section explains the differences and similarities between the two types of header of the `sap.uxap.ObjectPageLayout` control.
 
@@ -65,7 +65,7 @@ Content \(controls are used internally\)
 
 <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__section_szt_d3l_sbb"/>
 
-## Differences between the classic and the dynamic header
+### Differences between the classic and the dynamic header
 
 The classic header title is largely semantic, meaning that it has properties, such as `objectTitle`, `objectSubtitle` and `objectImageURI`. It has a very specific layout based on these properties.
 
@@ -137,7 +137,7 @@ Header Content
 
 <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__section_urf_2ll_sbb"/>
 
-## Similarities between the classic and the dynamic header
+### Similarities between the classic and the dynamic header
 
 Both header title controls have the `actions` aggregation, intended for buttons that perform actions on the represented object.
 
@@ -147,7 +147,7 @@ Both header content controls have the `content` aggregation.
 
 <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__section_msr_jll_sbb"/>
 
-## Features exclusive to the classic or the dynamic header
+### Features exclusive to the classic or the dynamic header
 
 Some `ObjectPageLayout` features associated with the behavior of the classic header are considered legacy \(although technically not deprecated\), and have more robust counterparts for the dynamic header.
 
@@ -307,7 +307,7 @@ Similarly, if `toggleHeaderOnTitleClick` is set, but the classic title is used \
 
 <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__section_q1f_rpl_sbb"/>
 
-## Which header should I use in my app?
+### Which header should I use in my app?
 
 The dynamic header is recommended as it supports advanced features, such as pinning and collapse/expand visual indication.
 

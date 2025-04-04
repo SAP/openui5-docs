@@ -1,24 +1,24 @@
 <!-- loioae61211b1bb744f7ab42731a37b7738c -->
 
-# Step 32: Routing Back and History \(TypeScript\)
+## Step 32: Routing Back and History \(TypeScript\)
 
 Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.
 
 
 
-## Preview
+### Preview
 
   
   
 **A back button is now displayed on the detail page**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_32_33a8341.png "A back button is now displayed on the detail page")
+![The graphic has an explanatory text](images/loio33a8341077bb458685274c64d2317f6b_LowRes.png "A back button is now displayed on the detail page")
 
 
 
 <a name="loioae61211b1bb744f7ab42731a37b7738c__section_l5n_zvm_tyb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 32: Routing Back and History](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/32) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-32.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 32: Routing Bac
 
 <a name="loioae61211b1bb744f7ab42731a37b7738c__section_nxm_dqv_4zb"/>
 
-## webapp/controller/Detail.controller.ts
+### webapp/controller/Detail.controller.ts
 
 To be able to navigate from the detail view back to the view we came from, we implement a new event handler function in the controller of the detail view.
 
@@ -79,7 +79,7 @@ This implementation is a bit better than the browser's back button for our use c
 
 <a name="loioae61211b1bb744f7ab42731a37b7738c__section_m5n_zvm_tyb"/>
 
-## webapp/view/Detail.view.xml
+### webapp/view/Detail.view.xml
 
 Now only the back button is missing on the detail page. We do this by telling the page control on the view to display the back button using the control parameter `showNavButton` and register the event handler we defined in its controller to be called when the back button is pressed.
 
@@ -101,7 +101,7 @@ Now only the back button is missing on the detail page. We do this by telling th
 
 
 
-## Conventions
+### Conventions
 
 -   Add a path to go back to the parent page when the history state is unclear.
 

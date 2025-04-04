@@ -1,6 +1,6 @@
 <!-- loio3a9babace121497abea8f0ea66e156d9 -->
 
-# Creating a Manifest File for Existing Apps
+## Creating a Manifest File for Existing Apps
 
 Detailed description of the steps needed to create a manifest \(also known as descriptor\) V2 for applications file for an existing transactional app created by the customer based on SAP Fiori.
 
@@ -545,7 +545,7 @@ Detailed description of the steps needed to create a manifest \(also known as de
 
 
 
-## Code Changes
+### Code Changes
 
 1.  Adapt the `Component.js` file.
 
@@ -706,7 +706,7 @@ Detailed description of the steps needed to create a manifest \(also known as de
 
 
 
-## Smoke Test
+### Smoke Test
 
 To verify that your app works as before, perform checks to make sure the following is true:
 

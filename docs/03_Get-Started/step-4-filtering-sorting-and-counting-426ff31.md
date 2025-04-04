@@ -1,6 +1,6 @@
 <!-- loio426ff318051a465191c861b51a74f00e -->
 
-# Step 4: Filtering, Sorting, and Counting
+## Step 4: Filtering, Sorting, and Counting
 
 In this step, we add features to filter, sort, and count the user data by using the OData V4 model API to apply OData system query options `$filter`, `$orderby`, and `$count`.
 
@@ -8,20 +8,20 @@ In this step, we add features to filter, sort, and count the user data by using 
 
 <a name="loio426ff318051a465191c861b51a74f00e__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **App now has a search field, the entries can be sorted, and you can see how many entities are loaded and how many more are available**
 
-![](images/Tutorial_OData_V4_Step_4_3ac4fcc.png "App now has a search field, the entries can be sorted, and you can see how
+![](images/loio3ac4fcc0ea714c7c9157b22cbca4db79_LowRes.png "App now has a search field, the entries can be sorted, and you can see how
 					many entities are loaded and how many more are available")
 
 
 
 <a name="loio426ff318051a465191c861b51a74f00e__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 4](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.04).
 
@@ -29,7 +29,7 @@ You can view and download all files at [OData V4 - Step 4](https://ui5.sap.com/#
 
 <a name="loio426ff318051a465191c861b51a74f00e__section_pvc_fyc_z1b"/>
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([
@@ -111,7 +111,7 @@ We add the `order` property to variable `oJSONData` in `onInit` method. This pro
 
 <a name="loio426ff318051a465191c861b51a74f00e__section_pp2_mxc_z1b"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -207,7 +207,7 @@ In the `OverflowToolbar`, we add a *Search* field and a *Sort* button with their
 
 <a name="loio426ff318051a465191c861b51a74f00e__section_etg_fyc_z1b"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```
 ...

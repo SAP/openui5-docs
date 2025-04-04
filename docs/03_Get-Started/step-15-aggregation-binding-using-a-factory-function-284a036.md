@@ -1,22 +1,22 @@
 <!-- loio284a036c8ff943238fb65bf5a2676fb7 -->
 
-# Step 15: Aggregation Binding Using a Factory Function
+## Step 15: Aggregation Binding Using a Factory Function
 
 Instead of using a single hard-coded template control, we now opt for a factory function to generate different controls based on the data received at runtime. This approach is much more flexible and allows for the display of complex or heterogeneous data.
 
 
 
-## Preview
+### Preview
 
   
   
 **A different type of list item is displayed for a discontinued product**
 
-![The graphic has an explanatory text](images/Tutorial_Data_Binding_Step_15_db27ba8.png "A different type of list item is displayed for a discontinued product")
+![The graphic has an explanatory text](images/loiodb27ba88d80c4778809bdb9b971531f9_LowRes.png "A different type of list item is displayed for a discontinued product")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 15](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.15).
 

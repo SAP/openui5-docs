@@ -1,6 +1,6 @@
 <!-- loioa264a9abf98d4caabbf9b027bc1005d8 -->
 
-# Extending Apps
+## Extending Apps
 
 You can adapt an OpenUI5 app to your specific requirements. For example, you can adapt or replace views, extend or replace controllers, or change language-specific texts.
 

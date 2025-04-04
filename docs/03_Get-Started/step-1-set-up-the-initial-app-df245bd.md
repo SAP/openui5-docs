@@ -1,6 +1,6 @@
 <!-- loiodf245bd449a7470c8c2a0926ca8d78de -->
 
-# Step 1: Set Up the Initial App
+## Step 1: Set Up the Initial App
 
 We start by setting up a simple app for this tutorial. The app displays mock data only and mimics real OData back-end calls with the mock server as you have seen in the *Walkthrough* tutorial.
 
@@ -8,17 +8,17 @@ The structure and data model created in this step will be used throughout the re
 
 
 
-## Preview
+### Preview
 
   
   
 **Initial app with a simple button**
 
-![](images/Tutorial_Navigation_and_Routing_Step_01a_2a2a284.png "Initial app with a simple button")
+![](images/loio2a2a2842b9734fc8800e1a8250f3f3f1_LowRes.png "Initial app with a simple button")
 
 
 
-## Setup
+### Setup
 
 1.  To set up your project for this tutorial, download the files at [Navigation and Routing - Step 1](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.01).
 
@@ -32,14 +32,14 @@ You should have the same files as displayed in the following figure:
   
 **Folder structure with downloaded files**
 
-![](images/Tutorial_Navigation_and_Routing_Step_01b_cf75e00.png "Folder structure with downloaded files")
+![](images/loiocf75e004d482434d90e2c108a224523e_HiRes.png "Folder structure with downloaded files")
 
 > ### Note:  
 > The content of the `localService` folders will not be changed in this tutorial. The `i18n` folder will always contain the `i18n.properties` file only. Therefore, we will show both subfolders collapsed in the following steps.
 
 
 
-## The Initial App
+### The Initial App
 
 With the downloaded coding, you have an initial app with recommended settings that provides the basic features of an OpenUI5 app:
 

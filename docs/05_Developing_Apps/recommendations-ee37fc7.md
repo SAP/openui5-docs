@@ -1,28 +1,28 @@
 <!-- loioee37fc7138b843c0a66700f0aeaba3fe -->
 
-# Recommendations
+## Recommendations
 
 When developing OpenUI5 applications, you need to pay attention to the correctness of the resulting HTML. Some vital accessibility features \(screen reader and keyboard support\) rely on a correct and meaningful structure of the application.
 
 
 
-## Rules and Guidelines
+### Rules and Guidelines
 
 
 
-### WCAG 2.2
+#### WCAG 2.2
 
 To ensure better accessibility experience and to adhere to the Web Content Accessibility Guidelines \(WCAG\) 2.2, it is important for developers and designers to follow specific guidelines. When working with OpenUI5 controls, refer to the SAP Fiori for Web design guidelines corresponding to the specific control you are using. The design guidelines provide detailed information on how each control should be implemented to meet accessibility requirements. For example for the `sap.m.Object` controls, see [Object Display Components Fiori Guidelines](https://experience.sap.com/fiori-design-web/object-display-elements/).
 
 
 
-### Don't change the HTML
+#### Don't change the HTML
 
 Theming \(CSS selectors\), keyboard handling \(tab order\) and screen reader support are tightly coupled with the HTML structure of the generated pages. If you change the structure of the elements \(for example, from custom JavaScript, HTML or CSS\), this could break some or all of the accessibility aspects. In addition, it makes debugging the application more difficult.
 
 
 
-### Initial focus position
+#### Initial focus position
 
 Within an application, the initial focus should be placed on the element that is most likely to be edited or interacted with first \(for example, mandatory fields on a form\).
 
@@ -35,19 +35,19 @@ When opening dialogs or new pages, the focus should be on the first focusable el
 
 
 
-### Don't interfere with existing accessibility features
+#### Don't interfere with existing accessibility features
 
 Overriding code, for example the keyboard tab order or OpenUI5 key handlers, will impact the correct handling and may break the accessibility of the whole application.
 
 
 
-### Make sure that each component has a unique ID
+#### Make sure that each component has a unique ID
 
 The OpenUI5 framework handles the creation of unique IDs automatically. If you pass IDs yourself, make sure that they are unique within the whole application. For more information, see the *Related Information* section.
 
 
 
-### Tooltips for container controls
+#### Tooltips for container controls
 
 Container and layout controls such as `VerticalLayout` or `Grid` inherit the tooltip property from `sap.ui.core.Element`.
 
@@ -59,7 +59,7 @@ Container and layout controls such as `VerticalLayout` or `Grid` inherit the too
 
 
 
-## Tips for Testing
+### Tips for Testing
 
 Start the application and check each screen element. Check the following:
 

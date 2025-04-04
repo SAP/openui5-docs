@@ -1,6 +1,6 @@
 <!-- loio04129b2798c447368f4c8922c3c33cd7 -->
 
-# Instantiation of Fragments
+## Instantiation of Fragments
 
 OpenUI5 provides two options to instantiate a fragment: If it is instantiated inside a controller extending `sap.ui.core.mvc.Controller`, the `loadFragment()` function is the way to go. However, if it is instantiated in a non-controller artefact, the generic function `sap.ui.core.Fragment.load()` can be used.
 
@@ -12,7 +12,7 @@ For example, if a fragment containing a button is instantiated, the result is si
 
 <a name="loio04129b2798c447368f4c8922c3c33cd7__section_lby_wsx_lqb"/>
 
-## Instantiation of Fragments in a Controller
+### Instantiation of Fragments in a Controller
 
 Since 1.93, the `loadFragment()` function is available on every controller instance extending `sap.ui.core.mvc.Controller`. This API has several advantages over the generic `sap.ui.core.Fragment.load()` function:
 
@@ -27,7 +27,7 @@ Since 1.93, the `loadFragment()` function is available on every controller insta
 
 
 
-### Loading XML Fragments
+#### Loading XML Fragments
 
 To load an XML fragment, use the following syntax:
 
@@ -42,7 +42,7 @@ this.loadFragment({
 
 
 
-### Loading JS Fragments
+#### Loading JS Fragments
 
 For JS fragments, use the module name syntax:
 
@@ -59,7 +59,7 @@ this.loadFragment({
 
 <a name="loio04129b2798c447368f4c8922c3c33cd7__section_wcr_5sx_lqb"/>
 
-## Generic Instantiation of Fragments
+### Generic Instantiation of Fragments
 
 The generic function `sap.ui.core.Fragment.load()` can be called with either the name, the type, and optionally a controller, or with a configuration object and an optional controller; for more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load). 
 

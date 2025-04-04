@@ -1,6 +1,6 @@
 <!-- loio295e44b2d0144318bcb7bdd56bfa5189 -->
 
-# List, List Item, and Table
+## List, List Item, and Table
 
 `sap.m.List` and `sap.m.Table` both inherit from the abstract `sap.m.ListBase` and provide the features used for lists and tables.
 

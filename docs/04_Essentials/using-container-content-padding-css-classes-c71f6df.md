@@ -1,6 +1,6 @@
 <!-- loioc71f6df62dae47ca8284310a6f5fc80a -->
 
-# Using Container Content Padding CSS Classes
+## Using Container Content Padding CSS Classes
 
 For many container controls in OpenUI5, such as a Dialog or a Page, you can define whether the container should have a padding within the content area. A padding clears the area between the container layout and the controls that are displayed in the content area.
 

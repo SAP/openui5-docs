@@ -1,12 +1,12 @@
 <!-- loiobc410e94e46540efa02857e15aae583f -->
 
-# Object Page Scrolling
+## Object Page Scrolling
 
 The object page offers different ways to handle specific scrolling scenarios.
 
 
 
-## General Scrolling Behavior
+### General Scrolling Behavior
 
 By default, the `headerContent` of the `ObjectPage` snaps to the `headerTitle` when scrolling a longer section. Some of the contents of the `headerContent` move to the `headerTitle` and thus always remain visible. You can see an example of this behavior in the screenshot below.
 
@@ -14,7 +14,7 @@ By default, the `headerContent` of the `ObjectPage` snaps to the `headerTitle` w
   
 **Object Page Header: Expanded \(left\) / Snapped \(right\)**
 
-![](images/Object_Page_Header_Expanded_vs_Snapped_1106798.png "Object Page Header: Expanded (left) / Snapped (right)")
+![](images/loio1106798cda9a4eda858c4322b933579d_HiRes.png "Object Page Header: Expanded (left) / Snapped (right)")
 
 This behavior can be altered. Setting the property `alwaysShowContentHeader` to `true` will prevent the `headerContent` from snapping.
 
@@ -23,7 +23,7 @@ This behavior can be altered. Setting the property `alwaysShowContentHeader` to 
 
 
 
-## Selected Section
+### Selected Section
 
 As the user scrolls through the sections, the currently scrolled section is internally set to the `selectedSection` association of `ObjectPageLayout`. The app can also modify its value:
 

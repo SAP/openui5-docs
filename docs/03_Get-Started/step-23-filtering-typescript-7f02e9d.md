@@ -1,24 +1,24 @@
 <!-- loio7f02e9d71b0f41749a4e5df2b73cb2dd -->
 
-# Step 23: Filtering \(TypeScript\)
+## Step 23: Filtering \(TypeScript\)
 
 In this step, we add a search field for our product list and define a filter that represents the search term. When searching, the list is automatically updated to show only the items that match the search term.
 
 
 
-## Preview
+### Preview
 
   
   
 **A search field is displayed above the list**
 
-![A filtered list of invoices is displayed below the panel](images/UI5_Walkthrough_Step_23_472ab6b.png "A search field is displayed above the list")
+![A filtered list of invoices is displayed below the panel](images/loio472ab6bf88674c23ba103efd97163133_LowRes.png "A search field is displayed above the list")
 
 
 
 <a name="loio7f02e9d71b0f41749a4e5df2b73cb2dd__section_qx5_wch_ycb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 23: Filtering](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/23) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-23.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 23: Filtering](
 
 <a name="loio7f02e9d71b0f41749a4e5df2b73cb2dd__section_s2c_dsz_nzb"/>
 
-## webapp/controller/InvoiceList.controller.js
+### webapp/controller/InvoiceList.controller.js
 
 In the controller of the invoice list view we add a new `onFilterInvoices` event handler function with an `event` of type `SearchField$SearchEvent` as import parameter.
 
@@ -78,7 +78,7 @@ export default class App extends Controller {
 
 <a name="loio7f02e9d71b0f41749a4e5df2b73cb2dd__section_rx5_wch_ycb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 First, we specify "invoiceList" as an ID for the list control, so the event handler function `onFilterInvoices` we added to the controller of the invoice list view can identify the list when triggered.
 

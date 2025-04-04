@@ -1,6 +1,6 @@
 <!-- loio70ef981d350a495b940640801701c409 -->
 
-# Step 7: JSON Model
+## Step 7: JSON Model
 
 Now that we have set up the view and controller, it's about time to think about the M in MVC.
 
@@ -8,20 +8,20 @@ We will add an input field to our app, bind its value to the model, and bind the
 
 
 
-## Preview
+### Preview
 
   
   
 **An input field and a description displaying the value of the input field**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_07_afc1055.png "An input field and a description displaying the value of the input
+![The graphic has an explanatory text](images/loioafc105517a644407bd90662e3d94ea01_LowRes.png "An input field and a description displaying the value of the input
 					field")
 
 
 
 <a name="loio70ef981d350a495b940640801701c409__section_e2g_rvc_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 7](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.07).
 
@@ -29,7 +29,7 @@ You can view and download all files at [Walkthrough - Step 7](https://ui5.sap.co
 
 <a name="loio70ef981d350a495b940640801701c409__section_f2g_rvc_syb"/>
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([
@@ -68,7 +68,7 @@ The message toast is just showing the static "Hello World" message. We will show
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View

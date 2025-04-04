@@ -1,6 +1,6 @@
 <!-- loioadcbcf8b50924556ab3f321fcd9353ea -->
 
-# The `resources.json` File
+## The `resources.json` File
 
 The `resources.json` file lists all resources in a component or library folder. It resides next to each `manifest.json` in the generated results.
 
@@ -50,7 +50,7 @@ Description
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -72,7 +72,7 @@ The relative path of the resource as accessible in a server. The path is relativ
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">

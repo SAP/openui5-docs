@@ -1,28 +1,28 @@
 <!-- loio1b47457cbe4941ee926317d827517acb -->
 
-# Step 6: A First OPA Test
+## Step 6: A First OPA Test
 
 A bulletin board may contain many posts. We expect to have a high data load once it is officially released. Then, there might be performance issues and long loading times if we display all entries at the same time. Therefore we will introduce a feature that limits the initial display to 20 items. The user can then click on a more button to view more items. As with the unit test, we start by writing an integration test for this feature and then add the application functionality later.
 
 
 
-## Preview
+### Preview
 
   
   
 **The OPA test page is waiting for more items to be loaded**
 
-![](images/Tutorial_Testing_Step_06_c4aaadb.jpg "The OPA test page is waiting for more items to be loaded")
+![](images/loioc4aaadbedb9b4111baec4e0738657d5c_LowRes.jpg "The OPA test page is waiting for more items to be loaded")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Testing - Step 6](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.06).
 
 
 
-## Integration Test Setup
+### Integration Test Setup
 
 All integration tests are located in the `webapp/test/integration` folder and can be started by opening `webapp/test/testsuite.qunit.html` in your browser and selecting `integration/opaTests`.
 
@@ -35,7 +35,7 @@ We write integration tests with OPA5 – a tool that is integrated and delivered
   
 **Integration test infrastructure in the project**
 
-![](images/Tutorial_Testing_Step_06_2_new_596ebcf.png "Integration test infrastructure in the project")
+![](images/loio596ebcf8996a4a838c0ab4189ddf1804_LowRes.png "Integration test infrastructure in the project")
 
 For structuring integration tests with OPA we use "journeys". A test journey contains all test cases for a specific view or use case, for example the navigation journey simulates user interaction with the app.
 
@@ -46,7 +46,7 @@ The journey uses another structuring element of OPA called "page object" that en
 
 
 
-## webapp/test/integration/WorklistJourney.js
+### webapp/test/integration/WorklistJourney.js
 
 ```js
 /*global QUnit*/
@@ -106,7 +106,7 @@ Now you might wonder where all those descriptive functions and the helper object
 
 
 
-## webapp/test/integration/pages/Worklist.js
+### webapp/test/integration/pages/Worklist.js
 
 ```js
 sap.ui.define([
@@ -205,7 +205,7 @@ Now run the `webapp/test/testsuite.qunit.html` file in your browser and select `
 
 
 
-## Conventions
+### Conventions
 
 -   Use OPA tests for UI-related integration tests
 

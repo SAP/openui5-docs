@@ -1,6 +1,6 @@
 <!-- loioc689cd83e2524251a75d694b09263d07 -->
 
-# Gherkin and OPA Page Objects
+## Gherkin and OPA Page Objects
 
 Gherkin is compatible with the concept of OPA5 page objects.
 

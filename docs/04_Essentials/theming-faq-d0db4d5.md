@@ -1,12 +1,12 @@
 <!-- loiod0db4d538edb43bca893acd4d6814a40 -->
 
-# Theming FAQ
+## Theming FAQ
 
 Frequently asked questions regarding theming in OpenUI5
 
 
 
-## How can I adapt the visuals of a control?
+### How can I adapt the visuals of a control?
 
 While there is always the option to create a new theme, this is overkill for most minor style adaptations. For those minor changes, the recommendation is to include additional CSS into the page which changes the style of the respective tags of the OpenUI5 control. This allows complete, arbitrary changes of the visual design - after all it is the same technology that the UI5 controls use for their styling.
 
@@ -28,7 +28,7 @@ The main options are the following:
 
 <a name="loiod0db4d538edb43bca893acd4d6814a40__section_mwg_rvd_nbb"/>
 
-## How can I provide additional CSS that is not overwritten by the OpenUI5 CSS?
+### How can I provide additional CSS that is not overwritten by the OpenUI5 CSS?
 
 When OpenUI5 is used in a standard way, which means loaded by a`<script>` element in the `<head>` of a page, and all libraries declared in the respective attribute of the `script` tag\), it is sufficient to just add the custom CSS to any place after the OpenUI5 `<script>` element. OpenUI5 will insert its CSS links immediately after the `<script>` tag, so any subsequent CSS will appear further down in the DOM and can thus overwrite the OpenUI5 CSS.
 
@@ -45,7 +45,7 @@ The order of loading is completely irrelevant, only the position in the DOM coun
 
 
 
-## Why do OpenUI5 controls not have a `style` property where I can make arbitrary changes?
+### Why do OpenUI5 controls not have a `style` property where I can make arbitrary changes?
 
 A control usually does not map to **one** HTML element, but to a whole tree of HTML elements. Whatever is set for the `style` property would probably be added to the root element of this HTML tree, and only there, so there is no `style` access to inner parts. If you just want to override the height of a button, this would actually work. But as soon as a change is a bit more complex, it will not work that easily. A more complex change is, for example, adapting the height of a `ComboBox` control. The outer `<div>` will get the proper height. And incidentally also the `<input>` tag inside, as it has 100% height set. But the dropdown arrow and the respective button-kind-of-thing has a fixed height, and the whole control will look pretty broken then.
 
@@ -57,7 +57,7 @@ Applications \(at least the more traditional ones – currently this seems to be
 
 
 
-## I am adding a style class, but it does not work! Why?
+### I am adding a style class, but it does not work! Why?
 
 If you want to change some styling and use `control.addStyleClass(…)` to add a CSS class, but it does not seem to work, you first have to pin down exactly what is not working:
 
@@ -78,7 +78,7 @@ You can check this by inspecting the HTML with your browser's developer tools.
 
 <a name="loiod0db4d538edb43bca893acd4d6814a40__section_opb_ccz_3bb"/>
 
-## How can I perform a "clean" browser switch inside CSS code?
+### How can I perform a "clean" browser switch inside CSS code?
 
 On all OpenUI5 application pages, the HTML root tag of the DOM gets the additional attribute `data-sap-ui-browser` where the value is the type and the current browser version. When browser-specific CSS needs to be written, this attribute can be used in CSS selectors.
 
@@ -91,7 +91,7 @@ html[data-sap-ui-browser*="sf"] button {  /* this rule will only be applied if t
 
 
 
-## When should I use the UI theme designer, and when should I perform manual steps?
+### When should I use the UI theme designer, and when should I perform manual steps?
 
 There is not one single way to create a new theme, but there are several options. Which one you choose depends on several factors:
 

@@ -1,6 +1,6 @@
 <!-- loio291c9121e6044ab381e0b51716f97f52 -->
 
-# Testing Tutorial
+## Testing Tutorial
 
 In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development \(TDD\), and much more.
 
@@ -16,13 +16,13 @@ There are a lot more reasons and many small details that we will address through
 
 
 
-## Preview
+### Preview
 
-![](images/Tutorial_Testing_Overview_89001ea.png)
+![](images/loio89001ea1e4ab4529b8d412ee683b9744_HiRes.png)
 
 
 
-## Prerequisites
+### Prerequisites
 
 In addition to the prerequisites that are presupposed for all our tutorials \(see [Prerequisites](get-started-setup-tutorials-and-demo-apps-8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_prerequisites)\), you should also be familiar with the basics of JavaScript unit testing with QUnit. Have a look at the official QUnit documentation to make yourself familiar with basic testing knowledge. Steps 27 to 29 of the Walkthrough tutorial also cover the test setup in an app that is used throughout this tutorial.
 

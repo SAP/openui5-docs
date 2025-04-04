@@ -1,6 +1,6 @@
 <!-- loio27dec1d8246d4b129d8747a317483253 -->
 
-# What's New in OpenUI5 1.100
+## What's New in OpenUI5 1.100
 
 With this release OpenUI5 is upgraded from version 1.99 to 1.100.
 

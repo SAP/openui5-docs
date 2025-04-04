@@ -1,6 +1,6 @@
 <!-- loio497c27a8ee26426faacd2b8a1751794a -->
 
-# Theming
+## Theming
 
 OpenUI5 is an HTML UI library, therefore styling is done using Cascading Style Sheets \(CSS\). This allows for creating an impressive visual experience using a widely known standard technology which is well-accepted on the market.
 
@@ -27,7 +27,7 @@ To ensure these functions, OpenUI5 uses the following components:
 
 
 
-## How to Theme Your OpenUI5 Application
+### How to Theme Your OpenUI5 Application
 
 To theme your application, you can choose among a number of options:
 
@@ -41,7 +41,7 @@ For all these options, the CSS developer might reduce the styling effort and foc
 
 
 
-## Developing Custom HTML or Your Own Control – What to Bear in Mind
+### Developing Custom HTML or Your Own Control – What to Bear in Mind
 
 -   To ensure that your OpenUI5 application's OpenUI5 theme can be adapted easily, you should follow some recommendations.
 

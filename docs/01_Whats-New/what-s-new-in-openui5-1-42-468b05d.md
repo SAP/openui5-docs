@@ -1,6 +1,6 @@
 <!-- loio468b05d592344ed5bcbf62c9bace2d6c -->
 
-# What's New in OpenUI5 1.42
+## What's New in OpenUI5 1.42
 
 With this release OpenUI5 is upgraded from version 1.40 to 1.42.
 
@@ -76,17 +76,17 @@ This control is an SAP Fiori 2.0 control, designed to support the basic SAP Fior
   
 **Expanded Mode**
 
-![](images/Whats_New_142_DynamicPageExpanded_b6e9d79.png "Expanded Mode")
+![](images/loiob6e9d79a2c164db79b30b7fa57ec4317_LowRes.png "Expanded Mode")
 
   
   
 **Collapsed Mode**
 
-![](images/WhatsNew_142_DynamicPageSnapped_a4eb968.png "Collapsed Mode")
+![](images/loioa4eb96875f7d4d1faae0d40aa4b38c52_LowRes.png "Collapsed Mode")
 
 There is an option for displaying a footer as a toolbar with additional actions. The footer is also known as a “floating footer”, as it appears to float above the content of the page. The benefit of the new footer look-and-feel is that it is easily recognized by the end user.
 
-![](images/WhatsNew_142_DynamicPageFooter_2f364ce.png)
+![](images/loio2f364cef44194cdca2e2ea99a343e8db_LowRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.f.DynamicPage) and the [Samples](https://ui5.sap.com/#/entity/sap.f.DynamicPage).
 
@@ -172,7 +172,7 @@ Control
 
 The `LightBox` control is used to display an image in its original size. When the user clicks on a thumbnail, a `LightBox` containing the image opens in a new popup. The popup also contains a title and subtitle. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.LightBox) and the [Samples](https://ui5.sap.com/#/entity/sap.m.LightBox).
 
-![](images/WhatsNew_142_LightBox_5a6da1a.png)
+![](images/loio5a6da1afb5074d329263474f4afabc68_LowRes.png)
 
 <sub>New•Control•Info Only•1.42</sub>
 
@@ -261,7 +261,7 @@ The `Carousel` control has two enhancements.
 -   The page indicator now shows numbers instead of bullets, when the number of items in the `Carousel` is above nine.
 
 
-![](images/WhatsNew_142_Carousel_a698aa6.png)
+![](images/loioa698aa6c990b41458195603167aa70fe_LowRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.Carousel/methods/getArrowsPlacement) and the [Sample](https://ui5.sap.com/#/entity/sap.m.Carousel/sample/sap.m.sample.CarouselWithDisplayOptions).
 
@@ -926,7 +926,7 @@ Feature
 
 -   Slowing down the execution: You can now use the new URL parameter `paExecutionDelay` to pass on `myOpaTest.qunit.html?opaExecutionDelay=700` to every OPA test. This means there will be a pause for 700 milliseconds before a new `waitFor` statement is executed. It helps when troubleshooting or if you want to watch OPA clicking through your application because it might be too fast to follow. There is also a dropdown list with three predefined values in your QUnit site.
 
-    ![](images/WhatsNew_142_OPA_08dd0be.png)
+    ![](images/loio08dd0bebf10c4561b1ee146f4ac5a6ab_LowRes.png)
 
 
 <sub>Changed•Feature•Info Only•1.42</sub>

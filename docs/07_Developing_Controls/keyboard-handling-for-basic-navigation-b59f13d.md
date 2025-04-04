@@ -1,12 +1,12 @@
 <!-- loiob59f13d3586c4196b28e92683e9dff19 -->
 
-# Keyboard Handling for Basic Navigation
+## Keyboard Handling for Basic Navigation
 
 The following keys and key combinations are used for navigation between controls within an application.
 
 
 
-## Standard Navigation
+### Standard Navigation
 
 Navigation between controls is done using the [Tab\] key. [Tab\] moves the focus from one control to the next one inside the application. The tab order is defined by the placement of the control within the DOM tree, therefore apps have a large influence on it.
 
@@ -63,7 +63,7 @@ On leave, move focus to the previous control in the tab order.
 
 
 
-## Group Navigation
+### Group Navigation
 
 Controls which are adjacent within the application can be grouped. Within a group, [F6\] or [Ctrl\] + [Alt/Option\] + [Down\]  skip all controls of the group and move the focus to the first control in the application within the **next** group. [Shift\] + [F6\]  or [Ctrl\] + [Alt/Option\] + [Up\] move the focus to the first control of the **previous** group.
 

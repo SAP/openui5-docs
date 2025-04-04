@@ -1,12 +1,12 @@
 <!-- loio2c5c84d207d246bc9f733f29df1ff892 -->
 
-# Working with Multiple Targets
+## Working with Multiple Targets
 
 If you want to navigate to multiple targets with the same hash, you can either assign multiple targets to a route, or define a parent for the target.
 
 
 
-## Multiple Targets for the Same Route
+### Multiple Targets for the Same Route
 
 In the routing configuration, you can add multiple targets for the same route.
 
@@ -16,7 +16,7 @@ If you add multiple targets to a route, this builds a connection between the tar
 
 
 
-## Parent Relationship
+### Parent Relationship
 
 You can also define a parent for a target in the target definition. For the parent, you also create an entry in the `targets` configuration, but you don't have to create a corresponding route.
 

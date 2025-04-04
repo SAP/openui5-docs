@@ -1,6 +1,6 @@
 <!-- loio1dfab2e19fc0479d9dfcefc28d3642f1 -->
 
-# Multiple Module Locations
+## Multiple Module Locations
 
 OpenUI5 supports multiple module locations by means of the `sap.ui.loader.config` function.
 

@@ -1,6 +1,6 @@
 <!-- loio4e4315cef89e48ceb60b4dc12f5be2d2 -->
 
-# Step 4: Adding a Detail Page
+## Step 4: Adding a Detail Page
 
 In this step, we add an empty detail page.
 
@@ -8,19 +8,19 @@ In this step, we add an empty detail page.
 
 <a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_ed2_4dd_lbb"/>
 
-## Preview
+### Preview
 
   
   
 **List Page with Empty Detail Page**
 
-![](images/Master_Page_with_Empty_Detail_Page_Fiori_2_0_Tutorial_10dec0c.gif "List Page with Empty Detail Page")
+![](images/loio10dec0cd47ca4a6fb9ce1caf2ba768e3_LowRes.gif "List Page with Empty Detail Page")
 
 
 
 <a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 4](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.04/preview).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Flexible Column Layout App - Step 4](htt
 
 <a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_a5b_clj_l4b"/>
 
-## webapp/view/Detail.view.xml \[NEW\]
+### webapp/view/Detail.view.xml \[NEW\]
 
 ```xml
 <mvc:View
@@ -42,7 +42,7 @@ First, we create a blank detail page.
 
 <a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_t3z_1lj_l4b"/>
 
-## webapp/view/App.view.xml \[MODIFY\]
+### webapp/view/App.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -67,7 +67,7 @@ We add the detail page in `FlexibleColumnLayout's` `midColumnPages` aggregation 
 
 <a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_xw1_1lj_l4b"/>
 
-## webapp/view/List.view.xml \[MODIFY\]
+### webapp/view/List.view.xml \[MODIFY\]
 
 ```xml
 		...
@@ -104,7 +104,7 @@ We add a `press` handler to each `ColumnListItem` in the `List.view.xml`.
 
 <a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_nxz_ykj_l4b"/>
 
-## webapp/controller/List.controller.js \[MODIFY\]
+### webapp/controller/List.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([

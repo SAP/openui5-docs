@@ -1,6 +1,6 @@
 <!-- loiof038c99e2fc74879a5b679fccecf769c -->
 
-# What's New in OpenUI5 1.102
+## What's New in OpenUI5 1.102
 
 With this release OpenUI5 is upgraded from version 1.101 to 1.102.
 
@@ -328,7 +328,7 @@ In particular, the following changes have been applied:
 
 -   We have adapted the tooltips of the *Delete* buttons for removing entries on the tabs.
 
-    ![](images/Sort_tab_for_WN_View_Settings_53d93b3.png)
+    ![](images/loio53d93b35ecc24e6cb1d69ab6ca387760_LowRes.png)
 
 -   For a more simplified search, especially in a long selection list, users can now enter a column name.
 

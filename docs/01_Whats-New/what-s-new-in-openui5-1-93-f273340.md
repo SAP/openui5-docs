@@ -1,6 +1,6 @@
 <!-- loiof273340e4c3f4d4180296af070f59f50 -->
 
-# What's New in OpenUI5 1.93
+## What's New in OpenUI5 1.93
 
 With this release OpenUI5 is upgraded from version 1.92 to 1.93.
 
@@ -292,11 +292,11 @@ Control
 
 -   We have updated the design of the overflow tab according to the latest SAP Fiori guidelines.
 
-    ![](images/WhatsNew_193_OverflowTabs_90cdc6e.png)
+    ![](images/loio90cdc6e0465245ea88856a64eb2f3bfa_LowRes.png)
 
     Additionally, when using the `StartAndEnd` tab overflow mode, both overflow tabs will display the number of tabs that they hold.
 
-    ![](images/WhatsNew_193_OverflowStartAndEndTabs_d507f84.png)
+    ![](images/loiod507f84c6a874e65b56ccce1cc540b99_LowRes.png)
 
     For more information, see the [Sample](https://ui5.sap.com/#/entity/sap.m.IconTabBar/sample/sap.m.sample.IconTabBarStartAndEndOverflow).
 
@@ -637,7 +637,7 @@ Feature
 
 We have improved the *Change Version* dialog to help you find the desired version faster. We grouped the patch numbers according to minor version, and we added a search field.
 
-![](images/What_s_New_1_93_-_Demo_Kit_Change_Version_Dialog_859079f.png)
+![](images/loio859079fb6af543689477c5e4713c2973_HiRes.png)
 
 <sub>Changed•Feature•Info Only•1.93</sub>
 

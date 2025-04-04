@@ -1,6 +1,6 @@
 <!-- loio4c1c95953602429798faec98065f2096 -->
 
-# What's New in OpenUI5 1.86
+## What's New in OpenUI5 1.86
 
 With this release OpenUI5 is upgraded from version 1.85 to 1.86.
 
@@ -555,7 +555,7 @@ To proceed to the page that lists all search results, you can either finish your
 
 At the bottom of the popover, you have the *Results by Category* section from where you can proceed directly to the chosen search results page \(*API Reference*, *Documentation*, or *Samples*\).
 
-![](images/WN1_86_Demo_Kit_Search_Suggestions_b35225c.gif)
+![](images/loiob35225c0a6b54b4e98852363ed08a0e8_HiRes.gif)
 
 <sub>Changed•Feature•Info Only•1.86</sub>
 

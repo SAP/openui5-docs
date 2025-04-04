@@ -1,6 +1,6 @@
 <!-- loio4cfa60872dca462cb87148ccd0d948ee -->
 
-# Step 9: Component Configuration
+## Step 9: Component Configuration
 
 After we have introduced all three parts of the Model-View-Controller \(MVC\) concept, we now come to another important structural aspect of OpenUI5.
 
@@ -8,18 +8,18 @@ In this step, we will encapsulate all UI assets in a component that is independe
 
 
 
-## Preview
+### Preview
 
   
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_09_cac9bcf.png "An input field and a description displaying the value of the input field (No
+![The graphic has an explanatory text](images/loiocac9bcfa902c44c496d115acd7ee7376_LowRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 9](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.09).
 
@@ -27,13 +27,13 @@ You can view and download all files at [Walkthrough - Step 9](https://ui5.sap.co
   
 **Folder Structure for this Step**
 
-![The graphic has an explanatory text](images/SAPUI5_Walkthrough_Step_09_Folder_Structure_1e237a3.png "Folder Structure for this Step")
+![The graphic has an explanatory text](images/loio1e237a36972a44ac8522dd1a540ac062_LowRes.png "Folder Structure for this Step")
 
 After this step your project structure will look like the figure above. We will create the `Component.js` file now and modify the related files in the app.
 
 
 
-## webapp/Component.js \(New\)
+### webapp/Component.js \(New\)
 
 ```js
 sap.ui.define([
@@ -55,7 +55,7 @@ We create an initial `Component.js` file in the `webapp` folder that will hold o
 
 
 
-## webapp/Component.js
+### webapp/Component.js
 
 ```js
 sap.ui.define([
@@ -109,7 +109,7 @@ In the `init` function we instantiate our data model and the `i18n` model like w
 
 
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([
@@ -139,7 +139,7 @@ Delete the `onInit` function and the required modules; this is now done in the c
 
 <a name="loio4cfa60872dca462cb87148ccd0d948ee__section_ok2_4n5_zgb"/>
 
-## webapp\\index.js
+### webapp\\index.js
 
 ```js
 sap.ui.define([
@@ -161,7 +161,7 @@ We now create a component container instead of the view in our `index.js` that i
 
 
 
-## Conventions
+### Conventions
 
 -   The component is named `Component.js`.
 

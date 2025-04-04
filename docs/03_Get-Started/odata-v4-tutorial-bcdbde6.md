@@ -1,6 +1,6 @@
 <!-- loiobcdbde6911bd4fc68fd435cf8e306ed0 -->
 
-# OData V4 Tutorial
+## OData V4 Tutorial
 
 In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.
 
@@ -12,9 +12,9 @@ We start with an initial app that simply retrieves data from an OData V4 service
 
 <a name="loiobcdbde6911bd4fc68fd435cf8e306ed0__section_dsn_cwc_z1b"/>
 
-## Preview
+### Preview
 
-![](images/Tutorial_OData_V4_Step_8_e518deb.png)
+![](images/loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png)
 
 
 

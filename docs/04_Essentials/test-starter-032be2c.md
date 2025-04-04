@@ -1,6 +1,6 @@
 <!-- loio032be2cb2e1d4115af20862673bedcdb -->
 
-# Test Starter
+## Test Starter
 
 The test starter is a concept intended to simplify the test setup for OpenUI5 applications and libraries by orchestrating your QUnit and OPA5 tests.
 
@@ -8,7 +8,7 @@ The test starter is a concept intended to simplify the test setup for OpenUI5 ap
 
 <a name="loio032be2cb2e1d4115af20862673bedcdb__section_szb_fxg_vcc"/>
 
-## Goals
+### Goals
 
 Using the test starter concept in your project:
 

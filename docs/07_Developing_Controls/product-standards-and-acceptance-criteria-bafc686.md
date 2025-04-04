@@ -1,6 +1,6 @@
 <!-- loiobafc6867041644a9b596370e48a106ee -->
 
-# Product Standards and Acceptance Criteria
+## Product Standards and Acceptance Criteria
 
 To be of high quality and usable in mission-critical business software, OpenUI5 needs to fulfill specific product standards and acceptance criteria. While these are not directly related to code conventions, the most important standards and criteria are mentioned here, because new code needs to fulfill these requirements.
 

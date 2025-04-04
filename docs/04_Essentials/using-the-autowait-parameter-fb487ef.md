@@ -1,6 +1,6 @@
 <!-- loiofb487ef0f9bf41a3afdbd0cc97368873 -->
 
-# Using the `autoWait` Parameter
+## Using the `autoWait` Parameter
 
 Configuring OPA to use `autoWait` parameter for all statements improves test stability and reduces the number of `waitFor` statements.
 
@@ -8,7 +8,7 @@ Configuring OPA to use `autoWait` parameter for all statements improves test sta
 
 <a name="loiofb487ef0f9bf41a3afdbd0cc97368873__section_vnr_vln_2cb"/>
 
-## Overview
+### Overview
 
 The OPA `autoWait` parameter is available as of version 1.48. It is a good practice to enable it in your tests. By default, it is not enabled in order to keep old tests running.
 
@@ -70,7 +70,7 @@ If you decide to start using `autoWait` in your existing tests, the easiest way 
 
 <a name="loiofb487ef0f9bf41a3afdbd0cc97368873__section_efn_nnn_2cb"/>
 
-## `autoWait` and App Startup
+### `autoWait` and App Startup
 
 Usually, there is a lot of time-consuming work done on app startup which can make the entire app noninteractive for a long time.
 
@@ -91,7 +91,7 @@ Given.iStartMyAppInAFrame({
 
 <a name="loiofb487ef0f9bf41a3afdbd0cc97368873__section_ozc_m43_1gb"/>
 
-## `AutoWait` and Overflow Toolbars
+### `AutoWait` and Overflow Toolbars
 
 Under some specific circumstances, the `autoWait` is not waiting enough time and the next interaction happens before the awaited controls are fully rendered. This problem is particularly visible with overflow toolbars as the interaction with buttons in the toolbar happens before it is completely open and the included buttons are not yet ready, meaning that the interactions are lost.
 

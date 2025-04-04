@@ -1,6 +1,6 @@
 <!-- loio9c22d2ada0414d97837b845e1e85ab86 -->
 
-# Extensions for OPA5
+## Extensions for OPA5
 
 Extend OPA capabilities with custom extensions.
 
@@ -10,7 +10,7 @@ You can provide application-aware assertions that are called from the test but o
 
 <a name="loio9c22d2ada0414d97837b845e1e85ab86__section_nng_x5k_b1b"/>
 
-## Interface
+### Interface
 
 The extension API is defined in the `sap.ui.test.OpaExtension` class. A custom extension should extend this class and implement the necessary methods. The extension class should be available in the application and loaded in the application frame.
 
@@ -25,7 +25,7 @@ The extension API is defined in the `sap.ui.test.OpaExtension` class. A custom e
 
 <a name="loio9c22d2ada0414d97837b845e1e85ab86__section_nnd_y5k_b1b"/>
 
-## Lifecycle
+### Lifecycle
 
 To load an extension, the test should enable it by specifying extension class name as string in the key 'extensions' in the options object given to `Opa5.extendConfig()`. An array of extension names could be specified or the extension name `?opaExtensions=[my/custom/Extension]` could be given in the test URL. If the extension needs some application parameters, they could be provided in the `appParams`.
 
@@ -35,7 +35,7 @@ For more information, see the *API Reference*: [`Opa5.extendConfig()`](https://u
 
 <a name="loio9c22d2ada0414d97837b845e1e85ab86__section_oc2_y5k_b1b"/>
 
-## Example
+### Example
 
 Custom extension class:
 

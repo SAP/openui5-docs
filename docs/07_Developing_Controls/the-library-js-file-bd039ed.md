@@ -1,6 +1,6 @@
 <!-- loiobd039ed5f99e4d3f8d020b0da62f9d85 -->
 
-# The library.js File
+## The library.js File
 
 The `library.js` file is a JavaScript file that contains the JavaScript code for all enumeration types provided by the library as well as library-specific initialization code that is independent from the controls in the library.
 
@@ -53,7 +53,7 @@ sap.ui.define([
 
 <a name="loiobd039ed5f99e4d3f8d020b0da62f9d85__section_cxp_t22_2z"/>
 
-## Enumerations and RegEx Types
+### Enumerations and RegEx Types
 
 
 
@@ -75,7 +75,7 @@ sap.ui.define(["sap/ui/core/library"], function(library) {
 
 <a name="loiobd039ed5f99e4d3f8d020b0da62f9d85__section_tx3_y22_2z"/>
 
-## ManagedObject Metadata
+### ManagedObject Metadata
 
 In the metadata definition of `ManagedObject` subclasses, types for properties, aggregations, associations and event parameters have to be specified with global names as strings.
 

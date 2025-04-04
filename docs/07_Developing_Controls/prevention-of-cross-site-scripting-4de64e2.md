@@ -1,6 +1,6 @@
 <!-- loio4de64e2e191f4a7297d4fd2d1e233a2d -->
 
-# Prevention of Cross-site Scripting
+## Prevention of Cross-site Scripting
 
 Cross-site scripting \(XSS\) can be prevented by ensuring that it is **not** possible to inject script code into an application page that runs in a browser.
 
@@ -17,7 +17,7 @@ Controls must prohibit writing scripts to the page that comes from the applicati
 
 
 
-## Avoiding XSS for a New Renderer
+### Avoiding XSS for a New Renderer
 
 To ensure maximum security for a renderer, note the following:
 

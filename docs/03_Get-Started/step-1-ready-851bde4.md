@@ -1,6 +1,6 @@
 <!-- loio851bde42e4e1410c96abbe402fa9128c -->
 
-# Step 1: Ready...
+## Step 1: Ready...
 
 Let's get you ready for your journey! We bootstrap OpenUI5 in an HTML page and implement a simple "Hello World" example.
 
@@ -8,19 +8,19 @@ Let's get you ready for your journey! We bootstrap OpenUI5 in an HTML page and i
 
 <a name="loio851bde42e4e1410c96abbe402fa9128c__section_cpm_14c_1gb"/>
 
-## Preview
+### Preview
 
   
   
 **The browser shows a "Ready" button that triggers a "Hello World" message**
 
-![](images/Tutorial_Quick_Start_Step_1_9c157e9.png "The browser shows a "Ready" button that triggers a "Hello World" message")
+![](images/loio9c157e9764b846fea7de519d141c33ac_LowRes.png "The browser shows a "Ready" button that triggers a "Hello World" message")
 
 
 
 <a name="loio851bde42e4e1410c96abbe402fa9128c__section_lv5_lvy_zbc"/>
 
-## Setup
+### Setup
 
 Open a terminal and install UI5 Tooling globally on your machine by executing the following command:
 
@@ -30,7 +30,7 @@ Open a terminal and install UI5 Tooling globally on your machine by executing th
 
 <a name="loio851bde42e4e1410c96abbe402fa9128c__section_zzy_mpc_1gb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Quick Start - Step 1](https://ui5.sap.com/#/sample/sap.m.tutorial.quickstart.01/preview).
 

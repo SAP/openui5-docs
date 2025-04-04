@@ -1,6 +1,6 @@
 <!-- loiob15e6afc5ae74227a661dc6ff104bf80 -->
 
-# Extension Points
+## Extension Points
 
 Extension points can be used in XML templating to extend the standard with custom content.
 

@@ -1,28 +1,28 @@
 <!-- loioa7932a791adc4a58ae4693400801ea5f -->
 
-# Step 16: Handle Invalid Hashes by Listening to Bypassed Events
+## Step 16: Handle Invalid Hashes by Listening to Bypassed Events
 
 So far we have created many useful routes in our app. In the very early steps we have also made sure that a *Not Found* page is displayed in case the app was called with an invalid hash. Now, we proceed further and track invalid hashes to be able to detect and correct any invalid links or add new URL patterns that are often requested but not found. Therefore, we simply listen to the bypassed events
 
 
 
-## Preview
+### Preview
 
   
   
 **Console output for invalid hashes when listening to bypassed events**
 
-![](images/Tutorial_Navigation_and_Routing_Step_16_6f2e76a.png "Console output for invalid hashes when listening to bypassed events")
+![](images/loio6f2e76a0c5dc476ba8381865a06748c9_HiRes.png "Console output for invalid hashes when listening to bypassed events")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 16](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.16).
 
 
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([

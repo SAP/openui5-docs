@@ -1,12 +1,12 @@
 <!-- loio902313063d6f45aeaa3388cc4c13c34e -->
 
-# Routing Configuration
+## Routing Configuration
 
 Routing configuration consists of `routes`, `targets`, `config`, and `owner`.
 
 
 
-## Routes
+### Routes
 
 Preferably, an **array** of routes is added to the router. Each route defines a name, a pattern, and optionally one or more targets to which to navigate when the route has been matched. In the `routes` section, you define which patterns are available for navigation. Routes need to be defined in an array instead of an object, because their order in the array determines the sequence when matching against the browser hash.
 
@@ -29,7 +29,7 @@ For more information, see [API Reference: `sap.m.routing.Router`](https://ui5.sa
 
 
 
-## Targets
+### Targets
 
 A target defines the view or component that is displayed. It is associated with one or more routes or it can be displayed manually from within the app. Whenever a target is displayed, the corresponding view or component is loaded and added to the aggregation configured with the `controlAggregation` option of the control. The target definition can contain the following parameters:
 
@@ -84,7 +84,7 @@ For more information, see [API Reference: `sap.m.routing.Router`](https://ui5.sa
 
 
 
-## Config
+### Config
 
 The `config` section contains the global router configuration and default values that apply for all routes and targets. The `config` section contains the following settings.
 
@@ -121,7 +121,7 @@ For more information, see [API Reference: `sap.m.routing.Router`](https://ui5.sa
 
 
 
-## Owner
+### Owner
 
 The `owner` parameter defines the owner of all views that are created by the router. This is typically a `UIComponent`. This parameter is set automatically if the router instance is instantiated by a component.
 

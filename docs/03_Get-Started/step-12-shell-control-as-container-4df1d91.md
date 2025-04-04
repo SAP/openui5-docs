@@ -1,24 +1,24 @@
 <!-- loio4df1d914e52d4b1aa0805eb01522537e -->
 
-# Step 12: Shell Control as Container
+## Step 12: Shell Control as Container
 
 Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device's screen size by introducing a so-called letterbox on desktop screens.
 
 
 
-## Preview
+### Preview
 
   
   
 **The app is now run in a shell that limits the app width**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_12_a1f1b53.png "The app is now run in a shell that limits the app width")
+![The graphic has an explanatory text.](images/loioa1f1b53df7bb4f74958cdf56904c4af4_LowRes.png "The app is now run in a shell that limits the app width")
 
 
 
 <a name="loio4df1d914e52d4b1aa0805eb01522537e__section_qsr_xp2_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 12](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.12).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 12](https://ui5.sap.c
 
 <a name="loio4df1d914e52d4b1aa0805eb01522537e__section_rsr_xp2_syb"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View

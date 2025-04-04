@@ -1,12 +1,12 @@
 <!-- loiob564935324f449209354c7e2f9903f22 -->
 
-# Using CSS Style Sheets in XML Views \(deprecated\)
+## Using CSS Style Sheets in XML Views \(deprecated\)
 
 Style sheets are included in XML views in the same way as plain HTML. To add further CSS classes to OpenUI5 controls, use the `class` attribute.
 
 
 
-## Context
+### Context
 
 > ### Caution:  
 > Deprecated as of OpenUI5 version 1.120. Refer to an external style sheet instead.
@@ -16,7 +16,7 @@ Style sheets are included in XML views in the same way as plain HTML. To add fur
 
 
 
-## Procedure
+### Procedure
 
 Here's how you would add a style definition and define a button that uses it in an XML view:
 

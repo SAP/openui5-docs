@@ -1,6 +1,6 @@
 <!-- loio5b497b0f9aae4ea68173a491fecfe071 -->
 
-# What's New in OpenUI5 1.106
+## What's New in OpenUI5 1.106
 
 With this release OpenUI5 is upgraded from version 1.105 to 1.106.
 

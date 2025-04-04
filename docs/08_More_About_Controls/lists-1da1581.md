@@ -1,12 +1,12 @@
 <!-- loio1da158152f644ba1ad408a3e982fd3df -->
 
-# Lists
+## Lists
 
 Lists have properties and events and they contain list items that inherit from `sap.m.ListItemBase`, which provides navigation, selection and event features. The list item type determines the way the list item interacts by providing additional features.
 
 
 
-## List Properties
+### List Properties
 
 Lists can have the following properties:
 
@@ -27,13 +27,13 @@ Lists can have the following properties:
 
 
 
-## Swipe For Action
+### Swipe For Action
 
 A user can swipe left on a list item to bring in a control, such as a button, and initiate an action for this item. This control is defined through the `swipeContent` aggregation of the list and is displayed to the right or center of the list item. For more information, see [Swipe List for Action](swipe-for-action-a01822c.md).
 
 
 
-## List Events
+### List Events
 
 Events are available for selecting, deleting and swiping in lists. The selection mode fires a `select` event and the deletion mode a `delete` event. A swipe left fires a `swipe` event. These events contain information about the list item that caused the event.
 
@@ -43,13 +43,13 @@ Events are available for selecting, deleting and swiping in lists. The selection
 
 
 
-## Rerendering
+### Rerendering
 
 A list is rerendered together with all of its list items when the data of a bound model is changed. Due to the limited hardware resources of mobile devices, this may cause delays for lists that contain many list items. For this reason, we do **not** recommend using a list for these use cases.
 
 
 
-## List Items
+### List Items
 
 All list items inherit from `ListItemBase`, which contains the features for navigation, selection, and event.
 
@@ -243,7 +243,7 @@ The following events are available for `ListItemBase`:
 
 
 
-## List Item Types
+### List Item Types
 
 The following types are available for list items:
 
@@ -329,7 +329,7 @@ The following types are available for list items:
 
 
 
-## API Reference
+### API Reference
 
 -   [sap.m.List](https://ui5.sap.com/#/api/sap.m.List)
 -   [sap.m.ListItemBase](https://ui5.sap.com/#/api/sap.m.ListItemBase)

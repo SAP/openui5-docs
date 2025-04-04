@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# What's New in OpenUI5 1.110
+## What's New in OpenUI5 1.110
 
 With this release OpenUI5 is upgraded from version 1.109 to 1.110.
 
@@ -262,7 +262,7 @@ The header bar in key user adaptation has been redesigned.
 
 The following screenshot shows an example:
 
-![](images/Key_User_Adaptation_Toolbar_00fdcc7.png)
+![](images/loio00fdcc7e160c4395a3b98824accc64a4_LowRes.png)
 
 <sub>Changed•Feature•Info Only•1.110</sub>
 
@@ -514,7 +514,7 @@ Feature
 
 **Demo Kit: Improved main theme selection**
 
-We have added the latest high contrast themes to the main theme selector in the Demo Kit.![](images/ThemesWN_b76a17b.png)
+We have added the latest high contrast themes to the main theme selector in the Demo Kit.![](images/loiob76a17bb50f04301b6b21dd28ee048c5_Source1.png)
 
 <sub>Changed•Feature•Info Only•1.110</sub>
 

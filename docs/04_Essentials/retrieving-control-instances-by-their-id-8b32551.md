@@ -1,12 +1,12 @@
 <!-- loio8b325518a2ae48ee91eb2dacda1d1420 -->
 
-# Retrieving Control Instances by Their ID
+## Retrieving Control Instances by Their ID
 
 A control instance can be found in a fragment by means of its ID.
 
 
 
-## Context
+### Context
 
 Due to the above prefixing that guarantees unique IDs, there are different cases possible which require different calls.
 

@@ -1,6 +1,6 @@
 <!-- loioa075ed88ef324261bca41813a6ac4a1c -->
 
-# Replacement of Deprecated jQuery APIs
+## Replacement of Deprecated jQuery APIs
 
 Overview of the mapping of legacy APIs to the new APIs for the migration
 
@@ -13,7 +13,7 @@ The deprecation of the `jQuery.sap` APIs and some native jQuery APIs requires th
 
 
 
-### Replacement With New Modules
+#### Replacement With New Modules
 
 To migrate the simple replacements, add the new module dependency and replace the call with the added argument name as shown in the following example:
 
@@ -3360,7 +3360,7 @@ Method changed
 
 
 
-### Replacement with Native Browser APIs
+#### Replacement with Native Browser APIs
 
 
 <table>
@@ -3684,7 +3684,7 @@ window.devicePixelRatio >= 2
 
 
 
-### jQuery Extensions Dependencies
+#### jQuery Extensions Dependencies
 
 jQuery extensions have been extracted into different modules. If the jQuery extension is required, it needs to be added to the module dependencies.
 

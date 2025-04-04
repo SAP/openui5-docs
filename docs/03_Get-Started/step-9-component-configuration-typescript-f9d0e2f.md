@@ -1,6 +1,6 @@
 <!-- loiof9d0e2fcd2134ff7923fcdcba8bded96 -->
 
-# Step 9: Component Configuration \(TypeScript\)
+## Step 9: Component Configuration \(TypeScript\)
 
 After we have introduced all three parts of the Model-View-Controller \(MVC\) concept, we now come to another important structural aspect of OpenUI5.
 
@@ -8,18 +8,18 @@ In this step, we will encapsulate all UI assets in a component that is independe
 
 
 
-## Preview
+### Preview
 
   
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_09_cac9bcf.png "An input field and a description displaying the value of the input field (No
+![The graphic has an explanatory text](images/loiocac9bcfa902c44c496d115acd7ee7376_LowRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)")
 
 
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 9: Component Configuration](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/09) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-09.zip).
 
@@ -27,13 +27,13 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 9: Component Co
   
 **Folder Structure for this Step**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_TypeScript_Folders_Step_09_aa6ba83.png "Folder Structure for this Step")
+![The graphic has an explanatory text](images/loioaa6ba83cdebc4a75be6a6b2ff6efffcb_LowRes.png "Folder Structure for this Step")
 
 After this step your project structure will look like the figure above. We'll create the `Component.ts` file now and modify the related files in the app.
 
 
 
-## webapp/Component.ts \(New\)
+### webapp/Component.ts \(New\)
 
 We navigate to the `webapp` folder and place the `Component.ts` file into it. This file is commonly referred to as the **component controller**. A component is organized in a unique namespace \(which is synonymous with the application namespace\). All required and optional resources of the component have to be organized in the namespace of the component.
 
@@ -90,7 +90,7 @@ Be aware that the models are set directly on the component and not on the root v
 
 
 
-## webapp/controller/App.controller.ts
+### webapp/controller/App.controller.ts
 
 We delete the `onInit` function and the required modules; this is now done in the component.
 
@@ -120,7 +120,7 @@ export default class AppController extends Controller {
 
 <a name="loiof9d0e2fcd2134ff7923fcdcba8bded96__section_ok2_4n5_zgb"/>
 
-## webapp\\index.ts
+### webapp\\index.ts
 
 We'll replace the view with a UI component. To do this, we use a control called `ComponentContainer`. This control allows us to wrap a UI Component and place it in our HTML document. We configure this instance by providing the following options:
 
@@ -153,7 +153,7 @@ new ComponentContainer({
 
 
 
-## Conventions
+### Conventions
 
 -   The component is named `Component.js` \(JavaScript\) or `Component.ts` \(in TypeScript\).
 

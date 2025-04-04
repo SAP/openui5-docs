@@ -1,29 +1,29 @@
 <!-- loio66670b0aab3948469d5cc8276113e9ea -->
 
-# Step 4: Add a *Back* Button to *Not Found* Page
+## Step 4: Add a *Back* Button to *Not Found* Page
 
 When we are on the *Not Found* page because of an invalid hash, we want to get back to our app to select another page. Therefore, we will add a *Back* button to the *Not Found* view and make sure that the user gets redirected to either the previous page or the overview page when the *Back* button is pressed.
 
 
 
-## Preview
+### Preview
 
   
   
 **Not Found page with Back button**
 
-![](images/Tutorial_Navigation_and_Routing_Step_04a_1cbb1eb.png "Not Found page with Back
+![](images/loio1cbb1ebea9e242ffae22d7172b91e241_LowRes.png "Not Found page with Back
 					button")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 4](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.04).
 
 
 
-## webapp/view/NotFound.view.xml
+### webapp/view/NotFound.view.xml
 
 ```xml
 <mvc:View
@@ -43,7 +43,7 @@ In the `NotFound` view, we set the property `showNavButton` of the `MessagePage`
 
 
 
-## webapp/controller/BaseController.js \(New\)
+### webapp/controller/BaseController.js \(New\)
 
 ```js
 sap.ui.define([
@@ -89,7 +89,7 @@ The third parameter of `navTo("appHome", {}, true /*no history*/);` has the valu
 
 
 
-## webapp/controller/NotFound.controller.js
+### webapp/controller/NotFound.controller.js
 
 ```js
 sap.ui.define([
@@ -110,7 +110,7 @@ At this point you can open `index.html#/thisIsInvalid` in your browser and press
 
 
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([
@@ -129,7 +129,7 @@ To be consistent, we will now extend all of our controllers with the base contro
 
 
 
-## webapp/controller/Home.controller.js
+### webapp/controller/Home.controller.js
 
 ```js
 sap.ui.define([
@@ -149,7 +149,7 @@ The same applies to our home controller, we also extend it with the base control
 
 
 
-## Conventions
+### Conventions
 
 -   Implement a global `onNavBack` handler for back navigation in your app
 

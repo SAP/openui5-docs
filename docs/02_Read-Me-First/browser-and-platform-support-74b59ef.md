@@ -1,6 +1,6 @@
 <!-- loio74b59efa0eef48988d3b716bd0ecc933 -->
 
-# Browser and Platform Support
+## Browser and Platform Support
 
 Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.
 
@@ -13,7 +13,7 @@ Depending on the platform your OpenUI5 apps run on, different browsers in differ
 
 
 
-## Overview of Supported Browsers, Platforms, and Reference Devices
+### Overview of Supported Browsers, Platforms, and Reference Devices
 
 The following tables give a general overview of the browsers, platforms, and reference devices supported by the main OpenUI5 libraries. There are certain known device-browser combinations that lead to visual degradations. For more information, see [Visual Degradations](visual-degradations-f08f296.md).
 
@@ -24,7 +24,7 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 <a name="loio74b59efa0eef48988d3b716bd0ecc933__section_bgw_kns_hnb"/>
 
-## Browser and Platform Support Matrix
+### Browser and Platform Support Matrix
 
 
 <table>
@@ -319,7 +319,7 @@ Latest version<sup>7</sup>
 
 <a name="loio74b59efa0eef48988d3b716bd0ecc933__MS_IE"/>
 
-## OpenUI5 Support Status for Microsoft Internet Explorer 11
+### OpenUI5 Support Status for Microsoft Internet Explorer 11
 
 Support for Microsoft Internet Explorer 11 \(IE11\) ended with the end of IE11 support by Microsoft, and for the sake of completeness Internet Explorer mode of MS Edge was never supported by OpenUI5.
 

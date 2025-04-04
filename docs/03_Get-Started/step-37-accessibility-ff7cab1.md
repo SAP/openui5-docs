@@ -1,6 +1,6 @@
 <!-- loioff7cab1f271a4181a86e5aa5c2f8d421 -->
 
-# Step 37: Accessibility
+## Step 37: Accessibility
 
 In this step we're going to improve the accessibility of our app.
 
@@ -13,19 +13,19 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
 
 <a name="loioff7cab1f271a4181a86e5aa5c2f8d421__section_xpr_2ls_gfb"/>
 
-## Preview
+### Preview
 
   
   
 **Landmarks in our app**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_37_b35deda.png "Landmarks in our app")
+![The graphic has an explanatory text.](images/loiob35deda1ebe1433fbf0ff066f6e3fc4b_LowRes.png "Landmarks in our app")
 
 
 
 <a name="loioff7cab1f271a4181a86e5aa5c2f8d421__section_mxx_3ls_gfb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 37](https://ui5.sap.com/#/sample/sap.m.tutorial.walkthrough.37/preview).
 
@@ -35,7 +35,7 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 
 <a name="loioff7cab1f271a4181a86e5aa5c2f8d421__section_ygj_1b1_hfb"/>
 
-## webapp/view/Overview.view.xml
+### webapp/view/Overview.view.xml
 
 ```xml
 <mvc:View
@@ -67,7 +67,7 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 
 <a name="loioff7cab1f271a4181a86e5aa5c2f8d421__section_uw5_zns_gfb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View
@@ -112,7 +112,7 @@ We add an `sap.m.Panel` around the invoice list and move the toolbar from the ta
 
 <a name="loioff7cab1f271a4181a86e5aa5c2f8d421__section_qdh_k4s_gfb"/>
 
-## webapp/view/HelloPanel.view.xml
+### webapp/view/HelloPanel.view.xml
 
 ```xml
 <mvc:View
@@ -138,7 +138,7 @@ In this view, we already have a panel, so we just add the `accessibleRole` attri
 
 <a name="loioff7cab1f271a4181a86e5aa5c2f8d421__section_azh_fps_gfb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...
@@ -156,19 +156,19 @@ Here, we add the text for the rating panel title and the labels for the ARIA reg
 
 <a name="loioff7cab1f271a4181a86e5aa5c2f8d421__section_yxf_3qs_gfb"/>
 
-## Result
+### Result
 
 
 <table>
 <tr>
 <td valign="top">
 
-![Landmarks before](images/Walkthrough_Step_38_Landmarks_before_54e9bca.png)
+![Landmarks before](images/loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)
 
 </td>
 <td valign="top">
 
-![Landmarks after](images/Walkthrough_Step_38_Landmarks_after_f38dee2.png)
+![Landmarks after](images/loiof38dee2624c2437d8977de70575b3eae_HiRes.png)
 
 </td>
 </tr>

@@ -1,6 +1,6 @@
 <!-- loio1b6dcd39a6a74f528b27ddb22f15af0d -->
 
-# Navigation and Routing Tutorial
+## Navigation and Routing Tutorial
 
 OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.
 
@@ -28,7 +28,7 @@ We will create a simple app displaying the data of a company's employees to show
   
 **Page flow of the final app**
 
-![](images/Tutorial_Navigation_and_Routing_Screen_Flow_92cdce7.png "Page flow of the final app")
+![](images/loio92cdce7bddc44e27a66990708ce4b09f_LowRes.png "Page flow of the final app")
 
 Throughout this tutorial we will add features for navigating to pages and bookmarking them. We will add backward and forward navigation with common transition animations \(slide, show, flip, etc.\). We will add more pages to the app and navigate between them to show typical use cases. We will even learn how to implement features for bookmarking a specific search, table sorting via filters, and dialogs.
 

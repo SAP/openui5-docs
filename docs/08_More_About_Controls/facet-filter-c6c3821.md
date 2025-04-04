@@ -1,6 +1,6 @@
 <!-- loioc6c38217a4a64001a22ad76cdfa97fae -->
 
-# Facet Filter
+## Facet Filter
 
 Facet filters \(`sap.m.FacetFilter`\) support users in finding the information they need from potentially very large data sets.
 
@@ -8,7 +8,7 @@ With the facet filter, users can explore a data collection by applying multiple 
 
 The following figure shows the structure of the facet filter.
 
-![](images/SAPUI5_Facet_Filter_Anatomy_f144853.png)
+![](images/loiof144853312cd42a1bff62ce4695eba2d_LowRes.png)
 
 
 
@@ -21,7 +21,7 @@ Your application displays a large list of products that can be grouped by catego
 -   Supplier: Red Point Stores
 
 
-![](images/SAPUI5_Facet_Filter_Example_f57566c.png)
+![](images/loiof57566c5aa854e2f86a8df84040ba13c_LowRes.png)
 
 The facet filter supports the following two typeswhich can be configures using the control's `type` property:
 

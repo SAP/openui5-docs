@@ -1,6 +1,6 @@
 <!-- loio91f3b66b6f4d1014b6dd926db0e91070 -->
 
-# Browser Security
+## Browser Security
 
 Browser security comprises several topics such as cross-site scripting, clickjacking, and local storage.
 
@@ -12,7 +12,7 @@ Browsers also offer possible attack vectors, such as Cross-Site-Scripting \(XSS\
 
 <a name="loio91f3b66b6f4d1014b6dd926db0e91070__section_6C7CB6E84E7E42DB821D50A02BEFF849"/>
 
-## Cross-Site Scripting
+### Cross-Site Scripting
 
 Cross-Site-Scripting has become the most prominent security issue of web applications within the last years and also the most dangerous one, as it allows several ways of exploitation. Once malicious code is running within your browser, it can be used to steal your session cookies, to trigger requests within the current session, or even to exploit a known browser vulnerability to do native code execution.
 
@@ -42,7 +42,7 @@ For more information, see [Cross-Site Scripting](cross-site-scripting-91f0bd3.md
 
 
 
-## Clickjacking
+### Clickjacking
 
 Clickjacking, or UI redressing, tricks the user into triggering actions within an application by redirecting clicks. This is done, for example, by using an invisible iFrame that is positioned above a fake UI. When the user clicks on something on the fake UI, the content of the invisible iFrame handles the click.
 
@@ -57,7 +57,7 @@ For more detailed information on clickjacking, refer to the following SAP Note: 
 
 <a name="loio91f3b66b6f4d1014b6dd926db0e91070__section_94EDDC27FE5D45A29B1B7DC18C4E2F48"/>
 
-## HTML5
+### HTML5
 
 HTML5 offers a lot of new functionality, which also brings a lot of potential new security issues. This is just an overview of some of the new features and possible security issues when they are used.
 

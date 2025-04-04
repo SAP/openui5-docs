@@ -1,28 +1,28 @@
 <!-- loio92959b10ecf14582b65eaadb40571156 -->
 
-# Step 11: Testing User Input
+## Step 11: Testing User Input
 
 In this step, we will write a test that simulates a user search. We will enter the search string into the search field and check if the correct results are shown in worklist table.
 
 
 
-## Preview
+### Preview
 
   
   
 **Testing user input in a search field**
 
-![](images/Tutorial_Testing_Step_11_2d8ec1c.jpg "Testing user input in a search field")
+![](images/loio2d8ec1ca920948989b9d50d28f0e78e4_LowRes.jpg "Testing user input in a search field")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Testing - Step 11](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.11).
 
 
 
-## webapp/test/integration/WorklistJourney.js
+### webapp/test/integration/WorklistJourney.js
 
 ```js
 
@@ -72,7 +72,7 @@ Delete `.and.iTeardownMyApp();` from the previous test in the file and add the n
 
 
 
-## webapp/test/integration/pages/Worklist.js
+### webapp/test/integration/pages/Worklist.js
 
 ```js
 sap.ui.define([
@@ -143,7 +143,7 @@ The `assert` part is implemented in the same way as in our first OPA test. Again
 
 
 
-## Conventions
+### Conventions
 
 Actions in OPA never contain a QUnit assertion.
 

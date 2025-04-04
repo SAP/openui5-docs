@@ -1,12 +1,12 @@
 <!-- loio3e426f159c7a4ab5ae660aba288c94d2 -->
 
-# Custom List Item
+## Custom List Item
 
 You can use the `sap.m.CustomListItem` control to create your own layout if the other list items available in OpenUI5 do not fit your needs.
 
 
 
-## Available List Items in OpenUI5
+### Available List Items in OpenUI5
 
 OpenUI5 contains several list items that are used with the `sap.m.List` control to serve different standard scenarios. These are outlined in the table below, along with `sap.m.ColumnListItem`, which is used together with the `sap.m.Table` control:
 
@@ -128,11 +128,11 @@ For more information about the different list items, refer to the corresponding 
 
 
 
-## Structure of a List Item
+### Structure of a List Item
 
 A list item can be split into three parts, as shown in the following graphic:
 
-![](images/List_Item_Structure_2f72dfb.png)
+![](images/loio2f72dfbe658448e2bd1af66b4b25794f_LowRes.png)
 
 The parts that are to the left and right of the dotted area are part of the `ListItemBase` and are used to display the selection and deletion mode, as well as different list item type indicators such as navigation, details, and counter. The `Unread` indicator also comes from the `ListItemBase` and when it is set, any unread text will be displayed in bold format.
 
@@ -140,7 +140,7 @@ The dotted area is the area in which the content of a list item is placed. If yo
 
 
 
-## Using the `sap.m.CustomListItem` Control
+### Using the `sap.m.CustomListItem` Control
 
 As mentioned above, you can either use `sap.m.CustomListItem` directly by adding any content via content aggregation, or you can create your own control that inherits from `sap.m.CustomListItem` if you need a more sophisticated list item featuring your own properties, styling, and complex layout. Below is an example showing how you can use the `sap.m.CustomListItem` together with `sap.m` controls.
 
@@ -161,7 +161,7 @@ As mentioned above, you can either use `sap.m.CustomListItem` directly by adding
 
 The example above creates an attachment list item that displays an attachment title as a link, as shown in the graphic below. Clicking on the link will open the attachment. Below the attachment title, we want to display the details of the attachment, so we have used `sap.m.HBox` and `sap.m.VBox` for basic layouting. Data binding is also supported, and here it assumes that a model featuring `ProductPicUrl` and `ProductId` properties is used.
 
-![](images/Custom_List_Item_6c6af3e.png)
+![](images/loio6c6af3e7f34947cd8820c56a2b7fe0db_LowRes.png)
 
 The following example shows how to use a notepad control as a reusable control in an `sap.m.CustomListItem`. It assumes you want to build a product list item that shows an image of the product and displays its details:
 

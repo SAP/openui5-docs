@@ -1,6 +1,6 @@
 <!-- loio04b75eae78ef4bae9b40cd7540ae8bdc -->
 
-# Step 4: Diagnostics Window
+## Step 4: Diagnostics Window
 
 In this tutorial step, we have a closer look at the Diagnostics window. It offers a wealth of information including comprehensive technical information, a control tree, and debugging features.
 
@@ -8,15 +8,15 @@ In this tutorial step, we have a closer look at the Diagnostics window. It offer
 
 <a name="loio04b75eae78ef4bae9b40cd7540ae8bdc__section_gt2_djf_c1b"/>
 
-## Preview
+### Preview
 
-![](images/Diagnostics_Window_5ceb62a.png)
+![](images/loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png)
 
 
 
 <a name="loio04b75eae78ef4bae9b40cd7540ae8bdc__section_r2s_vkf_c1b"/>
 
-## Opening the Example App and the Diagnostics Window
+### Opening the Example App and the Diagnostics Window
 
 1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 
@@ -27,7 +27,7 @@ In this tutorial step, we have a closer look at the Diagnostics window. It offer
 
 <a name="loio04b75eae78ef4bae9b40cd7540ae8bdc__section_p3z_kmf_c1b"/>
 
-## Improving App Performance
+### Improving App Performance
 
 Let's say that you are facing a performance issue in your app, so let's check some performance-relevant settings in the *Diagnostics* window:
 
@@ -40,7 +40,7 @@ Let's say that you are facing a performance issue in your app, so let's check so
 
 <a name="loio04b75eae78ef4bae9b40cd7540ae8bdc__section_xgg_qnf_c1b"/>
 
-## Simulating UI Changes
+### Simulating UI Changes
 
 The app contains a *Do Something* button and you want to make the button bigger. The control tree allows you to test which width is the best.
 
@@ -61,7 +61,7 @@ The app contains a *Do Something* button and you want to make the button bigger.
 
 <a name="loio04b75eae78ef4bae9b40cd7540ae8bdc__section_ftz_34f_c1b"/>
 
-## Trying Different Framework Versions
+### Trying Different Framework Versions
 
 If you find a bug in your application, you can easily check whether it has already been fixed in a newer framework version:
 
@@ -82,7 +82,7 @@ If you find a bug in your application, you can easily check whether it has alrea
 
 <a name="loio04b75eae78ef4bae9b40cd7540ae8bdc__section_fcy_kpf_c1b"/>
 
-## More Features
+### More Features
 
 More features are waiting for you to discover in the *Diagnostics* window. For more information, see [Diagnostics](../04_Essentials/diagnostics-6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
 

@@ -1,6 +1,6 @@
 <!-- loio2978f6064742456ebed31c5ccf4d051d -->
 
-# Creating Blocks
+## Creating Blocks
 
 Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
@@ -8,7 +8,7 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
 <a name="loio2978f6064742456ebed31c5ccf4d051d__section_ns2_rcx_kbb"/>
 
-## Decide which kind of block to use:
+### Decide which kind of block to use:
 
 -   Single view block if `Collapsed`, `Expanded`, and `Compact` modes are similar and easy to develop with a single view.
 
@@ -21,7 +21,7 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
 <a name="loio2978f6064742456ebed31c5ccf4d051d__section_ayv_scx_kbb"/>
 
-## Single View Block Creation
+### Single View Block Creation
 
 -   Create the block folder in the sources of the app.
 
@@ -44,7 +44,7 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
 <a name="loio2978f6064742456ebed31c5ccf4d051d__section_ql5_tcx_kbb"/>
 
-## Multiple View Block Creation
+### Multiple View Block Creation
 
 -   Create the block folder in the sources of the app.
 
@@ -64,7 +64,7 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
 <a name="loio2978f6064742456ebed31c5ccf4d051d__section_gz5_5cx_kbb"/>
 
-## Free Form Block Creation
+### Free Form Block Creation
 
 -   Create the block folder in the sources of the app.
 

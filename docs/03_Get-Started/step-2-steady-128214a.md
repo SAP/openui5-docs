@@ -1,6 +1,6 @@
 <!-- loio128214a9b2754b15aec5e365780b03fd -->
 
-# Step 2: Steady...
+## Step 2: Steady...
 
 Now we extend our minimalist HTML page to a basic app with a view and a controller.
 
@@ -8,25 +8,25 @@ Now we extend our minimalist HTML page to a basic app with a view and a controll
 
 <a name="loio128214a9b2754b15aec5e365780b03fd__section_dxj_gxh_1gb"/>
 
-## Preview
+### Preview
 
   
   
 **The browser shows a Steady button in an app**
 
-![](images/Tutorial_Quick_Start_Step_2_240ef53.png "The browser shows a Steady button in an app ")
+![](images/loio240ef5357d7f4d36955092cdaf1884a2_LowRes.png "The browser shows a Steady button in an app ")
 
 
 
 <a name="loio128214a9b2754b15aec5e365780b03fd__section_rcp_yxh_1gb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Quick Start - Step 2](https://ui5.sap.com/#/sample/sap.m.tutorial.quickstart.02/preview).
 
 
 
-## webapp/index.js
+### webapp/index.js
 
 ```js
 sap.ui.define([
@@ -48,7 +48,7 @@ Similar to the step before, the view is placed in the element with the `content`
 
 <a name="loio128214a9b2754b15aec5e365780b03fd__section_zgg_rl3_1gb"/>
 
-## webapp/App.view.xml \(New\)
+### webapp/App.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -82,7 +82,7 @@ We outsource the controller logic to an app controller. The `.onPress` event now
 
 <a name="loio128214a9b2754b15aec5e365780b03fd__section_rc3_gm3_1gb"/>
 
-## webapp/App.controller.js \(New\)
+### webapp/App.controller.js \(New\)
 
 ```js
 sap.ui.define([

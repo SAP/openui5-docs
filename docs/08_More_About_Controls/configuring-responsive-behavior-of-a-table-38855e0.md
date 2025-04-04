@@ -1,6 +1,6 @@
 <!-- loio38855e06486f4910bfa6f4485f7c2bac -->
 
-# Configuring Responsive Behavior of a Table
+## Configuring Responsive Behavior of a Table
 
 OpenUI5 supports column-based and row-based solutions to support flexible and clearly arranged tables.
 
@@ -8,7 +8,7 @@ One of the biggest challenges in responsive web design \(RWD\) is presenting tab
 
 Say we want to build this nice table to display on a desktop:
 
-![](images/SAPUI5_Mobile_Responsive_Table_a6dd36c.png)
+![](images/loioa6dd36ccbabf424c9ab4dafc9d06d4ad_LowRes.png)
 
 On mobile devices, we know that we won't have enough space to show all these columns, so we need to ask ourselves which columns are most important. Let's say:
 
@@ -17,11 +17,11 @@ On mobile devices, we know that we won't have enough space to show all these col
 
 If we apply these decisions we just made, our mobile devices should now look like this:
 
-![](images/SAPUI5_Mobile_Responsive_Table_Mobile_e3cdfd6.png)
+![](images/loioe3cdfd6815bf4536a3498cadbe3fc2c7_LowRes.png)
 
 
 
-## Responsive Column Control
+### Responsive Column Control
 
 You can control the responsive table design using the API of `sap.m.Column`. This control provides two properties to handle column hiding and the pop-in behavior.
 
@@ -42,7 +42,7 @@ And that's it! All you need to know are these two variables for responsive table
 
 <a name="loio38855e06486f4910bfa6f4485f7c2bac__section_eyg_trg_5pb"/>
 
-## Automatic Pop-In Feature
+### Automatic Pop-In Feature
 
 There is an alternative configuration for simpler cases: Let `sap.m.Table` itself take control of the responsive behavior.
 
@@ -78,7 +78,7 @@ For more information, see the [Sample](https://ui5.sap.com/#/entity/sap.m.Table/
 
 <a name="loio38855e06486f4910bfa6f4485f7c2bac__section_acy_rkh_5pb"/>
 
-## API Reference
+### API Reference
 
 -   [sap.m.Table](https://ui5.sap.com/#/api/sap.m.Table)
 -   [sap.m.Column](https://ui5.sap.com/#/api/sap.m.Column)

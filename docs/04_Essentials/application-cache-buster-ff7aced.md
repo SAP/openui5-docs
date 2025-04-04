@@ -1,6 +1,6 @@
 <!-- loioff7aceda0bd24039beb9bca8e882825d -->
 
-# Application Cache Buster
+## Application Cache Buster
 
 The application cache buster \(short `AppCacheBuster`\) is similar to the cache buster but is used for application resources.
 

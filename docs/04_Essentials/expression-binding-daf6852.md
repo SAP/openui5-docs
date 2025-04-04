@@ -1,6 +1,6 @@
 <!-- loiodaf6852a04b44d118963968a1239d2c0 -->
 
-# Expression Binding
+## Expression Binding
 
 Expression binding is an enhancement of the OpenUI5 binding syntax, which allows for providing expressions instead of custom formatter functions.
 
@@ -299,7 +299,7 @@ Global symbol
 
 
 
-## Simple Example
+### Simple Example
 
 > ### Note:  
 > With expression binding you only need the XML view but no controller logic.
@@ -345,7 +345,7 @@ When using expression binding, however, you only need the XML view without contr
 
 
 
-## More Complex Expressions
+### More Complex Expressions
 
 With the expression syntax sketched above it is possible to create more complex expressions as shown in the examples below.
 

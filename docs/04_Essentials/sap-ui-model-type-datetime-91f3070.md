@@ -1,6 +1,6 @@
 <!-- loio91f3070d6f4d1014b6dd926db0e91070 -->
 
-# sap.ui.model.type.DateTime
+## sap.ui.model.type.DateTime
 
 The `DateTime` data type represents an exact point of time \(date and time\).
 

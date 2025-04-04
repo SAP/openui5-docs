@@ -1,28 +1,28 @@
 <!-- loio19ccd473c9a14c2ab7529303a2232d2c -->
 
-# Step 13: Testing User Interaction
+## Step 13: Testing User Interaction
 
 In this step we want to write a test that simulates user interaction with an icon tab bar. We want to change the tab and check if the correct content is shown.
 
 
 
-## Preview
+### Preview
 
   
   
 **Test interacting with an icon tab bar**
 
-![](images/Tutorial_Testing_Step_13_c76a7b5.jpg "Test interacting with an icon tab bar")
+![](images/loioc76a7b50ffac42b29285d7f10fd605eb_LowRes.jpg "Test interacting with an icon tab bar")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 13](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.13).
 
 
 
-## webapp/test/integration/PostJourney.js
+### webapp/test/integration/PostJourney.js
 
 ```js
 sap.ui.define([
@@ -59,7 +59,7 @@ Delete `.and.iTeardownMyApp();` from the last test in the file and add the new t
 
 
 
-## webapp/test/integration/pages/Post.js
+### webapp/test/integration/pages/Post.js
 
 ```js
 sap.ui.define([
@@ -135,7 +135,7 @@ In the `assert` part we add a new assertion for checking the visibility of a con
 
 
 
-## Conventions
+### Conventions
 
 -   Actions in OPA never contain a QUnit assertion
 

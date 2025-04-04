@@ -1,18 +1,18 @@
 <!-- loio5a0d286c5606424b8e0d663c87445733 -->
 
-# Performance Aspects
+## Performance Aspects
 
 The OData V4 model offers the features described below which influence performance.
 
 
 
-## `odata.metadata=minimal`
+### `odata.metadata=minimal`
 
 The OData V4 model uses an `odata.metadata=minimal` header in its requests to reduce the amount of data that is sent from server to client. For more information, see section "3.1.1 odata.metadata=minimal" in the [OData JSON Format Version 4.0](http://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html) specification.
 
 
 
-## `$expand` and `$select`
+### `$expand` and `$select`
 
 An application can either specify `$expand` and `$select` parameters to read all data to be displayed in one request, or create bindings dynamically to load only part of the data with one request per binding. The application needs to decide whether to have less roundtrips with a bigger payload or more roundtrips with smaller payload.
 
@@ -20,13 +20,13 @@ To reduce payload, applications should only select properties that are needed us
 
 
 
-## Batching Requests or Not
+### Batching Requests or Not
 
 By default, the OData V4 model collects all requests made to the OData service in a batch request to reduce the number of roundtrips. The disadvantage of a batch request is that it cannot be cached by the browser. If some of the requests \(e.g. value help requests\) are "cacheable", it is a good idea to request these resources directly and use the browser cache to improve the performance of the application. In such cases, use the `$direct` group as described in the section [Batch Control](batch-control-74142a3.md). For that reason, unit and currency code lists are fetched with `$direct` by the model. See also [Currency and Unit Customizing in OData V4](currency-and-unit-customizing-in-odata-v4-4d1b9d4.md) for more information on unit and currency code lists.
 
 
 
-## Data Reuse
+### Data Reuse
 
 The reuse of data in different bindings may help to avoid unnecessary requests. The available options are described in detail in the chapter [Data Reuse](data-reuse-648e360.md).
 
@@ -34,7 +34,7 @@ The reuse of data in different bindings may help to avoid unnecessary requests. 
 
 <a name="loio5a0d286c5606424b8e0d663c87445733__section_ER4MST"/>
 
-## Early Requests for Metadata and Security Token
+### Early Requests for Metadata and Security Token
 
 The requests for the service's root `$metadata` document and annotation files and for the security token may be on the "critical invocation path": By default, these requests are sent lazily when the OpenUI5 application starts, for example only when the corresponding information is needed. This delays application startup until these requests have returned.
 

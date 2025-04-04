@@ -1,6 +1,6 @@
 <!-- loio5a74cea49f5f446298b85ac248871a0b -->
 
-# Step 37: Accessibility \(TypeScript\)
+## Step 37: Accessibility \(TypeScript\)
 
 In this step we're going to improve the accessibility of our app.
 
@@ -13,19 +13,19 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_xpr_2ls_gfb"/>
 
-## Preview
+### Preview
 
   
   
 **Landmarks in our app**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_37_b35deda.png "Landmarks in our app")
+![The graphic has an explanatory text.](images/loiob35deda1ebe1433fbf0ff066f6e3fc4b_LowRes.png "Landmarks in our app")
 
 
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_mxx_3ls_gfb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 37: Accessibility](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/37) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-37.zip).
 
@@ -35,7 +35,7 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_azh_fps_gfb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 We add the labels we will need for the ARIA regions in the ovierview iew to the text bundle.
 
@@ -57,7 +57,7 @@ Overview_contentLabel=Page Content
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_ygj_1b1_hfb"/>
 
-## webapp/view/Overview.view.xml
+### webapp/view/Overview.view.xml
 
 We add the `landmarkInfo` aggregation to the page and use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for the overview page areas. In the `PageAccessibilityLandmarkInfo` control we specify a role and a title for the root, the content, and the header of the page.
 
@@ -91,7 +91,7 @@ For more information, see the [API Reference: `sap.m.PageAccessibleLandmarkInfo`
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_uw5_zns_gfb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 We add an `sap.m.Panel` around the invoice list and move the toolbar from the table into the panel, so that the region can take the title of the toolbar as its own. This has the effect that it will now be a region in our landmarks.
 
@@ -136,7 +136,7 @@ We add an `sap.m.Panel` around the invoice list and move the toolbar from the ta
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_qdh_k4s_gfb"/>
 
-## webapp/view/HelloPanel.view.xml
+### webapp/view/HelloPanel.view.xml
 
 In the `HelloPanel` view, we already have a panel, so we just add the `accessibleRole` attribute.
 
@@ -162,19 +162,19 @@ In the `HelloPanel` view, we already have a panel, so we just add the `accessibl
 
 <a name="loio5a74cea49f5f446298b85ac248871a0b__section_yxf_3qs_gfb"/>
 
-## Result
+### Result
 
 
 <table>
 <tr>
 <td valign="top">
 
-![Landmarks before](images/Walkthrough_Step_38_Landmarks_before_54e9bca.png)
+![Landmarks before](images/loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)
 
 </td>
 <td valign="top">
 
-![Landmarks after](images/Walkthrough_Step_38_Landmarks_after_f38dee2.png)
+![Landmarks after](images/loiof38dee2624c2437d8977de70575b3eae_HiRes.png)
 
 </td>
 </tr>

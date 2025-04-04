@@ -1,6 +1,6 @@
 <!-- loio8e9d6e4df5464eb5a6e40696c4d2ccd6 -->
 
-# Navigate with Nested Components
+## Navigate with Nested Components
 
 The `navTo` method in the `sap.ui.core.routing.Router` class enables you to define a set of parameters to navigate to a specific route.
 
@@ -38,7 +38,7 @@ The call triggers the following actions in the given order:
 
 <a name="loio8e9d6e4df5464eb5a6e40696c4d2ccd6__section_jnj_rgx_mjb"/>
 
-## Using `navTo` for Passing Information to a Nested Router
+### Using `navTo` for Passing Information to a Nested Router
 
 For passing information about the route name and parameters for a nested router, you use the `oComponentTargetInfo` parameter of the `navTo` method. By this, the router in nested components can show the targets which are configured to one specific route instead of giving the router an empty hash as default. This `oComponentTargetInfo` parameter contains key-value pairs with the name of a `Component` target as the key, and the value must be an object which has at least the route name in the `route` property. The route name should be matched within the router of this component with the parameters for this route. If this route has again `Component` targets, the property `componentTargetInfo` can be used to specify the route information. The value of the `componentTargetInfo` property has the same structure as the `oComponentTargetInfo` parameter of the `navTo` method.
 
@@ -68,7 +68,7 @@ The `grandChildComp1` target has the following two routes defined:
 
 When the `home` route in the top level router is matched, the `Component` targets `childComp1` and `childComp2` are loaded and shown. Each of them receives an empty string hash as default, and so the `list` routes of their routers are matched.
 
-![](images/navToInitialState_5c26abc.png)
+![](images/loio5c26abccbcbc4ac683602b4c650221f0_LowRes.png)
 
 By using the `navTo` method, specific route information can be given to multiple nested components and, if available, their deep nested components. For example, the `detail` routes in both `Component` targets `childComp1` and `childComp2` need to be matched. Since the `detail` route of target `childComp2` loads another nested component \(`grandChildComp1`\), it is also possible to match the `detail` route in the deep nested component `grandChildComp1` with the same `navTo` call, see the following code snippet.
 
@@ -101,17 +101,17 @@ oRouter.navTo("home", {
 
 After the `navTo` call, the route state of each router looks as depicted in the following figure:
 
-![](images/AfterCallNavTo_49d0f4b.png)
+![](images/loio49d0f4bdd53e4c20a62cdaf15b24ddf8_LowRes.png)
 
 
 
 <a name="loio8e9d6e4df5464eb5a6e40696c4d2ccd6__section_u1j_1hx_mjb"/>
 
-## Navigating Away From a Nested Component
+### Navigating Away From a Nested Component
 
 When a new route is matched within a router and a `Component` target was displayed within the old route, it is necessary to avoid that this `Component` target still reacts to unnecessary events such as `hashChanged`. For example, after switching from the `detail` route to the `list` route within the `Component` target `childComp2`, the deep nested `Component` target `grandChildComp1` is no longer relevant for the UI. This is shown in the following figure:
 
-![](images/StopAfternavTo_79ef6da.png)
+![](images/loio79ef6da4766b4864a5a4ea807840273f_LowRes.png)
 
 To avoid this,
 

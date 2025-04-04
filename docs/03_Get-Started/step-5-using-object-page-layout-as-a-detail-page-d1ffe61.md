@@ -1,6 +1,6 @@
 <!-- loiod1ffe611194b4c7891772b0cce84648e -->
 
-# Step 5: Using Object Page Layout as a Detail Page
+## Step 5: Using Object Page Layout as a Detail Page
 
 In this step, we add `sap.uxap.ObjectPageLayout` to the detail page to display more information about each product.
 
@@ -14,19 +14,19 @@ Compared to `sap.f.DynamicPage`, the `sap.uxap.ObjectPageLayout` can provide a m
 
 <a name="loiod1ffe611194b4c7891772b0cce84648e__section_ed2_4dd_lbb"/>
 
-## Preview
+### Preview
 
   
   
 **ObjectPageLayout with dynamic header for the detail page**
 
-![](images/ObjectPageLayout_with_Dynamic_Header_Fiori_2_0_Tutorial_da38488.gif "ObjectPageLayout with dynamic header for the detail page")
+![](images/loioda38488f47f941a0b53509d22ef9027c_LowRes.gif "ObjectPageLayout with dynamic header for the detail page")
 
 
 
 <a name="loiod1ffe611194b4c7891772b0cce84648e__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 5](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.05/preview).
 
@@ -34,7 +34,7 @@ You can view and download all files at [Flexible Column Layout App - Step 5](htt
 
 <a name="loiod1ffe611194b4c7891772b0cce84648e__section_qhh_ylj_l4b"/>
 
-## webapp/manifest.json \[MODIFY\]
+### webapp/manifest.json \[MODIFY\]
 
 ```json
 {
@@ -72,7 +72,7 @@ First, we add the related libraries that we will need to the dependencies in the
 
 <a name="loiod1ffe611194b4c7891772b0cce84648e__section_s1m_xlj_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -99,7 +99,7 @@ We add an instance of the `sap.uxap.ObjectPageLayout` control.
 
 <a name="loiod1ffe611194b4c7891772b0cce84648e__section_hqw_vlj_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -145,7 +145,7 @@ We add the recommended dynamic header with an instance of the `ObjectPageDynamic
 
 <a name="loiod1ffe611194b4c7891772b0cce84648e__section_rhj_slj_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 		...
@@ -197,7 +197,7 @@ We add content in the `headerContent` aggregation. We're using `sap.m.Avatar` as
 
 <a name="loiod1ffe611194b4c7891772b0cce84648e__section_yhv_qlj_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 		...

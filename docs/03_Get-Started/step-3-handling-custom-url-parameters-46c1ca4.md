@@ -1,6 +1,6 @@
 <!-- loio46c1ca4eb2804af6bfa371ad51c9b887 -->
 
-# Step 3: Handling Custom URL Parameters
+## Step 3: Handling Custom URL Parameters
 
 In this step, we add the functionality to interpret URL parameters in our local mock server configuration.
 
@@ -8,23 +8,23 @@ We know that the OData V2 provider of this service implements a URL parameter th
 
 
 
-## Preview
+### Preview
 
   
   
 **Only the next three meet-ups are shown**
 
-![](images/Tutorial_Mock_Server_Step_3_e65ccb2.png "Only the next three meet-ups are shown")
+![](images/loioe65ccb233c334129b11726a20b102211_HiRes.png "Only the next three meet-ups are shown")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Mock Server - Step 3](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.mockserver/sample/sap.ui.core.tutorial.mockserver.03).
 
 
 
-## webapp/localService/mockserver.js
+### webapp/localService/mockserver.js
 
 ```js
 sap.ui.define([

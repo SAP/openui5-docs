@@ -1,6 +1,6 @@
 <!-- loio5278bfd38f3940b192df0e39f2fb33b3 -->
 
-# Step 2: Creating a Model
+## Step 2: Creating a Model
 
 In this step, we create a model. It serves as a container for the data your application operates on.
 
@@ -28,13 +28,13 @@ In this tutorial, we focus on JSON models since they're the simplest ones to wor
 
 
 
-## Preview
+### Preview
 
-![The browser shows the text "Hi, my name is Harry Hawk"](images/Tutorial_Data_Binding_Step_1_6d391d5.png)
+![The browser shows the text "Hi, my name is Harry Hawk"](images/loio6d391d527601499fbeb3734246b2c067_LowRes.png)
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 2](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.02).
 

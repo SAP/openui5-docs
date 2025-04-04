@@ -1,6 +1,6 @@
 <!-- loio9d87f925dfbb4e99b9e2963693aa00ef -->
 
-# CSS Styling Issues
+## CSS Styling Issues
 
 This section lists some of the most important rules relating to CSS styling in OpenUI5.
 
@@ -10,7 +10,7 @@ OpenUI5 controls are styled with CSS, and as applications can provide their own 
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__1"/>
 
-## Don't override control class styling directly
+### Don't override control class styling directly
 
 OpenUI5 does not guarantee the stability of style class names across versions. If the naming of style classes is changed in future versions, styling rules will no longer be applied to targeted elements. In addition, overriding control class styles directly might lead to style clashes when applications are run in shared runtime environments \(like SAP Fiori launchpad\).
 
@@ -71,7 +71,7 @@ Then provide the style for this class:
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__2"/>
 
-## Don't style DOM element names directly
+### Don't style DOM element names directly
 
 Styling DOM elements directly will lead to unpredictable results, as OpenUI5 does not guarantee the stability of the inner-control DOM-tree over time. In addition, this might lead to styling clashes when applications run in shared runtime environments \(like SAP Fiori launchpad\) or when custom HTML is added. It is better to limit styling changes to specifically used CSS classes.
 
@@ -123,7 +123,7 @@ div {
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__3"/>
 
-## Don't use generated IDs in CSS selectors
+### Don't use generated IDs in CSS selectors
 
 OpenUI5 applications can create dynamic IDs for elements. Do not use these IDs as selectors in custom CSS as they can change over time. It is better to add and use CSS classes instead.
 
@@ -177,7 +177,7 @@ Add a style class as described above and then define the following:
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__4"/>
 
-## Don't create selectors that are not namespaced
+### Don't create selectors that are not namespaced
 
 Custom selectors and CSS classes that are not namespaced might lead to style clashes in shared runtime environments like SAP Fiori launchpad, or when other JavaScript libraries are included that might use the same CSS class names.
 
@@ -229,7 +229,7 @@ Good Example
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__5"/>
 
-## Don't use hard-coded colors, font sizes and images if the app should be themable
+### Don't use hard-coded colors, font sizes and images if the app should be themable
 
 Themability of applications relies on LESS calculations within the OpenUI5 theme CSS. Hard-coding colors, fonts and images in applications and custom controls means that these colors are not modified by theming, which leads to design issues or accessibility issues \(for example, in the High Contrast Black \(HCB\) theme\). You can use special CSS classes instead that are supplied by these LESS calculations.
 
@@ -277,7 +277,7 @@ See also: [CSS Classes for Theme Parameters](../04_Essentials/css-classes-for-th
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__6"/>
 
-## Don't use theming parameters for attributes they were not intended for
+### Don't use theming parameters for attributes they were not intended for
 
 OpenUI5 applications come with a built-in set of parameters which are used for theme-dependent styling, mainly for colors. They are accessible using the `sap.ui.core.theming.Parameters.get()` API \(and for library builds using the OpenUI5 build mechanism, also in the \*.less files in control libraries\). These theme parameters have descriptive names, meaning that by looking at a parameter name, you can see the usage it has been defined for.
 

@@ -1,6 +1,6 @@
 <!-- loioeba8d25a31ef416ead876e091e67824e -->
 
-# Terminologies
+## Terminologies
 
 By defining terminologies together with additional resource bundles, an application can easily be switched from one scenario or industry to another.
 
@@ -10,7 +10,7 @@ This chapter describes a concept for dynamically adapting applications for diffe
 
 <a name="loioeba8d25a31ef416ead876e091e67824e__section_ConfigTerminology"/>
 
-## Configuration of Terminologies
+### Configuration of Terminologies
 
 A terminology, such as "Travel" or "Sports", is a set of resource bundles / .properties files for an application-specific scenario that the developer can activate by configuring it as described below.
 
@@ -173,7 +173,7 @@ List of additional resource bundle configurations to enhance the main bundle. Ea
 
 
 
-### Example for Component resource models
+#### Example for Component resource models
 
 The following JSON excerpt is valid for models of type `sap.ui.model.resource.ResourceModel` inside the `manifest.json` in both the `sap.app/i18n` and the `sap.ui5/models` sections. For other models, the configuration must be placed in the `settings` property. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md).
 
@@ -244,7 +244,7 @@ The second bundle with the bundleUrl `reuse/appvar2/i18n/i18n.properties` does n
 
 
 
-### Example for library resource bundles
+#### Example for library resource bundles
 
 > ### Note:  
 > You can define a library's `ResourceBundle` in the `sap.ui5/library/i18n` section of a library's `manifest.json`. Contrary to a component's `ResourceModel`, a library's `ResourceBundle` cannot reference a bundle outside its own deployment unit. Each relative `bundleUrl` will always be resolved relative to the origin of the library itself.
@@ -286,7 +286,7 @@ The second bundle with the bundleUrl `reuse/appvar2/i18n/i18n.properties` does n
 
 <a name="loioeba8d25a31ef416ead876e091e67824e__section_ActivTerminologies"/>
 
-## Activation of Terminologies
+### Activation of Terminologies
 
 There are three ways to specify which terminologies should be activated in your application. A list of active terminologies must be provided in each case. Attention must be paid to the order in which the active terminologies are given. The terminology with the highest priority comes first.
 
@@ -296,7 +296,7 @@ In the examples below, the terminology `travel` has the highest priority as it i
 
 
 
-### Activate Terminologies via the API
+#### Activate Terminologies via the API
 
 The most relevant option is to pass the list of active terminologies as an array of strings to the factory functions of the `sap.ui.core.Component`. In case of nested components, the active terminologies will be inherited from the owner component.
 
@@ -321,7 +321,7 @@ sap.ui.require(["sap/ui/core/Component"], function(Component) {
 
 
 
-### Activate Terminologies via URL Parameter
+#### Activate Terminologies via URL Parameter
 
 > ### Note:  
 > The activation of terminologies via URL parameter is mainly intended for testing purposes.
@@ -335,7 +335,7 @@ Another option is to attach the URL parameter `sap-ui-active-terminologies` with
 
 
 
-### Activate Terminologies via the Bootstrap Configuration
+#### Activate Terminologies via the Bootstrap Configuration
 
 > ### Note:  
 > The activation of terminologies via the bootstrap configuration is mainly intended for testing purposes.

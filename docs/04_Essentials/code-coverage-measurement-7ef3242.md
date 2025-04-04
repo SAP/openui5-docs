@@ -1,6 +1,6 @@
 <!-- loio7ef32428dc7c4c048a8d7e8de0a556fb -->
 
-# Code Coverage Measurement
+## Code Coverage Measurement
 
 You can measure the code coverage either via HTML or JavaScript code using a code coverage tool like `Istanbul` \(default\) or `Blanket.js` \(legacy\).
 
@@ -8,7 +8,7 @@ You can measure the code coverage either via HTML or JavaScript code using a cod
 
 <a name="loio7ef32428dc7c4c048a8d7e8de0a556fb__section_STAMBUL"/>
 
-## Istanbul
+### Istanbul
 
 `Istanbul` offers code coverage and instrumentation for JavaScript files. It also supports branching and correctly identifies visited scopes in conditional clauses.
 
@@ -20,7 +20,7 @@ For more information, see the [documentation](https://github.com/SAP/ui5-tooling
 
 
 
-### Enablement
+#### Enablement
 
 You have two options to enable code coverage measurement by `Istanbul`:
 
@@ -45,7 +45,7 @@ You have two options to enable code coverage measurement by `Istanbul`:
 
 
 
-### Configuration
+#### Configuration
 
 By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code \(use either the HTML or the JS option\):
 
@@ -128,23 +128,23 @@ By default all files that are executed during the test run are instrumented and 
 
 
 
-### Results
+#### Results
 
 To view the results of the measurement, select the *Enable coverage* checkbox on the test page. This will trigger a new test run.
 
 In this example the coverage is limited to one specific file - the only one that is important for this test.
 
-![](images/Istanbul_Code_Coverage_8b7a4a5.png)
+![](images/loio8b7a4a50633747348ca16d4be8fb9b87_LowRes.png)
 
 
 
-## Blanket.js \(Legacy\)
+### Blanket.js \(Legacy\)
 
 `Blanket.js` offers code coverage and instrumentation for JavaScript up to ECMAScript Language Specification 5. As of OpenUI5 version 1.113.0, code coverage measurement via [`Istanbul`](code-coverage-measurement-7ef3242.md#loio7ef32428dc7c4c048a8d7e8de0a556fb__section_STAMBUL) is the recommended option.
 
 
 
-### Enablement
+#### Enablement
 
 You have two options to enable code coverage measurement by `Blanket.js`:
 
@@ -169,7 +169,7 @@ You have two options to enable code coverage measurement by `Blanket.js`:
 
 
 
-### Configuration
+#### Configuration
 
 By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code \(use either the HTML or the JS option\):
 
@@ -248,13 +248,13 @@ By default all files that are executed during the test run are instrumented and 
 
 
 
-### Results
+#### Results
 
 To view the results of the measurement, select the *Enable coverage* checkbox on the test page. This will trigger a new test run.
 
 In this example the coverage is limited to one specific file - the only one that is important for this test.
 
-![](images/QUnit_Code_Coverage_358de53.jpg)
+![](images/loio358de53ac5684012b55fb043e1f6e999_LowRes.jpg)
 
 **Related Information**  
 

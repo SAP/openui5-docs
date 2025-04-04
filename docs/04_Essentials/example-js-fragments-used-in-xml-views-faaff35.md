@@ -1,6 +1,6 @@
 <!-- loiofaaff35246414793b061f0244fb67338 -->
 
-# Example: JS Fragments Used in XML Views
+## Example: JS Fragments Used in XML Views
 
 Example of JS fragments used in an XML view
 
@@ -10,7 +10,7 @@ The example uses different combinations. Make sure that the `sap-ui-core.js` scr
 
 <a name="loiofaaff35246414793b061f0244fb67338__section_gzk_nqs_mmb"/>
 
-## webapp/MyFragment.js
+### webapp/MyFragment.js
 
 Definition of a simple JS fragment containing two buttons:
 
@@ -33,7 +33,7 @@ sap.ui.define(["sap/m/Button"], function (Button) {
 
 <a name="loiofaaff35246414793b061f0244fb67338__section_d3y_4qs_mmb"/>
 
-## webapp/View.view.xml
+### webapp/View.view.xml
 
 Definition of a simple XML view:
 
@@ -56,7 +56,7 @@ Definition of a simple XML view:
 
 <a name="loiofaaff35246414793b061f0244fb67338__section_br1_pqs_mmb"/>
 
-## webapp/Controller.js
+### webapp/Controller.js
 
 Definition of a simple controller used with the XML view:
 
@@ -89,7 +89,7 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/core/Fragment'], function (
 
 <a name="loiofaaff35246414793b061f0244fb67338__section_f3f_s4s_mmb"/>
 
-## webapp/index.html
+### webapp/index.html
 
 Instance creation of controller and XML view:
 

@@ -1,6 +1,6 @@
 <!-- loio457eaada68a24187858fd5e8b21a4892 -->
 
-# Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR
+## Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR
 
 By integrating Sinon.JS for QUnit, you can use spies, stubs, mocks, faked timers or faked XHR. For more information about using sinon.js, see the official documentation at `http://sinonjs.org/docs/`.
 
@@ -37,7 +37,7 @@ The following examples show you the basic way in which Sinon.JS can be used. The
 
 <a name="loio457eaada68a24187858fd5e8b21a4892__section_wn1_n3q_f1c"/>
 
-## Spies
+### Spies
 
 A simple spy test:
 
@@ -64,7 +64,7 @@ sap.ui.define(["sap/m/Button"], function(Button) {
 
 <a name="loio457eaada68a24187858fd5e8b21a4892__section_bxx_43q_f1c"/>
 
-## Stubs
+### Stubs
 
 A simple stub test:
 
@@ -90,7 +90,7 @@ sap.ui.define([], function() {
 
 <a name="loio457eaada68a24187858fd5e8b21a4892__section_mbs_q3q_f1c"/>
 
-## Mocks
+### Mocks
 
 A simple mock test:
 
@@ -119,7 +119,7 @@ sap.ui.define([], function() {
 
 <a name="loio457eaada68a24187858fd5e8b21a4892__section_FAKETIM"/>
 
-## Faked Timers
+### Faked Timers
 
 A simple faked timer test:
 
@@ -179,7 +179,7 @@ QUnit.test("Test with fake timers", assert() => {
 
 <a name="loio457eaada68a24187858fd5e8b21a4892__section_mfx_g3q_f1c"/>
 
-## Faked XHR
+### Faked XHR
 
 A simple faked XHR test:
 

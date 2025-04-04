@@ -1,6 +1,6 @@
 <!-- loio0ec1d91487aa43058914ba80ccefbc9b -->
 
-# Important FlexBox Layout Concepts
+## Important FlexBox Layout Concepts
 
 Introduction of important concepts for FlexBox layouts.
 
@@ -8,7 +8,7 @@ Introduction of important concepts for FlexBox layouts.
 
 <a name="loio0ec1d91487aa43058914ba80ccefbc9b__section_N10018_N10011_N10001"/>
 
-## Main Axis and Cross Axis
+### Main Axis and Cross Axis
 
 A FlexBox layout has a direction in which child elements are laid out. The default direction is **Row** and rows are laid out horizontally in reading direction. This defines the **main axis**. The **cross axis** in this case is vertical.
 
@@ -23,7 +23,7 @@ In addition to Row and Column, the flex direction can be set to **RowReverse** a
 
 <a name="loio0ec1d91487aa43058914ba80ccefbc9b__section_N1004D_N10011_N10001"/>
 
-## Two-Dimensional Alignment
+### Two-Dimensional Alignment
 
 You can determine where the flex items are aligned in a FlexBox layout. For the alignment you use the following two properties: **justifyContent** and **alignItems**. The `justifyContent` property sets the alignment along the main axis while `alignItems` acts on the cross axis.
 
@@ -40,7 +40,7 @@ For *alignItems* two additional values exist: *Baseline* and *Stretch*. *Baselin
 
 <a name="loio0ec1d91487aa43058914ba80ccefbc9b__section_N100C9_N10011_N10001"/>
 
-## Flexibility
+### Flexibility
 
 You can let the browser handle the distribution of elements. This ensures that they always fill the available space along the main axis. To do this, set a flexibility factor on the flex items.
 

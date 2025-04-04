@@ -1,28 +1,28 @@
 <!-- loio84100bcfd5b34f62858bdd6f67976b4a -->
 
-# Step 3: Extending the Worklist Table
+## Step 3: Extending the Worklist Table
 
 In this step, we will edit the worklist table to include additional columns for our manage product stocks scenario. We display the supplier, the product price, and the number of units on order for each product and format the values accordingly.
 
 
 
-## Preview
+### Preview
 
   
   
 **The improved worklist table with new columns and formatting**
 
-![](images/Tutorial_Worklist_Step_03_Preview_2def9d9.png "The improved worklist table with new columns and formatting")
+![](images/loio2def9d9de16f4b4a87dd4342486c70f7_HiRes.png "The improved worklist table with new columns and formatting")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Worklist App - Step 3](https://ui5.sap.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.03).
 
 
 
-### webapp/view/Worklist.view.xml \[MODIFY\]
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ```xml
 …
@@ -70,7 +70,7 @@ We expand the supplier because we want to avoid sending one additional request f
 
 
 
-### webapp/localService/metadata.xml \[MODIFY\]
+#### webapp/localService/metadata.xml \[MODIFY\]
 
 ```xml
 <EntityType Name="Product">
@@ -100,7 +100,7 @@ When using a real OData service, the interface would be available by calling the
 
 
 
-### webapp/view/Worklist.view.xml \[MODIFY\]
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ```xml
 …
@@ -168,7 +168,7 @@ Let's have a detailed look at the columns:
 
 
 
-### webapp/model/formatter.js \[MODIFY\]
+#### webapp/model/formatter.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -222,7 +222,7 @@ We add a new formatter function `quantityState` to the `webapp/model/formatter.j
 
 
 
-### webapp/view/Worklist.view.xml \[MODIFY\]
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ```xml
 …
@@ -273,7 +273,7 @@ The next task is to define the cells to appear in each row of the table. For eac
 
 
 
-### webapp/i18n/i18n.properties \[MODIFY\]
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ```ini
 #XTIT: The title of the column containing Product name

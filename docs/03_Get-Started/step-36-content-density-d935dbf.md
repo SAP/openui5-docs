@@ -1,29 +1,29 @@
 <!-- loiod935dbf196d34997bf1ac42ac3e81579 -->
 
-# Step 36: Content Density
+## Step 36: Content Density
 
 In this step of our Walkthrough tutorial, we adjust the content density based on the user's device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.
 
 
 
-## Preview
+### Preview
 
   
   
 **The content density is compact on desktop devices and cozy on touch-enabled devices**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_36_f216b13.png "The content density is compact on desktop devices and cozy on touch-enabled
+![The graphic has an explanatory text.](images/loiof216b131c492448d8a1df25db2b9a26d_LowRes.png "The content density is compact on desktop devices and cozy on touch-enabled
 					devices")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 36](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.36).
 
 
 
-## webapp/Component.js
+### webapp/Component.js
 
 ```js
 ...
@@ -41,7 +41,7 @@ This helper method queries the `Device` API directly for touch support of the cl
 
 
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([
@@ -62,7 +62,7 @@ We add an `onInit` method to the app controller that is called when the app view
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```json
 ...

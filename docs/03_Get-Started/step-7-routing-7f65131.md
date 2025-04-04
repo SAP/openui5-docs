@@ -1,6 +1,6 @@
 <!-- loio7f651316d396400d88835adb0d021532 -->
 
-# Step 7: Routing
+## Step 7: Routing
 
 In this step, we utilize the `sap.f.routing.Router`.
 
@@ -8,19 +8,19 @@ In this step, we utilize the `sap.f.routing.Router`.
 
 <a name="loio7f651316d396400d88835adb0d021532__section_rdb_5d1_12b"/>
 
-## Preview
+### Preview
 
   
   
 **Changing layouts based on the sap.f.routing.Router \(no visual changes to last step\)**
 
-![](images/Floating_Footer_Fiori_2_0_Tutorial_24122e0.png "Changing layouts based on the sap.f.routing.Router (no visual changes to last step)")
+![](images/loio24122e039ed14a7a874ec26d0cf51614_LowRes.png "Changing layouts based on the sap.f.routing.Router (no visual changes to last step)")
 
 
 
 <a name="loio7f651316d396400d88835adb0d021532__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 7](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.07/preview).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Flexible Column Layout App - Step 7](htt
 
 <a name="loio7f651316d396400d88835adb0d021532__section_jqg_b4j_l4b"/>
 
-## webapp/views/App.view.xml \[MODIFY\]
+### webapp/views/App.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -51,7 +51,7 @@ We remove the hard-coded `beginColumnPages` and `endColumnPages` aggregations \(
 
 <a name="loio7f651316d396400d88835adb0d021532__section_xmq_znj_l4b"/>
 
-## webapp/controller/App.controller.js \[NEW\]
+### webapp/controller/App.controller.js \[NEW\]
 
 ```js
 sap.ui.define([
@@ -100,7 +100,7 @@ We access the router and bind to its `routeMatched` event. For more information,
 
 <a name="loio7f651316d396400d88835adb0d021532__section_agl_ynj_l4b"/>
 
-## webapp/controller/List.controller.js \[MODIFY\]
+### webapp/controller/List.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -161,7 +161,7 @@ We change the event handler for pressing an item from the list view to use the r
 
 <a name="loio7f651316d396400d88835adb0d021532__section_m24_xnj_l4b"/>
 
-## webapp/controller/Detail.controller.js \[MODIFY\]
+### webapp/controller/Detail.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -210,7 +210,7 @@ We bind the table in the detail view to reflect the currently selected product f
 
 <a name="loio7f651316d396400d88835adb0d021532__section_tmp_wnj_l4b"/>
 
-## webapp/Component.js \[MODIFY\]
+### webapp/Component.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -267,7 +267,7 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 
 <a name="loio7f651316d396400d88835adb0d021532__section_xr1_snj_l4b"/>
 
-## webapp/manifest.json \[MODIFY\]
+### webapp/manifest.json \[MODIFY\]
 
 ```json
 {

@@ -1,6 +1,6 @@
 <!-- loioe282db2865e94f69972c407469b801e9 -->
 
-# Migrating from Component Metadata to Manifest
+## Migrating from Component Metadata to Manifest
 
 Overview, how the component metadata are mapped to the manifest \(descriptor for applications, components and libraries\).
 
@@ -187,7 +187,7 @@ Different format, see *Resources* section below
 
 
 
-## Dependencies
+### Dependencies
 
 Libraries and components are objects and not arrays. For the manifest part, we use `minUI5Version` instead of `ui5version`.
 
@@ -223,7 +223,7 @@ Libraries and components are objects and not arrays. For the manifest part, we u
 
 
 
-## Resources
+### Resources
 
 Includes are renamed to resources and are objects and not an array.
 

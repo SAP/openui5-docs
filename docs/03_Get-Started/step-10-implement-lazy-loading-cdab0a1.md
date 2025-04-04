@@ -1,22 +1,22 @@
 <!-- loiocdab0a1123514cc08cf2c8deb22f312e -->
 
-# Step 10: Implement "Lazy Loading"
+## Step 10: Implement "Lazy Loading"
 
 In the previous steps, we have implemented a *Resume* view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a "lazy loading" feature that only loads the view and data when requested by the user.
 
 
 
-## Preview
+### Preview
 
   
   
 **Tabs with lazy loading**
 
-![](images/Tutorial_Navigation_and_Routing_Step_10_cb04056.png "Tabs with lazy loading")
+![](images/loiocb0405649d5345f882892e0ee691d4f1_LowRes.png "Tabs with lazy loading")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 10](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.10) .
 
@@ -24,11 +24,11 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 **Folder Structure for this Step**
 
-![](images/Tutorial_Navigation_and_Routing_Step_10b_389058e.png "Folder Structure for this Step")
+![](images/loio389058e1605441289efee0267badf7d8_HiRes.png "Folder Structure for this Step")
 
 
 
-## webapp/view/employee/Resume.view.xml
+### webapp/view/employee/Resume.view.xml
 
 ```xml
 <mvc:View
@@ -74,7 +74,7 @@ In the `resume` view we remove the content of the *Hobbies* and *Notes* tabs as 
 
 
 
-## webapp/view/employee/ResumeHobbies.view.xml \(New\)
+### webapp/view/employee/ResumeHobbies.view.xml \(New\)
 
 ```xml
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
@@ -87,7 +87,7 @@ Create the file `ResumeHobbies.view.xml` in the `webapp/view/employee` folder. M
 
 
 
-## webapp/view/employee/ResumeNotes.view.xml \(New\)
+### webapp/view/employee/ResumeNotes.view.xml \(New\)
 
 ```xml
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
@@ -99,7 +99,7 @@ Create the file `ResumeNotes.view.xml` in the `webapp/view/employee` folder simi
 
 
 
-## webapp/controller/employee/Resume.controller.js
+### webapp/controller/employee/Resume.controller.js
 
 ```js
 sap.ui.define([
@@ -147,7 +147,7 @@ These lines of code make sure that the targets are only loaded when they are nee
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -225,7 +225,7 @@ Try it out yourself: Open the *Network* tab of your browser's developer tools an
 
 
 
-## Conventions
+### Conventions
 
 -   Lazy-load content that is not initially displayed to the user
 

@@ -1,6 +1,6 @@
 <!-- loio2bf4892527174264808076be32c1e1b0 -->
 
-# Step 3: Adding the Price Formatter
+## Step 3: Adding the Price Formatter
 
 We will now take care of the implementation of the price formatter and make sure that the tests we wrote in the previous step run successfully.
 
@@ -8,23 +8,23 @@ If the tests are passed, we can be sure that the formatter is formally correct b
 
 
 
-## Preview
+### Preview
 
   
   
 **The price is now formatted with a semantic color**
 
-![](images/Tutorial_Testing_Step_03_436054f.jpg "The price is now formatted with a semantic color")
+![](images/loio436054fd57104e89b98dd2dc9a834211_LowRes.jpg "The price is now formatted with a semantic color")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 3](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.03).
 
 
 
-## webapp/model/formatter.js
+### webapp/model/formatter.js
 
 ```js
 
@@ -65,7 +65,7 @@ You can now run the file `webapp/test/testsuite.qunit.html` in your browser and 
 
 
 
-## webapp/view/Worklist.view.xml
+### webapp/view/Worklist.view.xml
 
 ```xml
 …

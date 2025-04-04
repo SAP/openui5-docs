@@ -1,6 +1,6 @@
 <!-- loio4b0c51965ebd40059daf3419ba35f694 -->
 
-# Basic Example How to Use Gherkin
+## Basic Example How to Use Gherkin
 
 Like test-driven development \(TDD\), behavior-driven development \(BDD\) with Gherkin encourages us to write more tests because you do it right from the beginning. Having more tests makes it cheaper and easier to maintain the code over time. Let's dive into the specifics using following an example.
 
@@ -30,13 +30,13 @@ The ideal pattern for a BDD iteration goes like this:
 
 
 
-## Write the first feature file
+### Write the first feature file
 
 Do you like lemmings? According to legend, they occasionally throw themselves into the sea in a mass suicide attempt. Imagine that you are writing an app that allows you to save lemmings' lives by clicking a button. In the BDD style, the first thing you do is write a feature file to document what your app is supposed to do.
 
 
 
-### Requirements1.feature
+#### Requirements1.feature
 
 Create the following feature file \(make sure that you use file extension `.feature`\):
 
@@ -55,7 +55,7 @@ Feature: Clicking Buttons is a Life Saving Activity
 
 
 
-## Execute a test
+### Execute a test
 
 Next we should execute the test. This might seem strange since we haven't actually written a test yet, but this way we can check to see that our feature file works. Also, if you are working in a large project, some of the tests might have already been written by a colleague. Gherkin notifies us of all of the missing tests, and then we can proceed to write them one by one.
 
@@ -63,7 +63,7 @@ To actually execute the test, we need to create an HTML bootstrap test runner fi
 
 
 
-### Steps.js
+#### Steps.js
 
 Here is a stub `Steps.js` file, without any step definitions, to get you started. You need to adjust the path and file name in the call to `extend` to match your scenario:
 
@@ -91,7 +91,7 @@ To execute Gherkin tests, you need to find a version of SAPUI5 or OpenUI5 that w
 
 
 
-### Website.html
+#### Website.html
 
 Here is a sample HTML bootstrap file for Gherkin. In this example, the feature file is named `Requirements.feature` and the steps file is named `Steps.js`. Both are located in the same directory as your HTML bootstrap. You will need to adjust the OpenUI5 `src` \(if you don't want to use the suggested build\), OpenUI5 resourceroots, and the feature and steps file names to match your scenario and your app:
 
@@ -136,7 +136,7 @@ Here is a sample HTML bootstrap file for Gherkin. In this example, the feature f
 
 When you load the HTML file in your browser, the Gherkin tests are executed automatically . If you are using Google Chrome, you may need to start it with the command line flags`--allow-file-access-from-files --disable-web-security`. When everything is working correctly, you should see something like the following in your browser:
 
-![](images/GherkinWithOPA5_bb0e61f.png)
+![](images/loiobb0e61f8e0004349bdfb37f0a4f39618_LowRes.png)
 
 We expect the test to fail because we haven't written any tests yet. You'll notice that Gherkin has explained that it was not able to find a matching step definition for the first test step, "I have started the app", in the steps file. Scrolling down, you can see that none of the test steps have been found. We will need to write these step definitions.
 
@@ -144,7 +144,7 @@ Looking back at the feature file that we wrote, "I have started the app" is the 
 
 
 
-## Write the first failing test
+### Write the first failing test
 
 To verify the feature file, we will implement a steps file, which to recap is both the translation that allows the computer to understand the human-readable feature file, and also the verification steps \(tests\) to be run. Once you have a working feature file and can execute the test suite, then you are ready to write your first test. We will start by writing a simple test that we expect to fail.
 
@@ -168,7 +168,7 @@ At test execution time, the Gherkin test harness tries to find a step definition
 
 Try executing the test now. You should see something like this:
 
-![](images/GherkinsWithOpaFailTest_cad81d3.png)
+![](images/loiocad81d3d87ab4c4688313ecdd70ee824_LowRes.png)
 
 Step 1 is green because a matching step definition was found in the steps file. In Gherkin, the test harness always checks for the existence of the step definition first before executing the step definition's function. After Gherkin finds a step definition, it executes the step definition's function, and thus executes any QUnit assertions inside the function.
 
@@ -176,7 +176,7 @@ In step 2, notice how the text "This test will fail!" is copied from the steps f
 
 
 
-## Write the second failing test
+### Write the second failing test
 
 Let's write a bit more test code. To make a test useful, it will need to load your app and verify its properties. We will use OPA5 for this purpose. Replace the code inside your steps file's `init` method with the following code:
 
@@ -200,7 +200,7 @@ this.register(/^I can see the life saving button$/i, function() {
 
 You may need to adapt the above code to fit your situation. When you execute this code, you should see something like this:
 
-![](images/GherkinWithOPAFailingTest2_99af4d4.png)
+![](images/loio99af4d460e284411b91e89a17ae28815_LowRes.png)
 
 There are several important things to note here:
 
@@ -210,13 +210,13 @@ In the above screenshot, steps 1 and 2 are passing because Gherkin was able to m
 
 
 
-## Write the first passing test
+### Write the first passing test
 
 To make the "I can see the life saving button" test pass, you need to implement the app that is under test.
 
 
 
-### Website.html
+#### Website.html
 
 Here is a simple stub for a test Web site \(you may need to update the bootstrap source\):
 
@@ -239,7 +239,7 @@ Here is a simple stub for a test Web site \(you may need to update the bootstrap
 
 
 
-### WebsiteCode.js
+#### WebsiteCode.js
 
 Here's some simple code for an app:
 
@@ -268,7 +268,7 @@ sap.ui.require([
 
 Now when you execute the test, you should see a passed verification step:
 
-![](images/GherkinWIthOPAPassing_e99954a.png)
+![](images/loioe99954a6d823413d8bd4f69d1e980e8b_LowRes.png)
 
 Steps 1 and 2 passed because the corresponding step definitions were found in the steps file. Here Gherkin is confirming that it was able to find the step definitions.
 

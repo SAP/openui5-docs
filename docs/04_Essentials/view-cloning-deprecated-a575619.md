@@ -1,6 +1,6 @@
 <!-- loioa575619e25c2487f904bae71764e2350 -->
 
-# View Cloning \(deprecated\)
+## View Cloning \(deprecated\)
 
 For normal controls, view cloning bases on control settings that are described by OpenUI5 metadata, such as properties, aggregations, associations, and event handlers. The clone operation collects these settings and creates a new instance.
 

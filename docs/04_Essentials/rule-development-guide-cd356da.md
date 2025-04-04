@@ -1,6 +1,6 @@
 <!-- loiocd356daf2c444ace9edfc532f5833e11 -->
 
-# Rule Development Guide
+## Rule Development Guide
 
 The Support Assistant allows you to create custom rules and rulesets and test them on your apps.
 
@@ -12,7 +12,7 @@ The next subsections contain more detailed information on how to create new rule
 
 
 
-![](images/Image_map_Support_Assistant_Diagram_4bae3b9.png)
+![](images/loio4bae3b9c7ac54b22b74d322b040d80b0_LowRes.png)
 
 
 

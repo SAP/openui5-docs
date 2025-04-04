@@ -1,6 +1,6 @@
 <!-- loio1409791afe4747319a3b23a1e2fc7064 -->
 
-# Step 4: XML Views
+## Step 4: XML Views
 
 Putting all our UI into the `index.js` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let's do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
 
@@ -8,20 +8,20 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). When working wit
 
 
 
-## Preview
+### Preview
 
   
   
 **The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes to last step\)**
 
-![Hello World](images/UI5_Walkthrough_Step_04_05f6775.png "The "Hello World" text is now displayed by a OpenUI5 control (No
+![Hello World](images/loio05f6775a39d3409ea673f4acc3812142_LowRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
 					visual changes to last step)")
 
 
 
 <a name="loio1409791afe4747319a3b23a1e2fc7064__section_l3f_lgc_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 4](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.04).
 
@@ -29,7 +29,7 @@ You can view and download all files at [Walkthrough - Step 4](https://ui5.sap.co
 
 <a name="loio1409791afe4747319a3b23a1e2fc7064__section_m3f_lgc_syb"/>
 
-## webapp/view/App.view.xml \(New\)
+### webapp/view/App.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -45,7 +45,7 @@ We create a new `view` folder in our webapp folder and a new file called `App.vi
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -62,7 +62,7 @@ Inside the `View` tag, we add the declarative definition of our `text` control w
 
 <a name="loio1409791afe4747319a3b23a1e2fc7064__section_nlq_g1w_xfb"/>
 
-## webapp/index.js
+### webapp/index.js
 
 ```js
 sap.ui.define([
@@ -81,7 +81,7 @@ We replace the instantiation of the `sap/m/Text` control by our new `App.view.xm
 
 
 
-## Conventions
+### Conventions
 
 -   View names are capitalized
 

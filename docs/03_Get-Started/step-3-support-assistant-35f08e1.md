@@ -1,6 +1,6 @@
 <!-- loio35f08e10a5d74e058ce9929244d935f0 -->
 
-# Step 3: Support Assistant
+## Step 3: Support Assistant
 
 In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.
 
@@ -8,15 +8,15 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 
 <a name="loio35f08e10a5d74e058ce9929244d935f0__section_u2k_c1d_5z"/>
 
-## Preview
+### Preview
 
-![](images/TroubelshootingTutorial_Support_Assistant_f3f8bdb.png)
+![](images/loiof3f8bdbb49eb46eda7568ebf30eb7d41_LowRes.png)
 
 
 
 <a name="loio35f08e10a5d74e058ce9929244d935f0__section_hkm_s4f_vz"/>
 
-## Opening the Example App and Support Assistant
+### Opening the Example App and Support Assistant
 
 1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 
@@ -34,7 +34,7 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 
 <a name="loio35f08e10a5d74e058ce9929244d935f0__section_b2v_bzk_zz"/>
 
-## Analyzing and Fixing Issues
+### Analyzing and Fixing Issues
 
 1.  In the *Support Assistant* toolbar, choose *Rules*.
 

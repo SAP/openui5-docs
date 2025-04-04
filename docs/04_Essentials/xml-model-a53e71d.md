@@ -1,6 +1,6 @@
 <!-- loioa53e71d85fae4d0887a8b58431197a27 -->
 
-# XML Model
+## XML Model
 
 The XML model allows to bind controls to XML data. It is a client-side model intended for small datasets, which are completely available on the client. The XML model does not contain mechanisms for server-based paging or loading of deltas. It supports two-way binding.
 
@@ -39,7 +39,7 @@ For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.m
 
 <!-- loioab8ed73c5bbd4a2b9c9840401ebf25cf -->
 
-## Sorting and Filtering in XML Models
+### Sorting and Filtering in XML Models
 
 If you use an XML model for data binding, sorting and filtering is implemented in JavaScript because all data is available on the client. You can use custom methods for sorting and filtering in an XML model. To define custom methods, set the `fnCompare` method on the Sorter object or the `fnTest` method on the Filter object after creating it.
 
@@ -67,7 +67,7 @@ oSorter.fnCompare = function(value1, value2) {
 
 <!-- loio8674a69845c846d3bd68b60685bb5683 -->
 
-## XML Namespace Support
+### XML Namespace Support
 
 The XML model supports documents using XML namespaces.
 
@@ -97,7 +97,7 @@ oTable.bindRows("/e:entry");
 
 <!-- loiob8a2c24356c443228f7819d45697a2b8 -->
 
-## Binding Path Syntax for XML Models
+### Binding Path Syntax for XML Models
 
 XML models differentiate between attributes and content. XML has no arrays and defines lists as multiple elements with the same name instead. This makes the binding path syntax for XML models more difficult than for JSON or OData models.
 

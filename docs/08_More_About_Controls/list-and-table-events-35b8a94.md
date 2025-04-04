@@ -1,6 +1,6 @@
 <!-- loio35b8a947b95344958b776699c116ad12 -->
 
-# List and Table Events
+## List and Table Events
 
 Both `sap.m.List` and `sap.m.Table` offer the same events, inheriting them from `sap.m.ListBase`.
 

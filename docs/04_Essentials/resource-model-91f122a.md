@@ -1,6 +1,6 @@
 <!-- loio91f122a36f4d1014b6dd926db0e91070 -->
 
-# Resource Model
+## Resource Model
 
 The resource model is used as a wrapper for resource bundles. In data binding you use the resource model instance, for example, to bind texts of a control to language-dependent resource bundle properties.
 
@@ -17,7 +17,7 @@ After the resource model has been instantiated, you have a model containing the 
 
 
 ![The resource model is a wrapper for language-specific resource bundle files that are used to bind texts of a control to
-							language-dependent resource bundle properties.](images/Resource_Model_46a5dad.png)
+							language-dependent resource bundle properties.](images/loio46a5dad5f10e47fb8142fe9994dfbcca_LowRes.png)
 
 **Related Information**  
 
@@ -34,7 +34,7 @@ After the resource model has been instantiated, you have a model containing the 
 
 <!-- loiof05c6f2cf18241cbbb2b126989108765 -->
 
-## Binding Path Syntax for Resource Models
+### Binding Path Syntax for Resource Models
 
 The binding path syntax for the resource model only contains a flat list of properties.
 
@@ -60,7 +60,7 @@ CANCEL_BUTTON_TEXT
 
 <!-- loio7341396326c34631813c805d44058b05 -->
 
-## Binding Texts to a Resource Bundle
+### Binding Texts to a Resource Bundle
 
 If you don't want to use a component or descriptor file, or you want to use a more fine-grained resource bundle, you can declaratively instantiate a resource model in an XML or JSON view. To do so, you define the resource bundle by a name \(`resourceBundleName` property\) or a URL \(`resourceBundleUrl` property\) and assign an alias \(`resourceBundleAlias` property\) for the bundle in the view definition.
 

@@ -1,6 +1,6 @@
 <!-- loiocfbbeab4e4b74124abac98ce268a0aba -->
 
-# Step 7: JSON Model \(TypeScript\)
+## Step 7: JSON Model \(TypeScript\)
 
 Now that we have set up the view and controller, it's about time to think about the M in MVC.
 
@@ -8,20 +8,20 @@ We'll create a view model in our controller, add an input field to our app, bind
 
 
 
-## Preview
+### Preview
 
   
   
 **An input field and a description displaying the value of the input field**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_07_afc1055.png "An input field and a description displaying the value of the input
+![The graphic has an explanatory text](images/loioafc105517a644407bd90662e3d94ea01_LowRes.png "An input field and a description displaying the value of the input
 					field")
 
 
 
 <a name="loiocfbbeab4e4b74124abac98ce268a0aba__section_e2g_rvc_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 7: JSON Model](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/07) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-07.zip).
 
@@ -29,7 +29,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 7: JSON Model](
 
 <a name="loiocfbbeab4e4b74124abac98ce268a0aba__section_f2g_rvc_syb"/>
 
-## webapp/controller/App.controller.ts
+### webapp/controller/App.controller.ts
 
 We add an `onInit` function to the controller. This is one of OpenUI5's lifecycle methods that is invoked by the framework when the controller is created, similar to the constructor of a control.
 
@@ -67,7 +67,7 @@ The model is now set on the view.
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 We add an `sap/m/Input` control to our view, allowing the user to enter a name for the person they want to greet.
 

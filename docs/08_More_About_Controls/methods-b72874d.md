@@ -1,6 +1,6 @@
 <!-- loiob72874dbc4ef41c0ba75a1ae523d795c -->
 
-# Methods
+## Methods
 
 `List` and `Table` provide the following two swipe methods:
 

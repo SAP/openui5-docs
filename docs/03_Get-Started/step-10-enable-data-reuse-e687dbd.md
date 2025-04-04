@@ -1,6 +1,6 @@
 <!-- loioe687dbdc4c064ba3a3ce3942288e8f74 -->
 
-# Step 10: Enable Data Reuse
+## Step 10: Enable Data Reuse
 
 In this step we avoid unnecessary back-end requests by preventing the destruction of data shown in the detail area when sorting or filtering the list.
 
@@ -8,19 +8,19 @@ In this step we avoid unnecessary back-end requests by preventing the destructio
 
 <a name="loioe687dbdc4c064ba3a3ce3942288e8f74__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **No visual change compared to the last step**
 
-![A list of users with an added detail area](images/Tut_OD4_Step_9_6e9025b.png "No visual change compared to the last step")
+![A list of users with an added detail area](images/loio6e9025bc4522494c97d1b60a3f8eec31_LowRes.png "No visual change compared to the last step")
 
 
 
 <a name="loioe687dbdc4c064ba3a3ce3942288e8f74__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 10](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.10/code).
 
@@ -28,7 +28,7 @@ You can view and download all files at [OData V4 - Step 10](https://ui5.sap.com/
 
 <a name="loioe687dbdc4c064ba3a3ce3942288e8f74__section_pvc_fyc_z1b"/>
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 ...

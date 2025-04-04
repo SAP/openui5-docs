@@ -1,6 +1,6 @@
 <!-- loio6173e3d583b84c3696503e1d7c3761c1 -->
 
-# Step 30: Routing and Navigation \(TypeScript\)
+## Step 30: Routing and Navigation \(TypeScript\)
 
 So far, we have put all app content on one single page. As we add more and more features, we want to split the content and put it on separate pages.
 
@@ -8,19 +8,19 @@ In this step, we will use the OpenUI5 navigation features to load and show a sep
 
 
 
-## Preview
+### Preview
 
   
   
 **A second page is added to display the invoice**
 
-![A page consisting of Walkthrough - Details header and Invoice as body text](images/UI5_Walkthrough_Step_30_94152a5.png "A second page is added to display the invoice")
+![A page consisting of Walkthrough - Details header and Invoice as body text](images/loio94152a595fe24d45b12223e0abcccb9c_LowRes.png "A second page is added to display the invoice")
 
 
 
 <a name="loio6173e3d583b84c3696503e1d7c3761c1__section_ips_rvh_tyb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 30: Routing and Navigation](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/30) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-30.zip).
 
@@ -28,7 +28,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 30: Routing and
 
 <a name="loio6173e3d583b84c3696503e1d7c3761c1__section_wd5_kcv_4zb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 First, we add a new text-value pair to our resource bundle to define a title for the new detail page we'd like to create.
 
@@ -48,7 +48,7 @@ detailPageTitle=UI5 TypeScript Walkthrough - Details
 
 <a name="loio6173e3d583b84c3696503e1d7c3761c1__section_anj_4cv_4zb"/>
 
-## webapp/view/Detail.view.xml \(New\)
+### webapp/view/Detail.view.xml \(New\)
 
 Now we add the new `Detail.view.xml` file to our view folder. Besides the root node of the XML structure and the required namespaces, it only contains a `Page` control that displays the title we just defined in our resource bundle and an `ObjectHeader` control with a static text *Invoice* assigned to the `title` attribute \(this we will change in the next step\).
 
@@ -67,7 +67,7 @@ Now we add the new `Detail.view.xml` file to our view folder. Besides the root n
 
 <a name="loio6173e3d583b84c3696503e1d7c3761c1__section_lcd_qcv_4zb"/>
 
-## webapp/view/Overview.view.xml \(New\)
+### webapp/view/Overview.view.xml \(New\)
 
 Next, we create another view in the view folder, called `Overview.view.xml.` We add the root node of the XML structure including the required namespaces to it. Then we copy and paste from the app view everything between and including the `Page` control to our new view.
 
@@ -94,7 +94,7 @@ As we reuse the controller `ui5.walkthrough.controller.App` for two different vi
 
 <a name="loio6173e3d583b84c3696503e1d7c3761c1__section_mcd_qcv_4zb"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 In the app view, we now remove everything and between the control aggregation `pages`, as this content has a new home in the overview view we just created. We provide an `id` to the app control as we want to use this control for our router configuration in the app descriptor in the next step.
 
@@ -116,7 +116,7 @@ In the app view, we now remove everything and between the control aggregation `p
 
 <a name="loio6173e3d583b84c3696503e1d7c3761c1__section_jps_rvh_tyb"/>
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 We thus have everything we need to define a routing from the start view to the details view we just defined. We'd like to start with the app view loading our new overview view by default and being replaced by the detail view when a specific route has been hit.
 
@@ -188,7 +188,7 @@ The overview view is always shown when the hash is empty. The detail view is sho
 
 
 
-## webapp/Component.ts
+### webapp/Component.ts
 
 In the component initialization method, we now add a call to initialize the router.
 
@@ -229,7 +229,7 @@ Initializing the router will evaluate the current URL and load the corresponding
 
 
 
-## webapp/controller/InvoiceList.controller.ts
+### webapp/controller/InvoiceList.controller.ts
 
 What is still missing is the event handler that performs a navigation to the detail page by clicking an item in the invoice list: To access the router instance for our app, use the static method `getRouterFor()` on the `UIComponent` module. On the router, we call the `navTo` method passing the pattern name we defined in our app descriptor for routing to the details page.
 
@@ -258,7 +258,7 @@ export default class App extends Controller {
 
 <a name="loio6173e3d583b84c3696503e1d7c3761c1__section_q2r_5cv_4zb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 In the invoice list view we add a press event to the list item we just defined in the controller and set the item type to `Navigation` so that the item can actually be clicked.
 
@@ -309,7 +309,7 @@ If you open the app, you should now see the detail page when clicking an item in
 
 
 
-## Conventions
+### Conventions
 
 -   Define the routing configuration in the descriptor
 

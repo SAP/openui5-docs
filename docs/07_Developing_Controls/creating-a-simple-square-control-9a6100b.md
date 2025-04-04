@@ -1,6 +1,6 @@
 <!-- loio9a6100ba15564561b5439b7e7ba554a9 -->
 
-# Creating a Simple Square Control
+## Creating a Simple Square Control
 
 Example of a simple `Square` control that is rendered as a red square with text inside that pops up an alert when clicked
 

@@ -1,6 +1,6 @@
 <!-- loioafd5eb688b234c37a2a57e86fe729745 -->
 
-# Step 31: Routing with Parameters \(TypeScript\)
+## Step 31: Routing with Parameters \(TypeScript\)
 
 We can now navigate between the overview and the detail page, but the actual item that we selected in the overview is not displayed on the detail page yet. A typical use case for our app is to show additional information for the selected item on the detail page.
 
@@ -8,19 +8,19 @@ To make this work, we have to pass over the information which item has been sele
 
 
 
-## Preview
+### Preview
 
   
   
 **The selected invoice details are now shown in the details page**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_31_31da9d4.png "The selected invoice details are now shown in the details page")
+![The graphic has an explanatory text](images/loio31da9d48ae204c36a991146b90648c21_LowRes.png "The selected invoice details are now shown in the details page")
 
 
 
 <a name="loioafd5eb688b234c37a2a57e86fe729745__section_m2z_d5m_tyb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 31: Routing with Parameters](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/31) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-31.zip).
 
@@ -28,7 +28,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 31: Routing wit
 
 <a name="loioafd5eb688b234c37a2a57e86fe729745__section_n2z_d5m_tyb"/>
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 We want to hand over the information for the selected item when navigating to the detail view. To achieve that, we add the navigation parameter `invoicePath` to the detail route in the app descriptor, so that we can hand over the information for the selected item to the detail page.
 
@@ -80,7 +80,7 @@ We want to hand over the information for the selected item when navigating to th
 
 <a name="loioafd5eb688b234c37a2a57e86fe729745__section_oj2_blv_4zb"/>
 
-## webapp/controller/InvoiceList.controller.ts
+### webapp/controller/InvoiceList.controller.ts
 
 In the controller for the invoice list view, we extend the `onPress` event handler in such a way it not only triggers the navigation to the detail view but also passes the selected item to the routing.
 
@@ -121,7 +121,7 @@ export default class App extends Controller {
 
 <a name="loioafd5eb688b234c37a2a57e86fe729745__section_jb5_4mv_4zb"/>
 
-## webapp/controller/Detail.controller.ts \(New\)
+### webapp/controller/Detail.controller.ts \(New\)
 
 Now we need to create a new detail controller to set the content we passed in with the URL parameter `invoicePath` on the detail view. This will allow us to access the data of the selected item and display them on the view.
 
@@ -159,7 +159,7 @@ export default class Detail extends Controller {
 
 
 
-## webapp/view/Detail.view.xml
+### webapp/view/Detail.view.xml
 
 Our last piece to fit the puzzle together is the detail view. We replace the app controller by the new detail controller that will take care of setting the item's context on the view and bind the properties `intro` and `title` of the `ObjectHeader` to `ShipperName` and `ProductName` of our `invoice` model to display two fields of an invoice on the view. We could add more detailed information from the `invoice` object here, but for simplicity reasons we just display two fields for now.
 
@@ -179,7 +179,7 @@ Our last piece to fit the puzzle together is the detail view. We replace the app
 
 
 
-## Conventions
+### Conventions
 
 -   Define the routing configuration in the `manifest.json` / app descriptor
 

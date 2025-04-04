@@ -1,6 +1,6 @@
 <!-- loio958ead51e2e94ab8bcdc90fb7e9d53d0 -->
 
-# Components
+## Components
 
 Components are independent and reusable parts used in OpenUI5 applications.
 
@@ -30,7 +30,7 @@ After loading the descriptor, the component factory can load the dependencies \(
 
 <a name="loio958ead51e2e94ab8bcdc90fb7e9d53d0__section_N10059_N10011_N10001"/>
 
-## Structure of a Component
+### Structure of a Component
 
 A component is organized in a unique namespace, the namespace of the component equals the component name.
 
@@ -41,13 +41,13 @@ Basically, a component consists of the component controller \(`Component.js`\) a
 
 The following figure gives an example of a component folder structure.
 
-![Using Components - Component Tree](images/Using_Components_-_Component_Tree_1effb71.png)
+![Using Components - Component Tree](images/loio1effb7160fdf472893409bfd2cabe24e_LowRes.png)
 
 The `ComponentContainer` control wraps a UI component. You use the `ComponentContainer` control in the OpenUI5 control tree in the same way as any other control.
 
 
 
-## Differentiation to Other Concepts in OpenUI5
+### Differentiation to Other Concepts in OpenUI5
 
 The following list explains how other concepts used in OpenUI5 are distinguished from the OpenUI5 components concept:
 

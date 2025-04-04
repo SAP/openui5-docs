@@ -1,6 +1,6 @@
 <!-- loio19eabf5b13214f27b929b9473df3195b -->
 
-# Aggregation Handling in XML Views
+## Aggregation Handling in XML Views
 
 In XML views, aggregated child controls can be added as child tags.
 

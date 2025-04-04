@@ -1,6 +1,6 @@
 <!-- loiof96d2522a5ca4382a274ae3c6d002ca0 -->
 
-# Step 7: Navigate to Routes with Mandatory Parameters
+## Step 7: Navigate to Routes with Mandatory Parameters
 
 In this step, we implement a feature that allows the user to click on an employee in the list to see additional details of the employee. A route pattern can have one or more mandatory parameters to identify objects in an app.
 
@@ -8,30 +8,30 @@ The detail page has to read the ID of the employee from the URL to fetch and dis
 
 
 
-## Preview
+### Preview
 
   
   
 **Employee list with navigation option for items**
 
-![](images/Tutorial_Navigation_and_Routing_Step_07a_c797ba8.png "Employee list with navigation option for items")
+![](images/loioc797ba8b9e704703bc4bd0b7860630bb_LowRes.png "Employee list with navigation option for items")
 
   
   
 **Detail Page for a selected employee**
 
-![](images/Tutorial_Navigation_and_Routing_Step_07b_af68fa9.png "Detail Page for a selected employee")
+![](images/loioaf68fa98aa894030b537ce4893b31de2_LowRes.png "Detail Page for a selected employee")
 
   
   
 **Not Found page for an invalid EmployeeID**
 
-![](images/Tutorial_Navigation_and_Routing_Step_07c_8bec971.png "Not Found page for an invalid
+![](images/loio8bec9718da5f44dab9cc929196750918_LowRes.png "Not Found page for an invalid
 						EmployeeID")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 7](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.07).
 
@@ -39,11 +39,11 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 **Folder structure for this step**
 
-![](images/Tutorial_Navigation_and_Routing_Step_07d_ad192cd.png "Folder structure for this step")
+![](images/loioad192cd8e896411b95fe430d84cac1cb_HiRes.png "Folder structure for this step")
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -120,7 +120,7 @@ Next, we have to create the view `employees.Employee`; for better illustration t
 
 
 
-## webapp/view/employee/Employee.view.xml \(New\)
+### webapp/view/employee/Employee.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -181,7 +181,7 @@ Create the file `Employee.view.xml` inside the `webapp/view/employee` folder. Th
 
 
 
-## webapp/controller/employee/Employee.controller.js \(New\)
+### webapp/controller/employee/Employee.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -244,7 +244,7 @@ We also add an event handler to the `change` event as a private function `_onBin
 
 
 
-## webapp/view/employee/EmployeeList.view.xml
+### webapp/view/employee/EmployeeList.view.xml
 
 ```xml
 <mvc:View
@@ -277,7 +277,7 @@ It's time to change the `EmployeeList` view so that we can navigate to the new v
 
 
 
-## webapp/controller/employee/EmployeeList.controller.js
+### webapp/controller/employee/EmployeeList.controller.js
 
 ```js
 sap.ui.define([
@@ -303,7 +303,7 @@ Then we navigate to the `employee` route and pass a configuration object on to t
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...

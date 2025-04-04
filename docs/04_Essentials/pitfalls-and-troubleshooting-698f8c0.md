@@ -1,24 +1,24 @@
 <!-- loio698f8c0a889f48d3a8b7fbcd26779be2 -->
 
-# Pitfalls and Troubleshooting
+## Pitfalls and Troubleshooting
 
 Tips and tricks if OPA isn't behaving or reacting the way you expect it to.
 
 
 
-## Why Can't OPA Find the Control I'm Looking For?
+### Why Can't OPA Find the Control I'm Looking For?
 
 OPA checks many conditions before it passes a control to your matchers/actions/success functions. If your control doesn't match these conditions, you're not able to set a breakpoint. For such instances, OPA logs lots of information into the browser's console if you turn on the OpenUI5 debug mode. You can either use the `sap-ui-debug=true` URL parameter or the OpenUI5 [Diagnostics](diagnostics-6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6). The diagnostics can also be helpful to see the state of your UI.
 
 After selecting *verbose*, you can have a look at the log and also filter it by looking for `opa` or `matchers`.
 
-![](images/OPA_Pitfalls_Image_340d18e.png)
+![](images/loio340d18e41c28469fbd14b6fe128ff89b_LowRes.png)
 
 A frequent cause of error is typos in the view name or control IDs. These are easily found by looking through the logs.
 
 
 
-### Multiple Views with the Same `viewName`
+#### Multiple Views with the Same `viewName`
 
 If there are multiple views with the same `viewName`, OPA5 may not find the exact control you're looking for.
 
@@ -31,7 +31,7 @@ As of version 1.62, there are a couple of ways to ensure a correct match:
 
 
 
-### Control Isn't Found When Running the Test on a Different Machine or in a Suite
+#### Control Isn't Found When Running the Test on a Different Machine or in a Suite
 
 The size of the iFrame in which the app is loaded is as large as the browser window. It's scaled down to leave space for the QUnit info but the content is preserved the same as when run in full size. This means that regardless of the small iFrame, you shouldn't see any responsive change in the app's appearance.
 
@@ -45,17 +45,17 @@ If either width or height isn't defined, a default value is assigned. The defaul
 
 
 
-## Sometimes My Test Fails, Sometimes It Doesn't
+### Sometimes My Test Fails, Sometimes It Doesn't
 
 
 
-### Is It the Startup That's Failing?
+#### Is It the Startup That's Failing?
 
 Maybe the app is loading too slowly for the OPA tests. If there's a local index file that doesn't contain the library dependencies your app needs, the OpenUI5 bootstrap is very slow. To fix this, add the dependencies you need in your application descriptor's `sap.ui.dependencies` namespace. If you don't have a descriptor, use the bootstrap option libs. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md) and [Configuration Options and URL Parameters](configuration-options-and-url-parameters-91f2d03.md).
 
 
 
-### It's Failing During the Execution
+#### It's Failing During the Execution
 
 If this happens, your test is probably executing actions faster than it should. If you encounter a failure, look at the current state of the UI - in almost all cases an action couldn't be triggered or a JavaScript error occurred. This error should be included in the console logs. If an action couldn't be executed, make sure that you use the action parameter of OPA5's `waitFor` function. When using the success function for triggering actions, OPA5 doesn't check many things.
 
@@ -68,17 +68,17 @@ Here are some examples that have occurred in known apps:
 
 
 
-## OPA5 Is Failing on a Specific Browser: What Should I Do?
+### OPA5 Is Failing on a Specific Browser: What Should I Do?
 
 
 
-### Am I Comparing Language-Dependent Texts and the Browser Has a Different Language?
+#### Am I Comparing Language-Dependent Texts and the Browser Has a Different Language?
 
 Check the logs to see if your matcher is failing because it's checking a text against a different language. If you want to always execute your tests with the same language, use the `sap-ui-language=` URL or bootstrap parameter.
 
 
 
-## OPA Isn't Even Starting and There's No Logging Either
+### OPA Isn't Even Starting and There's No Logging Either
 
 If you require `sinon-qunit.js`, it overwrites the browser functions `setTimeout` and `setInterval`. OPA needs these functions and without them the tests don't start. You can either set the `fakeTimers` to `false` in your test setup, or maybe consider not using `sinon-qunit.js` together with OPA.
 
@@ -97,7 +97,7 @@ module("Opatests", {
 
 <a name="loio698f8c0a889f48d3a8b7fbcd26779be2__section_c3r_j2q_43b"/>
 
-## OPA Tests Aren't Stable
+### OPA Tests Aren't Stable
 
 For example, the tests run fine most of the time, but they fail:
 
@@ -114,7 +114,7 @@ One way to stabilize your tests is to use OPA `autoWait` and `actions`.
 
 <a name="loio698f8c0a889f48d3a8b7fbcd26779be2__section_alm_s2q_43b"/>
 
-## Working with Controls Which Set Timeouts
+### Working with Controls Which Set Timeouts
 
 Examples of such controls are busy indicators, notification popups, and message toasts. These controls set a timeout after which the control is supposed to disappear. In some apps, it can be important to ensure that such a control is displayed. Note that if you enable `autoWait` in your tests globally, then you have to disable `autoWait` specifically in the `waitFor` statements related to these special controls. For example, if you want to test that a busy indicator is displayed during the sending of a request, you don't want to wait for controls to be interactable:
 

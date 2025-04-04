@@ -1,6 +1,6 @@
 <!-- loio7a78f1b707c248fd9ec53dcb5f10814c -->
 
-# Step 1: Initial App Without Data
+## Step 1: Initial App Without Data
 
 We start with a simple app scenario with a list of items bound to an OData V2 service. Since the OData V2 service is not available yet on a real server, we will use the mock server to simulate both data and data calls.
 
@@ -12,17 +12,17 @@ Usually you start the development of an app with local mock data first. This way
 
 
 
-## Preview
+### Preview
 
   
   
 **The initial app**
 
-![](images/Tutorial_Mock_Server_Step_01_3a29b22.png "The initial app")
+![](images/loio3a29b22e092e4bf8a549fa2931758673_HiRes.png "The initial app")
 
 
 
-## Coding
+### Coding
 
 1.  To set up your project for this tutorial, download the files at [Mock Server - Step 1](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.mockserver/sample/sap.ui.core.tutorial.mockserver.01).
 
@@ -36,5 +36,5 @@ You should have the same files as displayed in the following figure:
   
 **Folder structure with downloaded files**
 
-![](images/Tutorial_Mock_Server_Step_1_Folders_026a908.png "Folder structure with downloaded files")
+![](images/loio026a90809d1a4dc5a28e147bc77eb830_HiRes.png "Folder structure with downloaded files")
 

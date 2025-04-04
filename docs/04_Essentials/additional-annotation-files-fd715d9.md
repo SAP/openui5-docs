@@ -1,6 +1,6 @@
 <!-- loiofd715d97ebf842739697c9a0f276f0c0 -->
 
-# Additional Annotation Files
+## Additional Annotation Files
 
 The OData V4 model supports loading of additional annotation files.
 

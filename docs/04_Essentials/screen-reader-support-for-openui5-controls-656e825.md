@@ -1,6 +1,6 @@
 <!-- loio656e825c5f1548e6b1d0acb5586f2a2a -->
 
-# Screen Reader Support for OpenUI5 Controls
+## Screen Reader Support for OpenUI5 Controls
 
 OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.
 
@@ -8,7 +8,7 @@ OpenUI5 offers screen reader support in order to aid people with visual impairme
 
 <a name="loio656e825c5f1548e6b1d0acb5586f2a2a__overview"/>
 
-## Overview
+### Overview
 
 A screen reader is a form of assistive technology mainly used by blind users to create audio output for elements on the screen. The screen reader extracts information from the UI and creates a speech output.
 
@@ -20,7 +20,7 @@ No screen reader activation settings are necessary since the accessibility mode 
 
 <a name="loio656e825c5f1548e6b1d0acb5586f2a2a__Aria"/>
 
-## What is ARIA
+### What is ARIA
 
 Web Accessibility Initiative - Accessible Rich Internet Applications \(WAI-ARIA\) provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility of web content and applications. When accessibility issues cannot be managed with native HTML, ARIA can help bridge those gaps. For more information, see: [WAI-ARIA Overview](https://www.w3.org/WAI/standards-guidelines/aria/). For more information, see [More About ARIA](screen-reader-support-for-openui5-controls-656e825.md#loio656e825c5f1548e6b1d0acb5586f2a2a__MoreARIA) section.
 
@@ -62,11 +62,11 @@ Currently, the following libraries have screen reader support based on the ARIA 
 
 <a name="loio656e825c5f1548e6b1d0acb5586f2a2a__MoreARIA"/>
 
-## More About ARIA
+### More About ARIA
 
 
 
-### What can ARIA do?
+#### What can ARIA do?
 
 -   Roles to describe the type of widget presented, such as `menu`, `treeitem`, `slider`, and `progressbar`.
 
@@ -77,7 +77,7 @@ Currently, the following libraries have screen reader support based on the ARIA 
 
 
 
-### Roles
+#### Roles
 
 Roles are used to define a type of user interface \(UI\) element \(for example`role="ROLE_NAME"`\). Once a role is set for an element, it does not change.
 

@@ -1,6 +1,6 @@
 <!-- loio8439949bbdc34141bd2b9194f91d42c2 -->
 
-# TypeScript FAQ
+## TypeScript FAQ
 
 Frequently asked questions regarding TypeScript in OpenUI5.
 
@@ -8,7 +8,7 @@ Frequently asked questions regarding TypeScript in OpenUI5.
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_obw_l5f_myb"/>
 
-## What is TypeScript about?
+### What is TypeScript about?
 
 TypeScript is an extension of JavaScript that enhances it with type information, enabling error detection through type checking and providing code assistance in numerous supporting code editors \(such as code completion and inline documentation\). It's important to note that browsers cannot directly execute TypeScript; a transpilation step is required.
 
@@ -16,7 +16,7 @@ TypeScript is an extension of JavaScript that enhances it with type information,
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_slg_v5f_myb"/>
 
-## What is the overall approach for using TypeScript in OpenUI5 applications?
+### What is the overall approach for using TypeScript in OpenUI5 applications?
 
 We publish type definition files describing all the OpenUI5 APIs and types. With the help of these definitions, the TypeScript tools can do their job and support writing OpenUI5 apps in TypeScript.
 
@@ -24,7 +24,7 @@ We publish type definition files describing all the OpenUI5 APIs and types. With
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_awv_z5f_myb"/>
 
-## How to set up a new OpenUI5 app for TypeScript development?
+### How to set up a new OpenUI5 app for TypeScript development?
 
 For detailed information on developing applications with OpenUI5, see [Developing Apps](../05_Developing_Apps/developing-apps-23cfd95.md). To write OpenUI5 apps in TypeScript and take advantage of its benefits, you also need to add TypeScript and the OpenUI5 type definitions as dev dependencies. Additionally, you must set up the TypeScript transpilation step. The [`ui5-typescript-helloworld`](https://github.com/SAP-samples/ui5-typescript-helloworld/blob/main/step-by-step.md) project can serve as copy template and provides a detailed step-by-step guide for setting up a TypeScript project.
 
@@ -32,7 +32,7 @@ For detailed information on developing applications with OpenUI5, see [Developin
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_rhs_fvf_myb"/>
 
-## How can I get an end-to-end hands-on impression of creating and developing a OpenUI5 app in TypeScript?
+### How can I get an end-to-end hands-on impression of creating and developing a OpenUI5 app in TypeScript?
 
 You can follow the [`ui5-typescript`](https://github.com/SAP-samples/ui5-typescript-tutorial) tutorial, starting from scratch using an app template, extending the resulting app, and also covering advanced topics later on, like control development and integrating third-party libraries from npm.
 
@@ -46,7 +46,7 @@ To start even faster, see one of the following app templates:
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_u3x_rvf_myb"/>
 
-## How to convert an existing OpenUI5 app to TypeScript?
+### How to convert an existing OpenUI5 app to TypeScript?
 
 You can follow the four steps explained in the [Converting OpenUI5 Apps from JavaScript to TypeScript](https://github.com/SAP-samples/ui5-cap-event-app/blob/typescript/docs/typescript.md#converting-ui5-apps-from-javascript-to-typescript) .
 
@@ -54,7 +54,7 @@ You can follow the four steps explained in the [Converting OpenUI5 Apps from Jav
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_zvl_5wf_myb"/>
 
-## How to test in TypeScript?
+### How to test in TypeScript?
 
 You can check the `testing` branch of the [`ui5-typescript-helloworld`](https://github.com/SAP-samples/ui5-typescript-helloworld/tree/testing) sample app.
 
@@ -62,7 +62,7 @@ You can check the `testing` branch of the [`ui5-typescript-helloworld`](https://
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_prp_pwf_myb"/>
 
-## How to develop custom controls in TypeScript?
+### How to develop custom controls in TypeScript?
 
 Check the [TypeScript Guidelines](../07_Developing_Controls/typescript-guidelines-192397d.md).
 
@@ -70,7 +70,7 @@ Check the [TypeScript Guidelines](../07_Developing_Controls/typescript-guideline
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_bbj_bxf_myb"/>
 
-## How to profit from TypeScript even when doing plain JavaScript development?
+### How to profit from TypeScript even when doing plain JavaScript development?
 
 Check the `js-with-typescript-support` branch of the [`ui5-cap-event-app`](https://github.com/SAP-samples/ui5-cap-event-app/blob/js-with-typescript-support/README.md) sample app. It explains how to add TypeScript-based benefits to an existing JavaScript app without actually switching to TypeScript development.
 
@@ -78,7 +78,7 @@ Check the `js-with-typescript-support` branch of the [`ui5-cap-event-app`](https
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_pv1_gxf_myb"/>
 
-## What are the TypeScript projects and releases provided by the OpenUI5 development team?
+### What are the TypeScript projects and releases provided by the OpenUI5 development team?
 
 We provide type definitions, samples, and various tools. provides generated type definitions for the UI5 APIs, which let TypeScript understand all the involved types, so it can do its job. These definitions are provided both for OpenUI5 in two different flavors. The two flavors are:
 
@@ -96,7 +96,7 @@ These are the different type definition packages:
 
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_ahv_j1g_myb"/>
 
-## Are the type definitions ready for productive use?
+### Are the type definitions ready for productive use?
 
 They are ready for use since version 1.116.
 

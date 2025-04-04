@@ -1,6 +1,6 @@
 <!-- loio335848ac1174435c901baaa55f6d7819 -->
 
-# Using Factory Functions
+## Using Factory Functions
 
 The factory function is a more powerful approach for creating controls from model data. The factory function is called for each entry of a control's aggregation, and the developer can decide whether each entry shall be represented by the same control with different properties or even by a completely different control for each entry.
 

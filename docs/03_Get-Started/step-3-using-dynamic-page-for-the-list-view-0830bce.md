@@ -1,6 +1,6 @@
 <!-- loio0830bce271bf42d98c2740bed43d435d -->
 
-# Step 3: Using Dynamic Page for the List View
+## Step 3: Using Dynamic Page for the List View
 
 In this step, we create the list view of the app using `sap.f.DynamicPage` control.
 
@@ -8,19 +8,19 @@ In this step, we create the list view of the app using `sap.f.DynamicPage` contr
 
 <a name="loio0830bce271bf42d98c2740bed43d435d__section_ed2_4dd_lbb"/>
 
-## Preview
+### Preview
 
   
   
 **List page with sap.f.DynamicPage**
 
-![](images/DynamicPage_for_the_Master_View_Fiori_2_0_Tutorial_b31948b.gif "List page with sap.f.DynamicPage")
+![](images/loiob31948bf54134343bfcb5dc64e00a1e1_LowRes.gif "List page with sap.f.DynamicPage")
 
 
 
 <a name="loio0830bce271bf42d98c2740bed43d435d__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 3](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.03/preview).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Flexible Column Layout App - Step 3](htt
 
 <a name="loio0830bce271bf42d98c2740bed43d435d__section_hlh_rjj_l4b"/>
 
-## webapp/manifest.json \[MODIFY\]
+### webapp/manifest.json \[MODIFY\]
 
 ```json
 {
@@ -68,7 +68,7 @@ First, we add the `sap.m` library as a dependency in the `manifest.json`.
 
 <a name="loio0830bce271bf42d98c2740bed43d435d__section_ddz_pjj_l4b"/>
 
-## webapp/index.html \[MODIFY\]
+### webapp/index.html \[MODIFY\]
 
 ```html
 	...
@@ -93,7 +93,7 @@ We add the link to the mock data that is used in the app.
 
 <a name="loio0830bce271bf42d98c2740bed43d435d__section_h5w_4jj_l4b"/>
 
-## webapp/Component.js \[MODIFY\]
+### webapp/Component.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -128,7 +128,7 @@ We create the `init` method in the `Component.js` to set the model.
 
 <a name="loio0830bce271bf42d98c2740bed43d435d__section_shq_mjj_l4b"/>
 
-## webapp/view/List.view.xml \[NEW\]
+### webapp/view/List.view.xml \[NEW\]
 
 ```xml
 <mvc:View
@@ -217,7 +217,7 @@ We create the list view using `sap.f.DynamicPage`. The page consists of a list w
 
 <a name="loio0830bce271bf42d98c2740bed43d435d__section_zrl_ljj_l4b"/>
 
-## webapp/view/App.view.xml \[MODIFY\]
+### webapp/view/App.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -239,7 +239,7 @@ We add the list view in `FlexibleColumnLayout's` `beginColumnPages` aggregation.
 
 <a name="loio0830bce271bf42d98c2740bed43d435d__section_ovn_jjj_l4b"/>
 
-## webapp/controller/List.controller.js \[NEW\]
+### webapp/controller/List.controller.js \[NEW\]
 
 ```js
 sap.ui.define([

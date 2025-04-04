@@ -1,6 +1,6 @@
 <!-- loio2abdefbe3c184d79b46cbeb0f22d764d -->
 
-# Flexible Column Layout
+## Flexible Column Layout
 
 The `sap.f.FlexibleColumnLayout` control implements the list-detail-detail paradigm by displaying up to 3 pages in separate columns.
 

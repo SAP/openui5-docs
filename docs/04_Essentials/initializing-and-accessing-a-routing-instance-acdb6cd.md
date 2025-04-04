@@ -1,12 +1,12 @@
 <!-- loioacdb6cd408ec4b9eb5e1fe45e607abdd -->
 
-# Initializing and Accessing a Routing Instance
+## Initializing and Accessing a Routing Instance
 
 This topic describes how to initialize routing in a component and access the routing functions.
 
 
 
-## Initializing
+### Initializing
 
 You initialize the router in the component using the following code:
 
@@ -36,7 +36,7 @@ The router instance is automatically destroyed when the component is destroyed.
 
 
 
-## Accessing
+### Accessing
 
 To access the router and to use its functions, use the `getRouter()` function or the static `getRouterFor` function of the UI component. You can pass either a controller, or a view:
 

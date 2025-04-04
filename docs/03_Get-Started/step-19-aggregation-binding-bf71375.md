@@ -1,24 +1,24 @@
 <!-- loiobf71375454654b44af01379a3c3a6273 -->
 
-# Step 19: Aggregation Binding
+## Step 19: Aggregation Binding
 
 Now that we have established a good structure for our app, it's time to add some more functionality. We start exploring more features of data binding by adding some invoice data in JSON format that we display in a list below the panel.
 
 
 
-## Preview
+### Preview
 
   
   
 **A list of invoices is displayed below the panel**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_19_b05bdb4.png "A list of invoices is displayed below the panel")
+![The graphic has an explanatory text.](images/loiob05bdb47393b4abda3e1b54498959c38_LowRes.png "A list of invoices is displayed below the panel")
 
 
 
 <a name="loiobf71375454654b44af01379a3c3a6273__section_zfj_ljk_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 19](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.19).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 19](https://ui5.sap.c
 
 <a name="loiobf71375454654b44af01379a3c3a6273__section_agj_ljk_syb"/>
 
-## webapp/Invoices.json \(New\)
+### webapp/Invoices.json \(New\)
 
 ```
 {
@@ -79,7 +79,7 @@ The `Invoices.json` file simply contains five invoices in a JSON format that we 
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```
 {
@@ -111,7 +111,7 @@ We add a new model `invoice` to the `sap.ui5` section of the descriptor. This ti
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -147,7 +147,7 @@ In the app view we add a second view to display our invoices below the panel.
 
 
 
-## webapp/view/InvoiceList.view.xml \(New\)
+### webapp/view/InvoiceList.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -172,7 +172,7 @@ In the `items` aggregation, we define the template for the list that will be aut
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 # App Descriptor

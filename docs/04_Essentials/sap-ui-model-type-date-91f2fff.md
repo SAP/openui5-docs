@@ -1,6 +1,6 @@
 <!-- loio91f2fff06f4d1014b6dd926db0e91070 -->
 
-# sap.ui.model.type.Date
+## sap.ui.model.type.Date
 
 The `Date` data type represents a date \(without time\).
 

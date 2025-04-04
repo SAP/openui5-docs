@@ -1,6 +1,6 @@
 <!-- loio7d914317c0b64c23824bf932cc8a4ae1 -->
 
-# Data Aggregation and Recursive Hierarchy
+## Data Aggregation and Recursive Hierarchy
 
 The OData V4 Model supports features of the OData Extension for Data Aggregation V4.0 specification.
 
@@ -17,7 +17,7 @@ Since 1.117.0, either a read-only recursive hierarchy \(see below\) or \(pure\) 
 
 <a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_nxp_ycx_35b"/>
 
-## Data Aggregation
+### Data Aggregation
 
 For every aggregatable property, you can provide the name of the custom aggregate for a corresponding currency or unit of measure. That custom aggregate must return the single value of a unit in case there is only one, or `null` otherwise \("multi-unit situation"\). In the special case that the single value is `null`, an empty string `""` has to be returned.
 
@@ -132,7 +132,7 @@ Use the `grandTotalAtBottomOnly` or `subtotalsAtBottomOnly` property with values
 
 <a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_DAF"/>
 
-## Filtering
+### Filtering
 
 Filters are provided to the list binding as described in [Filtering](filtering-5338bd1.md). The `Filter` objects are analyzed automatically to perform the filtering before the aggregation where possible using the `filter()` transformation. The remaining filters, including the provided `$filter` parameter of the binding, are applied after the aggregation either via the system query option `$filter` or within the system query option `$apply`, using again the `filter()` transformation.
 
@@ -142,7 +142,7 @@ Note that `Filter` objects are not supported for aggregatable properties with an
 
 <a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_SBDA"/>
 
-## Search Before Data Aggregation
+### Search Before Data Aggregation
 
 You can provide a search string to be applied before data aggregation via the `oAggregation.search` parameter of [ODataListBinding\#setAggregation](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation). It works like the ["5.1.7 System Query Option $search"](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html#_Toc453752364), but is applied before data aggregation, not after it. Note that certain content will break the syntax of the `$apply` system query option when embedded into a `search()` transformation and thus result in an invalid request. If the OData service supports the [ODATA-1452](https://issues.oasis-open.org/browse/ODATA-1452) proposal, then the command system query option when embedded into a `ODataUtils.formatLiteral(sSearch, "Edm.String");` should be used to encapsulate the whole search string beforehand \(see [sap.ui.model.odata.v4.ODataUtils.formatLiteral](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataUtils/methods/sap.ui.model.odata.v4.ODataUtils.formatLiteral)\). Otherwise, it might be wise to restrict your search input accordingly.
 
@@ -150,7 +150,7 @@ You can provide a search string to be applied before data aggregation via the `o
 
 <a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_xb2_51x_q4b"/>
 
-## Additional Properties
+### Additional Properties
 
 For each groupable property, you can define an optional list of strings that provides the paths to properties \(like texts or attributes\) related to this groupable property in a 1:1 relation. They are requested additionally via `groupby` and must not change the actual grouping; a `unit` for an aggregatable property must not be repeated there.
 
@@ -158,7 +158,7 @@ For each groupable property, you can define an optional list of strings that pro
 
 <a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_RCH"/>
 
-## Recursive Hierarchy
+### Recursive Hierarchy
 
 You can display hierarchical data \(a "tree"\) inside a table using a list binding. Read-only hierarchies are supported since 1.117.0 while maintenance is supported since 1.125.0. Such a recursive hierarchy is described by a pair of ["Org.OData.Aggregation.V1.RecursiveHierarchy"](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Aggregation.V1.html#RecursiveHierarchy) and ["com.sap.vocabularies.Hierarchy.v1.RecursiveHierarchy"](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Hierarchy.md) annotations at the list binding's entity type. You need to use the same qualifier for both of these annotations, which is known as the **hierarchy qualifier**.
 
@@ -188,7 +188,7 @@ Note that only one such change must be pending at any point in time. That is, yo
 
 
 
-### Example Requests
+#### Example Requests
 
 The [`TopLevels`](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Hierarchy.md#TopLevels) function is fundamental for recursive hierarchies. It describes the input set underlying the hierarchy \(see the list binding's path\) and specifies which recursive hierarchy is built on top \(see `hierarchyQualifier` above\). It takes care to initially expand a certain number of levels \(see `expandTo` above\) and later to expand or collapse certain nodes in order to keep the tree state during a side-effects refresh.
 

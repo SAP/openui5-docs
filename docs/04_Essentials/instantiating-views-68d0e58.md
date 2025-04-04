@@ -1,6 +1,6 @@
 <!-- loio68d0e58857a647d49470d9f92dd859bd -->
 
-# Instantiating Views
+## Instantiating Views
 
 To instantiate views asychronously, OpenUI5 provides the factory method `View.create` defined in module `sap/ui/core/mvc/View`.
 
@@ -21,7 +21,7 @@ All regular properties of a view \(control\) can be passed to the object as usua
 
 
 
-## Loading Views
+### Loading Views
 
 The default mode is the asynchronous loading of a view: The advantage of asynchronous loading compared to synchronous loading is that the UI does not freeze for the duration of the loading process and there is no blockage of functionalities during view initialization.
 
@@ -46,7 +46,7 @@ View.create({
 
 
 
-### Synchronous Mode
+#### Synchronous Mode
 
 > ### Note:  
 > We do **not** recommend to instantiate views synchronously. Use the asynchronous mode instead.
@@ -55,7 +55,7 @@ View.create({
 
 <a name="loio68d0e58857a647d49470d9f92dd859bd__section_mcg_g5w_vfb"/>
 
-## Lazy Loading for XML Views
+### Lazy Loading for XML Views
 
 The following code snippet shows how to do a lazy loading for XML views:
 

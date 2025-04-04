@@ -1,6 +1,6 @@
 <!-- loio9c069828d0064136ac6a499aa2cdace3 -->
 
-# JS Fragments
+## JS Fragments
 
 The structure of JS fragments is similar to the structure of the respective views: They have a name and an object with a `createContent()` function.
 

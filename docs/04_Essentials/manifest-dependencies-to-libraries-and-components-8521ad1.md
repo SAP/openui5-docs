@@ -1,6 +1,6 @@
 <!-- loio8521ad1955f340f9a6207d615c88d7fd -->
 
-# Manifest Dependencies to Libraries and Components
+## Manifest Dependencies to Libraries and Components
 
 Description of the performance-relevant attributes that are available for the manifest \(also known as descriptor for applications, components and libraries\).
 
@@ -10,7 +10,7 @@ The performance-relevant attributes have been introduced with the version 3 of t
 
 <a name="loio8521ad1955f340f9a6207d615c88d7fd__section_DEPLIB"/>
 
-## Dependencies to Libraries
+### Dependencies to Libraries
 
 The following dependencies to libraries can be implemented:
 
@@ -77,7 +77,7 @@ sap.ui.define(['sap/ui/core/Lib'], function(Library) {
 
 <a name="loio8521ad1955f340f9a6207d615c88d7fd__section_qkj_sdf_3mb"/>
 
-## Dependencies to Components
+### Dependencies to Components
 
 **Scenario 1:** UI library contains multiple components
 
@@ -126,7 +126,7 @@ The full list of options for the `createComponent` factory method can be found i
 
 
 
-### Nested components
+#### Nested components
 
 As of Version 1.56 it is sufficient to declare the `sap.ui5/componentUsages` and indicate whether the component should be loaded lazily or not. The declaration of the component as a separate dependency is not recommended and should be avoided in this case.
 

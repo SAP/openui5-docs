@@ -1,6 +1,6 @@
 <!-- loioa0cb7a06b6784df892eef427e4714351 -->
 
-# What's New in OpenUI5 1.44
+## What's New in OpenUI5 1.44
 
 With this release OpenUI5 is upgraded from version 1.42 to 1.44.
 
@@ -553,7 +553,7 @@ We have implemented several new features:
 
 -   New aggregation \(`processingMessage`\) to provide a `sap.m.MessageStrip` notification within a `NotificationListItem`
 
-    ![](images/WhatsNew_146_NoficiationActions_2b1c9e0.png)
+    ![](images/loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png)
 
 -   Notification list items are highlighted on mouse-over as with list items.
 
@@ -644,7 +644,7 @@ Control
 
 We have implemented responsive tickmarks for the slider controls. The tickmarks are enabled with the `enableTickmarks` property. The number of visible tickmarks depends on the step size and the slider minimum and maximum values. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.Slider/methods/getEnableTickmarks) and the [Sample](https://ui5.sap.com/#/entity/sap.m.Slider/sample/sap.m.sample.Slider).
 
-![](images/WhatsNew_144_Tickmarks_bf5c44a.png)
+![](images/loiobf5c44ab603347caa69c729da549cd0f_LowRes.png)
 
 <sub>Changed•Control•Info Only•1.44</sub>
 

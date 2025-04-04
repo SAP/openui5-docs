@@ -1,6 +1,6 @@
 <!-- loio91f130196f4d1014b6dd926db0e91070 -->
 
-# Declarative Support \(deprecated\)
+## Declarative Support \(deprecated\)
 
 Declarative programming allows you to define the UI within the HTML document as elements.
 
@@ -17,7 +17,7 @@ The following sections provide an overview of the declarative support and introd
 
 <a name="loio91f130196f4d1014b6dd926db0e91070__section_C1D3894EF36F4766B06E27E5675CA11F"/>
 
-## Example
+### Example
 
 The following example shows the concept by combining a `sap.m.input` with a `sap.m.Button` control. When you click the button, the value of the text field is displayed in an alert box:
 
@@ -46,7 +46,7 @@ The following example shows the concept by combining a `sap.m.input` with a `sap
 
 <a name="loio91f130196f4d1014b6dd926db0e91070__section_E477586F3CAD4371AC5E8CAEB1021D5E"/>
 
-## Summary: Attributes Used by Declarative Support
+### Summary: Attributes Used by Declarative Support
 
 The table summarizes the attributes used by declarative support and gives examples.
 

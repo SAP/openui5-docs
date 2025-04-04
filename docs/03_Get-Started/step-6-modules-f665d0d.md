@@ -1,20 +1,20 @@
 <!-- loiof665d0de4dba405f9af4294de824b03b -->
 
-# Step 6: Modules
+## Step 6: Modules
 
 In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the `sap.m` library.
 
 
 
-## Preview
+### Preview
 
-![A message toast displays the Hello World message](images/UI5_Walkthrough_Step_06_2f629a9.png)
+![A message toast displays the Hello World message](images/loio2f629a95211f49afa367b60d233fb390_LowRes.png)
 
 
 
 <a name="loiof665d0de4dba405f9af4294de824b03b__section_nlr_cvc_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 6](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.06).
 
@@ -22,7 +22,7 @@ You can view and download all files at [Walkthrough - Step 6](https://ui5.sap.co
 
 <a name="loiof665d0de4dba405f9af4294de824b03b__section_olr_cvc_syb"/>
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([
@@ -45,7 +45,7 @@ This Asynchronous Module Definition \(AMD\) syntax allows to clearly separate th
 
 
 
-## Conventions
+### Conventions
 
 -   Use `sap.ui.define` for controllers and all other JavaScript modules to define a global namespace. With the namespace, the object can be addressed throughout the application.
 

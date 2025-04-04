@@ -1,18 +1,18 @@
 <!-- loio516e477e7e0b4e188b19a406e7528c1e -->
 
-# Methods and Events for Navigation
+## Methods and Events for Navigation
 
 OpenUI5 provides a method and events for navigation.
 
 
 
-## Methods
+### Methods
 
 Navigation can be triggered by method `navTo` on `Router` with changing the hash or method `display` on `Targets` for showing a new view without changing the hash.
 
 
 
-### `navTo` method
+#### `navTo` method
 
 Use this method to navigate to the given route and fill the hash with the corresponding data. If the route contains a target, the target is displayed. The listener callbacks of controllers listening to this route are provided with data. When changing the hash, all listeners to this hash are informed.
 
@@ -48,23 +48,23 @@ sap.ui.require([
 
 
 
-### `display` method
+#### `display` method
 
 Use this method to navigate to display one or multiple targets. The method uses the target name or an array of target names as only parameter.
 
 
 
-## Events
+### Events
 
   
   
 **Navigation events**
 
-![](images/SAPUI5_Navigation_Events_6f245c0.png "Navigation events")
+![](images/loio6f245c0eaeae44eaac6413c726661223_LowRes.png "Navigation events")
 
 
 
-### Events `RouteMatched` on `Router` and `matched` on `Route`
+#### Events `RouteMatched` on `Router` and `matched` on `Route`
 
 These events are fired when a hash matches a route or a pattern. The `routeMatched` event is fired if a pattern of any route in the routing configuration is matched. The `matched` event is fired for a specific route.
 
@@ -102,7 +102,7 @@ sap.ui.require([
 
 
 
-### `display` event on `Target`
+#### `display` event on `Target`
 
 This event is fired on the target instance when this target is added and displayed on the UI. The event has the following parameters:
 
@@ -117,7 +117,7 @@ This event is fired on the target instance when this target is added and display
 
 
 
-### `created` event on `Views`
+#### `created` event on `Views`
 
 This event is fired on the view/component cache in OpenUI5 routing which can be fetched by calling the `getViews()` method on a router instance every time a new view or component has been created by navigation. The event has the following parameters:
 

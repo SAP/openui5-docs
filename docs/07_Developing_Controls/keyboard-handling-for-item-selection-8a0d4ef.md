@@ -1,12 +1,12 @@
 <!-- loio8a0d4efa29d44ef39219c18d832012da -->
 
-# Keyboard Handling for Item Selection
+## Keyboard Handling for Item Selection
 
 The following keys and key combinations are used for selecting one or multiple items from a list.
 
 
 
-## Single Selection
+### Single Selection
 
 
 <table>
@@ -38,7 +38,7 @@ If focus is on an item, selects the item and deselects all others.
 
 
 
-## Multi Selection
+### Multi Selection
 
 
 <table>

@@ -1,6 +1,6 @@
 <!-- loio562803c6f55c49608d01a453cc0590ab -->
 
-# Handling IDs in UI Components
+## Handling IDs in UI Components
 
 Components are usually used with a root view and in this case, the component handles the prefixing of IDs of views, elements, or controls, with the component ID.
 

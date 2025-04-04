@@ -1,6 +1,6 @@
 <!-- loio8d7b2868b8d8441a803a3223754d72fc -->
 
-# Right-to-Left Support
+## Right-to-Left Support
 
 OpenUI5 application developers need to be aware of how applications behave when right-to-left \(RTL\) directionality is selected. Changing the directionality has a big impact on text-displaying controls, images and the alignment of the whole application.
 

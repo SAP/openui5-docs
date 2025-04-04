@@ -1,6 +1,6 @@
 <!-- loiob4f12660538147f8839b05cb03f1d478 -->
 
-# Step 6: Create and Edit
+## Step 6: Create and Edit
 
 In this step, we will make it possible to create and edit \(update\) user data from the user interface and send the data to the back end.
 
@@ -8,19 +8,19 @@ In this step, we will make it possible to create and edit \(update\) user data f
 
 <a name="loiob4f12660538147f8839b05cb03f1d478__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **Data can now be edited and added.**
 
-![](images/Tutorial_OData_V4_Step_6_baf7417.png "Data can now be edited and added.")
+![](images/loiobaf7417906444cbaa1fb8e35665b8f81_LowRes.png "Data can now be edited and added.")
 
 
 
 <a name="loiob4f12660538147f8839b05cb03f1d478__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 6](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.06).
 
@@ -28,7 +28,7 @@ You can view and download all files at [OData V4 - Step 6](https://ui5.sap.com/#
 
 <a name="loiob4f12660538147f8839b05cb03f1d478__section_pvc_fyc_z1b"/>
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 ...
@@ -238,7 +238,7 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 
 <a name="loiob4f12660538147f8839b05cb03f1d478__section_pp2_mxc_z1b"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -376,7 +376,7 @@ Creation via a form is demonstrated in our [Sales Orders sample app](https://ui5
 
 <a name="loiob4f12660538147f8839b05cb03f1d478__section_kl4_d1x_4cb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 # Toolbar

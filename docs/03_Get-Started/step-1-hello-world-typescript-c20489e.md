@@ -1,24 +1,24 @@
 <!-- loioc20489e2a59d46e99c83f0510392cb6c -->
 
-# Step 1: Hello World! \(TypeScript\)
+## Step 1: Hello World! \(TypeScript\)
 
 As you know OpenUI5 is all about HTML5. Let's get started with building a first "Hello World" with HTML. This tutorial version has been set up in a way that allows the use of UI5 Tooling in combination with it.
 
 
 
-## Preview
+### Preview
 
   
   
 **The browser shows the text "Hello World"**
 
-![The browser shows the text "Hello World"](images/UI5_Walkthrough_Step_01_1dd4563.png "The browser shows the text "Hello World"")
+![The browser shows the text "Hello World"](images/loio1dd456361379431aab7e5bcdaaeff00f_LowRes.png "The browser shows the text "Hello World"")
 
 
 
 <a name="loioc20489e2a59d46e99c83f0510392cb6c__section_lv5_lvy_zbc"/>
 
-## Setup
+### Setup
 
 Open a terminal and install UI5 Tooling globally on your machine by executing the following command:
 
@@ -28,7 +28,7 @@ Open a terminal and install UI5 Tooling globally on your machine by executing th
 
 <a name="loioc20489e2a59d46e99c83f0510392cb6c__section_js2_mhx_kzb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 1: Hello World!](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/01) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-01.zip).
 
@@ -38,7 +38,7 @@ Create a folder on your local machine which will contain all the sources of the 
 
 <a name="loioc20489e2a59d46e99c83f0510392cb6c__section_ks2_mhx_kzb"/>
 
-## webapp/index.html \(New\)
+### webapp/index.html \(New\)
 
 In the app root directory, we create a new folder named `webapp`. This folder exists to store all the sources that become available in the browser later. We refer to this folder as the "webapp folder".
 
@@ -68,7 +68,7 @@ In our `webapp` folder, we create a new HTML file named `index.html` and enter t
 
 <a name="loioc20489e2a59d46e99c83f0510392cb6c__section_czs_c3x_kzb"/>
 
-## webapp/manifest.json \(New\)
+### webapp/manifest.json \(New\)
 
 The manifest file, also known as the "descriptor" or "app descriptor," serves as a crucial configuration file for applications, components, and libraries. Stored in the `webapp` folder, this file is read by OpenUI5 to instantiate a component. Although we haven't created a component yet \(which is part of [Step 9: Component Configuration \(TypeScript\)](step-9-component-configuration-typescript-f9d0e2f.md)\), we need to create the app descriptor now because the UI5 Tooling we intend to use for development also requires it.
 
@@ -115,7 +115,7 @@ Hence, we create a new file named `manifest.json` in the webapp folder and defin
 
 <a name="loioc20489e2a59d46e99c83f0510392cb6c__section_e2v_fmx_kzb"/>
 
-## UI5 Tooling
+### UI5 Tooling
 
 The following steps are tailored for using this project with [UI5 Tooling](../05_Developing_Apps/development-environment-7bb04e0.md).
 
@@ -123,7 +123,7 @@ The following steps are tailored for using this project with [UI5 Tooling](../05
 
 <a name="loioc20489e2a59d46e99c83f0510392cb6c__section_mfb_4mx_kzb"/>
 
-## package.json \(New\)
+### package.json \(New\)
 
 We create a new file called `package.json` in the app root directory. It allows us to execute commands and consume packages from the [npm registry](https://www.npmjs.com/) via the npm command line interface.
 

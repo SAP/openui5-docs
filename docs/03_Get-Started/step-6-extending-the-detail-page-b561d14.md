@@ -1,28 +1,28 @@
 <!-- loiob561d146f9114b029bd60fa26df09c6b -->
 
-# Step 6: Extending the Detail Page
+## Step 6: Extending the Detail Page
 
 In this step, we will extend the detail page of our app to show more information of a given product with various UI controls. We will enrich the header area and display further attributes in an info panel for information about the supplier.
 
 
 
-## Preview
+### Preview
 
   
   
 **Detail page with more product information**
 
-![](images/Tutorial_Worklist_Step_6_Preview_49780e4.png "Detail page with more product information")
+![](images/loio49780e41de4e4766b41cdf65acf81ea2_HiRes.png "Detail page with more product information")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 6](https://ui5.sap.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.06) .
 
 
 
-### webapp/view/Object.view.xml \[MODIFY\]
+#### webapp/view/Object.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -130,7 +130,7 @@ Below the object header we can use `sap.m.Panel` to display some additional info
 
 
 
-### webapp/i18n/i18n.properties \[MODIFY\]
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ```ini
 ...

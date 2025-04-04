@@ -1,6 +1,6 @@
 <!-- loioa7a313889e874a118c5e17803c958b24 -->
 
-# The Owner Component
+## The Owner Component
 
 If you wish to extend your view or controller, you must define the extension in the manifest.json of their owner component.
 
@@ -8,7 +8,7 @@ If you wish to extend your view or controller, you must define the extension in 
 
 <a name="loioa7a313889e874a118c5e17803c958b24__section_p1l_4by_jkb"/>
 
-## What is the Owner Component?
+### What is the Owner Component?
 
 Technically, the owner component is the `sap.ui.core.(UI)Component` instance which created \(and thus "owns"\) any `sap.ui.base.ManagedObject` instance. This of course includes all subclasses of `ManagedObject`, e.g. any OpenUI5 control, as well as views, fragments, and even other \(UI\)Components.
 
@@ -18,7 +18,7 @@ One of the most common use cases of the owner component is the extensibility of 
 
 <a name="loioa7a313889e874a118c5e17803c958b24__section_tks_rby_jkb"/>
 
-## What is Handled by the Framework?
+### What is Handled by the Framework?
 
 For the most part, the framework takes care of setting and propagating the owner component throughout all framework-managed control and Component creation mechanisms. This includes the following:
 
@@ -49,7 +49,7 @@ For the most part, the framework takes care of setting and propagating the owner
 
 <a name="loioa7a313889e874a118c5e17803c958b24__section_zmp_rwc_kkb"/>
 
-## What Needs to be Handled by the Application?
+### What Needs to be Handled by the Application?
 
 Any `ManagedObject` that is created outside the above-listed framework-managed features is not automatically assigned an owner component. This is a very common occurrence, since a lot of `ManagedObject`s \(e.g. fragments\) will be created after the startup of a Component at an unknown point in time. For example, an `sap.m.Dialog` with fragment content might only be created upon user interaction.
 
@@ -59,7 +59,7 @@ Since the owner component is the carrier of extension information through its ma
 
 <a name="loioa7a313889e874a118c5e17803c958b24__section_u13_jvr_nvb"/>
 
-## Best Practices for Creating Controls
+### Best Practices for Creating Controls
 
 Whenever possible, use one of the above-listed framework-managed control creation mechanisms.
 

@@ -1,6 +1,6 @@
 <!-- loio91f2d03b6f4d1014b6dd926db0e91070 -->
 
-# Configuration Options and URL Parameters
+## Configuration Options and URL Parameters
 
 The following tables show available configuration options.
 
@@ -20,7 +20,7 @@ Typically, configuration options are evaluated when booting OpenUI5. After that,
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_mpr_v1v_fzb"/>
 
-## Localization
+### Localization
 
 
 <table>
@@ -63,12 +63,12 @@ List of active terminologies provided via URL parameter, bootstrap or [`sap.ui.c
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -89,12 +89,12 @@ Defines the language that shall be used for localized texts, formatting, and so 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Localization.setLanguage`](https://ui5.sap.com/#/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setLanguage)
 
@@ -121,12 +121,12 @@ Modifiable at runtime with restrictions. For more information, see the [API Refe
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Localization.setRTL`](https://ui5.sap.com/#/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setRTL)
 
@@ -158,12 +158,12 @@ For more information, see [Date Format](date-format-91f2eba.md).
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Localization.setTimezone`](https://ui5.sap.com/#/api/module:sap/base/i18n/Localization%23methods/sap/base/i18n/Localization.setTimezone)
 
@@ -175,7 +175,7 @@ For more information, see [Date Format](date-format-91f2eba.md).
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_ins_2bv_fzb"/>
 
-## Formatting
+### Formatting
 
 
 <table>
@@ -218,12 +218,12 @@ Defines the calendar type that is used for locale-dependent, date-related featur
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Formatting.setCalendarType`](https://ui5.sap.com/#/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setCalendarType)
 
@@ -248,12 +248,12 @@ For more information, see the [API Reference: `sap/base/18n/date/CalendarWeekNum
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Formatting.setCalendarWeekNumbering`](https://ui5.sap.com/#/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setCalendarWeekNumbering)
 
@@ -276,12 +276,12 @@ Defines the locale used for formatting purposes; the default values for the loca
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Formatting.setLanguageTag`](https://ui5.sap.com/#/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setLanguageTag)
 
@@ -304,12 +304,12 @@ By default the currency codes are shown after the amount. If set to `false`, the
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Formatting.setTrailingCurrencyCode`](https://ui5.sap.com/#/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setTrailingCurrencyCode)
 
@@ -332,12 +332,12 @@ Specifies one of the ABAP date formats.
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Formatting.setABAPDateFormat`](https://ui5.sap.com/#/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.ABAPDateFormat)
 
@@ -360,12 +360,12 @@ Specifies one of the ABAP time formats.
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Formatting.setABAPTimeFormat`](https://ui5.sap.com/#/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setABAPTimeFormat)
 
@@ -388,12 +388,12 @@ Specifies one of the ABAP number formats.
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Formatting.setABAPNumberFormat`](https://ui5.sap.com/#/api/module:sap/base/i18n/Formatting%23methods/sap/base/i18n/Formatting.setABAPNumberFormat)
 
@@ -405,7 +405,7 @@ Specifies one of the ABAP number formats.
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_svv_cbv_fzb"/>
 
-## Theming
+### Theming
 
 
 <table>
@@ -448,12 +448,12 @@ Defines whether a favicon is used. If set to `true`, a favicon, defined as part 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Theming.setFavicon`](https://ui5.sap.com/#/api/module:sap/ui/core/Theming%23methods/sap/ui/core/Theming.setFavicon)
 
@@ -478,12 +478,12 @@ Defines the theme that shall be used.
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Theming.setTheme`](https://ui5.sap.com/#/api/module:sap/ui/core/Theming%23methods/sap/ui/core/Theming.setTheme)
 
@@ -506,12 +506,12 @@ Defines the location of themes.
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -532,12 +532,12 @@ Specifies a list of UI libraries using the same syntax as the `libs` property, f
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -567,12 +567,12 @@ URLs within the CSS or parameters are not modified.
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -582,7 +582,7 @@ URLs within the CSS or parameters are not modified.
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_c33_gbv_fzb"/>
 
-## Control Behavior and UI Integration
+### Control Behavior and UI Integration
 
 
 <table>
@@ -625,12 +625,12 @@ If set to `true`, the OpenUI5 controls are rendered for or running in accessibil
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -651,12 +651,12 @@ Sets the animation behavior according to the values and description provided by 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`ControlBehavior.setAnimationMode`](https://ui5.sap.com/#/api/module:sap/ui/core/ControlBehavior%23methods/sap/ui/core/ControlBehavior.setAnimationMode)
 
@@ -679,12 +679,12 @@ Prefix to be used for automatically generated control IDs; must be chosen carefu
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -694,7 +694,7 @@ Prefix to be used for automatically generated control IDs; must be chosen carefu
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_trk_3bv_fzb"/>
 
-## Security
+### Security
 
 
 <table>
@@ -737,12 +737,12 @@ URL to an allowlist service; see [Allowlist Service](../05_Developing_Apps/allow
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -763,12 +763,12 @@ Frame options mode; for more information, see [Frame Options](../05_Developing_A
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -789,12 +789,12 @@ Advanced frame options configuration; for more information, see [Frame Options](
 </td>
 <td valign="top">
 
-![](images/Cancel_dfb38de.png)
+![](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![](images/Cancel_dfb38de.png)
+![](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -815,12 +815,12 @@ For more information, see [Security Token Handling](model-instantiation-and-data
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Security.setSecurityTokenHandlers`](https://ui5.sap.com/#/api/module:sap/ui/security/Security%23methods/sap/ui/security/Security.setSecurityTokenHandlers)
 
@@ -832,7 +832,7 @@ For more information, see [Security Token Handling](model-instantiation-and-data
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_zy1_kbv_fzb"/>
 
-## Supportability
+### Supportability
 
 
 <table>
@@ -899,12 +899,12 @@ You can use the following patterns:
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -925,12 +925,12 @@ Security-relevant parameter that allows applications to disable configuration mo
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -951,12 +951,12 @@ If set to `true`, the `sap-ui-debug.js` module is included and provides some sup
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -979,12 +979,12 @@ Options: `0|1|2|3|4|5|6|NONE|FATAL|ERROR|WARNING|INFO|DEBUG|ALL`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 [`Log.setLevel`](https://ui5.sap.com/#/api/module:sap/base/Log%23methods/sap/base/Log.setLevel)
 
@@ -1007,12 +1007,12 @@ Activates end-to-end traces and measurement of response times For more informati
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -1035,12 +1035,12 @@ Options: `true | silent | window`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -1063,12 +1063,12 @@ Options: `true | silent | window`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -1078,7 +1078,7 @@ Options: `true | silent | window`
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_dq2_mbv_fzb"/>
 
-## Loading and Integration
+### Loading and Integration
 
 
 <table>
@@ -1123,12 +1123,12 @@ If set to a non-empty list of URLs, the `AppCacheBuster` will be activated and w
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 </tr>
@@ -1149,12 +1149,12 @@ This configuration setting enables the module loader to load both modules and li
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -1178,12 +1178,12 @@ For more information, see [Compatibility Version Information](compatibility-vers
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -1204,12 +1204,12 @@ A compatibility layer restores several incompatibly changed APIs in jQuery v3 ba
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -1234,12 +1234,12 @@ All libraries provided using the configuration option `libs` are merged into the
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 </tr>
@@ -1260,12 +1260,12 @@ Defines a list of JavaScript modules that shall be loaded after the core has bee
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -1286,12 +1286,12 @@ If set to `true`, OpenUI5 forces jQuery into `noConflict` mode.
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -1321,12 +1321,12 @@ Within `globalThis["sap-ui-config"]["on-init"]` it is also possible to provide a
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 </tr>
@@ -1351,12 +1351,12 @@ For more information, see the [API Reference: `sap.ui.loader.config`](https://ui
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 </tr>
@@ -1366,7 +1366,7 @@ For more information, see the [API Reference: `sap.ui.loader.config`](https://ui
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT"/>
 
-## Types
+### Types
 
 The table below lists the possible types for configuration options and their corresponding valid values.
 
@@ -1494,7 +1494,7 @@ Any value which is part of the respective enumeration for the corresponding conf
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_dfr_j2x_fzb"/>
 
-## Related Information
+### Related Information
 
 For alist of deprecated configuration options, see [Deprecated Configuration Options](deprecated-configuration-options-b474a71.md).
 

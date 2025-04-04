@@ -1,6 +1,6 @@
 <!-- loiob68d3219ed82404e8cbafb1c6f443cb4 -->
 
-# Step 25: Remote OData Service \(TypeScript\)
+## Step 25: Remote OData Service \(TypeScript\)
 
 So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.
 
@@ -13,20 +13,20 @@ In the real world, data often resides on remote servers and is accessed via an O
 
 
 
-## Preview
+### Preview
 
   
   
 **Products from the OData invoices test service are now shown within our app**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_25_5b76bb4.png "Products from the OData invoices test service are now shown within our
+![The graphic has an explanatory text.](images/loio5b76bb4b15eb44e1862d0b6c1c802571_LowRes.png "Products from the OData invoices test service are now shown within our
 					app")
 
 
 
 <a name="loiob68d3219ed82404e8cbafb1c6f443cb4__section_umn_sdl_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 25: Remote OData Service](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/25) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-25.zip).
 
@@ -34,7 +34,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 25: Remote ODat
 
 <a name="loiob68d3219ed82404e8cbafb1c6f443cb4__section_q14_5fl_syb"/>
 
-## package.json
+### package.json
 
 In this step, we want to use the publicly available Northwind OData service located at `https://services.odata.org/V2/Northwind/Northwind.svc/`. Therefore, our URI points to the official Northwind OData service. In order to avoid cross-origin resource sharing, the typical procedure is to use a proxy in UI5 Tooling and maintain only a path in the `URI` property of the data source of our app.
 
@@ -50,7 +50,7 @@ This will install this package as a new development dependency in your `package.
 
 <a name="loiob68d3219ed82404e8cbafb1c6f443cb4__section_mcv_bhl_syb"/>
 
-## ui5.yaml
+### ui5.yaml
 
 We now configure the `ui5-middleware-simpleproxy` in the `ui5.yaml` file, so UI5 Tooling is used with this proxy when serving the app.
 
@@ -91,7 +91,7 @@ server:
 
 <a name="loiob68d3219ed82404e8cbafb1c6f443cb4__section_vmn_sdl_syb"/>
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 As a next step we need to update our `manifest.json` file, so that the remote OData service can be instantiated by the component.
 

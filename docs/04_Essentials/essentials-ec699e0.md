@@ -1,6 +1,6 @@
 <!-- loioec699e0817fb46a0817b0fa276a249f8 -->
 
-# Essentials
+## Essentials
 
 This chapter and its sections describe the development concepts of OpenUI5, such as the Model View Controller, data binding, and components. Use this section as a reference.
 
@@ -8,9 +8,9 @@ This chapter and its sections describe the development concepts of OpenUI5, such
 
 <a name="loioec699e0817fb46a0817b0fa276a249f8__section_jdv_3zg_yz"/>
 
-## OpenUI5 Architecture
+### OpenUI5 Architecture
 
-![OpenUI5 Architecture Overview](images/SAPUI5_Architecture_Overview_99b4be7.png)
+![OpenUI5 Architecture Overview](images/loio99b4be76a3f94db18172e67e730fb7fb_LowRes.png)
 
 OpenUI5 is a client UI technology based on JavaScript, CSS and HTML5.
 
@@ -22,7 +22,7 @@ Depending on the environment in which OpenUI5 is used, the libraries or your app
 
 
 
-## Artifacts in the Framework
+### Artifacts in the Framework
 
 The top-level structural unit is called a **library**. Libraries are the main artifacts in the extensibility concept. They bundle a set of controls and related types and make them consumable by Web applications. There are predefined and standard libraries, like `sap.m`, with many commonly used controls. At the same time, it treats custom UI libraries as first-class citizens, making it easy for you to write and use your own controls alongside the predefined ones.
 

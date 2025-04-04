@@ -1,6 +1,6 @@
 <!-- loio4dcf52e0ca3048e3a08bfdccfc440442 -->
 
-# Step 8: Translatable Texts \(TypeScript\)
+## Step 8: Translatable Texts \(TypeScript\)
 
 In this step we move the texts of our UI to a separate resource file.
 
@@ -8,20 +8,20 @@ This way, they are all in a central place and can be easily translated into othe
 
 
 
-## Preview
+### Preview
 
   
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_08_0eb579e.png "An input field and a description displaying the value of the input field (No
+![The graphic has an explanatory text](images/loio0eb579e2f2a64c5a9894086322c7faa0_LowRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)")
 
 
 
 <a name="loio4dcf52e0ca3048e3a08bfdccfc440442__section_b1m_wwc_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 8: Translatable Texts](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/08) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-08.zip).
 
@@ -29,7 +29,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 8: Translatable
 
 <a name="loio4dcf52e0ca3048e3a08bfdccfc440442__section_c1m_wwc_syb"/>
 
-## webapp/i18n/i18n.properties \(New\)
+### webapp/i18n/i18n.properties \(New\)
 
 The `i18n` file allows you to store translated texts for multiple languages, making your application accessible to a wider audience. In oder to achive this, the `properties` file for texts contains name-value pairs for each element. You can add any number of parameters to the texts by enclosing them in curly brackets with corresponding numbers. These numbers correspond to the sequence in which the parameters are accessed \(starting with 0\).
 
@@ -44,7 +44,7 @@ In this tutorial we'll have only one properties file. However, in real-world pro
 
 
 
-## controller/App.controller.ts
+### controller/App.controller.ts
 
 In the `onInit` function of our controller, we instantiate a `ResourceModel` and specify the `bundleName` parameter to refer to our new resource bundle file \(`i18n.properties`\). Then, we use the `setModel` function on the view to assign our newly created model as a named model with the key `i18n` to the view. With this, we enable the binding of control properties in our view to translatable texts.
 
@@ -96,7 +96,7 @@ During runtime, OpenUI5 tries to load the correct`i18n_*.properties` file based 
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 We can now bind the text properties in our XML view to translatable texts. We connect the `text` property of the button control to the `showHelloButtonText` key in the `i18n` model. To correctly reference the model, the binding path should start with the model name `i18n` followed by a '`>`' character.
 
@@ -125,7 +125,7 @@ A resource bundle is a flat structure, therefore the preceding slash \(/\) can b
 
 
 
-## Conventions
+### Conventions
 
 -   The resource model for internationalization is called the `i18n` model.
 

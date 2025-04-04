@@ -1,6 +1,6 @@
 <!-- loio50990a077f964958a6e5cef1002e5316 -->
 
-# Step 29: Debugging Tools \(TypeScript\)
+## Step 29: Debugging Tools \(TypeScript\)
 
 Even though we have added a basic test coverage in the previous steps, it seems like we accidentally broke our app, because it does not display prices to our invoices anymore. We need to debug the issue and fix it before someone finds out.
 
@@ -10,19 +10,19 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
 <a name="loio50990a077f964958a6e5cef1002e5316__section_chj_s5x_31b"/>
 
-## Preview
+### Preview
 
   
   
 **The diagnostics window**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_29a_930de31.png "The diagnostics window")
+![The graphic has an explanatory text.](images/loio930de31b311f43ffa9df9261ca760da0_LowRes.png "The diagnostics window")
 
 
 
 <a name="loio50990a077f964958a6e5cef1002e5316__section_dhj_s5x_31b"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 29: Debugging Tools](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/29) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-29.zip).
 
@@ -30,7 +30,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 29: Debugging T
 
 <a name="loio50990a077f964958a6e5cef1002e5316__section_ykp_sth_tyb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 We introduce a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use <code>'invoice&gt;Ex<b>T</b>endedPrice'</code>.
 
@@ -117,7 +117,7 @@ Sometimes errors are not as easy to spot and you actually need to debug the Java
   
 **Technical information dialog**
 
-![Displays general information about the application, UI5,, and user browser](images/UI5_Walkthrough_Step_29b_34c4b02.png "Technical information dialog ")
+![Displays general information about the application, UI5,, and user browser](images/loio34c4b02c74eb4848b8b720d86042bfdc_LowRes.png "Technical information dialog ")
 
 For a more detailed explanation of the OpenUI5 support tools, go through the [Troubleshooting Tutorial](troubleshooting-tutorial-5661952.md) tutorial.
 
@@ -127,7 +127,7 @@ If you're stuck and need help for some development task, you can also post a que
 
 <a name="loio50990a077f964958a6e5cef1002e5316__section_lvc_gkw_31b"/>
 
-## Conventions
+### Conventions
 
 -   As per OpenUI5 convention uncompressed source files end with `*-dbg.js`
 

@@ -1,6 +1,6 @@
 <!-- loio293eb945f0e945aaa776812481b4c533 -->
 
-# Development for Hybrid Web Containers
+## Development for Hybrid Web Containers
 
 You can develop mobile apps as hybrid app consisting of a native app wrapper, for example PhoneGap, and an HTML viewer to display the content on the user interface.
 
@@ -41,7 +41,7 @@ data-sap-ui-preload=""
 
 
 
-## Optimization of the Package Size
+### Optimization of the Package Size
 
 Although the static package is small enough to be included in hybrid apps, you can reduce the size further and optimize the content for a specific application by deleting additional files. The following list gives some examples:
 
@@ -59,7 +59,7 @@ You can delete further files, but the size reduction is limited and to find out 
 
 <a name="loio293eb945f0e945aaa776812481b4c533__section_N10018_N10011_N10001"/>
 
-## Device Ready Event
+### Device Ready Event
 
 The hybrid web container needs some time for initialization. During this time, the sending of AJAX requests is blocked, meaning that JavaScript code stops once an AJAX request is sent and the code execution stops as well. This leads to a UI freeze effect.
 
@@ -82,7 +82,7 @@ document.addEventListener("deviceready", appReady, false);
 
 <a name="loio293eb945f0e945aaa776812481b4c533__section_N1003A_N10011_N10001"/>
 
-## Cross Domain Restrictions
+### Cross Domain Restrictions
 
 If you load data from an external server or service using AJAX, the external domain has to be configured inside the hybrid web container to make the AJAX request go through the cross domain restriction. The following findings result from an integration of the demo applications into PhoneGap:
 

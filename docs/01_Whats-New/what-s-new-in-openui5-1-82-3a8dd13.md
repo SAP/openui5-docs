@@ -1,6 +1,6 @@
 <!-- loio3a8dd1312c374a2983056247096772de -->
 
-# What's New in OpenUI5 1.82
+## What's New in OpenUI5 1.82
 
 With this release OpenUI5 is upgraded from version 1.81 to 1.82.
 
@@ -124,7 +124,7 @@ Badges display very short and important information that attracts the user’s a
 -   <code><b>sap.ui.integration.widgets.Card</b></code> – the badge is no longer in experimental state. For more information, see the [Text Badge](https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/badge) section and the [Sample](https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/badge) in the Card Explorer.
 -   <code><b>sap.m.Button</b></code> - the badge acts both as a visual eye catcher and as a counter to display a maximum of 4 digits or characters. It can be applied to any button type, but we recommend that you only use it on the `Default`, `Ghost`, `Transparent`, and `Emphasized` button types.
 
-    ![](images/WhatsNew_182_Button_Badge_205fd11.png)
+    ![](images/loio205fd119d9a64cdb957c4efa70ad4367_LowRes.png)
 
     For more information, see the [Sample](https://ui5.sap.com/#/entity/sap.m.Button/sample/sap.m.sample.ButtonWithBadge).
 
@@ -169,7 +169,7 @@ Feature
 
 **Five New Icons Available in the *SAP Fiori Tools* Icon Font**
 
-![](images/WhatsNew_182_NewIcons_8bfb35f.png)
+![](images/loio8bfb35f3b630408abb4d49f9d6b52f8d_LowRes.png)
 
 Find the icon that fits your needs via the [OpenUI5 Icon Explorer](https://ui5.sap.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html).
 

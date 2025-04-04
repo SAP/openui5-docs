@@ -1,6 +1,6 @@
 <!-- loio798dd9abcae24c8194922615191ab3f5 -->
 
-# Deprecated Core API
+## Deprecated Core API
 
 This page describes important aspects of the deprecation of the `sap.ui.core.Core` API facade, as most of its methods have been deprecated. It shows a migration path away from the deprecated legacy APIs and towards their future-proof alternatives.
 
@@ -8,7 +8,7 @@ This page describes important aspects of the deprecation of the `sap.ui.core.Cor
 
 <a name="loio798dd9abcae24c8194922615191ab3f5__section_msd_jb4_rzb"/>
 
-## Overview of Deprecated API Methods of `Core`
+### Overview of Deprecated API Methods of `Core`
 
 The following is an alphabetical list of API methods on `sap.ui.core.Core`. Meant as a compact and practical overview, it is derived from the [API Reference](https://ui5.sap.com/#/api/sap.ui.core.Core), which may provide complementary information.
 

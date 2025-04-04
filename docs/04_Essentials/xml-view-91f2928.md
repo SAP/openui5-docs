@@ -1,6 +1,6 @@
 <!-- loio91f292806f4d1014b6dd926db0e91070 -->
 
-# XML View
+## XML View
 
 The XML view type is defined in an XML file, with a file name ending in `.view.xml`. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.
 

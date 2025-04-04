@@ -1,6 +1,6 @@
 <!-- loio76e789ea418a48a1a27916b63a30fb72 -->
 
-# Step 5: UI5 Inspector
+## Step 5: UI5 Inspector
 
 In this tutorial step, we will have a closer look at UI5 Inspector - an open source Chrome DevTools extension specifically created for analyzing and debugging OpenUI5 code.
 
@@ -22,13 +22,13 @@ With UI Inspector, you can find answers to the following questions, for example:
 
 <a name="loio76e789ea418a48a1a27916b63a30fb72__section_z4x_bdk_b1b"/>
 
-## Preview
+### Preview
 
-![](images/Troubleshooting_Tutorial_UI5_Inspector_e881330.gif)
+![](images/loioe881330405e24b42b064ae6042d85b43_LowRes.gif)
 
 
 
-## Opening the Example App and the UI5 Inspector
+### Opening the Example App and the UI5 Inspector
 
 1.  Add the UI5 Inspector as a standard extension to your Chromium-based browser from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ui5-inspector/bebecogbafbighhaildooiibipcnbngo?hl=en).
 
@@ -47,7 +47,7 @@ With UI Inspector, you can find answers to the following questions, for example:
 
 <a name="loio76e789ea418a48a1a27916b63a30fb72__section_plg_ffk_b1b"/>
 
-## Simulating UI Changes
+### Simulating UI Changes
 
 The app contains a *Do Something* button with meaningless icon \(`sap-icon://action`\) and text. We want to use the `sap-icon://activate` icon instead and change the text. With UI Inspector, we want to simulate how that will effect the UI change.
 
@@ -59,7 +59,7 @@ The app contains a *Do Something* button with meaningless icon \(`sap-icon://act
 
 3.  Replace `action` with `activate` and confirm with [Enter\].
 
-    The icon on the button in the app is updated to show the new icon ![Activate](images/Activate_997baba.png).
+    The icon on the button in the app is updated to show the new icon ![Activate](images/loio997baba218974ca2888824f87d8b1af4_LowRes.png).
 
 4.  Double-click the value for the `text` property and change the value to `Activate`.
 

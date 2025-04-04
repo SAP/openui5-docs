@@ -1,6 +1,6 @@
 <!-- loio15d84f36c0594cb2b3295aa1f55cb961 -->
 
-# Step 1: The Initial App
+## Step 1: The Initial App
 
 We start by setting up a simple app that loads data from an OData service and displays it in a table. We use a mock server to simulate requests to and responses from the service.
 
@@ -10,19 +10,19 @@ The structure and data model created in this step will be used throughout this t
 
 <a name="loio15d84f36c0594cb2b3295aa1f55cb961__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **Initial app with a simple table**
 
-![](images/Tutorial_OData_V4_Step1_Preview_9d0182f.png "Initial app with a simple table")
+![](images/loio9d0182f69376444396c903cbc84564c9_LowRes.png "Initial app with a simple table")
 
 
 
 <a name="loio15d84f36c0594cb2b3295aa1f55cb961__section_tsr_gxc_z1b"/>
 
-## Setup
+### Setup
 
 1.  To set up your project for this tutorial, download the files at [OData V4 - Step 1](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.01).
 
@@ -36,13 +36,13 @@ You should now have the following files:
   
 **Folder structure with downloaded files**
 
-![](images/Tutorial_OData_V4_Step1_Folders_1406ea6.png "Folder structure with downloaded files")
+![](images/loio1406ea6897b149fe97a107176f9d4442_HiRes.png "Folder structure with downloaded files")
 
 
 
 <a name="loio15d84f36c0594cb2b3295aa1f55cb961__section_vng_l12_gcb"/>
 
-## The Initial App
+### The Initial App
 
 The downloaded code includes an app that displays a table containing a table of users. For performance reasons, the table only loads 10 users at a time. More data can be retrieved by using the *More* button at the bottom of the page.
 
@@ -52,13 +52,13 @@ The most important files are the following:
 
 
 
-### `webapp/index.html`
+#### `webapp/index.html`
 
 This file defines the home page of the app. It contains the bootstrap script and tells the runtime where to find our custom resources. It also initializes the mock server that intercepts all requests to the real *TripPin* service and sends back mock responses.
 
 
 
-### `webapp/manifest.json`
+#### `webapp/manifest.json`
 
 The `manifest.json` descriptor file contains the app configuration. In the `sap.app` section, the OData V4 service is configured as the default service:
 
@@ -77,7 +77,7 @@ The `manifest.json` descriptor file contains the app configuration. In the `sap.
 
 
 
-### Mock server \(`webapp/localService/*`\)
+#### Mock server \(`webapp/localService/*`\)
 
 > ### Note:  
 > The mock server included in this tutorial is only meant to support the features needed in this tutorial. Currently, there is no "general-purpose mock server" for application development available with OData V4 \(like there is for OData V2\).

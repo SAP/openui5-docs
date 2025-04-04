@@ -1,6 +1,6 @@
 <!-- loio91f203236f4d1014b6dd926db0e91070 -->
 
-# Item Navigation - Supporting Keyboard Handling in List-like Controls
+## Item Navigation - Supporting Keyboard Handling in List-like Controls
 
 The helper class `sap.ui.core.delegate.ItemNavigation` supports item navigation in lists.
 

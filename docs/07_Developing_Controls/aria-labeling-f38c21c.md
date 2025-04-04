@@ -1,12 +1,12 @@
 <!-- loiof38c21c2f71e455e8d4a959522035a1f -->
 
-# ARIA Labeling
+## ARIA Labeling
 
 Proper labeling of all UI elements is needed in order to ensure the screen reader announces everything correctly. Here we describe the available options and how and when they should be used.
 
 
 
-## Labeling
+### Labeling
 
 There are several options for labeling:
 

@@ -1,6 +1,6 @@
 <!-- loioec55312f796f45e8883810af3b68b46c -->
 
-# Selection
+## Selection
 
 The OData V4 Model supports \(de-\)selection of individual rows and of all rows at once.
 

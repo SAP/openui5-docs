@@ -1,6 +1,6 @@
 <!-- loio5cbb62df99cd4fe9ae4548a757ae9ad7 -->
 
-# What's New in OpenUI5 1.75
+## What's New in OpenUI5 1.75
 
 With this release OpenUI5 is upgraded from version 1.74 to 1.75.
 
@@ -633,15 +633,15 @@ Feature
 
 We have added a direct link from each OpenUI5 documentation page to its markdown version in the *openui5-docs* GitHub repo. Now, when you want to send us feedback on a specific topic or even suggest a change with a pull request, we hope to save you time and efforts in finding the respective file.
 
-![](images/Edit_in_GitHub_links_8a5845e.gif)
+![](images/loio8a5845e5be56483da308611359ba45ea_HiRes.gif)
 
 **Search Highlighting in the *Documentation* and *Samples* sections**
 
 The search highlighting functionality is now also available in the *Documentation* tree filter and the *Samples* list.
 
-![](images/WN_1_75_Docu_Highlighting_e79499d.png)
+![](images/loioe79499d4357e4a7eb7de9c5e1a835d55_HiRes.png)
 
-![](images/WN_1_75_Samples_Highlighting_308ff81.png)
+![](images/loio308ff81070684b318c4da4d1290a7e95_HiRes.png)
 
 <sub>New•Feature•Info Only•1.75</sub>
 

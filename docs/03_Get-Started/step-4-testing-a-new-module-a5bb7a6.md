@@ -1,6 +1,6 @@
 <!-- loioa5bb7a6d736f41c8ac1c1ef0b2d40676 -->
 
-# Step 4: Testing a New Module
+## Step 4: Testing a New Module
 
 In the first unit test we have just extended the formatters module with a new function. Now we will write a unit test that will test the functionality of an entirely new module.
 
@@ -12,24 +12,24 @@ A frequently used feature of a bulletin board is to flag interesting posts to ma
 
 <a name="loioa5bb7a6d736f41c8ac1c1ef0b2d40676__section_hqw_crb_ddc"/>
 
-## Preview
+### Preview
 
   
   
 **The unit test for the Flagged feature will fail until the feature is implemented**
 
-![](images/Tutorial_Testing_Step_04_ba4369b.png "The unit test for the Flagged feature will fail until the
+![](images/loioba4369b669574be29051499ed6f2ce4e_HiRes.png "The unit test for the Flagged feature will fail until the
 					feature is implemented")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 4](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.04).
 
 
 
-## webapp/model/FlaggedType.js \(new\)
+### webapp/model/FlaggedType.js \(new\)
 
 ```js
 sap.ui.define([
@@ -60,7 +60,7 @@ A formatter function will only take care of one direction so this time we decide
 
 
 
-## webapp/test/unit/model/FlaggedType.js \(new\)
+### webapp/test/unit/model/FlaggedType.js \(new\)
 
 ```js
 /*global QUnit*/
@@ -126,7 +126,7 @@ The other test cases in the parsing module are similar and check the back conver
 
 
 
-## webapp/test/unit/unitTests.qunit.js
+### webapp/test/unit/unitTests.qunit.js
 
 ```js
 sap.ui.define([
@@ -142,7 +142,7 @@ You can now call the unit tests and check the result. As in the previous step, t
 
 
 
-## Conventions
+### Conventions
 
 -   Use data types if you need both formatting and parsing of a model value
 

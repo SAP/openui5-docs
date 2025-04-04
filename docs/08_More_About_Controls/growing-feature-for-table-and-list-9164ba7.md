@@ -1,6 +1,6 @@
 <!-- loio9164ba7047b74a25a19baf9c5bb986ae -->
 
-# Growing Feature for Table and List
+## Growing Feature for Table and List
 
 `sap.m.ListBase` provides growing-related properties, which can be used for tables and lists.
 
@@ -41,7 +41,7 @@ To enable data for a table to be fetched on demand like this, you just need to s
 
 ```
 
-![](images/SAPUI5_Mobile_Table_Feature_Growing_1_26_f77f218.png)
+![](images/loiof77f21836ce04e65b6c5ed258abb8e18_LowRes.png)
 
 If you want the user to have to scroll down to see more items \(by setting the `growingScrollToLoad` property to true\), you must ensure that the control is within a container that has a scroll feature, such as an `sap.m.Page` in an `sap.m.App` control, like this:
 
@@ -59,7 +59,7 @@ If you want the user to have to scroll down to see more items \(by setting the `
 
 
 
-## Sample
+### Sample
 
 For more information, see the [sample](https://ui5.sap.com/#/entity/sap.m.List/sample/sap.m.sample.ListGrowing) in the Demo Kit.
 

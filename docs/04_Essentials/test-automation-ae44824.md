@@ -1,6 +1,6 @@
 <!-- loioae448243822448d8ba04b4784f4b09a0 -->
 
-# Test Automation
+## Test Automation
 
 To make sure that the code is always tested thoroughly before it is included in a productive app, you should use a test runner that automates tests. The test runner can be included in your project setup so that it is called whenever code changes are submitted.
 
@@ -19,7 +19,7 @@ In the following section, we describe the setup with *Karma*, but you can of cou
 
 <!-- loioa182676ed3714bd5b4f011eb29076f6c -->
 
-## Installing Karma for Automated Testing
+### Installing Karma for Automated Testing
 
 Initial setup of the application testing environment with Karma.
 
@@ -27,7 +27,7 @@ Initial setup of the application testing environment with Karma.
 
 <a name="loioa182676ed3714bd5b4f011eb29076f6c__prereq_opk_1my_bcb"/>
 
-## Prerequisites
+### Prerequisites
 
 You have installed the *current* or *LTS* version of *Node.js* from [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
@@ -35,7 +35,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
 <a name="loioa182676ed3714bd5b4f011eb29076f6c__steps_av1_rfy_bcb"/>
 
-## Procedure
+### Procedure
 
 1.  Install the *Karma CLI* globally via *npm* so that you can run *Karma* by typing the `karma` command in the command-line interface \(CLI\).
 
@@ -149,7 +149,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
 <!-- loio8c27b0ab239242c69f181208c9b8fb1d -->
 
-## Continuous Integration With Headless Chrome
+### Continuous Integration With Headless Chrome
 
 For running tests in CI scenarios, such as Travis CI in GitHub, Headless Chrome needs to be used. Headless Chrome is a Chromium Browser without GUI \(in a headless environment\).
 
@@ -191,7 +191,7 @@ karma start karma-ci.conf.js
 
 <!-- loio1851a066b0e34d84ae00f887445239e5 -->
 
-## Code Coverage
+### Code Coverage
 
 To measure the code coverage, you can use the [*Coverage* plugin](https://github.com/karma-runner/karma-coverage) for *Karma*.
 

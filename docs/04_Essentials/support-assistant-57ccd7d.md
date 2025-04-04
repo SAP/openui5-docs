@@ -1,12 +1,12 @@
 <!-- loio57ccd7d7103640e3a187ed55e1d2c163 -->
 
-# Support Assistant
+## Support Assistant
 
 The Support Assistant enables developers to check whether their apps are built according to the OpenUI5 best practices and guidelines.
 
 
 
-## Goals
+### Goals
 
 The tool aims to reduce maintenance and consulting times and to streamline OpenUI5 app development. It uses a set of predefined rules to check all aspects of an application, for example, accessibility, performance, data binding, usability. With a simple click, you can check the current state of your app. After execution, you can analyze the results and apply corrective measures based on the outcome.
 
@@ -16,13 +16,13 @@ Check out the Support Assistant highlights video for an overview of its main fun
 
 
 
-## Getting Started
+### Getting Started
 
 The Support Assistant can be started using a URL or a Technical Information Dialog.
 
 
 
-### From a URL Parameter
+#### From a URL Parameter
 
 The Support Assistant is enabled with the following URL parameter: `sap-ui-support=true`. The tool then appears as a toolbar in the footer of the app.
 
@@ -33,11 +33,11 @@ The Support Assistant is enabled with the following URL parameter: `sap-ui-suppo
   
 **Support Assistant Toolbar**
 
-![](images/Support_Assistant_Toolbar_c9ec61c.png "Support Assistant Toolbar ")
+![](images/loioc9ec61c44d7d45caba4fb3b31a094557_HiRes.png "Support Assistant Toolbar ")
 
 
 
-### From the Technical Information Dialog
+#### From the Technical Information Dialog
 
 You can also start the Support Assistant from the Technical Information Dialog.
 
@@ -54,16 +54,16 @@ Selecting *Rules* will show you the available rulesets. You can then select your
 
 <a name="loio57ccd7d7103640e3a187ed55e1d2c163__section_zxz_jh3_rz"/>
 
-## Persisting Rules and Settings
+### Persisting Rules and Settings
 
-All scopes and temporary rules can be stored in the local storage of your browser. This will allow you to continue with your work even after you have closed the browser window. To enable this feature, choose *Settings* \(![](images/AS-Settings-Button_24b9cee.png)\) on the banner and select the checkbox *I agree to use local storage persistency for*.
+All scopes and temporary rules can be stored in the local storage of your browser. This will allow you to continue with your work even after you have closed the browser window. To enable this feature, choose *Settings* \(![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png)\) on the banner and select the checkbox *I agree to use local storage persistency for*.
 
 > ### Tip:  
 > You can delete your already persisted data by choosing *Delete Persisted Data*.
 
 
 
-## Features
+### Features
 
 -   To learn more about rules and rule management see: [Rules Management](rules-management-3fc864a.md)
 

@@ -1,6 +1,6 @@
 <!-- loiodbec058964f545e4bb3b7e9fbaa0602d -->
 
-# Annotation Helper
+## Annotation Helper
 
 A collection of methods which help to consume OData Version 4.0 annotations in XML template views.
 
@@ -13,7 +13,7 @@ The `AnnotationHelper` connects all the pieces related to XML templating: It kno
 
 <a name="loiodbec058964f545e4bb3b7e9fbaa0602d__section_evw_l4f_2zb"/>
 
-## Formatter Functions
+### Formatter Functions
 
 The formatter functions can be used in binding expressions and `<template:if>` instructions for test conditions. The following formatter functions exist:
 
@@ -100,7 +100,7 @@ The formatter functions are called with a context object as first parameter. The
 
 <a name="loiodbec058964f545e4bb3b7e9fbaa0602d__section_fvw_l4f_2zb"/>
 
-## Helper Functions
+### Helper Functions
 
 The following helper functions can be used with `<template:with>`:
 

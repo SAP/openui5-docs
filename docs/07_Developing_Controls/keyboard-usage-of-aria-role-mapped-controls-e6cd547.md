@@ -1,12 +1,12 @@
 <!-- loioe6cd5476193f48d1a273de990276c9bc -->
 
-# Keyboard Usage of ARIA Role Mapped Controls
+## Keyboard Usage of ARIA Role Mapped Controls
 
 Screen readers offer list features, that ease the app navigation, by grouping and extracting all elements with similar behaviors. This leads to additional requirements when creating OpenUI5 controls. Control developers need to make sure that their controls are marked with the correct ARIA role.
 
 
 
-## Keyboard Handling for Role Mapped Controls
+### Keyboard Handling for Role Mapped Controls
 
 The applied role names define implicitly the keyboard usage. For example an element with `role=button` can be activated with [SPACE\] and [ENTER\] keys, navigation between controls with `role=menuitem` is expected using [Arrow keys\] and so on.
 
@@ -19,7 +19,7 @@ The applied role names define implicitly the keyboard usage. For example an elem
 
 
 
-## Additional Requirements for Some Control Types
+### Additional Requirements for Some Control Types
 
 Screen readers offer lists that group certain types of elements. These lists ease and speed up the navigation. There are some requirements, that specific control types have to comply to, in order to be properly used by the screen reader lists.
 

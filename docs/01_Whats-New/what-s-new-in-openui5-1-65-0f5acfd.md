@@ -1,6 +1,6 @@
 <!-- loio0f5acfddbcfd49258e07ad44770bfaa7 -->
 
-# What's New in OpenUI5 1.65
+## What's New in OpenUI5 1.65
 
 With this release OpenUI5 is upgraded from version 1.64 to 1.65.
 
@@ -115,7 +115,7 @@ Control
 
 The new `GridContainer` control allows you to align tiles, cards, and other controls in configuration, such as an overview page. It relies on a regular grid mesh constructed of rows with the same height and columns with the same width. Each item can be configured to span a different number of rows and columns inside that mesh. `GridContainer` automatically calculates how many rows an item needs, based on the height of the item.
 
-![](images/What_s_New_1_65_sap_f_GridContainer_2916482.png)
+![](images/loio2916482f87df4b91afabd81d6070fc78_HiRes.png)
 
 For more information, see [sap.f.GridContainer](../08_More_About_Controls/sap-f-gridcontainer-cca5ee5.md), the [API Reference](https://ui5.sap.com/#/api/sap.f.GridContainer), and the [Sample](https://ui5.sap.com/#/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainer).
 
@@ -660,7 +660,7 @@ The key concepts shown in this course apply to both, SAPUI5 and OpenUI5. The cou
 
 For more information and to enroll, see [https://open.sap.com/courses/ui52](https://open.sap.com/courses/ui52).
 
-![](images/openSAP_Evolved_Web_Apps_56cac78.png)
+![](images/loio56cac78b078f4cf3ada1fc92a9430182_LowRes.png)
 
 <sub>New•User Documentation•Info Only•1.65</sub>
 
@@ -703,7 +703,7 @@ Feature
 
 We have improved the global search capabilities in the Demo Kit app by migrating to a client-side search based on Elasticlunr.js.
 
-![](images/OpenUI5_What_s_New_1_65_Client-side_Search_36a8538.png)
+![](images/loio36a8538c55c3402b9c7adef4df7cba2c_HiRes.png)
 
 <sub>Changed•Feature•Info Only•1.65</sub>
 

@@ -1,6 +1,6 @@
 <!-- loio0cb44d7a147640a0890cefa5fd7c7f8e -->
 
-# ECMAScript Support
+## ECMAScript Support
 
 Since OpenUI5 1.125, the framework leverages features of modern ECMAScript, up to and including ES2023. You have to consider certain restrictions when using modern ECMAScript with your OpenUI5 project.
 
@@ -11,7 +11,7 @@ Since OpenUI5 1.125, the framework leverages features of modern ECMAScript, up t
 
 <a name="loio0cb44d7a147640a0890cefa5fd7c7f8e__section_zhq_133_ryb"/>
 
-## Overview of Restrictions
+### Overview of Restrictions
 
 The following restrictions apply when you use modern ECMAScript:
 
@@ -40,13 +40,13 @@ The following restrictions apply when you use modern ECMAScript:
 
 <a name="loio0cb44d7a147640a0890cefa5fd7c7f8e__section_UI5Mod"/>
 
-## Defining and Loading OpenUI5 Modules
+### Defining and Loading OpenUI5 Modules
 
 OpenUI5 implements an AMD-like way of [defining and loading modules](../04_Essentials/modules-and-dependencies-91f23a7.md). As Asynchronous Module Definition \(AMD\) is not fully compatible with ECMAScript modules, the use of ECMAScript modules is currently **not** supported.
 
 
 
-### ECMAScript Modules
+#### ECMAScript Modules
 
 OpenUI5 provides `sap.ui.define` and `sap.ui.require` as the established ways to define and load modules. Using the `import` and `export` statements for loading and defining OpenUI5 modules is currently **not** supported.
 
@@ -76,7 +76,7 @@ Please continue to use the regular OpenUI5 APIs `sap.ui.define` and `sap.ui.requ
 
 
 
-### Asynchronous Factory Functions
+#### Asynchronous Factory Functions
 
 The OpenUI5 Loader will not wait for a Promise returned as the content of an OpenUI5 module.
 
@@ -125,7 +125,7 @@ Do **not** return a Promise when loading or defining OpenUI5 modules.
 
 
 
-### Expressions as Dependencies
+#### Expressions as Dependencies
 
 Use only literals but **not** expressions for the dependencies in the context of the `sap.ui.define` and `sap.ui.require` calls.
 
@@ -144,7 +144,7 @@ Use only literals but **not** expressions for the dependencies in the context of
 
 
 
-### Spread Elements as Dependencies
+#### Spread Elements as Dependencies
 
 Do **not** use a spread element as a parameter in the context of the `sap.ui.define` and `sap.ui.require` calls.
 
@@ -168,7 +168,7 @@ Do **not** use a spread element as a parameter in the context of the `sap.ui.def
 
 
 
-### Template Literals as Dependencies
+#### Template Literals as Dependencies
 
 The usage of template literals with one or more expressions in the context of the `sap.ui.define` and `sap.ui.require` calls is **not** supported.
 
@@ -202,11 +202,11 @@ The usage of template literals with one or more expressions in the context of th
 
 <a name="loio0cb44d7a147640a0890cefa5fd7c7f8e__section_EHR"/>
 
-## Async Functions and Event Handlers
+### Async Functions and Event Handlers
 
 
 
-### OpenUI5 Lifecycle Hooks
+#### OpenUI5 Lifecycle Hooks
 
 Do **NOT** use async functions when implementing predefined OpenUI5 lifecycle hook methods. OpenUI5 might introduce an optional return type for such functions later. Using async functions here already would result in a return value that might conflict with such a later change.
 
@@ -315,7 +315,7 @@ Lifecycle Hooks
 
 
 
-### Control Event Listeners
+#### Control Event Listeners
 
 You can implement an asynchronous event handler for control events. However, OpenUI5 directly invokes the event handler without taking into account the returned Promise or any execution order.
 
@@ -342,13 +342,13 @@ You can implement an asynchronous event handler for control events. However, Ope
 
 <a name="loio0cb44d7a147640a0890cefa5fd7c7f8e__section_UI5Inherit"/>
 
-## OpenUI5 Inheritance
+### OpenUI5 Inheritance
 
 OpenUI5 implements an own functionality to extend classes \(via the `sap.ui.core.ManagedObject#extend` method\). Using an ECMAScript class to extend a OpenUI5 class is currently **not** supported.
 
 
 
-### ECMAScript Classes
+#### ECMAScript Classes
 
 OpenUI5 uses its own way of defining classes and extending them. Please stick to the current best practice and do **not** use ECMAScript classes when extending a delivered OpenUI5 class.
 
@@ -376,7 +376,7 @@ OpenUI5 uses its own way of defining classes and extending them. Please stick to
 
 
 
-### Expressions as Class Name
+#### Expressions as Class Name
 
 Do **not** use an expression, only a literal, in the class name parameter inside the `extend` call.
 
@@ -396,7 +396,7 @@ Do **not** use an expression, only a literal, in the class name parameter inside
 
 
 
-### Variable Usages as Class Name
+#### Variable Usages as Class Name
 
 Do **not** use a variable as the class name parameter inside the `extend` call.
 
@@ -416,7 +416,7 @@ Do **not** use a variable as the class name parameter inside the `extend` call.
 
 
 
-### Template Literals as Class Name
+#### Template Literals as Class Name
 
 The usage of template literals with one or more expressions as the class name parameter inside the `extend` call is **not** supported.
 
@@ -451,7 +451,7 @@ The usage of template literals with one or more expressions as the class name pa
 
 <a name="loio0cb44d7a147640a0890cefa5fd7c7f8e__section_libInit"/>
 
-## Library Initialization
+### Library Initialization
 
 An OpenUI5 library is typically initialized via an accompanying `library.js`. Within that file, the object which is supplied to the `sap/ui/core/Lib.init` method must consider the following restrictions:
 
@@ -488,7 +488,7 @@ An OpenUI5 library is typically initialized via an accompanying `library.js`. Wi
 
 
 
-### Expressions as Parameter
+#### Expressions as Parameter
 
 Do **not** use an expression for the library name when initializing a library.
 
@@ -510,7 +510,7 @@ Do **not** use an expression for the library name when initializing a library.
 
 
 
-### Variable Usages as Parameter
+#### Variable Usages as Parameter
 
 Do **not** use a variable for the library name when initializing a library.
 
@@ -532,7 +532,7 @@ Do **not** use a variable for the library name when initializing a library.
 
 
 
-### Spread Elements as Parameter
+#### Spread Elements as Parameter
 
 Do **not** use a spread element for the library name when initializing a library.
 
@@ -556,7 +556,7 @@ Do **not** use a spread element for the library name when initializing a library
 
 
 
-### Template Literals as Parameter
+#### Template Literals as Parameter
 
 Do **not** use a template literal with one or more expressions for the library name when initializing a library.
 

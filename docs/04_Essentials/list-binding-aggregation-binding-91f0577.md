@@ -1,6 +1,6 @@
 <!-- loio91f057786f4d1014b6dd926db0e91070 -->
 
-# List Binding \(Aggregation Binding\)
+## List Binding \(Aggregation Binding\)
 
 List binding \(or aggregation binding\) is used to automatically create child controls according to model data.
 
@@ -35,7 +35,7 @@ Let's say we would like to display the following JSON model data in a `sap.m.Lis
 
 <a name="loio91f057786f4d1014b6dd926db0e91070__AggregationBindingXMLViews"/>
 
-## Declarative List Binding in XML Views
+### Declarative List Binding in XML Views
 
 ```xml
 <mvc:View
@@ -85,7 +85,7 @@ For more examples and details on when to use which list item control, see the va
 
 
 
-## List Binding in the JavaScript Code
+### List Binding in the JavaScript Code
 
 You can define list binding directly in JavaScript either in the `settings` object in the constructor or by calling the `bindAggregation` method. List binding requires the definition of a template, which is cloned for each bound entry of the list. For each clone that is created, the binding context is set to the respective list entry, so that all bindings of the template are resolved relative to the entry. The aggregated elements are destroyed and recreated whenever the bound list in the data model is changed.
 

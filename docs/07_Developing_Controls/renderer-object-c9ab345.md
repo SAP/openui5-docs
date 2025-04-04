@@ -1,6 +1,6 @@
 <!-- loioc9ab34570cc14ea5ab72a6d1a4a03e3f -->
 
-# Renderer Object
+## Renderer Object
 
 The `renderer` object is responsible for creating the HTML structure for the control.
 
@@ -89,7 +89,7 @@ All new code should exclusively use the new API \(and the two APIs must never be
 
 <a name="loioc9ab34570cc14ea5ab72a6d1a4a03e3f__section_qjd_j3p_xkb"/>
 
-## HTML Structure
+### HTML Structure
 
 A control must have exactly one HTML element as a root node. Additional elements may be added as children of this node. The root element is created by calling the `oRM.openStart("<tagName/>", oControl)` method with the control instance as second parameter. This parameter lets the `RenderManager` add additional attributes to the element that mark it as a UI5 control and associate it with the control instance. Also, the `RenderManager` will take care of custom style classes added to the control \(with `addStyleClass()`\).
 
@@ -97,7 +97,7 @@ A control must have exactly one HTML element as a root node. Additional elements
 
 <a name="loioc9ab34570cc14ea5ab72a6d1a4a03e3f__section_fbf_p3p_xkb"/>
 
-## Inheritance
+### Inheritance
 
 Inheritance for renderers can be achieved by using one of the following two signatures. In both variants, the returned renderer inherits all properties \(methods, fields\) from the given parent renderer. Both variants also add an `extend` method to the created renderer that behaves like the modern signature variant of the `Renderer.extend` method, but allows to extend the new renderer instead of `sap.ui.core.Renderer`.
 
@@ -105,7 +105,7 @@ When the renderer is embedded into the control class definition, it automaticall
 
 
 
-### Modern signature
+#### Modern signature
 
 In the modern signature variant, two parameters must be given: A qualified name for the new renderer \(its global name in dot notation\), and an optional object literal that contains methods or fields to be added to the new renderer class.
 
@@ -165,7 +165,7 @@ sap.ui.define(['mylib/LabelRenderer'],
 
 
 
-### Use as a generic method
+#### Use as a generic method
 
 Only renderers that have been created with a call to `extend` will get their own `extend` method to create new subclasses. To allow extending from older renderers that have been written from scratch as a plain object, the `Renderer.extend` method can be called as a generic method, providing the base renderer as its `this` context.
 

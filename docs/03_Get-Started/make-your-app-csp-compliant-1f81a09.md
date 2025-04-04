@@ -1,6 +1,6 @@
 <!-- loio1f81a093a9f3433983dcb2ebe11cd4cd -->
 
-# Make Your App CSP Compliant
+## Make Your App CSP Compliant
 
 CSP stands for Content Security Policy and is a security standard to prevent cross-site scripting or other code injection attacks.
 
@@ -10,7 +10,7 @@ It's strongly recommended that you make your OpenUI5 applications CSP compliant 
 
 <a name="loio1f81a093a9f3433983dcb2ebe11cd4cd__section_wkh_b2v_zfb"/>
 
-## Define Initial Components in a Declarative Way
+### Define Initial Components in a Declarative Way
 
 Don't use directly executable code in your HTML files, because this makes them vulnerable. Instead, enable the `ComponentSupport` module in the bootstrapping script. Then, declare your desired component in the body via a `div` tag. This will instantiate the component when the `onInit` is executed.
 
@@ -33,7 +33,7 @@ Don't use directly executable code in your HTML files, because this makes them v
 
 <a name="loio1f81a093a9f3433983dcb2ebe11cd4cd__section_kgn_521_1gb"/>
 
-## Separate Scripts From HTML Files in Your Test Folder
+### Separate Scripts From HTML Files in Your Test Folder
 
 Because the HTML files in your test folder do not directly open your application, you can't use the new `ComponentSupport` feature here. To make them CSP compliant, you need to put the executable script code in a separate file on the same level as the HTML file. You can then refer to this file in your HTML file inside a `script` tag in the head:
 

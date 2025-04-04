@@ -1,6 +1,6 @@
 <!-- loio856d6c6a408846b480ca177b9a1aab62 -->
 
-# Navigate with Dynamic Targets
+## Navigate with Dynamic Targets
 
 The `addTarget` method in the `sap.ui.core.routing.Targets` class enables you to add targets to the router dynamically at runtime. Components or views can serve as dynamic targets.
 
@@ -15,7 +15,7 @@ Before a target can be displayed, it needs to be added to the router. The OpenUI
 
 <a name="loio856d6c6a408846b480ca177b9a1aab62__section_jnj_rgx_mjb"/>
 
-## Adding Dynamic Targets
+### Adding Dynamic Targets
 
 Use the [addTarget](https://ui5.sap.com/#/api/sap.ui.core.routing.Targets/methods/addTarget) API of the `sap.ui.core.routing.Targets` module to add dynamic routing targets:
 
@@ -49,7 +49,7 @@ On top of the other target options, the following configuration options can be u
 
 <a name="loio856d6c6a408846b480ca177b9a1aab62__section_u1j_1hx_mjb"/>
 
-## Displaying Dynamic Targets
+### Displaying Dynamic Targets
 
 After a target has been added, it is possible to display it with the [display](https://ui5.sap.com/#/api/sap.ui.core.routing.Targets/methods/display) method of the `sap.ui.core.routing.Targets` module.
 

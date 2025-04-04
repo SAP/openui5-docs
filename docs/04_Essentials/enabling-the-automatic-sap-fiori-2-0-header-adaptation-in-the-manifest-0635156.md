@@ -1,12 +1,12 @@
 <!-- loio0635156f3950494885ca314a13e15e29 -->
 
-# Enabling the Automatic SAP Fiori 2.0 Header Adaptation in the Manifest
+## Enabling the Automatic SAP Fiori 2.0 Header Adaptation in the Manifest
 
 Application developers can enable automatic adaptation of their existing applications from the `manifest.json` file \(also known as descriptor for applications, components and libraries\). This helps to easily convert applications to the new look-and-feel of SAP Fiori 2.0.
 
 
 
-## SAP Fiori 2.0
+### SAP Fiori 2.0
 
 SAP Fiori 2.0 is the next evolution step of the SAP Fiori UX. SAP Fiori 2.0 features new themes, a more unified user experience, and smoother, more intuitive application interactions.
 
@@ -14,7 +14,7 @@ Application headers, written based on older SAP Fiori design guidelines, can now
 
 
 
-## The SAP Fiori 2.0 Header
+### The SAP Fiori 2.0 Header
 
 The SAP Fiori 2.0 design concept requires changes with regards to the headers of applications and the SAP Fiori launchpad \(FLP\). If your application has a header, it needs to be merged into the standardized SAP Fiori 2.0 header. OpenUI5 offers an adapter mechanism to let existing apps automatically adjust their header layout according to the SAP Fiori 2.0 guidelines.
 
@@ -25,7 +25,7 @@ The SAP Fiori 2.0 design concept requires changes with regards to the headers of
   
 **SAP Fiori 2.0 header of a fullscreen application**
 
-![](images/FIori_2_0_Header_d78b4f4.png "SAP Fiori 2.0 header of a fullscreen application")
+![](images/loiod78b4f43624842a894908bbcf9c8dd20_HiRes.png "SAP Fiori 2.0 header of a fullscreen application")
 
 The complete adaptation of a fullscreen app to SAP Fiori 2.0 consists of five main steps:
 
@@ -46,14 +46,14 @@ You can see how the elements are moved and transformed from the old SAP Fiori ve
   
 **SAP Fiori 2.0 header adaptation**
 
-![](images/Fiori_2_0_Title_Adaptation_fba5d25.png "SAP Fiori 2.0 header adaptation")
+![](images/loiofba5d251f36145f285963be29070219a_HiRes.png "SAP Fiori 2.0 header adaptation")
 
 > ### Note:  
 > These adaptations are primarily valid only for **fullscreen** apps. Other floorplans, like List-Detail, are affected differently and the adaptation there will not be the same.
 
 
 
-## Enabling the Adaptation in the Manifest
+### Enabling the Adaptation in the Manifest
 
 You can override the adapter default behavior for a single application by adding an entry in the manifest in the `sap.ui5/config` section. Setting `sapFiori2Adaptation` to **true** enables the full functionality of the SAP Fiori 2.0 Adapter.
 

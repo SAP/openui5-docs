@@ -1,6 +1,6 @@
 <!-- loio5b46b03f024542ba802d99d67bc1a3f4 -->
 
-# Cards
+## Cards
 
 A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way.
 
@@ -8,7 +8,7 @@ A card is a design pattern that displays the most concise pieces of information 
 
 <a name="loio5b46b03f024542ba802d99d67bc1a3f4__section_z5t_4x2_dhb"/>
 
-## Overview
+### Overview
 
 Cards are composite controls that follow a predefined structure and offer content in a specific context. Cards contain the most important information for a given object \(usually a task, or a list of business entities\). You can use cards for presenting information, which can be displayed in flexible layouts that work well across a variety of screens and window sizes.
 
@@ -73,27 +73,27 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>2</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>3</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>3</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -105,27 +105,27 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -137,27 +137,27 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -169,27 +169,27 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -201,27 +201,27 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>4</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>4</sup> 
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -233,27 +233,27 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -265,27 +265,27 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>5</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>5</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>5</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>5</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -297,27 +297,27 @@ The following table provides an overview of the two main types of card controls 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>6</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>6</sup> 
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)<sup>6</sup> 
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>6</sup> 
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -339,7 +339,7 @@ The following table provides an overview of the two main types of card controls 
 
 <a name="loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card"/>
 
-## `sap.ui.integration.widgets.Card` \(Integration Card\)
+### `sap.ui.integration.widgets.Card` \(Integration Card\)
 
 The `sap.ui.integration.widgets.Card` is a self-contained user interface element, connected to a manifest, and used as a widget. It consists of three elements: card container, card header area, and content area.
 
@@ -347,11 +347,11 @@ The `sap.ui.integration.widgets.Card` is a self-contained user interface element
 -   The header area indicates what the card is about and can function as a navigation area for opening the underlying source. It also serves as a counter showing the number of items on the card in relation to the total number of relevant items \(in case multiple items are shown in the content area\). It can have a title, a subtitle, an icon, and a status indicator. If the header is of type `Numeric`, it may have different attributes, describing a KPI.
 -   The content area represents data from the underlying source. It uses the interaction and visualization from the embedded controls. It depends on the card type.
 
-![](../01_Whats-New/images/Cards_3ff4cba.png)
+![](../01_Whats-New/images/loio3ff4cbace0714a71924a628d8c81d480_LowRes.png)
 
 
 
-### Usage
+#### Usage
 
 The integration card is defined in a declarative way, using a `manifest.json` so that it can be easy to integrate and reuse it.
 
@@ -368,7 +368,7 @@ For more information and examples on the usage, see the [API Reference](https://
 
 
 
-### Content Types
+#### Content Types
 
 Cards can be transactional \(list, table, object, unstructured content, timeline\) and analytical \(line, donut, \[stacked\] column, stacked bar chart\). Each card is designed in a different style and contains various content formats.
 
@@ -510,7 +510,7 @@ Allows to embed HTML page in the content area, which will be isolated in iframe.
 
 <a name="loio5b46b03f024542ba802d99d67bc1a3f4__section_sap_f_card"/>
 
-## `sap.f.Card` \(Freestyle Card\)
+### `sap.f.Card` \(Freestyle Card\)
 
 The `sap.f.Card` control provides more freedom in choosing the structure and the controls which you can include. The data is provided by the application with the use of data binding, thus the control can be used just as a renderer.
 
@@ -518,13 +518,13 @@ In contrast to the self-contained and manifest-driven Integration Card \(`sap.ui
 
 The `sap.f.Card` consists of three elements: a container with background color and rounded corners, a header, and content.
 
-![](../01_Whats-New/images/sap_f_Card_Example_b1ff765.png)
+![](../01_Whats-New/images/loiob1ff765e1db44ae38f583bc228e14432_HiRes.png)
 
 The header is predefined and can be an instance of either `sap.f.cards.Header` or `sap.f.cards.NumericHeader`. The content area can be built with a desired combination of the standard OpenUI5 controls.
 
 
 
-### Usage
+#### Usage
 
 Considering the general purpose of the cards \(to represent most important assets of a particular business object in a limited size UI element\), it is not recommended to have very complex designs and heavy application-like interactions implemented in a `sap.f.Card` control.
 

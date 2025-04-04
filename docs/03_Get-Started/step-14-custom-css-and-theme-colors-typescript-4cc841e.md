@@ -1,18 +1,18 @@
 <!-- loio4cc841e27fd44549b9d108ed7c333195 -->
 
-# Step 14: Custom CSS and Theme Colors \(TypeScript\)
+## Step 14: Custom CSS and Theme Colors \(TypeScript\)
 
 Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.
 
 
 
-## Preview
+### Preview
 
   
   
 **The space between the button and the input field is now smaller and the output text is bold**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_14_d9a40e5.png "The space between the button and the input field is now smaller and the
+![The graphic has an explanatory text.](images/loiod9a40e539b7c49c485be821efbd3821f_LowRes.png "The space between the button and the input field is now smaller and the
 					output text is bold")
 
 > ### Caution:  
@@ -22,7 +22,7 @@ Sometimes we need to define some more fine-granular layouts and this is when we 
 
 <a name="loio4cc841e27fd44549b9d108ed7c333195__section_a55_pr2_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 14: Custom CSS and Theme Colors](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/14) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-14.zip).
 
@@ -30,7 +30,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 14: Custom CSS 
 
 <a name="loio4cc841e27fd44549b9d108ed7c333195__section_b55_pr2_syb"/>
 
-## webapp/css/style.css \(New\)
+### webapp/css/style.css \(New\)
 
 We create a folder `css` which will contain our CSS files. In a new style definition file inside the `css` folder we create our custom classes combined with a custom namespace class. This makes sure that the styles will only be applied on controls that are used within our app.
 
@@ -58,7 +58,7 @@ html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 We configure the CSS file to our app descriptor: In the `resources` section of the `sap.ui5` namespace, additional resources for the app can be loaded. We load the CSS styles by defining a URI relative to the component. OpenUI5 then adds this file to the header of the HTML page as a `<link>` tag, just like in plain Web pages, and the browser loads it automatically.
 
@@ -81,7 +81,7 @@ We configure the CSS file to our app descriptor: In the `resources` section of t
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 The app control is configured with our custom namespace class `myAppDemoWT`. This class has no styling rules set and is used in the definition of the CSS rules to define CSS selectors that are only valid for this app.
 
@@ -130,7 +130,7 @@ The actual color now depends on the selected theme which ensures that the color 
 
 
 
-## Conventions
+### Conventions
 
 -   Do not specify colors in custom CSS but use the standard theme-dependent classes instead.
 

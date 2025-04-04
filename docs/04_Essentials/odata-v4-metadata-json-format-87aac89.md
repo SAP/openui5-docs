@@ -1,6 +1,6 @@
 <!-- loio87aac894a40640f89920d7b2a414499b -->
 
-# OData V4 Metadata JSON Format
+## OData V4 Metadata JSON Format
 
 The OData V4 model provides access to metadata in a streamlined JSON format which is described in the section below.
 
@@ -10,7 +10,7 @@ In the sections below, angled brackets indicate variable parts. The numbers next
 
 
 
-## Design Rationale
+### Design Rationale
 
 We have prefixed constant property names with `"$"` as this is a legal first character for JavaScript identifiers, but not for OData simple identifiers. This way, **inline annotations** can be added via `"@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <value>` everywhere without name clashes. This is shortly shown as `"@..." : <value>` below.
 
@@ -64,7 +64,7 @@ We use the <code>"&lt;<b>key</b>&gt;@&lt;14.3.1 Annotation Term&gt;#&lt;14.3.2 A
 
 
 
-## Metadata JSON Structure
+### Metadata JSON Structure
 
 The following JSON file represents the metadata document which corresponds to `GET <serviceRoot>/$metadata`.
 
@@ -244,7 +244,7 @@ The following JSON file represents the metadata document which corresponds to `G
 
 
 
-## Constant and Dynamic Expressions
+### Constant and Dynamic Expressions
 
 **Constant Expressions**
 

@@ -1,6 +1,6 @@
 <!-- loiod9915520aee34b7b83dd2cd85f4db007 -->
 
-# What's New in OpenUI5 1.61
+## What's New in OpenUI5 1.61
 
 With this release OpenUI5 is upgraded from version 1.60 to 1.61.
 
@@ -120,13 +120,13 @@ The `sap.m.SinglePlanningCalendar` is a new control designed to display the sche
   
 **SinglePlanningCalendar Header Area**
 
-![](images/SinglePlanningCalendar_Header_9406ea7.png "SinglePlanningCalendar Header Area")
+![](images/loio9406ea72876f4b88982773c603b1886f_LowRes.png "SinglePlanningCalendar Header Area")
 
   
   
 **SinglePlanningCalendar Meetings**
 
-![](images/SinglePlanningCalendar_Meetings_b99c835.png "SinglePlanningCalendar Meetings")
+![](images/loiob99c835dfb1246f2bb3a0befd34f65a9_LowRes.png "SinglePlanningCalendar Meetings")
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.SinglePlanningCalendar) and the [Samples](https://ui5.sap.com/#/entity/sap.m.SinglePlanningCalendar).
 

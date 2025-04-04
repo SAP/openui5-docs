@@ -1,6 +1,6 @@
 <!-- loio91f08de06f4d1014b6dd926db0e91070 -->
 
-# Configuration of the OpenUI5 Runtime
+## Configuration of the OpenUI5 Runtime
 
 OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available configuration options are described in detail.
 
@@ -26,7 +26,7 @@ You can provide additional configuration information in the following ways:
 
 <a name="loio91f08de06f4d1014b6dd926db0e91070__section_ACO"/>
 
-## Available Configuration Options
+### Available Configuration Options
 
 UI5 supports different possibilities to provide values for the available configuration parameters. Options 2 to 7 require you to provide them before the application boots up. They are technically equivalent, however at runtime they will be evaluated in the order given below. The list below is therefore sorted in ascending order of precedence:
 
@@ -55,11 +55,11 @@ The comprehensive list of [Configuration Options and URL Parameters](configurati
 
 <a name="loio91f08de06f4d1014b6dd926db0e91070__section_z1g_zkg_plb"/>
 
-## Setting Configuration Values
+### Setting Configuration Values
 
 
 
-### \[1\] Effective default values
+#### \[1\] Effective default values
 
 The easiest way to specify a configuration value is **not to specify** it. The OpenUI5 runtime contains a default value for each configuration option. As long as you don't have to change the value, simply don't specify it.
 
@@ -67,7 +67,7 @@ The effective default values can be found in the complete list of [Configuration
 
 
 
-### \[2\] Global configuration object
+#### \[2\] Global configuration object
 
 The global configuration object is a property in the `globalThis` object with the property name `sap-ui-config`. The property must be a simple object, where each property represents the configuration option of the corresponding name.
 
@@ -115,7 +115,7 @@ The following code snippets show an example how to add a configuration before bo
 
 
 
-### \[3\] `sap-ui-config.json` \(deprecated\)
+#### \[3\] `sap-ui-config.json` \(deprecated\)
 
 This option is activated by setting `globalThis["sap-ui-config"]` to an arbitrary string value.
 
@@ -124,7 +124,7 @@ This option is activated by setting `globalThis["sap-ui-config"]` to an arbitrar
 
 
 
-### \[4\] Configuration string in the `data-sap-ui-config` attribute \(deprecated\)
+#### \[4\] Configuration string in the `data-sap-ui-config` attribute \(deprecated\)
 
 The bootstrap attribute `data-sap-ui-config` enables you to provide a single attribute with the configuration information for the OpenUI5 runtime.
 
@@ -145,7 +145,7 @@ You can use this attribute instead of attaching individual options with individu
 
 
 
-### \[5\] Individual <code>data-sap-ui-&lt;<i>UI5-supported-config-option</i>&gt;</code> attributes of the bootstrap tag
+#### \[5\] Individual <code>data-sap-ui-&lt;<i>UI5-supported-config-option</i>&gt;</code> attributes of the bootstrap tag
 
 For each configuration option, you can have one attribute in the bootstrap script tag. These attributes must provide the following information:
 
@@ -170,7 +170,7 @@ For each configuration option, you can have one attribute in the bootstrap scrip
 
 
 
-### \[6\] Individual meta tag attributes
+#### \[6\] Individual meta tag attributes
 
 For each configuration option, you can add a meta tag. These attributes must provide the following information:
 
@@ -192,7 +192,7 @@ For each configuration option, you can add a meta tag. These attributes must pro
 
 
 
-### \[7\] URL parameters
+#### \[7\] URL parameters
 
 Configuration parameters can be added to the URL of an app.
 
@@ -207,7 +207,7 @@ For security reasons, only some configuration options can be set via URL paramet
 
 
 
-### \[8\] Specific APIs
+#### \[8\] Specific APIs
 
 The configuration options above are evaluated when booting OpenUI5. After that, all changes to these parameters are ignored.
 

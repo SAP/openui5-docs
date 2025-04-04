@@ -1,6 +1,6 @@
 <!-- loio91f0d8ab6f4d1014b6dd926db0e91070 -->
 
-# Binding Types
+## Binding Types
 
 Depending on the different use cases, you can use different binding types: Propety binding, context binding, and list binding.
 

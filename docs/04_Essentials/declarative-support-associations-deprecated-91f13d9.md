@@ -1,6 +1,6 @@
 <!-- loio91f13d9a6f4d1014b6dd926db0e91070 -->
 
-# Declarative Support: Associations \(deprecated\)
+## Declarative Support: Associations \(deprecated\)
 
 An association is defined as a data attribute of the HTML tag. Instead of passing the reference to another control you define the ID of another control.
 

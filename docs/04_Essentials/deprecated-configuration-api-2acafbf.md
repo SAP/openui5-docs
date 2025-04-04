@@ -1,6 +1,6 @@
 <!-- loio2acafbfcc2cb47e8aac6d2e32399af10 -->
 
-# Deprecated Configuration API
+## Deprecated Configuration API
 
 This page describes important aspects of the deprecation of the `sap.ui.core.Configuration` API facade. It shows a migration path away from the deprecated legacy APIs and towards their future-proof alternatives, provided the functionality is still meant for productive usage.
 
@@ -8,7 +8,7 @@ This page describes important aspects of the deprecation of the `sap.ui.core.Con
 
 <a name="loio2acafbfcc2cb47e8aac6d2e32399af10__section_msd_jb4_rzb"/>
 
-## Overview of Deprecated API Methods of `Configuration`
+### Overview of Deprecated API Methods of `Configuration`
 
 The following is an alphabetical list of API methods on `sap.ui.core.Configuration`. Meant as a compact and practical overview, it is derived from the [API Reference](https://ui5.sap.com/#/api/sap.ui.core.Configuration), which may provide complementary information.
 
@@ -921,7 +921,7 @@ The deprecated API only accepted a string, whereas the new API also accepts an [
 
 <a name="loio2acafbfcc2cb47e8aac6d2e32399af10__section_occ_3br_rzb"/>
 
-## Overview of Deprecated API Methods of `FormatSettings`
+### Overview of Deprecated API Methods of `FormatSettings`
 
 In legacy code, a configuration object that bundled certain format settings of UI5, was often retrieved by calls such as `sap.ui.core.Configuration.getFormatSettings()`, with the following methods then called on that `FormatSettings` object.
 

@@ -1,6 +1,6 @@
 <!-- loio91f05e8b6f4d1014b6dd926db0e91070 -->
 
-# Context Binding \(Element Binding\)
+## Context Binding \(Element Binding\)
 
 Context binding \(or element binding\) allows you to bind elements to a specific object in the model data, which will create a binding context and allow relative binding within the control and all of its children. This is especially helpful in list-detail scenarios.
 
@@ -87,7 +87,7 @@ Given your XML view contains a `VerticalLayout`, it will look like this:
 
 <a name="loio91f05e8b6f4d1014b6dd926db0e91070__section_96C8BDB746E149CD964641F456C7FF93"/>
 
-## Setting a New Context for the Binding \(List-Detail\)
+### Setting a New Context for the Binding \(List-Detail\)
 
 You create a new binding context for an element that is used to resolve bound properties or aggregations relative to the given path. You can use this method if the existing binding path changes or has not been provided before, for example in list-detail scenarios, as outlined below.
 
@@ -224,7 +224,7 @@ oList.bindElement("/regions/1");
 
 <a name="loio91f05e8b6f4d1014b6dd926db0e91070__section_mdz_2r2_xbb"/>
 
-## API Reference
+### API Reference
 
 For more information, see the API Reference for the following methods:
 

@@ -1,6 +1,6 @@
 <!-- loiof5df293b96dc41699b8b357e9bcf7ed6 -->
 
-# Message Handling
+## Message Handling
 
 Recommended guidelines for message handling.
 
@@ -16,13 +16,13 @@ We recommend to invest care and energy in good message content:
 
 <a name="loiof5df293b96dc41699b8b357e9bcf7ed6__section_N10035_N10011_N10001"/>
 
-## Messages Related to a Page
+### Messages Related to a Page
 
 For showing messages to the user that are related to the currrent page, you have several possible controls. Each of these offers a different type of interaction from the user. Choose the control that fits best in you interaction pattern.
 
 
 
-### Message Dialog
+#### Message Dialog
 
 -   A message dialog interrupts the user's workflow by blocking the current page and needs to be closed by the user.
 -   Use a message dialog if the message is important and must be acknowledged by the user.
@@ -49,7 +49,7 @@ For showing messages to the user that are related to the currrent page, you have
 
 
 
-### Message Toast
+#### Message Toast
 
 -   A message toast is an overlay that disappears after some time or if the user taps somewhere else. It does not block the user.
 -   The message will automatically fade out, unless it is selected by the user.
@@ -71,7 +71,7 @@ For showing messages to the user that are related to the currrent page, you have
 
 
 
-### MessageStrip
+#### MessageStrip
 
 `MessageStrip` enables the embedding of short application-related messages in the application. There are four types of messages and each is color-coded and has an icon corresponding to its type: `Information`, `Success`, `Warning` and `Error`.
 
@@ -99,13 +99,13 @@ The `MessageStrip` is useful when you want to display short notices, for example
 
 
 
-### MessagePopover
+#### MessagePopover
 
 `MessagePopover` shows a summarized list of different types of messages \(errors, warnings, success and information\). It provides a handy and systemized way to navigate and explore details for every message. You can find more information on `MessagePopover` [here](message-popover-52824a6.md).
 
 
 
-### MessageView
+#### MessageView
 
 `MessageView` shows the same type of summarized messages list as the `MessagePopover`. The main difference between the controls is that the `MessageView` can be embedded in any suitable control \(for example a `Dialog`\). This allows the message summary to be shown in any part of the application. As of version 1.46, `MessagePopover` has been refactored to automatically instantiate and use a `MessageView` for its content. All other controls need to instantiate it themselves. Here is a sample for a `MessageView` in a `Dialog:`
 
@@ -164,7 +164,7 @@ The `MessageStrip` is useful when you want to display short notices, for example
 
 <a name="loiof5df293b96dc41699b8b357e9bcf7ed6__section_N1008E_N10011_N10001"/>
 
-## Messages Related to Elements of a Page
+### Messages Related to Elements of a Page
 
 There is no dedicated UI control available in `sap.m` designed to show messages related to a particular element on a page. We recommend to use the `sap.ui.core.HTML` control to show these error messages 'somewhere close to the input' or use some kind of overlay. Consider that the user will have the on screen keyboard open which might hide messages. Putting the message above an input field could help.
 
@@ -174,7 +174,7 @@ You can set the `ValueState` of the `sap.m.Input` control to `Error` to indicate
 
 <a name="loiof5df293b96dc41699b8b357e9bcf7ed6__section_N100AF_N10011_N10001"/>
 
-## Multiple Messages
+### Multiple Messages
 
 OpenUI5 Mobile does **not** support multiple messages at the same time. Mobile Designs recommend to be 'more sparse' with messages, that is, only show one message at a time. This can also be achieved by combining and reducing multiple messages.
 

@@ -1,6 +1,6 @@
 <!-- loio22ee78b422614b40ad4c1938dc23d967 -->
 
-# Context API
+## Context API
 
 The OData V4 model's list and context bindings create `sap.ui.model.odata.v4.Context` objects, which enhance `sap.ui.model.Context` and provide the following methods:
 

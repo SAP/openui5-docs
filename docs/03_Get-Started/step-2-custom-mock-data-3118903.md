@@ -1,24 +1,24 @@
 <!-- loio311890311f7148adbfbf248a6980df1c -->
 
-# Step 2: Custom Mock Data
+## Step 2: Custom Mock Data
 
 In this step, we want to change the mock data of the initial app.
 
 
 
-## Preview
+### Preview
 
   
   
 **The product list of the initial app with custom mock data**
 
-![](images/Tutorials_Worklist_Step_2_1_Preview_b150a14.png "The product list of the initial app with custom mock data")
+![](images/loiob150a14f277b4d5398442829edc83217_HiRes.png "The product list of the initial app with custom mock data")
 
   
   
 **Folder structure for this step including custom mock data**
 
-![](images/Tutorial_Worklist_Step_02_2_Directory_fa4aba8.png " Folder structure for this step including custom mock data")
+![](images/loiofa4aba84cedc4fefbf345c26eed8bc97_HiRes.png " Folder structure for this step including custom mock data")
 
 The service metadata only contains a description of the service entities. The mock server that is part of the app will auto-generate random mock data based on the data types defined in the metadata file. To have a more realistic development environment we will now add additional sample data.
 
@@ -35,13 +35,13 @@ The `webapp/localService/metadata.xml` file used by the mock server describes ou
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 2](https://ui5.sap.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.02).
 
 
 
-### webapp/localService/mockdata/Products.json \[NEW\]
+#### webapp/localService/mockdata/Products.json \[NEW\]
 
 ```js
 [
@@ -248,7 +248,7 @@ First create a new `mockdata` folder inside `webapp/localService`. Create a `Pro
 
 
 
-### webapp/localService/mockdata/Suppliers.json \[NEW\]
+#### webapp/localService/mockdata/Suppliers.json \[NEW\]
 
 ```js
 [

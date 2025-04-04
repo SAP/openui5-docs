@@ -1,6 +1,6 @@
 <!-- loio29bcdec715a2428092666212bb6bb875 -->
 
-# Analysis Report
+## Analysis Report
 
 The information from the execution of the Support Assistant is available as a separate HTML document. It can be viewed from the *Report* dropdown menu.
 
@@ -10,7 +10,7 @@ The report contains information from the loaded components, a detailed list of t
   
 **Analysis Results: Collapsed View**
 
-![](images/Support_Assistant_Analysis_Results_ea03b3f.png "Analysis Results: Collapsed View")
+![](images/loioea03b3f155794651b63742a574a42a7b_HiRes.png "Analysis Results: Collapsed View")
 
 The report contains the following elements:
 
@@ -22,13 +22,13 @@ The report contains the following elements:
 
 4.  Available and selected rules.
 
-    Here you can see all available rules per library. All rules that have been selected for the analysis are marked with a checkmark \(![](images/Checkmark_6f06323.png)\). This section also gives you information about the used rule preset and its ID.
+    Here you can see all available rules per library. All rules that have been selected for the analysis are marked with a checkmark \(![](images/loio6f0632338a294dbd8fda177a422d88d8_HiRes.png)\). This section also gives you information about the used rule preset and its ID.
 
       
       
     **Analysis Results: Rules**
 
-    ![](images/Support_Assistant_Report_Executed_Rules_a6b1941.png "Analysis Results: Rules")
+    ![](images/loioa6b194107723468daf578214e7abc8b3_HiRes.png "Analysis Results: Rules")
 
 5.  Technical information section. Here you can see the version of the Support Assistant and the location from which it has been loaded as well as more information about the app.
 
@@ -36,7 +36,7 @@ The report contains the following elements:
       
     **Analysis Results: Technical Information**
 
-    ![](images/Technical_Information_103b3fc.png "Analysis Results: Technical Information")
+    ![](images/loio103b3fc2cf0049abab89f7411a8bccde_HiRes.png "Analysis Results: Technical Information")
 
 6.  Application information section.
 
@@ -44,7 +44,7 @@ The report contains the following elements:
       
     **Analysis Results: Application Information**
 
-    ![](images/Support_Assistant_Report_Application_Information_ff63b15.png "Analysis Results: Application Information")
+    ![](images/loioff63b15f32044ad58e83a2c4a76f9453_HiRes.png "Analysis Results: Application Information")
 
 7.  Issues section.
 
@@ -54,7 +54,7 @@ The report contains the following elements:
       
     **Analysis Results: Issues**
 
-    ![](images/Support_Assistant_Report_Issues_d39e614.png "Analysis Results: Issues")
+    ![](images/loiod39e614af12d44899a32dc2db58ebea5_HiRes.png "Analysis Results: Issues")
 
 
 You can also download the report by selecting *Download* \(below the *View* button\). The report is going to be downloaded in a ZIP format containing the following files:

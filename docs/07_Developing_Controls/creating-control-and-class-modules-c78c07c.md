@@ -1,6 +1,6 @@
 <!-- loioc78c07c094e04ccfaab659378a1707c7 -->
 
-# Creating Control and Class Modules
+## Creating Control and Class Modules
 
 Modules not only require and use functionality from other modules, they can also expose their own functionality.
 

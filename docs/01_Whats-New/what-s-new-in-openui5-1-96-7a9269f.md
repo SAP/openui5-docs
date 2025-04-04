@@ -1,6 +1,6 @@
 <!-- loio7a9269ffe51c4ee7bc8529e120480d78 -->
 
-# What's New in OpenUI5 1.96
+## What's New in OpenUI5 1.96
 
 With this release OpenUI5 is upgraded from version 1.95 to 1.96.
 

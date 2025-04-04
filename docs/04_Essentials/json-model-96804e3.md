@@ -1,6 +1,6 @@
 <!-- loio96804e3315ff440aa0a50fd290805116 -->
 
-# JSON Model
+## JSON Model
 
 The JSON model can be used to bind controls to JavaScript object data, which is usually serialized in the JSON format.
 
@@ -41,7 +41,7 @@ oModel.loadData("data.json");
 
 <!-- loio50357d719b35439984348080bcbb14a4 -->
 
-## Sorting and Filtering in JSON Models
+### Sorting and Filtering in JSON Models
 
 If you use a JSON model for data binding, sorting and filtering is implemented in JavaScript because the data is available on the client. You can use custom sorting and filtering methods in the JSON model. To define custom methods, set the `fnCompare` method on the Sorter object or the `fnTest` method on the filter object after creating it.
 
@@ -69,7 +69,7 @@ oSorter.fnCompare = function(value1, value2) {
 
 <!-- loiod52e364907f94a3caeb4f5e5ad0cf302 -->
 
-## Binding Path Syntax for JSON Models
+### Binding Path Syntax for JSON Models
 
 The JSON model has a simple binding path syntax, because it consists of named objects, such as properties, arrays, or nested objects.
 

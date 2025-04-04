@@ -1,6 +1,6 @@
 <!-- loiod4e69addc9ee4a6088441840eb0af509 -->
 
-# Aggregation
+## Aggregation
 
 This control is defined by the `swipeContent` aggregation of the list or table. You can add any control as `swipeContent`, but keep in mind that your content cannot be higher than a list item. See the following examples:
 

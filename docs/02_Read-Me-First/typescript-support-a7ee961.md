@@ -1,6 +1,6 @@
 <!-- loioa7ee9617bc794b6fad21e4df38e31128 -->
 
-# TypeScript Support
+## TypeScript Support
 
 TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.
 
@@ -10,7 +10,7 @@ The types can be seen as a complementary addition to improve your development ex
 
 <a name="loioa7ee9617bc794b6fad21e4df38e31128__section_wg2_31v_4xb"/>
 
-## Delivery of the OpenUI5 Type Information
+### Delivery of the OpenUI5 Type Information
 
 When writing TypeScript code, the type information can be scattered across the code. But you can also create separate type definition files for existing JavaScript libraries. For OpenUI5, we provide separate definition files that describe the OpenUI5 APIs and types. With the help of these definitions, you can write OpenUI5 apps in TypeScript and enjoy all the benefits that come with it.
 
@@ -22,7 +22,7 @@ Providing the type definitions as a separate package allows you to retain an old
 
 <a name="loioa7ee9617bc794b6fad21e4df38e31128__section_CSTD"/>
 
-## Compatibility Statement for the OpenUI5 Type Definitions
+### Compatibility Statement for the OpenUI5 Type Definitions
 
 We encourage you to use OpenUI5 with TypeScript for an improved development efficiency and experience. TypeScript itself keeps evolving, and we try to further improve the OpenUI5 type definitions, so there could be potential incompatible changes between versions of the type definitions. However, such incompatibilities would only affect the **compilation** of your code but will not cause **runtime** issues in your application. Plus, there are various ways to easily deal with them: You can, for example, simply keep using the previous version of the type definitions together with an updated OpenUI5 runtime. For more information, see *Breaking changes* below.
 
@@ -30,7 +30,7 @@ Known incompatibilities will be communicated in the [OpenUI5-TypeScript release 
 
 
 
-### Breaking changes
+#### Breaking changes
 
 OpenUI5 with TypeScript is in its final stage of stability, so please go ahead and use it! However, breaking changes can still occur. Possible reasons are:
 
@@ -45,7 +45,7 @@ To mitigate breaking changes, you have several options; some of them are listed 
 
 
 
-### Combining TypeScript versions and type definition releases
+#### Combining TypeScript versions and type definition releases
 
 See [What is the plan regarding different TypeScript versions? Which ones will each type definition release be compatible with?](https://sap.github.io/ui5-typescript/beta-statement.html#what-is-the-plan-regarding-different-typescript-versions-which-ones-will-each-type-definition-release-be-compatible-with)
 
@@ -53,7 +53,7 @@ See [What is the plan regarding different TypeScript versions? Which ones will e
 
 <a name="loioa7ee9617bc794b6fad21e4df38e31128__section_pf4_34z_jyb"/>
 
-## Further Information
+### Further Information
 
 -   Documentation and resources: [OpenUI5 & TypeScript](https://sap.github.io/ui5-typescript/)
 -   Tutorial: [Learn App Development in OpenUI5 and TypeScript](https://github.com/SAP-samples/ui5-typescript-tutorial)

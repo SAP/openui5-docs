@@ -1,6 +1,6 @@
 <!-- loio607a316ea4cd47c893d69ef111428e9d -->
 
-# Changing the Layout and Loading Views \(Best Practices\)
+## Changing the Layout and Loading Views \(Best Practices\)
 
 The app can load controls \(usually views\) in the three columns with the standard means \(`beginColumnPages`, `midColumnPages`, `endColumnPages` aggregations\) and navigate between them with the `.to()`, `.backToPage()` or any other public method, similar to the `sap.m.NavContainer` or `sap.m.SplitContainer` controls.
 

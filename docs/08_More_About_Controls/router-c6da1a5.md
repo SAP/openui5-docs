@@ -1,6 +1,6 @@
 <!-- loioc6da1a56c2a14742b785c7bd5ca4205b -->
 
-# Router
+## Router
 
 The `sap.f.routing.Router` has built-in support for routing-capable controls in the `sap.f` library.
 

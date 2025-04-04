@@ -1,6 +1,6 @@
 <!-- loiofbab50ef7e414b3e95a8c7a294540464 -->
 
-# What's New in OpenUI5 1.40
+## What's New in OpenUI5 1.40
 
 With this release OpenUI5 is upgraded from version 1.38 to 1.40.
 

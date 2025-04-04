@@ -1,6 +1,6 @@
 <!-- loioa88a5e5529e54b3aa703a0b2a36cf7be -->
 
-# Test Libraries for OPA5
+## Test Libraries for OPA5
 
 Test libraries are a means of collaboration between app developers and reusable content providers.
 
@@ -12,7 +12,7 @@ The main benefit is reduced test maintenance efforts and avoidance of code repet
 
 <a name="loioa88a5e5529e54b3aa703a0b2a36cf7be__section_trz_xnv_4bb"/>
 
-## Consuming a Test Library
+### Consuming a Test Library
 
 There are 3 simple steps to start using a test library:
 
@@ -62,11 +62,11 @@ There are 3 simple steps to start using a test library:
 
 <a name="loioa88a5e5529e54b3aa703a0b2a36cf7be__section_xdl_ndb_4gb"/>
 
-## Reusing Functionality
+### Reusing Functionality
 
 
 
-### Page Objects
+#### Page Objects
 
 You can directly consume page objects defined by the test library. We recommend you follow the pattern described in [Structuring OPA Tests With Page Objects](structuring-opa-tests-with-page-objects-f2f843d.md).
 
@@ -78,7 +78,7 @@ Then.onTheListPage.iSearchForItem();
 
 
 
-### Page Object Utilities
+#### Page Object Utilities
 
 If a test library has exposed utilities, you can use them in your own page objects to simplify interaction with complex controls. There are two steps to start reusing utility functions:
 
@@ -115,7 +115,7 @@ If a test library has exposed utilities, you can use them in your own page objec
 
 
 
-### Global Configuration
+#### Global Configuration
 
 Global statements set by a test library are defined and used in the same way as global statements set by a consumer.
 
@@ -129,7 +129,7 @@ Given.iSetupTheApp();
 
 <a name="loioa88a5e5529e54b3aa703a0b2a36cf7be__section_n53_ynv_4bb"/>
 
-## Creating a Test Library
+### Creating a Test Library
 
 The test library consists of OPA5 statements written the same way as in a regular test. Users should be able to provide app-specific parameters, such as app ID, view names, control IDs, control labels and texts.
 
@@ -144,13 +144,13 @@ oConfiguration.appId === "my.application.appId" // true
 
 <a name="loioa88a5e5529e54b3aa703a0b2a36cf7be__section_hjg_3gb_4gb"/>
 
-## Exposing Functionality
+### Exposing Functionality
 
 There are several ways to expose functionality from a test library.
 
 
 
-### Page Objects
+#### Page Objects
 
 We recommend you use the page objects pattern described in [Structuring OPA Tests With Page Objects](structuring-opa-tests-with-page-objects-f2f843d.md). Page objects created by this pattern are automatically available for the app tests.
 
@@ -171,7 +171,7 @@ Opa5.createPageObjects({
 
 
 
-### Page Object Utilities
+#### Page Object Utilities
 
 Define utility functions when you need to expose functionality that will be used as a building block for user page objects. A utility function can be used by multiple page objects.
 
@@ -193,7 +193,7 @@ Opa5.extendConfig({
 
 
 
-### Global Configuration
+#### Global Configuration
 
 Extending OPA5 configuration from within the test library has an effect on the app test as well. This means that you can also set global OPA5 test statements.
 

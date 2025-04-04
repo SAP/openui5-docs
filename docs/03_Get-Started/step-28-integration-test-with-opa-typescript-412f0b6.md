@@ -1,6 +1,6 @@
 <!-- loio412f0b6fa5af4ba191241435b92b3f2d -->
 
-# Step 28: Integration Test with OPA \(TypeScript\)
+## Step 28: Integration Test with OPA \(TypeScript\)
 
 If we want to test interaction patterns or more visual features of our app, we can also write an integration test.
 
@@ -11,17 +11,17 @@ We haven't thought about testing our interaction with the app yet, so in this st
 
 
 
-## Preview
+### Preview
 
   
   
 **An OPA test opens the "Hello" dialog from step 16**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_28_250d5b9.png "An OPA test opens the "Hello" dialog from step 16")
+![The graphic has an explanatory text.](images/loio250d5b92921d44a4b432cc0fade88cc9_LowRes.png "An OPA test opens the "Hello" dialog from step 16")
 
 
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 28: Integration Test with OPA](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/28) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-28.zip).
 
@@ -29,7 +29,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 28: Integration
   
 **Folder Structure for this Step**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_TypeScript_Folders_Step_28_27e84d5.png "Folder Structure for this Step")
+![The graphic has an explanatory text](images/loio27e84d5bd72a485498564b92894869b5_LowRes.png "Folder Structure for this Step")
 
 We add a new folder `integration` below the `test` folder, where we put our new test cases. Page objects that help structuring such integration tests are put in the `pages` subfolder that we also create now.
 
@@ -37,7 +37,7 @@ We add a new folder `integration` below the `test` folder, where we put our new 
 
 <a name="loio412f0b6fa5af4ba191241435b92b3f2d__section_lbk_2l1_4zb"/>
 
-## webapp/test/integration/pages/HelloPanelPage.ts \(New\)
+### webapp/test/integration/pages/HelloPanelPage.ts \(New\)
 
 We create a new `HelloPanelPage.ts` file under `webapp/test/integration/pages` where the OPA test for the main page is implemented. We define here the OPA test for our `HelloPanel` view.
 
@@ -82,7 +82,7 @@ export default class HelloPanelPage extends Opa5 {
 
 
 
-## webapp/test/integration/NavigationJourney.ts \(New\)
+### webapp/test/integration/NavigationJourney.ts \(New\)
 
 We create a new `NavigationJourney.ts` file under `webapp/test/integration/`.
 
@@ -139,7 +139,7 @@ As you can see, the test case reads like a user story; we actually do not need t
 
 <a name="loio412f0b6fa5af4ba191241435b92b3f2d__section_trf_xpc_yfb"/>
 
-## webapp/test/integration/opaTests.qunit.ts \(New\)
+### webapp/test/integration/opaTests.qunit.ts \(New\)
 
 We create a new `opaTests.qunit.ts` file under `webapp/test/integration/`. This module imports our `NavigationJourney` and is the entrypoint for all integration tests in the project.
 
@@ -151,7 +151,7 @@ import "./NavigationJourney";
 
 <a name="loio412f0b6fa5af4ba191241435b92b3f2d__section_srf_xpc_yfb"/>
 
-## webapp/test/testsuite.qunit.ts
+### webapp/test/testsuite.qunit.ts
 
 Finally we reference the new `integration/opaTests.qunit.ts` in the `testsuite.qunit.ts` file. The `.qunit.ts` extension is omitted and will be added automatically during runtime.
 
@@ -173,7 +173,7 @@ If we now open the `webapp/test/testsuite.qunit.html` file in the browser and se
 
 
 
-## Conventions
+### Conventions
 
 -   OPA tests are located in the `webapp/test/integration` folder of the application.
 

@@ -1,6 +1,6 @@
 <!-- loio604b1eb50e47483ebaf97a27fb065e95 -->
 
-# Replacement of Bindings
+## Replacement of Bindings
 
 For attributes, OpenUI5 binding expressions are used instead of preprocessing instructions. If the value of an XML attribute represents a valid OpenUI5 binding which refers to currently available model \(= *<variable\>*\) names only, the binding is evaluated and the result is written back into the XML attribute.
 
@@ -27,7 +27,7 @@ At the time the binding is resolved, `field>Value` refers to `meta>/dataServices
 
 
 
-## Custom Formatter Functions
+### Custom Formatter Functions
 
 You can also write your own custom formatter functions. For information how you access the model and path related to the current formatter call, see [sap.ui.core.util.XMLPreprocessor.IContext](https://ui5.sap.com/#/api/sap.ui.core.util.XMLPreprocessor.IContext).
 
@@ -132,7 +132,7 @@ The example formatter has the following output:
 
 
 
-## Mixing Runtime Data and Meta Data Within a Single Binding
+### Mixing Runtime Data and Meta Data Within a Single Binding
 
 The following code snippet shows a single binding that mixes runtime data and meta data. This will not work: The binding refers to the runtime and as runtime is not available ar this point, XML templating cannot replace the binding. \(In the example, "runtime" stands for the name of the model at runtime. This would typically be the default model and thus has no name.\)
 

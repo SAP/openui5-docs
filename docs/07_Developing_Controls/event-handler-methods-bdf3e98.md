@@ -1,6 +1,6 @@
 <!-- loiobdf3e9818cd84d37a18ee5680e97e1c1 -->
 
-# Event Handler Methods
+## Event Handler Methods
 
 Event handler methods are invoked when an event occurs. Method names starting with `on` are reserved for event handler methods.
 

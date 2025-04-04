@@ -1,6 +1,6 @@
 <!-- loio3a9728ec31f94ca18a7d543ce419d85d -->
 
-# OData V2 Mock Server Tutorial
+## OData V2 Mock Server Tutorial
 
 In this tutorial, we will explore some advanced features of the OData V2 mock server.
 
@@ -15,9 +15,9 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 
 
 
-## Preview
+### Preview
 
-![](images/Tutorial_Mock_Server_Step_2_55edd9f.png)
+![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png)
 
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
@@ -28,7 +28,7 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 
 
 
-## Prerequisites
+### Prerequisites
 
 This tutorial assumes you have access to the SAP Business Application Studio. For more information, see [App Development Using SAP Business Application Studio](../05_Developing_Apps/app-development-using-sap-business-application-studio-6bbad66.md).
 

@@ -1,6 +1,6 @@
 <!-- loio5ee619fc1370463ea674ee04b65ed83b -->
 
-# XML Templating
+## XML Templating
 
 The XML templating concept enables you to use an XML view as a template. This template is transformed by an XML preprocessor on the source level, the XML DOM, at runtime just before an OpenUI5 control tree is created from the XML source.
 
@@ -45,7 +45,7 @@ In the example, `sPath = "/ProductSet('HT-1021')/ToSupplier"` and the correspond
 
 
 
-## Calling the XML Preprocessor
+### Calling the XML Preprocessor
 
 ```js
 1   View.create({
@@ -309,7 +309,7 @@ The result is equivalent to the following handwritten XML view. Any references t
 
 
 
-## Summary
+### Summary
 
 Overall, XML templating is based on:
 

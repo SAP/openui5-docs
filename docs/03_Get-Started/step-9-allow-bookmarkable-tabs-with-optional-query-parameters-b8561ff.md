@@ -1,6 +1,6 @@
 <!-- loiob8561ff6f4c34c85a91ed06d20814cd3 -->
 
-# Step 9: Allow Bookmarkable Tabs with Optional Query Parameters
+## Step 9: Allow Bookmarkable Tabs with Optional Query Parameters
 
 The `resume` view contains four tabs as we have seen in the previous steps. However, when the user navigates to the `resume` page, only the first tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is not yet supported in our current app.
 
@@ -8,23 +8,23 @@ In this step, we implement a bookmarking feature by enabling deep linking to tab
 
 
 
-## Preview
+### Preview
 
   
   
 **Deep link to allow bookmarkable tabs**
 
-![](images/Tutorial_Navigation_and_Routing_Step_09_3eb33f8.png "Deep link to allow bookmarkable tabs")
+![](images/loio3eb33f8439b842629261fbd72a92d371_LowRes.png "Deep link to allow bookmarkable tabs")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 9](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.09).
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -83,7 +83,7 @@ The `:?query:` parameter starts and ends with "`:`", which means that it is opti
 
 
 
-## webapp/view/employee/Resume.view.xml
+### webapp/view/employee/Resume.view.xml
 
 ```xml
 <mvc:View
@@ -128,7 +128,7 @@ To update the currently selected tab in the URL we listen to the select event of
 
 
 
-## webapp/controller/employee/Resume.controller.js
+### webapp/controller/employee/Resume.controller.js
 
 ```js
 sap.ui.define([

@@ -1,6 +1,6 @@
 <!-- loio4a97a07ec8f5441d901994d82eaab1f5 -->
 
-# Semantic Page \(sap.m\)
+## Semantic Page \(sap.m\)
 
 The `sap.m.semantic.SemanticPage` is an enhanced `sap.m.Page` that implements the SAP Fiori 1.0 design guidelines.
 
@@ -10,7 +10,7 @@ For more information about this control, see the [API Reference](https://ui5.sap
 
 <a name="loio4a97a07ec8f5441d901994d82eaab1f5__section_egg_t4d_zz"/>
 
-## Features
+### Features
 
 The following categories give an overview of the internally defined semantic content that is supported:
 
@@ -33,11 +33,11 @@ The available semantic content is different buttons and selects. Each one can co
   
 **Semantic content at its default positions on the page.**
 
-![](images/sap_m_SemanticPage_master-detail_1632fd5.png "Semantic content at its default positions on the page.")
+![](images/loio1632fd57dfe14bdc8ea00fe41e497153_HiRes.png "Semantic content at its default positions on the page.")
 
 Several different selects are supported for displaying a list of selectable items - `SortSelect`, `FilterSelect`, and `GroupSelect`.
 
-![](images/sap_m_SemanticPage_selects_d37b29b.png)
+![](images/loiod37b29b1effe43438b294163ec0802ff_HiRes.png)
 
 The following aggregations are available and enable the apps to add their own custom content to the different areas of the page:
 
@@ -67,17 +67,17 @@ The ordering logic of custom and semantic content is as follows from left to rig
 
 
 
-![](images/sap_m_SemanticPage_content_order_4c04af6.png)
+![](images/loio4c04af6e10994ad1bce73d02630fe957_HiRes.png)
 
 
 
 <a name="loio4a97a07ec8f5441d901994d82eaab1f5__section_gfg_hqd_zz"/>
 
-## Examples
+### Examples
 
 
 
-### Initialization
+#### Initialization
 
 In the `sap.m` library, the semantic page controls are`sap.m.semantic.FullscreenPage`,`sap.m.semantic.MasterPage`, and `sap.m.semantic.DetailPage`. They have different purpose depending on the context:
 
@@ -130,7 +130,7 @@ displayBlock="true">
 
 
 
-### Adding semantic content:
+#### Adding semantic content:
 
 The three semantic pages inherit from the abstract `sap.m.semantic.SemanticPage` control and each supports content that semantically belongs to its list/detail/fullscreen context.
 
@@ -199,7 +199,7 @@ The `DetailPage` usually displays extended information for the item that was sel
 
 
 
-### Adding custom \(non-semantic\) content:
+#### Adding custom \(non-semantic\) content:
 
 ```xml
 ...

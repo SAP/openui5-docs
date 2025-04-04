@@ -1,12 +1,12 @@
 <!-- loiob54f7895b7594c61a83fa7257fa9d13f -->
 
-# OData Operations
+## OData Operations
 
 The OData V4 model supports OData operations \(`ActionImport`, `FunctionImport`, bound `Actions` and bound `Functions`\). Unbound parameters are limited to primitive values.
 
 
 
-## Simple Function Bindings
+### Simple Function Bindings
 
 You gain access to a `FunctionImport` by binding it to a view element. If there are no parameters and there is no need to control the point in time when the function is called, you can simply bind the OData path like this:
 
@@ -27,7 +27,7 @@ The type must be specified if the return value is a primitive type.
 
 
 
-## Deferred Operation Bindings
+### Deferred Operation Bindings
 
 Often it is not feasible for the operation to be called immediately, for example if there are parameters that the user has to enter first. In such cases, use an ODataContextBinding as element binding at a layout element in the view, for example a `<Form>` or a `<VBox>` \(see the [ODataContextBinding](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) API documentation in the Demo Kit\). Mark the operation as **deferred** by inserting an ellipsis \("..."\) in the brackets, for example `GetNextAvailableItem(...)`. Access the return value from child elements using relative bindings. When used like this, the context binding is called an **operation binding** or more specifically, a **function binding** or **action binding** depending on the type of OData operation it is used for.
 
@@ -81,7 +81,7 @@ If the function returns a primitive value or a collection, the binding for the r
 
 
 
-## Action Bindings
+### Action Bindings
 
 Action bindings must be deferred, otherwise the application cannot control when the action is invoked. A deferred action binding is declared exactly like a deferred function binding:
 
@@ -99,7 +99,7 @@ You append "\(...\)" even though the action's resource URL does not contain them
 
 
 
-## Operation Parameters
+### Operation Parameters
 
 You can use the parameters of a deferred operation binding inside an XML view.
 
@@ -192,7 +192,7 @@ The example below demonstrates how a budget may be modified depending on the `Te
 
 <a name="loiob54f7895b7594c61a83fa7257fa9d13f__section_BAAF"/>
 
-## Bound Actions and Functions
+### Bound Actions and Functions
 
 So far, the examples always used operations at root level, addressed via an action import or function import. However, it is also possible to bind an action or a function to another resource of the service. This can be an entity or a collection of entities.
 
@@ -249,7 +249,7 @@ oModel.bindContext("name.space.DestroyOutdated(...)", oHeaderContext).invoke();
 
 
 
-### Addressing properties of an entity via an operation's binding parameter
+#### Addressing properties of an entity via an operation's binding parameter
 
 For operations bound to an entity, it is possible to address properties of the entity through the operation's binding parameter.
 
@@ -272,7 +272,7 @@ For example, let `CreateInvoice` be a bound action on the `SalesOrder` entity ty
 
 <a name="loiob54f7895b7594c61a83fa7257fa9d13f__section_SH"/>
 
-## Strict Handling
+### Strict Handling
 
 In some cases an action should not be performed in case warnings are present, unless the user explicitly confirms the action. To this end, the HTTP request header `Prefer:handling=strict` is used to request the server to handle warnings like errors. In the case of an action, this means that the request will only be successful if there are no warnings. In case the request fails, the user is prompted to decide whether the action is aborted, allowing the user to fix the warnings, or continued by ignoring the warnings.
 
@@ -358,7 +358,7 @@ See also the example in the Demo Kit: [Controller Code for `sap.ui.core.sample.o
 
 <a name="loiob54f7895b7594c61a83fa7257fa9d13f__section_osx_m5l_gdb"/>
 
-## Advertised Operations
+### Advertised Operations
 
 According to the [OData 4.0 specification \("11.5.2 Advertising Available Operations within a Payload"\)](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752309) services may return available actions and functions bound to a particular entity as part of the entity representation within the payload. Data for an advertised operation within an entity is sent as property starting with `#<namespace>.<action>` of that entity. If the entity does not advertise the operation, it does not contain this property. To access the advertised operation in a binding, the same format has to be used. See the following example:
 
@@ -399,7 +399,7 @@ This approach can also be used with XML templating where [`createBindingContext`
 
 <a name="loiob54f7895b7594c61a83fa7257fa9d13f__section_AOR"/>
 
-## Access Operation Results
+### Access Operation Results
 
 You can access the results of the operation by calling `getObject()` from the bound context.
 

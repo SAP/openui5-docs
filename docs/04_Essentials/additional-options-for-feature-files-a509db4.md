@@ -1,12 +1,12 @@
 <!-- loioa509db45afbe42678f33f5b07f4cc35b -->
 
-# Additional Options for Feature Files
+## Additional Options for Feature Files
 
 We recommend that you familiarize yourself with the following advanced concepts in behavior-driven development with Gherkin.
 
 
 
-## Tags
+### Tags
 
 Gherkin supports the concept of tags. A tag is metadata that can augment a feature or scenario with contextual information. Tags begin with an @ symbol, appear on the line above a feature or scenario, and are separated by spaces. Tags can be added before a feature, a scenario, a scenario outline, or an example.
 
@@ -35,11 +35,11 @@ There is one special tag : the `@wip` tag. This tag indicates to the Gherkin tes
 
 Here's an example of a test execution with a skipped test:
 
-![](images/GherkinAdvancedTags_179f07a.png)
+![](images/loio179f07a58309468eaa8cf1a59579c2ac_LowRes.png)
 
 
 
-## Background scenarios
+### Background scenarios
 
 When writing a feature file, some test steps might need to be executed for every scenario. For example, the test step that loads the app is often repeated for each test scenario.
 
@@ -72,7 +72,7 @@ Feature: Clicking Buttons is a Life Saving Activity
 
 
 
-## Step arguments and regular expressions
+### Step arguments and regular expressions
 
 When writing test steps in feature files, test steps are sometimes repeated, but with a slight variation in each step.
 
@@ -136,7 +136,7 @@ s? – matches the character "s" if it's there (replace "s" with any character)
 
 
 
-## Context
+### Context
 
 Look at the following feature file scenario:
 
@@ -172,7 +172,7 @@ this.register(/^I feel less sleepy$/i, function() {
 
 <a name="loioa509db45afbe42678f33f5b07f4cc35b__section_qfv_2lc_31b"/>
 
-## QUnit Assert Object
+### QUnit Assert Object
 
 To use QUnit for automated testing, it is necessary to use QUnit's built-in assertion methods. QUnit defines these assertion methods in the `QUnit.assert` object. QUnit makes this object globally available to your test code, but it's a good practice to refer to the local `assert` object \(particularly when you're doing asynchronous testing\).
 
@@ -194,7 +194,7 @@ this.register(/^My wombat is currently in orbit$/i, function() {
 
 
 
-## Data tables
+### Data tables
 
 If you want to use a large amount of structured data in your test, you can use a data table. In a feature file, a data table is placed underneath a test step and is composed of rows and columns, with rows separated by line breaks, and columns surrounded with the pipe \(`|`\) character.
 
@@ -253,7 +253,7 @@ Both test steps will provide the following runtime value for `aDataTable`:
 
 
 
-## Data table utilities
+### Data table utilities
 
 The contents of the data table in the feature file are sent to the step definition function with no modifications. Although this raw format is often useful, sometimes a different format would be more helpful. There is a Gherkin namespace called `dataTableUtils` that makes this reformatting task easy. This namespace provides several utilities including the function `toTable`, which transforms the two-dimensional array into a simple array of objects. In the array of objects, each object's attribute names are derived from the header line in the table. For example, consider the following feature file:
 
@@ -314,7 +314,7 @@ var aData = dataTableUtils.toTable(aRawData, function(s) {
 
 
 
-## Scenario outlines
+### Scenario outlines
 
 Sometimes you need to test a repeating pattern of steps. For example:
 

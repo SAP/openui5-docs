@@ -1,6 +1,6 @@
 <!-- loio76b7d5065cf64304a1d2841046043c34 -->
 
-# Implementing Animation Modes
+## Implementing Animation Modes
 
 Some UI elements can have animations like page transitions or dynamic buttons. There may be cases where the animation has to be suppressed, for example, for performance reasons or for specific users. As a control developer, you have to make sure that your control supports the animation modes that are offered to the users.
 

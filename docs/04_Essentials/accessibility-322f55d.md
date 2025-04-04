@@ -1,6 +1,6 @@
 <!-- loio322f55d0cf1e4b459cc1911c899b7a5f -->
 
-# Accessibility
+## Accessibility
 
 Accessibility features are essential for the usability of each application and essential for users with disabilities. In an ongoing approach, OpenUI5 controls aim to comply with various accessibility standards such as screen reader support, high contrast theming, and keyboard handling.
 
@@ -17,7 +17,7 @@ The following topics provide important accessibility information related to Open
 
 <a name="loio322f55d0cf1e4b459cc1911c899b7a5f__section_q4h_rvw_3sb"/>
 
-## Understanding Accessibility
+### Understanding Accessibility
 
 Accessibility refers to the possibility for everyone, including and especially people who are differently-abled, to access and use information technology products. It is a guiding principle in OpenUI5 design and development processes and integral part of the framework.
 
@@ -29,7 +29,7 @@ Depending on your use case please refer to the corresponding accessibility chapt
 
 <a name="loio322f55d0cf1e4b459cc1911c899b7a5f__section_mfg_vvw_3sb"/>
 
-## OpenUI5 Accessibility Building Blocks
+### OpenUI5 Accessibility Building Blocks
 
 -   Markup \(correct HTML\): When developing accessible applications, you need to pay attention to the correctness of the resulting HTML. Some vital accessibility features \(screen reader and keyboard support\) rely on a correct and meaningful structure of the application.
 

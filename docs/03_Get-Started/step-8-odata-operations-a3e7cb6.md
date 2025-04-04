@@ -1,6 +1,6 @@
 <!-- loioa3e7cb6f671b4b839f37eb5f88429e41 -->
 
-# Step 8: OData Operations
+## Step 8: OData Operations
 
 Our OData service provides one OData operation: the `ResetDataSource` action. In this step, we add a button that resets all data changes we made during the tutorial to their original state using this action.
 
@@ -8,19 +8,19 @@ Our OData service provides one OData operation: the `ResetDataSource` action. In
 
 <a name="loioa3e7cb6f671b4b839f37eb5f88429e41__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **A Restart Tutorial button is added**
 
-![](images/Tutorial_OData_V4_Step_8_e518deb.png "A Restart Tutorial button is added")
+![](images/loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png "A Restart Tutorial button is added")
 
 
 
 <a name="loioa3e7cb6f671b4b839f37eb5f88429e41__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 8](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.08).
 
@@ -28,7 +28,7 @@ You can view and download all files at [OData V4 - Step 8](https://ui5.sap.com/#
 
 <a name="loioa3e7cb6f671b4b839f37eb5f88429e41__section_pvc_fyc_z1b"/>
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 ...
@@ -68,7 +68,7 @@ The invocation is asynchronous; the `invoke` method therefore returns a `Promise
 
 <a name="loioa3e7cb6f671b4b839f37eb5f88429e41__section_pp2_mxc_z1b"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -98,7 +98,7 @@ We add the **headerContent** aggregation to the **Page** and insert the new **Bu
 
 <a name="loioa3e7cb6f671b4b839f37eb5f88429e41__section_kl4_d1x_4cb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...

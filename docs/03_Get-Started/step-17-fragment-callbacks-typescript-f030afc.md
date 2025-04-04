@@ -1,24 +1,24 @@
 <!-- loiof030afccc30f461c9660724561cb7264 -->
 
-# Step 17: Fragment Callbacks \(TypeScript\)
+## Step 17: Fragment Callbacks \(TypeScript\)
 
 Now that we have integrated the dialog, it's time to add some user interaction. The user will definitely want to close the dialog again at some point, so we add a button to close the dialog and assign an event handler.
 
 
 
-## Preview
+### Preview
 
   
   
 **The dialog now has an "OK" button**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_17_c351bbd.png "The dialog now has an "OK" button")
+![The graphic has an explanatory text.](images/loioc351bbd078824c43bf1758b0c3679cbd_LowRes.png "The dialog now has an "OK" button")
 
 
 
 <a name="loiof030afccc30f461c9660724561cb7264__section_mt1_5fk_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 17: Fragment Callbacks](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/17) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-17.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 17: Fragment Ca
 
 <a name="loiof030afccc30f461c9660724561cb7264__section_nt1_5fk_syb"/>
 
-## webapp/controller/HelloPanel.controller.ts
+### webapp/controller/HelloPanel.controller.ts
 
 We add an event handler function into the `HelloPanel` controller file that closes the dialog when triggered. To get the dialog instance, we use the `byId` function and then call the `close` function of the dialog.
 
@@ -62,7 +62,7 @@ export default class HelloPanel extends Controller {
 
 <a name="loiof030afccc30f461c9660724561cb7264__section_d5m_ypr_r2b"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 We extend the text bundle by the new text for the dialog's `Close` button.
 
@@ -82,7 +82,7 @@ dialogCloseButtonText=Ok
 
 
 
-## webapp/view/HelloDialog.fragment.xml
+### webapp/view/HelloDialog.fragment.xml
 
 In the fragment definition, we add a button to the `beginButton` aggregation of the dialog and refer the press handler to the event handler we just defined in the controller of the panel's content view.
 

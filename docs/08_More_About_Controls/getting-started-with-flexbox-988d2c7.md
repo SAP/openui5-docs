@@ -1,6 +1,6 @@
 <!-- loio988d2c7652684dea98f9d6dbc94000c0 -->
 
-# Getting Started With FlexBox
+## Getting Started With FlexBox
 
 For a flexible box layout, create a `FlexBox` control and add any kind of controls to it.
 
@@ -29,13 +29,13 @@ var oMyFlexbox = new sap.m.FlexBox({
 
 The following figure gives an example how the result looks like if used inside a mobile app page. The necessary code is not shown here.
 
-![SAPUI5 Mobile FlexBox Buttons](images/SAPUI5_Mobile_FlexBox_Buttons_e6a78df.png)
+![SAPUI5 Mobile FlexBox Buttons](images/loioe6a78df297d448fb88f8280e81a50b9a_LowRes.png)
 
 
 
 <a name="loio988d2c7652684dea98f9d6dbc94000c0__section_N1003F_N10011_N10001"/>
 
-## Layout properties
+### Layout properties
 
 Some properties that affect the layout need to be set in the `FlexBox` control. Other properties can be attached to the controls which are placed inside the `FlexBox` by means of the `layoutData` aggregation. The layout direction, for example is set in the `FlexBox` as follows:
 
@@ -50,7 +50,7 @@ var oMyFlexbox = new sap.m.FlexBox({
 });
 ```
 
-![SAPUI5 Mobile FlexBox Buttons Vertical](images/SAPUI5_Mobile_FlexBox_Buttons_Vertical_d37cdf0.png)
+![SAPUI5 Mobile FlexBox Buttons Vertical](images/loiod37cdf08a6e84172b6499f05512b54ba_LowRes.png)
 
 The order is attached to the button inside a `FlexItemData` object as follows:
 
@@ -67,7 +67,7 @@ var oMyFlexbox = new sap.m.FlexBox({
 });
 ```
 
-![SAPUI5 Mobile FlexBox Buttons Ordered](images/SAPUI5_Mobile_FlexBox_Buttons_Ordered_01f7519.png)
+![SAPUI5 Mobile FlexBox Buttons Ordered](images/loio01f751982b8640ea8f1a24bc25589c60_LowRes.png)
 
 > ### Note:  
 > The `FlexBox` control is a wrapper for the flexible box layout properties in CSS. The control renderer sets the CSS properties \(including prefixed versions where necessary\) on the appropriate HTML elements. The actual layouting is done by the browser.

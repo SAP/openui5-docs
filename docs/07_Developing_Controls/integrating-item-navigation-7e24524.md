@@ -1,6 +1,6 @@
 <!-- loio7e245247aef949ac84785c56deb8baac -->
 
-# Integrating Item Navigation
+## Integrating Item Navigation
 
 To integrate the item navigation in your control, apply the delegate in the `onAfterRendering` hook of your control.
 

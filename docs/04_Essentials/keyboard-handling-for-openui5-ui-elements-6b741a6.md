@@ -1,12 +1,12 @@
 <!-- loio6b741a6133284bd78e897cef8b75f6d9 -->
 
-# Keyboard Handling for OpenUI5 UI Elements
+## Keyboard Handling for OpenUI5 UI Elements
 
 OpenUI5 UI elements provide keyboard handling in order to improve accessibility and speed up work.
 
 
 
-## Keyboard Shortcuts for End Users
+### Keyboard Shortcuts for End Users
 
 Some users operate their computer almost exclusively with the keyboard. For those users, focus is critical and the entire page functionality should be available using the keyboard. OpenUI5 supports keyboard navigation with a predefined tab order sequence.
 

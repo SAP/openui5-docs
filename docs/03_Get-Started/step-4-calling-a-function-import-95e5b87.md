@@ -1,28 +1,28 @@
 <!-- loio95e5b87804ef4059bb68dd511666d4e3 -->
 
-# Step 4: Calling a Function Import
+## Step 4: Calling a Function Import
 
 We only want to display the upcoming meetings and hide the meetings happened in the past in our app. By using a function import that calculates these items on the back end we do not need to do the calculation on the client. The OData V2 mock server will be instructed to do the calculation locally for testing purposes.
 
 
 
-## Preview
+### Preview
 
   
   
 **Only the upcoming meet-ups are shown**
 
-![](images/Tutorial_Mock_Server_Step_4_8f2176b.png "Only the upcoming meet-ups are shown")
+![](images/loio8f2176b473a54bbd87e8287732e4eb8e_HiRes.png "Only the upcoming meet-ups are shown")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Mock Server - Step 4](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.mockserver/sample/sap.ui.core.tutorial.mockserver.04).
 
 
 
-## webapp/localService/metadata.xml
+### webapp/localService/metadata.xml
 
 ```xml
 ... 
@@ -39,7 +39,7 @@ The function import we are going to use is declared in the `metadata.xml` file.
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 ...
@@ -56,7 +56,7 @@ After saving and running the app again, we should get the following result:
   
 **No data visible**
 
-![](images/Tutorial_Mock_Server_Step_4_02_4992f37.png "No data visible")
+![](images/loio4992f37e491c432995eaae0712ba1a59_HiRes.png "No data visible")
 
 Since the function import call is not simulated automatically by the mock server, we do not see any data in list, and a failed network call is issued in the developer tools of the browser.
 
@@ -67,7 +67,7 @@ In order to simulate the function import call, we write our own \(mocked\) imple
 
 
 
-## webapp/localService/mockserver.js
+### webapp/localService/mockserver.js
 
 ```js
 sap.ui.define([
@@ -162,11 +162,11 @@ When you now start the app again you will see a list of upcoming meet-ups.
 
 
 
-## Creating and Editing Mock Data in SAP Web IDE \(Optional\)
+### Creating and Editing Mock Data in SAP Web IDE \(Optional\)
 
 
 
-### webapp/localService/mockserver.js
+#### webapp/localService/mockserver.js
 
 ```js
 ...
@@ -189,6 +189,6 @@ The path we gave in the simulate function for mock data is where we want to stor
       
     **Editing mock data in SAP Web IDE**
 
-    ![](images/Tutorial_Mock_Server_Step_4_03_1117f6c.png "Editing mock data in SAP Web IDE")
+    ![](images/loio1117f6cfc5ca4f82904904479db79077_HiRes.png "Editing mock data in SAP Web IDE")
 
 

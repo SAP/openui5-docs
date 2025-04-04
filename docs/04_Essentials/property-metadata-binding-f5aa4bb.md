@@ -1,6 +1,6 @@
 <!-- loiof5aa4bb75c20445194494b264d3b3cd2 -->
 
-# Property Metadata Binding
+## Property Metadata Binding
 
 An extended data binding syntax makes it possible to access the metadata for certain properties of an entity in OData services, such as heading, label, and precision.
 

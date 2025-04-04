@@ -1,6 +1,6 @@
 <!-- loio676b636446c94eada183b1218a824717 -->
 
-# Use Asynchronous Loading
+## Use Asynchronous Loading
 
 Asynchronous loading is the way to go: It makes your applications a lot faster and, through that, better to use.
 
@@ -10,7 +10,7 @@ As OpenUI5 is evolving, the loading processes in the background were significant
 
 <a name="loio676b636446c94eada183b1218a824717__section_EALB"/>
 
-## Enable Asynchronous Loading in the Bootstrap
+### Enable Asynchronous Loading in the Bootstrap
 
 Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. It enables the runtime to load all the modules and preload files for declared libraries asynchronously if an asynchronous API is used.
 
@@ -74,7 +74,7 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 
 <a name="loio676b636446c94eada183b1218a824717__section_RootViewRoutingConfiguration"/>
 
-## Ensure that Root View and Routing are Configured to Load Targets Asynchronously
+### Ensure that Root View and Routing are Configured to Load Targets Asynchronously
 
 Please check the `rootView` of the application's `manifest.json` file for an `async=true` parameter. This allows the root view to be loaded asynchronously.
 
@@ -110,7 +110,7 @@ To configure the targets for asynchronous loading, please also check the [Routin
 
 <a name="loio676b636446c94eada183b1218a824717__section_AsyncInterface"/>
 
-## Make Use of the `sap.ui.core.IAsyncContentCreation` Interface
+### Make Use of the `sap.ui.core.IAsyncContentCreation` Interface
 
 The [`sap.ui.core.IAsyncContentCreation`](https://ui5.sap.com/#/api/sap.ui.core.IAsyncContentCreation) interface allows a subclass of `sap.ui.core.UIComponent` to be created fully asynchronously. Implementing this interface sets the component's `rootView` and router configuration implicitly to `async: true`. Nested views will then also be handled asynchronously.
 
@@ -140,7 +140,7 @@ For more information on how `sap.ui.core.IAsyncContentCreation` affects the comp
 
 <a name="loio676b636446c94eada183b1218a824717__section_AsyncModuleLoading"/>
 
-## Make Use of Asynchronous Module Loading \(AMD Style\)
+### Make Use of Asynchronous Module Loading \(AMD Style\)
 
 If modules follow the Asynchronous Module Definition \(AMD\) standard and the bootstrap flag `data-sap-ui-async` is set to `true`, custom scripts and other modules can also be loaded asynchronously when a preload is not available. It will help you in the future to enable asynchronous loading of individual modules combined with the usage of HTTP/2 or AMD-based module bundlers. It also ensures proper dependency tracking between modules.
 

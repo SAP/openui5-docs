@@ -1,6 +1,6 @@
 <!-- loioe8d9da76dcba4068aea81902bf631861 -->
 
-# What's New in OpenUI5 1.63
+## What's New in OpenUI5 1.63
 
 With this release OpenUI5 is upgraded from version 1.62 to 1.63.
 
@@ -162,7 +162,7 @@ Control
 
 We have implemented a new `sap.f.ShellBar` control, which is used as the uppermost section \(shell\) of the app. The control is fully responsive and adaptive, and corresponds to the latest SAP Fiori Design Guidelines.
 
-![](images/What_s_New_1_63_sap_f_ShellBar_421fe34.gif)
+![](images/loio421fe34907584da9a4415f4f5bdbd890_HiRes.gif)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.f.ShellBar) and the [Samples](https://ui5.sap.com/#/entity/sap.f.ShellBar).
 
@@ -549,7 +549,7 @@ Feature
 
 We have improved the *API Reference* tree to use proper nesting of the OpenUI5 symbols based on a strict hierarchical structure. Fewer elements are now displayed on the root level, thus improving the user experience and shortening the time the user spends trying to find a specific symbol in the tree structure.
 
-![](images/What_s_New_1_63_API_Ref_Tree_OpenUI5_1e5ae73.png)
+![](images/loio1e5ae735b1004f4eb807106d68ad71e2_HiRes.png)
 
 <sub>Changed•Feature•Info Only•1.63</sub>
 

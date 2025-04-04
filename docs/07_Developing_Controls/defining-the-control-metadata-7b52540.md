@@ -1,6 +1,6 @@
 <!-- loio7b52540d9d8c4e00b9723151622bbb64 -->
 
-# Defining the Control Metadata
+## Defining the Control Metadata
 
 Control metadata consists of properties, events, as well as aggregations and associations.
 

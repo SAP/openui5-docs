@@ -1,24 +1,24 @@
 <!-- loioe5c58fe81fed4d31988be6899c1188e7 -->
 
-# Step 5: Controllers \(TypeScript\)
+## Step 5: Controllers \(TypeScript\)
 
 In this step, we replace the text with a button and show the "Hello World" message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
 
 
 
-## Preview
+### Preview
 
   
   
 **A Say Hello button is added**
 
-![A Say Hello button is added](images/UI5_Walkthrough_Step_05_cedfdf8.png "A Say Hello button is added")
+![A Say Hello button is added](images/loiocedfdf89b30643ddbfcab1fe50bfa892_LowRes.png "A Say Hello button is added")
 
 
 
 <a name="loioe5c58fe81fed4d31988be6899c1188e7__section_yqd_crc_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 5: Controllers](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/05) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-05.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 5: Controllers]
 
 <a name="loioe5c58fe81fed4d31988be6899c1188e7__section_cyr_snf_lzb"/>
 
-## webapp/controller/App.controller.ts \(New\)
+### webapp/controller/App.controller.ts \(New\)
 
 First of all, we need a controller for our app view that defines how the view should react to user inputs, such as a button press event.
 
@@ -50,7 +50,7 @@ export default class AppController extends Controller {
 
 <a name="loioe5c58fe81fed4d31988be6899c1188e7__section_zqd_crc_syb"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 We add a reference to the controller by setting the `controllerName` attribute of the view. This way we get access to the event handlers and other functionalities defined in the controller.
 
@@ -71,7 +71,7 @@ A view does not necessarily need an explicitly assigned controller. You do not h
 
 
 
-## Conventions
+### Conventions
 
 -   Controller names are capitalized
 

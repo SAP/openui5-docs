@@ -1,6 +1,6 @@
 <!-- loioa1f59aa4a100410d8eb0c3f298da1462 -->
 
-# Keyboard Handling for One-Dimensional Navigation
+## Keyboard Handling for One-Dimensional Navigation
 
 The following keys and key combinations are used for navigation in one-dimensional item containers \(for example, lists and drop-downs\).
 

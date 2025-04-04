@@ -1,6 +1,6 @@
 <!-- loio408b40efed3c416681e1bd8cdd8910d4 -->
 
-# Performance: Speed Up Your App
+## Performance: Speed Up Your App
 
 If a web app has performance issues, finding the cause can be both a time-consuming and nerve-consuming task. To help you avoid and solve performance issues in your app, here are some good practices we've discovered while dealing with OpenUI5 apps.
 
@@ -10,7 +10,7 @@ OpenUI5 apps are basically JavaScript files sent to a client by a server and int
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_AsyncLoading"/>
 
-## Enable Asynchronous Loading
+### Enable Asynchronous Loading
 
 The first step of improving the performance of your application is the switch to **asynchronous loading**. This makes your application a lot faster, as things can run in parallel. OpenUI5 provides several configuration options that you can set. For more information, see [Use Asynchronous Loading](../03_Get-Started/use-asynchronous-loading-676b636.md).
 
@@ -24,7 +24,7 @@ The first step of improving the performance of your application is the switch to
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ManifestJson"/>
 
-## Use `manifest.json` Instead of the Bootstrap to Define Dependencies
+### Use `manifest.json` Instead of the Bootstrap to Define Dependencies
 
 Don't specify a link to the CSS in the bootstrap of your app; use the `manifest.json` descriptor file instead.
 
@@ -63,7 +63,7 @@ If a library preload is configured to be loaded lazily \(`"lazy": true`\), the l
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_LoadFromCDN"/>
 
-## Load OpenUI5 from the Content Delivery Network \(CDN\)
+### Load OpenUI5 from the Content Delivery Network \(CDN\)
 
 In order to ensure that all static SAPUI5 resources are served with the lowest possible latency in SAP Business Technology Platform scenarios, you can load the resources from the Content Delivery Network \(CDN\) cached by AKAMAI. Especially when running your app in the cloud, you benefit from the global distribution of servers. For other scenarios, it possible to configure a custom CDN of choice as an external location.
 
@@ -75,7 +75,7 @@ In order to ensure that all static SAPUI5 resources are served with the lowest p
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_Resources404"/>
 
-## Ensure that all Resources are Properly Configured to Avoid 404 Errors
+### Ensure that all Resources are Properly Configured to Avoid 404 Errors
 
 Languages can be configured in your manifest since UI5 version 1.77.
 
@@ -127,7 +127,7 @@ For more information, see:
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ManifestFirst"/>
 
-## Use "manifest first" to Load the Component
+### Use "manifest first" to Load the Component
 
 When creating a component manually, make sure the `manifest.json` descriptor file is loaded first, so that the dependencies are analyzed and preloaded when the component is loaded. For more information, see [Manifest First Function](../04_Essentials/manifest-descriptor-for-applications-components-and-libraries-be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
 
@@ -135,7 +135,7 @@ When creating a component manually, make sure the `manifest.json` descriptor fil
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_LibraryPreloads"/>
 
-## Ensure that Library Preloads are Enabled
+### Ensure that Library Preloads are Enabled
 
 If the library preloads are disabled or not found, every module is loaded separately by an own request. Depending on the server and network infrastructure, this can take a lot of time. Except for debugging reasons, it's always recommended to make sure library preloads are used. Fortunately, the library preloads are active by default if the files are present.
 
@@ -151,7 +151,7 @@ In some cases it may happen that preloads are not enabled, or that modules of so
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ComponentPreload"/>
 
-## Ensure that Application Resources are Loaded as Component Preload
+### Ensure that Application Resources are Loaded as Component Preload
 
 Application modules \(e.g. components, controllers, views or resource bundles\) should be loaded asynchronously via the component preload file. Check \(e.g. via the Network tab in the Google Chrome developer tools\) if a component preload \(`Component-preload.js`\) is missing. If the application isn't configured to load modules asynchronously, required application files may be loaded synchronously.
 
@@ -162,25 +162,25 @@ Application modules \(e.g. components, controllers, views or resource bundles\) 
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_NetworkRequests"/>
 
-## Check the Network Requests
+### Check the Network Requests
 
 To quickly check the network load caused by your app, look at your browser's developer tools, for example the Network tab in the Google Chrome developer tools \([F12\]\). You'll see an overview of all requests being sent. Possible issues here may be:
 
 
 
-### Synchronous requests that block each other
+#### Synchronous requests that block each other
 
 In this case, use the `data-sap-ui-async="true"` setting in the bootstrap.
 
 
 
-### Too many requests
+#### Too many requests
 
 You can use [UI5 Tooling](https://sap.github.io/ui5-tooling/) to bundle and minimize all relevant component files by creating a component-preload file.
 
 
 
-### Back-end related performance issues
+#### Back-end related performance issues
 
 -   Slow database service \(e.g. OData\)
 
@@ -196,7 +196,7 @@ You can use [UI5 Tooling](https://sap.github.io/ui5-tooling/) to bundle and mini
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_MigrateJquery"/>
 
-## Migrate `jquery.sap.*` Modules to their Modularised Variants
+### Migrate `jquery.sap.*` Modules to their Modularised Variants
 
 Since UI5 version 1.58, the global `jquery.sap.*` modules are deprecated. Please use the modularised variant of the module. If you're still using the `jquery.sap.*` variants, a so-called "stubbing layer" may load the old module synchronously!
 
@@ -211,7 +211,7 @@ The usages can either be replaced manually or by the [UI5 Migration Tool](https:
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_MigrateFactories"/>
 
-## Migrate Synchronous Variants of UI5 Factories to Asynchronous Variants
+### Migrate Synchronous Variants of UI5 Factories to Asynchronous Variants
 
 Check if the application uses synchronous UI5 factories. Many asynchronous variants are available, e.g. for Components, Resource Bundles, Controllers, Views, and Fragments.Please visit the following overview: [Deprecated Factories Replacement](../04_Essentials/deprecated-factories-replacement-491bd9c.md).
 
@@ -219,7 +219,7 @@ Check if the application uses synchronous UI5 factories. Many asynchronous varia
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ModelPreload"/>
 
-## Use the OData Model Preload
+### Use the OData Model Preload
 
 Components can preload models for which modules are already loaded; otherwise a warning will be shown. The OData model \(V2 or V4\) benefits especially, because the metadata can be loaded in parallel during a component load.
 
@@ -242,7 +242,7 @@ For more information, see [Manifest Model Preload](../04_Essentials/manifest-mod
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_MetadataCaching"/>
 
-## Use OData Metadata Caching
+### Use OData Metadata Caching
 
 To ensure fast loading times for **SAP Fiori applications started from the SAP Fiori launchpad**, the OData metadata is cached on the web browser using cache tokens. The tokens are added with the parameter `sap-context-token` to the URL of metadata requests. Please check via the developer tools of your browser \(e.g. the Network tab in the Google Chrome developer tools\) if the token has been appended to the request URL.
 
@@ -260,7 +260,7 @@ To ensure fast loading times for **SAP Fiori applications started from the SAP F
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_useSelectQuery"/>
 
-## Use a `$select` Query when Binding an Aggregation in the OData V2 Model
+### Use a `$select` Query when Binding an Aggregation in the OData V2 Model
 
 With a `$select` query you enable your application to fetch only necessary properties of an entity from the collection.
 
@@ -292,7 +292,7 @@ In the OData V4 model, `$select` and `$expand` values can be automatically defin
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ListsTables"/>
 
-## Check Lists and Tables
+### Check Lists and Tables
 
 The performance limits are reached differently depending on the used browser, operating system and hardware. Therefore, it is important to be mindful about the amount of controls and data bindings. This applies especially to lists and their variants \(e.g. `sap.m.Table` or `sap.ui.table.Table`\):
 
@@ -309,7 +309,7 @@ The performance limits are reached differently depending on the used browser, op
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_OptimizeCode"/>
 
-## Further Code Optimization
+### Further Code Optimization
 
 You can further optimize your code by doing the following:
 

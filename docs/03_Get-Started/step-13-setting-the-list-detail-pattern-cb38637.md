@@ -1,6 +1,6 @@
 <!-- loiocb3863746ea14d3698a8b6cc2c62832d -->
 
-# Step 13: Setting the List-Detail Pattern
+## Step 13: Setting the List-Detail Pattern
 
 In this step, we set up the app to follow the list-detail pattern.
 
@@ -10,19 +10,19 @@ Apps using the list-detail pattern operate with a layout divided into two separa
 
 <a name="loiocb3863746ea14d3698a8b6cc2c62832d__section_yfh_d31_12b"/>
 
-## Preview
+### Preview
 
   
   
 **list-detail pattern with FlexibleColumnLayout**
 
-![](images/Master-detail_Pattern_Fiori_2_0_Tutorial_267d05f.gif "list-detail pattern with FlexibleColumnLayout")
+![](images/loio267d05fd0b294310b7bebdeda5f70e3b_LowRes.gif "list-detail pattern with FlexibleColumnLayout")
 
 
 
 <a name="loiocb3863746ea14d3698a8b6cc2c62832d__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 13](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.13/preview).
 
@@ -30,7 +30,7 @@ You can view and download all files at [Flexible Column Layout App - Step 13](ht
 
 <a name="loiocb3863746ea14d3698a8b6cc2c62832d__section_b2w_gqj_l4b"/>
 
-## webapp/Component.js \[MODIFY\]
+### webapp/Component.js \[MODIFY\]
 
 ```js
 		...

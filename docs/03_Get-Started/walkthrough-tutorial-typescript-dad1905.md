@@ -1,6 +1,6 @@
 <!-- loiodad1905a07f849ce9c509721317d38d8 -->
 
-# Walkthrough Tutorial \(TypeScript\)
+## Walkthrough Tutorial \(TypeScript\)
 
 In this tutorial we'll introduce you to all major development paradigms of OpenUI5. We'll demonstrate the use of TypeScript with OpenUI5 and highlight the specific characteristics of this approach.
 
@@ -8,9 +8,9 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 
 
 
-## Preview
+### Preview
 
-![Preview of the OpenUI5 application that is going to be built in this tutorial. Contains a Hello World upper part with buttons and a text input. The lower part shows list of invoices with details, grouped by vendor names.](images/UI5_Walkthrough_Step_38_fb12cea.png)
+![Preview of the OpenUI5 application that is going to be built in this tutorial. Contains a Hello World upper part with buttons and a text input. The lower part shows list of invoices with details, grouped by vendor names.](images/loiofb12cea5ac9b45bb9007aac5a1a8689f_LowRes.png)
 
 
 

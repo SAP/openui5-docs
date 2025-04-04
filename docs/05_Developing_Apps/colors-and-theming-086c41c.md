@@ -1,12 +1,12 @@
 <!-- loio086c41c2441946219384197a6c82072b -->
 
-# Colors and Theming
+## Colors and Theming
 
 Theming is an important aspect for an OpenUI5 application. The different colors shown on the UI need to have a good contrast to each other in order to be easily distinguishable.
 
 
 
-## General Recommendations
+### General Recommendations
 
 Different people perceive and interpret colors in different ways, which is something you must take into account when developing your applications. High-contrast themes are already available for all OpenUI5 controls.
 
@@ -51,11 +51,11 @@ Different people perceive and interpret colors in different ways, which is somet
 
 
 
-## DOs and DON'Ts
+### DOs and DON'Ts
 
 
 
-### DOs
+#### DOs
 
 -   Use predefined CSS parameters in your CSS. You can find them in the following files within the OpenUI5 library:
 
@@ -75,7 +75,7 @@ Different people perceive and interpret colors in different ways, which is somet
 
 
 
-### DON'Ts
+#### DON'Ts
 
 -   Define a custom color.
 
@@ -88,7 +88,7 @@ Different people perceive and interpret colors in different ways, which is somet
 
 
 
-## Tips for Testing
+### Tips for Testing
 
 Check the color contrasts.
 

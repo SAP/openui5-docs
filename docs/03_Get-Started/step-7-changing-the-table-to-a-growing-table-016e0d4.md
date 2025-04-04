@@ -1,29 +1,29 @@
 <!-- loio016e0d44f8ff47d2bdf4fdad9b7bf7cd -->
 
-# Step 7: Changing the Table to a Growing Table
+## Step 7: Changing the Table to a Growing Table
 
 Let's switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.
 
 
 
-## Preview
+### Preview
 
   
   
 **The List of posts is now dynamically loading more items when we scroll to the end of the page**
 
-![](images/Tutorial_Testing_Step_07_43d882b.jpg "The List of posts is now dynamically loading more items when we scroll to the
+![](images/loio43d882b890714236901f5b067e34e81e_LowRes.jpg "The List of posts is now dynamically loading more items when we scroll to the
 					end of the page")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 7](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.07).
 
 
 
-## webapp/view/Worklist.view.xml
+### webapp/view/Worklist.view.xml
 
 ```xml
 <mvc:View …
@@ -50,7 +50,7 @@ We simply set the parameter `growing` to `true` to enable our feature. Now we ca
 
 
 
-## Conventions
+### Conventions
 
 -   Use OPA tests for UI-related integration tests
 

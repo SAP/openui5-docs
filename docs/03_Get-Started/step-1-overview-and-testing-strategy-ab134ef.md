@@ -1,6 +1,6 @@
 <!-- loioab134ef3932c4b42898c79c10341e8b5 -->
 
-# Step 1: Overview and Testing Strategy
+## Step 1: Overview and Testing Strategy
 
 In this step, we will take a look at the prototype and define the test strategy for our app. The prototype already contains the infrastructure for unit and integration testing and a minimum set of tests and features.
 
@@ -9,17 +9,17 @@ In this step, we will take a look at the prototype and define the test strategy 
 
 
 
-## Preview
+### Preview
 
   
   
 **The prototype app**
 
-![](images/Tutorial_Testing_Step_01_7946d24.jpg "The prototype app")
+![](images/loio7946d242c8a14ac39fb22556b59d4bcd_LowRes.jpg "The prototype app")
 
 
 
-## Coding
+### Coding
 
 1.  To set up your project for this tutorial, download the files at [Testing - Step 1](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.01).
 
@@ -33,11 +33,11 @@ After downloading *Step 1*, you should have the following files:
   
 **Folder structure with downloaded files**
 
-![](images/Tutorial_Testing_Step_01_2_8007848.png "Folder structure with downloaded files")
+![](images/loio80078484830540769b67f12a6b88bbd3_LowRes.png "Folder structure with downloaded files")
 
 
 
-## The Initial App
+### The Initial App
 
 With the downloaded code, you now have the bulletin board prototype, set up according to the OpenUI5 best practices. The prototype provides the common features of an OpenUI5 app. If you have completed the Walkthrough tutorial, you should be familiar with most of the source code in this step. Additional features of the app are:
 
@@ -114,11 +114,11 @@ With the downloaded code, you now have the bulletin board prototype, set up acco
 
 Now that we have a running prototype, we can further extend it with additional tests and features. Make sure that the app is running by calling the test page and the test suite from the entry page `webapp/test.html`. The app should display a list of bulletin board posts as seen in the screenshot above and the tests should run without errors.
 
-![](images/Bulletin_Board_b5ea059.jpg)
+![](images/loiob5ea0590dd68474786ab3b494564fae3_LowRes.jpg)
 
 
 
-## Test Strategy
+### Test Strategy
 
 Let's first take a look at best practices for testing apps written in OpenUI5. JavaScript is a dynamic programming language and only some issues can be detected by static code check tools and manual testing. Automated tests that execute the code regularly are beneficial for good quality and development productivity – especially when you're developing in short development cycles.
 
@@ -135,7 +135,7 @@ Before you start implementing your first test, you should think about how to tes
   
 **Testing pyramid**
 
-![](images/Tutorial_Testing_Step_01_2_88758c3.png "Testing pyramid")
+![](images/loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing pyramid")
 
 When you set up application testing, you should automate as many testing steps as possible. If you immediately write a test for all the features that we implement, then you can greatly reduce manual testing efforts that are time consuming and cumbersome. If you change something later, you can simply run the existing tests and see if the functionality is still working as expected.
 
@@ -145,7 +145,7 @@ There might still be features that are hard to test with these client-side testi
 
 
 
-## Conventions
+### Conventions
 
 -   Write unit tests in QUnit for more logic-related functionality
 

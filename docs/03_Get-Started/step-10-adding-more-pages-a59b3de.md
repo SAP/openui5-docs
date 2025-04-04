@@ -1,6 +1,6 @@
 <!-- loioa59b3de038874f879cf20bfc3287bd7c -->
 
-# Step 10: Adding More Pages
+## Step 10: Adding More Pages
 
 In this step, we create an additional page that is displayed in a separate fullscreen column.
 
@@ -8,19 +8,19 @@ In this step, we create an additional page that is displayed in a separate fulls
 
 <a name="loioa59b3de038874f879cf20bfc3287bd7c__section_yfh_d31_12b"/>
 
-## Preview
+### Preview
 
   
   
 **Additional page displayed in a separate fullscreen column**
 
-![](images/More_Pages_Fiori_2_0_Tutorial_41f6ae1.gif "Additional page displayed in a separate fullscreen column")
+![](images/loio41f6ae105130408ca78197f7c528e388_LowRes.gif "Additional page displayed in a separate fullscreen column")
 
 
 
 <a name="loioa59b3de038874f879cf20bfc3287bd7c__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 10](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.10/preview).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Flexible Column Layout App - Step 10](ht
 
 <a name="loioa59b3de038874f879cf20bfc3287bd7c__section_wql_2pj_l4b"/>
 
-## webapp/view/AboutPage.view.xml \[NEW\]
+### webapp/view/AboutPage.view.xml \[NEW\]
 
 ```xml
 <mvc:View
@@ -54,7 +54,7 @@ We create a simple additional page view.
 
 <a name="loioa59b3de038874f879cf20bfc3287bd7c__section_cbl_dpj_l4b"/>
 
-## webapp/manifest.json \[MODIFY\]
+### webapp/manifest.json \[MODIFY\]
 
 ```json
 			...
@@ -120,7 +120,7 @@ Similar to the previous step, we add the additional page view to our existing ro
 
 <a name="loioa59b3de038874f879cf20bfc3287bd7c__section_o45_cpj_l4b"/>
 
-## webapp/view/DetailDetail.view.xml \[MODIFY\]
+### webapp/view/DetailDetail.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -151,7 +151,7 @@ We add a link in the detail-detail page with a `press` event handler.
 
 <a name="loioa59b3de038874f879cf20bfc3287bd7c__section_z3c_cpj_l4b"/>
 
-## webapp/controller/DetailDetail.controller.js \[MODIFY\]
+### webapp/controller/DetailDetail.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([

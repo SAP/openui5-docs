@@ -1,6 +1,6 @@
 <!-- loio7701636d088147569d99b4f08d418bd9 -->
 
-# Manifest for Components \(Inside Libraries\)
+## Manifest for Components \(Inside Libraries\)
 
 The manifest \(also known as descriptor\) for components contains a subset of the attributes in the manifest for applications
 
@@ -406,7 +406,7 @@ Comment
 
 
 
-## Library Name Determination
+### Library Name Determination
 
 SAPUI5 determines the library name by analyzing the component namespace \(package\) up to the part where the segment starts with a capitalized letter. If the library name that has been determined, does not fit your component, an additional library attribute needs to be filled in the component metadata in `Component.js` to specify the library your component belongs to.
 

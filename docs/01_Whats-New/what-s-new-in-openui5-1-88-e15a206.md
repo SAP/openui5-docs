@@ -1,6 +1,6 @@
 <!-- loioe15a206e5463440eb1f49e8107c6f79c -->
 
-# What's New in OpenUI5 1.88
+## What's New in OpenUI5 1.88
 
 With this release OpenUI5 is upgraded from version 1.87 to 1.88.
 
@@ -167,7 +167,7 @@ Control
 
 Empty states are moments in the user experience where there’s no data to display. Success states are occasions to celebrate and reward a user’s special accomplishment or the completion of an important task. The new `IllustratedMessage` control is the recommended combination of a solution-oriented message, an engaging illustration, and conversational tone to better communicate empty or success states.
 
-![](images/Illustrated_Message_WN_46b68bf.png)
+![](images/loio46b68bf7ca8244abba196f9f15eb7c6c_HiRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.f.IllustratedMessage) and the [Samples](https://ui5.sap.com/#/entity/sap.f.IllustratedMessage).
 

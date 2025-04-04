@@ -1,6 +1,6 @@
 <!-- loio5de13cf4dd1f4a3480f7e2eaaee3f5b8 -->
 
-# OData V4 Model
+## OData V4 Model
 
 The `sap.ui.model.odata.v4.ODataModel` is the model implementation for consuming an OData V4 service.
 

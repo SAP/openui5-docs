@@ -1,22 +1,22 @@
 <!-- loioe047e0596e8a4a1db50f4a53c11f4276 -->
 
-# Step 3: Catch Invalid Hashes
+## Step 3: Catch Invalid Hashes
 
 Sometimes it is important to display an indication that the requested resource was not found. To give you an example: If a user tries to access an invalid pattern which does not match any of the configured routes, the user is notified that something went wrong. You might also know this as a "404" or *Not Found Page* from traditional web pages. In this step, we will implement a feature that detects invalid hashes and visualizes this in a nice way.
 
 
 
-## Preview
+### Preview
 
   
   
 **Not Found page**
 
-![](images/Tutorial_Navigation_and_Routing_Step_03_81506b2.png "Not Found page")
+![](images/loio81506b2d46e440e09921911289e74570_LowRes.png "Not Found page")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 3](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.03).
 
@@ -24,11 +24,11 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 **Folder structure for this step**
 
-![](images/Tutorial_Navigation_and_Routing_Step_03b_0b225d6.png "Folder structure for this step")
+![](images/loio0b225d6d91d142a2b44a164193121700_HiRes.png "Folder structure for this step")
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -75,7 +75,7 @@ Let's extend the routing configuration in the descriptor by adding a `bypassed` 
 
 
 
-## webapp/view/NotFound.view.xml \(New\)
+### webapp/view/NotFound.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -93,7 +93,7 @@ Now we create the view referenced above in a new file `NotFound.view.xml` in the
 
 
 
-## webapp/controller/NotFound.controller.js \(New\)
+### webapp/controller/NotFound.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -111,7 +111,7 @@ Now we create the controller for the `NotFound` view and save it into the `webap
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```js
 ...
@@ -126,7 +126,7 @@ Open the URL `index.html#/thisIsInvalid` in your browser. From now on the user w
 
 
 
-## Conventions
+### Conventions
 
 -   Always configure the `bypassed` property and a corresponding target
 

@@ -1,6 +1,6 @@
 <!-- loio2366345a94f64ec1a80f9d9ce50a59ef -->
 
-# Step 31: Routing with Parameters
+## Step 31: Routing with Parameters
 
 We can now navigate between the overview and the detail page, but the actual item that we selected in the overview is not displayed on the detail page yet. A typical use case for our app is to show additional information for the selected item on the detail page.
 
@@ -8,19 +8,19 @@ To make this work, we have to pass over the information which item has been sele
 
 
 
-## Preview
+### Preview
 
   
   
 **The selected invoice details are now shown in the details page**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_31_31da9d4.png "The selected invoice details are now shown in the details page")
+![The graphic has an explanatory text](images/loio31da9d48ae204c36a991146b90648c21_LowRes.png "The selected invoice details are now shown in the details page")
 
 
 
 <a name="loio2366345a94f64ec1a80f9d9ce50a59ef__section_m2z_d5m_tyb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 31](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.31).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Walkthrough - Step 31](https://ui5.sap.c
 
 <a name="loio2366345a94f64ec1a80f9d9ce50a59ef__section_n2z_d5m_tyb"/>
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -75,7 +75,7 @@ We now add a navigation parameter `invoicePath` to the detail route so that we c
 
 
 
-## webapp/view/Detail.view.xml
+### webapp/view/Detail.view.xml
 
 ```xml
 <mvc:View
@@ -95,7 +95,7 @@ We add a controller that will take care of setting the item's context on the vie
 
 
 
-## webapp/controller/InvoiceList.controller.js
+### webapp/controller/InvoiceList.controller.js
 
 ```js
 sap.ui.define([
@@ -128,7 +128,7 @@ To identify the object that we selected, we would typically use the key of the i
 
 
 
-## webapp/controller/Detail.controller.js \(New\)
+### webapp/controller/Detail.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -162,7 +162,7 @@ The `bindElement` function is creating a binding context for a OpenUI5 control a
 
 
 
-## Conventions
+### Conventions
 
 -   Define the routing configuration in the `manifest.json` / app descriptor
 

@@ -1,6 +1,6 @@
 <!-- loio759e9f3aa50d4fd08538655f373b0038 -->
 
-# What's New in OpenUI5 1.50
+## What's New in OpenUI5 1.50
 
 With this release OpenUI5 is upgraded from version 1.48 to 1.50.
 
@@ -264,7 +264,7 @@ Control
 
 `sap.m.PlanningCalendarLegend` enables two types of items to be displayed in the `sap.m.PlanningCalendar` as a legend - types of days \(for example, special dates and holidays\) and appointments.For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.PlanningCalendarLegend).
 
-![](images/WhatsNew_150_PlanningCalendarLegend_e8f3d35.png)
+![](images/loioe8f3d352f8044779a3d90e37c0e9798e_LowRes.png)
 
 <sub>New•Control•Info Only•1.50</sub>
 
@@ -516,7 +516,7 @@ Control
 
 -   `wrapping`: Determines whether text within a label is wrapped. The default value is `false`. If set to `false`, the label text only uses one line and any exceeding text is truncated and replaced with an ellipsis. When you use the `Label` within a `sap.m.Form` the label text is automatically displayed as wrapped.
 
-    ![](images/WhatsNew_150_LabelWrapping_a18049e.png)
+    ![](images/loioa18049e61af44b0d9f766dc0d743ea0b_LowRes.png)
 
 -   `displayOnly`: Determines whether the label is in `displayOnly` mode. Controls in this mode are non-interactive, non-focusable, cannot be edited, and do not form part of the tab chain. The `displayOnly` property is used in `Form` controls when they are in preview mode.
 
@@ -733,7 +733,7 @@ Control
 
 A new state can be set using the `displayOnly` property. It enables visually distinguishable rendering of the `RatingIndicator` \(gray color\), denoting it as non-interactive in forms. All controls in this mode are also non-focusable and not part of the tab chain. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.RatingIndicator) and the [Sample](https://ui5.sap.com/#/sample/sap.m.sample.RatingIndicator/preview).
 
-![](images/Whats_New_150_RatingIndicator_e38d042.png)
+![](images/loioe38d0425a1d44102a6834a9efe0d95be_LowRes.png)
 
 <sub>Changed•Control•Info Only•1.50</sub>
 

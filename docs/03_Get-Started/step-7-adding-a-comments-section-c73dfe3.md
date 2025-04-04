@@ -1,28 +1,28 @@
 <!-- loioc73dfe312f104664954749c5c36faf27 -->
 
-# Step 7: Adding a Comments Section
+## Step 7: Adding a Comments Section
 
 In this step, we extend the product detail view by adding a feature allowing to add comments to the product.
 
 
 
-## Preview
+### Preview
 
   
   
 **Comments section added to the detail page**
 
-![](images/Tutorial_Worklist_Step_7_Preview_a517fe5.png "Comments section added to the detail page")
+![](images/loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Comments section added to the detail page")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 7](https://ui5.sap.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.07) .
 
 
 
-### webapp/view/Object.view.xml \[MODIFY\]
+#### webapp/view/Object.view.xml \[MODIFY\]
 
 ```xml
 
@@ -79,7 +79,7 @@ The template for each row is a `FeedListItem` control. We configure the `FeedLis
 
 
 
-### webapp/controller/Object.controller.js \[MODIFY\]
+#### webapp/controller/Object.controller.js \[MODIFY\]
 
 ```js
 ...
@@ -143,7 +143,7 @@ Finally, the new entry is added to the named model called `productFeedback`. Thi
 
 
 
-### webapp/model/models.js \[MODIFY\]
+#### webapp/model/models.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -170,7 +170,7 @@ However, this model is not yet accessible throughout our app. Let's fix this nex
 
 
 
-### webapp/Component.js \[MODIFY\]
+#### webapp/Component.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -208,7 +208,7 @@ Now it's time to make the named model `productFeedback` available to our app. Th
 
 
 
-### webapp/i18n/i18n.properties \[MODIFY\]
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ```ini
 ...
@@ -231,7 +231,7 @@ You can test the new features by navigating to the details page of any given pro
 
 <a name="loioc73dfe312f104664954749c5c36faf27__section_jvq_kgt_qbb"/>
 
-## Summary
+### Summary
 
 Based on the initial app you have seen how easy it can be to generate or download initial code and to extend it according to your own requirements. This tutorial also illustrated how to communicate easily with an OData back end using the OData V2 model. Furthermore, it illustrated how to use the mock server with both generated mock data and more realistic data.
 

@@ -1,6 +1,6 @@
 <!-- loiob3422ec53888461d9c47ef0e809ff3f1 -->
 
-# Handling of Temporarily Unavailable Back Ends
+## Handling of Temporarily Unavailable Back Ends
 
 An OData back end cannot process incoming requests while it is under maintenance. Instead, it can respond with an HTTP 503 status code \(Service Unavailable\) and a "Retry-After" header.
 
@@ -12,7 +12,7 @@ All requests which are sent after a model's initialisation and the registration 
 
 <a name="loiob3422ec53888461d9c47ef0e809ff3f1__section_uqy_yc1_q2c"/>
 
-## Implementing the Handler
+### Implementing the Handler
 
 The `ODataModel#setRetryAfterHandler` API expects a function as parameter, which receives an error object with the following properties:
 

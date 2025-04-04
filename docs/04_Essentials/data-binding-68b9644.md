@@ -1,13 +1,13 @@
 <!-- loio68b9644a253741e8a4b9e4279a35c247 -->
 
-# Data Binding
+## Data Binding
 
 You use data binding to bind UI elements to data sources to keep the data in sync and allow data editing on the UI.
 
 
 
 ![The different data models in UI5 are shown: Resource model, view model, device model, XML model, JSON model, and the
-							OData models.](images/Data_Binding_Overview_544b097.png)
+							OData models.](images/loio544b09736447477198202b636048bab8_LowRes.png)
 
 OpenUI5 follows the "Model View Controller" \(MVC\) paradigm, which means that we clearly separate data sources \(model\), UI \(view\), and application logic \(controller\) from each other. Data binding defines how models and views communicate with each other.
 
@@ -35,7 +35,7 @@ In the view, you bind data by specifying the **binding path** for a control. You
 
 <a name="loio68b9644a253741e8a4b9e4279a35c247__section_BindingModes"/>
 
-## Binding Modes: One-way Binding, Two-way Binding, and One-time Binding
+### Binding Modes: One-way Binding, Two-way Binding, and One-time Binding
 
 The binding mode defines how the data sources are bound to the UI. OpenUI5 provides the following binding modes:
 
@@ -90,17 +90,17 @@ OData V4 model
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif) \(default\)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 </td>
 </tr>
@@ -112,17 +112,17 @@ OData V2 model
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif) \(default\)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -134,17 +134,17 @@ ODataMetaModel V4
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif) \(default\)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Not supported](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![Not supported](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -156,17 +156,17 @@ ODataMetaModel
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif) \(default\)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 </td>
 <td valign="top">
 
-![Not supported](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![Not supported](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Not supported](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![Not supported](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -178,17 +178,17 @@ JSON model
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif) \(default\)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 </td>
 </tr>
@@ -200,17 +200,17 @@ XML model
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif) \(default\)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 </td>
 </tr>
@@ -222,17 +222,17 @@ Resource model
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Supported](../02_Read-Me-First/images/Green_Led_3cb17ee.gif) \(default\)
+![Supported](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 </td>
 <td valign="top">
 
-![Not supported](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![Not supported](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>

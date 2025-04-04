@@ -1,6 +1,6 @@
 <!-- loio91f3768f6f4d1014b6dd926db0e91070 -->
 
-# URL List Validation
+## URL List Validation
 
 The OpenUI5 framework provides a client-side API to manage allowed URLs using the `URLListValidator`. It can be used to validate arbitrary URLs.
 
@@ -10,7 +10,7 @@ Internal examples of controls that use this feature are controls which accept ar
 
 <a name="loio91f3768f6f4d1014b6dd926db0e91070__section_16EB929B857E45C2B245F2E97E9E5E8D"/>
 
-## Maintaining the `URLListValidator`
+### Maintaining the `URLListValidator`
 
 The allowed URLs can be maintained with the following API:
 
@@ -39,7 +39,7 @@ URLListValidator.add("https", "community.sap.de", undefined, "/topics");
 
 <a name="loio91f3768f6f4d1014b6dd926db0e91070__section_D3F15D5E106B41C0A037A91D5EAD13DC"/>
 
-## Validating a URL
+### Validating a URL
 
 A URL can be validated by using the following API: `sap/base/security/URLListValidator.validate`.
 

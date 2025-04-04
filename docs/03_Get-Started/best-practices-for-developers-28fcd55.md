@@ -1,6 +1,6 @@
 <!-- loio28fcd55b04654977b63dacbee0552712 -->
 
-# Best Practices for Developers
+## Best Practices for Developers
 
 This page is a good starting point for you to ensure your code bases, specifically your OpenUI5 applications and libraries, are ready for the future and won't become outdated.
 
@@ -16,7 +16,7 @@ This page is a good starting point for you to ensure your code bases, specifical
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_blfc"/>
 
-## Best Practices for Legacy-Free Code
+### Best Practices for Legacy-Free Code
 
 The OpenUI5 framework is always evolving to benefit from newer features in web browsers \(like ECMAScript support\) or to account for their end of maintenance \(like the end of IE11 support\). This is a continuous journey towards future major framework versions and improvements.
 
@@ -27,13 +27,7 @@ It is therefore important that you keep applying best practices. To help you, we
 
 
 
-### Supporting Tool - UI5 Linter
-
-[UI5 linter](https://github.com/SAP/ui5-linter) is a command-line tool to identify legacy code in your OpenUI5 project. It checks JavaScript, TypeScript, XML, JSON, and other files in your project and reports findings if legacy code is used. UI5 linter is our state-of-the-art tool to get and keep your OpenUI5 project legacy-free.
-
-
-
-### Goals
+#### Goals
 
 The main objectives when migrating existing code or keeping it up to date with framework best practices are:
 
@@ -56,13 +50,21 @@ The main objectives when migrating existing code or keeping it up to date with f
 
 
 
-### Prerequisites
+#### Prerequisites
 
 Before attempting to migrate or upgrade to a higher OpenUI5 version, make sure that your development does **not** use any undocumented internal framework resources. Also, double check that all compatibility guidelines have been followed, such as those mentioned in [Upgrading](../02_Read-Me-First/upgrading-9638e4f.md).
 
+To build and serve your project in accordance with best practices, we recommend using the latest version of [UI5 Tooling](https://sap.github.io/ui5-tooling/).
 
 
-### Deprecated APIs
+
+#### Supporting Tool - UI5 Linter
+
+[UI5 linter](https://github.com/SAP/ui5-linter) is a command-line tool to identify legacy code in your OpenUI5 project. It checks JavaScript, TypeScript, XML, JSON, and other files in your project and reports findings if legacy code is used. UI5 linter is our state-of-the-art tool to get and keep your OpenUI5 project legacy-free.
+
+
+
+#### Deprecated APIs
 
 In general, **you must not use deprecated APIs** anymore, such as `sap.ui.getCore()`. You can find deprecated APIs in the [API Reference](https://ui5.sap.com/#/api/deprecated), in the [What's New Viewer](https://help.sap.com/whats-new/67f60363b57f4ac0b23efd17fa192d60?Type=Deleted%3BDeprecated), and in the reports by our [Support Assistant](../04_Essentials/support-assistant-57ccd7d.md) and [UI5 linter](https://github.com/SAP/ui5-linter). For new projects, we recommend the use of TypeScript, because usage of deprecated APIs can then be detected easily.
 
@@ -85,7 +87,7 @@ Using the native web API `XMLHttpRequest#open` with `false` as the third argumen
 
 
 
-### Modules
+#### Modules
 
 **Defining and Requiring Modules**
 
@@ -112,13 +114,13 @@ Identify and resolve cyclic dependencies with the help of the OpenUI5 configurat
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_appdev"/>
 
-## App Development
+### App Development
 
 In the following we'll focus on crucial aspects of app development, specifically on asynchronous loading and best practices around Components, Controllers, Views, Fragments, Models, and ResourceBundles.
 
 
 
-### Asynchronous Loading
+#### Asynchronous Loading
 
 -   Use asynchronous loading for views, fragments, components, and resource bundles to enhance performance; see, for example, [Deprecated Factories Replacement](../04_Essentials/deprecated-factories-replacement-491bd9c.md).
 -   Implement the `sap.ui.core.IAsyncContentCreation` marker interface in your [Component.js file](../04_Essentials/component-controller-27ce0e4.md) to allow the content to be created fully asynchronously and for a stricter handling of certain types of errors during its view processing.
@@ -134,7 +136,7 @@ In the following we'll focus on crucial aspects of app development, specifically
 
 
 
-### OpenUI5 Object Creation
+#### OpenUI5 Object Creation
 
 When creating instances of OpenUI5 controls programmatically \(i.e. not declaratively via XML View or Fragment\), then:
 
@@ -147,7 +149,7 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 
 
 
-### Data Binding
+#### Data Binding
 
 -   When creating data binding programmatically, add the data types to the dependency list and create instances on your own. Do **not** specify their global names.
 
@@ -166,7 +168,7 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 
 
 
-### Standalone Apps
+#### Standalone Apps
 
 -   During OpenUI5 bootstrapping, assign `module:sap/ui/core/ComponentSupport` or a separate JavaScript file to `data-sap-ui-on-init`.
 
@@ -179,7 +181,7 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 
 
 
-### Component / `manifest.json`
+#### Component / `manifest.json`
 
 **Component Creation**
 
@@ -205,7 +207,7 @@ Before using the Component's `EventBus` instance via `Component#getEventBus`, de
 
 Prevent bundling modules \(`Component-preload.js`\) into strings.
 
--   Avoid generating the application bundle with an outdated standard Grunt task. Leverage UI5 Tooling to build the bundle.
+-   Leverage [UI5 Tooling](https://sap.github.io/ui5-tooling/) to build the bundle and avoid generating the application bundle with legacy build tooling, such as grunt-openui5.
 
 -   Avoid declaring `var`, `let`, or `const` in the global scope above `sap.ui.define`. If absolutely required, replace e.g. `var myGlobal` with `globalThis.myGlobal` and/or wrap the module definition in an *Immediately Invoked Function Expression* \(IIFE\) if applicable.
 
@@ -214,7 +216,7 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 
 
 
-### Controller / Views / Fragments
+#### Controller / Views / Fragments
 
 -   Don't use views of type `HTMLView`, `JSView`, or `JSONView` as they are deprecated. Use `XMLView` or [Typed View](../04_Essentials/typed-view-e6bb33d.md) instead.
 
@@ -242,7 +244,7 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 
 
 
-### Models
+#### Models
 
 -   Take care of destroying programmatically created models to prevent memory leaks.
 
@@ -274,7 +276,7 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 
 
 
-### Strict Error Handling
+#### Strict Error Handling
 
 Implement strict error handling to address critical issues.
 
@@ -291,11 +293,11 @@ Implement strict error handling to address critical issues.
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_ctrldev"/>
 
-## Control Development
+### Control Development
 
 
 
-### Control Rendering
+#### Control Rendering
 
 -   Ensure a dependency on the renderer or embed it within the control class.
 
@@ -317,11 +319,11 @@ Implement strict error handling to address critical issues.
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_libdev"/>
 
-## Library Development
+### Library Development
 
 
 
-### Library Dependency and Init
+#### Library Dependency and Init
 
 -   Don't use `sap.ui.getCore().initLibrary` to initialize the library as it's deprecated. Use the import of `sap/ui/core/Lib` and call its [`Lib.init()`](https://ui5.sap.com/#/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.init) instead.
 
@@ -344,11 +346,11 @@ Implement strict error handling to address critical issues.
 
 
 
-### Bundling
+#### Bundling
 
 Prevent bundling modules \(`library-preload.js`\) into strings.
 
--   Avoid generating the library bundle with an outdated standard Grunt task. Leverage UI5 Tooling to build the bundle.
+-   Leverage [UI5 Tooling](https://sap.github.io/ui5-tooling/) to build the bundle and avoid generating the library bundle with legacy build tooling, such as grunt-openui5.
 
 -   Avoid declaring `var`, `let`, or `const` in the global scope above `sap.ui.define`.
 
@@ -359,7 +361,7 @@ Prevent bundling modules \(`library-preload.js`\) into strings.
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_tst"/>
 
-## Testing
+### Testing
 
 -   When replacing deprecated APIs with their successors, additional care has to be taken in the test code. Sometimes, deprecated APIs have been handled via spies or stubs in tests. As the OpenUI5 framework also replaces calls to deprecated APIs, such **stubs or spies might no longer achieve what they're expected to achieve**. As creating spies or stubs usually involves a different syntax than that for normal calls, alternative search patterns might be required to identify such spies or stubs
 

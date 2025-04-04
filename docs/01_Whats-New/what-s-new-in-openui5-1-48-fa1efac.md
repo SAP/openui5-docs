@@ -1,6 +1,6 @@
 <!-- loiofa1efaca7d674995a0dc3a95ba0a4d08 -->
 
-# What's New in OpenUI5 1.48
+## What's New in OpenUI5 1.48
 
 With this release OpenUI5 is upgraded from version 1.46 to 1.48.
 
@@ -134,7 +134,7 @@ The main features of the tool are:
 -   Results reporting
 
 
-![](images/WhatsNew_148_Support_Assistant_78e2768.png)
+![](images/loio78e276855353468591838dab8465b0a4_LowRes.png)
 
 For more information, see [Support Assistant](../04_Essentials/support-assistant-57ccd7d.md).
 
@@ -228,7 +228,7 @@ There is a new theme parameter tool for finding the best-fitting semantic LESS p
 
 With the tool, you can also preview all supported SAP themes and find information about the semantic parameter structure.
 
-![](images/Demoapp_Theme_Parameters_f1355e7.png)
+![](images/loiof1355e7d44ae495190f31d2835fcf67d_LowRes.png)
 
 To find the tool, see [Demo Apps](https://ui5.sap.com/#/demoapps).
 
@@ -275,7 +275,7 @@ Displays a summarized list of different types of messages. The `MessageView` is 
 
 `sap.m.MessageView` also allows grouping of messages by setting the property `groupItems` and defining a `groupName` for each item. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.MessageView) and the [samples](https://ui5.sap.com/#/sample/sap.m.sample.MessageViewWithGrouping/preview).
 
-![](images/WhatsNew_148_MessageView_6244b88.png)
+![](images/loio6244b88b28cd446c839efd081c44087d_LowRes.png)
 
 <sub>New•Control•Info Only•1.48</sub>
 
@@ -359,7 +359,7 @@ Control
 
 **`sap.m.PDFViewer`** enables SAP Fiori developers to display PDF files in a consistent way across all browsers and devices. It encapsulates browser-specific PDF viewer plugins and provides a simple API to embed a PDF file into a page or to open it in a dialog box. For more information, see [PDF Viewer](../08_More_About_Controls/pdf-viewer-cd80a8b.md), the [API Reference](https://ui5.sap.com/#/api/sap.m.PDFViewer), and the [sample](https://ui5.sap.com/#/entity/sap.m.PDFViewer). 
 
-![](images/WhatsNew_148_PDFViewer_3c7c40d.png)
+![](images/loio3c7c40d76e704eefa3870adb99144275_LowRes.png)
 
 <sub>New•Control•Info Only•1.48</sub>
 
@@ -973,7 +973,7 @@ Control
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.layout.BlockLayoutCell) and the [samples](https://ui5.sap.com/#/sample/sap.ui.layout.sample.BlockLayoutCustomBackground/preview).
 
-![](images/WhatsNew_148_BlockLayout_d4f2319.png)
+![](images/loiod4f2319fc0ad40c9b3d0f97ecf393871_LowRes.png)
 
 <sub>Changed•Control•Info Only•1.48</sub>
 

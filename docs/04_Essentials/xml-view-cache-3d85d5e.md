@@ -1,6 +1,6 @@
 <!-- loio3d85d5eec1594be0a71236d5e61f89aa -->
 
-# XML View Cache
+## XML View Cache
 
 To be able to speed up processing times of XML views that make heavy use of the preprocessor feature, you can use the view cache to store its processed XML source. Then according network requests for the source and all preprocessor runs that modify the XML source are skipped and the source is taken from the cache.
 
@@ -25,7 +25,7 @@ The XML view has to be loaded asynchronously.
 
 
 
-## Cache Configuration
+### Cache Configuration
 
 If you want to keep things simple, you can use the following cache configuration:
 
@@ -73,7 +73,7 @@ sap.ui.require("sap/ui/core/mvc/XMLView", function (XMLView) {
 
 <a name="loio3d85d5eec1594be0a71236d5e61f89aa__ViewCache_Preprocessor"/>
 
-## Preprocessor Integration
+### Preprocessor Integration
 
 If you want to implement a preprocessor that has influence on the creation of views, for example, by changing the XML code, you can use function `getCacheKey`. With this function, the view can find out whether the preprocessor triggers changes that invalidate the cache. The function returns a cache key or a promise that resolves a cache key. For more information, see [API Reference: `sap.ui.core.mvc.View.Preprocessor`](https://ui5.sap.com/#/api/sap.ui.core.mvc.View.Preprocessor). 
 

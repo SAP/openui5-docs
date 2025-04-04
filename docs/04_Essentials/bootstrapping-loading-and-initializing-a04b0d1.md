@@ -1,6 +1,6 @@
 <!-- loioa04b0d10fb494d1cb722b9e341b584ba -->
 
-# Bootstrapping: Loading and Initializing
+## Bootstrapping: Loading and Initializing
 
 To use OpenUI5 features in your HTML page, you have to load and initialize the SAPUI5 library.
 
@@ -27,7 +27,7 @@ In addition to the above snippet, you can specify a set of OpenUI5 libraries wit
 
 <a name="loioa04b0d10fb494d1cb722b9e341b584ba__section_sct_d5h_4bc"/>
 
-## `Core.ready` State
+### `Core.ready` State
 
 After bootstrapping, if `sap-ui-on-init` has not been configured already, you can use the `sap/ui/core/Core` singleton to either `await` the Core's `ready` state or provide a callback function:
 
@@ -53,7 +53,7 @@ sap.ui.require(["sap/ui/core/Core"], async (Core) => {
 
 <a name="loioa04b0d10fb494d1cb722b9e341b584ba__section_OBBU"/>
 
-## Overview of Bootstrap Base URLs
+### Overview of Bootstrap Base URLs
 
 OpenUI5 provides several bootstrap URLs for different use cases. The following table gives an overview of the most important bootstrap base URLs:
 
@@ -139,7 +139,7 @@ Productive applications with available cache buster deployed
 
 <a name="loioa04b0d10fb494d1cb722b9e341b584ba__section_OBF"/>
 
-## Overview of Bootstrap Files
+### Overview of Bootstrap Files
 
 OpenUI5 provides several bootstrap files for different use cases. The following table gives an overview of the most important resources and the respective use cases. The resource names refer to the `resources/` folder in the OpenUI5 installation. You can find possible base URLs in [Overview of Bootstrap Base URLs](bootstrapping-loading-and-initializing-a04b0d1.md#loioa04b0d10fb494d1cb722b9e341b584ba__section_OBBU).
 

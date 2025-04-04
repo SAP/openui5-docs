@@ -1,35 +1,35 @@
 <!-- loio3e5f6f3e163f46ecaef376950258e5e4 -->
 
-# Step 8: Navigate with Flip Transition
+## Step 8: Navigate with Flip Transition
 
 In this step, we want to illustrate how to navigate to a page with a custom transition animation. Both forward and backward navigation will use the "flip" transition but with a different direction. We will create a simple link on the *Employee* view that triggers a flip navigation to a page that displays the resume data of a certain employee. Pressing the *Back* button will navigate back to the *Employee* view with a reversed flip transition.
 
 
 
-## Preview
+### Preview
 
   
   
 **Employee Details page with Flip to Resume link**
 
-![](images/Tutorial_Navigation_and_Routing_Step_08a_e56a3f0.png "Employee Details page with Flip to
+![](images/loioe56a3f094dbd4b01b8f6a1e57e9366d5_LowRes.png "Employee Details page with Flip to
 						Resume link")
 
   
   
 **Resume page with multiple tabs**
 
-![](images/Tutorial_Navigation_and_Routing_Step_08b_6ab9122.png "Resume page with multiple tabs")
+![](images/loio6ab9122f07db475c892926ed86ece7f7_LowRes.png "Resume page with multiple tabs")
 
   
   
 **Not Found page for resume**
 
-![](images/Tutorial_Navigation_and_Routing_Step_08c_36aff02.png "Not Found page for resume")
+![](images/loio36aff02e6b6e48f2aa097afa29f16cb4_LowRes.png "Not Found page for resume")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 8](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.08).
 
@@ -37,11 +37,11 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 **Folder structure for this step**
 
-![](images/Tutorial_Navigation_and_Routing_Step_08d_2ca76d0.png "Folder structure for this step")
+![](images/loio2ca76d0f0f3240318212047da0a10b7c_HiRes.png "Folder structure for this step")
 
 
 
-## webapp/view/employee/Employee.view.xml
+### webapp/view/employee/Employee.view.xml
 
 ```xml
 <mvc:View
@@ -81,7 +81,7 @@ First we add the *Flip to Resume* link to the *Employee Details* view to trigger
 
 
 
-## webapp/controller/employee/Employee.controller.js
+### webapp/controller/employee/Employee.controller.js
 
 ```js
 sap.ui.define([
@@ -114,7 +114,7 @@ Then we change the `Employee.controller.js` file by adding the press handler `on
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -211,7 +211,7 @@ The target `employeeResume` references the view `employee.Resume` that we are ab
 
 
 
-## webapp/view/employee/Resume.view.xml \(New\)
+### webapp/view/employee/Resume.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -256,7 +256,7 @@ In the `IconTabBar` we display four tabs. Three of them simply use a `Text` cont
 
 
 
-## webapp/controller/employee/Resume.controller.js \(New\)
+### webapp/controller/employee/Resume.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -299,7 +299,7 @@ Create a file `Resumee.controller.js` in the `webapp/controller/employee` folder
 
 
 
-## webapp/view/employee/ResumeProjects.view.xml \(New\)
+### webapp/view/employee/ResumeProjects.view.xml \(New\)
 
 ```xml
 
@@ -315,7 +315,7 @@ Create a file `ResumeProjects.view.xml` in the `webapp/view/employee` folder. Th
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...

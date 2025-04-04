@@ -1,13 +1,13 @@
 <!-- loio07e4b920f5734fd78fdaa236f26236d8 -->
 
-# Formatting, Parsing, and Validating Data
+## Formatting, Parsing, and Validating Data
 
 Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.
 
 
 
 ![When data is exchanged between the View and the Model, it often has to be converted by formatting, validating or
-                            parsing.](images/DataBinding_Formatter_40f0541.png)
+                            parsing.](images/loio40f0541313154bb0b5de72e2bd1c9207_LowRes.png)
 
 Formatters are used to define the formatting of data on the UI while data types work in both directions: they format the data on the UI and parse and validate user input that is entered.
 
@@ -22,7 +22,7 @@ If an error occurs during formatting or parsing, the following exception occurs:
 
 <a name="loio07e4b920f5734fd78fdaa236f26236d8__section_rgn_hc5_xcb"/>
 
-## Formatters
+### Formatters
 
 > ### Note:  
 > When using formatter functions, the binding is automatically switched to "one-way". So you can't use a formatter function for "two-way" scenarios, but you can use [Data Types](formatting-parsing-and-validating-data-07e4b92.md#loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes).
@@ -62,7 +62,7 @@ You can load the formatter via the [`require`](require-modules-in-xml-view-and-f
 
 
 
-### `this` Context for Formatter Functions
+#### `this` Context for Formatter Functions
 
 By default, formatter functions are bound to the control instance unless explicitly specified otherwise. However, when a formatter is accessed via dot notation, the `this` context is bound to the parent object.
 
@@ -83,7 +83,7 @@ To ensure that the `this` context remains bound to the control instance, you can
 
 
 
-### `.bind()` Syntax in Formatter Functions
+#### `.bind()` Syntax in Formatter Functions
 
 The `.bind()` method allows you to explicitly set the `this` context in formatter functions. Note that the `.bind()` method accepts only a single argument when used in formatter strings.
 
@@ -100,11 +100,11 @@ The following aguments are accepted:
 
 <a name="loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes"/>
 
-## Data Types
+### Data Types
 
 
 
-### Simple Types
+#### Simple Types
 
 If you also want to validate and parse input values, you use data types. All data types inherit from the abstract `sap.ui.model.Type` class.
 
@@ -146,7 +146,7 @@ For a complete list of all simple types, see [API Reference: `sap.ui.model.Type`
 
 
 
-### OData Types
+#### OData Types
 
 These types support OData V2 and V4 including relevant property facets as constraints. The OData types represent the OData EDM primitive types. For more information, see [Primitive Data Types in the OData documentation](http://www.odata.org/documentation/odata-version-2-0/overview/).
 
@@ -157,7 +157,7 @@ For a complete list of all OData types, see [API Reference: `sap.ui.model.odata.
 
 
 
-### Custom Data Types
+#### Custom Data Types
 
 You can also define a custom data type based on `sap.ui.model.SimpleType` by specifying a custom implementation for `formatValue`, `parseValue`, and `validateValue`:
 

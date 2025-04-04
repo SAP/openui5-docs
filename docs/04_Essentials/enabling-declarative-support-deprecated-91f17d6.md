@@ -1,6 +1,6 @@
 <!-- loio91f17d636f4d1014b6dd926db0e91070 -->
 
-# Enabling Declarative Support \(deprecated\)
+## Enabling Declarative Support \(deprecated\)
 
 Declarative support needs to be enabled in the HTML document by adding an attribute to the OpenUI5 bootstrap script tag.
 

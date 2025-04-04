@@ -1,6 +1,6 @@
 <!-- loio91f233476f4d1014b6dd926db0e91070 -->
 
-# Model View Controller \(MVC\)
+## Model View Controller \(MVC\)
 
 The Model View Controller \(MVC\) concept is used in OpenUI5 to separate the representation of information from the user interaction. This separation facilitates development and the changing of parts independently.
 
@@ -12,7 +12,7 @@ Model, view, and controller are assigned the following roles:
 
 
 
-![UI5 separates data model, UI view, and application logic (controller). ](images/SAPUI5_Model-View-Controller_Concept_1eb2161.png)
+![UI5 separates data model, UI view, and application logic (controller). ](images/loio1eb216151b1b41f1979b7b6c969670df_LowRes.png)
 
 
 

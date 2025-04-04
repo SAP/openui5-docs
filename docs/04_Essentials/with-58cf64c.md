@@ -1,6 +1,6 @@
 <!-- loio58cf64cbb951496a99ac94e01a0905b2 -->
 
-# with
+## with
 
 The `<template:with>` instruction can be used to change a variable's value or to add a variable with a new name.
 
@@ -15,7 +15,7 @@ If you omit the "var" attribute, the same model name will be reused; for example
 
 
 
-## "with" Template
+### "with" Template
 
 ```xml
 
@@ -46,7 +46,7 @@ It returns a path inside the meta model which refers to the corresponding proper
 
 
 
-## "with" Template Including Annotation Helper
+### "with" Template Including Annotation Helper
 
 ```xml
 

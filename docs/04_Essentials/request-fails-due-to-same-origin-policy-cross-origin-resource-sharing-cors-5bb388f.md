@@ -1,6 +1,6 @@
 <!-- loio5bb388fc289d44dca886c8fa25da466e -->
 
-# Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)
+## Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)
 
 If you use a remote URL in your code, for example a remote OData service, such as the publicly available Northwind OData service, the browser may refuse to connect to a remote URL. Due to the same-origin policy, browsers deny AJAX requests to service endpoints in case the service endpoint has a different domain/subdomain, protocol, or port than the app.
 
@@ -8,19 +8,19 @@ If you use a remote URL in your code, for example a remote OData service, such a
 
 <a name="loio5bb388fc289d44dca886c8fa25da466e__section_a3s_mvw_p1b"/>
 
-## Preview
+### Preview
 
   
   
 **Violations of the same-origin policy in Google Chrome**
 
-![](../03_Get-Started/images/Tutorial_Walkthrough_Step_26_CORS_2c36d72.png "Violations of the same-origin policy in Google Chrome")
+![](../03_Get-Started/images/loio2c36d72282e34903a97197783fe92122_HiRes.png "Violations of the same-origin policy in Google Chrome")
 
 
 
 <a name="loio5bb388fc289d44dca886c8fa25da466e__section_q5w_mvw_p1b"/>
 
-## Root Cause
+### Root Cause
 
 Normally, the remote system would be configured to send the cross-origin resource sharing \(CORS\) headers to make the browser also allow direct access to remote URLs. However, if you, for example, use a Northwind OData service, you cannot modify the publicly available service. Then when you try to execute XHR requests \(`XMLHttpRequest`\) the browser prevents the call due to the same-origin policy.
 
@@ -28,7 +28,7 @@ Normally, the remote system would be configured to send the cross-origin resourc
 
 <a name="loio5bb388fc289d44dca886c8fa25da466e__section_v4n_mvw_p1b"/>
 
-## Resolution
+### Resolution
 
 To solve the issue, you have the following options:
 
@@ -45,19 +45,19 @@ To solve the issue, you have the following options:
 
 <a name="loio5bb388fc289d44dca886c8fa25da466e__UsingHelperService"/>
 
-## SAP Business Application Studio: Configure a destination
+### SAP Business Application Studio: Configure a destination
 
 SAP Business Application Studio and SAP Business Technology Platform offer destinations that allow you to easily connect to remote systems. The destination to the Northwind OData service is an internet proxy made available inside the app. Any request that is sent to this location is forwarded to `https://services.odata.org` automatically.
 
 
 
-### Create Destination in SAP BTP Cockpit
+#### Create Destination in SAP BTP Cockpit
 
 The destination is configured inside the SAP BTP cockpit. For more information, see [Create a Destination in the SAP BTP cockpit](https://developers.sap.com/tutorials/cp-cf-create-destination.html).
 
 
 
-### manifest.json
+#### manifest.json
 
 In the `manifest.json` descriptor file of your app, you can now change the data source to use the remote destination, for example:
 
@@ -91,7 +91,7 @@ After this change, you can run the app in SAP Business Application Studio withou
 
 <a name="loio5bb388fc289d44dca886c8fa25da466e__CORSAnywhere"/>
 
-## Local Development: Configure a local proxy
+### Local Development: Configure a local proxy
 
 > ### Caution:  
 > Please note that any npm packages you install from third parties can not only modify your project but also execute arbitrary code on your system. Always act with the according care and follow best practices.
@@ -104,7 +104,7 @@ Prerequisites: NodeJS is installed on your machine.
 
 
 
-### package.json
+#### package.json
 
 ```json
 {
@@ -126,7 +126,7 @@ Add the `devDependency` called `"myProxy": "^x.y.z"` to your existing `package.j
 
 
 
-### proxy.js \(new\)
+#### proxy.js \(new\)
 
 ```js
 var cors_proxy = require('myProxy');
@@ -151,7 +151,7 @@ Create a new file `proxy.js`, and copy the above script into your project direct
 
 
 
-### manifest.json
+#### manifest.json
 
 ```json
 {
@@ -183,7 +183,7 @@ To use a service in the `local ui5 application` we have to change the `uri` in t
 
 <a name="loio5bb388fc289d44dca886c8fa25da466e__DisablingSameOriginPolicy"/>
 
-## Workaround: Disable the same-origin policy in the browser \(not recommended, only for testing\)
+### Workaround: Disable the same-origin policy in the browser \(not recommended, only for testing\)
 
 In Google Chrome, you can easily disable the same-origin policy of Chrome by running Chrome with the following command: `[your-path-to-chrome-installation-dir]\chrome.exe --disable-web-security --user-data-dir`. Make sure that all instances of Chrome are closed before you run the command. This allows all web sites to break out of the same-origin policy and connect to the remote service directly.
 

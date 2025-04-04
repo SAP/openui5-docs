@@ -1,24 +1,24 @@
 <!-- loio0dad01aa741c49508b74082dd9f8c9af -->
 
-# Step 20: Data Types \(TypeScript\)
+## Step 20: Data Types \(TypeScript\)
 
 The list of invoices is already looking nice, but what is an invoice without a price assigned? Typically prices are stored in a technical format and with a '`.`' delimiter in the data model. For example, our invoice for pineapples has the calculated price `87.2` without a currency. We are going to use the OpenUI5 data types to format the price properly, with a locale-dependent decimal separator and two digits after the separator.
 
 
 
-## Preview
+### Preview
 
   
   
 **The list of invoices with prices and number units**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_20_dc9e919.png "The list of invoices with prices and number units")
+![The graphic has an explanatory text.](images/loiodc9e919119564ddab78b8d0550ecfa9b_LowRes.png "The list of invoices with prices and number units")
 
 
 
 <a name="loio0dad01aa741c49508b74082dd9f8c9af__section_wqj_flk_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 20: Data Types](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/20) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-20.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 20: Data Types]
 
 <a name="loio0dad01aa741c49508b74082dd9f8c9af__section_ol1_zfz_nzb"/>
 
-## webapp/controller/InvoiceList.controller.ts \(New\)
+### webapp/controller/InvoiceList.controller.ts \(New\)
 
 We want to display in our list view the price in Euro, and typically the currency is part of our data model in the back end. Here this is not the case, so we need to define it directly in the app. We therefore create a controller for the invoice list and define a view model for the currency code for Euro. It is a simple JSON model with just one key `currency` and the value `EUR`.
 
@@ -52,7 +52,7 @@ export default class App extends Controller {
 
 <a name="loio0dad01aa741c49508b74082dd9f8c9af__section_xqj_flk_syb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 We add a reference to the invoice list controller to the view to get access to the view model we defined in the controller.
 
@@ -97,7 +97,7 @@ As you can see above, we use a special binding syntax for the `number` property 
 
 
 
-## Conventions
+### Conventions
 
 Use data types instead of custom formatters whenever possible.
 

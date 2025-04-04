@@ -1,6 +1,6 @@
 <!-- loiod23e2cf618a44382a203691e8a0baef4 -->
 
-# Fast Navigation
+## Fast Navigation
 
 Adjacent controls within the tab chain can be grouped for fast navigation using keyboard shortcuts.
 
@@ -8,7 +8,7 @@ Adjacent controls within the tab chain can be grouped for fast navigation using 
 
 <a name="loiod23e2cf618a44382a203691e8a0baef4__section_c3v_jlx_kwb"/>
 
-## Fast Navigation for Adjacent Groups
+### Fast Navigation for Adjacent Groups
 
 When the focus is on a control within a group and the user presses [F6\] or [Ctrl\] + [Alt/Option\] + [Down\] , all remaining controls within the group are skipped, and the focus moves to the first control of the next adjacent group.
 
@@ -16,7 +16,7 @@ When the focus is on a control within a group and the user presses [F6\] or [Ctr
 
 <a name="loiod23e2cf618a44382a203691e8a0baef4__section_ulv_qlx_kwb"/>
 
-## Fast Navigation for Nested Groups
+### Fast Navigation for Nested Groups
 
 Groups for fast navigation can also be nested. If the user presses the shortcut from within a nested group, the focus keeps moving along the tab chain until a control is reached that belongs to a different group. If, for example, no other adjacent nested group exists, the focus moves up to that control in the superordinate \(parent\) group which follows the nested group. In this case, other controls than the first control in a group could be in focus as well.
 
@@ -24,7 +24,7 @@ Groups for fast navigation can also be nested. If the user presses the shortcut 
 
 <a name="loiod23e2cf618a44382a203691e8a0baef4__section_s1z_slx_kwb"/>
 
-## Backward Fast Navigation
+### Backward Fast Navigation
 
 [Shift\] + [F6\]  or [Ctrl\] + [Alt/Option\] + [Up\]  move the focus back to a control of the previous group. The same constraints apply as for the forward navigation.
 
@@ -32,7 +32,7 @@ Groups for fast navigation can also be nested. If the user presses the shortcut 
 
 <a name="loiod23e2cf618a44382a203691e8a0baef4__section_mwt_vlx_kwb"/>
 
-## Example: Fast Navigation With Nested Groups
+### Example: Fast Navigation With Nested Groups
 
 The following image describes this behavior. Groups are highlighted in blue, elements in the tab chain are grey.
 
@@ -124,7 +124,7 @@ A search for the next control to focus on reaches the end of the tab chain and s
 </tr>
 </table>
 
-![](images/SAPUI5_Views_Fast_Navigation_e5e01dd.png)
+![](images/loioe5e01dd8d1594e608e697a2e30ac3bc6_LowRes.png)
 
 
 

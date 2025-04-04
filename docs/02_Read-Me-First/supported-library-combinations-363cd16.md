@@ -1,6 +1,6 @@
 <!-- loio363cd16eba1f45babe3f661f321a7820 -->
 
-# Supported Library Combinations
+## Supported Library Combinations
 
 OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.
 

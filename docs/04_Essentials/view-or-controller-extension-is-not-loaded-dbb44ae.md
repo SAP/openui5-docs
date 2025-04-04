@@ -1,12 +1,12 @@
 <!-- loiodbb44ae350ef456a9d1264d1a3f10718 -->
 
-# View or Controller Extension is Not Loaded
+## View or Controller Extension is Not Loaded
 
 You have extended a view or controller by defining `sap.ui5/extends/extensions/sap.ui.controllerExtensions` or `sap.ui5/extends/extensions/sap.ui.viewExtensions` in your Component's **manifest.json**, but at runtime neither are loaded.
 
 
 
-## Potential Root Causes
+### Potential Root Causes
 
 There are mainly two possible reasons why you might encounter this scenario:
 
@@ -17,11 +17,11 @@ There are mainly two possible reasons why you might encounter this scenario:
 
 
 
-## Resolution
+### Resolution
 
 
 
-### Wrong names and typos
+#### Wrong names and typos
 
 You can easily resolve the first possibility why an extension is not loaded and applied by checking for the correct spelling of view-, fragment- and controller names in your manifest. The framework can only find an extension if the artifact names are correctly maintained in the manifest.json.
 
@@ -30,7 +30,7 @@ You can easily resolve the first possibility why an extension is not loaded and 
 
 
 
-### Missing owner component
+#### Missing owner component
 
 The second possibility is also easily solvable by making sure that your views, fragments, or controllers are created in the correct owner-component scope.
 

@@ -1,28 +1,28 @@
 <!-- loio2ca583d6b9c24e4d8f189eada7c4b668 -->
 
-# Step 16: Adding the Date Formatter
+## Step 16: Adding the Date Formatter
 
 Our formatter does its job, but it is not yet used. In this step we will use it.
 
 
 
-## Preview
+### Preview
 
   
   
 **Date formatter in action**
 
-![](images/Tutorial_Testing_Step_16_9aa15b0.jpg "Date formatter in action")
+![](images/loio9aa15b0691014bd287a5a5d874f6f064_LowRes.jpg "Date formatter in action")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 16](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.16).
 
 
 
-## webapp/view/Post.view.xml
+### webapp/view/Post.view.xml
 
 ```xml
 …
@@ -53,7 +53,7 @@ On the *Info* tab we bind the date field to a format method `.formatter.date` of
 
 
 
-## webapp/model/formatter.js
+### webapp/model/formatter.js
 
 ```js
 sap.ui.define([ "sap/ui/demo/bulletinboard/model/DateFormatter" ], function (DateFormatter) {
@@ -82,7 +82,7 @@ Now run the app again to see that the formatter is applied on the post date of t
 
 <a name="loio2ca583d6b9c24e4d8f189eada7c4b668__section_ovt_b2t_qbb"/>
 
-## Summary
+### Summary
 
 You should now be familiar with the major development paradigms and concepts of OpenUI5 and have created a very simple first app. You are now ready to build a proper app based on what you've learned.
 

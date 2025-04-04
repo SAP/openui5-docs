@@ -1,6 +1,6 @@
 <!-- loio8fbf4e728bd146fcb2053aeb6ca741f9 -->
 
-# Providing Hooks in the Standard Controller
+## Providing Hooks in the Standard Controller
 
 Hooks are extension points in the controller code that are used to make controller extensions more stable.
 
@@ -16,7 +16,7 @@ The process for this is as follows:
 
 
 
-## Example
+### Example
 
 By receiving the data object `oSomeData` from the server, the application enables you to access and modify the data object. The extension function name is `onDataReceived` and gets a reference to the data object as argument.
 

@@ -1,6 +1,6 @@
 <!-- loiof94bf931b5d44d4893c811a31c63dac7 -->
 
-# What's New in OpenUI5 1.68
+## What's New in OpenUI5 1.68
 
 With this release OpenUI5 is upgraded from version 1.67 to 1.68.
 
@@ -156,7 +156,7 @@ Feature
 
 **`sap.ui.integration.widgets.Card`**
 
-Using our newly developed tool - Card Explorer - you can explore and learn more about the UI Integration Cards. You can find the Card Explorer in the tool section of the Demo Kit. ![](images/card_explorer_2bcad31.png)
+Using our newly developed tool - Card Explorer - you can explore and learn more about the UI Integration Cards. You can find the Card Explorer in the tool section of the Demo Kit. ![](images/loio2bcad31f5feb43f58aaa93271a469e0f_LowRes.png)
 
 For more information, see [Card Explorer](https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/index.html).
 
@@ -461,7 +461,7 @@ Feature
 
 To improve the visualization of borrowed *Properties*, *Aggregations*, and *Associations*, we added a checkbox that enables you to switch them on and off. Initially, the borrowed entities aren't displayed.
 
-![](images/What_s_New_1_68_-_Borrowed_entities_checkbox_33559e6.gif)
+![](images/loio33559e63a1064c56969fabd0e43426d8_HiRes.gif)
 
 **Web Page Title**
 

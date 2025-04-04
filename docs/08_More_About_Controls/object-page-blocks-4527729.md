@@ -1,6 +1,6 @@
 <!-- loio4527729576cb4a4888275b6935aad03a -->
 
-# Object Page Blocks
+## Object Page Blocks
 
 The contents of the subsections in the `ObjectPageLayout` control are organized into blocks.
 
@@ -10,7 +10,7 @@ The blocks are used to group the app content that is displayed in the sections a
   
 **Object Page content grouped in Blocks**
 
-![](images/Object_Page_Blocks_da91fe4.png "Object Page content grouped in Blocks")
+![](images/loioda91fe47966e4c43bd5fd1a318756c7d_HiRes.png "Object Page content grouped in Blocks")
 
 To add blocks, use the `blocks` aggregation of `sap.uxap.ObjectPageSubSection`:
 
@@ -41,7 +41,7 @@ Any control can be a block. However, the blocks that extend `sap.uxap.BlockBase`
 
 
 
-## Blocks API & Guidelines
+### Blocks API & Guidelines
 
 Blocks that are used in an `ObjectPageLayout` have to comply with the following rules regarding their API. They must:
 
@@ -135,7 +135,7 @@ In one backend service, goals may be a navigation property of employees, but in 
 
 
 
-## Standard Block Implementation
+### Standard Block Implementation
 
 The standard block implementation is to extend the `sap.uxap.BlockBase` control and inherit the default implementation of `setMode` and rendering. `setMode` in `BlockBase` supports two different ways of building blocks:
 

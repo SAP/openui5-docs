@@ -1,6 +1,6 @@
 <!-- loio8b49fc198bf04b2d9800fc37fecbb218 -->
 
-# Get Started: Setup, Tutorials, and Demo Apps
+## Get Started: Setup, Tutorials, and Demo Apps
 
 Set up your development environment and go through our tutorials. They introduce you to all major development paradigms of OpenUI5 using practical examples in an interactive format. The demo apps show OpenUI5 in action.
 
@@ -8,7 +8,7 @@ Set up your development environment and go through our tutorials. They introduce
 
 <a name="loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_prerequisites"/>
 
-## Prerequisites and Setup
+### Prerequisites and Setup
 
 -   You should be familiar with JavaScript.
 
@@ -21,16 +21,16 @@ Set up your development environment and go through our tutorials. They introduce
 
 <a name="loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_path"/>
 
-## Learning Path
+### Learning Path
 
 ![The tutorials are ordered with regard to increasing proficiency, starting with the basic Walkthrough and Concept
-							tutorials and concluding with the specialised App and Control tutorials.](images/Image_Map_OpenUI5_Learning_Map_024b7d8.png)
+							tutorials and concluding with the specialised App and Control tutorials.](images/loio024b7d89525741ae98661d3b7caf319d_LowRes.png)
 
 
 
 <a name="loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download"/>
 
-## Downloading Code for a Tutorial Step
+### Downloading Code for a Tutorial Step
 
 To download the code from the Demo Kit, follow these steps:
 
@@ -49,7 +49,7 @@ To download the code from the Demo Kit, follow these steps:
 
 <a name="loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_troubleshooting"/>
 
-## Troubleshooting
+### Troubleshooting
 
 If you get stuck, check the [Troubleshooting](../04_Essentials/troubleshooting-615d9e4.md) section under *Essentials*, or refer to the [Troubleshooting tutorial](troubleshooting-tutorial-5661952.md).
 
@@ -59,7 +59,7 @@ If you can't fix the problem, try downloading the solution of the previews or cu
 
 <a name="loio8b49fc198bf04b2d9800fc37fecbb218__section_fbp_hjc_tkb"/>
 
-## See OpenUI5 in Action - Our Demo Apps
+### See OpenUI5 in Action - Our Demo Apps
 
 If you want to see some practical examples for OpenUI5 apps, check out our [Demo Apps](https://ui5.sap.com/#/demoapps). These are fully-functional apps that showcase certain floorplans, control libraries, or other OpenUI5 features. You can also download the source code of each demo app to find out how everything works together. Feel free to explore!
 

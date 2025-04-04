@@ -1,6 +1,6 @@
 <!-- loio7c927aa3669249aeb1c2375907c048b6 -->
 
-# What's New in OpenUI5 1.58
+## What's New in OpenUI5 1.58
 
 With this release OpenUI5 is upgraded from version 1.56 to 1.58.
 
@@ -74,14 +74,14 @@ Feature
 
 -   A **rule preset management***My Selection*.
 
-    ![](images/Support_Assistant_Rule_Presets_7ec5783.png)
+    ![](images/loio7ec578324dce47239eb80b997494089f_HiRes.png)
 
     > ### Note:  
     > To make sure that your last selection remains available for future use, choose *I agree to use local storage persistency* in the Support Assistant Settings menu.
 
 -   An **ID field** has been added to the *Export a Rule Preset* dialog. The ID is a string of alphanumeric symbols added manually by the user when creating a rule preset. It is useful in case you want to collect data and generate reports on specific rule preset executions within your organization.
 
-    ![](images/Support_Assistant_Rule_Preset_ID_ed742b6.png)
+    ![](images/loioed742b68d91044a890eea023741b9c9d_HiRes.png)
 
     For more information, see [Rules Management](../04_Essentials/rules-management-3fc864a.md).
 
@@ -95,7 +95,7 @@ The Support Assistant now allows you to personalize the *Rules View* by:
 -   Sorting the information within a column or filtering it by keyword. To access these options, click on a column header. A dropdown menu opens from which you can choose the desired action.
 
 
-![](images/Support_Assistant_Columns_Personalization_and_Filtering_baf460d.png)
+![](images/loiobaf460d2ca344bb3a6c2655fff96facc_HiRes.png)
 
 For more information, see [Rules Management](../04_Essentials/rules-management-3fc864a.md).
 
@@ -144,7 +144,7 @@ The latest version 0.9.5 of the UI5 Inspector includes two main features:
 
 -   In previous versions, the UI5 Inspector did not properly display composite binding structures. Now it shows all parts of the bindings on the *Bindings* tab, including individual models, paths, and values. Clicking on the model link displays the whole model with all values.
 
-    ![](images/UI5_Inspector_Binding_460e1e3.png)
+    ![](images/loio460e1e3933a14e9cb5358b2a55317485_HiRes.png)
 
 
 For more information, see [UI5 Inspector](../04_Essentials/ui5-inspector-b24e724.md).
@@ -753,7 +753,7 @@ Control
 
 All overflowing tokens are now available in a separate popover indicated with an *N-more* label, which serves as an opening trigger. This behavior is used to replace the multi-line mode for both controls, which is now deprecated.
 
-![](images/Nmore_Label_a9a6a77.png)
+![](images/loioa9a6a77a29c547feb1a9859636e05632_HiRes.png)
 
 <sub>Changed•Control•Info Only•1.58</sub>
 
@@ -1352,7 +1352,7 @@ Feature
 
 Until now the *API Reference* tree displayed by default all APIs including deprecated ones. Now we've added an *Include deprecated* checkbox above the tree that allows you to choose whether to see the full list. If it's selected, the deprecated items are displayed in the tree with the label *Deprecated* so you can easily identify them without opening each class.
 
-![](images/Demo_Kit_Deprecated_items_included_6d95e67.png)
+![](images/loio6d95e67e41c041588ce453ca5ea8e25e_HiRes.png)
 
 <sub>New•Feature•Info Only•1.58</sub>
 

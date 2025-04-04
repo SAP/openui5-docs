@@ -1,6 +1,6 @@
 <!-- loio17b87fbafb5a4474982760d2a3a73e69 -->
 
-# Step 13: Margins and Paddings
+## Step 13: Margins and Paddings
 
 Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.
 
@@ -8,19 +8,19 @@ Instead of manually adding CSS to the controls, we will use the standard classes
 
 
 
-## Preview
+### Preview
 
   
   
 **The layout of the panel and its content now has margins and padding**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_13_0becf3e.png "The layout of the panel and its content now has margins and padding")
+![The graphic has an explanatory text.](images/loio0becf3ee81f5486a864e3b39ba036402_LowRes.png "The layout of the panel and its content now has margins and padding")
 
 
 
 <a name="loio17b87fbafb5a4474982760d2a3a73e69__section_wl1_jq2_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 13](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.13).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Walkthrough - Step 13](https://ui5.sap.c
 
 <a name="loio17b87fbafb5a4474982760d2a3a73e69__section_xl1_jq2_syb"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -77,7 +77,7 @@ To format the output text individually, we remove the description from the input
 
 
 
-## Conventions
+### Conventions
 
 -   Use the standard OpenUI5 CSS classes for the layout if possible.
 

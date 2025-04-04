@@ -1,24 +1,24 @@
 <!-- loio61d4e2b154a7449da198577dfbc75a22 -->
 
-# Step 22: Custom Formatters \(TypeScript\)
+## Step 22: Custom Formatters \(TypeScript\)
 
 If we want to do a more complex logic for formatting properties of our data model, we can also write a custom formatting function. We will now add a localized status with a custom formatter, because the status in our data model is in a rather technical format.
 
 
 
-## Preview
+### Preview
 
   
   
 **A status is now displayed with a custom formatter**
 
-![A list of invoices is displayed below the panel](images/UI5_Walkthrough_Step_22_7aa185a.png "A status is now displayed with a custom formatter")
+![A list of invoices is displayed below the panel](images/loio7aa185a90dd7495cb6ec30c96bc80a54_LowRes.png "A status is now displayed with a custom formatter")
 
 
 
 <a name="loio61d4e2b154a7449da198577dfbc75a22__section_lp1_2nk_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 22: Custom Formatters](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/22) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-22.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 22: Custom Form
 
 <a name="loio61d4e2b154a7449da198577dfbc75a22__section_sxs_4kz_nzb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 We add three new entries to the resource bundle that reflect our translated status texts 'New', 'In Progess', and 'Done'. We will use these texts to format the status values 'A', 'B', and 'C' of our invoices when displayed in the invoice list view.
 
@@ -45,7 +45,7 @@ invoiceStatusC=Done
 
 <a name="loio61d4e2b154a7449da198577dfbc75a22__section_mp1_2nk_syb"/>
 
-## webapp/model/formatter.ts \(New\)
+### webapp/model/formatter.ts \(New\)
 
 We place a new `formatter.ts` file in the model folder of the app, This time we do not need to extend from any base object, but just return an object with our `formatter` functions in it. We add a `statusText` function that gets a status as input parameter and returns a human-readable text that is read from the `resourceBundle` file.
 
@@ -83,7 +83,7 @@ The new `formatter.ts` file is placed in the `model` folder of the app, because 
 
 
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 To load our formatter functions, we use the [`require`](../04_Essentials/require-modules-in-xml-view-and-fragment-b11d853.md) attribute with the `sap.ui.core` namespace URI, for which the `core` prefix is already defined in our XML view. This allows us to write the attribute as `core:require`. We then add our custom formatter module to the list of required modules and assign it the `Formatter` alias, making it available for use within the view.
 

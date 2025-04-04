@@ -1,6 +1,6 @@
 <!-- loiob5a51358b3574aea9143fa50ae4e0e2a -->
 
-# Create a Ruleset for a Library
+## Create a Ruleset for a Library
 
 The Support Assistant allows you to create your own ruleset.
 
@@ -8,7 +8,7 @@ The Support Assistant allows you to create your own ruleset.
 
 <a name="loiob5a51358b3574aea9143fa50ae4e0e2a__section_lqs_mmh_vbb"/>
 
-## Choose Your Ruleset Location
+### Choose Your Ruleset Location
 
 A ruleset is a `library.support.js` file that defines an object `name` and `niceName` and returns a set of rules. Before you create a rule, you need to create a ruleset at a specific location. You can follow these steps as an example:
 
@@ -83,7 +83,7 @@ Reuse library
 
 <a name="loiob5a51358b3574aea9143fa50ae4e0e2a__section_oq3_fbp_vcb"/>
 
-## Add `.supportrc` file
+### Add `.supportrc` file
 
 Each library should have a `.supportrc` file placed at its root folder. It is a simple JSON file specifying availability of public and internal rules per library. The `.supportrc` file defines whether to load ruleset files of the respective library. This reduces the number of redundant requests to load the respective ruleset library files.
 
@@ -104,7 +104,7 @@ Here is an example of `.supportrc file`:
 
 <a name="loiob5a51358b3574aea9143fa50ae4e0e2a__section_ugb_whc_wbb"/>
 
-## Add `SupportLib`
+### Add `SupportLib`
 
 Once you choose the correct location for the `library.support.js`, the next step is to add the `SupportLib`. It provides a set of constants and enumerations you can use to define the rules inside the `library.support.js`. After creating your rules, return an object holding all of them and a `name/niceName` to specify their library.
 
@@ -145,7 +145,7 @@ sap.ui.define(["sap/ui/support/library"],
 
 <a name="loiob5a51358b3574aea9143fa50ae4e0e2a__section_knl_d3c_wbb"/>
 
-## Create Helper Functions \(Optional\)
+### Create Helper Functions \(Optional\)
 
 When creating a more complex ruleset, you may need to create helper functions. It is recommended that those helper functions are separated into a different file that ends in `.support.js` and is located in the same folder as the ruleset.
 
@@ -156,7 +156,7 @@ When creating a more complex ruleset, you may need to create helper functions. I
 
 <a name="loiob5a51358b3574aea9143fa50ae4e0e2a__section_fxb_g3c_wbb"/>
 
-## Split `library.support.js` \(Optional\)
+### Split `library.support.js` \(Optional\)
 
 You can also split a `library.support.js` into multiple files.
 

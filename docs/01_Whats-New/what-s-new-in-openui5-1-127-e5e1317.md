@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# What's New in OpenUI5 1.127
+## What's New in OpenUI5 1.127
 
 With this release OpenUI5 is upgraded from version 1.126 to 1.127.
 

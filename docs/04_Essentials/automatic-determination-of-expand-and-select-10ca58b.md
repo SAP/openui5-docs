@@ -1,6 +1,6 @@
 <!-- loio10ca58b701414f7f93cd97156f898f80 -->
 
-# Automatic determination of $expand and $select
+## Automatic determination of $expand and $select
 
 With automatic determination of `$expand` and `$select` \("auto-$expand/$select" in short\), the OData V4 Model computes `$expand` and `$select` query options for service requests from binding paths specified for control properties. This has the following advantages:
 

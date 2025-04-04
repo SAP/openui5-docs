@@ -1,6 +1,6 @@
 <!-- loio7048ca960fce454896d1526f82a7c8ae -->
 
-# OpenUI5 Accessibility Features
+## OpenUI5 Accessibility Features
 
 OpenUI5 supports many accessibility features on a framework level.
 

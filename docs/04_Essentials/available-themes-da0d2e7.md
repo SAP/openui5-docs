@@ -1,6 +1,6 @@
 <!-- loioda0d2e78e5414e199507cd6365d3add2 -->
 
-# Available Themes
+## Available Themes
 
 Provides a list of themes and their names.
 

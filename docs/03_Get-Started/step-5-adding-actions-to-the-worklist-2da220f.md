@@ -1,28 +1,28 @@
 <!-- loio2da220ff496c4b0f9ce29208cbd089f3 -->
 
-# Step 5: Adding Actions to the Worklist
+## Step 5: Adding Actions to the Worklist
 
 Now we can easily spot shortages on our stock, but we would also like to take action and resolve it. Either we can decide to remove the product until the shortage is resolved or order new items of the product. In this step, we will add these actions to the footer of the worklist table.
 
 
 
-## Preview
+### Preview
 
   
   
 **Actions are now available in the footer bar**
 
-![](images/Tutorial_Worklist_Step_5_Preview_016d473.png "Actions are now available in the footer bar")
+![](images/loio016d473029e04ec9be5ed43fa897e69b_HiRes.png "Actions are now available in the footer bar")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 5](https://ui5.sap.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.05).
 
 
 
-### webapp/view/Worklist.view.xml \[MODIFY\]
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ```xml
 ...
@@ -53,7 +53,7 @@ We change the table `mode` to `MultiSelect`. This allows you to select multiple 
 
 
 
-### webapp/view/Worklist.view.xml \[MODIFY\]
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -90,7 +90,7 @@ Now we add the buttons to the footer bar of the page. The two semantic actions `
 
 
 
-### webapp/controller/Worklist.controller.js \[MODIFY\]
+#### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -242,7 +242,7 @@ In a real scenario, you could have a counter for error responses, and one for su
 
 
 
-### webapp/i18n/i18n.properties \[MODIFY\]
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ```ini
 

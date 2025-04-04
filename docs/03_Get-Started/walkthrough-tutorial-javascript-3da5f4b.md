@@ -1,6 +1,6 @@
 <!-- loio3da5f4be63264db99f2e5b04c5e853db -->
 
-# Walkthrough Tutorial \(JavaScript\)
+## Walkthrough Tutorial \(JavaScript\)
 
 In this tutorial we will introduce you to all major development paradigms of OpenUI5.
 
@@ -8,9 +8,9 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 
 
 
-## Preview
+### Preview
 
-![Preview of the UI5 application that is going to be built in this tutorial. Contains a Hello World header with buttons and a text input field. The lower part shows a list of invoices with details, grouped by vendor names.](images/UI5_Walkthrough_Step_38_fb12cea.png)
+![Preview of the UI5 application that is going to be built in this tutorial. Contains a Hello World header with buttons and a text input field. The lower part shows a list of invoices with details, grouped by vendor names.](images/loiofb12cea5ac9b45bb9007aac5a1a8689f_LowRes.png)
 
 
 

@@ -1,6 +1,6 @@
 <!-- loioe9fc648661d84ed89360bbec3ae02611 -->
 
-# Setting Themes
+## Setting Themes
 
 You define which theme is used by your app either by using the `theme` configuration parameter or the `sap/ui/core/Theming.setTheme` method.
 
@@ -35,7 +35,7 @@ You define which theme is used by your app either by using the `theme` configura
 
 
 
-## Using Custom Themes
+### Using Custom Themes
 
 To load an external custom theme, you can either declare it statically on the page or by setting the `theme-root` configuration parameter.
 
@@ -79,7 +79,7 @@ To load an external custom theme, you can either declare it statically on the pa
 
 <a name="loioe9fc648661d84ed89360bbec3ae02611__section_TOA"/>
 
-## Theme Origin Allowlist
+### Theme Origin Allowlist
 
 When configuring a theme with a `themeRoot` URL via the `theme` parameter, security restrictions apply. Absolute URLs to an origin other than the current page are cut off by default. The path segment will be resolved relative to the current page origin.
 
@@ -98,7 +98,7 @@ This allows you to load a theme from `https://example.com`, which is provided vi
 
 
 
-## Listening to the `Theming.applied` Event
+### Listening to the `Theming.applied` Event
 
 Whenever the theme is switched, an event is fired indicating that a theme switch has been triggered. If your application needs to take theming into consideration, attach an event handler, like this:
 

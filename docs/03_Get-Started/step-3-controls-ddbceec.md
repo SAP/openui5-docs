@@ -1,25 +1,25 @@
 <!-- loioddbceecd7d3d42eea9cf78a820a238fb -->
 
-# Step 3: Controls
+## Step 3: Controls
 
 Now it is time to build our first little UI by replacing the "Hello World" text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the JavaScript control API to set up the UI, the control instance is then placed into the HTML body.
 
 
 
-## Preview
+### Preview
 
   
   
 **The "Hello World" text is now displayed by a OpenUI5 control**
 
-![Hello World](images/UI5_Walkthrough_Step_03_30a42d3.png "The "Hello World" text is now displayed by a OpenUI5
+![Hello World](images/loio30a42d381b9e4388bf7fdc0b941e5381_LowRes.png "The "Hello World" text is now displayed by a OpenUI5
 					control")
 
 
 
 <a name="loioddbceecd7d3d42eea9cf78a820a238fb__section_ccm_jyv_xfb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 3](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.03).
 
@@ -27,7 +27,7 @@ You can view and download all files at [Walkthrough - Step 3](https://ui5.sap.co
 
 <a name="loioddbceecd7d3d42eea9cf78a820a238fb__section_dcm_jyv_xfb"/>
 
-## webapp/index.html
+### webapp/index.html
 
 ```html
 <!DOCTYPE html>
@@ -59,7 +59,7 @@ The class `sapUiBody` adds additional theme-dependent styles for displaying Open
 
 <a name="loioddbceecd7d3d42eea9cf78a820a238fb__section_yk4_kyv_xfb"/>
 
-## webapp/index.js
+### webapp/index.js
 
 ```js
 sap.ui.define([

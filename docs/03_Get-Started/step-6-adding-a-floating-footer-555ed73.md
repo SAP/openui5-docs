@@ -1,6 +1,6 @@
 <!-- loio555ed73903b34c70a23ba13af1a5d71e -->
 
-# Step 6: Adding a Floating Footer
+## Step 6: Adding a Floating Footer
 
 In this step, we add a floating footer to the detail page.
 
@@ -8,19 +8,19 @@ In this step, we add a floating footer to the detail page.
 
 <a name="loio555ed73903b34c70a23ba13af1a5d71e__section_ed2_4dd_lbb"/>
 
-## Preview
+### Preview
 
   
   
 **ObjectPageLayout with a floating footer**
 
-![](images/Floating_Footer_Fiori_2_0_Tutorial_24122e0.png "ObjectPageLayout with a floating footer")
+![](images/loio24122e039ed14a7a874ec26d0cf51614_LowRes.png "ObjectPageLayout with a floating footer")
 
 
 
 <a name="loio555ed73903b34c70a23ba13af1a5d71e__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 6](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.06/preview).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Flexible Column Layout App - Step 6](htt
 
 <a name="loio555ed73903b34c70a23ba13af1a5d71e__section_jtj_mnj_l4b"/>
 
-## webapp/view/App.view.xml \[MODIFY\]
+### webapp/view/App.view.xml \[MODIFY\]
 
 ```
 <mvc:View
@@ -53,7 +53,7 @@ First, we communicate changes to the layout with the use of the `stateChange` ev
 
 <a name="loio555ed73903b34c70a23ba13af1a5d71e__section_dp4_lnj_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```
 		...
@@ -76,7 +76,7 @@ We add a footer inside the `sap.uxap.ObjectPageLayout`.
 
 <a name="loio555ed73903b34c70a23ba13af1a5d71e__section_nq4_knj_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -122,7 +122,7 @@ We add a `press` event handler to the *Edit* button.
 
 <a name="loio555ed73903b34c70a23ba13af1a5d71e__section_z1v_jnj_l4b"/>
 
-## webapp/controller/Detail.controller.js \[NEW\]
+### webapp/controller/Detail.controller.js \[NEW\]
 
 ```js
 sap.ui.define([

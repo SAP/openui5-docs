@@ -1,6 +1,6 @@
 <!-- loio9feb96da02c2429bb1afcf6534d77c79 -->
 
-# Compatibility Version Information
+## Compatibility Version Information
 
 Compatibility version flags were introduced to allow applications to react to incompatible changes in OpenUI5.
 
@@ -13,7 +13,7 @@ Compatibility version flags were introduced to allow applications to react to in
 
 <a name="loio9feb96da02c2429bb1afcf6534d77c79__section_dxf_c4r_zcc"/>
 
-## Previous Function of the Compatibility Version Flag \(deprecated\)
+### Previous Function of the Compatibility Version Flag \(deprecated\)
 
 As described in the compatibility rules, changes to OpenUI5 features are compatible; see [Compatibility Rules](../02_Read-Me-First/compatibility-rules-91f0873.md) for more information. In some cases, however, it used to make sense to change the behavior of a feature, for example, in order to change the default values or to use an optimized implementation. These changes could result in incompatibilities.
 

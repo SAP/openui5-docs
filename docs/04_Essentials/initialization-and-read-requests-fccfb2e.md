@@ -1,6 +1,6 @@
 <!-- loiofccfb2eb41414f0792c165e69a878717 -->
 
-# Initialization and Read Requests
+## Initialization and Read Requests
 
 
 
@@ -39,7 +39,7 @@ You can refresh all bindings with `ODataModel.refresh`, see [ODataModel.refresh]
 
 
 
-### Refresh a single entity
+#### Refresh a single entity
 
 You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#refresh`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/refresh) or the bound context or return value context of an [`sap.ui.model.odata.v4.ODataListBinding`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding/overview) which corresponds to this entity. This also refreshes all dependent bindings of its contexts.
 
@@ -70,7 +70,7 @@ You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#r
 
 
 
-### Allow removal of a single entity when refreshing
+#### Allow removal of a single entity when refreshing
 
 After updating an entity, it may no longer match the query options for the collection which loaded the entity, in particular `$filter`. You can decide whether the refresh on the context of a list binding should ignore the query options or not: The corresponding context may be removed from the list binding for the collection by setting the parameter `bAllowRemoval` to `true`.
 
@@ -134,7 +134,7 @@ The lower table for the line items has a relative binding. As it has parameters 
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_fkt_g1r_mgb"/>
 
-## Property Binding to Metadata
+### Property Binding to Metadata
 
 You can use `##` in a property binding's path to branch from data into metadata.
 
@@ -156,7 +156,7 @@ For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://ui5.s
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_PBOV"/>
 
-## Property Binding With an Object Value
+### Property Binding With an Object Value
 
 A property binding can have an object value if the target type specified in the corresponding control property's binding info is "any" and the binding is relative or points to metadata. The binding's mode has to be `OneTime`, see [sap.ui.model.BindingMode](https://ui5.sap.com/#/api/sap.ui.model.BindingMode), unless the binding is for an action advertisement.
 
@@ -177,7 +177,7 @@ For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://ui5.s
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_SE"/>
 
-## Side Effects
+### Side Effects
 
 Editing properties of an entity sometimes causes side effects on other properties within the same or a related entity. Normally, a `PATCH` request which sends the user's input to the server includes side effects for the same entity \(if relevant for the UI\) within its response. Sometimes, however, an application needs more control on how and when this happens, or needs side effects on related entities as well.
 
@@ -206,7 +206,7 @@ The `sap.ui.model.odata.v4.Context#requestSideEffects` API requires a single arr
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_uz4_fzq_xlb"/>
 
-## Paging
+### Paging
 
 The OData V4 model automatically determines the system query options `$top` and `$skip` based on the data range requested by the control or the application. In the example below, the resulting first request is `GET People('angelhuffman')/Friends?$expand=Friends&$skip=0&$top=107`. The value for `$top` is calculated from the length of the requested data \(7\) plus the prefetch size provided by the control \(100\). Note that adding `$top` and`$skip` for a nested collection is not supported.
 

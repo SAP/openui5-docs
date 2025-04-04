@@ -1,6 +1,6 @@
 <!-- loio74142a38e3d4467c8d6a70b28764048f -->
 
-# Batch Control
+## Batch Control
 
 OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests \(see the link under Related Information for more details\).
 
@@ -77,13 +77,13 @@ For explicit requests, the group ID can be specified as an optional parameter to
 
 
 
-## Change Sets and Order of Requests Inside a Batch Request
+### Change Sets and Order of Requests Inside a Batch Request
 
 The OData V4 model automatically puts all non-GET requests into a single change set, which is located at the beginning of a batch request. All GET requests are put after it. If there is only a single request within the change set, it is replaced by that single request when submitting the batch group \(saves overhead on the wire\). PATCH requests for the same entity are merged into a single request.
 
 
 
-## Resetting Property Changes
+### Resetting Property Changes
 
 You can set an update group ID for a binding so that property changes are collected in a batch queue. The `ODataModel.submitBatch` method sends all these changes for a given batch group at once and the `ODataModel.resetChanges` method resets the changes. With these methods, you can, for example, implement a *Save* and a *Cancel* button for a form: *Save* initiates `submitBatch`, and *Cancel* initiates *resetChanges*.
 
@@ -97,7 +97,7 @@ The list and context binding also offer the `resetChanges` method which resets c
 
 
 
-### Example: View
+#### Example: View
 
 ```js
 
@@ -117,7 +117,7 @@ The list and context binding also offer the `resetChanges` method which resets c
 
 
 
-### Example: Controller
+#### Example: Controller
 
 ```js
 onCancelSalesOrder : function (oEvent) {
@@ -138,7 +138,7 @@ onSaveSalesOrder : function (oEvent) {
 
 <a name="loio74142a38e3d4467c8d6a70b28764048f__section_cyg_3pw_vhb"/>
 
-## Repeating Property Changes
+### Repeating Property Changes
 
 The OData V4 model automatically repeats failed property changes \(PATCH requests\). If the update group ID has [SubmitMode.API](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.SubmitMode.API) and the property change of the entity on the server fails, the change is repeated with the next call of [ODataModel.submitBatch](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) for this group. If the update group ID has [SubmitMode.Auto](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.SubmitMode.Auto) or [SubmitMode.Direct](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.SubmitMode.Direct) and the change fails, the change is repeated automatically with the next update for the entity. Since 1.67.0, [ODataModel.submitBatch](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) can also be used for update group IDs with [SubmitMode.Auto](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.SubmitMode.Auto) in order to repeat, independently of an update.
 
@@ -155,7 +155,7 @@ When calling [`v4.Context#requestSideEffects`](https://ui5.sap.com/#/api/sap.ui.
 
 <a name="loio74142a38e3d4467c8d6a70b28764048f__section_e1x_pfg_1cb"/>
 
-## Define submit mode for an application group ID
+### Define submit mode for an application group ID
 
 
 

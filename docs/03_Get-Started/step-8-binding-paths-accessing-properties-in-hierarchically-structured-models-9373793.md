@@ -1,22 +1,22 @@
 <!-- loio9373793b290d429ba1bc6aea1ce5482f -->
 
-# Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models
+## Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models
 
 In Step 6 , we stated that the fields in a resource model are arranged in a flat structure; in other words, there is no hierarchy of properties. However, this is only true for resource models. The properties within JSON and OData models are usually arranged in a hierarchical structure. So, let's explore how to reference fields in a hierarchically structured model object.
 
 
 
-## Preview
+### Preview
 
   
   
 **A second panel with address data is added**
 
-![The graphic has an explanatory text](images/Tutorial_Data_Binding_Step_8_12705f5.png " A second panel with address data is added")
+![The graphic has an explanatory text](images/loio12705f5341f24febb905a50d37bf32db_LowRes.png " A second panel with address data is added")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 8](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.08).
 

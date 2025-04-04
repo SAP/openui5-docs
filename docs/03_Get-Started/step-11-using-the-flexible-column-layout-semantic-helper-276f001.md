@@ -1,6 +1,6 @@
 <!-- loio276f001c5a934f6e8faedee6ea22aba1 -->
 
-# Step 11: Using the Flexible Column Layout Semantic Helper
+## Step 11: Using the Flexible Column Layout Semantic Helper
 
 In this step, we use the `sap.f.FlexibleColumnLayoutSemanticHelper` class to implement the recommended UX patterns for layout changes in the app.
 
@@ -15,19 +15,19 @@ For more information, see [Flexible Column Layout Semantic Helper](../08_More_Ab
 
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__section_yfh_d31_12b"/>
 
-## Preview
+### Preview
 
   
   
 **List-detail-detail pattern using sap.f.FlexibleColumnLayoutSemanticHelper**
 
-![](images/With_Semantic_Helper_Fiori_2_0_Tutorial_fd98e0d.gif "List-detail-detail pattern using sap.f.FlexibleColumnLayoutSemanticHelper")
+![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_LowRes.gif "List-detail-detail pattern using sap.f.FlexibleColumnLayoutSemanticHelper")
 
 
 
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 11](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.11/preview).
 
@@ -35,7 +35,7 @@ You can view and download all files at [Flexible Column Layout App - Step 11](ht
 
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__section_zv4_spj_l4b"/>
 
-## webapp/Component.js \[MODIFY\]
+### webapp/Component.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -122,7 +122,7 @@ First, we add a `getHelper` function in the `Component.js` file in order to pass
 
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__section_whp_rpj_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 				...
@@ -186,7 +186,7 @@ We add navigation actions for entering and exiting fullscreen and closing the co
 
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__section_f1n_qpj_l4b"/>
 
-## webapp/controller/Detail.controller.js \[MODIFY\]
+### webapp/controller/Detail.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -265,7 +265,7 @@ We create the handlers needed for the navigation actions.
 
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__section_vjq_ppj_l4b"/>
 
-## webapp/view/DetailDetail.view.xml \[MODIFY\]
+### webapp/view/DetailDetail.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -317,7 +317,7 @@ Again, we add navigation actions for entering and exiting fullscreen and closing
 
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__section_alt_4pj_l4b"/>
 
-## webapp/controller/DetailDetail.controller.js \[MODIFY\]
+### webapp/controller/DetailDetail.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -381,7 +381,7 @@ And respectively, we create the handlers needed for the navigation actions in th
 
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__section_t4v_npj_l4b"/>
 
-## webapp/controller/List.controller.js \[MODIFY\]
+### webapp/controller/List.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -447,7 +447,7 @@ We get the next layout from the semantic helper rather than hard coding them our
 
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__section_rds_mpj_l4b"/>
 
-## webapp/controller/App.controller.js \[MODIFY\]
+### webapp/controller/App.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([

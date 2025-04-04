@@ -1,12 +1,12 @@
 <!-- loioce4b180d97064ad088a901b53ed48b21 -->
 
-# Cookbook for OPA5
+## Cookbook for OPA5
 
 Advanced topics and best practices for OPA tests.
 
 
 
-## Executing a Single Statement After Other `waitFors` are Done
+### Executing a Single Statement After Other `waitFors` are Done
 
 If you skip all parameters except for the `success` parameter, you can execute your code after the other `waitFors` are done. Since there is no `check` function, OPA runs directly to `success`.
 
@@ -23,7 +23,7 @@ iChangeTheHashToTheThirdProduct : function () {
 
 
 
-## Passing a Parameter from One `waitFor` to Another
+### Passing a Parameter from One `waitFor` to Another
 
 To check special conditions, for example, how one control relates to another control, you have to pass a control found in one `waitFor` statement as input for another `waitFor` statement. The following two options exist:
 
@@ -62,7 +62,7 @@ iDoSomething: function () {
 
 <a name="loioce4b180d97064ad088a901b53ed48b21__section_abh_nmk_b1b"/>
 
-## Application Parameters
+### Application Parameters
 
 As of version 1.48, you can easily specify URL parameters that are relevant for the application being tested. Simply place them in the `appParams` object under `Opa5.extendConfig()`. Only primitive types are supported. The provided object is serialized to URL search string and all parameters are available to the application being tested.
 
@@ -82,7 +82,7 @@ For more details, see the *API Reference* for [`Opa5`](https://ui5.sap.com/#/api
 
 <a name="loioce4b180d97064ad088a901b53ed48b21__section_fr2_qqk_b1b"/>
 
-## URL Parameters
+### URL Parameters
 
 As of version 1.48, OPA supports overwriting global configuration parameters for a single execution from URL. On startup, OPA parses `window.location.search` and extracts all search parameters starting with 'opa'. The prefix is removed and the resulting string has its first character changed to lower case. For example, the `?opaExecutionDelay=600` string in a URL sets the value of `executionDelay` to 600 ms. All OPA config parameters of primitive string and number types that are documented in `Opa.resetConfig()` could be overwritten.
 
@@ -94,7 +94,7 @@ For more details, see the *API Reference*: [`Opa5.extendConfig()`](https://ui5.s
 
 <a name="loioce4b180d97064ad088a901b53ed48b21__section_ahv_ywt_sbb"/>
 
-## Working with Message Toasts
+### Working with Message Toasts
 
 A message toast is a small, non-disruptive popup for displaying information or success messages. Message toasts automatically disappear after a timeout unless the user moves the mouse over the message or taps on it.
 
@@ -134,7 +134,7 @@ iShouldSeeMessageToastAppearance: function () {
 
 <a name="loioce4b180d97064ad088a901b53ed48b21__section_yy3_5gr_p2b"/>
 
-## Working with Busy Controls
+### Working with Busy Controls
 
 There are OPA5 rules that limit the ways you can use busy controls. Some OPA5 features prevent you from locating controls while they are busy. For example, actions require that the control is interactable and therefore not busy and `autoWait` ensures that all controls on the page are interactable. You can't test a control in its busy state when these features are enabled. You can always work with controls that are not busy as OPA5 either waits for them to become interactable \(and not busy\) or enforces no restrictions.
 
@@ -304,7 +304,7 @@ A common scenario is asserting the busy state of a control. Testing whether a co
 
 <a name="loioce4b180d97064ad088a901b53ed48b21__section_tbb_f1q_jkb"/>
 
-## Working with Responsive Toolbars
+### Working with Responsive Toolbars
 
 A responsive toolbar can have overflowing content depending on the screen size. This content is moved to a popover, which can be opened by pressing a toggle button in the toolbar. A toggle button is displayed only when there's overflowing content. This is a problem for tests because they must only try to press the button when it's visible and interactable. One way to solve this is to always start the application being tested with a fixed screen size. Another way is to first look for toggle button with no visibility restrictions and then press on it only if it exists:
 
@@ -335,7 +335,7 @@ this.waitFor({
 
 <a name="loioce4b180d97064ad088a901b53ed48b21__section_hfj_xbl_wfb"/>
 
-## Deactivating Tests in Need of Adaptation
+### Deactivating Tests in Need of Adaptation
 
 As of version 1.61, you can use the `opaTodo` and `opaSkip` methods in addition to `opaTest`. They are similar to `Qunit.todo` and `QUnit.skip` and have the same signatures as their QUnit counterparts.
 

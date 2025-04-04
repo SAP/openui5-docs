@@ -1,24 +1,24 @@
 <!-- loio4af44cb310124baa8d38c23a909ef5a2 -->
 
-# Step 12: Shell Control as Container \(TypeScript\)
+## Step 12: Shell Control as Container \(TypeScript\)
 
 Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device's screen size by introducing a so-called letterbox on desktop screens.
 
 
 
-## Preview
+### Preview
 
   
   
 **The app is now run in a shell that limits the app width**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_12_a1f1b53.png "The app is now run in a shell that limits the app width")
+![The graphic has an explanatory text.](images/loioa1f1b53df7bb4f74958cdf56904c4af4_LowRes.png "The app is now run in a shell that limits the app width")
 
 
 
 <a name="loio4af44cb310124baa8d38c23a909ef5a2__section_qsr_xp2_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 12: Shell Control as Container](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/12) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-12.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 12: Shell Contr
 
 <a name="loio4af44cb310124baa8d38c23a909ef5a2__section_rsr_xp2_syb"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 In our app view, we put the `App` control inside an `sap/m/Shell` control.
 

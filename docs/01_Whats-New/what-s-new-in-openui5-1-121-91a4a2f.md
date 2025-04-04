@@ -1,6 +1,6 @@
 <!-- loio91a4a2f59e444ada8d003369a580f61d -->
 
-# What's New in OpenUI5 1.121
+## What's New in OpenUI5 1.121
 
 With this release OpenUI5 is upgraded from version 1.120 to 1.121.
 
@@ -810,7 +810,7 @@ Control
 
 We have reworked the positioning and naming of the AI copilot Joule and the search field in the `sap.f.ShellBar` for size XXL.
 
-![](images/ShellBarJouleWN_4c1af9c.png)
+![](images/loio4c1af9cf431f48de9c61d32e68b8f885_LowRes.png)
 
 <sub>Changed•Control•Info Only•1.121</sub>
 

@@ -1,6 +1,6 @@
 <!-- loiodf86bfbeab0645e5b764ffa488ed57dc -->
 
-# Step 8: Translatable Texts
+## Step 8: Translatable Texts
 
 In this step we move the texts of our UI to a separate resource file.
 
@@ -8,20 +8,20 @@ This way, they are all in a central place and can be easily translated into othe
 
 
 
-## Preview
+### Preview
 
   
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_08_0eb579e.png "An input field and a description displaying the value of the input field (No
+![The graphic has an explanatory text](images/loio0eb579e2f2a64c5a9894086322c7faa0_LowRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)")
 
 
 
 <a name="loiodf86bfbeab0645e5b764ffa488ed57dc__section_b1m_wwc_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 8](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.08).
 
@@ -29,7 +29,7 @@ You can view and download all files at [Walkthrough - Step 8](https://ui5.sap.co
 
 <a name="loiodf86bfbeab0645e5b764ffa488ed57dc__section_c1m_wwc_syb"/>
 
-## webapp/i18n/i18n.properties \(New\)
+### webapp/i18n/i18n.properties \(New\)
 
 ```
 showHelloButtonText=Say Hello
@@ -42,7 +42,7 @@ In this tutorial we will only have one properties file. However, in real-world p
 
 
 
-## controller/App.controller.js
+### controller/App.controller.js
 
 ```js
 sap.ui.define([
@@ -92,7 +92,7 @@ The resource bundle can be accessed with the `getResourceBundle` method of a `Re
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -119,7 +119,7 @@ In the XML view, we use data binding to connect the button text to the `showHell
 
 
 
-## Conventions
+### Conventions
 
 -   The resource model for internationalization is called the `i18n` model.
 

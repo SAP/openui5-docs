@@ -1,6 +1,6 @@
 <!-- loio66029f6f5a554a4eb700676bec1460dc -->
 
-# Scrolling
+## Scrolling
 
 Because of limited size of mobile devices, scrolling is an essential topic in mobile user experience. Smooth and easy scrolling is important for user acceptance of mobile applications.
 

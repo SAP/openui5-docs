@@ -1,6 +1,6 @@
 <!-- loio91f0652b6f4d1014b6dd926db0e91070 -->
 
-# Property Binding
+## Property Binding
 
 With property binding, you can initialize properties of a control automatically and update them based on the data of the model.
 
@@ -106,7 +106,7 @@ You can also bind multiple paths by combining them as parts of a binding. For mo
 
 <a name="loio91f0652b6f4d1014b6dd926db0e91070__section_N10078_N10013_N10001"/>
 
-## Formatting Property Values
+### Formatting Property Values
 
 Values in data are often represented in an internal format and need to be converted to an external format for visual representation, especially numbers, dates, and times with locale-dependent external formats. OpenUI5 provides two different options for converting data. You can use both options for each binding, you don't have to use one option consistently throughout your app:
 
@@ -119,7 +119,7 @@ Values in data are often represented in an internal format and need to be conver
 
 
 
-### Using a Formatter Function
+#### Using a Formatter Function
 
 If you define the property binding in the **XML view**, you need to define a formatter function \(`roundToMillion`\) in the view controller:
 
@@ -175,7 +175,7 @@ oImage.bindProperty("src", {
 
 
 
-### Using Data Types
+#### Using Data Types
 
 The data type system enables you to format and parse data, as well as to validate whether the entered data lies within any defined constraints. OpenUI5 comes with several predefined and ready-to-use types, referred to as simple types. For more information, see [Formatting, Parsing, and Validating Data](formatting-parsing-and-validating-data-07e4b92.md).
 
@@ -303,7 +303,7 @@ You can use your custom types in XML views or JavaScript in the same way as you 
 
 <a name="loio91f0652b6f4d1014b6dd926db0e91070__section_N100DE_N10013_N10001"/>
 
-## Changing the Binding Mode
+### Changing the Binding Mode
 
 By default, all bindings of a model instance have the default binding mode of the model, but you can change this behavior if needed. When creating a `PropertyBinding`, you can specify a different binding mode, which is then used exclusively for this specific binding. Of course, a binding can only have a binding mode that is supported by the model in question.
 

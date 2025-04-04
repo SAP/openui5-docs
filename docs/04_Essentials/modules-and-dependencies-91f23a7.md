@@ -1,6 +1,6 @@
 <!-- loio91f23a736f4d1014b6dd926db0e91070 -->
 
-# Modules and Dependencies
+## Modules and Dependencies
 
 The OpenUI5 framework has built-in support for modularizing comprehensive JavaScript applications. That means, instead of defining and loading one large bundle of JavaScript code, an application can be split into smaller parts which then can be loaded at runtime at the time when they are needed. These smaller individual files are called modules.
 
@@ -64,7 +64,7 @@ sap.ui.require(['SomeClass'], function(SomeClass) {
 
 <a name="loio91f23a736f4d1014b6dd926db0e91070__section_ntl_h3h_yy"/>
 
-## Static and Dynamic Dependencies
+### Static and Dynamic Dependencies
 
 Adding each and every dependency to the `sap.ui.define` call can lead to many modules that have to be loaded before your module can be executed. Often, dependencies are not needed initially when the module is started. For rarely or not immediately used references, it might be overhead to load them in advance before executing your module.
 
@@ -111,7 +111,7 @@ Therefore, you have to decide whether you want to use static or dynamic dependen
 
 <a name="loio91f23a736f4d1014b6dd926db0e91070__section_sjt_2x3_12c"/>
 
-## JavaScript Namespaces
+### JavaScript Namespaces
 
 OpenUI5 modules such as classes, components, and controls, should use a consistent qualified naming scheme. Each module should reside in a unique namespace.
 

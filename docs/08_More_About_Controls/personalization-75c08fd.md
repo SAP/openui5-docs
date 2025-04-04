@@ -1,6 +1,6 @@
 <!-- loio75c08fdebf784575947927e052712bab -->
 
-# Personalization
+## Personalization
 
 You can use the `p13n` namespace for personalization settings.
 

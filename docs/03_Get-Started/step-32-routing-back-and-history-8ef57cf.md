@@ -1,24 +1,24 @@
 <!-- loio8ef57cfd37b44f089f7e3b52d56597eb -->
 
-# Step 32: Routing Back and History
+## Step 32: Routing Back and History
 
 Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.
 
 
 
-## Preview
+### Preview
 
   
   
 **A back button is now displayed on the detail page**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_32_33a8341.png "A back button is now displayed on the detail page")
+![The graphic has an explanatory text](images/loio33a8341077bb458685274c64d2317f6b_LowRes.png "A back button is now displayed on the detail page")
 
 
 
 <a name="loio8ef57cfd37b44f089f7e3b52d56597eb__section_l5n_zvm_tyb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 32](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.32).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 32](https://ui5.sap.c
 
 <a name="loio8ef57cfd37b44f089f7e3b52d56597eb__section_m5n_zvm_tyb"/>
 
-## webapp/view/Detail.view.xml
+### webapp/view/Detail.view.xml
 
 ```xml
 <mvc:View
@@ -48,7 +48,7 @@ On the detail page, we tell the control to display a back button by setting the 
 
 
 
-## webapp/controller/Detail.controller.js
+### webapp/controller/Detail.controller.js
 
 ```js
 sap.ui.define([
@@ -95,7 +95,7 @@ This implementation is a bit better than the browser's back button for our use c
 
 
 
-## Conventions
+### Conventions
 
 -   Add a path to go back to the parent page when the history state is unclear.
 

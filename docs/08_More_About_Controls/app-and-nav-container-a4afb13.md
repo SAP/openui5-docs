@@ -1,6 +1,6 @@
 <!-- loioa4afb138acf64a61a038aa5b91a4f082 -->
 
-# App and Nav Container
+## App and Nav Container
 
 Apps are often composed of several pages and the user can drill-down to detail pages and go back up again. This is often visualized by horizontal slide animations. OpenUI5 supports this pattern by providing the `sap.m.App` and `sap.m.NavContainer` controls, which handle the navigation between the pages.
 

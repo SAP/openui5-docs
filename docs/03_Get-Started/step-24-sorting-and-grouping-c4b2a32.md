@@ -1,24 +1,24 @@
 <!-- loioc4b2a32bb72f483faa173e890e48d812 -->
 
-# Step 24: Sorting and Grouping
+## Step 24: Sorting and Grouping
 
 To make our list of invoices even more user-friendly, we sort it alphabetically instead of just showing the order from the data model. Additionally, we introduce groups and add the company that ships the products so that the data is easier to consume.
 
 
 
-## Preview
+### Preview
 
   
   
 **The list is now sorted and grouped by the shipping company**
 
-![A list of invoices is displayed](images/UI5_Walkthrough_Step_24_33f71b4.png "The list is now sorted and grouped by the shipping company")
+![A list of invoices is displayed](images/loio33f71b44bb644d1fa2a0ab14f1fcc02a_LowRes.png "The list is now sorted and grouped by the shipping company")
 
 
 
 <a name="loioc4b2a32bb72f483faa173e890e48d812__section_sxl_41l_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 24](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.24).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 24](https://ui5.sap.c
 
 <a name="loioc4b2a32bb72f483faa173e890e48d812__section_txl_41l_syb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View
@@ -54,7 +54,7 @@ If we run the app now we can see a list of invoices sorted by the name of the pr
 
 
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View

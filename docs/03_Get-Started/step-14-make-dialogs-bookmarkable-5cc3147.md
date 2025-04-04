@@ -1,28 +1,28 @@
 <!-- loio5cc3147afc8d4854b5d3c5fc20923f77 -->
 
-# Step 14: Make Dialogs Bookmarkable
+## Step 14: Make Dialogs Bookmarkable
 
 In this step, we want to allow bookmarking of the dialog box that is opened when the user clicks the *Sort* button. The dialog should automatically open when the URL contains the query parameter `showDialog`.
 
 
 
-## Preview
+### Preview
 
   
   
 **Bookmark for a dialog**
 
-![](images/Tutorial_Navigation_and_Routing_Step_14_ea8f2d0.png "Bookmark for a dialog")
+![](images/loioea8f2d0be1cf4582b2d637cd6d85eb63_LowRes.png "Bookmark for a dialog")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 14](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.14).
 
 
 
-## /controller/employee/overview/EmployeeOverviewContent.controller.js
+### /controller/employee/overview/EmployeeOverviewContent.controller.js
 
 ```js
 sap.ui.define([

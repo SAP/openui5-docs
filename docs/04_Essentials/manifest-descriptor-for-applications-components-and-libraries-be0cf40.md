@@ -1,6 +1,6 @@
 <!-- loiobe0cf40f61184b358b5faedaec98b2da -->
 
-# Manifest \(Descriptor for Applications, Components, and Libraries\)
+## Manifest \(Descriptor for Applications, Components, and Libraries\)
 
 The manifest \(also known as descriptor for applications, components, and libraries, in short: app descriptor\) is inspired by the WebApplication Manifest concept introduced by the W3C. The manifest provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.
 
@@ -12,7 +12,7 @@ The data of the manifest is stored in JSON format in the `manifest.json` file. T
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_mkz_dgh_1cb"/>
 
-## General Information
+### General Information
 
 There is a new version of the manifest when the schema is changed. In the following table, you can see how the OpenUI5 version is related to the manifest version and the value of `_version.`
 
@@ -1269,7 +1269,7 @@ For more information on the new fields introduced in each version, check out [Mi
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__manifirst"/>
 
-## Manifest First Function
+### Manifest First Function
 
 The component factory function [`Component.create`](https://ui5.sap.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create), as introduced with 1.58, loads the `manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
 
@@ -1326,7 +1326,7 @@ The `manifest` option allows you to configure when and from where the manifest i
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_rmc_3xj_mmb"/>
 
-## Special `ui5://` URLs
+### Special `ui5://` URLs
 
 Inside the manifest, you can use special URLs prefixed with `ui5://`. These URLs will be resolved automatically during component startup before any models are created.
 
@@ -1339,7 +1339,7 @@ The `ui5://` URLs have the following properties:
 
 
 
-### Example
+#### Example
 
 One common use case is the resolution of local annotation files. By default the local annotation files are resolved relative to the manifest. When using a `ui5://` URL, you can enforce a different resolution, e.g. to a server-absolute URL.
 
@@ -1397,7 +1397,7 @@ http://localhost:8080/this/url/is/reachable/annotations.xml
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_mhs_vdp_znb"/>
 
-## Manifest Content
+### Manifest Content
 
 > ### Note:  
 > You can find an example `manifest.json` file with sample code for the manifest content [here](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_example).
@@ -1420,7 +1420,7 @@ The content for the is contained in the following namespaces: `without`, `sap.ap
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_nonamespace"/>
 
-## No Namespace
+### No Namespace
 
 **Attributes in the without namespace**
 
@@ -1468,7 +1468,7 @@ JSON schema URI
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_app"/>
 
-## `sap.app`
+### `sap.app`
 
 **Attributes in the mandatory sap.app namespace**
 
@@ -1812,7 +1812,7 @@ For a description of `resources.json`, see [The resources.json File](the-resourc
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui"/>
 
-## `sap.ui`
+### `sap.ui`
 
 **Attributes in the mandatory sap.ui namespace**
 
@@ -1891,7 +1891,7 @@ Mandatory; contains objects with device types on which the app is running, such 
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui5"/>
 
-## `sap.ui5`
+### `sap.ui5`
 
 The `sap.ui5` namespace is aligned with the former concept of component metadata and contributes the following OpenUI5-specific attributes for the manifest, see [Migrating from Component Metadata to Manifest](migrating-from-component-metadata-to-manifest-e282db2.md) for more details.
 
@@ -2205,7 +2205,7 @@ The name of the command that contains the `shortcut` definition acts as a prereq
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_card"/>
 
-## `sap.card`
+### `sap.card`
 
 **Attributes in the sap.card namespace**
 
@@ -2265,7 +2265,7 @@ Specifies the type-dependent card content
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_version"/>
 
-## `_version`
+### `_version`
 
 -   On root level \(no namespace\): Describes the manifest format version \(mandatory\). Needs to be updated when migrating to a new manifest format version, see [Migrating from Component Metadata to Manifest](migrating-from-component-metadata-to-manifest-e282db2.md)
 
@@ -2276,7 +2276,7 @@ Specifies the type-dependent card content
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_descriptor_schema"/>
 
-## Manifest Schema
+### Manifest Schema
 
 The newest flattened JSON schema is available on the SAP Open Source GitHub at [https://github.com/sap/ui5-manifest/](https://github.com/sap/ui5-manifest/) under Apache-2.0 License. It can be used to enable schema validation, code completion, and documentation.
 
@@ -2284,7 +2284,7 @@ The newest flattened JSON schema is available on the SAP Open Source GitHub at [
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_example"/>
 
-## Example
+### Example
 
 Current version of the `manifest.json`
 
@@ -2473,7 +2473,7 @@ For the following namespaces, the indicated teams are responsible:
 
 
 
-## Declaration in Component Metadata
+### Declaration in Component Metadata
 
 The component declares the existence of the manifest by specifying `manifest: "json"` in the component metadata. Setting this flag makes the component load the `manifest.json` file and read the relevant entries for OpenUI5. This metadata is used to define the dependencies that need to be loaded in order to start the component. The following code snippet shows how to add the manifest link:
 
@@ -2495,7 +2495,7 @@ sap.ui.define([
 
 
 
-## OpenUI5 API
+### OpenUI5 API
 
 At runtime, the manifest content can be accessed from the component via the following `sap.ui.core.Component` APIs:
 

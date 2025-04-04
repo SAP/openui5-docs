@@ -1,12 +1,12 @@
 <!-- loiob1fbe1a22f8d4a5bbb601591e27b68d1 -->
 
-# App Development
+## App Development
 
 There are several ways to develop OpenUI5 applications. Select the one that meets the requirements of your projects and your expectations best.
 
 
 
-## Leverage UI5 Tooling
+### Leverage UI5 Tooling
 
 [UI5 Tooling](https://sap.github.io/ui5-tooling/) complements the framework as an open and modular toolchain. It comes with a [command line interface \(CLI\)](https://sap.github.io/ui5-tooling/pages/CLI/) based on Node.js and npm.
 
@@ -16,7 +16,7 @@ The [OpenUI5 sample application](https://github.com/SAP/openui5-sample-app#openu
 
 
 
-## Using a Content Delivery Network
+### Using a Content Delivery Network
 
 If you don't want to download the files and don't want to include them in your deployment, you can use the online version of OpenUI5 . For more information, see [Variant for Bootstrapping from Content Delivery Network](../04_Essentials/variant-for-bootstrapping-from-content-delivery-network-2d3eb2f.md).
 
@@ -24,7 +24,7 @@ If you don't want to download the files and don't want to include them in your d
 
 <a name="loiob1fbe1a22f8d4a5bbb601591e27b68d1__section_pfb_lzx_3fb"/>
 
-## Download OpenUI5
+### Download OpenUI5
 
 You may just want to get the runtime from the OpenUI5 website at [http://openui5.org](http://openui5.org) and deploy it on a web server.
 

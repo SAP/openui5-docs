@@ -1,24 +1,24 @@
 <!-- loio24580fb89258491db986482f4ed45e47 -->
 
-# Step 19: Aggregation Binding \(TypeScript\)
+## Step 19: Aggregation Binding \(TypeScript\)
 
 Now that we have established a good structure for our app, it's time to add some more functionality. We start exploring more features of data binding by adding some invoice data in JSON format that we display in a list below the panel.
 
 
 
-## Preview
+### Preview
 
   
   
 **A list of invoices is displayed below the panel**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_19_b05bdb4.png "A list of invoices is displayed below the panel")
+![The graphic has an explanatory text.](images/loiob05bdb47393b4abda3e1b54498959c38_LowRes.png "A list of invoices is displayed below the panel")
 
 
 
 <a name="loio24580fb89258491db986482f4ed45e47__section_zfj_ljk_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 19: Aggregation Binding](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/19) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-19.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 19: Aggregation
 
 <a name="loio24580fb89258491db986482f4ed45e47__section_agj_ljk_syb"/>
 
-## webapp/model/localInvoices.json \(New\)
+### webapp/model/localInvoices.json \(New\)
 
 We create a new `model` folder in our app project and place the new `localInvoices.json` file in it. We enter the following JSON data into the file:
 
@@ -81,7 +81,7 @@ The `localInvoices` file simply contains five invoices in a JSON format that we 
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 We add a new model named `invoice` to the `sap.ui5` section of the descriptor. This time we want a JSONModel, so we set the type to `sap.ui.model.json.JSONModel`. The `uri` key is the path to our data relative to the component.
 
@@ -122,7 +122,7 @@ With this little configuration our component will automatically instantiate a ne
 
 <a name="loio24580fb89258491db986482f4ed45e47__section_qtl_rcz_nzb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 In the text bundle we create a new text for an Invoice List title, which we'll need in the view we are about to create.
 
@@ -147,7 +147,7 @@ invoiceListTitle=Invoices
 
 <a name="loio24580fb89258491db986482f4ed45e47__section_sqg_ycz_nzb"/>
 
-## webapp/view/InvoiceList.view.xml \(New\)
+### webapp/view/InvoiceList.view.xml \(New\)
 
 In the view folder, we create a new `InvoiceList.view.xml` view to display the invoices. We use a list control with the custom header text we just specified in our resource bundle and assign the CSS class `sapUiResponsiveMargin` to it. We bound the item aggregation of the list to the root path `Invoices` of the JSON data in our invoice model. And since we defined a named model, we have to prefix each binding definition with the `invoice` identifier followed by the `>` symbol.
 
@@ -174,7 +174,7 @@ The binding in the list item works because we have bound the `items` aggregation
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 In the app view we add a second view and assign it to our newly created `InvoiceList` view to display our invoices below the panel.
 
@@ -212,7 +212,7 @@ In the app view we add a second view and assign it to our newly created `Invoice
 
 <a name="loio24580fb89258491db986482f4ed45e47__section_hzd_f2z_nzb"/>
 
-## Conventions
+### Conventions
 
 -   Any files needed for creating models and the logic relating to model data are stored in the `model` folder. This includes grouping, filtering, and formatting data
 

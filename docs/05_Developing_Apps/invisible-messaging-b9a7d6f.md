@@ -1,6 +1,6 @@
 <!-- loiob9a7d6f607f049988797b68b65e60901 -->
 
-# Invisible Messaging
+## Invisible Messaging
 
 The Invisible Message class provides a way to grammatically expose dynamic content changes in a way that can be announced by screen readers.
 
@@ -12,7 +12,7 @@ The `sap.ui.core.InvisibleMessage` enables developers to specify the message to 
 
 <a name="loiob9a7d6f607f049988797b68b65e60901__section_v25_cwt_3mb"/>
 
-## Usage
+### Usage
 
 This class is a singleton. The class instance can be retrieved via the static method `sap.ui.core.InvisibleMessage.getInstance()`. The sap.ui.core.InvisibleMessage is designed to be used both internally in the controls logic and from the applications.
 
@@ -29,7 +29,7 @@ The `sap.ui.core.InvisibleMessage` should be instantiated before the rest of the
 
 <a name="loiob9a7d6f607f049988797b68b65e60901__section_p2p_cz1_lmb"/>
 
-## Example with dynamically generated `sap.m.MessageStrip`
+### Example with dynamically generated `sap.m.MessageStrip`
 
 You must implement `sap.ui.core.InvisibleMessage` when using dynamically generated `sap.m.MessageStrip` in order to achieve the standardized best accessibility practices. It will allow screen readers to announce the `sap.m.MessageStrip` text to the users in real-time, when it appears on the screen.
 

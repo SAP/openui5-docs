@@ -1,6 +1,6 @@
 <!-- loio07afcf400eb344c2916e4eb3a400ff7b -->
 
-# Use the MVC Concept
+## Use the MVC Concept
 
 MVC \(Model-View-Controller\) is a concept for structuring your software. It makes it easier to maintain and to extend your apps.
 
@@ -10,7 +10,7 @@ The MVC pattern divides your application into three individual parts that intera
 
 <a name="loio07afcf400eb344c2916e4eb3a400ff7b__section_b4d_djb_1gb"/>
 
-## Model: Keep everything organized
+### Model: Keep everything organized
 
 It's simple: Use the right folder structure! If you arrange and structure your files and folders in a smart way, this makes coding much easier and also makes for sound performance when you load your application.
 
@@ -20,7 +20,7 @@ It's simple: Use the right folder structure! If you arrange and structure your f
 
 <a name="loio07afcf400eb344c2916e4eb3a400ff7b__section_y5f_y4b_1gb"/>
 
-## View: Use XML views
+### View: Use XML views
 
 There are many view types, for example JavaScript, JSON, or HTML. However, we strongly recommend that you use XML views and fragments. XML clearly separates the view and the application logic, is easy to manipulate and can be parsed by tools like the layout editor in SAP Business Application Studio. That's why we also used XML views in all our tutorials, demo apps, and guides.
 
@@ -31,7 +31,7 @@ There are many view types, for example JavaScript, JSON, or HTML. However, we st
 
 <a name="loio07afcf400eb344c2916e4eb3a400ff7b__section_ubl_3qb_1gb"/>
 
-## Controller: Find the best location for your controllers
+### Controller: Find the best location for your controllers
 
 Every view you create should have its own controller with a corresponding file name. For example: If your view is called `App.view.xml`, then the matching controller should be named `App.controller.js` \(in JavaScript\) or `App.controller.ts` \(in TypeScript\).
 

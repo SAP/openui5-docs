@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Test a Rule
+## Test a Rule
 
 After you create a rule, you can test it manually on an app.
 
@@ -10,11 +10,11 @@ After you create a rule, you can test it manually on an app.
 
 <a name="loiof5e4fe68e6ea4774b049962498f0e101__section_ngl_mkg_h1b"/>
 
-## Manual Testing on an App
+### Manual Testing on an App
 
 
 
-### Test your rule on locally running apps
+#### Test your rule on locally running apps
 
 If you want to test a Support Assistant rule on a locally running app, there are several steps you need to follow:
 
@@ -33,7 +33,7 @@ If you want to test a Support Assistant rule on a locally running app, there are
 
 
 
-### Test your locally modified rule on a remotely running app
+#### Test your locally modified rule on a remotely running app
 
 To test your locally modified rule on other apps:
 

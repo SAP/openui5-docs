@@ -1,6 +1,6 @@
 <!-- loio9113397cd27e4a1090590e1c4f6edf5f -->
 
-# Feature Files
+## Feature Files
 
 Feature files are human-readable specifications that are also machine-readable.
 
@@ -12,7 +12,7 @@ For example, for the "accepting money" feature, a test scenario might include st
 
 
 
-## Conventions for Feature Files
+### Conventions for Feature Files
 
 -   Use the file extension `.feature`
 
@@ -36,7 +36,7 @@ For example, for the "accepting money" feature, a test scenario might include st
 
 
 
-## Example
+### Example
 
 The following example shows the structure of a sample feature file :
 

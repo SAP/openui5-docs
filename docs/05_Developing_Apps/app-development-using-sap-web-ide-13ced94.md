@@ -1,6 +1,6 @@
 <!-- loio13ced9493472408999143bc99bbb73b9 -->
 
-# App Development Using SAP Web IDE
+## App Development Using SAP Web IDE
 
 SAP Web IDE is a web-based development environment that is optimized for developing OpenUI5 complex apps using the latest innovations, developing and extending SAP Fiori apps, developing mobile hybrid apps, and extending SAP Web IDE with plug-ins and templates.
 

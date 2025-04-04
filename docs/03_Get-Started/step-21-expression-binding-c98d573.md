@@ -1,24 +1,24 @@
 <!-- loioc98d57347ba444c6945f596584d2db45 -->
 
-# Step 21: Expression Binding
+## Step 21: Expression Binding
 
 Sometimes the predefined types of OpenUI5 are not flexible enough and you want to do a simple calculation or formatting in the view - that is where expressions are really helpful. We use them to format our price according to the current number in the data model.
 
 
 
-## Preview
+### Preview
 
   
   
 **The price is now formatted according to its number**
 
-![A list of invoices is displayed below the panel.](images/UI5_Walkthrough_Step_21_636b700.png "The price is now formatted according to its number")
+![A list of invoices is displayed below the panel.](images/loio636b7008113442c8a4765bb710dd8ea9_LowRes.png "The price is now formatted according to its number")
 
 
 
 <a name="loioc98d57347ba444c6945f596584d2db45__section_uzp_rmk_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 21](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.21).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 21](https://ui5.sap.c
 
 <a name="loioc98d57347ba444c6945f596584d2db45__section_vzp_rmk_syb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View
@@ -70,7 +70,7 @@ Expressions are limited to a particular set of operations that help formatting t
 
 
 
-## Conventions
+### Conventions
 
 -   Only use expression binding for trivial calculations.
 

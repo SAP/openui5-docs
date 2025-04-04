@@ -1,6 +1,6 @@
 <!-- loiod9efab307ecc42b180b12cc8956e22d7 -->
 
-# Step 5: Display a Target Without Changing the Hash
+## Step 5: Display a Target Without Changing the Hash
 
 In this step, you will learn more about targets and how to display a target from the routing configuration manually.
 
@@ -10,23 +10,23 @@ Fortunately, we can extend our app and offer an easy solution. There are some us
 
 
 
-## Preview
+### Preview
 
   
   
 **The new Home page with a navigation button**
 
-![](images/Tutorial_Navigation_and_Routing_Step_05_64fc7de.png "The new Home page with a navigation button")
+![](images/loio64fc7de39bed41d48d01e08244f201ab_LowRes.png "The new Home page with a navigation button")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo -kit at [Routing and Navigation - Step 5](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.05).
 
 
 
-## webapp/view/Home.view.xml
+### webapp/view/Home.view.xml
 
 ```xml
 <mvc:View
@@ -45,7 +45,7 @@ We start by changing the `Button` control from the home view. When the button is
 
 
 
-## webapp/controller/Home.controller.js
+### webapp/controller/Home.controller.js
 
 ```js
 sap.ui.define([
@@ -74,7 +74,7 @@ When pressing the app's *Back* button, the `onNavBack` from the previous step is
 
 
 
-## webapp/controller/Home.controller.js \(Changed Again\)
+### webapp/controller/Home.controller.js \(Changed Again\)
 
 ```js
 sap.ui.define([
@@ -97,7 +97,7 @@ This time we pass on a data object as the second parameter for the display metho
 
 
 
-## webapp/controller/NotFound.controller.js
+### webapp/controller/NotFound.controller.js
 
 ```js
 sap.ui.define([
@@ -141,7 +141,7 @@ Similar to OpenUI5 controls, targets define API methods and events that can be a
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...
@@ -154,7 +154,7 @@ When we now click the *Back* button, it works as expected and brings us back to 
 
 
 
-## Conventions
+### Conventions
 
 -   Display targets manually if you want to trigger a navigation without changing the hash
 

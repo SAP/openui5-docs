@@ -1,22 +1,22 @@
 <!-- loio6fdf0acd0bc24ffdad327cf7e6f9e7e0 -->
 
-# Step 9: Formatting Values
+## Step 9: Formatting Values
 
 We'd also like to provide our users with a way of contacting Harry Hawk, so we're adding a link that sends an e-mail to Harry. To do this, we convert our data in the model to match the `sap.m.URLHelper.normalizeEmail` API. As soon as the user changes the name, the e-mail also changes. We need a custom formatter function for this.
 
 
 
-## Preview
+### Preview
 
   
   
 **An e-mail link is added to the address panel**
 
-![The graphic has an explanatory text](images/Tutorial_Data_Binding_Step_9_1161575.png "An e-mail link is added to the address panel")
+![The graphic has an explanatory text](images/loio116157506b3f48ac8ec53ee05095c0df_LowRes.png "An e-mail link is added to the address panel")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 9](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.09).
 

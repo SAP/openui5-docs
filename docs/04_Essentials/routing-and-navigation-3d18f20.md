@@ -1,6 +1,6 @@
 <!-- loio3d18f20bd2294228acb6910d8e8a5fb5 -->
 
-# Routing and Navigation
+## Routing and Navigation
 
 OpenUI5 offers hash-based navigation, which allows you to build single-page apps where the navigation is done by changing the hash. In this way the browser does not have to reload the page; instead there is a callback to which the app and especially the affected view can react. A hash string is parsed and matched against patterns which will then inform the handlers.
 
@@ -17,7 +17,7 @@ You use routing in the following cases:
   
 **Routing overview**
 
-![](images/SAPUI5_Navigation_3b3a63b.png "Routing overview")
+![](images/loio3b3a63b7581c4d36b9657f07d678f176_LowRes.png "Routing overview")
 
 In OpenUI5, navigation and routing is implemented using a "router" to forward the hash change and the data in the hash to one or more views of the app.
 
@@ -32,7 +32,7 @@ You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(se
 
 
 
-## Routing Patterns
+### Routing Patterns
 
 Whenever a hash is added to a URL, the router checks whether there is a route with a matching pattern. The first matching route is taken and the corresponding target view is called. The data provided with the hash are passed on to the target.
 

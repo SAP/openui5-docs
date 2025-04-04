@@ -1,6 +1,6 @@
 <!-- loiofa0e2828d1444c268a8b6722e5df0b98 -->
 
-# What's New in OpenUI5 1.97
+## What's New in OpenUI5 1.97
 
 With this release OpenUI5 is upgraded from version 1.96 to 1.97.
 
@@ -452,7 +452,7 @@ Feature
 
 We implemented a *News* section with notifications where you can get highlights on important news about OpenUI5. When we upload new information, you’ll see a notification bell with a counter in the main toolbar.
 
-![](images/WN_1_97_Demo_Kit_News_fe57420.png)
+![](images/loiofe57420a441440c3bad48ca4a02eaf0f_HiRes.png)
 
 <sub>New•Feature•Info Only•1.97</sub>
 

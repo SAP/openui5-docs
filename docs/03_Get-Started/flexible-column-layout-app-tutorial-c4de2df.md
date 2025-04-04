@@ -1,6 +1,6 @@
 <!-- loioc4de2df385174e58a689d9847c7553bd -->
 
-# Flexible Column Layout App Tutorial
+## Flexible Column Layout App Tutorial
 
 In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.
 
@@ -32,13 +32,13 @@ The app provides the following features:
 
 <a name="loioc4de2df385174e58a689d9847c7553bd__section_d2n_dmw_mbb"/>
 
-## Preview
+### Preview
 
   
   
 **list-detail-detail pattern with sap.f.FlexibleColumnLayout, sap.f.DynamicPage and sap.uxap.ObjectPageLayout**
 
-![](images/With_Semantic_Helper_Fiori_2_0_Tutorial_fd98e0d.gif "list-detail-detail pattern with sap.f.FlexibleColumnLayout, sap.f.DynamicPage and
+![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_LowRes.gif "list-detail-detail pattern with sap.f.FlexibleColumnLayout, sap.f.DynamicPage and
 						sap.uxap.ObjectPageLayout")
 
 

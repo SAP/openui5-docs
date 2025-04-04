@@ -1,6 +1,6 @@
 <!-- loio3b718b5372fa457c92cf5087a673e953 -->
 
-# Enabling Responsive Paddings According to the Control Width
+## Enabling Responsive Paddings According to the Control Width
 
 Apply responsive paddings over separate parts of the controls.
 
@@ -11,13 +11,13 @@ Apply responsive paddings over separate parts of the controls.
 
 <a name="loio3b718b5372fa457c92cf5087a673e953__section_d2f_1pv_jjb"/>
 
-## Usage
+### Usage
 
 Application developers can now apply responsive paddings over separate parts of the controls and align the space distribution properly, according to the width of the control \(and not the whole screen\). This can be done by using a set of classes, which are available for the different controls.
 
 
 
-### Applied Paddings
+#### Applied Paddings
 
 Based on the container's size, one of the following classes is added, and the corresponding padding-left and padding-right are applied:
 
@@ -112,7 +112,7 @@ sapUi-Std-PaddingXL
 
 
 
-### Supported Controls
+#### Supported Controls
 
 The following table shows the controls that support responsive paddings. To enable this concept and to add responsive paddings to an element of the controls, add the corresponding classes to the controls, depending on your use case:
 
@@ -164,27 +164,27 @@ Supported Controls
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -196,27 +196,27 @@ Supported Controls
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -228,27 +228,27 @@ Supported Controls
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -260,27 +260,27 @@ Supported Controls
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -292,27 +292,27 @@ Supported Controls
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -324,27 +324,27 @@ Supported Controls
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -356,27 +356,27 @@ Supported Controls
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -399,7 +399,7 @@ For a detailed example, see the [Samples for `sap.m.Page`](https://ui5.sap.com/#
 
 
 
-### How to Enable Responsive Paddings
+#### How to Enable Responsive Paddings
 
 As a control developer, you can enable application developers to apply responsive paddings, by implementing the `sap.ui.core.util.ResponsivePaddingsEnablement` utility.
 

@@ -1,6 +1,6 @@
 <!-- loio95cf4b16762a465b9237b18d033f0cd2 -->
 
-# Creating Bindings
+## Creating Bindings
 
 The OData V4 model offers the factory methods `bindList`, `bindContext` and `bindProperty` for creating bindings. Typically, these methods are not called directly in applications, but indirectly by the following:
 

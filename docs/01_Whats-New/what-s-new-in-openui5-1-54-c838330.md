@@ -1,6 +1,6 @@
 <!-- loioc838330d188c4019826a0a50d7d32db1 -->
 
-# What's New in OpenUI5 1.54
+## What's New in OpenUI5 1.54
 
 With this release OpenUI5 is upgraded from version 1.52 to 1.54.
 
@@ -72,7 +72,7 @@ Control
 
 Provides the user with a palette containing up to 15 predefined web-standard colors, such as, Gold, Dark Magenta, and White. You can enable a *Default Color* button with a specified default color visible for the user. If the predefined set of colors is not sufficient, you can enable a *More Colors* button that opens `sap.ui.unified.ColorPicker`. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.ColorPalette) and the [Samples](https://ui5.sap.com/#/entity/sap.m.ColorPalette).
 
-![](images/sap_m_ColorPalette_b85d1e8.png)
+![](images/loiob85d1e887e5b4cee961c71333ea71fe3_HiRes.png)
 
 <sub>New•Control•Info Only•1.54</sub>
 
@@ -115,7 +115,7 @@ Control
 
 Enables the user to choose time, in different formats, from the available lists in the sliders. The control can be used inside any container. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.TimePickerSliders) and the [Samples](https://ui5.sap.com/#/entity/sap.m.TimePickerSliders).
 
-![](images/New_Control_TimePickerSliders_182377a.png)
+![](images/loio182377a46b7f44a5a36f7dff5f877638_HiRes.png)
 
 <sub>New•Control•Info Only•1.54</sub>
 
@@ -160,17 +160,17 @@ Small non-interactive control whose purpose is to attract attention to a certain
 
 `InfoLabel` has a `renderMode` property with the values `loose` and `narrow` that specify the side paddings. By default, the padding is loose, but for numeric text values, use narrow paddings.
 
-![](images/Loose_padding_d1abdba.png)
+![](images/loiod1abdba2289a4e569786d001b2cf17b4_HiRes.png)
 
-![](images/Narrow_padding_3c06475.png)
+![](images/loio3c064759038c4c6999c27ca0fbdac0da_HiRes.png)
 
 The background and text color combinations are predefined. You can choose from 9 color schemes where the text content and choice of color depend on your preferences. The `colorScheme` property also accepts a digit as a value.
 
-![](images/Color_schemes_8cea644.png)
+![](images/loio8cea6443944648fbad8860056af99f11_HiRes.png)
 
 The size of the `InfoLabel` control adjusts to fit other controls, such as non-editable forms or tables, when the `displayOnly` property is set to `true`.
 
-![](images/displayOnly_9023f00.png)
+![](images/loio9023f007faa1416784779662a07a9b80_HiRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.tnt.InfoLabel) and the [Samples](https://ui5.sap.com/#/entity/sap.tnt.InfoLabel).
 
@@ -444,7 +444,7 @@ There are several improvements in the Support Assistant tool:
 
 
 
-![](images/Support_Assistant_UI_improvements_f3258c9.png)
+![](images/loiof3258c9e029a4396a93eaf7127ab34b6_HiRes.png)
 
 <sub>Changed•Feature•Info Only•1.54</sub>
 
@@ -1471,15 +1471,15 @@ Feature
 
 -   Information about downloading OpenUI5 can now be accessed easily through the new *Download* button on the home page:
 
-    ![](images/UI5_Download_Button_8a1b47a.png)
+    ![](images/loio8a1b47aecf404f7183e266dad1d1afb3_HiRes.png)
 
 -   A new *API Reference* button is now available when a sample page is loaded. It links directly to the control's API information:
 
-    ![](images/API_Reference_button_in_Samples_2f112d6.png)
+    ![](images/loio2f112d6e3749461ca2c319d58343ecf5_HiRes.png)
 
 -   In the *API Reference*, information is now available if an aggregation is used by default:
 
-    ![](images/Default_Aggregation_0b98785.png)
+    ![](images/loio0b98785cd7404a82b7dd940616349fca_HiRes.png)
 
 -   Browser back button functionality is available for the *API Reference* as the navigation steps are now persisted in the browser history.
 

@@ -1,12 +1,12 @@
 <!-- loio5e08ff90b7434990bcb459513d8c52c4 -->
 
-# Control Development Guidelines: Theming/CSS
+## Control Development Guidelines: Theming/CSS
 
 For themes and CSS for control development in OpenUI5, the following guidelines apply.
 
 
 
-## General Guidelines
+### General Guidelines
 
 -   Write semicolons, even where optional.
 
@@ -46,7 +46,7 @@ For themes and CSS for control development in OpenUI5, the following guidelines 
 
 
 
-## Naming
+### Naming
 
 The following naming guidelines apply:
 
@@ -59,7 +59,7 @@ The following naming guidelines apply:
 
 
 
-## Images
+### Images
 
 Themes \(including "base"\) should only refer to existing images inside that theme. Images will be loaded relative to the theme where they are referenced \(see LESS option `"relativeUrls"`\)
 
@@ -75,7 +75,7 @@ To override an image within the base theme an additional rule has to be added to
 
 <a name="loio5e08ff90b7434990bcb459513d8c52c4__section_rwz_wl3_1bc"/>
 
-## CSS Math Functions
+### CSS Math Functions
 
 [CSS Math Functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#math_functions) must be escaped in LESS to prevent incorrect calculations and syntax errors.
 
@@ -97,7 +97,7 @@ To override an image within the base theme an additional rule has to be added to
 
 
 
-## LESS Theme Parameters
+### LESS Theme Parameters
 
 For LESS theme parameters, the following guidelines apply:
 

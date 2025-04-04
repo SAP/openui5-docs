@@ -1,6 +1,6 @@
 <!-- loiod415dd8911a645759373dc1a70b93f3d -->
 
-# Application Cache Buster: Request Flow
+## Application Cache Buster: Request Flow
 
 When using the application cache buster, a request order must be observed.
 

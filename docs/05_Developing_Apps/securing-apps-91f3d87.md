@@ -1,6 +1,6 @@
 <!-- loio91f3d8706f4d1014b6dd926db0e91070 -->
 
-# Securing Apps
+## Securing Apps
 
 The following section provides information about security aspects of OpenUI5. The information is intended for OpenUI5 application and control developers, as well as to system administrators running applications based on OpenUI5.
 
@@ -12,7 +12,7 @@ Moreover, common security mechanisms, which are usually taken for granted, like 
 
 
 
-## Further Reading
+### Further Reading
 
 OpenUI5 is not bound to any server implementation or server-side programming language and can, thus, be used with SAP NetWeaver AS for ABAP, Java, HANA XS Engine, or any standard web server. Therefore, the corresponding Security Guides also apply to OpenUI5.
 

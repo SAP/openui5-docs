@@ -1,22 +1,22 @@
 <!-- loioc72b922fdb59422496661000165d7ff1 -->
 
-# Step 4: Two-Way Data Binding
+## Step 4: Two-Way Data Binding
 
 In the examples we've looked at so far, we've displayed the value of a model property using a read-only field. We'll now change the user interface to display first and last name fields using `sap.m.Input` fields. We're also adding a check box control to enable or disable both input fields. This setup illustrates a feature known as "two-way data binding". As the view now contains more controls, we're also moving the view definition into an XML file.
 
 
 
-## Preview
+### Preview
 
   
   
 **Two input fields and a checkbox to enable or disable them**
 
-![The graphic has an explanatory text](images/Tutorial_Data_Binding_Step_4_61d68f1.png "Two input fields and a checkbox to enable or disable them")
+![The graphic has an explanatory text](images/loio61d68f167778425bbdd2abd7d550ae65_LowRes.png "Two input fields and a checkbox to enable or disable them")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 4](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.04).
 
@@ -57,7 +57,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 4](h
 
     After these changes, refresh the application preview and select or deselect the checkbox. You'll notice that the input fields are automatically enabled or disabled in response to the state of the checkbox.
 
-    ![](images/Tutorial_Data_Binding_Step_4_61d68f1.png)![](images/Tutorial_Data_Binding_Step_4_2_6222561.png)
+    ![](images/loio61d68f167778425bbdd2abd7d550ae65_LowRes.png)![](images/loio6222561089bb4559beafb33b456bc8d4_LowRes.png)
 
     It is clear that we haven't written any code to transfer data between the user interface and the model, yet the `Input` controls are enabled or disabled according to the state of the checkbox. This behavior results from the fact that OData models and JSON models implement two-way data binding. For JSON models, two-way binding is the default behavior. For more information, see [Binding Modes](../04_Essentials/data-binding-68b9644.md#loio68b9644a253741e8a4b9e4279a35c247__section_BindingModes).
 

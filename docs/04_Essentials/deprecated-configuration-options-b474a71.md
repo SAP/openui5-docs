@@ -1,6 +1,6 @@
 <!-- loiob474a712ca364d40a1b0a804baf2d734 -->
 
-# DeprecatedConfiguration Options
+## DeprecatedConfiguration Options
 
 The following tables show deprecatedconfiguration options.
 
@@ -14,7 +14,7 @@ The following tables show deprecatedconfiguration options.
 
 <a name="loiob474a712ca364d40a1b0a804baf2d734__section_ix3_4bv_fzb"/>
 
-## Deprecated Options
+### Deprecated Options
 
 The following configuration options are deprecated and should no longer be used in future-proof coding:
 
@@ -68,12 +68,12 @@ For all controls that implement the `animation` parameter, the `animation-mode` 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 </tr>
@@ -96,12 +96,12 @@ This configuration parameter defines UI areas that shall be created in advance.
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -126,12 +126,12 @@ As of OpenUI5 version 1.78, `autoAriaBodyRole` has a default value `false` in or
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -154,12 +154,12 @@ This configuration parameter defines whether the simple or the complex binding s
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -184,12 +184,12 @@ For more information, see the [API Reference: `sap.ui.core.Configuration.FormatS
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 </tr>
@@ -216,12 +216,12 @@ For more information, see: [`sap.ui.core.Component.create`](https://ui5.sap.com/
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 </tr>
@@ -244,12 +244,12 @@ If set to `true`, this configuration parameter enforces that the same IDs are **
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -272,12 +272,12 @@ If set to `true`, additional information for text resources is provided that all
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -308,12 +308,12 @@ The values are used as follows:
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>
@@ -338,12 +338,12 @@ Has only an effect when the `sap-ui-debug.js` module has been loaded, either exp
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 </tr>

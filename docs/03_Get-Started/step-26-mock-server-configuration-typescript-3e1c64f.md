@@ -1,6 +1,6 @@
 <!-- loio3e1c64fd34e247afaf468a92414ed722 -->
 
-# Step 26: Mock Server Configuration \(TypeScript\)
+## Step 26: Mock Server Configuration \(TypeScript\)
 
 We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the "real" service or put additional load on the system where the data service is located.
 
@@ -8,17 +8,17 @@ This system is the so-called back-end system that we will now simulate with an O
 
 
 
-## Preview
+### Preview
 
   
   
 **The list of invoices is now served by the Mock Server**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_26_fe14033.png "The list of invoices is now served by the Mock Server")
+![The graphic has an explanatory text.](images/loiofe1403346ce9499f8bb102beaa4986d5_LowRes.png "The list of invoices is now served by the Mock Server")
 
 
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 26: Mock Server Configuration](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/26) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-26.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 26: Mock Server
   
 **Folder Structure for this Step**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_TypeScript_Folders_Step_26_0ed1999.png "Folder Structure for this Step")
+![The graphic has an explanatory text](images/loio0ed199908e9a4dbda15412b9205f622c_LowRes.png "Folder Structure for this Step")
 
 The folder structure of our app project is clearly separating test and productive files after this step. The new `test` folder now contains a new HTML page `mockServer.html` which will launch our application in test mode without calling the real service.
 
@@ -36,7 +36,7 @@ The new `localService` folder contains a `metadata.xml` service description file
 
 <a name="loio3e1c64fd34e247afaf468a92414ed722__section_yfy_x11_4zb"/>
 
-## webapp/localService/metadata.xml \(New\)
+### webapp/localService/metadata.xml \(New\)
 
 We create a new `localService` folder in the `webapp` folder and add a new `metadata.xml` file to it.
 
@@ -80,7 +80,7 @@ For simplicity, we remove all content from the original Northwind OData metadata
 
 <a name="loio3e1c64fd34e247afaf468a92414ed722__section_s2p_mb1_4zb"/>
 
-## webapp/localService/mockdata/Invoices.json \(New\)
+### webapp/localService/mockdata/Invoices.json \(New\)
 
 Inside the `localService` folder, we create the new folder `mockdata`. The mock server determines the local source files with the appriopriate mock data by matching the entity set names defined in the `metadata.xml` file with the local source file names. As we want to simulate data specified in the metadata file in the entity set `Invoices`, we have to name our mockdata file `Invoices.json`.
 
@@ -135,7 +135,7 @@ We add the new file `Invoices.json` to our new folder and define one flat array 
 
 <a name="loio3e1c64fd34e247afaf468a92414ed722__section_ddh_dc1_4zb"/>
 
-## webapp/localService/mockserver.ts \(New\)
+### webapp/localService/mockserver.ts \(New\)
 
 Now we can write the code to initialize the mock server, which will then simulate any OData request to the real Northwind server. For this we add a new file `mockserver.ts` to the `localService` folder.
 
@@ -180,7 +180,7 @@ export default {
 
 <a name="loio3e1c64fd34e247afaf468a92414ed722__section_oxn_5zr_yfb"/>
 
-## webapp/test/initMockServer.ts \(New\)
+### webapp/test/initMockServer.ts \(New\)
 
 As a next step, we create a module that initializes our local mock server. For this, we add the new `test` folder to our `webapp` folder where we place the new `initMockServer.ts` file.
 
@@ -198,7 +198,7 @@ import("sap/ui/core/ComponentSupport");
 
 
 
-## webapp/test/mockServer.html \(New\)
+### webapp/test/mockServer.html \(New\)
 
 Finally we create a new `mockServer.html` page in our `test` folder. We will use this file to run our app in test mode with our mock server loading mock data from out local `Invoices` JSON file. Test pages should not be placed in the application root folder but in a subfolder called `test` to clearly separate productive and test coding.
 
@@ -243,7 +243,7 @@ From this point on, you have two different entry pages: One for the real "connec
 
 <a name="loio3e1c64fd34e247afaf468a92414ed722__section_lfx_4dg_tyb"/>
 
-## package.json
+### package.json
 
 If you prefer to continue with the local data, you should adjust the `start` script in the `package.json` to open `mockServer.html` instead of `index.html`:
 
@@ -269,7 +269,7 @@ If you prefer to continue with the local data, you should adjust the `start` scr
 
 
 
-## Conventions
+### Conventions
 
 -   The `webapp/test` folder contains non-productive code only.
 

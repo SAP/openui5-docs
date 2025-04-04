@@ -1,6 +1,6 @@
 <!-- loio1c60212834c049ed9f65d743dfeb3d9a -->
 
-# Table Personalization \(deprecated\)
+## Table Personalization \(deprecated\)
 
 The simple concept of table personalization allows the user to personalize a table and to persist these settings.
 
@@ -11,7 +11,7 @@ Personalization currently supports defining the order of columns and their visib
 
 
 
-## Components Defining Personalization
+### Components Defining Personalization
 
 The table personalization concept is built upon three distinct artifacts:
 
@@ -21,7 +21,7 @@ The table personalization concept is built upon three distinct artifacts:
 
 
 
-## Table Personalization Dialog
+### Table Personalization Dialog
 
 The table personalization dialog `sap.m.TablePersoDialog` is a visual control that can be invoked within the context of the table personalization controller. The dialog shows the list of columns in the table, the order in which they appear, and whether their visibility is set to on or off. The user can then use this dialog to adjust these details.
 
@@ -122,7 +122,7 @@ Specifies whether the column is visible \(true\) or not \(false\)
 
 
 
-## Table Personalization Controller
+### Table Personalization Controller
 
 The table personalization controller `sap.m.TablePersoController` can be seen as a wrapper around three things:
 
@@ -164,7 +164,7 @@ Note the reference to "create your own" personalization service provider in the 
 
 
 
-## Table Personalization Persistence Service Provider
+### Table Personalization Persistence Service Provider
 
 The table personalization persistence service provider should be based on the abstract class `sap.m.TablePersoProvider`. Do not instantiate and use this `sap.m.TablePersoProvider` class directly as a provider; it merely describes the interface that a real persistence service provider should be built to.
 
@@ -193,13 +193,13 @@ A concrete implementation of the table personalization persistence service provi
 
 
 
-## Sample
+### Sample
 
 For a detailed example of how table personalization works, see the [sample](https://ui5.sap.com/#/entity/sap.m.Table/sample/sap.m.sample.TablePerso).
 
 
 
-## API Reference
+### API Reference
 
 -   [sap.m.TablePersoDialog](https://ui5.sap.com/#/api/sap.m.TablePersoDialog)
 -   [sap.m.TablePersoController](https://ui5.sap.com/#/api/sap.m.TablePersoController)

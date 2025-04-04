@@ -1,12 +1,12 @@
 <!-- loioe3038209d0e94f4487531956a60ef457 -->
 
-# Keyboard Handling
+## Keyboard Handling
 
 Keyboard handling enables users to access every UI element of the application with the keyboard and is therefore tightly connected to accessibility. Additionally, this aspect is coupled to the screen reader functionality.
 
 
 
-## General Recommendations
+### General Recommendations
 
 **Accessibility of UI elements**
 
@@ -24,7 +24,7 @@ The reading order of the page is very important for the application user experie
 
 
 
-## Tips for Testing
+### Tips for Testing
 
 Start the application and put away your mouse.
 

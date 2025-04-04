@@ -1,6 +1,6 @@
 <!-- loio3a16c7a2f1e944deb000db49e5ece6be -->
 
-# Create a Northwind Destination
+## Create a Northwind Destination
 
 Configure a destination in the SAP BTP Cockpit in order to bypass the same-origin policy of the browser.
 
@@ -17,7 +17,7 @@ To do this, follow the steps described here: [Create a Destination in the SAP BT
 
 <a name="loio3a16c7a2f1e944deb000db49e5ece6be__section_ill_4vz_ghb"/>
 
-## neo-app.json
+### neo-app.json
 
 With this configuration you can use the destination for any app inside SAP Web IDE. Whenever an app calls a \(local\) service beginning with `/destinations/northwind/*`, the created destination becomes active as a simple proxy. This helps to prevent any possible issues related to the same-origin policy of browsers. For this, you need to add another route to the `neo-app.json`:
 
@@ -61,7 +61,7 @@ With this configuration you can use the destination for any app inside SAP Web I
 
 <a name="loio3a16c7a2f1e944deb000db49e5ece6be__section_t5m_fwz_ghb"/>
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 In the app descriptor, the service URL is then defined relative to the destination path specified above:
 

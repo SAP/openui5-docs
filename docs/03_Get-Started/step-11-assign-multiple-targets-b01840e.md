@@ -1,34 +1,34 @@
 <!-- loiob01840ec42ef48e6bfd2bc12612f501f -->
 
-# Step 11: Assign Multiple Targets
+## Step 11: Assign Multiple Targets
 
 In this step, we will add a new button to the home page to illustrate the usage of multiple targets for a route. When the button is pressed, a new page opens that contains two parts: a header part at the top and a content part. The content part displays a table of employees that can be sorted and searched. We will use the array notation in the routing configuration to assign multiple targets to a route - a feature that we have not yet introduced.
 
 
 
-## Preview
+### Preview
 
   
   
 **New button Show Employee Overview**
 
-![](images/Tutorial_Navigation_and_Routing_Step_11a_02350a2.png "New button Show Employee Overview")
+![](images/loio02350a2506854c60a8e81459c578b8b1_LowRes.png "New button Show Employee Overview")
 
   
   
 **Employee Overview with search field**
 
-![](images/Tutorial_Navigation_and_Routing_Step_11b_bf4ffb5.png "Employee Overview with search field")
+![](images/loiobf4ffb536b9244abb91321cb6e86b26d_LowRes.png "Employee Overview with search field")
 
   
   
 **Sort options for the Employee Overview**
 
-![](images/Tutorial_Navigation_and_Routing_Step_11c_0842e39.png "Sort options for the Employee Overview")
+![](images/loio0842e39ed8384b3db883e1b466beb72a_LowRes.png "Sort options for the Employee Overview")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Routing and Navigation - Step 11](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.11) .
 
@@ -40,7 +40,7 @@ You can view and download all files in the Demo Kit at [Routing and Navigation -
 
 
 
-## webapp/view/Home.view.xml
+### webapp/view/Home.view.xml
 
 ```xml
 <mvc:View
@@ -63,7 +63,7 @@ First we add a new button to the `Home` view and add an event handler for the `p
 
 
 
-## webapp/controller/Home.controller.js
+### webapp/controller/Home.controller.js
 
 ```js
 sap.ui.define([
@@ -87,7 +87,7 @@ As you know already from the previous steps, we add the `press` event handler `o
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -193,7 +193,7 @@ The router makes sure that the parent view is loaded in addition to the target v
 
 
 
-## webapp/view/employee/overview/EmployeeOverview.view.xml \(New\)
+### webapp/view/employee/overview/EmployeeOverview.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -216,7 +216,7 @@ First we create the parent view by creating the folder `overview` under `webapp/
 
 
 
-## webapp/controller/employee/overview/EmployeeOverview.controller.js \(New\)
+### webapp/controller/employee/overview/EmployeeOverview.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -232,7 +232,7 @@ The controller does not contain any logic yet, but we will add back navigation f
 
 
 
-## webapp/view/employee/overview/EmployeeOverviewTop.view.xml \(New\)
+### webapp/view/employee/overview/EmployeeOverviewTop.view.xml \(New\)
 
 ```xml
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" class="sapUiMediumMarginBottom">
@@ -245,7 +245,7 @@ Create the file `EmployeeOverviewTop.view.xml` and place it in the `webapp/view/
 
 
 
-## webapp/view/employee/overview/EmployeeOverviewContent.view.xml \(New\)
+### webapp/view/employee/overview/EmployeeOverviewContent.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -297,7 +297,7 @@ Create the file EmployeeOverviewContent.view.xml in the `webapp/view/employee/ov
 
 
 
-## webapp/controller/employee/overview/EmployeeOverviewContent.controller.js \(New\)
+### webapp/controller/employee/overview/EmployeeOverviewContent.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -457,7 +457,7 @@ However, we have one problem yet to solve: the search and table ordering are not
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...

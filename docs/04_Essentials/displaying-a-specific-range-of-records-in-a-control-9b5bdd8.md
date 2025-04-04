@@ -1,6 +1,6 @@
 <!-- loio9b5bdd8931194e88b22faf8537099073 -->
 
-# Displaying a Specific Range of Records in a Control
+## Displaying a Specific Range of Records in a Control
 
 It is possible to display only a specific range of records when using a list binding. The necessary properties can be set in the binding information.
 

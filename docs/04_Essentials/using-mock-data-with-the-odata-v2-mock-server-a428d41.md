@@ -1,6 +1,6 @@
 <!-- loioa428d4128f22435693a65223fe6d8ff2 -->
 
-# Using Mock Data with the OData V2 Mock Server
+## Using Mock Data with the OData V2 Mock Server
 
 Mock Data can be used when you start the development of an app as well as for testing and problem solving when the data service is not available or it requires effort to set up data services.
 

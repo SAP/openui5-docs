@@ -1,6 +1,6 @@
 <!-- loioc1c3e2f70066465dbb794c866b933ed5 -->
 
-# Application Cache Buster: Configuration
+## Application Cache Buster: Configuration
 
 The configuration `data-sap-ui-app-cache-buster="./"` must be added to the bootstrap script of the application page.
 

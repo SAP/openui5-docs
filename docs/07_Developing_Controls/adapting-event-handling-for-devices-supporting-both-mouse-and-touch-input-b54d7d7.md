@@ -1,12 +1,12 @@
 <!-- loiob54d7d73eff245d3ab91b96e21177ebf -->
 
-# Adapting Event Handling for Devices Supporting both Mouse and Touch Input
+## Adapting Event Handling for Devices Supporting both Mouse and Touch Input
 
 OpenUI5 event delegation automatically handles both mouse and touch events simultaneously. If you are using jQuery or native browser API \(`domElement.addEventListener`\) to handle events, you have to adapt your coding to support both.
 
 
 
-## Context
+### Context
 
 To prevent the event handler from being called twice for each touch event, additional emulated mouse events shouldn't be handled. This can be achieved by checking the `_sapui_delayedMouseEvent` flag that we set on these emulated mouse events. We have extended the `jQuery.Event` object with an `isMarked` function for checking UI5-specific flags on the real event object. The `sapui` prefix is already considered within the `isMarked` function, so only the semantic part needs to be passed into the function \(for example, for checking if the `_sapui_delayedMouseEvent` flag is marked, simply call `isMarked(delayedMouseEvent)`\). However, when event handler is bound using a browser API like `addEventListener`, the flag needs to be checked using the full flag name, since there is no `isMarked` function on the browser event object.
 
@@ -21,7 +21,7 @@ jQuery(document).on(Device.support.touch ? "touchmove" : "mousemove", function(o
 
 
 
-## Procedure
+### Procedure
 
 1.  Since both mouse and touch should now be supported, the code needs to be changed as follows:
 

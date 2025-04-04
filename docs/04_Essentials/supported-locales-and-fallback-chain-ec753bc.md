@@ -1,6 +1,6 @@
 <!-- loioec753bc539d748f689e3ac814e129563 -->
 
-# Supported Locales and Fallback Chain
+## Supported Locales and Fallback Chain
 
 You can configure a list of supported locales and a fallback locale in your app's manifest to control the loading of resource bundles and avoid '404 Not Found' network responses.
 
@@ -19,7 +19,7 @@ You can configure a list of supported locales and a fallback locale in your app'
 
 <a name="loioec753bc539d748f689e3ac814e129563__section_xqx_s3f_wqb"/>
 
-## Introduction
+### Introduction
 
 When developing apps and working with resource bundles for internationalization \(i18n\), you might run into the following problems:
 
@@ -32,7 +32,7 @@ These issues occur most often when a text translated for the user's locale canno
 
 <a name="loioec753bc539d748f689e3ac814e129563__section_FallbackChain"/>
 
-## Fallback Chain and Fallback Locale
+### Fallback Chain and Fallback Locale
 
 > ### Note:  
 > A locale can be either a BCP47 language tag or a JDK-compatible locale string \(e.g. `"en-GB"`, `"en_GB"`, or `"en"`\).
@@ -74,7 +74,7 @@ fallback chain: "de_DE" -> "de" -> "en" -> ""
 
 <a name="loioec753bc539d748f689e3ac814e129563__section_SupportedLocales"/>
 
-## Supported Locales
+### Supported Locales
 
 Locale candidates obtained from the fallback chain are filtered using your entries in `supportedLocales`. In this way, only resource bundles for configured locales are requested. If this list is empty or not specified, **all** locales are supported.
 

@@ -1,6 +1,6 @@
 <!-- loioc40f1e63ca404cb1833c15ea90ff203a -->
 
-# What's New in OpenUI5 1.94
+## What's New in OpenUI5 1.94
 
 With this release OpenUI5 is upgraded from version 1.93 to 1.94.
 

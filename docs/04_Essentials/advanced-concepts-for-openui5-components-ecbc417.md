@@ -1,6 +1,6 @@
 <!-- loioecbc417ff264498b96bc364c53280242 -->
 
-# Advanced Concepts for OpenUI5 Components
+## Advanced Concepts for OpenUI5 Components
 
 Advanced concepts for components include routing and navigation and component data as well as the event bus.
 

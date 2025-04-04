@@ -1,6 +1,6 @@
 <!-- loioe8fca3e4c68a4f289660299d806ba99e -->
 
-# Load Only What You Really Need
+## Load Only What You Really Need
 
 The amount of resources and data that your app loads will directly affect the performance of your app. You should declare all dependencies and remove unused libraries and classes from your code.
 
@@ -8,7 +8,7 @@ The amount of resources and data that your app loads will directly affect the pe
 
 <a name="loioe8fca3e4c68a4f289660299d806ba99e__section_dvs_cvy_yfb"/>
 
-## Keep Your Library Dependencies Up To Date
+### Keep Your Library Dependencies Up To Date
 
 Always define the libraries you use in the manifest and remove all libraries that you do not intend to use in your code. If you have no manifest, you have to specify the used libraries in the OpenUI5 bootstrap. If you specify the used libraries in either place, they are loaded optimized. This means that all used controls, styles, etc. are not requested separately. For every mentioned library, the library preload file, the library styles, and the text translations are loaded once during the application startup. No further requests are necessary while using the application, because all needed artefacts are already included in the respective library preload file.
 
@@ -33,7 +33,7 @@ Always define the libraries you use in the manifest and remove all libraries tha
 
 <a name="loioe8fca3e4c68a4f289660299d806ba99e__section_pxb_zvy_yfb"/>
 
-## Declare Local Dependencies
+### Declare Local Dependencies
 
 In the JavaScript files of your app, define all dependencies to OpenUI5 framework classes and app resources via `sap.ui.define`. If you have unused dependencies, you should remove them right away.
 
@@ -59,7 +59,7 @@ sap.ui.define([
 
 <a name="loioe8fca3e4c68a4f289660299d806ba99e__section_s3g_5yy_yfb"/>
 
-## Use Lazy Loading
+### Use Lazy Loading
 
 Use controls like `sap.m.List` or UI patterns that support displaying data selectively or with pagination. Make sure that your backend service is designed to deliver small chunks of data as well.
 

@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Running the Support Assistant on an Older OpenUI5 Version
+## Running the Support Assistant on an Older OpenUI5 Version
 
 In some cases you may want to run the Support Assistant against a different version of OpenUI5. You can do so by following a few steps.
 
@@ -10,7 +10,7 @@ In some cases you may want to run the Support Assistant against a different vers
 
 <a name="loio473201b547734e0eb66612df5bae8553__prereq_jhq_pbl_n1b"/>
 
-## Prerequisites
+### Prerequisites
 
 The minimum OpenUI5 version in which the Support Assistant is available is 1.44.17.
 
@@ -18,7 +18,7 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
 
 <a name="loio473201b547734e0eb66612df5bae8553__steps_efg_dsc_sz"/>
 
-## Procedure
+### Procedure
 
 1.  Open the *Technical Information Dialog* using the [shortcut](../02_Read-Me-First/keyboard-shortcuts-for-openui5-tools-154844c.md) [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [P\] .
 
@@ -30,7 +30,7 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
       
     **Technical Information Dialog: Support Assistant Settings**
 
-    ![](images/Support_Assistant_Older_Version_76e6ee0.png "Technical Information Dialog: Support Assistant Settings")
+    ![](images/loio76e6ee08329741b895ec64627d96702e_Source1.png "Technical Information Dialog: Support Assistant Settings")
 
     > ### Note:  
     > When you choose a custom location, keep in mind that the URL should match the protocol of the application. For example, if the application is HTTP, the location should also be HTTP. If it is HTTPS, the location should be HTTPS. The URL should also end in `sap/ui/support/`.
@@ -51,14 +51,14 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
       
     **Support Assistant - Multi-Version Support**
 
-    ![](images/Support_Assistant_Code_Injection_f976dcd.png "Support Assistant - Multi-Version Support")
+    ![](images/loiof976dcdee0de41fd957fc8c672356d17_LowRes.png "Support Assistant - Multi-Version Support")
 
 
 
 
 <a name="loio473201b547734e0eb66612df5bae8553__result_lcv_jxc_sz"/>
 
-## Results
+### Results
 
 You are now able to run the Support Assistant on the version that you selected.
 

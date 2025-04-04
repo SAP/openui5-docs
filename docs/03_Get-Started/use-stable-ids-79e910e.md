@@ -1,6 +1,6 @@
 <!-- loio79e910e6a0d949c7acb051b33170bebc -->
 
-# Use Stable IDs
+## Use Stable IDs
 
 If you keep the IDs of controls, elements, and components stable, you can be sure that other OpenUI5 features will be able to identify them correctly during processing.
 
@@ -8,7 +8,7 @@ If you keep the IDs of controls, elements, and components stable, you can be sur
 
 <a name="loio79e910e6a0d949c7acb051b33170bebc__section_gtm_xlp_3z"/>
 
-## Background
+### Background
 
 OpenUI5 generates IDs for controls, elements, or components dynamically if you don't set them yourself. This sounds convenient, but might lead to problems when the corresponding elements are processed later on by other OpenUI5 features. So it's a good idea to use stable IDs instead of dynamic IDs.
 
@@ -16,7 +16,7 @@ OpenUI5 generates IDs for controls, elements, or components dynamically if you d
 
 <a name="loio79e910e6a0d949c7acb051b33170bebc__section_k23_b5s_rkb"/>
 
-## How to Make IDs Stable
+### How to Make IDs Stable
 
 For this, you use the `id` property or attribute of the respective element. For a list of the elements for which you can set stable ID, see the related link below.
 

@@ -1,25 +1,25 @@
 <!-- loiod63a15e5eebb45cdada317bae5f45bc2 -->
 
-# Step 35: Device Adaptation
+## Step 35: Device Adaptation
 
 We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the `sap.ui.Device` API and defining a device model we will make the app look great on many devices.
 
 
 
-## Preview
+### Preview
 
   
   
 **On phone devices, the panel is collapsed to save screen space and a button is hidden**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_35_0b0d57e.png "On phone devices, the panel is collapsed to save screen space and a button is
+![The graphic has an explanatory text.](images/loio0b0d57e04e574d7fbc4b10395e6cb260_LowRes.png "On phone devices, the panel is collapsed to save screen space and a button is
 					hidden")
 
 
 
 <a name="loiod63a15e5eebb45cdada317bae5f45bc2__section_qzn_hln_tyb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 35](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.35).
 
@@ -27,7 +27,7 @@ You can view and download all files at [Walkthrough - Step 35](https://ui5.sap.c
 
 <a name="loiod63a15e5eebb45cdada317bae5f45bc2__section_rzn_hln_tyb"/>
 
-## webapp/view/HelloPanel.view.xml
+### webapp/view/HelloPanel.view.xml
 
 ```xml
 <mvc:View
@@ -72,7 +72,7 @@ We can also hide single controls by device type when we set a CSS class like `sa
 
 
 
-## webapp/Component.js
+### webapp/Component.js
 
 ```js
 sap.ui.define([
@@ -120,7 +120,7 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
 
 
 
-## webapp/view/Detail.view.xml
+### webapp/view/Detail.view.xml
 
 > ### Tip:  
 > You can test the device specific features of your app with the developer tools of your browser. For example in Google Chrome, you can emulate a tablet or a phone easily and see the effects. Some responsive options of OpenUI5 are only set initially when loading the app, so you might have to reload your page to see the results.
@@ -190,7 +190,7 @@ We now use the `Date` type and provide the pattern of our date format in the sou
 
 
 
-## webapp/controller/Detail.controller.js
+### webapp/controller/Detail.controller.js
 
 ```js
 sap.ui.define([
@@ -220,7 +220,7 @@ In the `Detail` controller we simply add the view model with our currency defini
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 # Detail Page
@@ -236,7 +236,7 @@ We can see the results when we decrease the browser's screen size or open the ap
 
 
 
-## Conventions
+### Conventions
 
 Optimize your application for the different screen sizes of phone, tablet, and desktop devices.
 

@@ -1,29 +1,29 @@
 <!-- loio10592affce3e4f1ba73c3125ee06e0b7 -->
 
-# Step 8: Testing Navigation
+## Step 8: Testing Navigation
 
 So far, we have a list of posts on the home page of the app. But typically, a post comes with more details that should be displayed on a separate detail page. We call it the post page because it displays details of a post. In this step we will introduce a new journey to test the post page. We write tests that trigger typical navigation events with OPA. Testing navigation greatly helps in reducing manual testing efforts as it covers a lot of testing paths. It is good practice to cover every view of your application with at least one test, since OPA will check if an exception is thrown. In this way you can detect critical errors very fast. 
 
 
 
-## Preview
+### Preview
 
   
   
 **We add an OPA test that selects an item from the table and navigates to the post page**
 
-![](images/Tutorial_Testing_Step_08_cf3e0a6.jpg "We add an OPA test that selects an item from the table and navigates to the
+![](images/loiocf3e0a650c6647b08410fab5b09d606d_LowRes.jpg "We add an OPA test that selects an item from the table and navigates to the
 					post page")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Testing - Step 8](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.08).
 
 
 
-## webapp/test/integration/PostJourney.js \(New\)
+### webapp/test/integration/PostJourney.js \(New\)
 
 ```js
 /*global QUnit*/
@@ -84,7 +84,7 @@ Our new journey consists of three user interaction steps:
 
 
 
-## webapp/test/integration/pages/Worklist.js – action object
+### webapp/test/integration/pages/Worklist.js – action object
 
 ```js
 
@@ -122,7 +122,7 @@ Now that we have written our spec how the navigation to the *Post* page is plann
 
 
 
-## **webapp/test/integration/pages/Post.js \(New\)**
+### **webapp/test/integration/pages/Post.js \(New\)**
 
 ```js
 sap.ui.define([
@@ -177,7 +177,7 @@ We implement a `press` event on the page's `nav` button and we assert that we ar
 
 
 
-## **webapp/test/integration/pages/Worklist.js – assertion object**
+### **webapp/test/integration/pages/Worklist.js – assertion object**
 
 ```js
 …
@@ -199,7 +199,7 @@ After going back, we want to move forwards again, but we need to check if the ba
 
 
 
-## **webapp/test/integration/pages/Browser.js \(New\)**
+### **webapp/test/integration/pages/Browser.js \(New\)**
 
 ```js
 sap.ui.define([
@@ -227,7 +227,7 @@ We now implement an action that is triggered when the *Forward* button is chosen
 
 
 
-## **webapp/test/integration/opaTests.qunit.js**
+### **webapp/test/integration/opaTests.qunit.js**
 
 ```js
 sap.ui.define([

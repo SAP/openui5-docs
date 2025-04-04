@@ -1,6 +1,6 @@
 <!-- loio8dbd35e1577b445d8077b2bc6ad8b958 -->
 
-# Device Adaptation: Using Device Models for Your App
+## Device Adaptation: Using Device Models for Your App
 
 Depending on the capabilities of the device on which the app is running, the functionality and the design of the application might differ. By introducing a local JSON model holding the device-dependent data, we can bind properties of our views to the device's capabilities.
 

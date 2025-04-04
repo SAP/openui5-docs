@@ -1,6 +1,6 @@
 <!-- loiocddf7e54277446a4a35c9fd9285da009 -->
 
-# Passing Data when Navigating
+## Passing Data when Navigating
 
 When you use the `to(…)` and `back(…)` methods of the `NavContainer` to trigger navigation, you can also give an optional payload data object.
 

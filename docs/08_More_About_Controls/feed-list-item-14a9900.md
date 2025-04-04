@@ -1,6 +1,6 @@
 <!-- loio14a9900bcb514f89877c115046da4ff7 -->
 
-# Feed List Item
+## Feed List Item
 
 This control provides a set of properties for a feed, such as text, sender information and timestamp.
 
@@ -10,7 +10,7 @@ For more information about this control, see the [API Reference](https://ui5.sap
 
 
 
-## Overview
+### Overview
 
 -   **Responsiveness**
 
@@ -35,7 +35,7 @@ For more information about this control, see the [API Reference](https://ui5.sap
 
 
 
-## More Information
+### More Information
 
 The `sap.m.FeedListItem` control can be used in combination with the `sap.m.FeedInput` control as a feed or notes control. For more information, see [Feed Input](feed-input-0ec25a1.md).
 

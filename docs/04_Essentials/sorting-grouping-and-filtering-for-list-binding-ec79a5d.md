@@ -1,12 +1,12 @@
 <!-- loioec79a5d5918f4f7f9cbc2150e66778cc -->
 
-# Sorting, Grouping, and Filtering for List Binding
+## Sorting, Grouping, and Filtering for List Binding
 
 
 
 <a name="loioec79a5d5918f4f7f9cbc2150e66778cc__section_606348F7CECC432C9E18DACEFB3127CF"/>
 
-## Initial Sorting, Grouping and Filtering for List Binding
+### Initial Sorting, Grouping and Filtering for List Binding
 
 To provide initial **sorting and grouping** in an XML view, proceed as follows:
 
@@ -61,7 +61,7 @@ sap.ui.define([
 
 As you can see, `getCounty` generates the key for a division into groups as well as a group caption, which in this case is the county of the current companies. `getGroupHeader` serves as a group header factory function. After sorting and grouping, the company list looks like this:
 
-![](images/Aggregation_Binding_cdd0973.png)
+![](images/loiocdd09735362d4227809f3028201a1bba_LowRes.png)
 
 The following XML snippet provides initial filtering:
 
@@ -132,7 +132,7 @@ You can also use the other list binding possibilities \(for example `bindAggrega
 
 <a name="loioec79a5d5918f4f7f9cbc2150e66778cc__section_N100CF_N10013_N10001"/>
 
-## Manual Sorting and Filtering for List Binding
+### Manual Sorting and Filtering for List Binding
 
 You can sort or filter data manually after the list binding is complete by getting the corresponding binding and calling the sort/filter function:
 
@@ -153,7 +153,7 @@ For more information about the various sorting and filter methods and operators,
 
 <a name="loioec79a5d5918f4f7f9cbc2150e66778cc__section_jxn_fmp_rcb"/>
 
-## Using Complex Syntax to Add Filters and Sorters
+### Using Complex Syntax to Add Filters and Sorters
 
 Complex syntax can be used to add filters and sorters for list binding. One or multiple objects can be defined.
 

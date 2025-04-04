@@ -1,6 +1,6 @@
 <!-- loioeadd60ae907646bbb838866566b23182 -->
 
-# Step 1: Browser Developer Tools
+## Step 1: Browser Developer Tools
 
 In this step, you will learn how to use your browser's developers tools to troubleshoot your OpenUI5 app.
 
@@ -10,7 +10,7 @@ Most modern web browsers contain some form of developer tools. They allow you to
 
 <a name="loioeadd60ae907646bbb838866566b23182__section_hkm_s4f_vz"/>
 
-## Opening the Example App and the Developer Tools
+### Opening the Example App and the Developer Tools
 
 1.  Download the example app with errors at [Troubleshooting](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01).
 
@@ -19,7 +19,7 @@ Most modern web browsers contain some form of developer tools. They allow you to
 4.  Execute `npm start` to start the web server and to open a new browser window hosting your newly created `index.html`.
 
     > ### Note:  
-    > If you run the app within the Demo Kit frame, this step will not work as described. Open the app in a new tab first with ![Open in New Tab](images/Icon_Open_in_New_Tab_ebdf48e.png).
+    > If you run the app within the Demo Kit frame, this step will not work as described. Open the app in a new tab first with ![Open in New Tab](images/loioebdf48e5efdb48a5a1f24dea972b4c41_LowRes.png).
 
 5.  Open the *Developer Tools* by pressing [F12\].
 
@@ -28,7 +28,7 @@ Most modern web browsers contain some form of developer tools. They allow you to
 
 <a name="loioeadd60ae907646bbb838866566b23182__section_xmw_w4f_vz"/>
 
-## Inspecting DOM Elements and CSS Styles in the *Elements* Tab
+### Inspecting DOM Elements and CSS Styles in the *Elements* Tab
 
 1.  Activate the *Inspect Element* mode by pressing [Ctrl\] + [Shift\] + [C\] .
 
@@ -71,11 +71,11 @@ Most modern web browsers contain some form of developer tools. They allow you to
 
 <a name="loioeadd60ae907646bbb838866566b23182__section_bjt_qqf_vz"/>
 
-## Analyzing Messages in the *Console* Tab
+### Analyzing Messages in the *Console* Tab
 
 
 
-### Interacting with the document
+#### Interacting with the document
 
 1.  Switch to the *Console* tab and enter `$("#container-HeapOfShards---app--myButton")`
 
@@ -135,7 +135,7 @@ Most modern web browsers contain some form of developer tools. They allow you to
 
 
 
-### Watching messages
+#### Watching messages
 
 1.  Switch to the *Console* tab.
 
@@ -164,7 +164,7 @@ Most modern web browsers contain some form of developer tools. They allow you to
 
 <a name="loioeadd60ae907646bbb838866566b23182__section_rdm_rqf_vz"/>
 
-## Debugging in the *Sources* Tab
+### Debugging in the *Sources* Tab
 
 1.  Switch to the *Source* tab.
 
@@ -198,7 +198,7 @@ Most modern web browsers contain some form of developer tools. They allow you to
 
 <a name="loioeadd60ae907646bbb838866566b23182__section_ej5_sqf_vz"/>
 
-## Checking the *Network* Tab
+### Checking the *Network* Tab
 
 The *Network* tab shows the sequence and duration of files being loaded. It can be used to optimize loading performance and debug request issues.
 
@@ -229,7 +229,7 @@ The *Network* tab shows the sequence and duration of files being loaded. It can 
 
 <a name="loioeadd60ae907646bbb838866566b23182__section_tk3_5qf_vz"/>
 
-## Testing Responsiveness with *Device Mode*
+### Testing Responsiveness with *Device Mode*
 
 Switch to *Device* mode by clicking the respective button or by pressing [Ctrl\] + [Shift\] + [M\] .
 
@@ -239,7 +239,7 @@ Emulate different mobile devices by selecting different devices, or switch orien
 
 <a name="loioeadd60ae907646bbb838866566b23182__section_f1h_vqf_vz"/>
 
-## Analyzing Performance Problems and Memory Leaks
+### Analyzing Performance Problems and Memory Leaks
 
 There are additional tabs that can help you to analyze performance problems or memory leaks. For more information, refer to the documentation of the developer tools of your browser.
 

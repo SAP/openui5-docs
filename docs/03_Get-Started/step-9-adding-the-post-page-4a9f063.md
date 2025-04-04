@@ -1,28 +1,28 @@
 <!-- loio4a9f063d4a4143d5b5c10416677f04b6 -->
 
-# Step 9: Adding the *Post* Page
+## Step 9: Adding the *Post* Page
 
 Now that we have covered all kinds of tests for navigation, we introduce our *Post* page that shows details of a post in the bulletin board. To achieve this, we have to introduce a new view/controller pair and adjust the routing of the application.
 
 
 
-## Preview
+### Preview
 
   
   
 **The Post page with more details about the post**
 
-![](images/Tutorial_Testing_Step_09_38c810b.jpg "The Post page with more details about the post")
+![](images/loio38c810b97e5b48bba08032aed403bb07_LowRes.jpg "The Post page with more details about the post")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 9](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.09).
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -75,7 +75,7 @@ We have already used the `#/Posts/{postId}` hash in our tests and a view called 
 
 
 
-## webapp/view/Worklist.view.xml
+### webapp/view/Worklist.view.xml
 
 ```xml
 <mvc:View
@@ -109,7 +109,7 @@ We configure the table items to be of type `Navigation`, so a user can trigger t
 
 
 
-## webapp/controller/Worklist.controller.js
+### webapp/controller/Worklist.controller.js
 
 ```js
 sap.ui.define([
@@ -146,7 +146,7 @@ The `press` handler function instructs the `router` to navigate to the `post` pa
 
 
 
-## webapp/view/Post.view.xml \(New\)
+### webapp/view/Post.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -188,7 +188,7 @@ We provide a minimalistic detail page showing only some fields of the selected p
 
 
 
-## webapp/controller/Post.controller.js \(New\)
+### webapp/controller/Post.controller.js \(New\)
 
 ```js
 sap.ui.define([

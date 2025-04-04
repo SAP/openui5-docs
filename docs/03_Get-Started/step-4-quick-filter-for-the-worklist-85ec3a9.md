@@ -1,28 +1,28 @@
 <!-- loio85ec3a9454ac4eb1a901745e773844d3 -->
 
-# Step 4: Quick Filter for the Worklist
+## Step 4: Quick Filter for the Worklist
 
 For easily detecting and managing product shortages in our app, we will add a quick filter for the worklist table. Users can press the filter tabs to display the products according to whether they are in stock, have low stock or no stock. The table will update accordingly and show only the products matching the criteria.
 
 
 
-## Preview
+### Preview
 
   
   
 **A quick filter allows filtering the product table**
 
-![](images/Tutorial_Worklist_Step_4_Preview_395f8ac.png "A quick filter allows filtering the product table")
+![](images/loio395f8acac5fd4fbc9a1c52c615fa07d3_HiRes.png "A quick filter allows filtering the product table")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Worklist App - Step 4](https://ui5.sap.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.04).
 
 
 
-### webapp/view/Worklist.view.xml \[MODIFY\]
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -113,7 +113,7 @@ We now update the view and add the new UI for the quick filter to the content ag
 
 
 
-### webapp/controller/Worklist.controller.js \[MODIFY\]
+#### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ```js
 		...
@@ -169,7 +169,7 @@ Creating a simple filter requires a binding path as first parameter of the filte
 
 
 
-### webapp/controller/Worklist.controller.js \[MODIFY\]
+#### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ```js
 		...
@@ -229,7 +229,7 @@ In the `success` handler of each `read` operation we update the corresponding pr
 
 
 
-### webapp/controller/Worklist.controller.js \[MODIFY\]
+#### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ```js
 		...
@@ -266,7 +266,7 @@ The filters are always applied as an array on the binding level, so you don't ne
 
 
 
-### webapp/i18n/i18n.properties \[MODIFY\]
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ```ini
 

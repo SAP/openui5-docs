@@ -1,24 +1,24 @@
 <!-- loio49b1ac6f768947769d3daa9baf807f31 -->
 
-# Step 18: Icons \(TypeScript\)
+## Step 18: Icons \(TypeScript\)
 
 Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large icon font that contains more than 500 icons, we will add an icon to greet our users when the dialog is opened.
 
 
 
-## Preview
+### Preview
 
   
   
 **An icon is now displayed in the dialog box**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_18_fbc48e2.png "An icon is now displayed in the dialog box")
+![The graphic has an explanatory text.](images/loiofbc48e23cc7d45e393cc95bbbfc6e0a3_LowRes.png "An icon is now displayed in the dialog box")
 
 
 
 <a name="loio49b1ac6f768947769d3daa9baf807f31__section_pg2_zgk_syb"/>
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 18: Icons](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/18) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-18.zip).
 
@@ -26,7 +26,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 18: Icons](http
 
 <a name="loio49b1ac6f768947769d3daa9baf807f31__section_qg2_zgk_syb"/>
 
-## webapp/view/HelloPanel.view.xml
+### webapp/view/HelloPanel.view.xml
 
 We add an icon to the button that opens the dialog. The `sap-icon://` protocol is indicating that an icon from the icon font should be loaded. The identifier `world` is the readable name of the icon in the icon font.
 
@@ -69,7 +69,7 @@ We add an icon to the button that opens the dialog. The `sap-icon://` protocol i
 
 
 
-## webapp/view/HelloDialog.fragment.xml
+### webapp/view/HelloDialog.fragment.xml
 
 In the dialog fragment, we add an icon control to the content aggregation of the dialog. Luckily, the icon font also comes with a "Hello World" icon that is perfect for us here. We also define the size of the icon and set a medium margin on it.
 
@@ -97,7 +97,7 @@ In the dialog fragment, we add an icon control to the content aggregation of the
 
 
 
-## Conventions
+### Conventions
 
 -   Always use icon fonts rather than images wherever possible, as they are scalable without quality loss \(vector graphics\) and do not need to be loaded separately.
 

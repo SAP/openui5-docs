@@ -1,6 +1,6 @@
 <!-- loio2a46b7567a73457c81b1b67741146063 -->
 
-# Step 10: Descriptor for Applications \(TypeScript\)
+## Step 10: Descriptor for Applications \(TypeScript\)
 
 All application-specific configuration settings will now further be put in a separate descriptor file called `manifest.json`. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.
 
@@ -8,18 +8,18 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
 
 
-## Preview
+### Preview
 
   
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
-![An input field and a description displaying the value of the input field (No visual changes to last step)](images/UI5_Walkthrough_Step_10_7b2aef8.png " An input field and a description displaying the value of the input field (No
+![An input field and a description displaying the value of the input field (No visual changes to last step)](images/loio7b2aef85c016485da4a31c087bf4c0f0_LowRes.png " An input field and a description displaying the value of the input field (No
 					visual changes to last step)")
 
 
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 10: Descriptor for Applications](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/10) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-10.zip).
 
@@ -27,7 +27,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 10: Descriptor 
 
 <a name="loio2a46b7567a73457c81b1b67741146063__section_oxj_qkk_lzb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 In our text bundle, we include two new name-value pairs: `appTitle` for the title of our app and `appDescription` for a brief description. These texts will be used in our app descriptor later on. To improve readability, we also add comments to separate the bundle texts based on their meaning.
 
@@ -44,7 +44,7 @@ helloMsg=Hello {0}
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 As mentioned in Step 1 the manifest file is used by OpenUI5 to instantiate the component. We have already configured the essential attributes of the file so that it can be used with UI5 Tooling. Now, we'll add further attributes that are important for creating a proper UI component in OpenUI5.
 
@@ -159,7 +159,7 @@ The **`sap.ui5`** namespace adds OpenUI5-specific configuration parameters that 
 
 
 
-## webapp/Component.ts
+### webapp/Component.ts
 
 To apply the settings specified in the app descriptor to the component, we need to include the descriptor file in the component's metadata. To do this, we add a `manifest` property to the `metadata` section of the component and set it to `json`. This property acts as a reference to the `manifest.json` file that will be loaded and used.
 
@@ -197,7 +197,7 @@ export default class Component extends UIComponent {
 
 <a name="loio2a46b7567a73457c81b1b67741146063__section_ok2_4n5_zgb"/>
 
-## webapp/index.html
+### webapp/index.html
 
 Let's explore how we can create a component in a simple and straightforward way directly in the HTML markup of our `index.html` file. To do this, we need to make a few changes in our HTML document.
 
@@ -233,7 +233,7 @@ We can delete our `index.ts`, because the descriptor now takes care of everythin
 
 
 
-## Conventions
+### Conventions
 
 -   The descriptor file is named `manifest.json` and stored as a JSON file.
 

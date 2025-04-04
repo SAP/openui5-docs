@@ -1,6 +1,6 @@
 <!-- loio4f1c1075d88c41a5904389fa12b28f6b -->
 
-# URL Helper
+## URL Helper
 
 With `sap.m.URLHelper` you can easily trigger native mobile phone applications such as e-mail, telephone, and text messages.
 

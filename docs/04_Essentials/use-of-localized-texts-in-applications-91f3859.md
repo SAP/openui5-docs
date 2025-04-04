@@ -1,6 +1,6 @@
 <!-- loio91f385926f4d1014b6dd926db0e91070 -->
 
-# Use of Localized Texts in Applications
+## Use of Localized Texts in Applications
 
 OpenUI5 provides two options to use localized texts in applications: The `sap/base/i18n/ResourceBundle` module and data binding.
 
@@ -8,7 +8,7 @@ OpenUI5 provides two options to use localized texts in applications: The `sap/ba
 
 <a name="loio91f385926f4d1014b6dd926db0e91070__section_F5967527CABC49C78F6DCD1FC3182CC0"/>
 
-## Using sap/base/i18n/ResourceBundle
+### Using sap/base/i18n/ResourceBundle
 
 You can use the JavaScript module `sap/base/i18n/ResourceBundle` to access localized texts. The module contains APIs to load a resource bundle file from a given URL and for a given locale.
 
@@ -39,7 +39,7 @@ var sText = oBundle.getText(sKey);
 
 <a name="loio91f385926f4d1014b6dd926db0e91070__section_23DD4C90FA3C4AE5BCE18C17122444D4"/>
 
-## Localization Test Page
+### Localization Test Page
 
 The test suite provides a test page that shows how to use localized texts. This section only provides a short overview how the `sap/base/i18n/ResourceBundle` module is used there.
 
@@ -126,7 +126,7 @@ With regard to localization, the code above defines the following procedure:
 
 <a name="loio91f385926f4d1014b6dd926db0e91070__section_1E0C902502BA455CA0C98A4365A367B3"/>
 
-## Data Binding
+### Data Binding
 
 You can also use data binding to access localized texts. The `ResourceModel` is a wrapper for resource bundles that exposes the localized texts as a model for data binding. You use the `ResourceModel` to bind texts for control properties to language dependent resource bundle properties. You can instantiate the `ResourceModel` either with `bundleName` \(name of a resource bundle that equals a OpenUI5 module name within the define/require concept\), or a `bundleUrl`, which points to a resource bundle. When you use the bundle name, make sure that the file has a `.properties` suffix. If no `locale` is defined, the current language is used.
 

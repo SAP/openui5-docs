@@ -1,18 +1,18 @@
 <!-- loiod70e9894c09b4c27a98d4850d4e90f2c -->
 
-# Step 3: Create Property Binding
+## Step 3: Create Property Binding
 
 Although there is no visible difference, the text on the screen is now derived from model data.
 
 
 
-## Preview
+### Preview
 
-![The browser shows the text "Hi, my name is Harry Hawk"](images/Tutorial_Data_Binding_Step_1_6d391d5.png)
+![The browser shows the text "Hi, my name is Harry Hawk"](images/loio6d391d527601499fbeb3734246b2c067_LowRes.png)
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 3](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.03).
 

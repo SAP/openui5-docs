@@ -1,6 +1,6 @@
 <!-- loio3b9f760da5b64adf8db7f95247879086 -->
 
-# Types of Layout
+## Types of Layout
 
 Overview of the possible layouts for an `sap.f.FlexibleColumnLayout`, as defined in the `sap.f.LayoutType` enumeration.
 
@@ -38,7 +38,7 @@ Use to show the first logical information level \(list page\) only.
 </td>
 <td valign="top">
 
-![](images/1_OneColumn_d791491.png)
+![](images/loiod7914916d4674c3481d67658eae465a1_LowRes.png)
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ Use this layout type to display two logical levels of information \(list and det
 </td>
 <td valign="top">
 
-![](images/2_TwoColumnsBeginExpanded_9a60387.png)
+![](images/loio9a603876f70a47aeabf08c030a5e9daa_LowRes.png)
 
 </td>
 </tr>
@@ -66,7 +66,7 @@ Similar to `TwoColumnsBeginExpanded`, but this time the `Mid` column is the wide
 </td>
 <td valign="top">
 
-![](images/3_TwoColumnsMidExpanded_c0d6936.png)
+![](images/loioc0d69368378f4d0dac00d62801fd64e5_LowRes.png)
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Use this layout to display the second logical level of information \(detail page
 </td>
 <td valign="top">
 
-![](images/4_MidColumnFullScreen_a01d72d.png)
+![](images/loioa01d72d41f014168b9438d12e650f4ad_LowRes.png)
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Use this layout to display up to three logical levels of information side by sid
 </td>
 <td valign="top">
 
-![](images/5_ThreeColumnsMidExpanded_d1f89e8.png)
+![](images/loiod1f89e8ad3f9409aa14e8e98a07f8bb4_LowRes.png)
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Similar to `ThreeColumnsMidExpanded`, but this time the `End` column is expanded
 </td>
 <td valign="top">
 
-![](images/6_ThreeColumnsEndExpanded_2cef71c.png)
+![](images/loio2cef71c4c5e64dea975c6b44196d2ca7_LowRes.png)
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Use this layout to show the `Begin` and `Mid` columns only \(`Mid` being expande
 </td>
 <td valign="top">
 
-![](images/7_ThreeColumnsMidExpandedEndHidden_21a31d2.png)
+![](images/loio21a31d26b82d4c8ea2d17fe28a792026_LowRes.png)
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Similar to `ThreeColumnsMidExpandedEndHidden`, but this time the `Begin` column 
 </td>
 <td valign="top">
 
-![](images/8_ThreeColumnsBeginExpandedEndHidden_e98b27b.png)
+![](images/loioe98b27beff5145b79cd3a7a7392f9167_LowRes.png)
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Use this layout to display the third logical level of information \(detail-detai
 </td>
 <td valign="top">
 
-![](images/9_EndColumnFullScreen_1129d11.png)
+![](images/loio1129d11a2aa3466c937db16d8e9c149a_LowRes.png)
 
 </td>
 </tr>

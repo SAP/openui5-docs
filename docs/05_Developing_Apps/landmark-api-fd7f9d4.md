@@ -1,6 +1,6 @@
 <!-- loiofd7f9d41ca9c46d891c45f1dcc0682bf -->
 
-# Landmark API
+## Landmark API
 
 The landmark API allows app developers to set different roles and labels that allow users to access the sections of the page using the screen reader functions/shortcuts.
 
@@ -10,7 +10,7 @@ Landmark roles \(or "landmarks"\) identify sections of a page. Landmarks help as
 
 <a name="loiofd7f9d41ca9c46d891c45f1dcc0682bf__section_vft_ghf_fqb"/>
 
-## Landmark APIs in OpenUI5
+### Landmark APIs in OpenUI5
 
 Support for landmark roles is provided for:
 
@@ -23,7 +23,7 @@ Support for landmark roles is provided for:
 
 Before seeing how a landmark is set for these controls, you must understand which landmark roles we can use.
 
-The picture below is an example of different landmarks with assigned labels in a `sap.uxap.ObjectPageLayout`. ![](images/Landmark_Info_Image_77cb16f.png)
+The picture below is an example of different landmarks with assigned labels in a `sap.uxap.ObjectPageLayout`. ![](images/loio77cb16f93da74644abdf68296651f7bf_Source1.png)
 
 Supported landmark roles in OpenUI5 are stored in the `sap.ui.core.AccessibleLandmarkRole` enum. For more information, see the [API Reference: `sap.ui.core.AccessibleLandmarkRole`](https://ui5.sap.com/#/api/sap.ui.core.AccessibleLandmarkRole). 
 
@@ -31,7 +31,7 @@ Supported landmark roles in OpenUI5 are stored in the `sap.ui.core.AccessibleLan
 
 <a name="loiofd7f9d41ca9c46d891c45f1dcc0682bf__section_jx5_b5b_jqb"/>
 
-## sap.ui.core.AccessibleLandmarkRole
+### sap.ui.core.AccessibleLandmarkRole
 
 Here is a list of all of the values of the enum showing the part of the web page for which each of them is appropriate:
 

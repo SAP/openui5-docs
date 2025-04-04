@@ -1,6 +1,6 @@
 <!-- loio8e618a8d93cb4f92adc911b96047eb8d -->
 
-# Unit Formatting
+## Unit Formatting
 
 OpenUI5 supports the formatting and parsing of units. These unit formats are by default taken from the CLDR. Besides the default units defined in the CLDR, you can also define custom units.
 
@@ -8,7 +8,7 @@ OpenUI5 supports the formatting and parsing of units. These unit formats are by 
 
 <a name="loio8e618a8d93cb4f92adc911b96047eb8d__section_m5b_xkh_hdb"/>
 
-## Introduction
+### Introduction
 
 Similar to the formatting of currencies, the unit formatting feature allows you to combine a number value with a localized unit string. Still the actual numbers themselves can be formatted in all kinds of styles, for example, with different decimals or fraction digits.
 
@@ -22,11 +22,11 @@ In addition to the formatting and parsing patterns, the CLDR also provides a dis
 
 <a name="loio8e618a8d93cb4f92adc911b96047eb8d__section_fb5_wlh_hdb"/>
 
-## Usage
+### Usage
 
 
 
-### Simple Sample
+#### Simple Sample
 
 Since the units and their formatting patterns are already included in the respective language JSON files, you can simply instantiate a new unit format instance via the `NumberFormat.getUnitInstance()` factory. The resulting instance supports formatting and parsing. While the `FormatOptions` are used to format the Number itself, the specific unit code is passed to the format/parse method.
 
@@ -43,7 +43,7 @@ For information on the validation of parsed numerical input, see [Parsing](numbe
 
 
 
-### Complex Sample
+#### Complex Sample
 
 Besides a simple formatting and parsing of units defined in the CLDR, you can also use the known format options for formatting numbers independent of the unit. The style of the number output format can be defined as either `short` or `long.`
 
@@ -79,7 +79,7 @@ sap.ui.require(["sap/ui/core/Locale", "sap/ui/core/LocaleData"],
 
 
 
-### Plural Forms and RTL
+#### Plural Forms and RTL
 
 Depending on the set locale/language, the output also correctly regards grammatical plural forms, as well as right-to-left orientation. In some Arabic languages, for example, there is a distinction between "many" and "one", with "one" being a single string without a number in it:
 
@@ -111,11 +111,11 @@ sap.ui.require(["sap/ui/core/Locale", "sap/ui/core/format/NumberFormat"], functi
 
 <a name="loio8e618a8d93cb4f92adc911b96047eb8d__section_b2x_tnh_hdb"/>
 
-## Custom Units
+### Custom Units
 
 
 
-### Instance-Exclusive Units
+#### Instance-Exclusive Units
 
 The unit NumberFormat instance also allows you to specify custom units, which can be used for formatting, as well as parsing. All you have to do is add your custom units as an additional parameter in the `NumberFormat.getUnitInstance()` factory.
 
@@ -161,7 +161,7 @@ If you need both, CLDR units and custom units, you simply have to create two sep
 
 
 
-### Globally Configured Units
+#### Globally Configured Units
 
 You can also add custom units via the format settings in the Core configuration. Contrary to the custom units defined exclusively on a single unit-formatter instance, these custom units will be available in ALL unit-formatted instances for the current locale \(except if they also define a set of custom units\).
 
@@ -214,7 +214,7 @@ Formatting.addUnitMappings({
 
 
 
-### Additional Format Options
+#### Additional Format Options
 
 When using either instance, exclusive or globally configured custom units, you can also add two additional format options \(`decimals` and `precision`\) to the custom unit's definition block. In the following examples the `decimals` option is set.
 
@@ -267,7 +267,7 @@ When using either instance, exclusive or globally configured custom units, you c
 
 <a name="loio8e618a8d93cb4f92adc911b96047eb8d__section_ybw_1yh_hdb"/>
 
-## Databinding: New Unit Type
+### Databinding: New Unit Type
 
 Besides the NumberFormat instances, you now can also include the new Unit type in your application. Simply define it as the type for a property binding, and most of the formatting and parsing effort will be handled for you out of the box.
 
@@ -323,7 +323,7 @@ The third argument of the base Unit type constructor is a list of dynamic format
 
 <a name="loio8e618a8d93cb4f92adc911b96047eb8d__section_LUM"/>
 
-## Legacy Unit Mapping \(deprecated\)
+### Legacy Unit Mapping \(deprecated\)
 
 > ### Caution:  
 > **Legacy unit mapping is deprecated as of OpenUI5 1.122.0**

@@ -1,6 +1,6 @@
 <!-- loiod2ce3f51e5e34198b0c1a7f6ddd98def -->
 
-# Sorting
+## Sorting
 
 The OData V4 model supports server side sorting on lists.
 

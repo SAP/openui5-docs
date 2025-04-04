@@ -1,6 +1,6 @@
 <!-- loio148892ff9aea4a18b912829791e38f3e -->
 
-# Tables: Which One Should I Choose?
+## Tables: Which One Should I Choose?
 
 The libraries provided by OpenUI5 contain various different table controls that are suitable for different use cases. The table below outlines which table controls are available, and what features are supported by each one.
 
@@ -43,22 +43,22 @@ Desktop
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -70,22 +70,22 @@ Tablet
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -97,22 +97,22 @@ Phone
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -124,22 +124,22 @@ Responsive \(hide column, popin support\)
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -151,22 +151,22 @@ Compact density
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -178,22 +178,22 @@ Condensed density
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -205,22 +205,22 @@ Cozy density
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -232,22 +232,22 @@ Summarized cell
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -259,22 +259,22 @@ Hierarchical data
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -286,22 +286,22 @@ Large number of rows \(\> 200\)<sup>2</sup>
 </td>
 <td valign="top">
 
-![Partly](../02_Read-Me-First/images/Yellow_Led_3ea53dc.gif)
+![Partly](../02_Read-Me-First/images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -313,22 +313,22 @@ Grouping
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -340,22 +340,22 @@ Freeze columns
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -367,22 +367,22 @@ Horizontal scrolling
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -394,22 +394,22 @@ Merge duplicates
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -448,22 +448,22 @@ Row-based
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -475,22 +475,22 @@ Column-based
 </td>
 <td valign="top">
 
-![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif)
+![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -502,22 +502,22 @@ Cell selection
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 </tr>
@@ -525,9 +525,9 @@ Cell selection
 
 **Legend**:
 
--   ![Yes](../02_Read-Me-First/images/Green_Led_3cb17ee.gif): Feature is supported for this table type
+-   ![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif): Feature is supported for this table type
 
--   ![No](../02_Read-Me-First/images/Red_Led_5befb5a.gif): Feature is not supported for this table type
+-   ![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif): Feature is not supported for this table type
 
 
 1\) `Text`, `Label`, `ObjectStatus`, `Icon`, `Button`, `Input`, `DatePicker`, `Select`, `ComboBox`, `MultiComboBox`, `CheckBox`, `Link`, `Currency`, `RatingIndicator`, `ProgressIndicator`; To keep the control height always stable, the `wrapping` and `renderWhitespace` properties in the `sap.m.Text` control, for example, must be set to `false`. For more information, search for cell level in the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
@@ -553,7 +553,7 @@ For more information, search for loading items and performance in the responsive
 
 <a name="loio148892ff9aea4a18b912829791e38f3e__section_ymw_zhx_y1c"/>
 
-## Table \(`sap.ui.mdc`\)
+### Table \(`sap.ui.mdc`\)
 
 [\(sap.ui.mdc.Table\)](https://ui5.sap.com/#/api/sap.ui.mdc.Table)
 

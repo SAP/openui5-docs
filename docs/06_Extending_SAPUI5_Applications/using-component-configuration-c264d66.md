@@ -1,6 +1,6 @@
 <!-- loioc264d66d6e3c4104818bc52c174a000c -->
 
-# Using Component Configuration
+## Using Component Configuration
 
 OpenUI5 supports the extension of a base controller by merging the delivered standard controller with a custom controller on JavaScript object level.
 

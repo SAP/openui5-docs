@@ -1,6 +1,6 @@
 <!-- loio108b7fde0df740258e8dc93f4f857eb5 -->
 
-# What's New in OpenUI5 1.56
+## What's New in OpenUI5 1.56
 
 With this release OpenUI5 is upgraded from version 1.54 to 1.56.
 
@@ -160,7 +160,7 @@ Feature
 
 The Support Assistant now allows you to import and export your rule selection. This helps you when you want to perform more than one analysis with the same subset of selected rules. The selection is exported as a `.json` file with a title and description of your choice. You can then import this file and load it whenever you want to execute the same rules in another analysis.
 
-![](images/Support_Assistant_Import_Export_1_56_916079a.png)
+![](images/loio916079a1321e478498c896d0ce325591_HiRes.png)
 
 For more information, see [Rules Management](../04_Essentials/rules-management-3fc864a.md).
 
@@ -263,7 +263,7 @@ Feature
 
 -   `sap.ui.support.ExecutionScope.getElements` has a new parameter `cloned`. It allows users of the Support Assistant to filter out elements that are clones of list bindings. Now the results will include only the representative clone. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.support.ExecutionScope/methods/Summary).
 
--   A *Filter* view showing the currently applied filter has been added to the *Issues* view of the Support Assistant. The *Clear Filtering* button \(![](images/Clear_filter_icon_4a0cf3b.png)\) has moved to the *Filter* view. It is active only when there is a filter selected.
+-   A *Filter* view showing the currently applied filter has been added to the *Issues* view of the Support Assistant. The *Clear Filtering* button \(![](images/loio4a0cf3bc3f7244549cf95901077aa6ae_HiRes.png)\) has moved to the *Filter* view. It is active only when there is a filter selected.
 
 -   An explanatory note has been added to the *Additional Rulesets* view under the header to give more clarity about the function of these rulesets and why they are in a separate tab.
 
@@ -274,7 +274,7 @@ Feature
 -   In the *Issues* view the number of issues is only highlighted when there are issues of medium and high severity. This improvement helps to easily see the distribution of the issues by severity.
 
 
-![](images/Support_Assistant_UI_improvements_1_56_8830117.png)
+![](images/loio88301172a39245bbb35f0d5abbc26646_HiRes.png)
 
 <sub>Changed•Feature•Info Only•1.56</sub>
 
@@ -1234,11 +1234,11 @@ Feature
 
 -   We've added a *Change version* button in the Demo Kit's toolbar that enables you to easily switch the app to a different OpenUI5 version.
 
-    ![](images/DemoKit_ChangeVersion_401b0b0.png)
+    ![](images/loio401b0b06690b4339856e6c517cb4c884_HiRes.png)
 
 -   In the *API Reference*, at the bottom of the API tree you can now find an *Index by Version* page that displays all APIs grouped by the release version they were first introduced in. Each release version is displayed as a separate tab.
 
-    ![](images/DemoKit_Index_By_Version_d47b461.png)
+    ![](images/loiod47b4612dd6d4fc68aa042c52c54f9a3_HiRes.png)
 
     For more information, see *API Reference*: [Index by Version](https://ui5.sap.com/#/api/since).
 

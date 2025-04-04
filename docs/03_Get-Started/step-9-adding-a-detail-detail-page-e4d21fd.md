@@ -1,6 +1,6 @@
 <!-- loioe4d21fd03edb49da82cbaab9dbd274e8 -->
 
-# Step 9: Adding a Detail-Detail Page
+## Step 9: Adding a Detail-Detail Page
 
 In this step, we create a detail-detail page using `sap.f.DynamicPage`, which is opened by choosing a supplier from the detail page.
 
@@ -8,19 +8,19 @@ In this step, we create a detail-detail page using `sap.f.DynamicPage`, which is
 
 <a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_yfh_d31_12b"/>
 
-## Preview
+### Preview
 
   
   
 **Detail-detail page displaying the name of the selected supplier**
 
-![](images/DetailDetail_Page_Fiori_2_0_Tutorial_3046679.gif "Detail-detail page displaying the name of the selected supplier")
+![](images/loio30466794b2164305a9693ccd23af0380_LowRes.gif "Detail-detail page displaying the name of the selected supplier")
 
 
 
 <a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 9](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.09/preview).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Flexible Column Layout App - Step 9](htt
 
 <a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_i1z_w4j_l4b"/>
 
-## webapp/view/DetailDetail.view.xml \[NEW\]
+### webapp/view/DetailDetail.view.xml \[NEW\]
 
 ```xml
 <mvc:View
@@ -56,7 +56,7 @@ We create a detail-detail page view using `sap.f.DynamicPage` with only a title.
 
 <a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_ocd_w4j_l4b"/>
 
-## webapp/controller/DetailDetail.controller.js \[NEW\]
+### webapp/controller/DetailDetail.controller.js \[NEW\]
 
 ```js
 sap.ui.define([
@@ -98,7 +98,7 @@ We create the detail-detail page controller.
 
 <a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_ubh_v4j_l4b"/>
 
-## webapp/manifest.json \[MODIFY\]
+### webapp/manifest.json \[MODIFY\]
 
 ```json
 			...
@@ -154,7 +154,7 @@ We add the detail-detail page to our existing routes in the `manifest.json`.
 
 <a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_k5k_54j_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 			...
@@ -190,7 +190,7 @@ We add a `press` event handler for each item in the *SUPPLIERS* table in the det
 
 <a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_iyl_t4j_l4b"/>
 
-## webapp/controller/Detail.controller.js \[MODIFY\]
+### webapp/controller/Detail.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -228,7 +228,7 @@ We add an `onSupplierPress` function in the detail page controller in order to p
 
 <a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_lnq_q4j_l4b"/>
 
-## webapp/controller/App.controller.js \[MODIFY\]
+### webapp/controller/App.controller.js \[MODIFY\]
 
 ```js
 		...

@@ -1,22 +1,22 @@
 <!-- loio32b14d88bd484cd7b941aae37180f732 -->
 
-# Step 2: Bootstrap \(TypeScript\)
+## Step 2: Bootstrap \(TypeScript\)
 
 Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called **bootstrapping**. Once this bootstrapping is finished, we simply display an alert.
 
 
 
-## Preview
+### Preview
 
   
   
 **An alert "UI5 is ready" is displayed**
 
-![An alert "UI5 is ready" is displayed](images/UI5_Walkthrough_Step_02_0f6b6b9.png "An alert "UI5 is ready" is displayed")
+![An alert "UI5 is ready" is displayed](images/loio0f6b6b9dc46a474da9287c382c8d3456_LowRes.png "An alert "UI5 is ready" is displayed")
 
 
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 2: Bootstrap](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/02) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-02.zip).
 
@@ -24,7 +24,7 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 2: Bootstrap](h
 
 <a name="loio32b14d88bd484cd7b941aae37180f732__section_mkm_zwb_syb"/>
 
-## package.json
+### package.json
 
 As we'd like to use TypeScript with our project, we first need to install the TypeScript package. It provides the necessary tools and utilities to compile TypeScript code into JavaScript.
 
@@ -38,7 +38,7 @@ This installs the latest stable version of TypeScript to your project and adds i
 
 <a name="loio32b14d88bd484cd7b941aae37180f732__section_fy4_zjy_kzb"/>
 
-## tsconfig.json \(New\)
+### tsconfig.json \(New\)
 
 Let's create the file `tsconfig.json` in the app root folder to indicate that this folder is the root of a TypeScript project. This file specifies the root files and the compiler options required to compile the project.
 
@@ -68,7 +68,7 @@ Specify the compiler options as follows:
 
 <a name="loio32b14d88bd484cd7b941aae37180f732__section_r5p_fky_kzb"/>
 
-## webapp/index.ts \(New\)
+### webapp/index.ts \(New\)
 
 Create a new `index.ts` script in the webapp folder and add a native `alert()` method with the message "UI5 is ready" to it. We'll integrate this script to the `index.html` page next.
 
@@ -78,7 +78,7 @@ alert("UI5 is ready");
 
 
 
-## webapp/index.html
+### webapp/index.html
 
 In this step, we change the `index.html` page to make it load the OpenUI5 framework from the webserver provided by UI5 Tooling. We initialize the core modules with the following configuration options:
 
@@ -123,7 +123,7 @@ In this step, we change the `index.html` page to make it load the OpenUI5 framew
 
 <a name="loio32b14d88bd484cd7b941aae37180f732__section_ks2_1bv_xfb"/>
 
-## package.json
+### package.json
 
 Now it's time to enhance our tooling setup once again. This time we install some custom middleware for the ui5-server to facilitate the handling of our development project.
 
@@ -141,7 +141,7 @@ This will install the `ui5-middleware-livereload`, `ui5-middleware-serveframewor
 
 <a name="loio32b14d88bd484cd7b941aae37180f732__section_hhn_jky_kzb"/>
 
-## ui5.yaml
+### ui5.yaml
 
 Next, we need to do some additional configuration work for our UI5 Tooling setup.
 

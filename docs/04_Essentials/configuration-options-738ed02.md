@@ -1,6 +1,6 @@
 <!-- loio738ed025b36e484fa99046d0f80552fd -->
 
-# Configuration Options
+## Configuration Options
 
 The UI5 test suite module contains the configuration for the UI5 test suite.
 
@@ -8,7 +8,7 @@ The UI5 test suite module contains the configuration for the UI5 test suite.
 
 <a name="loio738ed025b36e484fa99046d0f80552fd__section_vyx_hpm_sdc"/>
 
-## **Available Options and Default Values**
+### **Available Options and Default Values**
 
 The following options are available on the `defaults` and the individual test configuration objects:
 

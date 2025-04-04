@@ -1,12 +1,12 @@
 <!-- copyd2c8cf7ae19d447aad5b5ce40e3b14e3 -->
 
-# Models
+## Models
 
 A model in the Model View Controller concept holds the data and provides methods to retrieve the data from the database and to set and update data.
 
 
 
-![UI5 provides the following models: JSON, XML, Resource (all client-side); OData V2 and OData V4 (both server-side).](images/SAPUI5_Models_a99f157.png)
+![UI5 provides the following models: JSON, XML, Resource (all client-side); OData V2 and OData V4 (both server-side).](images/loioa99f15722c0a4520b7809c3951362896_LowRes.png)
 
 OpenUI5 provides the following predefined models. For an overview of the binding modes supported by them, see [One-time Binding, One-way Binding, and Two-way Binding](data-binding-68b9644.md#loio68b9644a253741e8a4b9e4279a35c247__section_BindingModes).
 

@@ -1,16 +1,16 @@
 <!-- loio0fecbce45e39406aa939bd25e89823f4 -->
 
-# Object Page Classic Header
+## Object Page Classic Header
 
 Overview of the structure and features for `sap.uxap.ObjectPageLayout`'s classic header.
 
 
 
-## Main Structure
+### Main Structure
 
 The `ObjectPageHeader` control consists of two main parts - Header Title and Header Content.
 
-![](images/ObjectPageHeader_Structure_e846820.png)
+![](images/loioe8468207c7504dcb8126157792b37ecf_HiRes.png)
 
 1.  Header Title \(`headerTitle`\) - Displayed at the top of the header and always remains visible above the scrollable content of the page. It contains the title and most prominent details of the object.
 
@@ -21,11 +21,11 @@ The `ObjectPageHeader` control consists of two main parts - Header Title and Hea
   
 **Collapsing and Expanding the Header**
 
-![](images/Collapsing_and_expanding_the_header_animation_4e08106.gif "Collapsing and Expanding the Header")
+![](images/loio4e081060fae54366b424de28f722860c_LowRes.gif "Collapsing and Expanding the Header")
 
 
 
-## Header Title
+### Header Title
 
 This part of the header contains the basic information of the object.
 
@@ -33,7 +33,7 @@ This part of the header contains the basic information of the object.
   
 **Navigation bar, Breadcrumbs and Actions in the Header Title**
 
-![](images/ObejctPageHeaderTitle_-_NavigationBar_Breadcrumbs_and_Actions_b245922.png "Navigation bar, Breadcrumbs and Actions in the Header Title")
+![](images/loiob2459223fc504ea1a380590ac0c45a41_HiRes.png "Navigation bar, Breadcrumbs and Actions in the Header Title")
 
 The top area in the Header Title is for the navigation bar \(`navigationBar`\). It contains the top-most element \(`sap.m.Bar`\) and provides the option to have a *Back* button for returning to the previous selection and navigation actions on the opposite side.
 
@@ -43,7 +43,7 @@ The area below the navigation bar is reserved for breadcrumbs navigation on one 
   
 **Title with Optional Indicators and Subtitle**
 
-![](images/HeaderTitle_Title_Subtitle_Indicators_553c7d7.png "Title with Optional Indicators and Subtitle")
+![](images/loio553c7d7128404063a00a4afba69a966d_HiRes.png "Title with Optional Indicators and Subtitle")
 
 You can set title \(`objectTitle`\) and subtitle \(`objectSubtitle`\). On larger screens the subtitle is displayed next to the title. After a certain breakpoint, the subtitle moves below the title.
 
@@ -68,7 +68,7 @@ API Properties
 <tr>
 <td valign="top">
 
-![](images/Favorite_icon_7813cf4.png)*Favorite* 
+![](images/loio7813cf4ed2754695a91a1aa67e94de39_HiRes.png)*Favorite* 
 
 </td>
 <td valign="top">
@@ -80,7 +80,7 @@ API Properties
 <tr>
 <td valign="top">
 
-![](images/Flagged_icon_4c5abbf.png)*Flagged* 
+![](images/loio4c5abbfbce524a4aba4e48724c36a345_HiRes.png)*Flagged* 
 
 </td>
 <td valign="top">
@@ -92,7 +92,7 @@ API Properties
 <tr>
 <td valign="top">
 
-![](images/Locked_icon_52d023e.png)*Locked* 
+![](images/loio52d023e0f3674110ac99f4a72b74b428_HiRes.png)*Locked* 
 
 </td>
 <td valign="top">
@@ -104,7 +104,7 @@ API Properties
 <tr>
 <td valign="top">
 
-![](images/Unsaved_changes_icon_f89451a.png)*Unsaved changes* 
+![](images/loiof89451a47cc54e0186d1e597f2f18682_HiRes.png)*Unsaved changes* 
 
 </td>
 <td valign="top">
@@ -116,7 +116,7 @@ API Properties
 <tr>
 <td valign="top">
 
-![](images/Title_selector_icon_d7144c2.png)*Selector* 
+![](images/loiod7144c249b8d4168a7129f583e7c5674_HiRes.png)*Selector* 
 
 </td>
 <td valign="top">
@@ -136,7 +136,7 @@ You can show and hide both the markers \(*Favorite* and *Flagged*\) simultaneous
   
 **Object Image in Circle and Square Shapes**
 
-![](images/objectImageShape_-_Circle_and_Square_df92915.gif "Object Image in Circle and Square Shapes")
+![](images/loiodf92915521c34aaf8e2d1f7e7b509ab7_LowRes.gif "Object Image in Circle and Square Shapes")
 
 You can add an icon-sized image before the title by defining the image location in the `objectImageURI` property. You can set the text used for the `Alt` and `Tooltip` attributes of the image with the `objectImageAlt` property. To set the shape to `Circle` or `Square`, use the `objectImageShape` property.
 
@@ -147,7 +147,7 @@ You can control whether the image, title, subtitle, and actions are always visib
 
 
 
-## Header Content
+### Header Content
 
 The second part of the header is the Header Content. This is an aggregation of controls that are displayed in a float layout underneath the Header Title. The controls that can be used in the `headerContent` aggregation are the standard OpenUI5 controls and they are automatically styled to fit the current header style.
 
@@ -157,7 +157,7 @@ With the use of the `sap.uxap.ObjectPageHeaderLayoutData` class, you can specify
   
 **Header Content with sap.uxap.ObjectPageHeaderLayoutData - large, middle and small-sized layout**
 
-![](images/Header_Content_ObjectPageHeaderLayoutData_40e357c.gif "Header Content with sap.uxap.ObjectPageHeaderLayoutData -
+![](images/loio40e357c0789d4982a5223ea6f9143315_LowRes.gif "Header Content with sap.uxap.ObjectPageHeaderLayoutData -
 					large, middle and small-sized layout")
 
 **Related Information**  

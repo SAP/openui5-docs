@@ -1,6 +1,6 @@
 <!-- loio91f0d1c56f4d1014b6dd926db0e91070 -->
 
-# Assigning the Model to the UI
+## Assigning the Model to the UI
 
 If you don't want to use a component or descriptor file, you have to assign the model instance manually to the UI, before you can bind controls to this model instance.
 

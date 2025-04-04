@@ -1,6 +1,6 @@
 <!-- loio6393d1d680434ec18b35b8be6e7e96c7 -->
 
-# Messaging Patterns
+## Messaging Patterns
 
 Standard messaging patterns ensure that messages appear at predefined locations.
 

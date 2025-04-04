@@ -1,6 +1,6 @@
 <!-- loio5338bd1f9afb45fb8b2af957c3530e8f -->
 
-# Filtering
+## Filtering
 
 The OData V4 Model supports server side filtering on lists.
 
@@ -76,7 +76,7 @@ The example above filters the `Equipments` entity set by `Category` \(static fil
 
 <a name="loio5338bd1f9afb45fb8b2af957c3530e8f__section_mqn_jkk_b1b"/>
 
-## Filtering with Any and All
+### Filtering with Any and All
 
 The OData V4 model also supports the Lambda Operators `any` and `all` as defined in section 5.1.1.10 of the [OData Version 4.0. Part 2: URL Conventions](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html#_Toc453752358) specification. They are represented by [sap.ui.model.Filter](https://ui5.sap.com/#/api/sap.ui.model.Filter) objects with filter operators [sap.ui.model.FilterOperator.Any](https://ui5.sap.com/#/api/sap.ui.model.FilterOperator/properties) and [sap.ui.model.FilterOperator.All](https://ui5.sap.com/#/api/sap.ui.model.FilterOperator/properties).
 
@@ -99,7 +99,7 @@ The path of the filter object is the path of the collection for which the boolea
 
 
 
-### Filter Operator any
+#### Filter Operator any
 
 The filter operator Any applies the `boolean` filter condition to each member of the collection referenced by `path`. If the condition is true for **at least one** member of the collection, the any-filter matches. The filter with the Any operator without a filter condition matches only if the collection referenced by path is not empty.
 
@@ -134,7 +134,7 @@ The resulting request would be: **`http://host/service/TEAMS?$filter=TEAM_2_EMPL
 
 
 
-### Filter Operator all
+#### Filter Operator all
 
 The filter operator All applies the `boolean` filter condition to each member of the collection referenced by `path`. If the condition is true for **all** members of the collection, the all-filter matches.
 

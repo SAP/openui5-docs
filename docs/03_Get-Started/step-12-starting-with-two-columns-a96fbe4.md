@@ -1,6 +1,6 @@
 <!-- loioa96fbe44ae6544589a096041f99d38c2 -->
 
-# Step 12: Starting with Two Columns
+## Step 12: Starting with Two Columns
 
 In this step, we set up the app to start with an initial layout of two columns.
 
@@ -10,19 +10,19 @@ By default, the `FlexibleColumnLayout` starts off with one column. If your use c
 
 <a name="loioa96fbe44ae6544589a096041f99d38c2__section_yfh_d31_12b"/>
 
-## Preview
+### Preview
 
   
   
 **Initial layout with two columns**
 
-![](images/Starting_with_Two_Columns_Fiori_2_0_Tutorial_18a03a8.png "Initial layout with two columns")
+![](images/loio18a03a866de94ad7a488f776417c685b_LowRes.png "Initial layout with two columns")
 
 
 
 <a name="loioa96fbe44ae6544589a096041f99d38c2__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 12](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.12/preview).
 
@@ -30,7 +30,7 @@ You can view and download all files at [Flexible Column Layout App - Step 12](ht
 
 <a name="loioa96fbe44ae6544589a096041f99d38c2__section_wlp_xpj_l4b"/>
 
-## webapp/Component.js \[MODIFY\]
+### webapp/Component.js \[MODIFY\]
 
 ```js
 		...

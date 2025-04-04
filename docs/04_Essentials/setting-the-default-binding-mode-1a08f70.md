@@ -1,6 +1,6 @@
 <!-- loio1a08f70951a744b1a7962b09665cc92f -->
 
-# Setting the Default Binding Mode
+## Setting the Default Binding Mode
 
 The default binding mode applies when a model instance is created. You can overwrite the default binding mode after model creation.
 

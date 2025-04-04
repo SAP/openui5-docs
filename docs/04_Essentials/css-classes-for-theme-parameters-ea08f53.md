@@ -1,6 +1,6 @@
 <!-- loioea08f53503da42c19afd342f4b0c9ec7 -->
 
-# CSS Classes for Theme Parameters
+## CSS Classes for Theme Parameters
 
 OpenUI5 provides a set of essential adjustable colors behind the generic predefined CSS rules that enable custom content to use the respective CSS classes for the required colors.
 

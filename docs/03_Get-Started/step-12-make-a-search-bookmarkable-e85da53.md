@@ -1,28 +1,28 @@
 <!-- loioe85da535ea19430a90c381f3c2bd748e -->
 
-# Step 12: Make a Search Bookmarkable
+## Step 12: Make a Search Bookmarkable
 
 In this step we will make the search bookmarkable. This allows users to search for employees in the *Employees* table and they can bookmark their search query or share the URL.
 
 
 
-## Preview
+### Preview
 
   
   
 **Search and sorting bookmarkable**
 
-![](images/Tutorial_Navigation_and_Routing_Step_12_feb2ddd.png "Search and sorting bookmarkable")
+![](images/loiofeb2ddddf2e347e9893512419fe11355_LowRes.png "Search and sorting bookmarkable")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 12](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.12) .
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -82,7 +82,7 @@ In order to make the search bookmarkable we have to think about how the pattern 
 
 
 
-## webapp/controller/employee/overview/EmployeeOverviewContent.controller.js
+### webapp/controller/employee/overview/EmployeeOverviewContent.controller.js
 
 ```js
 sap.ui.define([

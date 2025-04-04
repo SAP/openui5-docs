@@ -1,28 +1,28 @@
 <!-- loio69a25bf2f8a2478cbda4b8bbe64039de -->
 
-# Step 5: Adding a *Flag* Button
+## Step 5: Adding a *Flag* Button
 
 Now that we have implemented the conversion tests, we add the corresponding functionality and show the button to flag a post in the app. The design team has specified that the flag feature should be implemented with a toggle button that has a flag icon.
 
 
 
-## Preview
+### Preview
 
   
   
 **The Flag button is now added to the table**
 
-![](images/Tutorial_Testing_Step_05_0cfabfd.jpg "The Flag button is now added to the table")
+![](images/loio0cfabfd43c5f4c3b86a0ac7b7ef9e99d_LowRes.jpg "The Flag button is now added to the table")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 5](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.05).
 
 
 
-## webapp/model/FlaggedType.js
+### webapp/model/FlaggedType.js
 
 ```js
 sap.ui.define([
@@ -82,7 +82,7 @@ We call these functions of the data type in the unit tests directly. So if you n
 
 
 
-## webapp/view/Worklist.view.xml
+### webapp/view/Worklist.view.xml
 
 ```xml
 …
@@ -122,7 +122,7 @@ In the view, we add a new column and a cell for the flag feature at the end of t
 
 
 
-## webapp/controller/Worklist.controller.js
+### webapp/controller/Worklist.controller.js
 
 ```js
 sap.ui.define([
@@ -149,7 +149,7 @@ The conversion functions that are made available when we create an instance of t
 
 
 
-## webapp/Component.js
+### webapp/Component.js
 
 ```js
 sap.ui.define([
@@ -175,7 +175,7 @@ To enable the propagation of the bound view properties to the model, we need to 
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 #~~~ Worklist View ~~~~~~~~~~~~~~~~~~~~~~~~~~

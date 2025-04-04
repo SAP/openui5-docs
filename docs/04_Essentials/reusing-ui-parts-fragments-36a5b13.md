@@ -1,6 +1,6 @@
 <!-- loio36a5b130076e4b4aac2c27eebf324909 -->
 
-# Reusing UI Parts: Fragments
+## Reusing UI Parts: Fragments
 
 Fragments are light-weight UI parts \(UI sub-trees\) which can be reused, defined similar to views, but do not have any controller or other behavior code involved.
 

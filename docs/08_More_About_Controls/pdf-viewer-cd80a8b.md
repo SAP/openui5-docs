@@ -1,6 +1,6 @@
 <!-- loiocd80a8bca4ac450b86547d78f0653330 -->
 
-# PDF Viewer
+## PDF Viewer
 
 PDF viewer can be used to display PDF documents within your app, which enables your users to preview PDF documents before printing or downloading them.
 
@@ -10,7 +10,7 @@ For more information about this control, see the [API Reference](https://ui5.sap
 
 <a name="loiocd80a8bca4ac450b86547d78f0653330__section_eqr_vr3_yz"/>
 
-## Overview
+### Overview
 
 The `PDFViewer` control displays PDF documents right inside your app. It can be embedded into your page layout, or you can set it to open in a popup dialog. In addition, this control allows you to download the PDF documents it displays.
 
@@ -18,13 +18,13 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
   
 **PDF Viewer Example**
 
-![PDF Viewer Example](images/PDF_Viewer_c4692b3.png "PDF Viewer Example")
+![PDF Viewer Example](images/loioc4692b3bfc554c33ac2aa0af59b592db_LowRes.png "PDF Viewer Example")
 
 
 
 <a name="loiocd80a8bca4ac450b86547d78f0653330__section_xwt_xr3_yz"/>
 
-## Details
+### Details
 
 **PDF File Source**
 
@@ -42,7 +42,7 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 
 <a name="loiocd80a8bca4ac450b86547d78f0653330__section_j2j_csg_h1b"/>
 
-## Constraints
+### Constraints
 
 **Supported Device Types**
 

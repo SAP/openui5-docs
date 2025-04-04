@@ -1,6 +1,6 @@
 <!-- loio91f15ad16f4d1014b6dd926db0e91070 -->
 
-# Declarative Support: Events \(deprecated\)
+## Declarative Support: Events \(deprecated\)
 
 The value of the event data attribute contains the name of a JavaScript function which will be used as callback once the event has been triggered.
 

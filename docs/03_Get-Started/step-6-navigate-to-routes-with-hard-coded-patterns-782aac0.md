@@ -1,29 +1,29 @@
 <!-- loio782aac08f2de4003a2fcbdd39d27f374 -->
 
-# Step 6: Navigate to Routes with Hard-Coded Patterns
+## Step 6: Navigate to Routes with Hard-Coded Patterns
 
 In this step, we'll create a second button on the home page, with which we can navigate to a simple list of employees. This example illustrates how to navigate to a route that has a hard-coded pattern.
 
 
 
-## Preview
+### Preview
 
   
   
 **Show Employee List button on the Home page**
 
-![](images/Tutorial_Navigation_and_Routing_Step_06a_f0f4fd7.png "Show Employee List button on the
+![](images/loiof0f4fd7d2626458aa1632467eaf964a0_LowRes.png "Show Employee List button on the
 						Home page")
 
   
   
 **Employee list with Back button**
 
-![](images/Tutorial_Navigation_and_Routing_Step_06b_f45ee74.png "Employee list with Back button")
+![](images/loiof45ee74f28bb4a5da522150e10e92185_LowRes.png "Employee list with Back button")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 6](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.06).
 
@@ -31,11 +31,11 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 **Folder structure for this step**
 
-![](images/Tutorial_Navigation_and_Routing_Step_06c_fffa091.png "Folder structure for this step")
+![](images/loiofffa091048a544689c11fb3492ae9ead_HiRes.png "Folder structure for this step")
 
 
 
-## webapp/view/Home.view.xml
+### webapp/view/Home.view.xml
 
 ```xml
 <mvc:View
@@ -54,7 +54,7 @@ First, we change the `Home` view by adding the *Show Employee List* button. We r
 
 
 
-## webapp/controller/Home.controller.js
+### webapp/controller/Home.controller.js
 
 ```js
 sap.ui.define([
@@ -80,7 +80,7 @@ The new event handler `onNavToEmployees` calls `navTo("employeeList")` on the ro
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```js
 {
@@ -154,7 +154,7 @@ Setting the `level` to `2` helps the router to determine how to animate the \(in
 
 
 
-## webapp/view/employee/EmployeeList.view.xml \(New\)
+### webapp/view/employee/EmployeeList.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -191,7 +191,7 @@ This view can be referenced by `sap.ui.demo.nav.view.employee.EmployeeList`.
 
 
 
-## webapp/controller/employee/EmployeeList.controller.js \(New\)
+### webapp/controller/employee/EmployeeList.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -207,7 +207,7 @@ Finally, we will add a new controller. Create a subfolder `employee` inside `web
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 ...

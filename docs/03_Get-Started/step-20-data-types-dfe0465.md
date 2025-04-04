@@ -1,24 +1,24 @@
 <!-- loiodfe04650afc046e0802abb1a1a90d2d9 -->
 
-# Step 20: Data Types
+## Step 20: Data Types
 
 The list of invoices is already looking nice, but what is an invoice without a price assigned? Typically prices are stored in a technical format and with a '`.`' delimiter in the data model. For example, our invoice for pineapples has the calculated price `87.2` without a currency. We are going to use the OpenUI5 data types to format the price properly, with a locale-dependent decimal separator and two digits after the separator.
 
 
 
-## Preview
+### Preview
 
   
   
 **The list of invoices with prices and number units**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_20_dc9e919.png "The list of invoices with prices and number units")
+![The graphic has an explanatory text.](images/loiodc9e919119564ddab78b8d0550ecfa9b_LowRes.png "The list of invoices with prices and number units")
 
 
 
 <a name="loiodfe04650afc046e0802abb1a1a90d2d9__section_wqj_flk_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 20](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.20).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 20](https://ui5.sap.c
 
 <a name="loiodfe04650afc046e0802abb1a1a90d2d9__section_xqj_flk_syb"/>
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View
@@ -71,7 +71,7 @@ Additionally, we set the formatting option `showMeasure` to `false`. This hides 
 
 
 
-## webapp/controller/InvoiceList.controller.js \(New\)
+### webapp/controller/InvoiceList.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -95,7 +95,7 @@ To be able to access the currency code that is not part of our data model, we de
 
 
 
-## Conventions
+### Conventions
 
 -   Use data types instead of custom formatters whenever possible.
 

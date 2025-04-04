@@ -1,6 +1,6 @@
 <!-- loiod4ff916667d94dd28b77b9c33bb6bafd -->
 
-# What's New in OpenUI5 1.107
+## What's New in OpenUI5 1.107
 
 With this release OpenUI5 is upgraded from version 1.106 to 1.107.
 
@@ -236,7 +236,7 @@ Feature
 
 We have enabled external collaboration for our documentation through `github.com`. You can now contribute to our content through pull requests or by asking for enhancements by opening GitHub issues.
 
-![](images/Edit_on_GitHub_d5a8a29.png)
+![](images/loiod5a8a29abd5740a3b2d752053a023424_LowRes.png)
 
 <sub>Changed•Feature•Info Only•1.107</sub>
 
@@ -318,7 +318,7 @@ Announcement
 
 **Documentation now open for contributions on GitHub**
 
-The documentation under [https://ui5.sap.com/\#/topic](https://ui5.sap.com/#/topic) is now also available on GitHub as Markdown files. Every documentation page in the Demo Kit has a direct link to the corrresponding Markdown file in the new [https://github.com/SAP-docs/sapui5](https://github.com/SAP-docs/sapui5) repository:![](images/Edit_on_GitHub_Demo_Kit_e111aeb.png)
+The documentation under [https://ui5.sap.com/\#/topic](https://ui5.sap.com/#/topic) is now also available on GitHub as Markdown files. Every documentation page in the Demo Kit has a direct link to the corrresponding Markdown file in the new [https://github.com/SAP-docs/sapui5](https://github.com/SAP-docs/sapui5) repository:![](images/loioe111aeba4f43463daec60af171842654_LowRes.png)
 
 If you have any suggestions for improvements or if you spot an error, feel free to create an issue or a pull request there.
 

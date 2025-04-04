@@ -1,6 +1,6 @@
 <!-- loiobae9d90d2e9c4206889368f04edab508 -->
 
-# Step 26: Mock Server Configuration
+## Step 26: Mock Server Configuration
 
 We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the "real" service or put additional load on the system where the data service is located.
 
@@ -8,17 +8,17 @@ This system is the so-called back-end system that we will now simulate with an O
 
 
 
-## Preview
+### Preview
 
   
   
 **The list of invoices is now served by the Mock Server**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_26_fe14033.png "The list of invoices is now served by the Mock Server")
+![The graphic has an explanatory text.](images/loiofe1403346ce9499f8bb102beaa4986d5_LowRes.png "The list of invoices is now served by the Mock Server")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 26](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.26).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 26](https://ui5.sap.c
   
 **Folder Structure for this Step**
 
-![The graphic has an explanatory text.](images/SAPUI5_Walkthrough_Step_26_2_7a5e2b0.png "Folder Structure for this Step")
+![The graphic has an explanatory text.](images/loio7a5e2b02d72d40d388f5e601d7de74df_LowRes.png "Folder Structure for this Step")
 
 The folder structure of our app project is clearly separating test and productive files after this step. The new `test` folder now contains a new HTML page `mockServer.html` which will launch our application in test mode without calling the real service.
 
@@ -34,7 +34,7 @@ The new `localService` folder contains a `metadata.xml` service description file
 
 
 
-## webapp/test/mockServer.html \(New\)
+### webapp/test/mockServer.html \(New\)
 
 ```html
 <!DOCTYPE html>
@@ -71,7 +71,7 @@ We modify the `mockServer.html` file and change the page title to distinguish it
 
 <a name="loiobae9d90d2e9c4206889368f04edab508__section_oxn_5zr_yfb"/>
 
-## webapp/test/initMockServer.js \(New\)
+### webapp/test/initMockServer.js \(New\)
 
 ```js
 sap.ui.define([
@@ -94,7 +94,7 @@ The `mockserver` depencency that we are about to implement is our local test ser
 
 
 
-## webapp/localService/mockdata/Invoices.json \(New\)
+### webapp/localService/mockdata/Invoices.json \(New\)
 
 ```js
 [
@@ -147,7 +147,7 @@ Remove the old `Invoices.json` file from the `webapp` folder, it is no longer us
 
 
 
-## webapp/localService/metadata.xml \(New\)
+### webapp/localService/metadata.xml \(New\)
 
 ```xml
 <edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
@@ -187,7 +187,7 @@ For simplicity, we have removed all content from the original Northwind OData me
 
 
 
-## webapp/localService/mockserver.js \(New\)
+### webapp/localService/mockserver.js \(New\)
 
 ```js
 sap.ui.define([
@@ -240,7 +240,7 @@ Try calling the app with the `index.html` file and the `mockServer.html` file to
 
 <a name="loiobae9d90d2e9c4206889368f04edab508__section_lfx_4dg_tyb"/>
 
-## package.json
+### package.json
 
 For easier local development, we adjust the `start` script in the `package.json` to open `mockServer.html` instead of `index.html`:
 
@@ -262,7 +262,7 @@ For easier local development, we adjust the `start` script in the `package.json`
 
 
 
-## Conventions
+### Conventions
 
 -   The `webapp/test` folder contains non-productive code only.
 

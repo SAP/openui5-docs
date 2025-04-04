@@ -1,6 +1,6 @@
 <!-- loio91f0bd316f4d1014b6dd926db0e91070 -->
 
-# Cross-Site Scripting
+## Cross-Site Scripting
 
 Cross-site scripting \(XSS\) is a widely known vulnerability most web sites have. This page does not provide general information about cross-site scripting but focuses on what you as an application developer using OpenUI5 can do to avoid these security issues.
 
@@ -10,7 +10,7 @@ To give a short info on XSS: It is about injecting script code into a web page, 
 
 <a name="loio91f0bd316f4d1014b6dd926db0e91070__section_04390290F9604EFFB4DB3019FA3E9F73"/>
 
-## Cross-site Scripting in OpenUI5-based Web Applications
+### Cross-site Scripting in OpenUI5-based Web Applications
 
 AJAX frameworks in general are an interesting target for XSS exploits, as not only the HTML which is initially sent to the browser may contain vulnerabilities, but also the code which is used to visualize content on the client side may have bugs which can be exploited to get the JavaScript coding executed on the client side. In addition to that, once a script has injected an AJAX application, it will be alive for a long time, as usually navigation will not reload the whole page which would also clean up any running JavaScript code, but stays within the same HTML document and uses a delta update mechanism to show new content.
 
@@ -22,7 +22,7 @@ The OpenUI5 framework will take care of proper escaping for all content which is
 
 <a name="loio91f0bd316f4d1014b6dd926db0e91070__section_fdr_tzl_xcb"/>
 
-## HTML Sanitizer
+### HTML Sanitizer
 
 OpenUI5 reuses the HTML4 sanitizer by Google by adapting it for the use of HTML5 coding. The Google sanitizer also supports CSS3 coding. In addition, the HTML5 sanitizer uses the URL allowlist which checks embedded URLs for correct formatting or against a given allowlist.
 

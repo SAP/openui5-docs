@@ -1,6 +1,6 @@
 <!-- loio19cc773a60d944c8bb588056f665de04 -->
 
-# Step 11: Add Table with :n Navigation to Detail Area
+## Step 11: Add Table with :n Navigation to Detail Area
 
 In this step we add a table with additional information to the detail area.
 
@@ -8,19 +8,19 @@ In this step we add a table with additional information to the detail area.
 
 <a name="loio19cc773a60d944c8bb588056f665de04__section_bt4_fxc_z1b"/>
 
-## Preview
+### Preview
 
   
   
 **A table containing information about friends of the selected user is added**
 
-![](images/Tut_OD4_Step_11_45abd62.png "A table containing information about friends of the selected user is added")
+![](images/loio45abd62d7de84704b6ff318cba56d62e_LowRes.png "A table containing information about friends of the selected user is added")
 
 
 
 <a name="loio19cc773a60d944c8bb588056f665de04__section_tsr_gxc_z1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [OData V4 - Step 11](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.11/code).
 
@@ -28,7 +28,7 @@ You can view and download all files at [OData V4 - Step 11](https://ui5.sap.com/
 
 <a name="loio19cc773a60d944c8bb588056f665de04__section_pp2_mxc_z1b"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View

@@ -1,6 +1,6 @@
 <!-- loio91f1454b6f4d1014b6dd926db0e91070 -->
 
-# Compiling Declarative HTML \(deprecated\)
+## Compiling Declarative HTML \(deprecated\)
 
 OpenUI5 provides a plugin for controls that are defined as declarative markup on startup time.
 

@@ -1,6 +1,6 @@
 <!-- loiob6ab31cb81bd443996cde2f91d203072 -->
 
-# Events Fired on the Pages
+## Events Fired on the Pages
 
 Events fired on the pages allow a decentral reaction to navigation.
 

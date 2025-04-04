@@ -1,6 +1,6 @@
 <!-- loio5d078da3eec34ab59c7c28a30c93cf59 -->
 
-# What's New in OpenUI5 1.122
+## What's New in OpenUI5 1.122
 
 With this release OpenUI5 is upgraded from version 1.121 to 1.122.
 

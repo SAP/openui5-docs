@@ -1,6 +1,6 @@
 <!-- loio63c97ef306f24d6992406eb7d87bc906 -->
 
-# Step 2: Technical Information Dialog
+## Step 2: Technical Information Dialog
 
 In this tutorial step, we will have a closer look at the "Technical Information Dialog". This tool comes in handy whenever you want to know the technical details of the running application, and also has some other useful features.
 
@@ -8,15 +8,15 @@ In this tutorial step, we will have a closer look at the "Technical Information 
 
 <a name="loio63c97ef306f24d6992406eb7d87bc906__section_u2k_c1d_5z"/>
 
-## Preview
+### Preview
 
-![](images/Technical_Information_Dialog_OpenUI5_8bf9780.png)
+![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png)
 
 
 
 <a name="loio63c97ef306f24d6992406eb7d87bc906__section_dmp_d1d_5z"/>
 
-## Opening the Example App and the Technical Information Dialog
+### Opening the Example App and the Technical Information Dialog
 
 1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 
@@ -29,7 +29,7 @@ The dialog box shows information related to the app and provides access to addit
 
 <a name="loio63c97ef306f24d6992406eb7d87bc906__section_hw4_qmk_sz"/>
 
-## Checking the OpenUI5 Version
+### Checking the OpenUI5 Version
 
 When you run into problems with your app, you should check the OpenUI5 version that you're using. The feature that you want to use may not be available in your version or may have some bugs that are already solved in a later version.
 
@@ -51,7 +51,7 @@ For more information, see [Versioning and Maintenance of OpenUI5](../02_Read-Me-
 
 <a name="loio63c97ef306f24d6992406eb7d87bc906__section_t2f_pbd_5z"/>
 
-## Checking the Device
+### Checking the Device
 
 The device on which you run the app may not be supported or might be detected incorrectly by OpenUI5. This can lead to issues with responsiveness or device adaption.
 
@@ -62,7 +62,7 @@ The device on which you run the app may not be supported or might be detected in
 
 
 
-## Turning On Debug Sources
+### Turning On Debug Sources
 
 The OpenUI5 libraries are included in your app in a compressed form. To be able to efficiently debug these libraries, they have to be reloaded in their source format and with developer comments.
 
@@ -93,7 +93,7 @@ Only the selected modules are now loaded in debug mode.
 
 <a name="loio63c97ef306f24d6992406eb7d87bc906__section_ssw_znk_sz"/>
 
-## Copying Technical Info
+### Copying Technical Info
 
 If you're really stuck or have found a bug, you can open a ticket. Choose the *Copy technical information to clipboard* button to copy the technical details from this dialog box and then attach them to your message.
 
@@ -101,7 +101,7 @@ If you're really stuck or have found a bug, you can open a ticket. Choose the *C
 
 <a name="loio63c97ef306f24d6992406eb7d87bc906__section_h4h_wnk_sz"/>
 
-## Accessing Other Tools
+### Accessing Other Tools
 
 The *Technical Information Dialog* also includes links to *Diagnostics* and *Support Assistant* that we will discuss in the following steps of this tutorial.
 

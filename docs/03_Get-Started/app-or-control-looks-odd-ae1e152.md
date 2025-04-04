@@ -1,6 +1,6 @@
 <!-- copyae1e1520cf714cd99d966bacf5d6e6b2 -->
 
-# App or Control Looks Odd
+## App or Control Looks Odd
 
 You find yourself in a situation that your app or a control looks different than you expected.
 
@@ -8,7 +8,7 @@ You find yourself in a situation that your app or a control looks different than
 
 <a name="copyae1e1520cf714cd99d966bacf5d6e6b2__section_ivz_vfh_r1b"/>
 
-## Root Cause
+### Root Cause
 
 This can happen for one of the following reasons:
 
@@ -23,7 +23,7 @@ This can happen for one of the following reasons:
 
 <a name="copyae1e1520cf714cd99d966bacf5d6e6b2__section_u1p_wfh_r1b"/>
 
-## Resolution
+### Resolution
 
 To solve the issue, you have the following options:
 

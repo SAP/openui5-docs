@@ -1,6 +1,6 @@
 <!-- loio1238d706b130433c9bd6b85cfb77cece -->
 
-# Using the `title` Property in Targets
+## Using the `title` Property in Targets
 
 Routing in OpenUI5 allows you to define titles declaratively in the configuration. The title can be set with valid binding syntax which is then resolved under the scope of the target to which it belongs. This means that the title can be translated when it's bound to the i18n model or resolved dynamically under the current binding context.
 
@@ -8,7 +8,7 @@ When a new target that has the `title` property defined is displayed, or the tit
 
 
 
-## Examples for setting the title in `Target`
+### Examples for setting the title in `Target`
 
 ```js
 {
@@ -75,7 +75,7 @@ The `title` property can also be defined on a "Component" type target. When it i
 
 
 
-## Defining `titleTarget` in `Route`
+### Defining `titleTarget` in `Route`
 
 A route can display multiple targets and you can use the `titleTarget` option in the `Route` configuration to specify which target the title should be taken from explicitly. By default, the `Route` takes the title of the first target that has the `title` property defined.
 
@@ -111,7 +111,7 @@ A route can display multiple targets and you can use the `titleTarget` option in
 
 
 
-## Listening to the `titleChanged` event
+### Listening to the `titleChanged` event
 
 To receive a notification when the title is changed, you can register to the `titleChanged` event on the `Router` instance. The `titleChanged` event is then fired when a target with a set `title` options displayed, or the title of a displayed target is changed \(for example, because the binding context changes\).
 
@@ -137,7 +137,7 @@ oRouter.attachTitleChanged(function(oEvent) {
 
 
 
-## Initial title of the home page
+### Initial title of the home page
 
 In the routing configuration, you select one of the routes as a home route that leads to the home page of your app.
 

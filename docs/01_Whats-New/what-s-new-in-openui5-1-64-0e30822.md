@@ -1,6 +1,6 @@
 <!-- loio0e30822c3b644a73836abba65736fc5e -->
 
-# What's New in OpenUI5 1.64
+## What's New in OpenUI5 1.64
 
 With this release OpenUI5 is upgraded from version 1.63 to 1.64.
 
@@ -74,7 +74,7 @@ The new `sap.f.Card` control complies with the visual design of the Integration 
 
 The `sap.f.Card` consists of three elements: a container with background color and rounded corners, a header, and content areas.
 
-![](images/sap_f_Card_Example_b1ff765.png)
+![](images/loiob1ff765e1db44ae38f583bc228e14432_HiRes.png)
 
 For more information, see [Cards](../08_More_About_Controls/cards-5b46b03.md), the [API Reference](https://ui5.sap.com/#/api/sap.f.Card) and the [Sample](https://ui5.sap.com/#/entity/sap.f.Card/sample/sap.f.sample.Card).
 
@@ -206,7 +206,7 @@ Control
 
 We have implemented an additional element that visualizes the number of notifications for the app \(`notificationsNumber` property\). It is displayed at the top right corner of the notifications button. When the resize breakpoint is hit and the notifications button enters the overflow area of the `OverflowToolbar`, the element is displayed at the top right corner of both the `OverflowToolbarButton` and the overflow area notification button.
 
-![](images/ShellBar_What_s_New_1_64_4ae1e3f.png)
+![](images/loio4ae1e3f40d754916a91d159216dd295f_HiRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.f.ShellBar) and the [Sample](https://ui5.sap.com/#/entity/sap.f.ShellBar/sample/sap.f.sample.ShellBar).
 
@@ -553,7 +553,7 @@ Feature
 
 -   Based on your feedback, we have improved the API Reference documentation to include the borrowed *Properties*, *Aggregations*, and *Associations* in the respective sections. All the inherited entries are marked with a *Borrowed from:* label in the *Description* column with a link to the corresponding class.
 
-    ![](images/What_s_New_1_64_-_Borrowed_Properties_Aggregations_Associations_d7f2a71.png)
+    ![](images/loiod7f2a71df7944a0cb574de845248690e_HiRes.png)
 
 
 <sub>Changed•Feature•Info Only•1.64</sub>

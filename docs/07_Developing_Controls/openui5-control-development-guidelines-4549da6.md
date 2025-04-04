@@ -1,12 +1,12 @@
 <!-- loio4549da61e2d949d6a3d20ad8a9d17a6f -->
 
-# OpenUI5 Control Development Guidelines
+## OpenUI5 Control Development Guidelines
 
 Content developers developing OpenUI5 controls should follow the guidelines outlined below with regard to APIs, behavior, and themes/CSS.
 
 
 
-## General Remarks
+### General Remarks
 
 -   Keep things simple! Keep the number of entities created for a new control minimal.
 
@@ -15,7 +15,7 @@ Content developers developing OpenUI5 controls should follow the guidelines outl
 
 
 
-## API
+### API
 
 For APIs, the following guidelines apply:
 
@@ -48,7 +48,7 @@ For APIs, the following guidelines apply:
 
 
 
-## Behavior
+### Behavior
 
 For behavior-related development, the following guidelines apply:
 
@@ -75,7 +75,7 @@ For behavior-related development, the following guidelines apply:
 
 
 
-## Renderer
+### Renderer
 
 With regard to the renderer, the following guidelines apply:
 

@@ -1,6 +1,6 @@
 <!-- loiof86dbe9d7f7d48dea5286003b1322165 -->
 
-# Image
+## Image
 
 Additional information on `sap.m.Image`
 
@@ -8,7 +8,7 @@ Additional information on `sap.m.Image`
 
 <a name="loiof86dbe9d7f7d48dea5286003b1322165__section_N10018_N10011_N10001"/>
 
-## Supporting Different Pixel Densities
+### Supporting Different Pixel Densities
 
 Some mobile devices, starting with iPhone4 and iPad3, have a display with a high density of pixels \(four pixels where older models would only have one pixel\). They're called Retina Displays by Apple to suggest they're as crisp and clear as the eye can see. They use four physical pixels to display one logical CSS pixel. This way images can be displayed much sharper when given twice as large as required because internally the device can use many more pixels to display all details of the image. Browsers on those displays do this automatically when images are scaled down.
 
@@ -29,7 +29,7 @@ The image control is also used implicitly by other controls, for example:
 
 <a name="loiof86dbe9d7f7d48dea5286003b1322165__section_N10057_N10011_N10001"/>
 
-## Example
+### Example
 
 Assume that the following controls are displayed on a device with high-density screen \(`window.devicePixelRatio` is 2\):
 
@@ -53,7 +53,7 @@ The second image control first attempts to load `second@2.png`, which is twice a
 
 <a name="loiof86dbe9d7f7d48dea5286003b1322165__section_N10075_N10011_N10001"/>
 
-## Naming Conventions
+### Naming Conventions
 
 Density-related images are loaded if you provide an image name with density awareness in the following format:
 

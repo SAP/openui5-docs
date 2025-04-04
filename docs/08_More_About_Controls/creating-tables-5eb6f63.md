@@ -1,12 +1,12 @@
 <!-- loio5eb6f63e0cc547d0bdc934d3652fdc9b -->
 
-# Creating Tables
+## Creating Tables
 
 A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, defines as `sap.m.ColumnListItems` consist of cells.
 
 
 
-## Procedure
+### Procedure
 
 1.  To build a table, we first need to define columns. For this purpose you can define the Column control with the following properties or aggregations:
 
@@ -153,14 +153,14 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
 
     And that is what we have built:
 
-    ![](images/SAPUI5_Mobile_Table_Features_Column_List_Item_e654c84.png)
+    ![](images/loioe654c84fa33a4f058e8f84b2ed5d578f_LowRes.png)
 
     The `mergeFunctionName` property holds the function that the column merge functionality uses to pull the property value to compare for duplicates. The default of `getText` can be used for the most common use cases, where an `sap.m.Label` or `sap.m.Text` control is used, but if you have another control with a different function to pull the comparison property value from, you can specify it as the `mergeFunctionName`. For example, the `sap.m.Icon` control has a `getSrc` getter function that returns the `src` property value - the icon's URI, which is a good candidate for comparison.
 
 
 
 
-## Next Steps
+### Next Steps
 
 **API References**
 

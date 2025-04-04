@@ -1,6 +1,6 @@
 <!-- loio2e61ab6c68a2480eb666c1927a707658 -->
 
-# Object Page Layout
+## Object Page Layout
 
 The `ObjectPageLayout` control provides a layout that allows apps to easily display information related to a business object.
 
@@ -8,7 +8,7 @@ The `ObjectPageLayout` control provides a layout that allows apps to easily disp
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_hby_mpx_mcb"/>
 
-## Overview
+### Overview
 
 The `ObjectPageLayout` layout is composed of a header \(title and content\), an optional anchor bar, and block content wrapped in sections and subsections that structure the information.
 
@@ -16,13 +16,13 @@ The `ObjectPageLayout` layout is composed of a header \(title and content\), an 
   
 **ObjectPageLayout Main Structure**
 
-![](images/ObjectPageLayout_overview_6b01587.png "ObjectPageLayout Main Structure")
+![](images/loio6b015871feac4b62a1111c73ba78c86f_HiRes.png "ObjectPageLayout Main Structure")
 
 
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_xy2_fsx_mcb"/>
 
-## Header \(Title and Content\)
+### Header \(Title and Content\)
 
 The `ObjectPageLayout`'s header consists of two parts: header title and header content.
 
@@ -73,7 +73,7 @@ oObjectPage.addHeaderContent(new sap.m.Text({value:"some KPI info"}));
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_hd5_ysx_mcb"/>
 
-## Sections, Subsections, Blocks
+### Sections, Subsections, Blocks
 
 The content of the page that appears below the header is composed of blocks structured into sections and subsections.
 
@@ -81,7 +81,7 @@ The content of the page that appears below the header is composed of blocks stru
   
 **Blocks Structured into Sections and Subsections**
 
-![](images/sections_subsections_blocks_69eeaf3.png "Blocks Structured into Sections and Subsections")
+![](images/loio69eeaf31d2e3481fa479d8a42229b6ec_HiRes.png "Blocks Structured into Sections and Subsections")
 
 The blocks hold the actual app content, while the purpose of the sections and subsections is to define grouping.
 
@@ -124,7 +124,7 @@ var oSubSection1 = new sap.uxap.ObjectPageSubSection({title:"sub payroll title"}
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_olf_1cr_ncb"/>
 
-## Layout Options
+### Layout Options
 
 The `subSectionLayout` property provides information on how all the underlying subsections arrange the blocks within their internal grid. The default is set to `titleOnTop`, which arranges the blocks content in columns where the first column is below the section and subsection titles.
 
@@ -132,7 +132,7 @@ The `subSectionLayout` property provides information on how all the underlying s
   
 **Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on Top**
 
-![](images/layout_titleOnTop_80c1583.png "Blocks Content Arranged in Columns with Section and Subsection Titles
+![](images/loio80c15831d2f14649ab7e56f24b17a5b9_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on Top")
 
 Additionally, a second layout named `titleOnLeft` arranges the blocks content from the second column, leaving the first one for section and subsection titles only.
@@ -141,7 +141,7 @@ Additionally, a second layout named `titleOnLeft` arranges the blocks content fr
   
 **Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on the Left**
 
-![](images/layout_titleOnLeft_96bf1fa.png "Blocks Content Arranged in Columns with Section and Subsection Titles
+![](images/loio96bf1fad37a74191968095bdd71698d3_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on the Left")
 
 Here is how this property is set in the XML view:
@@ -166,7 +166,7 @@ Here is how this property is set in the XML view:
 
 The `moreBlocks` aggregation of `sap.uxap.ObjectPageSubSection` allows you to specify blocks to be displayed only after the user clicks the internally created *See more* button:
 
-![](images/seeMore_74c9728.png)
+![](images/loio74c97287cab245018b4ad7dc364108ee_HiRes.png)
 
 The *See more* button is only displayed for subsections that contain one of the following:
 
@@ -179,7 +179,7 @@ The *See more* button is only displayed for subsections that contain one of the 
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_jzh_b2r_ncb"/>
 
-## Additional Rules for Displaying Sections and Subsections
+### Additional Rules for Displaying Sections and Subsections
 
 The following additional rules are internally applied to display the contents of the `ObjectPageLayout` correctly. Each rule is applied to the output of the preceding rule.
 
@@ -198,7 +198,7 @@ The following additional rules are internally applied to display the contents of
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_q1l_f2r_ncb"/>
 
-## Lazy Loading OpenUI5
+### Lazy Loading OpenUI5
 
 The lazy loading mechanism allows you to load data only when the subsection blocks are inside or near the visible area on the screen. This way, you avoid sending too many requests from the start of the page loading.
 

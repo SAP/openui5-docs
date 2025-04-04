@@ -1,6 +1,6 @@
 <!-- loio623b01e57b2349e0888d9dc16020b135 -->
 
-# Flexible Column Layout Semantic Helper
+## Flexible Column Layout Semantic Helper
 
 A helper class, designed to facilitate the implementation of apps based on the `sap.f.FlexibleColumnLayout` control and the SAP Fiori 2.0 design guidelines.
 

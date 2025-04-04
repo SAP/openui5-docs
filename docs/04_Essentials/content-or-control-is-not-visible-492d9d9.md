@@ -1,6 +1,6 @@
 <!-- loio492d9d93effd4229a5a89cb20124553c -->
 
-# Content or Control Is Not Visible
+## Content or Control Is Not Visible
 
 You find yourself in the situation that a control or the content of a control is not visible, but you don't see an error message in the console.
 
@@ -8,7 +8,7 @@ You find yourself in the situation that a control or the content of a control is
 
 <a name="loio492d9d93effd4229a5a89cb20124553c__section_mng_k2v_tz"/>
 
-## Root Cause
+### Root Cause
 
 This can happen for one of the following reasons:
 
@@ -25,13 +25,13 @@ This can happen for one of the following reasons:
 
 <a name="loio492d9d93effd4229a5a89cb20124553c__section_edr_n2v_tz"/>
 
-## Resolution
+### Resolution
 
 First, you should check if your control was rendered properly by using the developer tool of your browser to check the DOM element. For information about how to use your browser tools, see the documentation of you browser or check our [Troubleshooting Tutorial Step 1: Browser Developer Tools](../03_Get-Started/step-1-browser-developer-tools-eadd60a.md).
 
 
 
-### Wrong binding
+#### Wrong binding
 
 If you bound your control to a source, for example, an image control, the binding may not be resolved properly. This can be caused by minor mistakes such as typos. We recommend using *Diagnostics* to debug your bindings. For more information, see [Diagnostics](diagnostics-6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
 
@@ -41,7 +41,7 @@ If you, for example, use a `List` control, you bind the list itself to an absolu
 
 If you used an absolute binding path like `title="{/Name}` for an aggregation instead of a relative one, the result in the window would look like this:
 
-![](../03_Get-Started/images/FAK_Wrong_Binding_f0e02a0.png)
+![](../03_Get-Started/images/loiof0e02a0a95274e96a374b560e746a3b1_LowRes.png)
 
 Another common error related to binding is to refer to the default model instead of referring to a specific model. This happens, for examples, if you forgot to add the model name to the binding declaration.
 
@@ -49,15 +49,15 @@ For example, you have two models in your application: the default model, which h
 
 If you used the binding correctly *Diagnostics* displays the following:
 
-![](../03_Get-Started/images/FAK_Correct_Model_Binding_ea9ef43.png)
+![](../03_Get-Started/images/loioea9ef43eca8e480f9f9a591836ee6242_LowRes.png)
 
 If the model name is missing, you see the following:
 
-![](../03_Get-Started/images/FAK_Wrong_binding_2_6cd1eeb.png)
+![](../03_Get-Started/images/loio6cd1eebf1af24a39afb9c11f0dec39a3_LowRes.png)
 
 
 
-### `visible` property set to `false`
+#### `visible` property set to `false`
 
 If you set the `visible` property of a control to `false`, it will not be rendered at all.
 
@@ -67,7 +67,7 @@ You can fix this by setting the `visible` property of the parent control to `tru
 
 
 
-### Dimensions set to `0`
+#### Dimensions set to `0`
 
 Most controls have the properties `width` and `height`. If one of them is explicitly set to `0` some controls may not be displayed at all. Similar to the `visible` property, the value of `width` and `height` are also inherited from parent controls, as long as you don't set an explicit value for these dimensions. If you, for example, set one of the dimension values for a control to `100%` it will have the same size as the parent control. And if the parent's width is `0` the nested control will also be `0`.
 
@@ -75,7 +75,7 @@ As with the `visible` property, you can solve this by either increasing the size
 
 
 
-### Model set on the Core
+#### Model set on the Core
 
 Avoid setting models directly on the Core if you're using Components. Components are meant to be independent and reusable parts and therefore will not inherit the Core models by default.
 

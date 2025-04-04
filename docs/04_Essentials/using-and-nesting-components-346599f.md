@@ -1,6 +1,6 @@
 <!-- loio346599f0890d4dfaaa11c6b4ffa96312 -->
 
-# Using and Nesting Components
+## Using and Nesting Components
 
 You can use a `ComponentContainer` to wrap a `UIComponent` and reuse it anywhere within the OpenUI5 control tree. With the `ComponentContainer` you can nest components inside other components.
 
@@ -8,7 +8,7 @@ You can use a `ComponentContainer` to wrap a `UIComponent` and reuse it anywhere
 
 <a name="loio346599f0890d4dfaaa11c6b4ffa96312__section_oqk_jhc_zz"/>
 
-## Component Containers
+### Component Containers
 
 To render UI components, you must wrap them in a `sap/ui/core/ComponentContainer`. You **cannot** use the `placeAt` method to place UI components directly in a page. A `ComponentContainer` carries specific settings and also contains the lifecycle methods of a regular control, such as the `onBeforeRendering` and `onAfterRendering` methods. The lifecycle methods of the `ComponentContainer` are forwarded to the corresponding methods of the nested component.
 
@@ -54,7 +54,7 @@ You load and create a `UIComponent` in one of the following ways:
 
 
 
-### Using a Component Container to Load Components from a Different Location
+#### Using a Component Container to Load Components from a Different Location
 
 You may want to load components from a location that is different from the location where the OpenUI5 libraries are located or a location that is not registered as a resource root in the OpenUI5 bootstrap.
 
@@ -97,7 +97,7 @@ You can do so by defining the URL of the additional components as a setting for 
 
 <a name="loio346599f0890d4dfaaa11c6b4ffa96312__section_fph_13c_zz"/>
 
-## Reuse Components
+### Reuse Components
 
 To be able to reuse a component, the component has to be declared in the `componentUsages` section of the `manifest.json` descriptor file as follows:
 
@@ -134,7 +134,7 @@ Under `embeddedBy`, you specify the relative path to the namespace root of the l
 
 
 
-### Instantiation
+#### Instantiation
 
 To instantiate the reuse component in the current component, you use an instance-specific factory function. The factory function requires at least the `componentUsage ID` as a parameter \(simplified usage\) or a configuration object that contains the `usage` and optionally `settings` and `componentData` \(extended usage\).
 
@@ -160,7 +160,7 @@ To instantiate the reuse component in the current component, you use an instance
 
 
 
-### Declarative Usage
+#### Declarative Usage
 
 You can also declare a reuse component directly, for example, in your JavaScript or XML code. In an XML view, the local service factory can only be used via the `ComponentContainer` that has a superordinate component.
 
@@ -172,7 +172,7 @@ You can also declare a reuse component directly, for example, in your JavaScript
 
 
 
-### Migration
+#### Migration
 
 If you have been reusing components before we introduced the reuse feature described above, we recommend that you refactor your code and implement the new logic.
 

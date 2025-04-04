@@ -1,6 +1,6 @@
 <!-- loio2696ab50faad458f9b4027ec2f9b884d -->
 
-# Integration Testing with One Page Acceptance Tests \(OPA5\)
+## Integration Testing with One Page Acceptance Tests \(OPA5\)
 
 OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA especially helpful for testing user interactions, integration with OpenUI5, navigation, and data binding.
 
@@ -34,7 +34,7 @@ In short: Writing acceptance tests with OPA5 is very easy – Give it a try!
 
 
 
-## Restrictions of OPA5
+### Restrictions of OPA5
 
 Note the following restrictions of OPA:
 

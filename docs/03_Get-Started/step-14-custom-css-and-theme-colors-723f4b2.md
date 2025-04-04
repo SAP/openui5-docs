@@ -1,18 +1,18 @@
 <!-- loio723f4b2334e344c08269159797f6f796 -->
 
-# Step 14: Custom CSS and Theme Colors
+## Step 14: Custom CSS and Theme Colors
 
 Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.
 
 
 
-## Preview
+### Preview
 
   
   
 **The space between the button and the input field is now smaller and the output text is bold**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_14_d9a40e5.png "The space between the button and the input field is now smaller and the
+![The graphic has an explanatory text.](images/loiod9a40e539b7c49c485be821efbd3821f_LowRes.png "The space between the button and the input field is now smaller and the
 					output text is bold")
 
 > ### Caution:  
@@ -22,7 +22,7 @@ Sometimes we need to define some more fine-granular layouts and this is when we 
 
 <a name="loio723f4b2334e344c08269159797f6f796__section_a55_pr2_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 14](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.14).
 
@@ -30,7 +30,7 @@ You can view and download all files at [Walkthrough - Step 14](https://ui5.sap.c
 
 <a name="loio723f4b2334e344c08269159797f6f796__section_b55_pr2_syb"/>
 
-## webapp/css/style.css \(New\)
+### webapp/css/style.css \(New\)
 
 ```
 html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
@@ -58,7 +58,7 @@ In an additional class `myCustomText` we define a bold text and set the display 
 
 
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```
 ...
@@ -81,7 +81,7 @@ In the `resources` section of the `sap.ui5` namespace, additional resources for 
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -130,7 +130,7 @@ The actual color now depends on the selected theme which ensures that the color 
 
 
 
-## Conventions
+### Conventions
 
 -   Do not specify colors in custom CSS but use the standard theme-dependent classes instead.
 

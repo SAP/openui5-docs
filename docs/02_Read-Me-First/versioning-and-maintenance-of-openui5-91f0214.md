@@ -1,6 +1,6 @@
 <!-- loio91f021426f4d1014b6dd926db0e91070 -->
 
-# Versioning and Maintenance of OpenUI5
+## Versioning and Maintenance of OpenUI5
 
 Versioning and maintenance strategy for OpenUI5.
 
@@ -20,7 +20,7 @@ To get an overview of the new features of each version, see [What's New in OpenU
 
 <a name="loio91f021426f4d1014b6dd926db0e91070__section_dpk_pcw_dz"/>
 
-## Maintenance Strategy
+### Maintenance Strategy
 
 Every month, OpenUI5 releases a new version for productive usage.
 
@@ -32,7 +32,7 @@ In the version overview at [https://sdk.openui5.org/versionoverview.html](https:
 
 
 
-## Availability of Multiple Versions on the Akamai Content Delivery Network
+### Availability of Multiple Versions on the Akamai Content Delivery Network
 
 OpenUI5 resources are available on the Akamai content delivery network. There, you can also find multiple OpenUI5 versions, and you can use them in your code as described in [Variant for Bootstrapping from Content Delivery Network](../04_Essentials/variant-for-bootstrapping-from-content-delivery-network-2d3eb2f.md).
 
@@ -42,7 +42,7 @@ Check the available versions with respective maintenance status at [https://sdk.
 
 <a name="loio91f021426f4d1014b6dd926db0e91070__section_b1g_xcw_dz"/>
 
-## OpenUI5 Version
+### OpenUI5 Version
 
 You can find which framework versions you use in your app in the [Technical Information Dialog](../04_Essentials/technical-information-dialog-616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) \([Ctrl\] + [Shift\] + [Left Alt\] /[Option\] + [P\] \).
 

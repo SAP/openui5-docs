@@ -1,6 +1,6 @@
 <!-- loiob81736e0fcb246efb3b0cf0ca422f8fd -->
 
-# Step 2: A First Unit Test
+## Step 2: A First Unit Test
 
 In this step we will analyze the unit testing infrastructure and write a first unit test.
 
@@ -26,18 +26,18 @@ As we use Test Driven Development \(TDD\) we define the test case first, before 
 
 
 
-## Preview
+### Preview
 
   
   
 **The unit test will initially fail as the implementation is not provided yet**
 
-![](images/Tutorial_Testing_Step_02_4e29247.png "The unit test will initially fail as the implementation is not provided
+![](images/loio4e2924722bd64b51a96d198b760ac780_LowRes.png "The unit test will initially fail as the implementation is not provided
 					yet")
 
 
 
-## Unit Test Setup
+### Unit Test Setup
 
 All unit tests are located in the `webapp/test/unit` folder and can be started by opening the `webapp/test/testsuite.qunit.html` in your browser and selecting `unit/unitTests`.
 
@@ -45,7 +45,7 @@ All unit tests are located in the `webapp/test/unit` folder and can be started b
   
 **Unit Test Infrastructure in the Application**
 
-![](images/Tutorial_Testing_Step_02_2_f25ffee.png "Unit Test Infrastructure in the Application")
+![](images/loiof25ffee0c48947bca16249c229654d69_LowRes.png "Unit Test Infrastructure in the Application")
 
 The `testsuite.qunit.html` file utlizes the configuration from `webapp/test/testsuite.qunit.js` which lists all tests within the project, including the `unitTests.qunit.js` module. This module is the entry point for all unit tests for functionality such as formatters or models.
 
@@ -53,13 +53,13 @@ The `testsuite.qunit.html` file utlizes the configuration from `webapp/test/test
 
 <a name="loiob81736e0fcb246efb3b0cf0ca422f8fd__section_uw3_pzh_p1b"/>
 
-## Coding
+### Coding
 
 You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 2](https://ui5.sap.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.02).
 
 
 
-## webapp/model/formatter.js
+### webapp/model/formatter.js
 
 ```js
 
@@ -80,7 +80,7 @@ First we think about the feature that we want to implement. We want to introduce
 
 
 
-## webapp/test/unit/model/formatter.js
+### webapp/test/unit/model/formatter.js
 
 ```js
 /*global QUnit*/
@@ -180,7 +180,7 @@ TDD methodology tells us to do the implementation as soon as the test fails and 
 
 
 
-## Conventions
+### Conventions
 
 -   Write unit tests for testing the logical correctness of your features
 

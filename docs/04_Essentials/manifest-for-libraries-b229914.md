@@ -1,6 +1,6 @@
 <!-- loiob229914587444025be986d81dcc77303 -->
 
-# Manifest for Libraries
+## Manifest for Libraries
 
 The manifest \(also known as descriptor\) for libraries contains a subset of the attributes in the manifest for applications and components.
 
@@ -41,7 +41,7 @@ Comment
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -63,7 +63,7 @@ Comment
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -85,7 +85,7 @@ Generated with value `library`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -107,7 +107,7 @@ Generated
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
@@ -129,7 +129,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -151,7 +151,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -173,7 +173,7 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -195,7 +195,7 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -217,7 +217,7 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
@@ -239,7 +239,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -261,7 +261,7 @@ Generated with value `resources.json`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -283,7 +283,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
@@ -305,7 +305,7 @@ New in `.library`, to be filled by SAP Web IDE only
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -327,7 +327,7 @@ Generated with value `UI5`
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
@@ -349,7 +349,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -371,7 +371,7 @@ Generated and merged
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -393,7 +393,7 @@ Generated
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -415,7 +415,7 @@ Generated
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
@@ -437,7 +437,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-![YES](../02_Read-Me-First/images/Checked_Okay_3929e46.png)
+![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 </td>
 <td valign="top">
@@ -459,7 +459,7 @@ Determines whether the library contains an i18n resource. Value can be either a 
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
@@ -481,7 +481,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
@@ -503,7 +503,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">
@@ -525,7 +525,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-![NO](images/Cancel_dfb38de.png)
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 </td>
 <td valign="top">

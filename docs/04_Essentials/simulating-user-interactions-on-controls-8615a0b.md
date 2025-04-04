@@ -1,6 +1,6 @@
 <!-- loio8615a0b9088645ae936dbb8bbce5d01d -->
 
-# Simulating User Interactions on Controls
+## Simulating User Interactions on Controls
 
 OPA5 has a built-in actions parameter that can be used for simulating events. If you use an action, OPA5 makes sure that the UI is in a state that allows the action to be executed.
 
@@ -8,7 +8,7 @@ We recommend that you use actions and not success functions for user interaction
 
 
 
-## Simulating a `press` Event
+### Simulating a `press` Event
 
 In this example, we trigger a `press` event on a button, using the `waitFor` function of OPA5, and the `Press` action. Note that the action has access to the located button implicitly.
 
@@ -46,7 +46,7 @@ oOpa.waitFor({
 
 
 
-## Choosing an Item from `sap.m.Select`
+### Choosing an Item from `sap.m.Select`
 
 Here's an example showing how to choose an item from `sap.m.Select`, using the `waitFor` function of OPA5, and the `Press` action:
 
@@ -89,7 +89,7 @@ For `sap.m.Combobox`, use `controlType: "sap.m.StandardListItem"`.
 
 
 
-## Entering Text into Input Fields
+### Entering Text into Input Fields
 
 Use the `EnterText` action when you want to enter text in a form control.
 
@@ -169,7 +169,7 @@ There are a couple of modifiers to the `EnterText` action:
 
 <a name="loio8615a0b9088645ae936dbb8bbce5d01d__section_tmf_bpm_2cb"/>
 
-## Table Interaction
+### Table Interaction
 
 A Table consists of columns \(`sap.m.Column`\) and rows. The rows, defined as `sap.m.ColumnListItems`, consist of cells. In order to use a stable locator, which isn't expected to change frequently, you can use a field/value combination to retrieve and interact with table items.
 
@@ -208,7 +208,7 @@ iClickOnTableItemByFieldValue: function () {
 
 <a name="loio8615a0b9088645ae936dbb8bbce5d01d__section_qn2_rhr_vkb"/>
 
-## Simulating Drag and Drop
+### Simulating Drag and Drop
 
 As of version 1.76, you can use the `sap.ui.test.actions.Drag` and `sap.ui.test.actions.Drop` actions.
 
@@ -253,7 +253,7 @@ oOpa.waitFor({
 
 <a name="loio8615a0b9088645ae936dbb8bbce5d01d__section_zr4_1xn_npb"/>
 
-## Simulating Scroll
+### Simulating Scroll
 
 As of version 1.90, you can scroll in controls that provide a scrollable area. The following example scrolls `sap.uxap.ObjectPageLayout` vertically by 200px:
 
@@ -271,7 +271,7 @@ For more information, see [`sap.ui.core.delegate.ScrollEnablement`](https://ui5.
 
 
 
-## Writing Your Own Action
+### Writing Your Own Action
 
 Since OPA5 uses JavaScript for its execution, you can't use native browser events to simulate user events. Sometimes it's also hard to know the exact position where to click or enter your keystrokes since OpenUI5 controls don't have a common interface for that. If you find you're missing a certain built-in action, you can create your own actions easily. Just provide an inline function as shown here:
 

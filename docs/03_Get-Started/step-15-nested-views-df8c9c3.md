@@ -1,25 +1,25 @@
 <!-- loiodf8c9c3d79b54c928855162bafcd88ee -->
 
-# Step 15: Nested Views
+## Step 15: Nested Views
 
 Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.
 
 
 
-## Preview
+### Preview
 
   
   
 **The panel content is now refactored to a separate view \(No visual changes to last step\)**
 
-![The graphic has an explanatory text.](images/UI5_Walkthrough_Step_15_f3724d2.png "The panel content is now refactored to a separate view (No visual changes to last
+![The graphic has an explanatory text.](images/loiof3724d2f97e94a78b27d8ab01ff9c37d_LowRes.png "The panel content is now refactored to a separate view (No visual changes to last
                step)")
 
 
 
 <a name="loiodf8c9c3d79b54c928855162bafcd88ee__section_rjd_vt2_syb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 15](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.15).
 
@@ -27,7 +27,7 @@ You can view and download all files at [Walkthrough - Step 15](https://ui5.sap.c
 
 <a name="loiodf8c9c3d79b54c928855162bafcd88ee__section_sjd_vt2_syb"/>
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -53,7 +53,7 @@ Instead of putting the panel and its content directly into our `App` view, we wi
 
 
 
-## webapp/view/HelloPanel.view.xml \(New\)
+### webapp/view/HelloPanel.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -85,7 +85,7 @@ The whole content for the panel is now added to the new file `HelloPanel.view.xm
 
 
 
-## webapp/controller/HelloPanel.controller.js \(New\)
+### webapp/controller/HelloPanel.controller.js \(New\)
 
 ```js
 sap.ui.define([
@@ -112,7 +112,7 @@ To have a reusable asset, the method `onShowHello` is also moved from the app co
 
 
 
-## webapp/controller/App.controller.js
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([

@@ -1,6 +1,6 @@
 <!-- loio592f36fd077b45349a67dcb3efb46ab1 -->
 
-# Quickstart Tutorial
+## Quickstart Tutorial
 
 Unleash your OpenUI5 skills with this simple three-step tutorial. We start with a simple "Hello World" example, and convert it to a minimalist two-page app.
 
@@ -8,13 +8,13 @@ We create an app with two pages and a navigation button to navigate between the 
 
 
 
-## Preview
+### Preview
 
   
   
 **Ready...Steady...Go!**
 
-![](images/Tutorial_Quick_Start_Preview_443918d.png "Ready...Steady...Go!")
+![](images/loio443918d392b94ec58e0f84df6ec54d46_LowRes.png "Ready...Steady...Go!")
 
 > ### Tip:  
 > If you want to skip one or more steps, you can jump directly to the step you're interested in. Then simply download the code from the previous step, and start learning from there. You can download the code for each step in the [Quick Start Sample](https://ui5.sap.com/#/entity/sap.m.tutorial.quickstart). 

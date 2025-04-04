@@ -1,6 +1,6 @@
 <!-- loio615d9e4aaa34447fbd4aa5f19dfde9b8 -->
 
-# Troubleshooting
+## Troubleshooting
 
 This section describes the various tools that are available for troubleshooting apps developed with OpenUI5
 
@@ -160,7 +160,7 @@ For help with specific problems see our [First-Aid Kit](first-aid-kit-dfe4f79.md
 
 <a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__section_sjf_1rz_s1b"/>
 
-## Get Help
+### Get Help
 
 If you're stuck and need help with a development task, you can also post a question in the OpenUI5-related forums, for example in the [SAP Community](https://community.sap.com/t5/c-khhcw49343/SAPUI5/pd-p/500983881501772639608291559920477) or on [Stack Overflow](https://stackoverflow.com/tags/sapui5/info).
 

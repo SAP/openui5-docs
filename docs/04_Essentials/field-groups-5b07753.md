@@ -1,6 +1,6 @@
 <!-- loio5b0775397e394b1fb973fa207554003e -->
 
-# Field Groups
+## Field Groups
 
 Group of controls that belong together semantically. This group can be used, for example, for validating the data consistency for the field group.
 
@@ -8,7 +8,7 @@ Field groups are built by means of a common `fieldGroupIds` array for a group th
 
 
 
-## Validation of Credit Card Information
+### Validation of Credit Card Information
 
 Depending on the credit card vendor, different validation rules can be implemented for a field group, for example:
 
@@ -21,7 +21,7 @@ Plenty of other validation rules for vendors exist. In addition to this, the exp
 
 
 
-## Defining a Field Group ID
+### Defining a Field Group ID
 
 `fieldGroupIds` is a property of all `sap.ui.core.Control` instances and can be set there as an array of strings. The developer has to make sure that the ID is unique. Field group IDs can be added as a comma-separated string as it is usually done in an xml view declaration.
 
@@ -38,7 +38,7 @@ myInput2 = new sap.m.Input({fieldGroupIds:["MyGroup","MyGroup2"]);
 
 
 
-## Validating Field Groups
+### Validating Field Groups
 
 The `validateFieldGroup` event is raised on the control that lost the focus and at least one field group was left. The event bubbles up the control hierarchy. In the example below, the surrounding `VerticalLayout` is handling the event for its fields.
 
@@ -54,7 +54,7 @@ var myVerticalLayout = new sap.ui.layout.VerticalLayout({content:[myInput1, myIn
 
 
 
-## Accessing Controls in a Field Group
+### Accessing Controls in a Field Group
 
 In some scenarios, it is required to find all controls that belong to a specific field group, or to all controls with a `fieldGroupId`. For this, the control implements the public `getControlsByFieldGroupId` method that gets a list of child controls in the application code.
 
@@ -74,7 +74,7 @@ var aMyGroupControls             = Control.getControlsByFieldGroupId("MyGroup");
 
 
 
-## Using the `fieldGroupId` With Composite Controls
+### Using the `fieldGroupId` With Composite Controls
 
 Composite controls that derive from control base class automatically support setting a `FieldGroupId`. Nevertheless, the `FieldGroupId` is not propagated to inner controls of the composite control as they are unknown to the SAPUI5 framework. Therefore, a composite control needs to propagate the `FieldGroupId` on its own. For all internally aggregated controls, the `FieldGroupId` should be propagated as follows:
 
@@ -87,7 +87,7 @@ MyCompositeControl.prototype.setFieldGroupIds = function(vValue, bSuppressInvali
 
 
 
-## Note
+### Note
 
 For a control with a `fieldGroupId` that currently has the focus, the following applies:
 

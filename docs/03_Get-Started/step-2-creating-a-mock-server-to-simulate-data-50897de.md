@@ -1,28 +1,28 @@
 <!-- loio50897decc9504b2a875fb41d89fd254a -->
 
-# Step 2: Creating a Mock Server to Simulate Data
+## Step 2: Creating a Mock Server to Simulate Data
 
 In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.
 
 
 
-## Preview
+### Preview
 
   
   
 **The app now contains data**
 
-![](images/Tutorial_Mock_Server_Step_2_55edd9f.png "The app now contains data")
+![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png "The app now contains data")
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Mock Server - Step 2](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.mockserver/sample/sap.ui.core.tutorial.mockserver.02).
 
 
 
-## webapp/test/mockServer.html
+### webapp/test/mockServer.html
 
 ```html
 <!DOCTYPE HTML>
@@ -60,7 +60,7 @@ We use this file to run our app in test mode with mock data. The new artifact `i
 
 <a name="loio50897decc9504b2a875fb41d89fd254a__section_e1t_y11_hhb"/>
 
-## webapp/test/initMockServer.js
+### webapp/test/initMockServer.js
 
 ```js
 sap.ui.define([
@@ -80,7 +80,7 @@ We load a dependency to a file called `mockserver.js` that is located in the `we
 
 
 
-## webapp/localService/metadata.xml
+### webapp/localService/metadata.xml
 
 ```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
@@ -123,7 +123,7 @@ The `metadata` file contains information about the service interface and does no
 
 
 
-## webapp/localService/mockdata/Meetups.json \(New\)
+### webapp/localService/mockdata/Meetups.json \(New\)
 
 ```json
 [{
@@ -160,7 +160,7 @@ The `Meetups.json` file is automatically read by the mock server later in this s
 
 
 
-## webapp/localService/mockserver.js \(New\)
+### webapp/localService/mockserver.js \(New\)
 
 ```js
 sap.ui.define([

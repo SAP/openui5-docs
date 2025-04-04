@@ -1,6 +1,6 @@
 <!-- loioe5200ee755f344c8aef8efcbab3308fb -->
 
-# Step 30: Routing and Navigation
+## Step 30: Routing and Navigation
 
 So far, we have put all app content on one single page. As we add more and more features, we want to split the content and put it on separate pages.
 
@@ -8,19 +8,19 @@ In this step, we will use the OpenUI5 navigation features to load and show a sep
 
 
 
-## Preview
+### Preview
 
   
   
 **A second page is added to display the invoice**
 
-![A page consisting of Walkthrough - Details header and Invoice as body text](images/UI5_Walkthrough_Step_30_94152a5.png "A second page is added to display the invoice")
+![A page consisting of Walkthrough - Details header and Invoice as body text](images/loio94152a595fe24d45b12223e0abcccb9c_LowRes.png "A second page is added to display the invoice")
 
 
 
 <a name="loioe5200ee755f344c8aef8efcbab3308fb__section_ips_rvh_tyb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 30](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.30).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Walkthrough - Step 30](https://ui5.sap.c
 
 <a name="loioe5200ee755f344c8aef8efcbab3308fb__section_jps_rvh_tyb"/>
 
-## webapp/manifest.json
+### webapp/manifest.json
 
 ```
 {
@@ -88,7 +88,7 @@ We add a new "routing" section to the `sap.ui5` part of the descriptor. There ar
 
 
 
-## webapp/Component.js
+### webapp/Component.js
 
 ```js
 sap.ui.define([
@@ -130,7 +130,7 @@ Initializing the router will evaluate the current URL and load the corresponding
 
 
 
-## webapp/view/Overview.view.xml \(New\)
+### webapp/view/Overview.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -151,7 +151,7 @@ We move the content of the previous steps from the `App` view to a new `Overview
 
 
 
-## webapp/view/App.view.xml
+### webapp/view/App.view.xml
 
 ```xml
 <mvc:View
@@ -171,7 +171,7 @@ Our `App` view is now only containing the empty app tag. The router will automat
 
 
 
-## webapp/view/Detail.view.xml \(New\)
+### webapp/view/Detail.view.xml \(New\)
 
 ```xml
 <mvc:View
@@ -188,7 +188,7 @@ Now we add a second view for the detail view. It only contains a page and an `Ob
 
 
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 …
@@ -206,7 +206,7 @@ We add a new string to the resource bundle for the detail page title.
 
 
 
-## webapp/view/InvoiceList.view.xml
+### webapp/view/InvoiceList.view.xml
 
 ```xml
 <mvc:View
@@ -255,7 +255,7 @@ In the invoice list view we add a press event to the list item and set the item 
 
 
 
-## webapp/controller/InvoiceList.controller.js
+### webapp/controller/InvoiceList.controller.js
 
 ```js
 sap.ui.define([
@@ -285,7 +285,7 @@ You should now see the detail page when you click an item in the list of invoice
 
 
 
-## Conventions
+### Conventions
 
 -   Define the routing configuration in the descriptor
 

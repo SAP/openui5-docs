@@ -1,6 +1,6 @@
 <!-- loio72227f813bef427bad2e847b6fb1583d -->
 
-# sap.ui.core
+## sap.ui.core
 
 This library contains the jQuery plugins \(`jQuery.sap.*`\), the core and all its components, base classes for controls, components and the Model-View-Controller \(MVC\) classes.
 

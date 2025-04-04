@@ -1,12 +1,12 @@
 <!-- loio3e9c0104db864fbabc9fc786cbdf76a4 -->
 
-# ARIA Attribute Mapping
+## ARIA Attribute Mapping
 
 Navigation with the keyboard and screen reader have to both work properly at the same time. In order for this to happen, you need to use the correct ARIA attributes and to map them to their HTML counterparts.
 
 
 
-## Attribute Mapping
+### Attribute Mapping
 
 The mapping of HTML attributes to ARIA attributes is described in the following table:
 
@@ -104,7 +104,7 @@ For custom controls, not part of the ARIA role definitions, mapping to similar a
 
 
 
-## Additional API Associations
+### Additional API Associations
 
 In order to ease the setting of ARIA attributes, we have introduced two new associations to the OpenUI5 API:
 

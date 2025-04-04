@@ -1,6 +1,6 @@
 <!-- loio47dc86847f7a426a8e557167cf523bda -->
 
-# Semantic Page \(sap.f\)
+## Semantic Page \(sap.f\)
 
 The `sap.f.semantic.SemanticPage` is an enhanced `sap.f.DynamicPage` that implements the SAP Fiori 2.0 design guidelines.
 
@@ -10,13 +10,13 @@ For more information about this control, see the [API Reference](https://ui5.sap
 
 <a name="loio47dc86847f7a426a8e557167cf523bda__section_ddr_gnb_yz"/>
 
-## Features
+### Features
 
 The `SemanticPage` exposes all the `DynamicPage`'s API, which means you can do everything that you are currently able to do with the `DynamicPage`.
 
 
 
-### Title
+#### Title
 
 The following aggregations are available to control the semantic in the title of the page:
 
@@ -59,11 +59,11 @@ The actions in the title are grouped to text actions or icon actions. When an ag
 
 `titleMainAction`, `titleCustomTextActions`, semantic text actions \(`deleteAction`, `copyAction`, `addAction`\), `customIconActions`, semantic icon actions \(`favoriteAction`, `flagAction`\), share menu action, navigation actions \(`fullScreenAction`, `exitFullScreenAction`, `closeAction`\).
 
-![](images/sap_f_SemanticPage_title_5181747.png)
+![](images/loio5181747523164b82ab3eb6e8558348d5_HiRes.png)
 
 
 
-### Share Menu
+#### Share Menu
 
 The following aggregations are available to control the semantic in the share menu. They are positioned vertically in this order:
 
@@ -82,11 +82,11 @@ The following aggregations are available to control the semantic in the share me
 
 The actions in the share menu icon appear in the title when a related aggregation is used.
 
-![](images/sap_f_SemanticPage_ShareMenu_1539a48.png)
+![](images/loio1539a48c8fa74dc9a6870d23f787f808_HiRes.png)
 
 
 
-### Footer
+#### Footer
 
 The following aggregations are available to control the semantic in the page footer:
 
@@ -107,17 +107,17 @@ The actions in the footer are positioned either on its left or right area and ha
 
 The left side contains the `messagesIndicator`, and the right side - `draftIndicator`, `footerMainAction`, `positiveAction`, `negativeAction` and `footerCustomActions`:
 
-![](images/sap_f_SemanticPage_footer_5d56a48.png)
+![](images/loio5d56a484f4334f7da89a530ad3177aa1_HiRes.png)
 
 
 
 <a name="loio47dc86847f7a426a8e557167cf523bda__section_q4c_zld_zz"/>
 
-## Examples
+### Examples
 
 
 
-### Initialization
+#### Initialization
 
 Definition in an XML view:
 
@@ -141,7 +141,7 @@ oView.addContent(oSemanticPage);
 
 
 
-### Adding content
+#### Adding content
 
 Adding semantic content:
 

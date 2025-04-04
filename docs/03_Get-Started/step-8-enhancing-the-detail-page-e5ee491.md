@@ -1,6 +1,6 @@
 <!-- loioe5ee491f69224f038a0c147480dbd436 -->
 
-# Step 8: Enhancing the Detail Page
+## Step 8: Enhancing the Detail Page
 
 With routing implemented, the model of the detail page is updated for each product. In this step, we enhance the detail page to show information specific for the selected product.
 
@@ -8,19 +8,19 @@ With routing implemented, the model of the detail page is updated for each produ
 
 <a name="loioe5ee491f69224f038a0c147480dbd436__section_yfh_d31_12b"/>
 
-## Preview
+### Preview
 
   
   
 **Enhanced detail page displaying information specific to the selected product**
 
-![](images/Enhanced_Detail_Page_Fiori_2_0_Tutorial_b687506.gif "Enhanced detail page displaying information specific to the selected product")
+![](images/loiob687506e7e55437193741a31ff739b7b_LowRes.gif "Enhanced detail page displaying information specific to the selected product")
 
 
 
 <a name="loioe5ee491f69224f038a0c147480dbd436__section_fd2_4dd_lbb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Flexible Column Layout App - Step 8](https://ui5.sap.com/#/sample/sap.f.tutorial.fcl.08/preview).
 
@@ -28,7 +28,7 @@ You can view and download all files at [Flexible Column Layout App - Step 8](htt
 
 <a name="loioe5ee491f69224f038a0c147480dbd436__section_hml_l4j_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 <mvc:View
@@ -75,7 +75,7 @@ Using the `expandedHeading` and `snappedHeading` aggregations, we specify differ
 
 <a name="loioe5ee491f69224f038a0c147480dbd436__section_aym_k4j_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 		...
@@ -110,7 +110,7 @@ We adjust the `headerContent` so that the `sap.f.Avatar` displays the specific i
 
 <a name="loioe5ee491f69224f038a0c147480dbd436__section_b2m_j4j_l4b"/>
 
-## webapp/view/Detail.view.xml \[MODIFY\]
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ```xml
 		...

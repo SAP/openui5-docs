@@ -1,6 +1,6 @@
 <!-- loiod2ef0099542d44dc868719d908e576d0 -->
 
-# Object Page Headers
+## Object Page Headers
 
 The `sap.uxap.ObjectPageLayout` control has two types of header - classic header and dynamic header.
 
@@ -8,7 +8,7 @@ The `sap.uxap.ObjectPageLayout` control has two types of header - classic header
 
 <a name="loiod2ef0099542d44dc868719d908e576d0__section_qj3_tpk_sbb"/>
 
-## Overview
+### Overview
 
 The `sap.uxap.ObjectPageLayout` control implements the snapping header concept. This means that the upper part of the header \(Header Title\) always stays visible, while the lower part \(Header Content\) can scroll out of view.
 
@@ -18,7 +18,7 @@ The common pattern is that the most important information describing the object,
   
 **sap.uxap.ObjectPageLayout header in expanded state**
 
-![](images/ObjectPageLayout_Dynamic_Header_329ff57.png "sap.uxap.ObjectPageLayout header in expanded state")
+![](images/loio329ff57b73e54ddca241e9ff693cd6c8_HiRes.png "sap.uxap.ObjectPageLayout header in expanded state")
 
 The following image shows the collapsed \(snapped\) header is where the Header Content area is scrolled out and not visible, and the main information is visible in the Header Title area.
 
@@ -26,14 +26,14 @@ The following image shows the collapsed \(snapped\) header is where the Header C
   
 **sap.uxap.ObjectPageLayout Header in Collapsed \(snapped\) State**
 
-![](images/ObjectPageLayout_dynamic_header_collapsed_f4ec6ba.png "sap.uxap.ObjectPageLayout Header in Collapsed (snapped)
+![](images/loiof4ec6baca13b4bd993715464cbf4461f_HiRes.png "sap.uxap.ObjectPageLayout Header in Collapsed (snapped)
 					State")
 
 
 
 <a name="loiod2ef0099542d44dc868719d908e576d0__section_chx_wpk_sbb"/>
 
-## The Classic Header
+### The Classic Header
 
 Up to version 1.52, only `sap.uxap.ObjectPageHeader` could have been used to build up the `sap.uxap.ObjectPageLayout` header.
 
@@ -103,7 +103,7 @@ The app provides an instance of `sap.uxap.ObjectPageHeader` as the value of the 
 
 <a name="loiod2ef0099542d44dc868719d908e576d0__section_sxg_s5k_sbb"/>
 
-## The Dynamic Header \(Since Version 1.52\)
+### The Dynamic Header \(Since Version 1.52\)
 
 As of version 1.52, a new `sap.uxap.ObjectPageDynamicHeaderTitle` control can be used to build a dynamic header for `sap.uxap.ObjectPageLayout`.
 

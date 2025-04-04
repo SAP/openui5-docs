@@ -1,6 +1,6 @@
 <!-- loiof218918b20e54cadb23e5e0b5bd9f9bb -->
 
-# What's New in OpenUI5 1.38
+## What's New in OpenUI5 1.38
 
 With this release OpenUI5 is upgraded from version 1.36 to 1.38.
 
@@ -404,11 +404,11 @@ The control opens a hierarchical menu and enables quick triggering of the last a
 
 -   Regular Mode
 
-    ![](images/WhatsNew_138_MenuRegular_69b1805.png)
+    ![](images/loio69b18052e57e48538fa02229ff7e43f7_HiRes.png)
 
 -   Split Mode
 
-    ![](images/WhatsNew_138_MenuSplitMode_3fb0887.png)
+    ![](images/loio3fb088782e4e49bab3f05920066794c1_HiRes.png)
 
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.MenuButton) and the [Sample](https://ui5.sap.com/#/entity/sap.m.MenuButton/sample/sap.m.sample.MenuButton).
@@ -467,7 +467,7 @@ The `ObjectMarker` control represents the status of an object with icon and/or t
 
 An object might have multiple `ObjectMarker`s at the same time but the editing states \(`Locked`, `Draft`, and `Unsaved`\) are mutually exclusive.
 
-![](images/WhatsNew_138_ObjectMarker_63be651.png)
+![](images/loio63be65114f584a01bda20eb866894ace_HiRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.ObjectMarker) and the [Samples](https://ui5.sap.com/#/entity/sap.m.ObjectMarker).
 
@@ -512,7 +512,7 @@ Control
 
 **`sap.m.RangeSlider`** is a new input control that is used to select a range of values. The `RangeSlider` has two slider handles that can be moved along a predefined numerical range scale. This control extends the `sap.m.Slider` and introduces additional functionality.
 
-![](images/WhatsNew_138_Range_Slider_d6a92b6.png)
+![](images/loiod6a92b6c14db4bbab8d0a845489155e6_HiRes.png)
 
 <sub>New•Control•Info Only•1.38</sub>
 
@@ -555,7 +555,7 @@ Control
 
 The `StepInput` control allows the user to change the input value with a predefined step. The value can be changed using the increment/decrement buttons or keys on the keyboard. On the desktop, when using the keyboard [PgUp\] and [PgDn\] keys, the value increases/decreases two steps at a time.
 
-![](images/WhatsNew_138_StepInput_40eb4db.png)
+![](images/loio40eb4db5863944c88839db0ff3d7e6cb_HiRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.StepInput) and the [Samples](https://ui5.sap.com/#/entity/sap.m.StepInput).
 
@@ -600,7 +600,7 @@ Control
 
 **`sap.ui.layout.ResponsiveSplitter`** is a layout control that is used to visually divide the content of its parent. The control is responsive and can adjust its contents to any screen size. On smaller screens, pagination is used to allow navigation to all splitter panes.
 
-![](images/WhatsNew_138_Responsive_Splitter_542861b.png)
+![](images/loio542861b7dc7c452a994fe98beadf6d10_HiRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.layout.ResponsiveSplitter) and the [Samples](https://ui5.sap.com/#/entity/sap.ui.layout.ResponsiveSplitter).
 
@@ -902,7 +902,7 @@ Control
 
 **`sap.m.MessagePopover`** has been improved and can now be resized. Resizing is only possible when the `MessagePopover` is opened from the footer on a desktop.
 
-![](images/WhatsNew_138_Message_Popover_8443028.png)
+![](images/loio8443028265c54ddaa40cd223bf401d2f_HiRes.png)
 
 <sub>Changed•Control•Info Only•1.38</sub>
 
@@ -1260,7 +1260,7 @@ Control
 
 **`sap.ui.commons.ColorPicker`** supports HSL \(Hue Saturation and Lightness\) mode. This mode works better with modern browsers and it does not require intermediate conversion back to RGB. Additionally, there is a new input field for the `alpha` \(transparency\) value for more precise color definition.
 
-![](images/WhatsNew_138_ColorPicker_afef27d.png)
+![](images/loioafef27d2b0ef41b1b8dfa7517047bda8_HiRes.png)
 
 <sub>Changed•Control•Info Only•1.38</sub>
 
@@ -1473,7 +1473,7 @@ Control
 
 `ObjectPageHeader` can be integrated with the `SideContent` scenario. A new `sideContentButton` aggregation has been added. This aggregation has a new button, which appears after the actions buttons and triggers opening the side content for additional information.
 
-![](images/WhatsNew_138_ObjectPageHeader_8e29084.png)
+![](images/loio8e2908435c774fe58ab9b8107be5f4fb_HiRes.png)
 
 For more information, see the [Sample](https://ui5.sap.com/#/entity/sap.uxap.ObjectPageHeader/sample/sap.uxap.sample.ObjectPageDynamicSideContentBtn).
 

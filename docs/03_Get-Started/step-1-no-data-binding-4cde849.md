@@ -1,20 +1,20 @@
 <!-- loio4cde849dc18949b69bbe152a0aaa19c6 -->
 
-# Step 1: No Data Binding
+## Step 1: No Data Binding
 
 In this step, we create a basic application and simply place some text on the screen using a standard `sap.m.Text` control. The text in this control is a hard-coded part of the control's definition; therefore, this is not an example of data binding!
 
 
 
-## Preview
+### Preview
 
-![The browser shows the text "Hi, my name is Harry Hawk"](images/Tutorial_Data_Binding_Step_1_6d391d5.png)
+![The browser shows the text "Hi, my name is Harry Hawk"](images/loio6d391d527601499fbeb3734246b2c067_LowRes.png)
 
 
 
 <a name="loio4cde849dc18949b69bbe152a0aaa19c6__section_lv5_lvy_zbc"/>
 
-## Setup
+### Setup
 
 Open a terminal and install UI5 Tooling globally on your machine by executing the following command:
 
@@ -22,7 +22,7 @@ Open a terminal and install UI5 Tooling globally on your machine by executing th
 
 
 
-## Coding
+### Coding
 
 You can view and download all files in the Demo Kit at [Data Binding - Step 1](https://ui5.sap.com/#/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.01).
 

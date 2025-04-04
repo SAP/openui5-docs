@@ -1,6 +1,6 @@
 <!-- loioebcf60c3b0e24c348b88603bbb8eb16c -->
 
-# Logging
+## Logging
 
 During testing with Gherkin, errors are logged to the test execution Web page.
 

@@ -1,24 +1,24 @@
 <!-- loiod12d2ee6a5454d799358d425f9e7c4db -->
 
-# Step 33: Custom Controls
+## Step 33: Custom Controls
 
 In this step, we are going to extend the functionality of OpenUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the OpenUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.
 
 
 
-## Preview
+### Preview
 
   
   
 **A custom product rating control is added to the detail page**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_Step_33_21dd14c.png "A custom product rating control is added to the detail page")
+![The graphic has an explanatory text](images/loio21dd14c37b67473b817c8865f168f668_LowRes.png "A custom product rating control is added to the detail page")
 
 
 
 <a name="loiod12d2ee6a5454d799358d425f9e7c4db__section_ylk_pbn_tyb"/>
 
-## Coding
+### Coding
 
 You can view and download all files at [Walkthrough - Step 33](https://ui5.sap.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.33).
 
@@ -26,7 +26,7 @@ You can view and download all files at [Walkthrough - Step 33](https://ui5.sap.c
 
 <a name="loiod12d2ee6a5454d799358d425f9e7c4db__section_zlk_pbn_tyb"/>
 
-## webapp/control/ProductRating.js \(New\)
+### webapp/control/ProductRating.js \(New\)
 
 ```js
 sap.ui.define([
@@ -61,7 +61,7 @@ The `init` method is a special function that is called by the OpenUI5 core whene
 
 <a name="loiod12d2ee6a5454d799358d425f9e7c4db__section_bvh_qbn_tyb"/>
 
-## webapp/control/ProductRating.js
+### webapp/control/ProductRating.js
 
 ```js
 sap.ui.define([
@@ -210,7 +210,7 @@ We define the `reset` method to be able to revert the state of the control on th
 
 
 
-## webapp/view/Detail.view.xml
+### webapp/view/Detail.view.xml
 
 ```xml
 <mvc:View
@@ -238,7 +238,7 @@ A new namespace `wt` is defined on the detail view so that we can reference our 
 
 
 
-## webapp/controller/Detail.controller.js
+### webapp/controller/Detail.controller.js
 
 ```js
 sap.ui.define([
@@ -288,7 +288,7 @@ In the `onObjectMatched` method, we call the `reset` method to make it possible 
 
 <a name="loiod12d2ee6a5454d799358d425f9e7c4db__section_azj_rbn_tyb"/>
 
-## webapp/css/style.css
+### webapp/css/style.css
 
 ```
 html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
@@ -318,7 +318,7 @@ We could also do this with more HTML in the renderer but this is the simplest wa
 
 <a name="loiod12d2ee6a5454d799358d425f9e7c4db__section_bzj_rbn_tyb"/>
 
-## webapp/i18n/i18n.properties
+### webapp/i18n/i18n.properties
 
 ```ini
 …
@@ -337,7 +337,7 @@ The resource bundle is extended with the confirmation message and the strings th
 
 
 
-## Conventions
+### Conventions
 
 -   Put custom controls in the `control` folder of your app.
 

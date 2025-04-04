@@ -1,6 +1,6 @@
 <!-- loio25ab54b0113c4914999c43d07d3b71fe -->
 
-# Examples for Data Binding in Different View Types
+## Examples for Data Binding in Different View Types
 
 Examples how complex syntax can be used for calculated fields in XML, HTML, and JS views.
 
@@ -8,7 +8,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
 
 <a name="loio25ab54b0113c4914999c43d07d3b71fe__section_yqd_24p_rcb"/>
 
-## XML View \(Recommended\)
+### XML View \(Recommended\)
 
 ```js
 
@@ -49,7 +49,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
 
 <a name="loio25ab54b0113c4914999c43d07d3b71fe__section_gqr_g4p_rcb"/>
 
-## Typed View
+### Typed View
 
 A typed view is not a declarative view. It is written in JavaScript and extends the `sap.ui.core.mvc.View` class. The following example shows how the `View` class can be extended to form such a typed view:
 

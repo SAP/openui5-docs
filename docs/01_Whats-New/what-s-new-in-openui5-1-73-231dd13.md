@@ -1,6 +1,6 @@
 <!-- loio231dd13787ca4d5c8fd976b0f2fbe82b -->
 
-# What's New in OpenUI5 1.73
+## What's New in OpenUI5 1.73
 
 With this release OpenUI5 is upgraded from version 1.72 to 1.73.
 
@@ -74,7 +74,7 @@ Control
 
 `AvatarGroup` is used to display a group of related avatars, arranged horizontally. The control allows you to display the avatars in different sizes, depending on your use case. Two group types are available: `Group` and `Individual`.
 
-![](images/WN_1_73_-_AvatarGroup_d2ac28d.gif)
+![](images/loiod2ac28d2859f484fb9228049eefe0372_HiRes.gif)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.f.AvatarGroup) and the [Samples](https://ui5.sap.com/#/entity/sap.f.AvatarGroup).
 
@@ -262,7 +262,7 @@ Four new button types were introduced in the `sap.m.ButtonType` enum. Designed a
 -   Success
 -   Neutral
 
-![](images/WhatsNew_173_messageButtons_dbf0df8.png)
+![](images/loiodbf0df86dd374616b631e278ab40f5de_LowRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.ButtonType).
 
@@ -944,7 +944,7 @@ Feature
 
 You can now easily find the results you're interested in with the new search highlighting functionality that we implemented for the *Search Results* page and the *API Reference* tree filter.
 
-![](images/WN_1_73_Demo_Kit_Search_Highlighting_0405589.gif)
+![](images/loio040558940043445a9299e24b37aef5c5_HiRes.gif)
 
 <sub>New•Feature•Info Only•1.73</sub>
 

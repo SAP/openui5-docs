@@ -1,6 +1,6 @@
 <!-- loio124ee13b03664b14b455630fb8171996 -->
 
-# Upload Collection \(Deprecated\)
+## Upload Collection \(Deprecated\)
 
 `UploadCollection` is a list control for attachment management that provides the ability to upload, edit or delete attachments.
 
@@ -11,7 +11,7 @@ The `UploadCollection` control allows users to upload single or multiple files f
 
 
 
-## Overview
+### Overview
 
 You can use the `UploadCollection` control to show a list of files, for example, attachments or uploads, that can be modified, or you can allow users to add or remove files to or from this list.
 
@@ -33,7 +33,7 @@ The `UploadCollection` control can be used in the following scenarios:
 
 
 
-## Details
+### Details
 
 **Interaction and Behaviour**
 
@@ -86,7 +86,7 @@ The `UploadCollection` control can be used in the following scenarios:
 
 
 
-## Layout
+### Layout
 
 -   The *Rename* and *Delete* pushbuttons are displayed for each item and are active and visible by default. Both icons can be set to invisible or inactive.
 
@@ -109,13 +109,13 @@ The `UploadCollection` control can be used in the following scenarios:
 
 
 
-## API Reference/Sample
+### API Reference/Sample
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.UploadCollection) and the [Samples](https://ui5.sap.com/#/entity/sap.m.UploadCollection) in the Demo Kit.
 
 
 
-## Constraints and Dependencies
+### Constraints and Dependencies
 
 By using the `UploadCollection` control, you need to be aware of the following constraints:
 

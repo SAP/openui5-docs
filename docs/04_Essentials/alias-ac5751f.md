@@ -1,6 +1,6 @@
 <!-- loioac5751f89cb142b7a6d53eaf8a0f6339 -->
 
-# alias
+## alias
 
 The `<template:alias>` instruction can be used to define a shortcut alias name for a JavaScript value, for example a static helper class, a formatter function, or a helper function.
 
@@ -10,7 +10,7 @@ A proper relative name must be used. This proper name must not contain or consis
 
 
 
-## "alias" Template
+### "alias" Template
 
 ```xml
 <template:alias name="AH" value="sap.ui.model.odata.AnnotationHelper">

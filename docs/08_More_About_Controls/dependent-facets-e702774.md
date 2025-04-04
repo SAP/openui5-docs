@@ -1,6 +1,6 @@
 <!-- loioe7027747b8ef4ef483cadeeec4cffb1e -->
 
-# Dependent Facets
+## Dependent Facets
 
 Applications can have dependencies between facets where selection of filter items in one facet list limits the list of valid filters in another facet list.
 
@@ -12,7 +12,7 @@ For example, an application displays a list of products and uses a facet filter 
 
 In this example, only products from the selected category are displayed.
 
-![](images/SAPUI5_Facet_Filter_Dependent_Facets_Example_1f47e60.png)
+![](images/loio1f47e6058f5747b687d1822040e46b1f_LowRes.png)
 
 ```js
 

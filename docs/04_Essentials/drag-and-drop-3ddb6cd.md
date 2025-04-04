@@ -1,6 +1,6 @@
 <!-- loio3ddb6cde6a8d416598ac8ced3f5d82d5 -->
 
-# Drag and Drop
+## Drag and Drop
 
 Drag and drop allows you to easily move, rearrange, and restructure items, for example, in a list or hierarchy structure.
 
@@ -8,7 +8,7 @@ Drag and drop allows you to easily move, rearrange, and restructure items, for e
 
 <a name="loio3ddb6cde6a8d416598ac8ced3f5d82d5__section_qkm_jpf_x2b"/>
 
-## Overview
+### Overview
 
 Drag and drop in OpenUI5 enhances the standard browser events. A drag session \(`DragSession`\) is created that contains all information relevant for the drag-and-drop operation.
 
@@ -18,7 +18,7 @@ The central `DragAndDrop` handler manages the drag-and-drop scenarios of an appl
 
 <a name="loio3ddb6cde6a8d416598ac8ced3f5d82d5__section_rck_nxz_w2b"/>
 
-## Use
+### Use
 
 You can use drag and drop in various scenarios, for example, if you want to do the following:
 
@@ -37,7 +37,7 @@ You can use drag and drop in various scenarios, for example, if you want to do t
 
 <a name="loio3ddb6cde6a8d416598ac8ced3f5d82d5__section_cm2_cpn_x2b"/>
 
-## Details
+### Details
 
 To drag an HTML element in HTML5, the draggable attribute must be set to `true`. This is done by `sap.ui.core.RenderManager` while the element data is being written to the Document Object Model \(DOM\) tree.
 

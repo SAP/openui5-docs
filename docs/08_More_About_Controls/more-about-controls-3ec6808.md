@@ -1,6 +1,6 @@
 <!-- loio3ec6808ff0f34a75a9f40748cf9989b9 -->
 
-# More About Controls
+## More About Controls
 
 OpenUI5 contains controls that are provided with multiple libraries. This section contains detailed information about some of the controls beyond the information provided in the API reference.
 

@@ -1,6 +1,6 @@
 <!-- loio91f3145e6f4d1014b6dd926db0e91070 -->
 
-# sap.ui.model.type.Integer
+## sap.ui.model.type.Integer
 
 The `Integer` data type represents an integer value.
 

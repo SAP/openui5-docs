@@ -1,6 +1,6 @@
 <!-- loioe49832920f034638bf3ac6d9a0bd9af1 -->
 
-# Events
+## Events
 
 `List` and `Table` provide a `swipe` event when a user swipes left to bring in a control on the right-hand side of the list item within a table or list. This event is fired before the `swipeContent` is shown and contains the following three important parameters:
 

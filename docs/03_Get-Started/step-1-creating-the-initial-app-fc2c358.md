@@ -1,6 +1,6 @@
 <!-- loiofc2c35880ccf4282a6baf8ab861bc10e -->
 
-# Step 1: Creating the Initial App
+## Step 1: Creating the Initial App
 
 In this step, we set up the initial app.
 
@@ -8,19 +8,19 @@ In this step, we set up the initial app.
 
 <a name="loiofc2c35880ccf4282a6baf8ab861bc10e__section_ed2_4dd_lbb"/>
 
-## Preview
+### Preview
 
   
   
 **The worklist app**
 
-![](images/Tutorial_Worklist_Step_01_Preview_60e42c8.png "The worklist app")
+![](images/loio60e42c87d9494360a64017fc16d8bbcb_HiRes.png "The worklist app")
 
 
 
 <a name="loiofc2c35880ccf4282a6baf8ab861bc10e__section_cnf_d4b_l4b"/>
 
-## Setup
+### Setup
 
 1.  To set up your project for this tutorial, download the files at [Worklist App - Step 1](https://ui5.sap.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.01).
 
@@ -35,7 +35,7 @@ In this step, we set up the initial app.
 
 <a name="loiofc2c35880ccf4282a6baf8ab861bc10e__section_iyw_fnp_l4b"/>
 
-## Structure
+### Structure
 
 With the downloaded code from the Demo Kit, you have an initial app structure with the following content inside the `webapp` folder:
 
@@ -43,7 +43,7 @@ With the downloaded code from the Demo Kit, you have an initial app structure wi
   
 **Folder structure of the initial project**
 
-![](images/Tutorial_Worklist_Step_01_Folders_7f6899e.png "Folder structure of the initial project")
+![](images/loio7f6899e87d8240d5bd3fc8594e148714_HiRes.png "Folder structure of the initial project")
 
 -   **Home Page** \(`webapp/view/Worklist.view.xml` file\)
 

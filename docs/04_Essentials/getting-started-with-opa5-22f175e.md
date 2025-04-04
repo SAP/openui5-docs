@@ -1,6 +1,6 @@
 <!-- loio22f175e7084247bc896c15280af9d1dc -->
 
-# Getting Started with OPA5
+## Getting Started with OPA5
 
 The following section explains step-by-step how to easily write tests for OpenUI5 apps.
 
@@ -10,7 +10,7 @@ This simulates the behaviour of many OpenUI5 apps: Depending on user actions and
 
 
 
-## Creating an Asynchronous App
+### Creating an Asynchronous App
 
 First, we create a very simple view with an invisible button with *Press me* as the button text:
 
@@ -62,7 +62,7 @@ Now how can we test this app without having to do a lot of mocking or writing of
 
 
 
-## Creating an OPA Test
+### Creating an OPA Test
 
 When we write tests, we try to write it in a way that everyone can immediately understand what is done and tested with this test:
 
@@ -95,7 +95,7 @@ If you use `opaQunit`, OPA gives you the following three objects in your QUnit:
 
 
 
-## Given: Defining Arrangements
+### Given: Defining Arrangements
 
 Let's start by defining arrangements. In the following example, we assume that the app runs in a page called `index.html`. Our OPA test is located in the `test/opa5.html` folder.
 
@@ -114,7 +114,7 @@ This is simple because we already programmed our app and just need to start it. 
 
 
 
-## When: Defining Actions
+### When: Defining Actions
 
 We now give OPA the ID and the `viewName` of the control we are looking for. OPA waits until the element is present in the respective view. OPA checks whether it is visible. After OPA has found the button, it invokes the `Press` action. If no button is found, we specify an error message so we know which `waitFor` went wrong.
 
@@ -134,7 +134,7 @@ var actions = new Opa5({
 
 
 
-## Then: Defining Assertions
+### Then: Defining Assertions
 
 After clicking the button, we want to check if the text has changed. For this, we can use matchers to check if the button we are searching for matches our conditions. We want to be sure that the text property of the button is equal to "I got pressed".
 
@@ -159,7 +159,7 @@ var assertions = new Opa5({
 
 
 
-## Running the Test
+### Running the Test
 
 We have now defined all statements and must now add them to the `OpaConfig` as follows:
 
@@ -176,17 +176,17 @@ Opa5.extendConfig({
 
 The `viewNamespace` is very important for finding the correct view. As you probably do not want to set this in every single `waitFor`, a default is provided. You can now launch the test page and the OPA test should run. If everything worked, you get the following result:
 
-![](images/Testing_OPA_Success_New_b7d6ee3.png)
+![](images/loiob7d6ee389a984eada89d1e21cc1a27f6_LowRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.test) and the [Samples](https://ui5.sap.com/#/entity/sap.ui.test.Opa5). 
 
 
 
-## OPA Startup
+### OPA Startup
 
 
 
-### **Starting a UIComponent**
+#### **Starting a UIComponent**
 
 You can use a UIComponent to run your OPA5 tests. To do this, you have to call the `iStartMyUIComponent` function on the OPA5 instance with an object that contains at least the name of your UIComponent \(see API documentation about `sap/ui/component` for all possible parameters\), for example:
 
@@ -229,7 +229,7 @@ This is very helpful if you want to start your tests with a specific target.
 
 
 
-### **Starting an App in an iFrame**
+#### **Starting an App in an iFrame**
 
 You can run the app being tested in an iFrame. You can start only one iFrame at a time. An error will be thrown if you try to start an iFrame when one is already launched or if you try to teardown the iFrame before it is started. If an iFrame element is already present on the page, it will be used. The iFrame and test window must be in the same domain. For example, if you have the `test.html` file next to the `index.html` file, you can start your app with the following code:
 

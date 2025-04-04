@@ -1,6 +1,6 @@
 <!-- loio521cad948308479486ba50b3532b9f74 -->
 
-# What's New in OpenUI5 1.72
+## What's New in OpenUI5 1.72
 
 With this release OpenUI5 is upgraded from version 1.71 to 1.72.
 
@@ -161,7 +161,7 @@ Control
 
 The new layout control is a single-level navigation menu that offers access to the entry pages of products. Its items can be configured with an image/icon, title, subtitle, and navigation target.
 
-![](images/sap_f_ProductSwitch_What_s_New_0a4532f.png)
+![](images/loio0a4532ffdad544a783a2670901a43e85_HiRes.png)
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.f.ProductSwitch) and the [Samples](https://ui5.sap.com/#/entity/sap.f.ProductSwitch).
 

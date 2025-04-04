@@ -1,6 +1,6 @@
 <!-- loio493a15aa978d4fe9a67ea9407166eb01 -->
 
-# Is Your Application Ready for Asynchronous Loading?
+## Is Your Application Ready for Asynchronous Loading?
 
 Find a collection of information that helps you to find out if your application is ready for asynchronous loading.
 
@@ -83,7 +83,7 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
 
 <a name="loio493a15aa978d4fe9a67ea9407166eb01__section_jxt_wj5_zfb"/>
 
-## Known Incompatibilities
+### Known Incompatibilities
 
 The `sap.viz` library uses another module loader in addition to the OpenUI5 module loader in some scenarios. In combination with the `` configuration parameter, this currently leads to issues and may break your application.
 

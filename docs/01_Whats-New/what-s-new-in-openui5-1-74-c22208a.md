@@ -1,6 +1,6 @@
 <!-- loioc22208a351a04399bf6b1c9614febb4e -->
 
-# What's New in OpenUI5 1.74
+## What's New in OpenUI5 1.74
 
 With this release OpenUI5 is upgraded from version 1.73 to 1.74.
 
@@ -74,7 +74,7 @@ Feature
 
 The Test Recorder tool is now part of the OpenUI5 framework and is available in all browsers. Use it in any OpenUI5 app to inspect the rendered user interface, view the control properties, and get hints about writing tests. The tool is aligned with the two official OpenUI5 testing tools – OPA5 and UIVeri5.
 
-![](images/Test_Recorder_WN_1_74_639a704.png)
+![](images/loio639a7041dc2740c2b9f0183a7aee41bb_HiRes.png)
 
 For more information, see [Test Recorder](../04_Essentials/test-recorder-2535ef9.md).
 
@@ -840,7 +840,7 @@ Control
 
 We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content. It is defined by the new `icon` property. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.tnt.InfoLabel) and the [Sample](https://ui5.sap.com/#/entity/sap.tnt.InfoLabel/sample/sap.tnt.sample.InfoLabel).
 
-![](images/WhatsNew_174_InfoLabel_Icon_cadac6c.png)
+![](images/loiocadac6c2a6e74ac18c574ee7f3b4b0df_LowRes.png)
 
 <sub>Changed•Control•Info Only•1.74</sub>
 

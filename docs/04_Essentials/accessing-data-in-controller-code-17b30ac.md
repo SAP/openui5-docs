@@ -1,6 +1,6 @@
 <!-- loio17b30ac2d5474078be31e695e97450cc -->
 
-# Accessing Data in Controller Code
+## Accessing Data in Controller Code
 
 In the OData V4 model, bindings are used to access and modify back-end data also if the data is accessed or modified in controller code.
 
@@ -10,7 +10,7 @@ You can create bindings that are independent of controls using the factory metho
 
 <a name="loio17b30ac2d5474078be31e695e97450cc__section_acw_zcc_v3b"/>
 
-## Contexts
+### Contexts
 
 [sap.ui.model.odata.v4.Context](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context) is central for CRUD operations in the controller code. `sap.ui.model.odata.v4.Context` provides the following functions:
 
@@ -31,7 +31,7 @@ You can create bindings that are independent of controls using the factory metho
 
 <a name="loio17b30ac2d5474078be31e695e97450cc__section_h4x_1dc_v3b"/>
 
-## Lists
+### Lists
 
 A list binding is obtained either with `sap.ui.model.odata.v4.ODataModel#bindList`, or by getting an existing list binding bound to a control. Entities of the list can be requested using [sap.ui.model.odata.v4.ODataModel.ODataListBinding\#requestContexts](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/requestContexts). The function returns a promise resolving with an array of the requested contexts. The data of each context can be accessed using the `requestObject`, `requestProperty`, `getObject`, and `getProperty` methods of `sap.ui.model.odata.v4.Context`. To modify the data, `sap.ui.model.odata.v4.Context#setProperty` can be used. For retrieving all available contexts without sending any request, [`sap.ui.model.odata.v4.ODataListBinding#getAllCurrentContexts`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23methods/getAllCurrentContexts) can be used.
 
@@ -58,7 +58,7 @@ var oList = oModel.bindList("/SalesOrderList"),
 
 
 
-### Relative Access
+#### Relative Access
 
 To access a list relative to an existing [sap.ui.model.odata.v4.Context](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context), use [`#getObject`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/getObject) if that list is already loaded on the client by that context's binding. For example, when all items have been expanded in a list binding of sales orders,`oSalesOrderContext.getObject("SO_2_SOITEM")` would return them. Note that [`#requestObject`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/requestObject) cannot be used to fetch additional entities. To access a list that is not already loaded on the client, you need to create a new relative list binding as follows. You can also $expand further navigation properties; see [sap.ui.model.odata.v4.ODataModel\#bindList](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindList) .
 
@@ -80,7 +80,7 @@ const aContexts = await oListBinding.requestContexts();
 
 <a name="loio17b30ac2d5474078be31e695e97450cc__section_tvt_bdc_v3b"/>
 
-## Single Entities
+### Single Entities
 
 A context binding is obtained either with [sap.ui.model.odata.v4.ODataModel\#bindContext](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext), or by getting an existing context binding from the control tree. Data can be accessed through the bound context, see [sap.ui.model.odata.v4.ODataContextBinding\#getBoundContext](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/getBoundContext) . Using `sap.ui.model.odata.v4.ODataContextBinding#requestObject` is a shortcut for `oBinding.getBoundContext().requestObject()`. sap.ui.model.odata.v4.Context\#setProperty is used to modify data.
 
@@ -99,7 +99,7 @@ oContextBinding.requestObject("Note").then(function (sNote) {
 
 
 
-### Relative Access
+#### Relative Access
 
 To access a single entity relative to an existing [sap.ui.model.odata.v4.Context](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context), use [`#getObject`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/getObject) if that entity is already loaded on the client by that context's binding. Note that [`#requestObject`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/requestObject) cannot be used to fetch additional entities. To access a single entity that is not already loaded on the client, you need to create a new relative context binding as follows. You can also $expand further navigation properties; see [sap.ui.model.odata.v4.ODataModel\#bindContext](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext) .
 
@@ -118,7 +118,7 @@ const oOtherEntity = await oContextBinding.getBoundContext().requestObject();
 
 <a name="loio17b30ac2d5474078be31e695e97450cc__section_hg5_cdc_v3b"/>
 
-## Single Properties
+### Single Properties
 
 The access to single properties may either be done using a context binding as described above in the *Single Entities* section, or by using a property binding. The property binding is obtained with [sap.ui.model.odata.v4.ODataModel\#bindProperty](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty) , or by getting an existing property binding bound to a control. The value can be requested using [sap.ui.model.odata.v4.ODataPropertyBinding\#requestValue](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/requestValue). A synchronous access is possible with sap.ui.model.odata.v4.ODataPropertyBinding\#getValue, if the value is already available.
 
@@ -136,7 +136,7 @@ oNote.requestValue().then(function (sValue) {
 
 
 
-### Relative Access
+#### Relative Access
 
 To access single properties relative to an existing [sap.ui.model.odata.v4.Context](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context), use [`#getProperty`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/getProperty) for access to already loaded properties, or [`#requestProperty`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/requestProperty) in order to fetch additional properties not yet loaded on the client. You can also use [`#getObject`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/getObject) to access the complete data the context points to or any part thereof, but [`#requestObject`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/requestObject) cannot be used to fetch additional properties. The value of a property can be modified using [`#setProperty`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/setProperty).
 

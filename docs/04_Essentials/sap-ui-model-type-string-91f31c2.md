@@ -1,6 +1,6 @@
 <!-- loio91f31c206f4d1014b6dd926db0e91070 -->
 
-# sap.ui.model.type.String
+## sap.ui.model.type.String
 
 The `String` data type represents a string.
 

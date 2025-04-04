@@ -1,6 +1,6 @@
 <!-- loio750c8c1e2ec1479ea58a4aaf9ee2ab82 -->
 
-# Step 27: Unit Test with QUnit \(TypeScript\)
+## Step 27: Unit Test with QUnit \(TypeScript\)
 
 Now that we have a test folder in the app, we can start to increase our test coverage.
 
@@ -11,17 +11,17 @@ Actually, every feature that we added to the app so far, would require a separat
 
 
 
-## Preview
+### Preview
 
   
   
 **A unit test for our formatters is now available**
 
-![Preview of the unit test](images/UI5_Walkthrough_Step_27_0d29491.png "A unit test for our formatters is now available")
+![Preview of the unit test](images/loio0d29491d96574cfe8d8158d60a0a32e2_LowRes.png "A unit test for our formatters is now available")
 
 
 
-## Coding
+### Coding
 
 You can view all files at [OpenUI5 TypeScript Walkthrough - Step 27: Unit Test with QUnit](https://github.com/sap-samples/ui5-typescript-walkthrough/tree/main/steps/27) and [download the solution as a zip file](https://sap-samples.github.io/ui5-typescript-walkthrough/ui5-typescript-walkthrough-step-27.zip).
 
@@ -29,13 +29,13 @@ You can view all files at [OpenUI5 TypeScript Walkthrough - Step 27: Unit Test w
   
 **Folder Structure for this Step**
 
-![The graphic has an explanatory text](images/UI5_Walkthrough_TypeScript_Folders_Step_27_eae0f42.png "Folder Structure for this Step")
+![The graphic has an explanatory text](images/loioeae0f42249494ae7aeda044e83f15097_LowRes.png "Folder Structure for this Step")
 
 We add a new folder `unit` under the `test` folder and a `model` subfolder where we will place our formatter unit test. The folder structure matches the app structure to easily find the corresponding unit tests.
 
 
 
-## webapp/test/unit/model/formatter.ts \(New\)
+### webapp/test/unit/model/formatter.ts \(New\)
 
 We create a new `formatter.ts` file under `webapp/test/unit/model` where the unit test for the custom formatter is implemented. The `formatter` function that we want to test is from the `formatter.ts` file located in the `webapp/model` folder.
 
@@ -87,7 +87,7 @@ QUnit.test("Should return the translated texts", (assert) => {
 
 <a name="loio750c8c1e2ec1479ea58a4aaf9ee2ab82__section_hnt_54c_yfb"/>
 
-## webapp/test/unit/unitTests.qunit.ts \(New\)
+### webapp/test/unit/unitTests.qunit.ts \(New\)
 
 We create a new `unitTests.qunit.ts` file under `webapp/test/unit/`. This module will serve as the entry point for all our unit tests. It will be referenced in the test suite that we will set up later on.
 
@@ -101,7 +101,7 @@ import "./model/formatter";
 
 <a name="loio750c8c1e2ec1479ea58a4aaf9ee2ab82__section_gnt_54c_yfb"/>
 
-## webapp/test/Test.qunit.html \(New\)
+### webapp/test/Test.qunit.html \(New\)
 
 We also need a generic test page that can be used to run individual tests. It includes the `sap/ui/test/starter/runTest.js` script which is responsible for loading the test suite configuration and starting the test. Unlike with the UI5 bootstrap, this script only accepts the `data-sap-ui-resource-roots` configuration where we need to register our project-specific test namespace so that our modules can be loaded.
 
@@ -130,7 +130,7 @@ The page will be referenced in the test suite that we will create next.
 
 <a name="loio750c8c1e2ec1479ea58a4aaf9ee2ab82__section_zqh_x1x_kdc"/>
 
-## webapp/test/testsuite.qunit.ts \(New\)
+### webapp/test/testsuite.qunit.ts \(New\)
 
 The `testsuite.qunit.ts` file contains the configuration for our test suite. Although it comes with a set of defaults, we recommend specifying the used QUnit version to prevent potential future updates from breaking our tests.
 
@@ -175,7 +175,7 @@ export default {
 
 <a name="loio750c8c1e2ec1479ea58a4aaf9ee2ab82__section_yhs_pcx_kdc"/>
 
-## webapp/test/testsuite.qunit.html \(New\)
+### webapp/test/testsuite.qunit.html \(New\)
 
 We also create a corresponding `testsuite.qunit.html` in the same folder. This is the page we will open in the browser to see a list of all our tests and run them by clicking on the test name. It registers a resource root mapping for the test resources of our project and references the `testsuite.qunit` module we created in the previous step.
 
@@ -201,7 +201,7 @@ If we now open the `webapp/test/testsuite.qunit.html` file in the browser and se
 
 
 
-## Conventions
+### Conventions
 
 -   All unit tests are placed in the webapp/test/unit folder of the app.
 

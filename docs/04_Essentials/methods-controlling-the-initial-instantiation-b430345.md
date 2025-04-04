@@ -1,6 +1,6 @@
 <!-- loiob430345887f1419fba50320b57c1bdf9 -->
 
-# Methods Controlling the Initial Instantiation
+## Methods Controlling the Initial Instantiation
 
 OpenUI5 provides two methods for the initial instantiation of the component.
 

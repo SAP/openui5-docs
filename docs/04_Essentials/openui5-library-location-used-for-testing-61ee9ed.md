@@ -1,6 +1,6 @@
 <!-- loio61ee9ed2369f4764a6d713abcf73afc1 -->
 
-# OpenUI5 Library Location Used for Testing
+## OpenUI5 Library Location Used for Testing
 
 The location of the OpenUI5 library that is used for testing may differ depending on several parameters.
 

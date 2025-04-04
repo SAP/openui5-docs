@@ -1,6 +1,6 @@
 <!-- loio91f27e3e6f4d1014b6dd926db0e91070 -->
 
-# Views
+## Views
 
 The view in the Model-View-Controller \(MVC\) concept is responsible for defining and rendering the UI. OpenUI5 supports predefined view types.
 
