@@ -207,7 +207,7 @@ Before using the Component's `EventBus` instance via `Component#getEventBus`, de
 
 Prevent bundling modules \(`Component-preload.js`\) into strings.
 
--   Leverage [UI5 Tooling](https://sap.github.io/ui5-tooling/) to build the bundle and avoid generating the application bundle with legacy build tooling, such as grunt-openui5.
+-   Leverage [UI5 Tooling](https://sap.github.io/ui5-tooling/) to build the bundle. Avoid generating the application bundle with legacy build tooling, such as grunt-openui5.
 
 -   Avoid declaring `var`, `let`, or `const` in the global scope above `sap.ui.define`. If absolutely required, replace e.g. `var myGlobal` with `globalThis.myGlobal` and/or wrap the module definition in an *Immediately Invoked Function Expression* \(IIFE\) if applicable.
 
@@ -350,7 +350,7 @@ Implement strict error handling to address critical issues.
 
 Prevent bundling modules \(`library-preload.js`\) into strings.
 
--   Leverage [UI5 Tooling](https://sap.github.io/ui5-tooling/) to build the bundle and avoid generating the library bundle with legacy build tooling, such as grunt-openui5.
+-   Leverage [UI5 Tooling](https://sap.github.io/ui5-tooling/) to build the bundle. Avoid generating the library bundle with legacy build tooling, such as grunt-openui5.
 
 -   Avoid declaring `var`, `let`, or `const` in the global scope above `sap.ui.define`.
 
