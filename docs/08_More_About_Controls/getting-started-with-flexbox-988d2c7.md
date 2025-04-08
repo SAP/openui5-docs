@@ -10,20 +10,26 @@ Option 1
 
 ```js
 
-var oMyFlexbox = new sap.m.FlexBox();
-oMyFlexbox.addItem( new sap.m.Button({text: "Button 1"}) );
-oMyFlexbox.addItem( new sap.m.Button({text: "Button 2"}) ); 
+// FlexBox required from "sap/m/FlexBox"
+// Button required from "sap/m/Button"
+
+var oMyFlexbox = new FlexBox();
+oMyFlexbox.addItem(new Button({text: "Button 1"}));
+oMyFlexbox.addItem(new Button({text: "Button 2"}));
 ```
 
 Option 2
 
 ```js
 
-var oMyFlexbox = new sap.m.FlexBox({
-  items: [
-    new sap.m.Button({text: "Button 1"}),
-    new sap.m.Button({text: "Button 2"})
-  ]
+// FlexBox required from "sap/m/FlexBox"
+// Button required from "sap/m/Button"
+
+var oMyFlexbox = new FlexBox({
+    items: [
+        new Button({text: "Button 1"}),
+        new Button({text: "Button 2"})
+    ]
 });
 ```
 
@@ -41,12 +47,15 @@ Some properties that affect the layout need to be set in the `FlexBox` control. 
 
 ```js
 
-var oMyFlexbox = new sap.m.FlexBox({
-  items: [
-    new sap.m.Button({text: "Button 1"}),
-    new sap.m.Button({text: "Button 2"})
-  ],
-  direction: "Column"
+// FlexBox required from "sap/m/FlexBox"
+// Button required from "sap/m/Button"
+
+var oMyFlexbox = new FlexBox({
+    items: [
+        new Button({text: "Button 1"}),
+        new Button({text: "Button 2"})
+    ],
+    direction: "Column"
 });
 ```
 
@@ -56,14 +65,18 @@ The order is attached to the button inside a `FlexItemData` object as follows:
 
 ```js
 
-var oMyFlexbox = new sap.m.FlexBox({
-  items: [
-    new sap.m.Button({
-      text: "Button 1",
-      layoutData: new FlexItemData({order: 2})
-    }),
-    new sap.m.Button({text: "Button 2"})
-  ]
+// FlexBox required from "sap/m/FlexBox"
+// Button required from "sap/m/Button"
+// FlexItemData required from "sap/m/FlexItemData"
+
+var oMyFlexbox = new FlexBox({
+    items: [
+        new Button({
+            text: "Button 1",
+            layoutData: new FlexItemData({order: 2})
+        }),
+        new sap.m.Button({text: "Button 2"})
+    ]
 });
 ```
 

@@ -26,15 +26,13 @@ The string in quotes specifies the controller name. The controller file should b
 > <mvc:View controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"></mvc:View>
 > ```
 > 
-> You could also use the module name syntax \(e.g., `module:sap/hcm/Address`\) to reference the controller. This would allow you to name your controller file without a `.controller.js` suffix, e.g., `Address.js`.
+> You could also use the module name syntax \(e.g., `module:sap/hcm/Address`\) to reference the controller. This would allow you to name your controller file without a `.controller` suffix, e.g., `Address.js`:
 > 
 > ```
+> // If filename is Address.js (without .controller suffix) 
 > <mvc:View controllerName="module:sap/hcm/Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"></mvc:View>
-> ```
 > 
-> or
-> 
-> ```
+> // If filename is Address.controller.js (with .controller suffix)
 > <mvc:View controllerName="module:sap/hcm/Address.controller" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"></mvc:View>
 > ```
 

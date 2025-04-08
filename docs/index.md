@@ -275,7 +275,7 @@ OpenUI5 Version
             -   [Step 15: Writing a Short Date Formatter Using TDD](03_Get-Started/step-15-writing-a-short-date-formatter-using-tdd-bc4114a.md)
             -   [Step 16: Adding the Date Formatter](03_Get-Started/step-16-adding-the-date-formatter-2ca583d.md)
         -   [OData V2 Mock Server Tutorial](03_Get-Started/odata-v2-mock-server-tutorial-3a9728e.md)
-            -   [Step 1: Initial App Without Data](03_Get-Started/step-1-initial-app-without-data-7a78f1b.md)
+            -   [Step 1: Initial App Without Mock Data](03_Get-Started/step-1-initial-app-without-mock-data-7a78f1b.md)
             -   [Step 2: Creating a Mock Server to Simulate Data](03_Get-Started/step-2-creating-a-mock-server-to-simulate-data-50897de.md)
             -   [Step 3: Handling Custom URL Parameters](03_Get-Started/step-3-handling-custom-url-parameters-46c1ca4.md)
             -   [Step 4: Calling a Function Import](03_Get-Started/step-4-calling-a-function-import-95e5b87.md)

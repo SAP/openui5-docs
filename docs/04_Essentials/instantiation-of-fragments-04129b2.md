@@ -67,11 +67,7 @@ It returns a Promise resolving with either the root control contained in the fra
 
 The different methods used for the instantiation of a fragment have the following commonalities:
 
--   A fragment name must be given.
-
-    > ### Note:  
-    > The `loadFragment()` API uses "XML" as the default fragment type. In this example, the XML fragment is identified by a resource name that maps to the resource path `myapp/fragments/MyXMLFragment.fragment.xml`. This should not be confused with its actual file location, which is typically `webapp/fragments/MyXMLFragment.fragment.xml`.
-
+-   A fragment name must be given. This name must be resolvable to the fragment file URL by the OpenUI5 module loading mechanism. For JS fragments the name can also be defined inline.
 -   A controller can be optionally given. Some fragments may require a controller and certain methods to be present in this controller.
 -   An ID can be optionally given.
 
