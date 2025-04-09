@@ -88,7 +88,8 @@ oMockServer.simulate(sMetadataUrl, {
 The OData model uses JSON to fetch the data:
 
 ```js
-const oModel = new sap.ui.model.odata.v2.ODataModel(sUri, true);
+// "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
+const oModel = new ODataModel(sUri, true);
 ```
 
 

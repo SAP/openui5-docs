@@ -4,6 +4,12 @@
 
 A controller contains methods that define how models and views interact.
 
+
+
+<a name="loio121b8e6337d147af9819129e428f1f75__section_cxl_h2d_y2c"/>
+
+### Defining and Referencing Controllers
+
 You define a simple controller as follows:
 
 ```js
@@ -35,6 +41,23 @@ The string in quotes specifies the controller name. The controller file should b
 > // If filename is Address.controller.js (with .controller suffix)
 > <mvc:View controllerName="module:sap/hcm/Address.controller" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"></mvc:View>
 > ```
+
+> ### Tip:  
+> If you create your controller via factory API, use the module name syntax to avoid the need for the strict `.controller.js` filename suffix:
+> 
+> > ### Example:  
+> > Controller filename `Main.js`
+> > 
+> > ```js
+> > sap.ui.require([
+> > "sap/ui/core/mvc/Controller"
+> > ], function(Controller) {
+> >     Controller.create({
+> >         name: "module:my/app/controller/Main" // No need for '.controller.js' suffix in the file name
+> >     })
+> > });
+> > 
+> > ```
 
 
 

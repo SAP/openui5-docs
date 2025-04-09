@@ -17,7 +17,7 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 
 ### Preview
 
-![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png)
+![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_LowRes.png)
 
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
@@ -30,9 +30,7 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 
 ### Prerequisites
 
-This tutorial assumes you have access to the SAP Business Application Studio. For more information, see [App Development Using SAP Business Application Studio](../05_Developing_Apps/app-development-using-sap-business-application-studio-6bbad66.md).
-
-You should also be familiar with the concepts explained in the [Walkthrough Tutorial \(JavaScript\)](walkthrough-tutorial-javascript-3da5f4b.md) tutorial and with the OData specification.
+You should be familiar with the concepts explained in the [Walkthrough Tutorial \(JavaScript\)](walkthrough-tutorial-javascript-3da5f4b.md) tutorial and with the OData specification.
 
 **Related Information**  
 
