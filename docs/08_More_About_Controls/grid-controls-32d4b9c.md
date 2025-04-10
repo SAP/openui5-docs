@@ -466,7 +466,7 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 <td valign="top">
 
-![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+![Yes](../02_Read-Me-First/images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
 
 </td>
 <td valign="top">

@@ -56,7 +56,8 @@ If a control is set to busy, the complete control will be covered with a block l
 Here's how to do it:
 
 ```js
-	// Input required from module "sap/m/Input"
+	
+// Input required from module "sap/m/Input"
 var oInput = new Input({
     value: 'Hello World'
 });
@@ -67,7 +68,8 @@ oInput.setBusy(true);
 The following code shows how you define the default state of a control as `busy` so that it will be displayed as busy when it has been rendered:
 
 ```js
-	var oInput = new Input({
+	
+var oInput = new Input({
     value: 'Hello World',
     busy: true
 });   
