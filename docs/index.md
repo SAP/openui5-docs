@@ -347,7 +347,7 @@ OpenUI5 Version
                     -   [Migration Information for Upgrading the Manifest File](04_Essentials/migration-information-for-upgrading-the-manifest-file-a110f76.md)
                 -   [Manifest Dependencies to Libraries and Components](04_Essentials/manifest-dependencies-to-libraries-and-components-8521ad1.md)
                 -   [Manifest Model Preload](04_Essentials/manifest-model-preload-26ba6a5.md)
-                -   [Enabling the Automatic Header Adaptation in the Manifest](04_Essentials/enabling-the-automatic-header-adaptation-in-the-manifest-0635156.md)
+                -   [Enabling the Automatic SAP Fiori 2.0 Header Adaptation in the Manifest](04_Essentials/enabling-the-automatic-sap-fiori-2-0-header-adaptation-in-the-manifest-0635156.md)
         -   [Model View Controller \(MVC\)](04_Essentials/model-view-controller-mvc-91f2334.md)
             -   [Models](04_Essentials/models-d2c8cf7.md)
             -   [Views](04_Essentials/views-91f27e3.md)
