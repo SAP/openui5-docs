@@ -12,7 +12,7 @@ In this step, we add the OData V2 mock server to our app.
   
 **The app now contains data**
 
-![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_LowRes.png "The app now contains data")
+![The graphic has an explanatory text.](images/loio55edd9fa2cc24f398a9373d6d497d3e4_LowRes.png "The app now contains data")
 
 
 

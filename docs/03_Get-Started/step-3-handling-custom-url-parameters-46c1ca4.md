@@ -12,9 +12,9 @@ We know that the OData V2 provider of this service implements a URL parameter th
 
   
   
-**After clicking "Get First Three Meet-Ups", only the next three meetups are shown**
+**After clicking "Get First Three Meet-Ups", only the first three meetups are shown**
 
-![](images/loioe65ccb233c334129b11726a20b102211_LowRes.png "After clicking "Get First Three Meet-Ups", only the next three meetups are shown")
+![The graphic has an explanatory text.](images/loioe65ccb233c334129b11726a20b102211_LowRes.png "After clicking "Get First Three Meet-Ups", only the first three meetups are shown")
 
 
 

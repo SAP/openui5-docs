@@ -17,7 +17,7 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 
 ### Preview
 
-![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_LowRes.png)
+![Preview of the UI5 application that is going to be built in this tutorial. Displays a list of upcoming meetups generated from mock data.](images/loio8f2176b473a54bbd87e8287732e4eb8e_LowRes.png)
 
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.

@@ -14,7 +14,7 @@ We only want to display the upcoming meetings and hide the meetings that happene
   
 **Only the upcoming meetups are shown**
 
-![](images/loio8f2176b473a54bbd87e8287732e4eb8e_LowRes.png "Only the upcoming meetups are shown")
+![The graphic has an explanatory text.](images/loio8f2176b473a54bbd87e8287732e4eb8e_LowRes.png "Only the upcoming meetups are shown")
 
 
 
@@ -58,7 +58,7 @@ After saving and running the app again, we should get the following result:
   
 **No data visible**
 
-![](images/loio4992f37e491c432995eaae0712ba1a59_LowRes.png "No data visible")
+![The graphic has an explanatory text.](images/loio4992f37e491c432995eaae0712ba1a59_LowRes.png "No data visible")
 
 Since the function import call is not simulated automatically by the mock server, we do not see any data in list, and a failed network call is issued in the developer tools of the browser.
 

@@ -17,7 +17,7 @@ For this simple tutorial app we will use an OData V2 service called `Meetups` th
   
 **The initial app**
 
-![](images/loio3a29b22e092e4bf8a549fa2931758673_LowRes.png "The initial app")
+![The graphic has an explanatory text.](images/loio3a29b22e092e4bf8a549fa2931758673_LowRes.png "The initial app")
 
 
 
@@ -35,5 +35,5 @@ You should have the same files as displayed in the following figure:
   
 **Folder structure with downloaded files**
 
-![](images/loio026a90809d1a4dc5a28e147bc77eb830_LowRes.png "Folder structure with downloaded files")
+![The graphic has an explanatory text.](images/loio026a90809d1a4dc5a28e147bc77eb830_LowRes.png "Folder structure with downloaded files")
 
