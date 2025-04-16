@@ -71,6 +71,11 @@ OpenUI5 provides the following lifecycle hooks:
 
 -   `onInit()`: Called when a view is instantiated and its controls \(if available\) have already been created; used to modify the view before it is displayed to bind event handlers and do other one-time initialization
 
+    > ### Note:  
+    > In component-based apps, you should use `this.getOwnerComponent().getModel()` instead of `this.getView().getModel()` inside `onInit()` to get a model that is assigned to the component. The latter call might return `undefined` because the view might not have been attached to a parent yet \(i.e., the component\) and thus can't inherit a model from that parent. **It then doesn't know about models or bindings yet.**
+    > 
+    > You could also attach to the `modelContextChange` event, which is fired whenever a control's model or context change.
+
 -   `onExit()`: Called when the view is destroyed; used to free resources and finalize activities
 
 -   `onAfterRendering()`: Called when the view has been rendered, and therefore, its HTML is part of the document; used to do post-rendering manipulations of the HTML. OpenUI5 controls get this hook after being rendered.
