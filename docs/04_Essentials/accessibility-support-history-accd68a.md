@@ -91,9 +91,33 @@ As of version
 <tr>
 <td valign="top">
 
+We have enhanced SAPUI5 accessibility support according to the latest WAI-ARIA 1.2 specification.
+
+</td>
+<td valign="top">
+
+1.136
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAPUI5 is following the SAP ‘s updated design and development guidelines, as well as the testing procedures and accessibility reporting, that are based on WCAG 2.2.
+
+</td>
+<td valign="top">
+
+1.136
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Update of the reference test environment.
 
-Latest update with UI5 1.102
+Latest update with UI5 1.136
 
 </td>
 <td valign="top">

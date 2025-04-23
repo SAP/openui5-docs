@@ -43,7 +43,7 @@ Clicking the browser action icon in the address bar provides you with:
 > ### Note:  
 > Your version of OpenUI5 may be older than the latest and the features described in the documentation may not be available for you.
 
-![](images/loiob02f8ec2ea55400cb9d99c96f28e1987_HiRes.png)
+![](images/loiob02f8ec2ea55400cb9d99c96f28e1987_LowRes.png)
 
 **Control Inspector**
 
