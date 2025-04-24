@@ -12,13 +12,13 @@ In this step, we want to change the mock data of the initial app.
   
 **The product list of the initial app with custom mock data**
 
-![](images/loiob150a14f277b4d5398442829edc83217_HiRes.png "The product list of the initial app with custom mock data")
+![](images/loiob150a14f277b4d5398442829edc83217_LowRes.png "The product list of the initial app with custom mock data")
 
   
   
 **Folder structure for this step including custom mock data**
 
-![](images/loiofa4aba84cedc4fefbf345c26eed8bc97_HiRes.png " Folder structure for this step including custom mock data")
+![](images/loiofa4aba84cedc4fefbf345c26eed8bc97_LowRes.png " Folder structure for this step including custom mock data")
 
 The service metadata only contains a description of the service entities. The mock server that is part of the app will auto-generate random mock data based on the data types defined in the metadata file. To have a more realistic development environment we will now add additional sample data.
 

@@ -12,7 +12,7 @@ In this step, we will edit the worklist table to include additional columns for 
   
 **The improved worklist table with new columns and formatting**
 
-![](images/loio2def9d9de16f4b4a87dd4342486c70f7_HiRes.png "The improved worklist table with new columns and formatting")
+![](images/loio2def9d9de16f4b4a87dd4342486c70f7_LowRes.png "The improved worklist table with new columns and formatting")
 
 
 

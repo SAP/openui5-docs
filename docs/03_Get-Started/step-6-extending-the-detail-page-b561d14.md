@@ -12,7 +12,7 @@ In this step, we will extend the detail page of our app to show more information
   
 **Detail page with more product information**
 
-![](images/loio49780e41de4e4766b41cdf65acf81ea2_HiRes.png "Detail page with more product information")
+![](images/loio49780e41de4e4766b41cdf65acf81ea2_LowRes.png "Detail page with more product information")
 
 
 

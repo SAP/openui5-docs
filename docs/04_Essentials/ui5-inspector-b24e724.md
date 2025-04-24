@@ -53,9 +53,9 @@ Hovering over a specific branch of the tree highlights the corresponding control
 
 Additionally, you can right click on any OpenUI5 control from the app and select *Inspect UI5 control*. This automatically selects the control in the tree and you can review its properties directly.
 
-![](images/loioa2c8084fb6464f71957b98e2571e357d_HiRes.png)
+![](images/loioa2c8084fb6464f71957b98e2571e357d_LowRes.png)
 
-![](images/loioa5e904cf213540baaf98ddd6e4f71684_HiRes.png)
+![](images/loioa5e904cf213540baaf98ddd6e4f71684_LowRes.png)
 
 **Properties**
 

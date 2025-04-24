@@ -1,6 +1,6 @@
 <!-- loio0635156f3950494885ca314a13e15e29 -->
 
-## Enabling the Automatic Header Adaptation in the Manifest
+## Enabling the Automatic Header Adaptation for Legacy Applications
 
 Application developers can enable automatic adaptation of legacy applications from the `manifest.json` file also known as descriptor for applications, components and libraries.
 
@@ -8,7 +8,7 @@ Application developers can enable automatic adaptation of legacy applications fr
 
 ### The Automatic Header Adapter
 
-The SAP Fiori design guidelines require changes with regards to the headers of applications and the SAP Fiori launchpad. If your application has a header, it needs to be merged into the standardized SAP Fiori header.
+The SAP Fiori design guidelines provide recommendations with regards to the headers of applications and the SAP Fiori launchpad. If your application has a header, it needs to be merged into the standardized SAP Fiori header.
 
 Legacy applications using the `sap.m.Page`, including the back button, can use the header adapter to align their header layout with SAP Fiori design guidelines. The header adapter specifically prevents duplicate headers and back buttons when displaying these legacy applications in the SAP Fiori launchpad.
 

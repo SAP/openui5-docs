@@ -12,7 +12,7 @@ For easily detecting and managing product shortages in our app, we will add a qu
   
 **A quick filter allows filtering the product table**
 
-![](images/loio395f8acac5fd4fbc9a1c52c615fa07d3_HiRes.png "A quick filter allows filtering the product table")
+![](images/loio395f8acac5fd4fbc9a1c52c615fa07d3_LowRes.png "A quick filter allows filtering the product table")
 
 
 
