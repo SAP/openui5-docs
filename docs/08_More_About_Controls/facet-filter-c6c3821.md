@@ -8,29 +8,31 @@ With the facet filter, users can explore a data collection by applying multiple 
 
 The following figure shows the structure of the facet filter.
 
-![](images/loiof144853312cd42a1bff62ce4695eba2d_LowRes.png)
+![](images/loiof144853312cd42a1bff62ce4695eba2d_Source1.png)
+
+The facet filter supports the following two types that can be configured using the control's `type` property:
+
+-   Simple type
+
+    With the Simple type facet filter you can offer multiple filters \('facets'\) to assist the user in narrowing down the data in, say, a table. With this default 'Simple' type, each filter is displayed in a row for selectionThe simple type is the default type and available for desktop and tablets.
+
+-   Light type
+
+    It is for small displays where only a selectable summary bar is shown, and a dialog is shown for setting the facet values. The "Light" type is automatically enabled on smartphone-sized devices, but is also available for desktop and tablets.
+
+
+In addition, you can define Custom type facet filters by setting custom filtering criteria. For example, Custom type can be applied instead of the default filtering criteria of the control when searching in the FacetFilterList.
 
 
 
 ## Example
 
-Your application displays a large list of products that can be grouped by category and supplier. With the facet filter, you allow users to dynamically filter the list so it only displays products from the categories and suppliers they want to see. In the following figure, the `FacetFilter` control is outlined in red and will be referred to as the 'toolbar' for the user. In the example, the user has set the following filters:
+Your application displays a large list of products that can be grouped by category and supplier. With the facet filter, you allow users to dynamically filter the list so that it displays products from the categories and suppliers they want to see. In the following figure, the `FacetFilter` control is outlined in red and will be referred to as the 'toolbar' for the user. In this example the user has set the following filters, using the Simple type facet filter:
 
--   Category: Printer
+-   Category: Printers
 
--   Supplier: Red Point Stores
+-   SupplierName \(Alpha Printers\)
 
 
-![](images/loiof57566c5aa854e2f86a8df84040ba13c_LowRes.png)
-
-The facet filter supports the following two typeswhich can be configures using the control's `type` property:
-
--   Simple type
-
-    The simple type is the default type and available for desktop and tablets.
-
--   Light type
-
-    The light type is automatically enabled on smart phone sized devices, but is also available for desktop and tablets.
-
+![](images/loiof57566c5aa854e2f86a8df84040ba13c_Source1.png)
 
