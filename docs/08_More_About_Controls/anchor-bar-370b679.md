@@ -16,7 +16,7 @@ The anchor bar is an automatically generated internal menu that shows the titles
   
 **Anchor Bar with Sections and Subsections**
 
-![](images/loio7023c14765ae4e47924fe6ee29baf8c3_HiRes.png "Anchor Bar with Sections and Subsections")
+![](images/loio7023c14765ae4e47924fe6ee29baf8c3_LowRes.png "Anchor Bar with Sections and Subsections")
 
 When the user scrolls the page content, the anchor bar remains at the top of the screen.
 

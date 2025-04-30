@@ -54,10 +54,84 @@ The `sap.uxap.ObjectPageDynamicHeaderTitle` extends `sap.f.DynamicPageTitle`. It
 
 To populate the header content area, provide an array of desired controls to the `headerContent` aggregation of the `sap.uxap.ObjectPageLayout` control. `sap.uxap.ObjectPageLayout` uses internally `sap.uxap.ObjectPageDynamicHeaderContent` to layout the controls.
 
+
+
+<a name="loio6e340c119ddd4c778b315f65a0432420__section_q23_hsy_dfc"/>
+
+### Dynamic Header Features
+
+**Overview of dynamic header features \(all being ObjectPageLayout properties\):**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Feature
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`headerContentPinnable` 
+
+</td>
+<td valign="top">
+
+Determines whether the Header Content area can be pinned.
+
+When set to true, a pin button is displayed within the Header Content area. The pin button allows the user to make the Header Content always visible at the top of the page above any scrollable content.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`toggleHeaderOnTitleClick` 
+
+</td>
+<td valign="top">
+
+Determines whether the user can switch between the expanded/collapsed states of the dynamic header by clicking/tapping on the Header Title. If set to `false`, the Header Title is not clickable and the app must provide other means for expanding/collapsing the dynamic header, if necessary.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`preserveHeaderStateOnScroll` 
+
+</td>
+<td valign="top">
+
+Preserves the current header state when scrolling. For example, if the user expands the header by clicking on the title and then scrolls down the page, the header will remain expanded.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`toggleHeaderOnTitleClick` 
+
+</td>
+<td valign="top">
+
+When the feature is enabled, arrow buttons below the Header Content appear, the Header Title and the arrow buttons can be clicked/tapped for collapsing/expanding the header and there is additional visual indication while hovering over the Header Title area or the arrow buttons.
+
+</td>
+</tr>
+</table>
+
 **Related Information**  
 
 
-[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://ui5.sap.com/#/api/sap.uxap.ObjectPageDynamicHeaderTitle)
+[is intended for experimentation only is intended for experimentation onlyAPI Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://ui5.sap.com/#/api/sap.uxap.ObjectPageDynamicHeaderTitle)
 
 [API Reference: `sap.uxap.ObjectPageLayout`](https://ui5.sap.com/#/api/sap.uxap.ObjectPageLayout)
 

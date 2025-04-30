@@ -10,7 +10,7 @@ The blocks are used to group the app content that is displayed in the sections a
   
 **Object Page content grouped in Blocks**
 
-![](images/loioda91fe47966e4c43bd5fd1a318756c7d_HiRes.png "Object Page content grouped in Blocks")
+![](images/loioda91fe47966e4c43bd5fd1a318756c7d_LowRes.png "Object Page content grouped in Blocks")
 
 To add blocks, use the `blocks` aggregation of `sap.uxap.ObjectPageSubSection`:
 

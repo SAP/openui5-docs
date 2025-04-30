@@ -16,7 +16,7 @@ The `ObjectPageLayout` layout is composed of a header \(title and content\), an 
   
 **ObjectPageLayout Main Structure**
 
-![](images/loio6b015871feac4b62a1111c73ba78c86f_HiRes.png "ObjectPageLayout Main Structure")
+![](images/loio6b015871feac4b62a1111c73ba78c86f_LowRes.png "ObjectPageLayout Main Structure")
 
 
 
@@ -81,7 +81,7 @@ The content of the page that appears below the header is composed of blocks stru
   
 **Blocks Structured into Sections and Subsections**
 
-![](images/loio69eeaf31d2e3481fa479d8a42229b6ec_HiRes.png "Blocks Structured into Sections and Subsections")
+![](images/loio69eeaf31d2e3481fa479d8a42229b6ec_LowRes.png "Blocks Structured into Sections and Subsections")
 
 The blocks hold the actual app content, while the purpose of the sections and subsections is to define grouping.
 
@@ -132,7 +132,7 @@ The `subSectionLayout` property provides information on how all the underlying s
   
 **Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on Top**
 
-![](images/loio80c15831d2f14649ab7e56f24b17a5b9_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
+![](images/loio80c15831d2f14649ab7e56f24b17a5b9_LowRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on Top")
 
 Additionally, a second layout named `titleOnLeft` arranges the blocks content from the second column, leaving the first one for section and subsection titles only.
@@ -141,7 +141,7 @@ Additionally, a second layout named `titleOnLeft` arranges the blocks content fr
   
 **Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on the Left**
 
-![](images/loio96bf1fad37a74191968095bdd71698d3_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
+![](images/loio96bf1fad37a74191968095bdd71698d3_LowRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on the Left")
 
 Here is how this property is set in the XML view:
@@ -166,7 +166,7 @@ Here is how this property is set in the XML view:
 
 The `moreBlocks` aggregation of `sap.uxap.ObjectPageSubSection` allows you to specify blocks to be displayed only after the user clicks the internally created *See more* button:
 
-![](images/loio74c97287cab245018b4ad7dc364108ee_HiRes.png)
+![](images/loio74c97287cab245018b4ad7dc364108ee_LowRes.png)
 
 The *See more* button is only displayed for subsections that contain one of the following:
 
