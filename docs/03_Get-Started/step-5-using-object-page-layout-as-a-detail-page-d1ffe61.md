@@ -139,7 +139,7 @@ We add an instance of the `sap.uxap.ObjectPageLayout` control.
 </mvc:View>
 ```
 
-We add the recommended dynamic header with an instance of the `ObjectPageDynamicHeaderTitle` in the `headerTitle` aggregation of the `ObjectPageLayout`. For more information, see [Object Page Dynamic Header](../08_More_About_Controls/object-page-dynamic-header-6e340c1.md) and [Object Page Headers Comparison](../08_More_About_Controls/object-page-headers-comparison-9c9d94f.md).
+We add the recommended dynamic header with an instance of the `ObjectPageDynamicHeaderTitle` in the `headerTitle` aggregation of the `ObjectPageLayout`. For more information, see [Object Page Header](../08_More_About_Controls/object-page-header-6e340c1.md) and [Object Page Headers Comparison](../08_More_About_Controls/object-page-headers-comparison-9c9d94f.md).
 
 
 

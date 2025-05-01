@@ -18,7 +18,7 @@ The common pattern is that the most important information describing the object,
   
 **sap.uxap.ObjectPageLayout header in expanded state**
 
-![](images/loio329ff57b73e54ddca241e9ff693cd6c8_HiRes.png "sap.uxap.ObjectPageLayout header in expanded state")
+![](images/loio329ff57b73e54ddca241e9ff693cd6c8_LowRes.png "sap.uxap.ObjectPageLayout header in expanded state")
 
 The following image shows the collapsed \(snapped\) header is where the Header Content area is scrolled out and not visible, and the main information is visible in the Header Title area.
 
