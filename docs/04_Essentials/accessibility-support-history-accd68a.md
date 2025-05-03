@@ -2,7 +2,7 @@
 
 ## Accessibility Support History
 
-OpenUI5 is following the SAP 's design and development guidelines, as well as the testing procedures and accessibility reporting, that are based on WCAG 2.1 level A and AA.
+OpenUI5 is following the SAP 's design and development guidelines, as well as the testing procedures and accessibility reporting, that are based on WCAG 2.2.
 
 The following table shows the availability of the different accessibility features.
 

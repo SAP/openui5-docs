@@ -33,11 +33,11 @@ The available semantic content is different buttons and selects. Each one can co
   
 **Semantic content at its default positions on the page.**
 
-![](images/loio1632fd57dfe14bdc8ea00fe41e497153_HiRes.png "Semantic content at its default positions on the page.")
+![](images/loio1632fd57dfe14bdc8ea00fe41e497153_LowRes.png "Semantic content at its default positions on the page.")
 
 Several different selects are supported for displaying a list of selectable items - `SortSelect`, `FilterSelect`, and `GroupSelect`.
 
-![](images/loiod37b29b1effe43438b294163ec0802ff_HiRes.png)
+![](images/loiod37b29b1effe43438b294163ec0802ff_LowRes.png)
 
 The following aggregations are available and enable the apps to add their own custom content to the different areas of the page:
 
@@ -67,7 +67,7 @@ The ordering logic of custom and semantic content is as follows from left to rig
 
 
 
-![](images/loio4c04af6e10994ad1bce73d02630fe957_HiRes.png)
+![](images/loio4c04af6e10994ad1bce73d02630fe957_LowRes.png)
 
 
 

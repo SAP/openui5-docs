@@ -59,7 +59,7 @@ The actions in the title are grouped to text actions or icon actions. When an ag
 
 `titleMainAction`, `titleCustomTextActions`, semantic text actions \(`deleteAction`, `copyAction`, `addAction`\), `customIconActions`, semantic icon actions \(`favoriteAction`, `flagAction`\), share menu action, navigation actions \(`fullScreenAction`, `exitFullScreenAction`, `closeAction`\).
 
-![](images/loio5181747523164b82ab3eb6e8558348d5_HiRes.png)
+![](images/loio5181747523164b82ab3eb6e8558348d5_LowRes.png)
 
 
 
@@ -82,7 +82,7 @@ The following aggregations are available to control the semantic in the share me
 
 The actions in the share menu icon appear in the title when a related aggregation is used.
 
-![](images/loio1539a48c8fa74dc9a6870d23f787f808_HiRes.png)
+![](images/loio1539a48c8fa74dc9a6870d23f787f808_LowRes.png)
 
 
 
@@ -107,7 +107,7 @@ The actions in the footer are positioned either on its left or right area and ha
 
 The left side contains the `messagesIndicator`, and the right side - `draftIndicator`, `footerMainAction`, `positiveAction`, `negativeAction` and `footerCustomActions`:
 
-![](images/loio5d56a484f4334f7da89a530ad3177aa1_HiRes.png)
+![](images/loio5d56a484f4334f7da89a530ad3177aa1_LowRes.png)
 
 
 

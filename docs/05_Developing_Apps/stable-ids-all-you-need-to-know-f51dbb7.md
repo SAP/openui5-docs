@@ -77,9 +77,9 @@ The generated IDs change whenever the control structure of the app changes. The 
     	"routing": {
     		"targets": {
     			"myTarget": {
-    				"id": "myView"
+    				"id": "myView",
     				"name": "MyView",
-    				"...": "...",
+    				"...": "..."
     			}
     		}
     	}
@@ -95,7 +95,7 @@ The generated IDs change whenever the control structure of the app changes. The 
     ```xml
     <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
     	<Page id="myPage">
-    		<mvc:XMLView id="myEmbeddedView" viewName="MyView" async="true" />
+    		<mvc:XMLView id="myEmbeddedView" viewName="MyView"/>
     	</Page>
     </mvc:View>
     
@@ -196,7 +196,7 @@ Examples \(Standalone App scenario\):
 <head>
 	<!-- ... -->
 	<script id="sap-ui-bootstrap"
-		src="<...>/resources/sap-ui-core.js"
+		src=".../resources/sap-ui-core.js"
 		data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
 		data-sap-ui-async="true"
 		data-sap-ui-resource-roots='{ "my.app": "./" }'
@@ -316,8 +316,7 @@ this.getOwnerComponent().runAsOwner(() => Fragment.load({
 });
 ```
 
-> ### Note:  
-> You can also define individual IDs \(and prefixes\) for each instance of a fragment.
+You can also define individual IDs \(and prefixes\) for each instance of a fragment.
 
 ```js
 // Here we deactivate the default prefixing and pass a custom ID for the fragment instance
@@ -465,7 +464,7 @@ Concatenated IDs
 With the Support Assistant, you can analyze whether there are any issues with the stable IDs used in your app. Here's how you can check this:
 
 1.  Open your app in a browser.
-2.  Enter the [shortcut](../02_Read-Me-First/keyboard-shortcuts-for-openui5-tools-154844c.md) [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [P\]  to start the Support Assistant.
+2.  Enter the [shortcut](../02_Read-Me-First/keyboard-shortcuts-for-openui5-tools-154844c.md) [Ctrl\] + [Shift\] + [left Alt / left Option\] + [P\]  to start the Support Assistant.
 3.  In the *Technical Information Dialog*, choose *Activate Support Assistant*.
 4.  In the table on the left, deselect all rules.
 5.  Click on the *Rules* column.

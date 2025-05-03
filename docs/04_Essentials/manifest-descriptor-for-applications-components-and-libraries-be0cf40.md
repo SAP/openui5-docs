@@ -1252,12 +1252,29 @@ Version 73
 </td>
 <td valign="top">
 
-\>=1.134
+\>=1.135
 
 </td>
 <td valign="top">
 
-1.72.0
+1.72.3
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Version 74
+
+</td>
+<td valign="top">
+
+\>=1.136
+
+</td>
+<td valign="top">
+
+1.73.1
 
 </td>
 </tr>
@@ -2294,7 +2311,7 @@ Current version of the `manifest.json`
 ```
 
 {
-    "_version": "1.72.0",
+    "_version": "1.73.1",
  
     "start_url": "index.html",
  
@@ -2379,7 +2396,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.134.0",
+            "minUI5Version": "1.136.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
