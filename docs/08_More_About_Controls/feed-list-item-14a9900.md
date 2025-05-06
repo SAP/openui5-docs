@@ -35,9 +35,5 @@ For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.Fe
     For more information about the `FeedListItemAction` element, see the [API Reference](https://ui5.sap.com/#/api/sap.m.FeedListItemAction).
 
 
-
-
-### More Information
-
 The `sap.m.FeedListItem` control can be used in combination with the `sap.m.FeedInput` control as a feed or notes control. For more information, see [Feed Input](feed-input-0ec25a1.md).
 
