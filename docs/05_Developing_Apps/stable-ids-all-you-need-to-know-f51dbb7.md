@@ -150,7 +150,7 @@ If you use extension points, use stable IDs for nested views and prefixes for ne
 
     If the following XML view is instantiated using the ID `"myView"`, the contained page and table would have the IDs `"myView--myPage"` and `"myView--myTable"` at runtime:
 
-    ```js
+    ```xml
     <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
     	<Page id="myPage">
     			<Table id="myTable">
@@ -196,7 +196,7 @@ Examples \(Standalone App scenario\):
 <head>
 	<!-- ... -->
 	<script id="sap-ui-bootstrap"
-		src=".../resources/sap-ui-core.js"
+		src="..."
 		data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
 		data-sap-ui-async="true"
 		data-sap-ui-resource-roots='{ "my.app": "./" }'

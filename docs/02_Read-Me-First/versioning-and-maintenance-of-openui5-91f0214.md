@@ -6,6 +6,10 @@ Versioning and maintenance strategy for OpenUI5.
 
 
 
+<a name="loio91f021426f4d1014b6dd926db0e91070__section_DC50B59D56AC4B52A2DBEFADFA4B0E98"/>
+
+### Version Designation
+
 OpenUI5 uses a three-number version identifier, for example, 1.71.22. The numbers have the following meaning:
 
 -   The first part \(1\) specifies the release number \(major version\).
@@ -18,7 +22,7 @@ To get an overview of the new features of each version, see [What's New in OpenU
 
 
 
-<a name="loio91f021426f4d1014b6dd926db0e91070__section_dpk_pcw_dz"/>
+<a name="loio91f021426f4d1014b6dd926db0e91070__section_qnr_ghw_ffc"/>
 
 ### Maintenance Strategy
 
