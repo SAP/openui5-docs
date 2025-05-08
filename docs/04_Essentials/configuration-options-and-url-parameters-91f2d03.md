@@ -541,41 +541,6 @@ Specifies a list of UI libraries using the same syntax as the `libs` property, f
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-`versioned-lib-css`
-
-</td>
-<td valign="top">
-
-[Type](configuration-options-and-url-parameters-91f2d03.md#loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT): `boolean`
-
-Default value: `false`
-
-If set to `true`, the version parameters are included in requests to the library theme resource \(for example, the parameter `library.css?version=1.0.1&sap-ui-dist-version=1.0.2` is added. `version` contains the library version and `sap-ui-dist-version` the version of the OpenUI5 distribution .
-
-This applies to the following resources:
-
--   `library(-RTL).css` \(or any other variation\)
-
--   `library-parameters.json` 
-
-
-URLs within the CSS or parameters are not modified.
-
-</td>
-<td valign="top">
-
-![YES](../02_Read-Me-First/images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-</td>
-</tr>
 </table>
 
 
