@@ -14,5 +14,5 @@ When the user selects the summary bar, a navigable dialog list of all facets is 
 
 By selecting any of its associated filters in the dialog, the user can add a facet to the summary bar.
 
-![](images/loio21bd050c65984bd79136b8d6cd987d72_LowRes.png)
+![](images/loio21bd050c65984bd79136b8d6cd987d72_Source1.png)
 

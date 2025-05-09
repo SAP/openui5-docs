@@ -6,7 +6,7 @@ In this step, we add `sap.uxap.ObjectPageLayout` to the detail page to display m
 
 The `ObjectPageLayout` control provides a layout that allows apps to easily display information related to a business object.
 
-As of version 1.52, the control can have the same dynamic header that is used in the `sap.f.DynamicPage`. This ensures the availability of the SAP Fiori features, such as, having breadcrumbs navigation, navigation actions, and expanding/collapsing the header by tapping/clicking the title area or by selecting the available arrow buttons. For more information, see [Object Page Header](../08_More_About_Controls/object-page-header-6e340c1.md).
+As of version 1.52, the control can have the same dynamic header that is used in the `sap.f.DynamicPage`. This ensures the availability of features, such as, breadcrumbs navigation, navigation actions, and expanding/collapsing the header by tapping/clicking the title area or by selecting the available arrow buttons. For more information, see [Object Page Header](../08_More_About_Controls/object-page-header-6e340c1.md).
 
 Compared to `sap.f.DynamicPage`, the `sap.uxap.ObjectPageLayout` can provide a more structured page content using an optional anchor bar and block content wrapped in sections and subsections that structure the information. For more information, see [Object Page Layout](../08_More_About_Controls/object-page-layout-2e61ab6.md).
 

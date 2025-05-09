@@ -9,7 +9,7 @@ OpenUI5 does not provide features for any specific test runner but rather aims f
 **Related Information**  
 
 
-[ui5-test-runner](https://karma-runner.github.io/)
+[ui5-test-runner](https://github.com/ArnaudBuchholz/ui5-test-runner)
 
 [wdio-qunit-service](https://github.com/github.com/mauriciolauffer/wdio-qunit-service)
 

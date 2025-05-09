@@ -112,11 +112,11 @@ npm packages \(check the individual packages for licensing information\):
 
 
 
-[**Web Components**](https://www.webcomponents.org/introduction) are custom HTML tags based on standard web APIs like Custom Elements and Shadow DOM, supported by all modern browsers and compatible with most HTML-based UI frameworks.
+**Web Components** \(`https://www.webcomponents.org/introduction`\) are custom HTML tags based on standard web APIs like Custom Elements and Shadow DOM, supported by all modern browsers and compatible with most HTML-based UI frameworks.
 
 [**UI5 Web Components**](https://sap.github.io/ui5-webcomponents/) is an open-source library developed by the UI5 team according to the SAP Fiori design, offering lightweight, framework-agnostic components with theming, accessibility, and internationalization support. Built on native Web Components, they integrate easily into any UI framework.
 
-OpenUI5 supports embedding UI5 Web Components, translating their metadata into UI5 controls. This enables seamless integration, including properties, events, and methods, within OpenUI5 applications. For more information, see [Using Web Components](../04_Essentials/using-web-components-1c80793.md).
+OpenUI5 supports embedding UI5 Web Components, translating their metadata into OpenUI5 controls. This enables seamless integration, including properties, events, and methods, within OpenUI5 applications. For more information, see [Using Web Components](../04_Essentials/using-web-components-1c80793.md).
 
 
 

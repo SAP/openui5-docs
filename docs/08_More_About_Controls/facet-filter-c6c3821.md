@@ -6,9 +6,9 @@ Facet filters \(`sap.m.FacetFilter`\) support users in finding the information t
 
 With the facet filter, users can explore a data collection by applying multiple filters along certain discrete attributes or facets of the overall data collection.
 
-The following figure shows the structure of the facet filter.
+The following figure shows the structure of the facet filter in default 'Simple' type.
 
-![](images/loiof144853312cd42a1bff62ce4695eba2d_Source1.png)
+![](images/loiof144853312cd42a1bff62ce4695eba2d_LowRes.png)
 
 The facet filter supports the following two types that can be configured using the control's `type` property:
 

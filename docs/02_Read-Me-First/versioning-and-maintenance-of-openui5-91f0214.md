@@ -26,13 +26,87 @@ To get an overview of the new features of each version, see [What's New in OpenU
 
 ### Maintenance Strategy
 
-Every month, OpenUI5 releases a new version for productive usage.
+Every month, OpenUI5 releases a new version for productive usage. Support periods vary by release type:
 
-The release strategy follows the principle of "one innovation code line": Subsequent versions ensure continuous innovation with an evolving code line.
 
-Once a year, a version with long-term support is released. All other versions do not have a maintenance period and no patches are provided. Required fixes are available with the next minor versions together with the new features. However, in exceptional cases, also the most recent version may be patched with correction code.
+<table>
+<tr>
+<th valign="top" align="center">
 
-In the version overview at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html), you can see which of the OpenUI5 versions have an extended maintenance.
+Release Type
+
+</th>
+<th valign="top" align="center">
+
+Support Period
+
+</th>
+<th valign="top" align="center">
+
+Typical Release Cycle
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Standard
+
+</td>
+<td valign="top">
+
+6 weeks
+
+</td>
+<td valign="top">
+
+Monthly
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Mid-Term Support \(MTS\)
+
+</td>
+<td valign="top">
+
+9 months
+
+</td>
+<td valign="top">
+
+Anually \(6 months after LTS release\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Long-Term Support \(LTS\)
+
+</td>
+<td valign="top">
+
+15 months
+
+</td>
+<td valign="top">
+
+Anually
+
+</td>
+</tr>
+</table>
+
+The release strategy follows the principle of "one innovation code line": Subsequent versions ensure continuous innovation with an evolving code line. All OpenUI5 versions receive critical security fixes until the version’s end of life \(EOL\) date.
+
+Mid-term and long-term maintenance releases also receive bug fixes until their end of maintenance \(EOM\) date \(for standard releases, bug fixes are included in the next OpenUI5 version\). After the EOM date, only critical security patches are offered for a year, after which these versions reach their EOL date.
+
+Whenever a new patch for a version is released, the older patch becomes outdated. One year after becoming outdated, it enters End of Cloud Provisioning \(EOCP\) and is removed from the Akamai content delivery network \(CDN\) at the start of the following quarter.
+
+In the version overview at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html), you can find information on the maintenance status of all available OpenUI5 versions and the EOCP dates for each patch version.
 
 
 
@@ -48,7 +122,7 @@ Check the available versions with respective maintenance status at [https://sdk.
 
 ### OpenUI5 Version
 
-You can find which framework versions you use in your app in the [Technical Information Dialog](../04_Essentials/technical-information-dialog-616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) \([Ctrl\] + [Shift\] + [Left Alt\] /[Option\] + [P\] \).
+You can find which framework versions you use in your app in the [Technical Information Dialog](../04_Essentials/technical-information-dialog-616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) \([Ctrl\] + [Shift\] + [Left Alt / Left Option\] + [P\] .
 
 To access the OpenUI5 version at runtime, you can use the following code:
 

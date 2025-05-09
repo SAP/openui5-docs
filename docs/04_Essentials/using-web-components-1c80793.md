@@ -2,15 +2,15 @@
 
 ## Using Web Components
 
-Web Components can be used seamlessly in OpenUI5. A Web Component - especially a UI5 Web Component with its Custom Elements metadata - can be required and used like a regular UI5 control.
+Web Components can be used seamlessly in OpenUI5. A Web Component - especially a UI5 Web Component with its Custom Elements metadata - can be required and used like a regular OpenUI5 control.
 
 
 
 <a name="loio1c80793df5bb424091954697fc0b2828__section_BAD4FC9765174E0EB7264A423F7C4ED6"/>
 
-### General Concepts Compared to UI5 Controls
+### General Concepts Compared to OpenUI5 Controls
 
-To use Web Components, you need to understand the different concepts and their mapping. While a couple of differences between Web Components and UI5 controls exist, the basic concepts of Web Components are easily mapped to OpenUI5 nomenclature:
+To use Web Components, you need to understand the different concepts and their mapping. While a couple of differences between Web Components and OpenUI5 controls exist, the basic concepts of Web Components are easily mapped to OpenUI5 nomenclature:
 
 
 <table>
@@ -141,7 +141,7 @@ Associations are a UI5-only concept. Any Web Component property that takes an HT
 
 #### API-Specific Differences
 
-Besides the nomenclature for the basic concepts, several additional naming differences need to be accounted for to harmonize the usage together with UI5 controls:
+Besides the nomenclature for the basic concepts, several additional naming differences need to be accounted for to harmonize the usage together with OpenUI5 controls:
 
 -   The DOM's `disabled` attribute is available as the `enabled` property in OpenUI5.
 
@@ -158,11 +158,11 @@ Besides the nomenclature for the basic concepts, several additional naming diffe
 
 ### Using UI5 Web Components in OpenUI5 Applications
 
-This chapter explains how to integrate Web Components into existing OpenUI5 applications. We will go over the following topics:
+This chapter explains how to integrate UI5 Web Components into existing OpenUI5 applications. We will go over the following topics:
 
 1.  [Preparing your project](using-web-components-1c80793.md#loio1c80793df5bb424091954697fc0b2828__subsection_PREP)
-2.  [Usage of Web Components in XML views](using-web-components-1c80793.md#loio1c80793df5bb424091954697fc0b2828__subsection_XML)
-3.  [Usage of Web Components in JavaScript/TypeScript, e.g. in controllers](using-web-components-1c80793.md#loio1c80793df5bb424091954697fc0b2828__subsection_JSTS)
+2.  [Usage of UI5 Web Components in XML views](using-web-components-1c80793.md#loio1c80793df5bb424091954697fc0b2828__subsection_XML)
+3.  [Usage of UI5 Web Components in JavaScript/TypeScript, e.g. in controllers](using-web-components-1c80793.md#loio1c80793df5bb424091954697fc0b2828__subsection_JSTS)
 
 
 
@@ -234,7 +234,7 @@ Your `package.json` should now contain the following entries in the `dependencie
 
 
 
-#### 2. Using Web Components in XML Views
+#### 2. Using UI5 Web Components in XML Views
 
 **Declaring the Namespace**
 
@@ -275,7 +275,7 @@ In this example we use the `text` property to specify the button's text and bind
 ```
 
 > ### Note:  
-> Properties and Events can be used identically to any other UI5 control.
+> Properties and Events can be used identically to any other OpenUI5 control.
 
 **Using Icons**
 
@@ -321,13 +321,13 @@ To reduce the overall payload of an application, you can also require individual
 
 **Aggregations and Data Binding**
 
-In the previous examples we have seen how the AI button can aggregate internal states. Now let's have a look at how data binding can be used with Web Components in the same fashion as with traditional UI5 controls.
+In the previous examples we have seen how the AI button can aggregate internal states. Now let's have a look at how data binding can be used with UI5 Web Components in the same fashion as with traditional OpenUI5 controls.
 
-Any `property` or `slot` \(`aggregation`, respectively\) offered by a Web Component can be bound to a model value, thus leveraging the full data binding capabilities of the OpenUI5 programming model.
+Any `property` or `slot` \(`aggregation`, respectively\) offered by a UI5 Web Component can be bound to a model value, thus leveraging the full data binding capabilities of the OpenUI5 programming model.
 
-The following example demonstrates how a `<ui5-list>` Web Component can be bound against a model. In this case we use another Web Component, the `<ui5-li>` element, as a binding template.
+The following example demonstrates how a `<ui5-list>` UI5 Web Component can be bound against a model. In this case we use another UI5 Web Component, the `<ui5-li>` element, as a binding template.
 
-As before, we use the corresponding **namespace and class name** to define the Web Components in our XML view \(see the official [`List`](https://sap.github.io/ui5-webcomponents/components/List/) and [`ListItemStandard`](https://sap.github.io/ui5-webcomponents/components/ListItemStandard/) documentation\):
+As before, we use the corresponding **namespace and class name** to define the UI5 Web Components in our XML view \(see the official [`List`](https://sap.github.io/ui5-webcomponents/components/List/) and [`ListItemStandard`](https://sap.github.io/ui5-webcomponents/components/ListItemStandard/) documentation\):
 
 ```xml
 <mvc:View
@@ -349,17 +349,17 @@ As before, we use the corresponding **namespace and class name** to define the W
 ```
 
 > ### Note:  
-> Besides aggregating other Web Components, you can of course also aggregate UI5 controls in most Web Components.
+> Besides aggregating other Web Components, you can of course also aggregate OpenUI5 controls in most Web Components.
 > 
 > However, there are exceptions if the official Web Component documentation states otherwise, e.g. the `<ui5-avatar-group>` can only hold `<ui5-avatar>` Web Components in its [default slot](https://sap.github.io/ui5-webcomponents/components/AvatarGroup/#default) and `content` aggregation, respectively.
 
 
 
-#### 3. Using Web Components in JavaScript/TypeScript \(e.g. in Controllers\)
+#### 3. Using UI5 Web Components in JavaScript/TypeScript \(e.g. in Controllers\)
 
-Web Components can easily be used in JavaScript by requiring the corresponding classes. Their usage is identical to any other traditional UI5 control. Instances can be created via constructor calls and then aggregated into other Web Components or UI5 controls.
+UI5 Web Components can easily be used in JavaScript by requiring the corresponding classes. Their usage is identical to any other traditional OpenUI5 control. Instances can be created via constructor calls and then aggregated into other UI5 Web Components or OpenUI5 controls.
 
-The following sample shows how Web Components can be used in a JavaScript-based Typed View:
+The following sample shows how UI5 Web Components can be used in a JavaScript-based Typed View:
 
 ```js
 sap.ui.define([
@@ -376,7 +376,7 @@ sap.ui.define([
             return new Panel({
                 content: [new AIButton({
                     text: "Generate",
-                    // aggregation content is defined like any other UI5 control
+                    // aggregation content is defined like any other OpenUI5 control
                     states: [
                         new AIButtonState({ name: "generate", icon: "sap-icon://ai" }),
                         new AIButtonState({ name: "generating", icon: "sap-icon://stop" })
@@ -394,7 +394,7 @@ sap.ui.define([
 ```
 
 > ### Note:  
-> Web Components can be used in TypeScript but without type definitions. Type definitions will be available soon with a future version of the `ui5-tooling-modules` extension.
+> UI5 Web Components can be used in TypeScript but without type definitions. Type definitions will be available soon with a future version of the `ui5-tooling-modules` extension.
 
 The same sample in TypeScript looks like this:
 
@@ -412,7 +412,7 @@ export default {
             // we can aggregate Web Components from different packages, e.g. the Panel's content can hold AI Buttons
             content: [new AIButton({
                 text: "Generate",
-                // aggregation content is defined like any other UI5 control
+                // aggregation content is defined like any other OpenUI5 control
                 states: [
                     new AIButtonState({ name: "generate", icon: "sap-icon://ai" }),
                     new AIButtonState({ name: "generating", icon: "sap-icon://stop" })

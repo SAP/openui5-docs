@@ -33,7 +33,7 @@ The Support Assistant is enabled with the following URL parameter: `sap-ui-suppo
   
 **Support Assistant Toolbar**
 
-![](images/loioc9ec61c44d7d45caba4fb3b31a094557_HiRes.png "Support Assistant Toolbar ")
+![](images/loioc9ec61c44d7d45caba4fb3b31a094557_LowRes.png "Support Assistant Toolbar ")
 
 
 
