@@ -1292,7 +1292,7 @@ For more information on the new fields introduced in each version, check out [Mi
 
 ### Manifest 2.0
 
-As of OpenUI5 1.136 we support a new manifest version 2.0.0. Using this version has the following implications for a Component:
+As of OpenUI5 1.136, we support a new manifest version 2.0.0. Using this version has the following implications for a Component:
 
 
 
@@ -1300,7 +1300,7 @@ As of OpenUI5 1.136 we support a new manifest version 2.0.0. Using this version 
 
 The synchronous root view creation and routing configuration are not supported anymore.
 
-The `async` flag of the root view, as well as of the routing configuration, are implicitly set to `true` and must no longer be specified.
+The `async` flag for both the `rootView` and the `routing` configuration is now implicitly `true` and must no longer be specified.
 
 
 
@@ -1308,9 +1308,9 @@ The `async` flag of the root view, as well as of the routing configuration, are 
 
 Deprecated manifest entries managed by the OpenUI5 framework cannot be used anymore and will cause errors. This has the following consequences:
 
--   Arbitrary JavaScript resources cannot be loaded via `sap.ui5/resources/js` anymore. Please use dedicated modules as eager dependencies instead, e.g. from within your `Component.js`.
--   The routing properties `viewName`, `viewPath`, and `viewId` cannot be used anymore. Please use the documented alternatives instead, e.g. the `name` property. For more information, see [Routing Configuration](routing-configuration-9023130.md).
--   Supported themes cannot be added via the `sap.ui/supportedThemes` section anymore.
+-   Arbitrary JavaScript resources cannot be loaded via `sap.ui5/resources/js` anymore. Please use dedicated modules as eager dependencies instead, e.g. within your `Component.js`.
+-   The routing properties `viewId`, `viewName`, `viewPath`, and `viewLevel` cannot be used anymore. Please use the documented alternatives instead, i.e. replace them with the properties `id`, `name`, `path`, and `level`, respectively, alongside adding the `type: "View"`. For more information, see [Routing Configuration](routing-configuration-9023130.md).
+-   Supported themes cannot be specified via the `sap.ui/supportedThemes` section.
 
 
 
@@ -1324,7 +1324,7 @@ Manifest version 2.0.0 also enables a stricter error handling for views and frag
 
 While the Manifest 2.0.0 behavior regarding root view and routing configuration is similar to the behavior of the [`sap.ui.core.IAsyncContentCreation`](https://ui5.sap.com/#/api/sap.ui.core.IAsyncContentCreation) interface, they are not interchangeable. For compatibility reasons, the manifest version 2.0.0 does **not** enforce the implementation of this interface. In order to use an asynchronous `sap/ui/core/UIComponent#createContent` implementation in your subclasses, the `sap.ui.core.IAsyncContentCreation` interface must be implemented explicitly.
 
-Please also be aware that the implementation of the `sap.ui.core.IAsyncContentCreation` interface changes the aggregation behavior of the root view. When the root view is loaded asynchronously and the Component implements `sap.ui.core.IAsyncContentCreation`, the root view controller's `on-init` hook no longer has access to Component models through the view instance. To retrieve model instances, we recommend using the [`sap/ui/core/mvc/Controller#getOwnerComponent`](https://ui5.sap.com/#/api/sap.ui.core.mvc.Controller%23methods/getOwnerComponent) API on the controller instance.
+Please also be aware that the implementation of the `sap.ui.core.IAsyncContentCreation` interface changes the aggregation behavior of the root view. When the root view is loaded asynchronously and the Component implements `sap.ui.core.IAsyncContentCreation`, the root view controller's [`onInit`](https://ui5.sap.com/#/api/sap.ui.core.mvc.Controller%23methods/onInit) hook no longer has access to Component models through the view instance. To retrieve model instances, we recommend using the [`sap/ui/core/mvc/Controller#getOwnerComponent`](https://ui5.sap.com/#/api/sap.ui.core.mvc.Controller%23methods/getOwnerComponent) API on the controller instance.
 
 We recommend any Component or UIComponent to implement the `sap.ui.core.IAsyncContentCreation` interface whenever possible.
 

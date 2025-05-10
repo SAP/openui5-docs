@@ -1095,8 +1095,6 @@ With the new dynamic header the following features are available:
 -   `sap.m.OverflowToolbar` is used internally to implement the `actions` aggregation, enabling its features, such as the priority and grouping of the actions.
 
 
-For more information, see  <?sap-ot O2O class="- topic/xref " href="d2ef0099542d44dc868719d908e576d0.xml" text="" desc="" xtrc="xref:78" xtrf="file:/home/builder/src/dita-all/kuy1475838515855/loio1d8e0f0c7e194f9db4aa750bf5fae256_en-US/src/content/localization/en-us/849e1b678d324d129a84446d9c2841fb.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> , the [API Reference](https://ui5.sap.com/#/api/sap.uxap.ObjectPageDynamicHeaderTitle), and the [sample](https://ui5.sap.com/#/sample/sap.uxap.sample.ObjectPageWithDynamicHeader/preview).
-
 <sub>Changed•Control•Info Only•1.52</sub>
 
 </td>

@@ -349,9 +349,9 @@ As before, we use the corresponding **namespace and class name** to define the U
 ```
 
 > ### Note:  
-> Besides aggregating other Web Components, you can of course also aggregate OpenUI5 controls in most Web Components.
+> Besides aggregating other UI5 Web Components, you can of course also aggregate OpenUI5 controls in most UI5 Web Components.
 > 
-> However, there are exceptions if the official Web Component documentation states otherwise, e.g. the `<ui5-avatar-group>` can only hold `<ui5-avatar>` Web Components in its [default slot](https://sap.github.io/ui5-webcomponents/components/AvatarGroup/#default) and `content` aggregation, respectively.
+> However, there are exceptions if the [official UI5 Web Component documentation](https://sap.github.io/ui5-webcomponents/) states otherwise, e.g. the `<ui5-avatar-group>` can only hold `<ui5-avatar>` UI5 Web Components in its [default slot](https://sap.github.io/ui5-webcomponents/components/AvatarGroup/#default) and `content` aggregation, respectively.
 
 
 
@@ -394,7 +394,7 @@ sap.ui.define([
 ```
 
 > ### Note:  
-> UI5 Web Components can be used in TypeScript but without type definitions. Type definitions will be available soon with a future version of the `ui5-tooling-modules` extension.
+> UI5 Web Components can be used in TypeScript but without type definitions.
 
 The same sample in TypeScript looks like this:
 
