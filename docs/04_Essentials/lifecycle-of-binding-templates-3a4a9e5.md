@@ -4,6 +4,9 @@
 
 The lifecycle of the binding templates differs from the lifecycle of controls that are contained in an aggregation. Whenever a control object is destroyed, any aggregating object is destroyed as well. For list binding templates, you specify the behavior by using the additional property `templateShareable` in the parameter of the `bindAggregation` method of class `sap.ui.base.ManagedObject`.
 
+> ### Caution:  
+> Leaving the `templateShareable` parameter `undefined` is **highly error-prone**! We recommend always setting this parameter explicitly to `true` or `false`.
+
 In **XML views**, you can also use the `templateShareable` property by adding it to the binding info as follows:
 
 ```xml
@@ -76,8 +79,5 @@ In **XML views**, you can also use the `templateShareable` property by adding it
     > -   *A binding template that is marked as 'candidate for destroy' is reused in a binding.*
     > 
     > -   *During a clone operation, a template was found that neither was marked with 'templateShareable:true' nor 'templateShareable:false'.* 
-
-    > ### Caution:  
-    > To leave the parameter undefined is**very error-prone**, therefore we don't recommend this! Always set the parameter explicitly to `true` or `false`.
 
 

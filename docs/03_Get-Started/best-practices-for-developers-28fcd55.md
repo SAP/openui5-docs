@@ -153,6 +153,8 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 
 -   When creating data binding programmatically, add the data types to the dependency list and create instances on your own. Do **not** specify their global names.
 
+-   When creating an aggregation binding with a template, explicitly set the `templateShareable` option to either `true` or `false`: Use `true` if your code manages the lifecycle of the template instance, or `false` if you prefer the framework to handle this automatically. For more information, see [Lifecycle of Binding Templates](../04_Essentials/lifecycle-of-binding-templates-3a4a9e5.md).
+
 -   When an [Expression Binding](../04_Essentials/expression-binding-daf6852.md) refers to any of the built-in global symbols `odata.compare`, `odata.fillUriTemplate`, or `odata.uriEncode`, the corresponding modules must be required by the surrounding code \(either via [`template:require`](../04_Essentials/require-263f6e5.md), [`core:require`](../04_Essentials/require-modules-in-xml-view-and-fragment-b11d853.md), or in the controller code\):
 
     -   `odata.compare`: `sap/ui/model/odata/v4/ODataUtils`
