@@ -161,7 +161,7 @@ If you want to use the third-party open source libraries included in OpenUI5, no
 > ### Note:  
 > Do not use different versions of these libraries as this might lead to unforeseen side effects.
 
-For a list of the third-party open source software used in OpenUI5, choose *More Information* → *About* and select the *Included Third-Party Software* link.
+For a list of the third-party open source software used in OpenUI5, choose *Settings* → *About* and select the *Included Third-Party Software* link.
 
 **Related Information**  
 

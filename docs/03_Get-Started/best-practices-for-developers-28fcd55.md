@@ -87,6 +87,16 @@ Using the native web API `XMLHttpRequest#open` with `false` as the third argumen
 
 
 
+#### Third-Party Libraries
+
+Do not use any third-party libraries unless they are explicitly documented as being used in OpenUI5. For more information, see [Third-Party Open Source Libraries](../02_Read-Me-First/compatibility-rules-91f0873.md#loio91f087396f4d1014b6dd926db0e91070__Open_Source).
+
+The integrated QUnit and Sinon libraries can be used via the [Test Starter](../04_Essentials/test-starter-032be2c.md). Do not use the deprecated libraries QUnit 1 and Sinon 1.
+
+Do not use jQuery APIs; use OpenUI5 APIs or native browser APIs instead.
+
+
+
 #### Modules
 
 **Defining and Requiring Modules**
@@ -102,9 +112,9 @@ Using the native web API `XMLHttpRequest#open` with `false` as the third argumen
 
 For more information, see [Best Practices for Loading Modules](../04_Essentials/best-practices-for-loading-modules-00737d6.md).
 
-**Third-Party Libraries**
+**Requiring Third-Party Libraries**
 
-When requiring third-party libraries that export global names and support AMD at the same time, ensure having a `shim` with `amd:true` defined via [`sap.ui.loader.config`](https://ui5.sap.com/#/api/sap.ui.loader%23methods/sap.ui.loader.config) beforehand. Use the required module value instead of the global name of the third-party library.
+When requiring third-party libraries that export global names and support AMD at the same time, ensure having a `shim` with `amd:true` defined via [`sap.ui.loader.config`](https://ui5.sap.com/#/api/sap.ui.loader%23methods/sap.ui.loader.config) beforehand. Use the required module value instead of the global name of the third-party library. For information on the usage of third-party libraries shipped with OpenUI5, see [Third-Party Libraries](best-practices-for-developers-28fcd55.md#loio28fcd55b04654977b63dacbee0552712__TPL).
 
 **Troubleshooting**
 
