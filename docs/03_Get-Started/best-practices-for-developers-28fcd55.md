@@ -89,7 +89,7 @@ Using the native web API `XMLHttpRequest#open` with `false` as the third argumen
 
 #### Third-Party Libraries
 
-Do not use any third-party libraries unless they are explicitly documented as being used in OpenUI5. For more information, see [Third-Party Open Source Libraries](../02_Read-Me-First/compatibility-rules-91f0873.md#loio91f087396f4d1014b6dd926db0e91070__Open_Source).
+Do not use any third-party libraries unless they are explicitly documented for usage by applications, for example in the [Test Starter](../04_Essentials/test-starter-032be2c.md) documentation. For more information, see [Third-Party Open Source Libraries](../02_Read-Me-First/compatibility-rules-91f0873.md#loio91f087396f4d1014b6dd926db0e91070__Open_Source).
 
 The integrated QUnit and Sinon libraries can be used via the [Test Starter](../04_Essentials/test-starter-032be2c.md). Do not use the deprecated libraries QUnit 1 and Sinon 1.
 
