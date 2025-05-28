@@ -265,7 +265,7 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 
 **OData V4 Model**
 
--   When using computed annotations, do **not** use global names; use `template:require` instead.
+-   When using computed annotations, do **not** use global names; use `template:require` instead. For more information, see [XML Templating](../04_Essentials/xml-templating-5ee619f.md).
 
 -   Don't use the [`synchronizationMode`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel%23constructor) as it's deprecated.
 

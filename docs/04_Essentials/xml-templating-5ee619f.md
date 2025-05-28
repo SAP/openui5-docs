@@ -144,7 +144,7 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 ```js
 1   /*!
 2    * OpenUI5
-3    * (c) Copyright 2009-2021 SAP SE or an SAP affiliate company.
+3    * (c) Copyright 2025 SAP SE or an SAP affiliate company.
 4    * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
 5    */
 6    
@@ -214,15 +214,16 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 70                  }, function (oError) {
 71                      MessageBox.alert(oError.message, {
 72                          icon : MessageBox.Icon.ERROR,
-73                          title : "Missing Proxy?"});
-74                  });
-75              });
-76   
-77              // Note: synchronously return s.th. here and add content to it later on
-78              return oViewContainer;
-79          }
-80      });
-81  });
+73                          title : "Missing Proxy?"
+74			});
+75                  });
+76              });
+77   
+78              // Note: synchronously return s.th. here and add content to it later on
+79              return oViewContainer;
+80          }
+81      });
+82  });
 ```
 
 **Template.view.xml** 
@@ -234,31 +235,29 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 4       xmlns:form="sap.ui.layout.form"
 5       xmlns:mvc="sap.ui.core.mvc"
 6       xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1">
-7    
+7  	template:require="{AH: 'sap/ui/model/odata/AnnotationHelper'}">  
 8       <!-- "meta" model's binding context MUST point to an entity type -->
-9       <template:alias name=".AH" value="sap.ui.model.odata.AnnotationHelper">
-10          <template:with path="meta>com.sap.vocabularies.UI.v1.Badge" var="badge">
-11              <form:SimpleForm layout="ResponsiveGridLayout">
-12                  <form:title>
-13                      <core:Title text="{path: 'badge>HeadLine', formatter: '.AH.format'}"/>
-14                  </form:title>
-15   
-16                  <Label text="{path: 'badge>Title/Label', formatter: '.AH.format'}"/>
-17                  <Text text="{path: 'badge>Title/Value', formatter: '.AH.format'}"/>
-18   
-19                  <Label text="{path: 'badge>MainInfo/Label', formatter: '.AH.format'}"/>
-20                  <template:with path="badge>MainInfo" var="field">
-21                      <core:Fragment fragmentName="sap.ui.core.sample.ViewTemplate.tiny.Field" type="XML"/>
-22                  </template:with>
-23   
-24                  <Label text="{path: 'badge>SecondaryInfo/Label', formatter: '.AH.format'}"/>
-25                  <template:with path="badge>SecondaryInfo" var="field">
-26                      <core:Fragment fragmentName="sap.ui.core.sample.ViewTemplate.tiny.Field" type="XML"/>
-27                  </template:with>
-28              </form:SimpleForm>
-29          </template:with>
-30      </template:alias>
-31  </mvc:View>
+9          <template:with path="meta>com.sap.vocabularies.UI.v1.Badge" var="badge">
+10              <form:SimpleForm layout="ResponsiveGridLayout">
+11                  <form:title>
+12                      <core:Title text="{path: 'badge>HeadLine', formatter: '.AH.format'}"/>
+13                  </form:title>
+14   
+15                  <Label text="{path: 'badge>Title/Label', formatter: '.AH.format'}"/>
+16                  <Text text="{path: 'badge>Title/Value', formatter: '.AH.format'}"/>
+17   
+18                  <Label text="{path: 'badge>MainInfo/Label', formatter: '.AH.format'}"/>
+19                  <template:with path="badge>MainInfo" var="field">
+20                      <core:Fragment fragmentName="sap.ui.core.sample.ViewTemplate.tiny.Field" type="XML"/>
+21                  </template:with>
+22   
+23                  <Label text="{path: 'badge>SecondaryInfo/Label', formatter: '.AH.format'}"/>
+24                  <template:with path="badge>SecondaryInfo" var="field">
+25                      <core:Fragment fragmentName="sap.ui.core.sample.ViewTemplate.tiny.Field" type="XML"/>
+26                  </template:with>
+27              </form:SimpleForm>
+28          </template:with>
+29  </mvc:View>
 ```
 
 **Field.fragment.xml** 
@@ -271,13 +270,13 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 5    
 6       <!-- "field" MUST point to a com.sap.vocabularies.Communication.v1.DataField -->
 7       <HBox>
-8           <template:with path="field>Value" helper="sap.ui.model.odata.AnnotationHelper.resolvePath" var="target">
+8           <template:with path="field>Value" helper="AH.resolvePath" var="target">
 9               <!-- go to entity type's property and check SAP Annotations for OData Version 2.0 -->
 10              <template:if test="{= ${target>sap:semantics} === 'tel'}" >
 11                  <core:Icon src="sap-icon://phone" width="2em"/>
 12              </template:if>
 13          </template:with>
-14          <Text text="{path: 'field>Value', formatter: 'sap.ui.model.odata.AnnotationHelper.format'}"/>
+14          <Text text="{path: 'field>Value', formatter: 'AH.format'}"/>
 15      </HBox>
 16  </core:FragmentDefinition>
 ```
