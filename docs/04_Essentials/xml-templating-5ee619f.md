@@ -85,9 +85,9 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 
 -   An annotations file containing label texts and binding paths.
 
--   A component controller that creates an OData model \(Line 30\), waits for the meta model to be loaded \(Line 47\) and then creates a template view \(Line 48\) as its content. A preprocessor for XML is requested \(Line 52\) and settings are passed to it, namely the meta model and the binding context that identifies the starting point within that model. The resulting view is bound to the actual data \(model and path\).
+-   A component controller that creates an OData model \(Line 33\), waits for the meta model to be loaded \(Line 50\) and then creates a template view \(Line 51\) as its content. A preprocessor for XML is requested \(Line 54\) and settings are passed to it, namely the meta model and the binding context that identifies the starting point within that model. The resulting view is bound to the actual data \(model and path\).
 
--   A template view that includes a fragment twice \(Line 21 and 26\) to demonstrate how to reuse code.
+-   A template view that includes a fragment twice \(Line 20 and 25\) to demonstrate how to reuse code.
 
 -   An XML fragment that demonstrates a simple test \(Line 10\), using expression binding.
 
@@ -215,7 +215,7 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 71                      MessageBox.alert(oError.message, {
 72                          icon : MessageBox.Icon.ERROR,
 73                          title : "Missing Proxy?"
-74			});
+74                      });
 75                  });
 76              });
 77   
@@ -235,7 +235,7 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 4       xmlns:form="sap.ui.layout.form"
 5       xmlns:mvc="sap.ui.core.mvc"
 6       xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1">
-7  	template:require="{AH: 'sap/ui/model/odata/AnnotationHelper'}">  
+7       template:require="{AH: 'sap/ui/model/odata/AnnotationHelper'}">
 8       <!-- "meta" model's binding context MUST point to an entity type -->
 9          <template:with path="meta>com.sap.vocabularies.UI.v1.Badge" var="badge">
 10              <form:SimpleForm layout="ResponsiveGridLayout">

@@ -4,7 +4,7 @@
 
 A collection of methods which help to consume OData Version 4.0 annotations in XML template views.
 
-The `AnnotationHelper` connects all the pieces related to XML templating: It knows the OData meta model and its structure as well as the OData v4 annotations. The `AnnotationHelper` offers formatter functions and helper functions. You can call these methods directly from the JavaScript code without XML runtime templating. You need to require `sap/ui/model/odata/AnnotationHelper` before use. Make sure to require the `sap/ui/model/odata/ODataExpressionAddons`module in advance or, if you need to minimize the loading of modules \(for example, for performance reasons\), you can also require the corresponding modules individually as indicated below.
+The `AnnotationHelper` connects all the pieces related to XML templating: It knows the OData meta model and its structure as well as the OData v4 annotations. The `AnnotationHelper` offers formatter functions and helper functions. You can call these methods directly from the JavaScript code without XML runtime templating. You need to require `sap/ui/model/odata/AnnotationHelper` before use. Make sure to require the `sap/ui/model/odata/ODataExpressionAddons` module in advance or, if you need to minimize the loading of modules \(for example, for performance reasons\), you can also require the corresponding modules individually as indicated below.
 
 > ### Tip:  
 > You can see more information on the expressions, constants and functions used by the `AnnotationHelper`, in the respective chapters of the specification [OData Version 4.0 Specification: Part 3: Common Schema Definition Language](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html) .
