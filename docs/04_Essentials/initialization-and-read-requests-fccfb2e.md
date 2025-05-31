@@ -250,3 +250,9 @@ The OData V4 model automatically determines the system query options `$top` and 
 
 An additional paging mechanism is Server-Driven Paging, for which the server returns only a part of the requested data in order to limit the response size. This mechanism is supported by the OData V4 model since SAPUI5 1.72. The model will provide the data retrieved with the response to the control or application. A follow-up request is not initiated automatically but only once the control or application request additional data from the model.
 
+
+
+<a name="loiofccfb2eb41414f0792c165e69a878717__section_ENPL"/>
+
+### Expensive Navigation Properties in Lists
+
