@@ -256,3 +256,50 @@ An additional paging mechanism is Server-Driven Paging, for which the server ret
 
 ### Expensive Navigation Properties in Lists
 
+When working with collections, expanding certain navigation properties can significantly impact performance, especially if these properties require the loading of large or complex datasets. To improve performance, the `ODataListBinding` provides the [`$$separate`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/bindList) binding parameter. This parameter allows to specify expensive navigation property names that are omitted from the main list request and loaded in parallel via separate batch requests. As a result, the main list is loaded more quickly, making the table interactive sooner, while the expensive navigation properties are fetched in the background and get merged as soon as their data becomes available.
+
+The following oversimplified XML view shows a table. Its list binding specifies two expensive navigation properties within `$$separate`. For the initial loading and for subsequent paging requests, three parallel batch requests will be sent, namely one for the main list and one for each specified navigation property. As soon as the main list is received, data will be displayed in the table, while the columns for the expensive navigation properties remain empty until their respective requests complete. Optionally, to indicate that certain cells are still loading, the `busy` property of a control \(e.g. `Text` control\) could be bound to the relevant path of the expensive navigation property \(e.g. `busy="{= %{EMPLOYEE_2_MANAGER === undefined} }"` , because `undefined` means that the data is not yet loaded\), so that a busy indicator is shown for cells that are still loading.
+
+```xml
+<Table items="{
+        path: '/EMPLOYEES',
+        parameters: {
+            $$separate: ['EMPLOYEE_2_MANAGER', 'EMPLOYEE_2_TEAM']
+        }
+    }">
+    <columns>
+        <Column><Label text="ID"/></Column>
+        <Column><Label text="Employee"/></Column>
+        <Column><Label text="Manager"/></Column>
+        <Column><Label text="Team Budget"/></Column>
+    </columns>
+    <ColumnListItem>
+        <Text text="{ID}"/>
+        <Text text="{Name}"/>
+        <Text text="{EMPLOYEE_2_MANAGER/Name}"/>
+        <Text text="{EMPLOYEE_2_TEAM/Budget}"/>
+    </ColumnListItem>
+</Table>
+```
+
+In addition to the simple data binding, the completion of a separate request can also be handled by implementing the [`separateReceived`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel%23events/separateReceived) event. This event provides parameters to help retrieving the loaded data, or to handle a failed request.
+
+```js
+
+oListBinding.attachEvent("separateReceived", async (oEvent) => {
+    const {property, start, length, messagesOnError} = oEvent.getParameters();
+ 
+    if (messagesOnError) {
+        const aMessages = messagesOnError.map((oMessage) => oMessage.getMessage());
+        MessageBox.error(aMessages.join("\n"));
+        oEvent.preventDefault();
+        return;
+    }
+ 
+    const aContexts = await oListBinding.requestContexts(start, length);
+    const aResults = aContexts.map((oContext) => oContext.getObject(property));
+});
+```
+
+If an expensive request was successful, the `property`, `start`, and `length` parameters can be used in combination with [`ODataListBinding#requestContexts`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23methods/requestContext) to retrieve the loaded data of the corresponding expensive request. The `start` and `length` correspond to the request’s `$skip` and `$top` system query options. If an expensive request failed, the additional `messagesOnError` parameter is given, which provides the messages of the failed batch request as UI5 messages. By calling `oEvent.preventDefault()`, the automatic reporting of these messages to the message model can be suppressed, allowing for custom error handling.
+

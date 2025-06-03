@@ -102,41 +102,52 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 > 
 > For more information, see the Help topic, [Sample Service - Basic](http://help.sap.com/saphelp_nw74/helpdata/en/59/283fc4528f486b83b1a58a4f1063c0/frameset.htm).
 
-**To run the sample in SAP Business Application Studio:** 
+**To run the sample with UI5 Tooling:** 
 
-1.  [Get a free tier account on SAP BTP](https://developers.sap.com/tutorials/hcp-create-trial-account.html), [set up SAP Business Application Studio for development](https://developers.sap.com/tutorials/appstudio-onboarding.html), and [create a dev space for SAP Fiori Apps](https://developers.sap.com/tutorials/appstudio-devspace-fiori-create.html), as described in [App Development Using SAP Business Application Studio](../05_Developing_Apps/app-development-using-sap-business-application-studio-6bbad66.md).
+1.  [Create an account on the SAP Gateway Demo System \(ES5\)](https://developers.sap.com/tutorials/gateway-demo-signup.html).
 
-2.  [Create an account on the SAP Gateway Demo System \(ES5\)](https://developers.sap.com/tutorials/gateway-demo-signup.html).
+2.  Download [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.tiny/code) as a zip file to your local machine \(find the *Download* button on the top right\).
 
-3.  [Connect SAP BTP to your SAP Gateway Demo System account \(ES5\)](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-gateway-connection.html).
+3.  Extract the project folder to a desired location on your local machine. You need to modify `Component.js` by changing the `annotationURI` as follows:
 
-4.  [Create an empty SAPUI5 project](https://developers.sap.com/tutorials/sapui5-101-create-project.html). You need to modify the procedure given in the tutorial as follows:
+    ```js
+    annotationURI: "annotations.xml",
+    ```
 
-    1.  in Step 3.4, for the `OData service URL`, enter `https://sapes5.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/`
+4.  **If you use UI5 Tooling \(recommended\):** At your chosen location, open a new shell in your app root folder and execute `npm install`.
 
-    2.  in Step 3.6, for `Module name`, enter `tiny`, and for `Application namespace`, enter `sap.ui.core.sample.ViewTemplate`
+5.  Execute `npm i -D ui5-middleware-simpleproxy` to install [ui5-middleware-simpleproxy](https://bestofui5.org/#/packages/ui5-middleware-simpleproxy) as a new development dependency in your `package.json`.
+6.  Configure the proxy in the `ui5.yaml` file by adding the following lines:
 
-    3.  in Step 3.7, for `Destination name`, select `ES5`
+    ```
+    specVersion: '4.0'
+    metadata:
+      name: sap-ui-core-sample--view-template-tiny
+    type: application
+    framework:
+      name: OpenUI5
+      version: "1.138.0"
+      libraries:
+        - name: themelib_sap_horizon
+        - name: sap.m
+        - name: sap.ui.core
+        - name: sap.ui.layout
+    server:
+      customMiddleware:
+      - name: ui5-middleware-simpleproxy
+        afterMiddleware: compression
+        mountPath: /sap/opu/odata/IWBEP/GWSAMPLE_BASIC/
+        configuration:
+          baseUri: "https://sapes5.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/"
+          username: <myuserID>
+          password: <mypasswd>
+    ```
 
-    4.  in Step 4.1, before creating a Run Configuration, open a terminal and run `npm install`
+    For <myuserID\> and <mypasswd\> enter the username and password for your ES5 account from Step 1.
 
+7.  After all dependencies have been installed, enter `npm start` to start the development server.
 
-5.  Download [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.tiny/code) and upload it to the `webapp` folder of your project. You need to make the following modifications to `Component.js`:
-
-    1.  change the `annotationURI` as follows:
-
-        ```js
-        annotationURI: "annotations.xml",
-        ```
-
-    2.  ensure that the given product exists in the `ProductSet` of the ES5 Gateway Demo System; otherwise, change it to a product contained in the `ProductSet` from the service, for example:
-
-        ```js
-        sPath = "/ProductSet('DE-PPM-102')/ToSupplier",
-        ```
-
-
-6.  Run the sample in your browser \(see Step 4 of [Create an empty SAPUI5 project](https://developers.sap.com/tutorials/sapui5-101-create-project.html)\).
+8.  Open `index.html` in your browser.
 
 
 **Component.js** 

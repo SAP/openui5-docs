@@ -46,6 +46,14 @@ If you construct the model with an `earlyRequests` parameter, the requests are s
 > ### Remember:  
 > The default value for `earlyRequests` is `false` in OpenUI5 1.54. This may, however, change in later releases. If you wish to ensure that requests are not sent early, do not rely on the default and explicitly set `earlyRequests` to `false`.
 
+
+
+<a name="loio5a0d286c5606424b8e0d663c87445733__section_jrw_ppl_nfc"/>
+
+### Expensive Navigation Properties in Lists
+
+The separate loading of expensive navigation properties in list requests can improve the loading / paging performance of tables, and potentially allows an earlier table interaction. For more information, see [Expensive Navigation Properties in Lists](initialization-and-read-requests-fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_ENPL).
+
 **Related Information**  
 
 
