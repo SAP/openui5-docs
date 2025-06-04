@@ -139,15 +139,11 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
         mountPath: /sap/opu/odata/IWBEP/GWSAMPLE_BASIC/
         configuration:
           baseUri: "https://sapes5.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/"
-          username: <myuserID>
-          password: <mypasswd>
     ```
-
-    For <myuserID\> and <mypasswd\> enter the username and password for your ES5 account from Step 1.
 
 7.  After all dependencies have been installed, enter `npm start` to start the development server.
 
-8.  Open `index.html` in your browser.
+8.  Open `index.html` in your browser. You will need to enter the username and password for your ES5 account from Step 1.
 
 
 **Component.js** 

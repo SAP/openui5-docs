@@ -282,7 +282,7 @@ The following oversimplified XML view shows a table. Its list binding specifies 
 </Table>
 ```
 
-In addition to the simple data binding, the completion of a separate request can also be handled by implementing the [`separateReceived`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel%23events/separateReceived) event. This event provides parameters to help retrieving the loaded data, or to handle a failed request.
+In addition to the simple data binding, the completion of a separate request can also be handled by implementing the [`separateReceived`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23events/separateReceived) event. This event provides parameters to help retrieving the loaded data, or to handle a failed request.
 
 ```js
 
@@ -301,5 +301,5 @@ oListBinding.attachEvent("separateReceived", async (oEvent) => {
 });
 ```
 
-If an expensive request was successful, the `property`, `start`, and `length` parameters can be used in combination with [`ODataListBinding#requestContexts`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23methods/requestContext) to retrieve the loaded data of the corresponding expensive request. The `start` and `length` correspond to the request’s `$skip` and `$top` system query options. If an expensive request failed, the additional `messagesOnError` parameter is given, which provides the messages of the failed batch request as UI5 messages. By calling `oEvent.preventDefault()`, the automatic reporting of these messages to the message model can be suppressed, allowing for custom error handling.
+If an expensive request was successful, the `property`, `start`, and `length` parameters can be used in combination with [`ODataListBinding#requestContexts`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23methods/requestContexts) to retrieve the loaded data of the corresponding expensive request. The `start` and `length` correspond to the request’s `$skip` and `$top` system query options. If an expensive request failed, the additional `messagesOnError` parameter is given, which provides the messages of the failed batch request as UI5 messages. By calling `oEvent.preventDefault()`, the automatic reporting of these messages to the message model can be suppressed, allowing for custom error handling.
 
