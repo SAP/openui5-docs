@@ -84,6 +84,26 @@ oComponent.runAsOwner(function() {
 }.bind(this));
 ```
 
+A common use case for asynchronous operations is the `UIComponent#createContent` method. Components implementing the `sap.ui.core.IAsyncContentCreation` interface can use an async implementation here.
+
+Using `async/await` might give you the impression that your code is executed synchronously and a manual setting of the owner component is not needed anymore. This is not the case, however.
+
+The comments in the following code sample outline some common pitfalls and misconceptions:
+
+```js
+MyComponent.prototype.createContent = async function() {
+    // the first async break is still in the owner scope of "this"
+    // as up to this point all statements are running in the same execution stack and the framework tracks the owner component for you
+    const firstView = await XMLView.create(...);
+    myView.byId("...").setValue("abc");
+
+    // This is a second async break in the implementation, and the owner component scope is lost to the framework
+    // From here on, you need to wrap every async call into a "runAsOwner" call (refer also to the sample above)
+    const secondView = await this.runAsOwner(() => {
+        return XMLView.create(...);
+    });
+```
+
 > ### Note:  
 > Since the owner-component scoping is only active during the execution of the `runAsOwner` function, the `then(...)` handlers of the factory promises are **not** scoped anymore! You would need to call `runAsOwner` again in such a case.
 
