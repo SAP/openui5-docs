@@ -102,6 +102,13 @@ MyComponent.prototype.createContent = async function() {
     const secondView = await this.runAsOwner(() => {
         return XMLView.create(...);
     });
+
+    // do some more work with your views/fragments
+
+    // and return the controls you want to aggregate in the UIComponent's "rootControl" aggregation
+    // Alternatively, you can return another Promise resolving with controls
+    return ...
+};
 ```
 
 > ### Note:  
