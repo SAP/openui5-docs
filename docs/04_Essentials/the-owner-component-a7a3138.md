@@ -70,18 +70,18 @@ If this is not possible, you can assign the correct owner component manually by 
 // The controller class provides a shorthand getter for its owner component
 var oComponent = this.getOwnerComponent();
 // oComponent is now the owner component instance which owns the controller
-oComponent.runAsOwner(function() {
+oComponent.runAsOwner(() => {
     // create additional ManagedObjects here, e.g. via
     //   * a View and Fragment factory
     //   * or simply via a control's constructor
-    XMLView.create(...).then(function() {
+    XMLView.create(/*...*/).then(() => {
         // Due to the asynchronous nature of the XMLView factory
         // the owner-component scope is lost again inside the 'then' handler!
         // Make sure to call runAsOwner again if more controls are created here.
     });
-    Fragment.load(....).then(...);
-    new Button(...);
-}.bind(this));
+    Fragment.load(/*...*/).then(/*...*/);
+    new Button(/*...*/);
+});
 ```
 
 A common use case for asynchronous operations is the `UIComponent#createContent` method. Components implementing the `sap.ui.core.IAsyncContentCreation` interface can use an async implementation here.
@@ -94,13 +94,13 @@ The comments in the following code sample outline some common pitfalls and misco
 MyComponent.prototype.createContent = async function() {
     // the first async break is still in the owner scope of "this"
     // as up to this point all statements are running in the same execution stack and the framework tracks the owner component for you
-    const firstView = await XMLView.create(...);
+    const firstView = await XMLView.create(/*...*/);
     myView.byId("...").setValue("abc");
 
     // This is a second async break in the implementation, and the owner component scope is lost to the framework
     // From here on, you need to wrap every async call into a "runAsOwner" call (refer also to the sample above)
     const secondView = await this.runAsOwner(() => {
-        return XMLView.create(...);
+        return XMLView.create(/*...*/);
     });
 
     // do some more work with your views/fragments
@@ -121,7 +121,7 @@ If `ManagedObject`s need to be created outside a controller instance, the static
 // Note: though all ManagedObjects can be passed to this function, the owner component can only
 //       be returned for ManagedObjects that have an owner component assigned already
 var oComponent = Component.getOwnerComponentFor(oPage);
-oComponent.runAsOwner(function() {
+oComponent.runAsOwner(() => {
     // same as in the above sample
 });
 ```
