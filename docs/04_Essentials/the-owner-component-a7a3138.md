@@ -107,7 +107,7 @@ MyComponent.prototype.createContent = async function() {
 
     // and return the controls you want to aggregate in the UIComponent's "rootControl" aggregation
     // Alternatively, you can return another Promise resolving with controls
-    return ...
+    return firstView;
 };
 ```
 

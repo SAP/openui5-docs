@@ -108,11 +108,7 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 
 2.  Download [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.tiny/code) as a zip file to your local machine \(find the *Download* button on the top right\).
 
-3.  Extract the project folder to a desired location on your local machine. You need to modify `Component.js` by changing the `annotationURI` as follows:
-
-    ```js
-    annotationURI: "annotations.xml",
-    ```
+3.  Extract the project folder to a desired location on your local machine.
 
 4.  **If you use UI5 Tooling \(recommended\):** At your chosen location, open a new shell in your app root folder and execute `npm install`.
 

@@ -408,7 +408,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 -   The binding of properties of open types is now supported.
 
 
-<sub>Changed•Feature•Info Only•1.130</sub>
+<sub>Changed•Feature•Info Only•1.137</sub>
 
 </td>
 <td valign="top">
