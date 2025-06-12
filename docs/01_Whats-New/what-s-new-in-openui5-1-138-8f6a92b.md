@@ -2,9 +2,16 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-## What's New in OpenUI5 1.137
+## What's New in OpenUI5 1.138
 
-With this release OpenUI5 is upgraded from version 1.136 to 1.137.
+With this release OpenUI5 is upgraded from version 1.136 to 1.138.
+
+> ### Tip:  
+> This section is not yet final and will be updated with the release of OpenUI5 version 1.138.
+> 
+> In the meantime, please check the [Change Log](https://ui5.sap.com/#releasenotes.html) for a complete list of features and fixes contained in this patch version.
+> 
+> Stay tuned for more news!
 
 > ### Note:  
 > Content marked as <span style="color:#666666;"><span class="SAP-icons-V5"></span></span>**[Preview](https://help.sap.com/docs/whats-new-disclaimer)** is provided as a courtesy, without a warranty, and may be subject to change. For more information, see the [preview disclaimer](https://help.sap.com/docs/whats-new-disclaimer).
@@ -122,7 +129,7 @@ Info Only
 <tr>
 <td valign="top">
 
-1.137 
+1.138 
 
 </td>
 <td valign="top">
@@ -146,7 +153,7 @@ Feature
 
 There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://ui5.sap.com/#/api/deprecated).
 
-<sub>Deprecated•Feature•Info Only•1.137</sub>
+<sub>Deprecated•Feature•Info Only•1.138</sub>
 
 </td>
 <td valign="top">
@@ -156,14 +163,14 @@ Info Only
 </td>
 <td valign="top">
 
-2025-06-12
+2025-07-10
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-1.137 
+1.138 
 
 </td>
 <td valign="top">
@@ -187,7 +194,7 @@ Control
 
 To define row actions for list items, you can now use the `sap.m.ListItemAction` control. `ListItemBase` contains the `actions` aggregation that provides an icon, a text, and the type, for example, editable or deletable, for the action, and whether it is visible in the row. The `getItemActionCount` method of `ListBase` defines how many actions can be added to an item. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.ListItemAction%23overview) and the [Sample](https://ui5.sap.com/#/entity/sap.m.List/sample/sap.m.sample.ListActions).
 
-<sub>Changed•Control•Info Only•1.137</sub>
+<sub>Changed•Control•Info Only•1.138</sub>
 
 </td>
 <td valign="top">
@@ -197,14 +204,14 @@ Info Only
 </td>
 <td valign="top">
 
-2025-06-12
+2025-07-10
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-1.137 
+1.138 
 
 </td>
 <td valign="top">
@@ -228,7 +235,7 @@ Control
 
 We have provided a built-in, quick resizing of columns in addition to the existing resizing options using drag and drop or keyboard shortcuts. This accessible column resizing is available in the column menu \(*Resize column width \(pixel\)*\). For responsive tables, use the `QuickResize` class to define quick actions for the column resizing. For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.table.columnmenu.QuickResize), the [Sample](https://ui5.sap.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.Menus) for `sap.ui.table.Table` \(standalone\), the [Sample](https://ui5.sap.com/#/entity/sap.m.Table/sample/sap.m.sample.TableViewSettingsDialog) for `sap.m.Table` \(standalone\), and the [Sample](https://ui5.sap.com/#/entity/sap.ui.mdc.Table/sample/sap.ui.mdc.demokit.sample.table.TableJson) for `sap.ui.mdc.Table` with responsive tables.
 
-<sub>Changed•Control•Info Only•1.137</sub>
+<sub>Changed•Control•Info Only•1.138</sub>
 
 </td>
 <td valign="top">
@@ -238,14 +245,14 @@ Info Only
 </td>
 <td valign="top">
 
-2025-06-12
+2025-07-10
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-1.137 
+1.138 
 
 </td>
 <td valign="top">
@@ -270,7 +277,7 @@ Control
 -   When a child item from a collapsed parent item is selected, the parent item now also appears as selected. This is only a visual indication at the level of the parent item.
 -   The `press` event is now preventable and new parameters \(`ctrlKey`, `shiftKey`, `altKey`, and `metaKey`\) have been added to enable the handling of specific user interactions, such as control-click, shift-click, and other modified clicks.
 
-<sub>Changed•Control•Info Only•1.137</sub>
+<sub>Changed•Control•Info Only•1.138</sub>
 
 </td>
 <td valign="top">
@@ -280,14 +287,14 @@ Info Only
 </td>
 <td valign="top">
 
-2025-06-12
+2025-07-10
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-1.137 
+1.138 
 
 </td>
 <td valign="top">
@@ -314,7 +321,7 @@ Control
 -   The different types of card interactions are now finalized, are extensively documented in Card Explorer, and include samples. In addition to the existing types of card interactions and the already available interactive elements inside the card, card developers can now choose the new whole card interaction \(experimental\) pattern. For more information and samples, see the new section [Interaction Types](https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/interactionTypes).
 -   Card interaction of type whole card interaction \(experimental\) sets `actions` at the card level within the card's manifest, enabling the entire card area to respond interactively to click or tap events. To achieve whole card interaction, the host environment can either use the `sap.f.GridContainer`, which is already enabled for this scenario, or use a custom layout with specific configuration. For more information, see the new section [Card Interactions](https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/interactions) in Card Explorer.
 
-<sub>Changed•Control•Info Only•1.137</sub>
+<sub>Changed•Control•Info Only•1.138</sub>
 
 </td>
 <td valign="top">
@@ -324,14 +331,14 @@ Info Only
 </td>
 <td valign="top">
 
-2025-06-12
+2025-07-10
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-1.137 
+1.138 
 
 </td>
 <td valign="top">
@@ -362,7 +369,7 @@ We have introduced a new implementation of the `sap.m.Menu` that simplifies its 
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.Menu) and the [Samples](https://ui5.sap.com/#/entity/sap.m.Menu).
 
-<sub>Changed•Control•Info Only•1.137</sub>
+<sub>Changed•Control•Info Only•1.138</sub>
 
 </td>
 <td valign="top">
@@ -372,14 +379,14 @@ Info Only
 </td>
 <td valign="top">
 
-2025-06-12
+2025-07-10
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-1.137 
+1.138 
 
 </td>
 <td valign="top">
@@ -408,7 +415,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 -   The binding of properties of open types is now supported.
 
 
-<sub>Changed•Feature•Info Only•1.137</sub>
+<sub>Changed•Feature•Info Only•1.138</sub>
 
 </td>
 <td valign="top">
@@ -418,7 +425,7 @@ Info Only
 </td>
 <td valign="top">
 
-2025-06-12
+2025-07-10
 
 </td>
 </tr>

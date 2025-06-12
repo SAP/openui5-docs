@@ -549,6 +549,8 @@ Cell selection
 
 For more information, search for loading items and performance in the responsive table section in the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
 
+3\) The OData V2 scenario is no longer supported for the `sap.ui.table.TreeTable`.
+
 
 
 <a name="loio148892ff9aea4a18b912829791e38f3e__section_ymw_zhx_y1c"/>

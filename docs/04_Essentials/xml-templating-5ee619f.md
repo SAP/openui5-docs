@@ -122,7 +122,7 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
     type: application
     framework:
       name: OpenUI5
-      version: "1.138.0"
+      version: "1.139.0"
       libraries:
         - name: themelib_sap_horizon
         - name: sap.m

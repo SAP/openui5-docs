@@ -34,7 +34,7 @@ In **XML views**, you can also use the `templateShareable` property by adding it
                     path: 'EQUIPMENT_2_PRODUCT/PRODUCT_2_CATEGORY',
                     templateShareable: true
                 }">
-                    <StandardListItem title="{CategoryName}"/>
+                <StandardListItem title="{CategoryName}"/>
                 </List>
             </cells>
             <cells>
@@ -43,6 +43,28 @@ In **XML views**, you can also use the `templateShareable` property by adding it
         </ColumnListItem>
     </items>
 </Table>
+```
+
+In the above XMLView , the `List` inside the `Table`’s `ColumnListItem` uses a `StandardListItem` as its item template, and the binding for the `items` aggregation of the `List` is marked with `templateShareable: true`.
+
+The `List` itself is part of the `items` aggregation of the `Table`, meaning it is used as a template. Therefore, each row in the table will clone this `List` control, which in turn would normally clone the `StandardListItem` again for each instance of the `List`.
+
+By setting `templateShareable: true`, the same `StandardListItem` template instance is shared across all clones of the `List` rather than creating a new template instance for each one. This can reduce the total number of created controls.
+
+When using `templateShareable: true`, the application is responsible for cleaning up the shared template to avoid memory leaks. In this case, the cleanup is done in the controller's `onExit` hook. This ensures that the shared template is properly destroyed when the view is destroyed.
+
+```js
+sap.ui.define([
+    "sap/ui/core/mvc/Controller"
+], function(Controller) {
+    "use strict";
+    return Controller.extend("sap.hcm.Employee", {
+        // ...
+        onExit: function() {
+            this.getView().byId("itemTemplate").destroy();
+        }
+    });
+});
 ```
 
 -   `templateShareable: false` \(preferred setting\)
