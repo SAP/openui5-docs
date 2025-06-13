@@ -42,7 +42,10 @@ Let's say we would like to display the following JSON model data in a `sap.m.Lis
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-	<List id="companyList" items="{path: '/companies', templateShareable:false}">
+	<List id="companyList" items="{
+		path: '/companies', 
+		templateShareable: false
+	}">
 		<items>
 			<StandardListItem
 				title="{name}"
@@ -62,6 +65,10 @@ The `List` element has both an `items` attribute and a nested `items` element:
 
 > ### Note:  
 > The binding paths of `StandardListItem` for properties `title` and `description` are relative to `companies`. This means that instead of having to write the whole binding path `title={/companies/name}`, you can simply write `title={name}`. By omitting the slash '/' at the beginning, `{name}` is marked as a relative binding path.
+
+The framework manages the lifecycle of the given template. When the aggregation is unbound or the containing control is destroyed, the template is automatically destroyed by the framework. However, if the same template is used in multiple aggregation bindings, you can set the `templateShareable` parameter to `true`. In this case, the framework will no longer destroy the template automatically. Instead, the application has to clean up the template once it's no longer needed.
+
+For an example and a detailed explanation of how to use `templateShareable: true`, see [Lifecycle of Binding Templates](lifecycle-of-binding-templates-3a4a9e5.md).
 
 Instead of using a `StandardListItem` as a list row template, you can also use any other `sap.m.` list item, such as:
 
@@ -96,7 +103,7 @@ var oItemTemplate = new sap.ui.core.ListItem({text:"{name}"});
 oComboBox = new sap.m.ComboBox({
 	items: {
 		path: "/companies",      //no curly brackets here!
-		template: oItemTemplate
+		template: oItemTemplate,
 		templateShareable: false
 	}
 });
@@ -145,6 +152,8 @@ oComboBox.unbindAggregation("items", true);
 [Tutorial Step 12: Aggregation Binding Using Templates](../03_Get-Started/step-12-aggregation-binding-using-templates-97830de.md "Aggregation binding, also known as &quot;list binding&quot;, lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.")
 
 [Binding Syntax](binding-syntax-e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.")
+
+[Lifecycle of Binding Templates](lifecycle-of-binding-templates-3a4a9e5.md "")
 
 [Formatting, Parsing, and Validating Data](formatting-parsing-and-validating-data-07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.")
 

@@ -34,7 +34,7 @@ In **XML views**, you can also use the `templateShareable` property by adding it
                     path: 'EQUIPMENT_2_PRODUCT/PRODUCT_2_CATEGORY',
                     templateShareable: true
                 }">
-                <StandardListItem title="{CategoryName}"/>
+                    <StandardListItem title="{CategoryName}"/>
                 </List>
             </cells>
             <cells>
