@@ -66,10 +66,6 @@ The `List` element has both an `items` attribute and a nested `items` element:
 > ### Note:  
 > The binding paths of `StandardListItem` for properties `title` and `description` are relative to `companies`. This means that instead of having to write the whole binding path `title={/companies/name}`, you can simply write `title={name}`. By omitting the slash '/' at the beginning, `{name}` is marked as a relative binding path.
 
-The framework manages the lifecycle of the given template. When the aggregation is unbound or the containing control is destroyed, the template is automatically destroyed by the framework. However, if the same template is used in multiple aggregation bindings, you can set the `templateShareable` parameter to `true`. In this case, the framework will no longer destroy the template automatically. Instead, the application has to clean up the template once it's no longer needed.
-
-For an example and a detailed explanation of how to use `templateShareable: true`, see [Lifecycle of Binding Templates](lifecycle-of-binding-templates-3a4a9e5.md).
-
 Instead of using a `StandardListItem` as a list row template, you can also use any other `sap.m.` list item, such as:
 
 -   ActionListItem
