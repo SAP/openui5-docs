@@ -145,7 +145,7 @@ oComboBox.unbindAggregation("items", true);
 **Related Information**  
 
 
-[Tutorial Step 12: Aggregation Binding Using Templates](../03_Get-Started/step-12-aggregation-binding-using-templates-97830de.md "Aggregation binding, also known as &quot;list binding&quot;, lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.")
+[Tutorial Step 12: Aggregation Binding Using Templates](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/97830de2d7314e93b5c1ee3878a17be9.html "Aggregation binding, also known as "list binding", lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.") :arrow_upper_right:
 
 [Binding Syntax](binding-syntax-e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.")
 

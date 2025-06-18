@@ -1263,9 +1263,9 @@ User Documentation
 
 We have updated our recommendations for QUnit and OPA tests in the *Walkthrough* tutorial, the *Testing* tutorial, and in the *Demo Apps*. The tests are now in line with the latest best practices for the unit/integration test setup and no longer use synchronous APIs. For more information, see the following sections in our *Walkthrough* tutorial:
 
--   [Step 27: Unit Test with QUnit](../03_Get-Started/step-27-unit-test-with-qunit-e1ce1de.md)
+-   [Step 27: Unit Test with QUnit](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/e1ce1de315994a02bf162f4b3b5a9f09.html "Now that we have a test folder in the app, we can start to increase our test coverage.") :arrow_upper_right:
 
--   [Step 28: Integration Test with OPA](../03_Get-Started/step-28-integration-test-with-opa-9bf4dce.md)
+-   [Step 28: Integration Test with OPA](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/9bf4dce43b7943d0909cd6c58a933589.html "If we want to test interaction patterns or more visual features of our app, we can also write an integration test.") :arrow_upper_right:
 
 
 <sub>Changed•User Documentation•Info Only•1.58</sub>

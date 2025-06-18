@@ -36,7 +36,7 @@ Here's how you would add a style definition and define a button that uses it in 
 ```
 
 > ### Note:  
-> To allow your view to be used in an environment with a Content Security Policy denying inline styles \(i.e. without the `unsafe-inline` source for the `style-src` directive\), you need to refer to an external style sheet instead of embedding the style sheet into your XML view. For more information, see the Walkthrough tutorial, [Step 14: Custom CSS and Theme Colors](../03_Get-Started/step-14-custom-css-and-theme-colors-723f4b2.md).
+> To allow your view to be used in an environment with a Content Security Policy denying inline styles \(i.e. without the `unsafe-inline` source for the `style-src` directive\), you need to refer to an external style sheet instead of embedding the style sheet into your XML view. For more information, see the Walkthrough tutorial, [Step 14: Custom CSS and Theme Colors](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/723f4b2334e344c08269159797f6f796.html "Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.") :arrow_upper_right:.
 
 > ### Note:  
 > The XML view offers special handling for style classes. You can specify them via the `class` attribute on a control's XML node. Please be aware that this attribute is not a property of the respective control and thus is not supported by a control's constructor.

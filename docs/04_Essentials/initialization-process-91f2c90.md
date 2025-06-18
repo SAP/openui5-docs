@@ -62,7 +62,7 @@ The OpenUI5 core will make sure that the `data-sap-ui-on-init` module is loaded 
 
 Additionally, a dedicated `on-init` module allows for better [CSP compliance](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) depending on your requirements, since no additional inline `<script>` tag is needed.
 
-Please also have a look at our tutorial section, including the [Quickstart Tutorial](../03_Get-Started/quickstart-tutorial-592f36f.md) tutorial for a broader sample.
+Please also have a look at our tutorial section, including the [Quickstart Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/592f36fd077b45349a67dcb3efb46ab1.html "Unleash your SAPUI5 skills with this simple three-step tutorial. We start with a simple "Hello World" example, and convert it to a minimalist two-page app.") :arrow_upper_right: tutorial for a broader sample.
 
 
 

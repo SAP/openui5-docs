@@ -14,7 +14,7 @@ If you use a remote URL in your code, for example a remote OData service, such a
   
 **Violations of the same-origin policy in Google Chrome**
 
-![](../03_Get-Started/images/loio2c36d72282e34903a97197783fe92122_HiRes.png "Violations of the same-origin policy in Google Chrome")
+![](images/loio2c36d72282e34903a97197783fe92122_HiRes.png "Violations of the same-origin policy in Google Chrome")
 
 
 

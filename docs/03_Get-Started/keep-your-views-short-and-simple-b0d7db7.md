@@ -70,7 +70,7 @@ If you have bound aggregations, Avoid using complex or nested controls. Remember
 		description="{Text}"/>
 ```
 
--   Learn how: Data Binding Tutorial [Step 12: Aggregation Binding Using Templates](step-12-aggregation-binding-using-templates-97830de.md)
+-   Learn how: Data Binding Tutorial [Step 12: Aggregation Binding Using Templates](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/97830de2d7314e93b5c1ee3878a17be9.html "Aggregation binding, also known as "list binding", lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.") :arrow_upper_right:
 
 -   Find out more: [Aggregation Handling in XML Views](../04_Essentials/aggregation-handling-in-xml-views-19eabf5.md)
 
@@ -91,7 +91,7 @@ Things may get a little messy as your app is growing with your requirements. The
 </App>
 ```
 
--   Learn how: Walkthrough tutorial [Step 15: Nested Views](step-15-nested-views-df8c9c3.md)
+-   Learn how: Walkthrough tutorial [Step 15: Nested Views](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/df8c9c3d79b54c928855162bafcd88ee.html "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.") :arrow_upper_right:
 
 -   Find out more: [Reusing UI Parts: Fragments](../04_Essentials/reusing-ui-parts-fragments-36a5b13.md)
 

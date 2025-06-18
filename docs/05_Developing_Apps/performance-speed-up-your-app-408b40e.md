@@ -319,7 +319,7 @@ You can further optimize your code by doing the following:
 
     Visit the [OData V4 Model](../04_Essentials/odata-v4-model-5de13cf.md) documentation and ensure that all required features are available.
 
-    For a quick start, follow the [OData V4 Tutorial](../03_Get-Started/odata-v4-tutorial-bcdbde6.md) tutorial.
+    For a quick start, follow the [OData V4 Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/bcdbde6911bd4fc68fd435cf8e306ed0.html "In this tutorial, we explore how features of OData V4 can be used in SAPUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.") :arrow_upper_right: tutorial.
 
 -   If you use data binding with an OData V2 service as a back end, you must not use the deprecated `sap.ui.model.odata.ODataModel` anymore. For more information, see [OData V2 Model](../04_Essentials/odata-v2-model-6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2).
 

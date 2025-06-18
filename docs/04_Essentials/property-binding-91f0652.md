@@ -334,7 +334,7 @@ In the example above, two `Input` fields are created and their `value` property 
 **Related Information**  
 
 
-[Data Binding Tutorial Step 3: Create Property Binding](../03_Get-Started/step-3-create-property-binding-d70e989.md "Although there is no visible difference, the text on the screen is now derived from model data.")
+[Data Binding Tutorial Step 3: Create Property Binding](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/d70e9894c09b4c27a98d4850d4e90f2c.html "Although there is no visible difference, the text on the screen is now derived from model data.") :arrow_upper_right:
 
 [API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://ui5.sap.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty)
 

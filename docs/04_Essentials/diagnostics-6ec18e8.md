@@ -6,7 +6,7 @@ The *Diagnostics* window available in OpenUI5 is a support tool that runs within
 
 To open *Diagnostics*, use the following [shortcuts](../02_Read-Me-First/keyboard-shortcuts-for-openui5-tools-154844c.md): [CTRL\] + [SHIFT\] + [Alt\] /[Option\] + [S\]  in the app.
 
-![](../03_Get-Started/images/loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png)
+![](images/loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png)
 
 > ### Note:  
 > Depending on your app, additional features may be available. Check the sections below for more information.

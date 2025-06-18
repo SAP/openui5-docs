@@ -179,7 +179,7 @@ sap.ui.define([
 ```
 
 > ### Example:  
-> [Step 5: Adding a Flag Button](../03_Get-Started/step-5-adding-a-flag-button-69a25bf.md) of the *Testing* tutorial shows how to implement a custom data type.
+> [Step 5: Adding a Flag Button](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/69a25bf2f8a2478cbda4b8bbe64039de.html "Now that we have implemented the conversion tests, we add the corresponding functionality and show the button to flag a post in the app. The design team has specified that the flag feature should be implemented with a toggle button that has a flag icon.") :arrow_upper_right: of the *Testing* tutorial shows how to implement a custom data type.
 
 **Related Information**  
 

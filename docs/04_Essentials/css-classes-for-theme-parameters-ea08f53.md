@@ -79,5 +79,5 @@ oRm.openStart("div", oControl);
 
 [List of Supported CSS Classes](list-of-supported-css-classes-91a4946.md "Overview of the CSS classes currently supported by OpenUI5.")
 
-[Step 33: Custom Controls](../03_Get-Started/step-33-custom-controls-d12d2ee.md "In this step, we are going to extend the functionality of OpenUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the OpenUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.")
+[Step 33: Custom Controls](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/d12d2ee6a5454d799358d425f9e7c4db.html "In this step, we are going to extend the functionality of SAPUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the SAPUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.") :arrow_upper_right:
 

@@ -78,7 +78,7 @@ A target defines the view or component that is displayed. It is associated with 
 
 
 > ### Note:  
-> You can also use targets without routes to call a view directly . For more information, see the tutorial [Step 5: Display a Target Without Changing the Hash](../03_Get-Started/step-5-display-a-target-without-changing-the-hash-d9efab3.md) and [Step 10: Implement "Lazy Loading"](../03_Get-Started/step-10-implement-lazy-loading-cdab0a1.md), and the sample [Targets Without a Router](https://ui5.sap.com/#/entity/sap.ui.core.routing.Targets) in the *Samples* in the Demo Kit.
+> You can also use targets without routes to call a view directly . For more information, see the tutorial [Step 5: Display a Target Without Changing the Hash](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/d9efab307ecc42b180b12cc8956e22d7.html "In this step, you will learn more about targets and how to display a target from the routing configuration manually.") :arrow_upper_right: and [Step 10: Implement "Lazy Loading"](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/cdab0a1123514cc08cf2c8deb22f312e.html "In the previous steps, we have implemented a Resume view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a "lazy loading" feature that only loads the view and data when requested by the user.") :arrow_upper_right:, and the sample [Targets Without a Router](https://ui5.sap.com/#/entity/sap.ui.core.routing.Targets) in the *Samples* in the Demo Kit.
 
 For more information, see [API Reference: `sap.m.routing.Router`](https://ui5.sap.com/#/api/sap.m.routing.Router).
 
@@ -202,7 +202,7 @@ In this example, the `Home` view is always shown when the hash is empty. The `Ca
 
 [Working with Multiple Targets](working-with-multiple-targets-2c5c84d.md "If you want to navigate to multiple targets with the same hash, you can either assign multiple targets to a route, or define a parent for the target.")
 
-[Tutorial: Navigation and Routing](../03_Get-Started/navigation-and-routing-tutorial-1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+[Tutorial: Navigation and Routing](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/1b6dcd39a6a74f528b27ddb22f15af0d.html "SAPUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in SAPUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of SAPUI5 to your applications.") :arrow_upper_right:
 
 [Enabling Routing in Nested Components](enabling-routing-in-nested-components-fb19f50.md "Every OpenUI5 component can define routing configuration in its manifest and a UI5 router instance will be created automatically after the component is instantiated.")
 

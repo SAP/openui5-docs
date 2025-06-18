@@ -73,5 +73,5 @@ const oRevenue = oContext.getProperty("revenue");
 **Related Information**  
 
 
-[Tutorial Step 15: Aggregation Binding Using a Factory Function](../03_Get-Started/step-15-aggregation-binding-using-a-factory-function-284a036.md "Instead of using a single hard-coded template control, we now opt for a factory function to generate different controls based on the data received at runtime. This approach is much more flexible and allows for the display of complex or heterogeneous data.")
+[Tutorial Step 15: Aggregation Binding Using a Factory Function](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/284a036c8ff943238fb65bf5a2676fb7.html "Instead of using a single hard-coded template control, we now opt for a factory function to generate different controls based on the data received at runtime. This approach is much more flexible and allows for the display of complex or heterogeneous data.") :arrow_upper_right:
 

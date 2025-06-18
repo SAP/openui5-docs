@@ -26,7 +26,7 @@ Always define the libraries you use in the manifest and remove all libraries tha
 }
 ```
 
--   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](step-10-descriptor-for-applications-8f93bf2.md)
+-   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right:
 -   Find out more: [Manifest \(Descriptor for Applications, Components, and Libraries\)](../04_Essentials/manifest-descriptor-for-applications-components-and-libraries-be0cf40.md)
 
 
@@ -48,7 +48,7 @@ sap.ui.define([
 	...
 ```
 
--   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](step-10-descriptor-for-applications-8f93bf2.md)
+-   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right:
 -   Find out more:
     -   [Modules and Dependencies](../04_Essentials/modules-and-dependencies-91f23a7.md)
     -   [https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/Cloud/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/Cloud/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html)
@@ -70,7 +70,7 @@ Use controls like `sap.m.List` or UI patterns that support displaying data selec
 	...>
 ```
 
--   Learn how: Testing Tutorial [Step 7: Changing the Table to a Growing Table](step-7-changing-the-table-to-a-growing-table-016e0d4.md)
+-   Learn how: Testing Tutorial [Step 7: Changing the Table to a Growing Table](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/016e0d44f8ff47d2bdf4fdad9b7bf7cd.html "Let's switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.") :arrow_upper_right:
 
 -   Find out more: [Growing Feature for Table and List](../08_More_About_Controls/growing-feature-for-table-and-list-9164ba7.md)
 

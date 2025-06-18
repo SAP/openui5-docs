@@ -635,7 +635,7 @@ Feature
 
 A new tutorial is now available. This is the TypeScript version of our existing Walkthrough tutorial, offering you the same comprehensive tour of OpenUI5 but now in TypeScript.
 
-For more information, see [Walkthrough Tutorial \(TypeScript\)](../03_Get-Started/walkthrough-tutorial-typescript-dad1905.md).
+For more information, see [Walkthrough Tutorial (TypeScript)](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/dad1905a07f849ce9c509721317d38d8.html "In this tutorial we'll introduce you to all major development paradigms of SAPUI5. We'll demonstrate the use of TypeScript with SAPUI5 and highlight the specific characteristics of this approach.") :arrow_upper_right:.
 
 <sub>Changed•Feature•Info Only•1.121</sub>
 

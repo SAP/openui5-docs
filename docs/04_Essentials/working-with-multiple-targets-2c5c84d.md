@@ -72,5 +72,5 @@ The relationship between the target `employeeOverview` and `employeeOverviewTop`
   }
 ```
 
-For more information, see the tutorial [Step 11: Assign Multiple Targets](../03_Get-Started/step-11-assign-multiple-targets-b01840e.md).
+For more information, see the tutorial [Step 11: Assign Multiple Targets](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/b01840ec42ef48e6bfd2bc12612f501f.html "In this step, we will add a new button to the home page to illustrate the usage of multiple targets for a route. When the button is pressed, a new page opens that contains two parts: a header part at the top and a content part. The content part displays a table of employees that can be sorted and searched. We will use the array notation in the routing configuration to assign multiple targets to a route - a feature that we have not yet introduced.") :arrow_upper_right:.
 

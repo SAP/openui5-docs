@@ -10,7 +10,7 @@ Before you start implementing your first test, you should think about how to tes
   
 **Testing Pyramid**
 
-![](../03_Get-Started/images/loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing Pyramid")
+![](images/loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing Pyramid")
 
 You can use a local test runner, such as Selenium or Karma, that automatically executes all tests whenever a file in the app project has been changed.
 
@@ -35,11 +35,11 @@ WebdriverIO \(WDIO\) is a hugely popular end-to-end testing framework. It can wo
 **Related Information**  
 
 
-[Tutorial: Testing](../03_Get-Started/testing-tutorial-291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+[Tutorial: Testing](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/291c9121e6044ab381e0b51716f97f52.html "In this tutorial we will test application functionality with the testing tools that are delivered with SAPUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.") :arrow_upper_right:
 
 [Integration Testing with One Page Acceptance Tests \(OPA5\)](integration-testing-with-one-page-acceptance-tests-opa5-2696ab5.md "OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA especially helpful for testing user interactions, integration with OpenUI5, navigation, and data binding.")
 
-[Tutorial: Mock Server](../03_Get-Started/odata-v2-mock-server-tutorial-3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
+[Tutorial: Mock Server](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/3a9728ec31f94ca18a7d543ce419d85d.html "In this tutorial, we will explore some advanced features of the OData V2 mock server.") :arrow_upper_right:
 
 [wdi5 Home Page](https://ui5-community.github.io/wdi5)
 

@@ -42,7 +42,7 @@ You can use the following kinds of patterns:
 
     The pattern matches the hash exactly. For example, when a pattern is defined as `product/settings`, this pattern matches only if the hash is `product/settings` and no data is passed on to the events of the route.
 
-    For more information, see the tutorial [Step 6: Navigate to Routes with Hard-Coded Patterns](../03_Get-Started/step-6-navigate-to-routes-with-hard-coded-patterns-782aac0.md).
+    For more information, see the tutorial [Step 6: Navigate to Routes with Hard-Coded Patterns](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/782aac08f2de4003a2fcbdd39d27f374.html "In this step, we'll create a second button on the home page, with which we can navigate to a simple list of employees. This example illustrates how to navigate to a route that has a hard-coded pattern.") :arrow_upper_right:.
 
 -   **Route with mandatory parameter**:
 
@@ -50,7 +50,7 @@ You can use the following kinds of patterns:
 
     For example, if you define the pattern `product/{id}`, the hashes `product/5` and `product/3` \(where 3 and 5 are product IDs\) match the pattern. The matched event handler gets `5` or `3` passed on with the key `id` in its arguments. But hash `product/` does not match the pattern because the mandatory parameter is missing.
 
-    For more information, see the tutorial [Step 7: Navigate to Routes with Mandatory Parameters](../03_Get-Started/step-7-navigate-to-routes-with-mandatory-parameters-f96d252.md).
+    For more information, see the tutorial [Step 7: Navigate to Routes with Mandatory Parameters](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/f96d2522a5ca4382a274ae3c6d002ca0.html "In this step, we implement a feature that allows the user to click on an employee in the list to see additional details of the employee. A route pattern can have one or more mandatory parameters to identify objects in an app.") :arrow_upper_right:.
 
 -   **Route with optional parameter**:
 
@@ -64,7 +64,7 @@ You can use the following kinds of patterns:
 
     The matched value will be converted into an object saved with the parameter name as the key when passed to the event handler.
 
-    For more information, see the tutorial [Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](../03_Get-Started/step-9-allow-bookmarkable-tabs-with-optional-query-parameters-b8561ff.md).
+    For more information, see the tutorial [Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/b8561ff6f4c34c85a91ed06d20814cd3.html "The resume view contains four tabs as we have seen in the previous steps. However, when the user navigates to the resume page, only the first tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is not yet supported in our current app.") :arrow_upper_right:.
 
 -   **"rest as string" parameter**:
 
@@ -84,7 +84,7 @@ You can use the following kinds of patterns:
 **Related Information**  
 
 
-[Tutorial: Navigation and Routing](../03_Get-Started/navigation-and-routing-tutorial-1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+[Tutorial: Navigation and Routing](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/1b6dcd39a6a74f528b27ddb22f15af0d.html "SAPUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in SAPUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of SAPUI5 to your applications.") :arrow_upper_right:
 
 [API Reference: `sap.ui.core.routing`](https://ui5.sap.com/#/api/sap.ui.core.routing)
 

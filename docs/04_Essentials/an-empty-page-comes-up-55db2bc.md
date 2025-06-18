@@ -17,7 +17,7 @@ You find yourself in one of these situations:
   
 **The browser displays an empty page and an Uncaught Error is issued in the console**
 
-![](../03_Get-Started/images/loio873b3c2966e64bc2b080d8f4a5ae70fc_LowRes.png "The browser displays an empty page and an Uncaught Error is issued in
+![](images/loio873b3c2966e64bc2b080d8f4a5ae70fc_LowRes.png "The browser displays an empty page and an Uncaught Error is issued in
 					the console")
 
 

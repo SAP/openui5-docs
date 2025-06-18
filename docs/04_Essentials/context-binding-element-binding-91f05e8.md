@@ -244,7 +244,7 @@ For more information, see the API Reference for the following methods:
 **Related Information**  
 
 
-[Tutorial Step 13: Element Binding](../03_Get-Started/step-13-element-binding-6c7c5c2.md "Now, let's do something with that newly generated list. Typically, you use a list to allow selection of an item and then display the details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via element binding.")
+[Tutorial Step 13: Element Binding](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/6c7c5c266b534e7ea9a28f861dc515f5.html "Now, let's do something with that newly generated list. Typically, you use a list to allow selection of an item and then display the details of that item elsewhere. To accomplish this, we use a form with relatively bound controls and bind it to the selected entity via element binding.") :arrow_upper_right:
 
 [Binding Syntax](binding-syntax-e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.")
 

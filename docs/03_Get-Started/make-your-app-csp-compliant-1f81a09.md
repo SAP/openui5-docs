@@ -26,7 +26,7 @@ Don't use directly executable code in your HTML files, because this makes them v
 </body>
 ```
 
--   Learn how: Walkthrough Tutorial [Step 9: Component Configuration](step-9-component-configuration-4cfa608.md)
+-   Learn how: Walkthrough Tutorial [Step 9: Component Configuration](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/4cfa60872dca462cb87148ccd0d948ee.html "After we have introduced all three parts of the Model-View-Controller (MVC) concept, we now come to another important structural aspect of SAPUI5.") :arrow_upper_right:
 -   Find our more: [Declarative API for Initial Components](../04_Essentials/declarative-api-for-initial-components-82a0fce.md)
 
 
@@ -66,6 +66,6 @@ HTML file:
 
 ```
 
--   Learn how: Testing Tutorial [Step 10: Automated Testing](step-10-automated-testing-07c97a2.md)
+-   Learn how: Testing Tutorial [Step 10: Automated Testing](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/07c97a2e497d443eb6fa74bb9445ab9c.html "In this step, we will step back from our tests and application features that we have implemented so far and take a closer look at another important piece of the test setup - the test automation. We will learn how to set up a basic test automation, which might be used in a continuous integration system or locally to run tests via shell.") :arrow_upper_right:
 -   Find out more: [Content Security Policy](../05_Developing_Apps/content-security-policy-fe1a6db.md)
 

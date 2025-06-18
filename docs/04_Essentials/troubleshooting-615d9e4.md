@@ -167,5 +167,5 @@ If you're stuck and need help with a development task, you can also post a quest
 **Related Information**  
 
 
-[Troubleshooting Tutorial](../03_Get-Started/troubleshooting-tutorial-5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+[Troubleshooting Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/5661952e72df471b932eddc10350c081.html "In this tutorial, we will show you some tools that will help you if you run into problems with your SAPUI5 app.") :arrow_upper_right:
 

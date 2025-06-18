@@ -731,7 +731,7 @@ User Documentation
 
 **New Quick Start Tutorial**
 
-We have replaced the Hello World! tutorial with a new Quick Start tutorial that showcases the key features of OpenUI5 in three simple steps. For more information, see [Quickstart Tutorial](../03_Get-Started/quickstart-tutorial-592f36f.md).
+We have replaced the Hello World! tutorial with a new Quick Start tutorial that showcases the key features of OpenUI5 in three simple steps. For more information, see [Quickstart Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/592f36fd077b45349a67dcb3efb46ab1.html "Unleash your SAPUI5 skills with this simple three-step tutorial. We start with a simple "Hello World" example, and convert it to a minimalist two-page app.") :arrow_upper_right:.
 
 <sub>Changed•User Documentation•Info Only•1.61</sub>
 

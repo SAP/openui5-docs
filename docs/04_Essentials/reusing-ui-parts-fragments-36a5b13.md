@@ -25,5 +25,5 @@ Defining a fragment is similar to defining views within a separate file. The fra
 
 [Model View Controller \(MVC\)](model-view-controller-mvc-91f2334.md "The Model View Controller (MVC) concept is used in OpenUI5 to separate the representation of information from the user interaction. This separation facilitates development and the changing of parts independently.")
 
-[Walkthrough Step 16: Dialogs and Fragments](../03_Get-Started/step-16-dialogs-and-fragments-4da7298.md "In this step, we will take a closer look at another element which can be used to assemble views: the fragment.")
+[Walkthrough Step 16: Dialogs and Fragments](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/4da72985139b4b83b5f1c1e0c0d2ed5a.html "In this step, we will take a closer look at another element which can be used to assemble views: the fragment.") :arrow_upper_right:
 

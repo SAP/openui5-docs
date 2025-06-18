@@ -19,7 +19,7 @@ There are also internal data sources that are defined in the app for specific pu
 
 -   **View models** can be, for example, JSON models that communicate with a corresponding JSON object. JSON data can also be edited in the app, but they are not stored - as soon as you refresh the browser or restart the app, the changes are reset.
 
--   A JSON model can be used together with the `sap/ui/Device` module to create a **device model** that contains device-specific settings. For an example, see our Walkthrough tutorial, [Step 35: Device Adaptation](../03_Get-Started/step-35-device-adaptation-d63a15e.md).
+-   A JSON model can be used together with the `sap/ui/Device` module to create a **device model** that contains device-specific settings. For an example, see our Walkthrough tutorial, [Step 35: Device Adaptation](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/d63a15e5eebb45cdada317bae5f45bc2.html "We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the sap.ui.Device API and defining a device model we will make the app look great on many devices.") :arrow_upper_right:.
 
 
 Most of the models are client-side models. This means that all data is initially loaded to the model when the app is started. All actions performed on the data are only executed on the client, and are only sent back to the data source when this is triggered by the app. Client-side models are therefore only recommended for small data sets.
@@ -29,7 +29,7 @@ The OData models \(V2 and V4\) are server-side models, which means that data is 
 In the view, you bind data by specifying the **binding path** for a control. You can use **data types** and **formatters** to validate and format the data on the UI.
 
 > ### Note:  
-> To learn more about data binding, take this tutorial: [Data Binding Tutorial](../03_Get-Started/data-binding-tutorial-e531093.md).
+> To learn more about data binding, take this tutorial: [Data Binding Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/e5310932a71f42daa41f3a6143efca9c.html "In this tutorial, we explain the concepts of data binding in SAPUI5.") :arrow_upper_right:.
 
 
 

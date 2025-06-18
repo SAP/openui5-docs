@@ -1136,9 +1136,9 @@ The documentation for QUnit testing has been updated and aligned with the new QU
 
 We have updated the following tutorials:
 
--   [Data Binding Tutorial](../03_Get-Started/data-binding-tutorial-e531093.md)
+-   [Data Binding Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/e5310932a71f42daa41f3a6143efca9c.html "In this tutorial, we explain the concepts of data binding in SAPUI5.") :arrow_upper_right:
 
--   [Walkthrough Tutorial \(JavaScript\)](../03_Get-Started/walkthrough-tutorial-javascript-3da5f4b.md)
+-   [Walkthrough Tutorial (JavaScript)](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/3da5f4be63264db99f2e5b04c5e853db.html "In this tutorial we will introduce you to all major development paradigms of SAPUI5.") :arrow_upper_right:
 
 
 <sub>Changed•User Documentation•Info Only•1.42</sub>

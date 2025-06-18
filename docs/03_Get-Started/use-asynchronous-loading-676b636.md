@@ -66,7 +66,7 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 **Additional Information:**
 
 -   For more information about bootstrap attributes, see [Bootstrapping: Loading and Initializing](../04_Essentials/bootstrapping-loading-and-initializing-a04b0d1.md)
--   Walkthrough tutorial, [Step 2: Bootstrap](step-2-bootstrap-fe12df2.md)
+-   Walkthrough tutorial, [Step 2: Bootstrap](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/fe12df2e338e43598977d09f3d191b7b.html "Before we can do something with SAPUI5, we need to load and initialize it. This process of loading and initializing SAPUI5 is called bootstrapping. Once this bootstrapping is finished, we simply display an alert.") :arrow_upper_right:
 -   [Standard Variant for Bootstrapping](../04_Essentials/standard-variant-for-bootstrapping-91f1f45.md)
 -   [Best Practices for Asynchronous Loading in UI5](https://blogs.sap.com/2018/12/18/ui5ers-buzz-41-best-practices-for-async-loading-in-ui5/)
 
@@ -134,7 +134,7 @@ For more information on how `sap.ui.core.IAsyncContentCreation` affects the comp
 
 **Additional Information:**
 
--   Walkthrough tutorial, [Step 10: Descriptor for Applications](step-10-descriptor-for-applications-8f93bf2.md)
+-   Walkthrough tutorial, [Step 10: Descriptor for Applications](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right:
 
 
 
