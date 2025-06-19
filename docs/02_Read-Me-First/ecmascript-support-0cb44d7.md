@@ -8,12 +8,12 @@ What features of modern ECMAScript a particular OpenUI5 framework version might 
 
 Whether you can use a particular feature of modern ECMAScript in OpenUI5 application development depends upon the following:
 
--   Is the feature supplied by any of the browsers that are supported by the framework version you use?
+-   Is the feature supplied by all the browsers intended to run your code?
 -   Does the OpenUI5 runtime permit the usage of the feature? For details, see the sections below.
 -   Is the feature supported by your tooling?
 
 > ### Caution:  
-> The restrictions described here apply to the usage of modern ECMAScript features in projects that are written in native JavaScript. If your project is written in TypeScript, you only have to make sure that the listed constraints are met by the transpiled code.
+> The restrictions described here apply to the usage of modern ECMAScript features in projects that are written in native JavaScript. If your project is written in TypeScript, you must make sure that the listed constraints are met by the transpiled code.
 
 
 
@@ -21,7 +21,7 @@ Whether you can use a particular feature of modern ECMAScript in OpenUI5 applica
 
 ### Overview of Restrictions
 
-The following restrictions apply when you use modern ECMAScript:
+Generally, the OpenUI5 framework supports the usage of modern ECMAScript features up to and including ECMAScript 2023, with the following restrictions:
 
 1.  Do not use ECMAScript modules, but use `sap.ui.define` / `sap.ui.require` for module loading.
 

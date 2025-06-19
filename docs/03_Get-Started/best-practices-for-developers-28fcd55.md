@@ -232,7 +232,7 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 
 -   Don't use views of type `HTMLView`, `JSView`, or `JSONView` as they are deprecated. Use `XMLView` or [Typed View](../04_Essentials/typed-view-e6bb33d.md) instead.
 
--   Don't use `sap.ui.getCore().byId()` or `Element.getElementById()`. Use `this.byId()` or `this.getView().byId()` to address controls in your views or fragments.
+-   Don't use `sap.ui.getCore().byId()` or`Element.getElementById()`. Use `this.byId()` or `this.getView().byId()` to address controls in your views or fragments.
 
 -   Don't use native HTML, SVG, or inline CSS style within your XML view or fragment. Instead, consider using the [`sap.ui.core.HTML`](https://ui5.sap.com/#/api/sap.ui.core.HTML) control or your own notepad control. Existing inline CSS must be migrated to an external style sheet.
 

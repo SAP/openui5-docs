@@ -11,7 +11,7 @@ Detailed description of the steps needed to create a manifest \(also known as de
     ```
     
     {
-        "_version": "1.35.0",
+        "_version": "1.1.0",
     	
     	"start_url": "<startUrl>",
     	

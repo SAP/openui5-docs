@@ -241,7 +241,7 @@ Includes are renamed to resources and are objects and not an array.
 
 ```js
 
-"resources": {
+				"resources": {
     "js": [ //deprecated since 1.94
         {
             "uri": "script.js"
