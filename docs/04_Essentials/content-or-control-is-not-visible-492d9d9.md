@@ -27,7 +27,7 @@ This can happen for one of the following reasons:
 
 ### Resolution
 
-First, you should check if your control was rendered properly by using the developer tool of your browser to check the DOM element. For information about how to use your browser tools, see the documentation of you browser or check our [Troubleshooting Tutorial Step 1: Browser Developer Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/eadd60ae907646bbb838866566b23182.html "In this step, you will learn how to use your browser's developers tools to troubleshoot your SAPUI5 app.") :arrow_upper_right:.
+First, you should check if your control was rendered properly by using the developer tool of your browser to check the DOM element.For information about how to use your browser tools, see the documentation of you browser or check our [Troubleshooting Tutorial Step 1: Browser Developer Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/eadd60ae907646bbb838866566b23182.html "In this step, you will learn how to use your browser's developers tools to troubleshoot your SAPUI5 app.") :arrow_upper_right:.
 
 
 
