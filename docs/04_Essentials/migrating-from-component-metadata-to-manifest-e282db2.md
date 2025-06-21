@@ -240,8 +240,7 @@ Includes are renamed to resources and are objects and not an array.
 > Since 1.94 the usage of `js` resources is deprecated. Please use regular `dependencies` instead.
 
 ```js
-
-				"resources": {
+"resources": {
     "js": [ //deprecated since 1.94
         {
             "uri": "script.js"
