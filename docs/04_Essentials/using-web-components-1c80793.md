@@ -279,7 +279,7 @@ In this example, we use the `text` property to specify the button's text and bin
 
 **Using Icons**
 
-To enable the usage of icons, use the XML view's `core:require` mechanism and to load the `AllIcons` module.
+To enable the usage of icons, use the XML view's `core:require` mechanism and load the `AllIcons` module.
 
 ```xml
 <mvc:View

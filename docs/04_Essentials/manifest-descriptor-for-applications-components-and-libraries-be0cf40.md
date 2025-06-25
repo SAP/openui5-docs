@@ -1305,7 +1305,7 @@ For more information on the new fields introduced in each version, check out [Mi
 
 
 
-<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_vwt_5nl_gfc"/>
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_manifest2"/>
 
 ### Manifest 2.0
 
