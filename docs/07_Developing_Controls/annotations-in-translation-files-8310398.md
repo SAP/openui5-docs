@@ -1,6 +1,6 @@
 <!-- loio831039835e7c4da3a8a0b49567573afe -->
 
-## Annotations in Translation Files
+# Annotations in Translation Files
 
 All strings for translation have to be annotated to provide more context for translation. An annotation consists of an "X/Y" text type classification, an optional length restriction, and a freetext explanation how the string is used on the UI.
 
@@ -14,9 +14,9 @@ The following comment types exist:
 #<SAP-Text-Type>,<Length-Restriction>:<Note for translator>
 ```
 
+***
 
-
-### Text Classification
+## Text Classification
 
 The following text type classifications exist:
 
@@ -926,9 +926,9 @@ General text long
 </tr>
 </table>
 
+***
 
-
-### Properties File
+## Properties File
 
 ```ini
 

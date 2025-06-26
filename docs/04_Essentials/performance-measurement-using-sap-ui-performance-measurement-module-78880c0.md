@@ -1,6 +1,6 @@
 <!-- loio78880c09a1954a02b49c21357d45c91f -->
 
-## Performance Measurement Using sap/ui/performance/Measurement Module
+# Performance Measurement Using sap/ui/performance/Measurement Module
 
 You can use `sap/ui/performance/Measurement` to measure the performance of your JavaScript code.
 
@@ -110,13 +110,13 @@ Identifies the duration needed to find out whether rendering can be preserved
 </tr>
 </table>
 
+***
 
+## Procedure
 
-### Procedure
+***
 
-
-
-#### 1. Activate performance measurement
+### 1. Activate performance measurement
 
 By default, `Measurement` is disabled to avoid unnecessary code execution during runtime. Therefore, you first have to activate the measurement using one of the following options:
 
@@ -227,9 +227,9 @@ To activate measurement for certain categories only, you have the following opti
     > If you also use the `start` or `average` method, make sure that the same categories are passed on, otherwise no measurement is started.
 
 
+***
 
-
-#### 2. Retrieve the results
+### 2. Retrieve the results
 
 You can view the results in the *Performance* section of the diagnostics window \([Ctrl\] + [Alt\] + [Shift\] + [S\] \). Here, you can also refresh the result list, if the performance measurement is still running.
 
@@ -341,9 +341,9 @@ In Google Chrome, for example, you can also display the results in a table in th
 console.table(Measurement.getAllMeasurements(true)) //table with completed measurements
 ```
 
+***
 
-
-#### 3. Interpret the results
+### 3. Interpret the results
 
 Each entry in the resulting array provides an object of the following structure:
 
@@ -372,19 +372,19 @@ Each entry in the resulting array provides an object of the following structure:
     Categories as provided in the `start` or `average` method
 
 
+***
 
-
-#### 4. Clear results
+### 4. Clear results
 
 To clear all measurements call the `Measurement.clear` method.
 
+***
 
+## Specific Use Cases
 
-### Specific Use Cases
+***
 
-
-
-#### Averages
+### Averages
 
 For repeatedly occurring operations, you can calculate an average duration with the `Measurement.average` method.
 
@@ -409,9 +409,9 @@ Log.info("Average time: " + Measurement.getMeasurement("myId").duration);
 
 ```
 
+***
 
-
-#### Measurement of Object Methods
+### Measurement of Object Methods
 
 You can register an average measurement without changing the original source code. For this, you use the following APIs:
 
@@ -458,9 +458,9 @@ Measurement.unregisterMethod(oButton, "setText");
 Measurement.getAllMeasurements();
 ```
 
+***
 
-
-#### Filtering
+### Filtering
 
 You can also use the categories listed above as filters for the result list or to define measurements for one or more specific categories with the `filterMeasurements` method.
 

@@ -1,14 +1,14 @@
 <!-- loio82a0fcecc3cb427c91469bc537ebdddf -->
 
-## Declarative API for Initial Components
+# Declarative API for Initial Components
 
 The declarative API enables you to define the initially started component directly in the HTML markup.
 
-
+***
 
 <a name="loio82a0fcecc3cb427c91469bc537ebdddf__section_p1l_4by_jkb"/>
 
-### Using the `ComponentSupport` Module
+## Using the `ComponentSupport` Module
 
 With the declarative `sap/ui/core/ComponentSupport` API, you can define the initially started component directly in the HTML markup instead of in the imperative way using JavaScript or TypeScript. The declarative `ComponentSupport` must be enabled via the bootstrap:
 
@@ -40,11 +40,11 @@ This module scans the DOM for HTML elements containing a special data attribute 
 </body>
 ```
 
-
+***
 
 <a name="loio82a0fcecc3cb427c91469bc537ebdddf__section_tks_rby_jkb"/>
 
-### Declarative Configuration of `ComponentContainer`
+## Declarative Configuration of `ComponentContainer`
 
 > ### Caution:  
 > As HTML is case-insensitive, property or event names with upper-case characters have to be "escaped" with the hyphen character. This is similar to CSS attributes. In the following sample, the `handleValidation` argument of the `ComponentContainer` constructor is used:
@@ -109,9 +109,9 @@ This module scans the DOM for HTML elements containing a special data attribute 
 > });
 > ```
 
+***
 
-
-#### Asynchronous loading with `ComponentSupport`
+### Asynchronous loading with `ComponentSupport`
 
 The `ComponentSupport` module enforces asynchronous module loading of the component with "manifest first". This means, that the `manifest.json` file is loaded before evaluating the component to optimize loading behavior. In this way libraries and other dependencies can be loaded asynchronously and in parallel. To achieve this, the following settings for the ComponentContainer are applied by default:
 
@@ -124,11 +124,11 @@ For details on the manifest, see [Manifest \(Descriptor for Applications, Compon
 
 See also [`ComponentSupport`](https://ui5.sap.com/#/api/module:sap/ui/core/ComponentSupport) and [`ComponentContainer`](https://ui5.sap.com/#/api/sap.ui.core.ComponentContainer) for more information. 
 
-
+***
 
 <a name="loio82a0fcecc3cb427c91469bc537ebdddf__section_zmp_rwc_kkb"/>
 
-### Delay the Initial Component Instantiation
+## Delay the Initial Component Instantiation
 
 In some cases, the component initialisation must wait until all pre-required modules have been loaded. If this is the case, the `ComponentSupport` module needs to be executed later, and you have to replace the `on-init` module execution in the bootstrap with a custom module:
 

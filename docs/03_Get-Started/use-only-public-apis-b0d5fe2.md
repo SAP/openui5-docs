@@ -1,6 +1,6 @@
 <!-- loiob0d5fe2f1b0b497cbd67cd5a1d35fa4c -->
 
-## Use Only Public APIs
+# Use Only Public APIs
 
 OpenUI5 APIs are classified into different types. Only APIs of type `public` should be used by application developers.
 

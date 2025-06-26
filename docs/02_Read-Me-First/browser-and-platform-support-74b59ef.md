@@ -1,6 +1,6 @@
 <!-- loio74b59efa0eef48988d3b716bd0ecc933 -->
 
-## Browser and Platform Support
+# Browser and Platform Support
 
 Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.
 
@@ -11,20 +11,20 @@ As OpenUI5 is based on CSS3, HTML5, and modern ECMAScript \("ES2023"\), only bro
 
 Depending on the platform your OpenUI5 apps run on, different browsers in different versions are supported. If you know which platform and which browsers are used by your users, you can decide on which libraries to use for your app.
 
+***
 
-
-### Overview of Supported Browsers, Platforms, and Reference Devices
+## Overview of Supported Browsers, Platforms, and Reference Devices
 
 The following tables give a general overview of the browsers, platforms, and reference devices supported by the main OpenUI5 libraries. There are certain known device-browser combinations that lead to visual degradations. For more information, see [Visual Degradations](visual-degradations-f08f296.md).
 
 > ### Note:  
 > Browsers are constantly evolving across various devices. Browser upgrades may introduce changes that are not backward compatible and can affect the behavior of OpenUI5. SAP has no control over these upgrades and doesn't provide any warranty regarding the features or qualities of these browsers.
 
-
+***
 
 <a name="loio74b59efa0eef48988d3b716bd0ecc933__section_bgw_kns_hnb"/>
 
-### Browser and Platform Support Matrix
+## Browser and Platform Support Matrix
 
 
 <table>
@@ -315,11 +315,18 @@ Latest version<sup>7</sup>
  7\) With the removal of the SAP Fiori Client from the Public App stores, preferable native browsers should be used on mobile devices. For more information see, [2992772](https://me.sap.com/notes/2992772).  
 
 
-
+***
 
 <a name="loio74b59efa0eef48988d3b716bd0ecc933__MS_IE"/>
 
-### OpenUI5 Support Status for Microsoft Internet Explorer 11
+## OpenUI5 Support Status for Microsoft Internet Explorer 11
 
 Support for Microsoft Internet Explorer 11 \(IE11\) ended with the end of IE11 support by Microsoft, and for the sake of completeness Internet Explorer mode of MS Edge was never supported by OpenUI5.
+
+-   **[Visual Degradations](visual-degradations-f08f296.md "Depending on the combination of device and browser, visual degradations may occur in
+		certain libraries.")**  
+Depending on the combination of device and browser, visual degradations may occur in certain libraries.
+-   **[Keyboard Shortcuts for OpenUI5 Tools](keyboard-shortcuts-for-openui5-tools-154844c.md "OpenUI5 provides tools for information, diagnostics and testing purposes that
+		are accessible via keyboard shortcuts.")**  
+OpenUI5 provides tools for information, diagnostics and testing purposes that are accessible via keyboard shortcuts.
 

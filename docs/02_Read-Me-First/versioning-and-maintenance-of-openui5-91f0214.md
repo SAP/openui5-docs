@@ -1,14 +1,14 @@
 <!-- loio91f021426f4d1014b6dd926db0e91070 -->
 
-## Versioning and Maintenance of OpenUI5
+# Versioning and Maintenance of OpenUI5
 
 Versioning and maintenance strategy for OpenUI5.
 
-
+***
 
 <a name="loio91f021426f4d1014b6dd926db0e91070__section_DC50B59D56AC4B52A2DBEFADFA4B0E98"/>
 
-### Version Designation
+## Version Designation
 
 OpenUI5 uses a three-number version identifier, for example, 1.71.22. The numbers have the following meaning:
 
@@ -20,11 +20,11 @@ To view the documentation for a specific version, check at [https://sdk.openui5.
 
 To get an overview of the new features of each version, see [What's New in OpenUI5](../01_Whats-New/what-s-new-in-openui5-99ac68a.md). To see the fixes contained in each patch, check the [Change Log](https://sdk.openui5.org/releasenotes.html).
 
-
+***
 
 <a name="loio91f021426f4d1014b6dd926db0e91070__section_qnr_ghw_ffc"/>
 
-### Maintenance Strategy
+## Maintenance Strategy
 
 Every month, OpenUI5 releases a new version for productive usage. Support periods vary by release type:
 
@@ -108,19 +108,19 @@ Whenever a new patch for a version is released, the older patch becomes outdated
 
 In the version overview at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html), you can find information on the maintenance status of all available OpenUI5 versions and the EOCP dates for each patch version.
 
+***
 
-
-### Availability of Multiple Versions on the Akamai Content Delivery Network
+## Availability of Multiple Versions on the Akamai Content Delivery Network
 
 OpenUI5 resources are available on the Akamai content delivery network. There, you can also find multiple OpenUI5 versions, and you can use them in your code as described in [Variant for Bootstrapping from Content Delivery Network](../04_Essentials/variant-for-bootstrapping-from-content-delivery-network-2d3eb2f.md).
 
 Check the available versions with respective maintenance status at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html).
 
-
+***
 
 <a name="loio91f021426f4d1014b6dd926db0e91070__section_b1g_xcw_dz"/>
 
-### OpenUI5 Version
+## OpenUI5 Version
 
 You can find which framework versions you use in your app in the [Technical Information Dialog](../04_Essentials/technical-information-dialog-616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) \([Ctrl\] + [Shift\] + [Left Alt / Left Option\] + [P\] .
 

@@ -1,6 +1,6 @@
 <!-- loio91f1c7ef6f4d1014b6dd926db0e91070 -->
 
-## Custom Model
+# Custom Model
 
 Custom models can be used if none of the models provided by OpenUI5 is suitable for the specific needs of an application.
 

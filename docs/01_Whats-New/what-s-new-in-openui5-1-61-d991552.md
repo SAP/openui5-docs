@@ -1,6 +1,6 @@
 <!-- loiod9915520aee34b7b83dd2cd85f4db007 -->
 
-## What's New in OpenUI5 1.61
+# What's New in OpenUI5 1.61
 
 With this release OpenUI5 is upgraded from version 1.60 to 1.61.
 
@@ -731,7 +731,7 @@ User Documentation
 
 **New Quick Start Tutorial**
 
-We have replaced the Hello World! tutorial with a new Quick Start tutorial that showcases the key features of OpenUI5 in three simple steps. For more information, see [Quickstart Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/592f36fd077b45349a67dcb3efb46ab1.html "Unleash your SAPUI5 skills with this simple three-step tutorial. We start with a simple "Hello World" example, and convert it to a minimalist two-page app.") :arrow_upper_right:.
+We have replaced the Hello World! tutorial with a new Quick Start tutorial that showcases the key features of OpenUI5 in three simple steps. For more information, see [Quickstart Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/592f36fd077b45349a67dcb3efb46ab1.html "Unleash your SAPUI5 skills with this simple three-step tutorial. We start with a simple "Hello World" example, and convert it to a minimalist two-page app.") :arrow_upper_right:.
 
 <sub>Changed•User Documentation•Info Only•1.61</sub>
 
@@ -789,6 +789,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

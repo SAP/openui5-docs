@@ -1,14 +1,14 @@
 <!-- loio492d9d93effd4229a5a89cb20124553c -->
 
-## Content or Control Is Not Visible
+# Content or Control Is Not Visible
 
 You find yourself in the situation that a control or the content of a control is not visible, but you don't see an error message in the console.
 
-
+***
 
 <a name="loio492d9d93effd4229a5a89cb20124553c__section_mng_k2v_tz"/>
 
-### Root Cause
+## Root Cause
 
 This can happen for one of the following reasons:
 
@@ -21,17 +21,17 @@ This can happen for one of the following reasons:
 -   The model has been set on the Core
 
 
-
+***
 
 <a name="loio492d9d93effd4229a5a89cb20124553c__section_edr_n2v_tz"/>
 
-### Resolution
+## Resolution
 
-First, you should check if your control was rendered properly by using the developer tool of your browser to check the DOM element.For information about how to use your browser tools, see the documentation of you browser or check our [Troubleshooting Tutorial Step 1: Browser Developer Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/eadd60ae907646bbb838866566b23182.html "In this step, you will learn how to use your browser's developers tools to troubleshoot your SAPUI5 app.") :arrow_upper_right:.
+First, you should check if your control was rendered properly by using the developer tool of your browser to check the DOM element.For information about how to use your browser tools, see the documentation of you browser or check our [Troubleshooting Tutorial Step 1: Browser Developer Tools](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/eadd60ae907646bbb838866566b23182.html "In this step, you will learn how to use your browser's developers tools to troubleshoot your SAPUI5 app.") :arrow_upper_right:.
 
+***
 
-
-#### Wrong binding
+### Wrong binding
 
 If you bound your control to a source, for example, an image control, the binding may not be resolved properly. This can be caused by minor mistakes such as typos. We recommend using *Diagnostics* to debug your bindings. For more information, see [Diagnostics](diagnostics-6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
 
@@ -55,9 +55,9 @@ If the model name is missing, you see the following:
 
 ![](images/loio6cd1eebf1af24a39afb9c11f0dec39a3_LowRes.png)
 
+***
 
-
-#### `visible` property set to `false`
+### `visible` property set to `false`
 
 If you set the `visible` property of a control to `false`, it will not be rendered at all.
 
@@ -65,17 +65,17 @@ Nested controls inherit the value of the `visible` property from their parents. 
 
 You can fix this by setting the `visible` property of the parent control to `true` or by moving your missing control in the XML view so that it is not longer nested inside an invisible control.
 
+***
 
-
-#### Dimensions set to `0`
+### Dimensions set to `0`
 
 Most controls have the properties `width` and `height`. If one of them is explicitly set to `0` some controls may not be displayed at all. Similar to the `visible` property, the value of `width` and `height` are also inherited from parent controls, as long as you don't set an explicit value for these dimensions. If you, for example, set one of the dimension values for a control to `100%` it will have the same size as the parent control. And if the parent's width is `0` the nested control will also be `0`.
 
 As with the `visible` property, you can solve this by either increasing the size of the parent or setting fixed values for the child \(for example, `100px`\) instead of a relative value.
 
+***
 
-
-#### Model set on the Core
+### Model set on the Core
 
 Avoid setting models directly on the Core if you're using Components. Components are meant to be independent and reusable parts and therefore will not inherit the Core models by default.
 

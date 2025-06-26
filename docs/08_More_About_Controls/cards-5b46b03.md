@@ -1,14 +1,14 @@
 <!-- loio5b46b03f024542ba802d99d67bc1a3f4 -->
 
-## Cards
+# Cards
 
 A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way.
 
-
+***
 
 <a name="loio5b46b03f024542ba802d99d67bc1a3f4__section_z5t_4x2_dhb"/>
 
-### Overview
+## Overview
 
 Cards are composite controls that follow a predefined structure and offer content in a specific context. Cards contain the most important information for a given object \(usually a task, or a list of business entities\). You can use cards for presenting information, which can be displayed in flexible layouts that work well across a variety of screens and window sizes.
 
@@ -335,11 +335,11 @@ The following table provides an overview of the two main types of card controls 
 
 6\) Highly depends on the Component / WebPage implementation.
 
-
+***
 
 <a name="loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card"/>
 
-### `sap.ui.integration.widgets.Card` \(Integration Card\)
+## `sap.ui.integration.widgets.Card` \(Integration Card\)
 
 The `sap.ui.integration.widgets.Card` is a self-contained user interface element, connected to a manifest, and used as a widget. It consists of three elements: card container, card header area, and content area.
 
@@ -349,9 +349,9 @@ The `sap.ui.integration.widgets.Card` is a self-contained user interface element
 
 ![](../01_Whats-New/images/loio3ff4cbace0714a71924a628d8c81d480_LowRes.png)
 
+***
 
-
-#### Usage
+### Usage
 
 The integration card is defined in a declarative way, using a `manifest.json` so that it can be easy to integrate and reuse it.
 
@@ -366,9 +366,9 @@ To use the `sap.ui.integration.widgets.Card`, you should pass the path to the `m
 
 For more information and examples on the usage, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.integration.widgets.Card) and the [Samples](https://ui5.sap.com/#/entity/sap.ui.integration.widgets.Card).
 
+***
 
-
-#### Content Types
+### Content Types
 
 Cards can be transactional \(list, table, object, unstructured content, timeline\) and analytical \(line, donut, \[stacked\] column, stacked bar chart\). Each card is designed in a different style and contains various content formats.
 
@@ -506,11 +506,11 @@ Allows to embed HTML page in the content area, which will be isolated in iframe.
 > 
 > -   2\) The Timeline Card is using the `sap.suite.ui.commons.Timeline` control which is part of SAPUI5 and is not available in OpenUI5.
 
-
+***
 
 <a name="loio5b46b03f024542ba802d99d67bc1a3f4__section_sap_f_card"/>
 
-### `sap.f.Card` \(Freestyle Card\)
+## `sap.f.Card` \(Freestyle Card\)
 
 The `sap.f.Card` control provides more freedom in choosing the structure and the controls which you can include. The data is provided by the application with the use of data binding, thus the control can be used just as a renderer.
 
@@ -522,9 +522,9 @@ The `sap.f.Card` consists of three elements: a container with background color a
 
 The header is predefined and can be an instance of either `sap.f.cards.Header` or `sap.f.cards.NumericHeader`. The content area can be built with a desired combination of the standard OpenUI5 controls.
 
+***
 
-
-#### Usage
+### Usage
 
 Considering the general purpose of the cards \(to represent most important assets of a particular business object in a limited size UI element\), it is not recommended to have very complex designs and heavy application-like interactions implemented in a `sap.f.Card` control.
 

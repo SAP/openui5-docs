@@ -1,10 +1,10 @@
 <!-- loiof09b63e46de44642ba2bf4bd3bf848a0 -->
 
-## What's New in OpenUI5 1.78
+# What's New in OpenUI5 1.78
 
 With this release OpenUI5 is upgraded from version 1.77 to 1.78.
 
-
+***
 
 ****
 
@@ -481,6 +481,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

@@ -1,6 +1,6 @@
 <!-- loio08608efbe1864607a80fb7c41a9645e5 -->
 
-## Example: Component Configuration
+# Example: Component Configuration
 
 The component configuration contains the information about the extension metadata and the objects that are replaced or extended in the custom view or control.
 

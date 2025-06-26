@@ -1,6 +1,6 @@
 <!-- loio91f057786f4d1014b6dd926db0e91070 -->
 
-## List Binding \(Aggregation Binding\)
+# List Binding \(Aggregation Binding\)
 
 List binding \(or aggregation binding\) is used to automatically create child controls according to model data.
 
@@ -31,11 +31,11 @@ Let's say we would like to display the following JSON model data in a `sap.m.Lis
 }
 ```
 
-
+***
 
 <a name="loio91f057786f4d1014b6dd926db0e91070__AggregationBindingXMLViews"/>
 
-### Declarative List Binding in XML Views
+## Declarative List Binding in XML Views
 
 ```xml
 <mvc:View
@@ -86,9 +86,9 @@ For more examples and details on when to use which list item control, see the va
 > 
 > To change this behavior, you can either set a size limit in the model by using `oModel.setSizeLimit` or set the `length` property of the `oBindingInfo` parameter of the [`sap.ui.base.ManagedObject#bindAggregation`](https://ui5.sap.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation) method.
 
+***
 
-
-### List Binding in the JavaScript Code
+## List Binding in the JavaScript Code
 
 You can define list binding directly in JavaScript either in the `settings` object in the constructor or by calling the `bindAggregation` method. List binding requires the definition of a template, which is cloned for each bound entry of the list. For each clone that is created, the binding context is set to the respective list entry, so that all bindings of the template are resolved relative to the entry. The aggregated elements are destroyed and recreated whenever the bound list in the data model is changed.
 
@@ -142,10 +142,23 @@ When a list is unbound, its aggregated controls are removed and destroyed by def
 oComboBox.unbindAggregation("items", true);
 ```
 
+-   **[Using Factory Functions](using-factory-functions-335848a.md "")**  
+
+-   **[Sorting, Grouping, and Filtering for List Binding](sorting-grouping-and-filtering-for-list-binding-ec79a5d.md "")**  
+
+-   **[Displaying a Specific Range of Records in a Control](displaying-a-specific-range-of-records-in-a-control-9b5bdd8.md " It is possible to display only a specific range of records when using a list binding. The necessary properties can be set in the binding
+		information.")**  
+ It is possible to display only a specific range of records when using a list binding. The necessary properties can be set in the binding information.
+-   **[Lifecycle of Binding Templates](lifecycle-of-binding-templates-3a4a9e5.md "")**  
+
+-   **[Extended Change Detection](extended-change-detection-7cdff73.md "Extended change detection (ECD) offers fine-grained information on the actual data changes. This can be used, for example, to only update
+		the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.")**  
+Extended change detection \(ECD\) offers fine-grained information on the actual data changes. This can be used, for example, to only update the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.
+
 **Related Information**  
 
 
-[Tutorial Step 12: Aggregation Binding Using Templates](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/97830de2d7314e93b5c1ee3878a17be9.html "Aggregation binding, also known as "list binding", lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.") :arrow_upper_right:
+[Tutorial Step 12: Aggregation Binding Using Templates](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/97830de2d7314e93b5c1ee3878a17be9.html "Aggregation binding, also known as "list binding", lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.") :arrow_upper_right:
 
 [Binding Syntax](binding-syntax-e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.")
 

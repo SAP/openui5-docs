@@ -1,6 +1,6 @@
 <!-- loio91f161996f4d1014b6dd926db0e91070 -->
 
-## Declarative Support: Properties \(deprecated\)
+# Declarative Support: Properties \(deprecated\)
 
 For setting a property, define the property as a data attribute of the corresponding HTML tag.
 

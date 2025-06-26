@@ -1,6 +1,6 @@
 <!-- loio745424aed0154817a5c7317b0270b833 -->
 
-## Run the App
+# Run the App
 
 SAP Web IDE comes with integrated testing features that let you run the app on a central server without having to set up any additional infrastructure. You can run the app by selecting the `src/index.html` file and clicking the *run* button in the header toolbar.
 

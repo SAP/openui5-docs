@@ -1,6 +1,6 @@
 <!-- loio91f292806f4d1014b6dd926db0e91070 -->
 
-## XML View
+# XML View
 
 The XML view type is defined in an XML file, with a file name ending in `.view.xml`. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.
 
@@ -26,6 +26,37 @@ Each control or element is represented by an XML tag with the name of the contro
 You can create a context binding for the control by using the `binding` attribute. For more information, see [Context Binding \(Element Binding\)](context-binding-element-binding-91f05e8.md).
 
 You can refer to a style class for the control by using the `class` attribute.For more information, see [Using CSS Style Sheets in XML Views \(deprecated\)](using-css-style-sheets-in-xml-views-deprecated-b564935.md).
+
+-   **[Namespaces in XML Views](namespaces-in-xml-views-2421a2c.md "The names of the OpenUI5 control libraries and the related subpackages are mapped to XML
+		namespaces.")**  
+The names of the OpenUI5 control libraries and the related subpackages are mapped to XML namespaces.
+-   **[Aggregation Handling in XML Views](aggregation-handling-in-xml-views-19eabf5.md "In XML views, aggregated child controls can be added as child tags. ")**  
+In XML views, aggregated child controls can be added as child tags.
+-   **[Control Properties and Associations in XML Views](control-properties-and-associations-in-xml-views-5ee3be4.md "")**  
+
+-   **[Using Native HTML in XML Views \(deprecated\)](using-native-html-in-xml-views-deprecated-be54950.md "The use of native HTML in XML views depends on the XHTML feature set.")**  
+The use of native HTML in XML views depends on the XHTML feature set.
+-   **[Using CSS Style Sheets in XML Views \(deprecated\)](using-css-style-sheets-in-xml-views-deprecated-b564935.md "Style sheets are included in XML views in the same way as plain HTML. To add further
+		CSS classes to OpenUI5 controls,
+		use the class attribute.")**  
+Style sheets are included in XML views in the same way as plain HTML. To add further CSS classes to OpenUI5 controls, use the `class` attribute.
+-   **[Handling Events in XML Views](handling-events-in-xml-views-b0fb4de.md "XML views use event handlers as attributes: The attribute name is the event name, such
+		as &quot;press&quot; for a button, and the attribute value is the event handler name.")**  
+XML views use event handlers as attributes: The attribute name is the event name, such as "press" for a button, and the attribute value is the event handler name.
+-   **[Preprocessing XML Views](preprocessing-xml-views-48b81b9.md "Applying preprocessing to views enables you to use features like XML templating. This
+		feature is currently only enabled for XML views. On an abstract level, preprocessing means
+		that a view can be modified during runtime before it is rendered. This makes it possible to
+		use the templating syntax, as it is interpreted by the preprocessor. It also makes it
+		possible to apply user customization.")**  
+Applying preprocessing to views enables you to use features like XML templating. This feature is currently only enabled for XML views. On an abstract level, preprocessing means that a view can be modified during runtime before it is rendered. This makes it possible to use the templating syntax, as it is interpreted by the preprocessor. It also makes it possible to apply user customization.
+-   **[XML View Cache](xml-view-cache-3d85d5e.md "To be able to speed up processing times of XML views that make heavy use of the
+		preprocessor feature, you can use the view cache to store its processed XML source. Then
+		according network requests for the source and all preprocessor runs that modify the XML
+		source are skipped and the source is taken from the cache.")**  
+To be able to speed up processing times of XML views that make heavy use of the preprocessor feature, you can use the view cache to store its processed XML source. Then according network requests for the source and all preprocessor runs that modify the XML source are skipped and the source is taken from the cache.
+-   **[Require Modules in XML View and Fragment](require-modules-in-xml-view-and-fragment-b11d853.md "Modules can be required in XML views and fragments and assigned to aliases which can be
+		used as variables in properties, event handlers, and bindings.")**  
+Modules can be required in XML views and fragments and assigned to aliases which can be used as variables in properties, event handlers, and bindings.
 
 **Related Information**  
 

@@ -1,6 +1,6 @@
 <!-- loioeded636b85584cd586b1fe231d2b5dac -->
 
-## JavaScript Coding Guidelines
+# JavaScript Coding Guidelines
 
 Provides an overview of the guidelines for JavaScript coding for OpenUI5.
 

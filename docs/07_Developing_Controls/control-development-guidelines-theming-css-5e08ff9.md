@@ -1,12 +1,12 @@
 <!-- loio5e08ff90b7434990bcb459513d8c52c4 -->
 
-## Control Development Guidelines: Theming/CSS
+# Control Development Guidelines: Theming/CSS
 
 For themes and CSS for control development in OpenUI5, the following guidelines apply.
 
+***
 
-
-### General Guidelines
+## General Guidelines
 
 -   Write semicolons, even where optional.
 
@@ -44,9 +44,9 @@ For themes and CSS for control development in OpenUI5, the following guidelines 
 
 
 
+***
 
-
-### Naming
+## Naming
 
 The following naming guidelines apply:
 
@@ -57,9 +57,9 @@ The following naming guidelines apply:
     For example, `sapUiBtn` for a `Button` control, or `sapMITB` for an `IconTabBar` in the `sap.m` library. This class must be written to the HTML root element of the control. All CSS classes within the HTML of this control must append a suffix to this class name, for example: `sapUiBtnInner` or `sapMITBHeader`.
 
 
+***
 
-
-### Images
+## Images
 
 Themes \(including "base"\) should only refer to existing images inside that theme. Images will be loaded relative to the theme where they are referenced \(see LESS option `"relativeUrls"`\)
 
@@ -71,11 +71,11 @@ These URL transformations assume a single repository for all sources. When resou
 
 To override an image within the base theme an additional rule has to be added to the individual theme referencing the image. Otherwise the base image will be loaded.
 
-
+***
 
 <a name="loio5e08ff90b7434990bcb459513d8c52c4__section_rwz_wl3_1bc"/>
 
-### CSS Math Functions
+## CSS Math Functions
 
 [CSS Math Functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#math_functions) must be escaped in LESS to prevent incorrect calculations and syntax errors.
 
@@ -95,9 +95,9 @@ To override an image within the base theme an additional rule has to be added to
 }
 ```
 
+***
 
-
-### LESS Theme Parameters
+## LESS Theme Parameters
 
 For LESS theme parameters, the following guidelines apply:
 

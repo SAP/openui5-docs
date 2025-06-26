@@ -1,6 +1,6 @@
 <!-- loioc1025c2e30a748ae82e929cb7f6d2f9a -->
 
-## Upgrading from a Version Below 1.38
+# Upgrading from a Version Below 1.38
 
 When upgrading to the current OpenUI5 version from a version below 1.38 \(released in June 2016\), check whether the changes listed below influence your apps.
 
@@ -11,21 +11,21 @@ This upgrade may impact your OpenUI5 apps. The following sections give an overvi
 > ### Note:  
 > If you use additional open-source libraries that depend on jQuery, check whether they need to be upgraded as well.
 
+***
 
+## jQuery.Event
 
-### jQuery.Event
+***
 
-
-
-#### Problem
+### Problem
 
 jQuery removed some robustness checks in its event handling code. Without these checks, the `jQuery.trigger` function must only be called with events that either have no `originalEvent` property or where the `originalEvent` has all methods that `window.Event implements` \(especially `preventDefault`, `stopPropagation` and `stopImmediatePropagation`\).
 
 When a `jQuery.Event` is constructed with an object literal \(`properties`\) or when `originalEvent` is set to some object after construction, this constraint is not fulfilled. Unfortunately, many OpenUI5 unit tests used this approach to simulate mouse or key events.
 
+***
 
-
-#### Solution
+### Solution
 
 For each code that creates events, you have to apply the following fix:
 
@@ -33,73 +33,73 @@ The module `QUnitUtils` now rewrites the `jQuery.Event` constructor so that any 
 
 Application code that needs to simulate an event, either should omit the `originalEvent` or use `Event.create` to create a native event and only then create a `jQuery.Event`.
 
+***
 
+## jQuery.fn.position
 
-### jQuery.fn.position
+***
 
-
-
-#### Problem
+### Problem
 
 `jQuery.fn.position` now takes the scroll positions of the parent element into account. This change was recoginzed as incompatible by the jQuery team and reverted with version 2.2.1.
 
+***
 
-
-#### Solution
+### Solution
 
 Nothing, this is automatically fixed.
 
+***
 
+## jQuery.now
 
-### jQuery.now
+***
 
-
-
-#### Problem
+### Problem
 
 `jQuery.now` is now set to `Date.now` for all browsers. But as the jQuery property represents a separate reference to that function, it is not touched by code that modifies `Date.now`, especially not by Sinon fake timers. Therefore Sinon fake timers don't work with jQuery 2.2 if Sinon is started after `jQuery`.
 
+***
 
-
-#### Solution
+### Solution
 
 As a workaround, `QUnitUtils` redefines `jQuery.now` so that it delegates to the current `Date.now`. This will then use any installed fake timer.
 
+***
 
+## :visible selector
 
-### :visible selector
+***
 
-
-
-#### Problem
+### Problem
 
 Somewhere between jQuery 1.11.1 and 2.2.0, the behavior of the `:visible` selector has changed. For empty inline elements \(for example, a `span` with no text\), the selector now reports `:visible = true` whereas jQuery 1.1.1 reported it as `hidden`. There was only one functionality in the `sap.ui.dt` library where this change in behavior caused problems.
 
+***
 
-
-#### Solution
+### Solution
 
 Instead of using `:visible`, that functionality now uses its own implementation similar to jQuery 1.11.1.
 
+***
 
+## jQuery.isPlainObject
 
-### jQuery.isPlainObject
+***
 
-
-
-#### Problem
+### Problem
 
 jQuery 2.2.0 simplified the implementation of `jQuery.isPlainObject`. As a side-effect, objects with a `constructor` property with a non-function value \(like a `string` value\) caused a runtime error when `jQuery.isPlainObject` was applied.
 
+***
 
-
-#### Solution
+### Solution
 
 This issue is fixed with jQuery 2.2.2.
 
+***
 
-
-### Descriptor for Applications, Components, and Libraries
+## Descriptor for Applications, Components, and Libraries
 
 If you want to add new attributes of a descriptor version higher than V2 \(SAPUI5 1.30\) to your existing `manifest.json` file, see [Migration Information for Upgrading the Manifest File](../04_Essentials/migration-information-for-upgrading-the-manifest-file-a110f76.md).
 

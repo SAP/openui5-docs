@@ -1,12 +1,10 @@
 <!-- loiocfabbd4dfc054936997d9d00916e1668 -->
 
-## Integrating the Rules in OPA Tests
+# Integrating the Rules in OPA Tests
 
 The Support Assistant can be used as part of an existing OPA test to cover more test aspects of the application.
 
-
-
-### Context
+***
 
 The Support Assistant can be used in OPA tests to check if there are issues in the different states of the application. To do that, you need to use the Support Assistant OPA extension. This extension is available as of version 1.48. It provides three assertions:
 
@@ -41,9 +39,7 @@ This special URL parameter could be used temporarily in cases when you extend an
 > ### Note:  
 > When the `sap-skip-rules-issues` URL parameter is set, it affects all tests globally, unlike the `FailOnAnyIssues` parameters, which only affect a specific test level.
 
-
-
-### Procedure
+***
 
 1.  Enable the Support Assistant OPA extension in the OPA configuration file.
 

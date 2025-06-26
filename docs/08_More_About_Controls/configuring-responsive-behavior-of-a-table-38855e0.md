@@ -1,6 +1,6 @@
 <!-- loio38855e06486f4910bfa6f4485f7c2bac -->
 
-## Configuring Responsive Behavior of a Table
+# Configuring Responsive Behavior of a Table
 
 OpenUI5 supports column-based and row-based solutions to support flexible and clearly arranged tables.
 
@@ -19,9 +19,9 @@ If we apply these decisions we just made, our mobile devices should now look lik
 
 ![](images/loioe3cdfd6815bf4536a3498cadbe3fc2c7_LowRes.png)
 
+***
 
-
-### Responsive Column Control
+## Responsive Column Control
 
 You can control the responsive table design using the API of `sap.m.Column`. This control provides two properties to handle column hiding and the pop-in behavior.
 
@@ -38,11 +38,11 @@ And that's it! All you need to know are these two variables for responsive table
 > ### Note:  
 > To achieve a valid table design, at least one column should always be visible and should **not** go into the pop-in area.
 
-
+***
 
 <a name="loio38855e06486f4910bfa6f4485f7c2bac__section_eyg_trg_5pb"/>
 
-### Automatic Pop-In Feature
+## Automatic Pop-In Feature
 
 There is an alternative configuration for simpler cases: Let `sap.m.Table` itself take control of the responsive behavior.
 
@@ -74,11 +74,11 @@ For more information, see the [Sample](https://ui5.sap.com/#/entity/sap.m.Table/
 > 
 > -   The `demandPopin` and `minScreenWidth` properties of a column are configured by the responsive table. `minScreenWidth` is determined based on the `width` or `autoPopinWidth` properties of the column if this feature is enabled. If there are any custom settings for the `demandPopin` and `minScreenWidth` properties, they will be overwritten by this feature.
 
-
+***
 
 <a name="loio38855e06486f4910bfa6f4485f7c2bac__section_acy_rkh_5pb"/>
 
-### API Reference
+## API Reference
 
 -   [sap.m.Table](https://ui5.sap.com/#/api/sap.m.Table)
 -   [sap.m.Column](https://ui5.sap.com/#/api/sap.m.Column)

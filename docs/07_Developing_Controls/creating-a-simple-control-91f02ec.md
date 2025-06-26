@@ -1,6 +1,6 @@
 <!-- loio91f02ece6f4d1014b6dd926db0e91070 -->
 
-## Creating a Simple Control
+# Creating a Simple Control
 
 Example of a simple control with a `name` property
 

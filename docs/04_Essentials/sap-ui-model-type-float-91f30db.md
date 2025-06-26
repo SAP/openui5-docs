@@ -1,6 +1,6 @@
 <!-- loio91f30dbf6f4d1014b6dd926db0e91070 -->
 
-## sap.ui.model.type.Float
+# sap.ui.model.type.Float
 
 The `Float` data type represents a float value.
 

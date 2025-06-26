@@ -1,6 +1,6 @@
 <!-- loio91f3d8706f4d1014b6dd926db0e91070 -->
 
-## Securing Apps
+# Securing Apps
 
 The following section provides information about security aspects of OpenUI5. The information is intended for OpenUI5 application and control developers, as well as to system administrators running applications based on OpenUI5.
 
@@ -10,12 +10,43 @@ While this brings a lot of freedom and possibilities for the application, it com
 
 Moreover, common security mechanisms, which are usually taken for granted, like user authentication, session handling, authorization handling, or encryption are not part of OpenUI5 and need to be handled by the server-side framework and/or custom code of the application.
 
+***
 
-
-### Further Reading
+## Further Reading
 
 OpenUI5 is not bound to any server implementation or server-side programming language and can, thus, be used with SAP NetWeaver AS for ABAP, Java, HANA XS Engine, or any standard web server. Therefore, the corresponding Security Guides also apply to OpenUI5.
 
 > ### Note:  
 > We highly recommend that you implement SAP Note [1582870](https://me.sap.com/notes/1582870) for ABAP XSS escaping support, in case you are running on SAP\_BASIS lower than 730.
+
+-   **[Content Security Policy](content-security-policy-fe1a6db.md "Content Security Policy (CSP) adds an additional layer of security that can detect and mitigate certain types of attacks, such as
+		cross-site scripting and data injection.")**  
+Content Security Policy \(CSP\) adds an additional layer of security that can detect and mitigate certain types of attacks, such as cross-site scripting and data injection.
+-   **[Browser Security](browser-security-91f3b66.md "Browser security comprises several topics such as cross-site scripting, clickjacking,
+		and local storage.")**  
+Browser security comprises several topics such as cross-site scripting, clickjacking, and local storage.
+-   **[Transport Security](transport-security-91f3e60.md "Transport security comprises topics such as encryption and session
+		security.")**  
+Transport security comprises topics such as encryption and session security.
+-   **[Server Security](server-security-91f3cac.md "Server security comprises topics such as cross-origin resource sharing and resource
+		handlers.")**  
+Server security comprises topics such as cross-origin resource sharing and resource handlers.
+-   **[Third-Party Libraries](third-party-libraries-91f3df4.md "For the third party libraries shipped with OpenUI5, security-related issues have to be
+		observed. ")**  
+For the third party libraries shipped with OpenUI5, security-related issues have to be observed.
+-   **[Secure Programming Aspects](secure-programming-aspects-91f3c40.md "The secure programming guide introduces topics that developers should note.")**  
+The secure programming guide introduces topics that developers should note.
+-   **[Cross-Site Scripting](cross-site-scripting-91f0bd3.md "Cross-site scripting (XSS) is a widely known vulnerability most web sites have. This
+		page does not provide general information about cross-site scripting but focuses on what you
+		as an application developer using OpenUI5 can do to avoid these security issues.")**  
+Cross-site scripting \(XSS\) is a widely known vulnerability most web sites have. This page does not provide general information about cross-site scripting but focuses on what you as an application developer using OpenUI5 can do to avoid these security issues.
+-   **[URL List Validation](url-list-validation-91f3768.md "The OpenUI5 framework provides a client-side API to manage allowed URLs using
+		the URLListValidator. It can be used to validate arbitrary URLs.")**  
+The OpenUI5 framework provides a client-side API to manage allowed URLs using the `URLListValidator`. It can be used to validate arbitrary URLs.
+-   **[Allowlist Service](allowlist-service-d04a6d4.md "SAPUI5 supports the configuration of a central allowlist service.")**  
+SAPUI5 supports the configuration of a central allowlist service.
+-   **[Frame Options](frame-options-62d9c4d.md "The frame-options configuration of OpenUI5 is a client-side
+		feature that is used to prevent security vulnerabilities like clickjacking, that is, situations where a user could be misled to use the
+		targeted application unintentionally.")**  
+The `frame-options` configuration of OpenUI5 is a client-side feature that is used to prevent security vulnerabilities like clickjacking, that is, situations where a user could be misled to use the targeted application unintentionally.
 

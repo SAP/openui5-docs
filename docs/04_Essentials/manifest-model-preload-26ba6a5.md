@@ -1,6 +1,6 @@
 <!-- loio26ba6a5c1e5c417f8b21cce1411dba2c -->
 
-## Manifest Model Preload
+# Manifest Model Preload
 
 The `preload` flag enables a preload mode for a model, thus improving the startup performance of an app or component.
 

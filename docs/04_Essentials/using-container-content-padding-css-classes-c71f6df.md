@@ -1,6 +1,6 @@
 <!-- loioc71f6df62dae47ca8284310a6f5fc80a -->
 
-## Using Container Content Padding CSS Classes
+# Using Container Content Padding CSS Classes
 
 For many container controls in OpenUI5, such as a Dialog or a Page, you can define whether the container should have a padding within the content area. A padding clears the area between the container layout and the controls that are displayed in the content area.
 
@@ -39,7 +39,7 @@ The following list of controls support container content padding CSS classes:
 -   `sap.ui.layout.HorizontalLayout`
 -   `sap.ui.layout.VerticalLayout`
 
-
+***
 
 ## Example
 
@@ -48,9 +48,12 @@ The following list of controls support container content padding CSS classes:
 <Page class="sapUiResponsiveContentPadding">
 ```
 
-
+***
 
 You can check how our container padding classes work in the following sample [Samples for `sap.ui.core.ContainerPadding`](https://ui5.sap.com/#/entity/sap.ui.core.ContainerPadding).
 
 If you have to apply responsive paddings over separate parts of the control according to the control width, see [Enabling Responsive Paddings According to the Control Width](enabling-responsive-paddings-according-to-the-control-width-3b718b5.md)
+
+-   **[Enabling Responsive Paddings According to the Control Width](enabling-responsive-paddings-according-to-the-control-width-3b718b5.md "Apply responsive paddings over separate parts of the controls.")**  
+Apply responsive paddings over separate parts of the controls.
 

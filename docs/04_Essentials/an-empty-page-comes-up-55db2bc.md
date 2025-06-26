@@ -1,6 +1,6 @@
 <!-- loio55db2bc60d694d1eacab4d4410f5dc46 -->
 
-## An Empty Page Comes Up
+# An Empty Page Comes Up
 
 You find yourself in one of these situations:
 
@@ -9,9 +9,9 @@ You find yourself in one of these situations:
 -   An `Uncaught Error` message is shown in the developer console
 
 
+***
 
-
-### Preview
+## Preview
 
   
   
@@ -20,9 +20,9 @@ You find yourself in one of these situations:
 ![](images/loio873b3c2966e64bc2b080d8f4a5ae70fc_LowRes.png "The browser displays an empty page and an Uncaught Error is issued in
 					the console")
 
+***
 
-
-### Root Cause
+## Root Cause
 
 This can happen for one of the following reasons:
 
@@ -37,13 +37,13 @@ This can happen for one of the following reasons:
 -   The root view is missing a root control.
 
 
+***
 
+## Resolution
 
-### Resolution
+***
 
-
-
-#### Console shows `"ReferenceError: sap is not defined"`
+### Console shows `"ReferenceError: sap is not defined"`
 
 Have a look at the `resource` path in the bootstrap of the HTML page you are trying to open. The path to the file `sap-ui-core.js` is probably incorrect and needs to point to the path where the OpenUI5 resources are located \(typically globally under `/resources` or locally under `resources`\).
 
@@ -51,23 +51,23 @@ Other development environments might need the resources to be copied to the serv
 
 Alternatively, you can use the CDN version \(see [Variant for Bootstrapping from Content Delivery Network](variant-for-bootstrapping-from-content-delivery-network-2d3eb2f.md)\).
 
+***
 
-
-#### Console shows `SyntaxError: <error details>`
+### Console shows `SyntaxError: <error details>`
 
 A JavaScript error in the application code throws an exception and stops all subsequent execution. Take a look at the error details: In most cases, the root cause is mentioned in the first line of the error message.
 
 The stack trace can provide more context on the execution scope. Analyze it from thoroughly to find a line referencing your application code and start debugging there.
 
+***
 
-
-#### Console shows `Error: Invalid XML`
+### Console shows `Error: Invalid XML`
 
 If the XML view to be displayed cannot be parsed, OpenUI5 stops the execution and throws a parse error. Check the XML view for namespace issues, typos, and missing closing tags. Do a schema validation with an XML validator tool.
 
+***
 
-
-#### Console shows `Uncaught Error: failed to load 'sap/m/xxxxx.js'`
+### Console shows `Uncaught Error: failed to load 'sap/m/xxxxx.js'`
 
 During the development on Microsoft Windows, your app works fine, but a soon as you deploy it on a Linux system, only an empty page comes up.
 
@@ -108,9 +108,9 @@ Error message: `Uncaught Error: failed to load 'sap/m/button.js'`
 > 
 > Aggregations always start with lowercase letters like `<content>`, `<l:fixContent>`, `<f:content>`
 
+***
 
-
-#### Console shows no error
+### Console shows no error
 
 Your root view is missing a root control. In the context of OpenUI5, `sap.m.App` or `sap.m.SplitApp` function as root controls. Please check your root view \(for example `App.view.xml`\) and add the missing root control.
 

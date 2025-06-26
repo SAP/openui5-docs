@@ -1,12 +1,12 @@
 <!-- loioa1998ecc0853481891f8bc81cf900c9a -->
 
-## Generic Tile
+# Generic Tile
 
 The `GenericTile` control is the basic concept that displays any kind of content within a tile comprising, for example, news, feeds, images, micro charts, or, numeric content.
 
+***
 
-
-### Overview
+## Overview
 
 `GenericTile` controls are responsive and adapt their size to the size of the devices they are used on. The control is available in small and large size. Depending on the size of the screen, the appropriate size of the control is chosen automatically. Therefore, the `size` property is deprecated and should not be used anymore.
 
@@ -60,9 +60,9 @@ If an application provides an own tooltip, the generated tooltip of the `Generic
 
 With this mode, you can switch the visual representation of the `GenericTile` from the rectangular format to an in-line format only by changing the value of the `mode` property and keeping all other settings as already set. After the switch, the API for the tiles and links stays consistent, and the control's ID and the contents stay the same. Only the header and subtitle are rendered.
 
+***
 
-
-### Constraints
+## Constraints
 
 With SAPUI5 1.34, the following controls are moved from the `sap.suite.ui.commons` library to the `sap.m` library:
 

@@ -1,12 +1,10 @@
 <!-- loiod6af195124cf430599530668ddea7425 -->
 
-## Programmatically Instantiating XML Fragments
+# Programmatically Instantiating XML Fragments
 
 For each fragment type, OpenUI5 provides a method that can be used to programmatically instantiate a fragment.
 
-
-
-### Context
+***
 
 To give an example of a programmatic instantiation of an XML fragment, you first have to define one. The following code presents an example definition:
 

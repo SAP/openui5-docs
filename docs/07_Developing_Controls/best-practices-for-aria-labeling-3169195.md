@@ -1,12 +1,12 @@
 <!-- loio3169195311f84bdcb63703c1de84b14e -->
 
-## Best Practices for ARIA Labeling
+# Best Practices for ARIA Labeling
 
 Sometimes the UI and the control usage may not allow standard ARIA labeling. Here we introduce some best practices on handling the labels in these cases.
 
+***
 
-
-### **Adding additional labeling to existing controls**
+## **Adding additional labeling to existing controls**
 
 **Use Case:**
 
@@ -32,9 +32,9 @@ Introduce the following association to controls:
 
 This association can be used to point to other controls that provide the needed labeling using the `aria-labelledby` property.
 
+***
 
-
-### **No suitable labeling text available on the UI which can be used with `aria-labelledby`**
+## **No suitable labeling text available on the UI which can be used with `aria-labelledby`**
 
 **Use Case:**
 
@@ -44,9 +44,9 @@ In some cases a suitable labeling text may not be available on the UI or it is h
 
 Use the new control `sap.ui.core.InvisibleText` which provides a hidden text and can be referenced in the `ariaLabelledBy` association.
 
+***
 
-
-### **Using the `labelFor` attribute together with `aria-labelledby`**
+## **Using the `labelFor` attribute together with `aria-labelledby`**
 
 **Use Case:**
 
@@ -56,9 +56,9 @@ The `labelFor` attribute provides additional benefits besides the pure labeling 
 
 A mapping table is introduced. The table is ID-based and matches label and labeled control. The `writeAccessibilityState` function of the `RenderManager` takes the mappings into account and adds the label to the `aria-labelledby` attribute of the labeled control \(only when an `ariaLabelledBy` association is also present\).
 
+***
 
-
-### **Internal labeling within a control**
+## **Internal labeling within a control**
 
 **Use Case:**
 

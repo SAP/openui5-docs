@@ -1,6 +1,6 @@
 <!-- loio9d00ac7f35734554ac9d11de5f3d4dbe -->
 
-## What's New in OpenUI5 1.123
+# What's New in OpenUI5 1.123
 
 With this release OpenUI5 is upgraded from version 1.122 to 1.123.
 
@@ -354,6 +354,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

@@ -1,10 +1,10 @@
 <!-- loio91c10c22e72448ca8b78d12f74169c18 -->
 
-## What's New in OpenUI5 1.90
+# What's New in OpenUI5 1.90
 
 With this release OpenUI5 is upgraded from version 1.89 to 1.90.
 
-
+***
 
 ****
 
@@ -470,6 +470,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

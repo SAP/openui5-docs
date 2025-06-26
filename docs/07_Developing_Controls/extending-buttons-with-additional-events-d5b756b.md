@@ -1,6 +1,6 @@
 <!-- loiod5b756bf4e9a4d67961fa21e1ba12c9e -->
 
-## Extending Buttons with Additional Events
+# Extending Buttons with Additional Events
 
 Example of a button control that is extended with additional events.
 

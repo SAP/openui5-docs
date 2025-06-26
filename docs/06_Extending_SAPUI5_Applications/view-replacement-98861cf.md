@@ -1,6 +1,6 @@
 <!-- loio98861cf90b874e3394b666cfb347ff0b -->
 
-## View Replacement
+# View Replacement
 
 Views of a delivered standard application can be replaced to adapt the application to the customer needs.
 

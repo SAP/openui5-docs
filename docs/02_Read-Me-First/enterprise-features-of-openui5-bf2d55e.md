@@ -1,6 +1,6 @@
 <!-- loiobf2d55eaa33b44a78ef95e7946d658e8 -->
 
-## Enterprise Features of OpenUI5
+# Enterprise Features of OpenUI5
 
 OpenUI5 offers many powerful enterprise features to support your entire app development project.
 
@@ -19,11 +19,11 @@ The individual capabilities of OpenUI5 help you to easily build enterprise apps.
 -   **Benefit from innovations**: OpenUI5 brings a clear lifecycle separation of application and framework code to centrally innovate while being upgrade-compatible.
 
 
-
+***
 
 <a name="loiobf2d55eaa33b44a78ef95e7946d658e8__section_rbj_jfg_cgb"/>
 
-### Key Concepts
+## Key Concepts
 
 Hover over the shapes to find out more about some key benefits of OpenUI5.
 

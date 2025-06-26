@@ -1,6 +1,6 @@
 <!-- loioa0cb7a06b6784df892eef427e4714351 -->
 
-## What's New in OpenUI5 1.44
+# What's New in OpenUI5 1.44
 
 With this release OpenUI5 is upgraded from version 1.42 to 1.44.
 
@@ -772,7 +772,7 @@ User Documentation
 
 **Testing Tutorial**
 
-The **Testing** tutorial has been enhanced with two additional steps. For more information, see [Testing Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/291c9121e6044ab381e0b51716f97f52.html "In this tutorial we will test application functionality with the testing tools that are delivered with SAPUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.") :arrow_upper_right:.
+The **Testing** tutorial has been enhanced with two additional steps. For more information, see [Testing Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/291c9121e6044ab381e0b51716f97f52.html "In this tutorial we will test application functionality with the testing tools that are delivered with SAPUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.") :arrow_upper_right:.
 
 <sub>Changed•User Documentation•Info Only•1.44</sub>
 
@@ -844,6 +844,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

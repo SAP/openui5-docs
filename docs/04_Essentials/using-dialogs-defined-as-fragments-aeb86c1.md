@@ -1,12 +1,10 @@
 <!-- loioaeb86c181b9742a2bf88049abf9ccb95 -->
 
-## Using Dialogs Defined as Fragments
+# Using Dialogs Defined as Fragments
 
 The fragment instantiation function always returns the fragment's root control, which is a dialog control that can be used like any dialog.
 
-
-
-### Context
+***
 
 In the following example, the dialog is opened immediately:
 

@@ -1,20 +1,20 @@
 <!-- loioa2c67acd17a948ee89344676762e0c2a -->
 
-## Creating Themable User Interfaces
+# Creating Themable User Interfaces
 
 There are several things you should keep in mind to ensure that an application can actually be themed.
 
+***
 
-
-### General Aspects
+## General Aspects
 
 Do not hard-code colors and fonts if you want your control or application to be themable in the theme designer tool.
 
 For example, if you hard-coded the font color to black, this color cannot be adjusted when you apply a custom theme. This can be problematic if you want to apply a custom theme with a dark background color because the font color cannot be adjusted to a light color.
 
+***
 
-
-### Stable Theme Parameters
+## Stable Theme Parameters
 
 -   Themes in OpenUI5 are built with the CSS preprocessor [LESS](http://lesscss.org/) and make use of a complex parameter structure.
 -   You can view the entire set of basic theme parameters in this [sample](https://ui5.sap.com/#/entity/sap.ui.core.theming/sample/sap.ui.core.sample.BasicThemeParameters) in the Demo Kit.
@@ -32,9 +32,9 @@ For example, if you hard-coded the font color to black, this color cannot be adj
 
 -   For charts, two individual sets are available, Chart Accent and Chart Semantic. Both sets are logically independent. Therefore only one of these sets is to be used consistently across individual charts.
 
+***
 
-
-### Tips for OpenUI5 Application Developers Writing Custom HTML
+## Tips for OpenUI5 Application Developers Writing Custom HTML
 
 -   LESS parameters are not accessible via CSS and only support standard libraries.
 -   To ensure theme-dependent styling, only use basic theme parameters.
@@ -47,9 +47,9 @@ For example, if you hard-coded the font color to black, this color cannot be adj
     ```
 
 
+***
 
-
-### Tips for OpenUI5 Control Developers
+## Tips for OpenUI5 Control Developers
 
 -   Use the theme LESS parameters in CSS class definitions and rules.
 -   Use the appropriate level of parameters for the control, creating new ones as appropriate. For example, do not use color values or quick theming parameters directly in CSS rules.

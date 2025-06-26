@@ -1,16 +1,16 @@
 <!-- loio91f0bd316f4d1014b6dd926db0e91070 -->
 
-## Cross-Site Scripting
+# Cross-Site Scripting
 
 Cross-site scripting \(XSS\) is a widely known vulnerability most web sites have. This page does not provide general information about cross-site scripting but focuses on what you as an application developer using OpenUI5 can do to avoid these security issues.
 
 To give a short info on XSS: It is about injecting script code into a web page, which is then executed in the context of the page and therefore not only can access any information which currently displayed on the screen but can either access session information contained in cookies, or send new requests to the server within the current session, or even try to exploit browser vulnerabilities to get full access to the machine the browser is running on.
 
-
+***
 
 <a name="loio91f0bd316f4d1014b6dd926db0e91070__section_04390290F9604EFFB4DB3019FA3E9F73"/>
 
-### Cross-site Scripting in OpenUI5-based Web Applications
+## Cross-site Scripting in OpenUI5-based Web Applications
 
 AJAX frameworks in general are an interesting target for XSS exploits, as not only the HTML which is initially sent to the browser may contain vulnerabilities, but also the code which is used to visualize content on the client side may have bugs which can be exploited to get the JavaScript coding executed on the client side. In addition to that, once a script has injected an AJAX application, it will be alive for a long time, as usually navigation will not reload the whole page which would also clean up any running JavaScript code, but stays within the same HTML document and uses a delta update mechanism to show new content.
 
@@ -18,11 +18,11 @@ It is important to understand that OpenUI5 is not involved in creating the HTML 
 
 The OpenUI5 framework will take care of proper escaping for all content which is created and displayed on the screen using the controls provided by OpenUI5. There is no need for the application to HTML-escape user data, but the control API expects all data to be unescaped, so that it can be escaped as needed for the context it will be visualized.
 
-
+***
 
 <a name="loio91f0bd316f4d1014b6dd926db0e91070__section_fdr_tzl_xcb"/>
 
-### HTML Sanitizer
+## HTML Sanitizer
 
 OpenUI5 reuses the HTML4 sanitizer by Google by adapting it for the use of HTML5 coding. The Google sanitizer also supports CSS3 coding. In addition, the HTML5 sanitizer uses the URL allowlist which checks embedded URLs for correct formatting or against a given allowlist.
 

@@ -1,6 +1,6 @@
 <!-- loio37c52c99a65a4f48811df0d566eb8cb4 -->
 
-## Properties
+# Properties
 
 The `swipeDirection` property for lists and tables is used to configure the direction of the swipe event. This property accepts an enumeration from `sap.m.SwipeDirection?` with the following values:
 

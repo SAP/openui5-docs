@@ -1,10 +1,10 @@
 <!-- loio6393d1d680434ec18b35b8be6e7e96c7 -->
 
-## Messaging Patterns
+# Messaging Patterns
 
 Standard messaging patterns ensure that messages appear at predefined locations.
 
-
+***
 
 The use of standard messaging patterns ensures that system messages appear at predefined locations with a consistent design. For all use cases, see [Message Handling](https://experience.sap.com/fiori-design-web/messaging/) in the Fiori Design Guidelines.
 

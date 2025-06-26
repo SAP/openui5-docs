@@ -1,6 +1,6 @@
 <!-- loiobafc6867041644a9b596370e48a106ee -->
 
-## Product Standards and Acceptance Criteria
+# Product Standards and Acceptance Criteria
 
 To be of high quality and usable in mission-critical business software, OpenUI5 needs to fulfill specific product standards and acceptance criteria. While these are not directly related to code conventions, the most important standards and criteria are mentioned here, because new code needs to fulfill these requirements.
 
@@ -39,4 +39,9 @@ Additional product standard and acceptance criteria for controls:
 
 -   Example page in the *Samples* in the Demo Kit
 
+
+-   **[Annotations in Translation Files](annotations-in-translation-files-8310398.md "All strings for translation have to be annotated to provide more context for
+		translation. An annotation consists of an &quot;X/Y&quot; text type classification, an optional length
+		restriction, and a freetext explanation how the string is used on the UI.")**  
+All strings for translation have to be annotated to provide more context for translation. An annotation consists of an "X/Y" text type classification, an optional length restriction, and a freetext explanation how the string is used on the UI.
 

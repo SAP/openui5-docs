@@ -1,6 +1,6 @@
 <!-- loio6d6b5bda5727419eadcc9cbac1f6e6a1 -->
 
-## init\(\) Method
+# init\(\) Method
 
 The `init()` method can be used to set up, for example, internal variables or subcontrols of a composite control.
 

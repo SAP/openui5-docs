@@ -1,18 +1,18 @@
 <!-- loio516e477e7e0b4e188b19a406e7528c1e -->
 
-## Methods and Events for Navigation
+# Methods and Events for Navigation
 
 OpenUI5 provides a method and events for navigation.
 
+***
 
-
-### Methods
+## Methods
 
 Navigation can be triggered by method `navTo` on `Router` with changing the hash or method `display` on `Targets` for showing a new view without changing the hash.
 
+***
 
-
-#### `navTo` method
+### `navTo` method
 
 Use this method to navigate to the given route and fill the hash with the corresponding data. If the route contains a target, the target is displayed. The listener callbacks of controllers listening to this route are provided with data. When changing the hash, all listeners to this hash are informed.
 
@@ -46,15 +46,15 @@ sap.ui.require([
 
 ```
 
+***
 
-
-#### `display` method
+### `display` method
 
 Use this method to navigate to display one or multiple targets. The method uses the target name or an array of target names as only parameter.
 
+***
 
-
-### Events
+## Events
 
   
   
@@ -62,9 +62,9 @@ Use this method to navigate to display one or multiple targets. The method uses 
 
 ![](images/loio6f245c0eaeae44eaac6413c726661223_LowRes.png "Navigation events")
 
+***
 
-
-#### Events `RouteMatched` on `Router` and `matched` on `Route`
+### Events `RouteMatched` on `Router` and `matched` on `Route`
 
 These events are fired when a hash matches a route or a pattern. The `routeMatched` event is fired if a pattern of any route in the routing configuration is matched. The `matched` event is fired for a specific route.
 
@@ -100,9 +100,9 @@ sap.ui.require([
 });
 ```
 
+***
 
-
-#### `display` event on `Target`
+### `display` event on `Target`
 
 This event is fired on the target instance when this target is added and displayed on the UI. The event has the following parameters:
 
@@ -115,9 +115,9 @@ This event is fired on the target instance when this target is added and display
 -   `data` of the object passed when calling the `display` method
 
 
+***
 
-
-#### `created` event on `Views`
+### `created` event on `Views`
 
 This event is fired on the view/component cache in OpenUI5 routing which can be fetched by calling the `getViews()` method on a router instance every time a new view or component has been created by navigation. The event has the following parameters:
 
@@ -129,7 +129,7 @@ This event is fired on the view/component cache in OpenUI5 routing which can be 
 **Related Information**  
 
 
-[Tutorial: Navigation and Routing](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/1b6dcd39a6a74f528b27ddb22f15af0d.html "SAPUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in SAPUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of SAPUI5 to your applications.") :arrow_upper_right:
+[Tutorial: Navigation and Routing](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/1b6dcd39a6a74f528b27ddb22f15af0d.html "SAPUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in SAPUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of SAPUI5 to your applications.") :arrow_upper_right:
 
 [API Reference: `sap.ui.core.routing`](https://ui5.sap.com/#/api/sap.ui.core.routing)
 

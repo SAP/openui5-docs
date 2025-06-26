@@ -1,6 +1,6 @@
 <!-- loio40986e6343c944279cafbbc6ac07c83d -->
 
-## Draft Handling with the OData V4 Model
+# Draft Handling with the OData V4 Model
 
 A draft is an interim version of a business entity that has not yet been explicitly saved. Drafts are saved automatically in the background whenever users add or change information within a business entity.
 

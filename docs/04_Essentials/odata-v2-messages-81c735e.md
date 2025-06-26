@@ -1,50 +1,50 @@
 <!-- loio81c735e69d354de98b0bd139e4bd4e10 -->
 
-## OData V2 Messages
+# OData V2 Messages
 
 OData V2 messages are created automatically by `sap.ui.model.odata.ODataMessageParser` and processed by the `sap.ui.model.odata.v2.ODataModel`.
 
+***
 
-
-### Target
+## Target
 
 The target of these messages can be empty. In this case, the message has no specific target and is relevant for the whole application. If a target is set, it must correspond to a binding path which is then used to propagate the message to the corresponding bindings. If these bindings belong to a control that implements the `refreshDataState` function, the control is able to react to data state changes.
 
+***
 
-
-### Lifecycle
+## Lifecycle
 
 OData V2 messages are kept until a message from the server for the same path arrives. The server always sends all messages for a specific target which means that all current messages are replaced with the ones sent by the server, except for `persistent` UI messages. Back-end messages with the `transition` property set to `true` are parsed to `persistent` UI messages.
 
-
+***
 
 <a name="loio81c735e69d354de98b0bd139e4bd4e10__section_ypv_nbj_rhb"/>
 
-### Automatically Created Messages
+## Automatically Created Messages
 
 The `sap.ui.model.odata.v2.ODataModel` supports automatic parsing of OData V2 messages by means of `sap.ui.model.odata.ODataMessageParser`.
 
 For other back-end service types, an application can implement its own parser, see [Implementing Your Own OData V2 Message Parser](implementing-your-own-odata-v2-message-parser-2e532e6.md).
 
-
+***
 
 <a name="loio81c735e69d354de98b0bd139e4bd4e10__section_ydt_pbj_rhb"/>
 
-### OData V2 Message Parser
+## OData V2 Message Parser
 
 The `ODataMessageParser` is created automatically for all `v2.ODataModel` instances and parses all responses from the server. The `ODataModel` implements the message processor interface and is used to propagate the messages to the `sap.ui.core.Messaging` module. In case of an error response, the response body is parsed for error messages. In case of a successful response, the "sap-message" header is parsed as a JSON-formatted error object. The name of the header field can be changed by calling the `setHeaderField()` method on the `ODataMessageParser`.
 
-
+***
 
 <a name="loio81c735e69d354de98b0bd139e4bd4e10__section_mzk_rbj_rhb"/>
 
-### Troubleshooting for the OData V2 Message Parser
+## Troubleshooting for the OData V2 Message Parser
 
 In this section you find known restrictions of the `ODataMessageParser` and how you can resolve issues with unexpected numbers of UI messages.
 
+***
 
-
-#### Duplicate messages with different targets
+### Duplicate messages with different targets
 
 Mulitple OData changes that are part of the same change set are send as batch request to the back end, for example:
 
@@ -73,9 +73,9 @@ This leads to two UI message objects with the following message targets:
 
 **Solution**: The message target has to be defined in the back-end error message. By this, only one UI message which represents the failed change is created and pushed into the central message model. Otherwise, the `ODataMessageParser` creates a separate error message for every change included in the change set.
 
+***
 
-
-#### Duplicate messages with the same target
+### Duplicate messages with the same target
 
 The OData service error response can also contain multiple inner-errors to deliever more than one error message to the front end. The inner-error messages should generally be used to describe the problem in more detail, for example
 
@@ -104,9 +104,9 @@ The OData service error response can also contain multiple inner-errors to delie
 
 **Hint**: The duplicate detection only works for request body error messages. For request header error messages, the unwanted outer-error must be filtered out in the front end. As an alternative, the outer-error could already represent the first detailed error, see the example error with message *Object 1 already exists*.
 
+***
 
-
-#### Scenario 3: Missing UI messages
+### Scenario 3: Missing UI messages
 
 This can happen when an OData entity is changed and the same entity is requested again shortly afterwards. The change and the read operation could also be part of the same batch request, for example:
 

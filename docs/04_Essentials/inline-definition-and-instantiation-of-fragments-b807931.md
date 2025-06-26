@@ -1,6 +1,6 @@
 <!-- loiob807931a353649859a92f7c7bf1111e3 -->
 
-## Inline Definition and Instantiation of Fragments
+# Inline Definition and Instantiation of Fragments
 
 Instead of defining fragments externally in a separate file, they can also be defined inline and can be instantiated immediately.
 
@@ -8,9 +8,9 @@ The content definition and also the instantiation syntax are just the same compa
 
 JS fragment definitions can be done both inline and within a separate file without any changes. An example inline definition of an XML fragment is given below:
 
+***
 
-
-### Example of an Inline XML Fragment
+## Example of an Inline XML Fragment
 
 ```xml
 // define the XML fragment as a string (or load it from anywhere)

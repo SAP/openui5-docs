@@ -1,6 +1,6 @@
 <!-- loio958ead51e2e94ab8bcdc90fb7e9d53d0 -->
 
-## Components
+# Components
 
 Components are independent and reusable parts used in OpenUI5 applications.
 
@@ -26,11 +26,11 @@ Components are loaded and created via the component factory function `sap.ui.com
 
 After loading the descriptor, the component factory can load the dependencies \(OpenUI5 libraries and other dependent components\) in parallel next to the component preload, and also models can be preloaded.
 
-
+***
 
 <a name="loio958ead51e2e94ab8bcdc90fb7e9d53d0__section_N10059_N10011_N10001"/>
 
-### Structure of a Component
+## Structure of a Component
 
 A component is organized in a unique namespace, the namespace of the component equals the component name.
 
@@ -45,9 +45,9 @@ The following figure gives an example of a component folder structure.
 
 The `ComponentContainer` control wraps a UI component. You use the `ComponentContainer` control in the OpenUI5 control tree in the same way as any other control.
 
+***
 
-
-### Differentiation to Other Concepts in OpenUI5
+## Differentiation to Other Concepts in OpenUI5
 
 The following list explains how other concepts used in OpenUI5 are distinguished from the OpenUI5 components concept:
 
@@ -67,6 +67,26 @@ The following list explains how other concepts used in OpenUI5 are distinguished
 
     The MVC concept allows to define views and controllers and, thus, to structure and reuse parts within an application. As MVC can only be deployed separately and has no means to define dependent styles or scripts that are loaded together with a view, this concept is of limited use across different applications.
 
+
+-   **[Component Controller](component-controller-27ce0e4.md "The component controller is a script file (written in either JavaScript or TypeScript) that provides the runtime metadata and contains the
+		component methods.")**  
+The component controller is a script file \(written in either JavaScript or TypeScript\) that provides the runtime metadata and contains the component methods.
+-   **[Using and Nesting Components](using-and-nesting-components-346599f.md "You can use a ComponentContainer to wrap a
+			UIComponent and reuse it anywhere within the OpenUI5 control tree. With the
+			ComponentContainer you can nest components inside other
+		components.")**  
+You can use a `ComponentContainer` to wrap a `UIComponent` and reuse it anywhere within the OpenUI5 control tree. With the `ComponentContainer` you can nest components inside other components.
+-   **[Declarative API for Initial Components](declarative-api-for-initial-components-82a0fce.md "The declarative API enables you to define the initially started component directly in
+		the HTML markup.")**  
+The declarative API enables you to define the initially started component directly in the HTML markup.
+-   **[Handling IDs in UI Components](handling-ids-in-ui-components-562803c.md "Components are usually used with a root view and in this case, the component handles the
+		prefixing of IDs of views, elements, or controls, with the component ID.")**  
+Components are usually used with a root view and in this case, the component handles the prefixing of IDs of views, elements, or controls, with the component ID.
+-   **[The Owner Component](the-owner-component-a7a3138.md "If you wish to extend your view or controller, you must define the extension in the manifest.json of their owner component.")**  
+If you wish to extend your view or controller, you must define the extension in the manifest.json of their owner component.
+-   **[Advanced Concepts for OpenUI5 Components](advanced-concepts-for-openui5-components-ecbc417.md "Advanced concepts for components include routing and navigation and component data as
+		well as the event bus.")**  
+Advanced concepts for components include routing and navigation and component data as well as the event bus.
 
 **Related Information**  
 

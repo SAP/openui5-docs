@@ -1,6 +1,6 @@
 <!-- loio616a3ef07f554e20a3adf749c11f64e9 -->
 
-## Technical Information Dialog
+# Technical Information Dialog
 
 The *Technical Information* dialog shows details of the OpenUI5 version currently being used in an app built with OpenUI5. You can use the *Technical Information* dialog to enable debug resources and open additional support tools to debug your app.
 
@@ -27,7 +27,7 @@ You can download the technical information, so that you can attach it to a ticke
 
 <!-- copyda1306a437244116b156c4428b3c5b5f -->
 
-### Loading Debug Sources
+## Loading Debug Sources
 
 For performance reasons, the OpenUI5 files are loaded in a minified version, this means that all possible variable names are shortened and comments are removed. This makes debugging harder because the code is less readable.
 
@@ -62,11 +62,11 @@ Choose [Ctrl\] + [O\]  \(Windows\) or [Command\] + [O\]  \(macOS\) and type the 
 
 <!-- loiob5dcf47c7d4a4228ab40d77f835648e3 -->
 
-### Technical Information Dialog on Mobile Devices
+## Technical Information Dialog on Mobile Devices
 
 On mobile devices, the *Technical Information* dialog provides some additional features.
 
-
+***
 
 -   *Configurations \(bootstrap\)* - Displays a list of bootstrap parameters.
 -   *Configurations \(computed\)* - Displays a list of computed parameters.
@@ -105,9 +105,9 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 </tr>
 </table>
 
+***
 
-
-#### Accessing the Technical Information Dialog on Mobile Devices
+### Accessing the Technical Information Dialog on Mobile Devices
 
 To open the *Technical Information* dialog on your mobile device, proceed as follows:
 
@@ -123,9 +123,9 @@ To open the *Technical Information* dialog on your mobile device, proceed as fol
 
 ![](images/loiodf42057180444e1ca483af61049f0555_LowRes.png "Gesture for opening the technical information dialog")
 
+***
 
-
-#### Using the End-to-End \(E2E\) Trace Function
+### Using the End-to-End \(E2E\) Trace Function
 
 The *E2E Trace* is used to create an XML file that traces the communication to a different part of your app.
 

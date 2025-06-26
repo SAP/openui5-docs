@@ -1,6 +1,6 @@
 <!-- loio91a4a2f59e444ada8d003369a580f61d -->
 
-## What's New in OpenUI5 1.121
+# What's New in OpenUI5 1.121
 
 With this release OpenUI5 is upgraded from version 1.120 to 1.121.
 
@@ -635,7 +635,7 @@ Feature
 
 A new tutorial is now available. This is the TypeScript version of our existing Walkthrough tutorial, offering you the same comprehensive tour of OpenUI5 but now in TypeScript.
 
-For more information, see [Walkthrough Tutorial (TypeScript)](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/dad1905a07f849ce9c509721317d38d8.html "In this tutorial we'll introduce you to all major development paradigms of SAPUI5. We'll demonstrate the use of TypeScript with SAPUI5 and highlight the specific characteristics of this approach.") :arrow_upper_right:.
+For more information, see [Walkthrough Tutorial (TypeScript)](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/dad1905a07f849ce9c509721317d38d8.html "In this tutorial we'll introduce you to all major development paradigms of SAPUI5. We'll demonstrate the use of TypeScript with SAPUI5 and highlight the specific characteristics of this approach.") :arrow_upper_right:.
 
 <sub>Changed•Feature•Info Only•1.121</sub>
 
@@ -1323,6 +1323,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

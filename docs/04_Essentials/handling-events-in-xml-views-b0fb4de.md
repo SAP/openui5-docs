@@ -1,14 +1,14 @@
 <!-- loiob0fb4de7364f4bcbb053a99aa645affe -->
 
-## Handling Events in XML Views
+# Handling Events in XML Views
 
 XML views use event handlers as attributes: The attribute name is the event name, such as "press" for a button, and the attribute value is the event handler name.
 
-
+***
 
 <a name="loiob0fb4de7364f4bcbb053a99aa645affe__section_rvt_hbm_ndb"/>
 
-### Addressing the Event Handler
+## Addressing the Event Handler
 
 Depending on the syntax of its name, the event handler will be looked up by this name in different locations:
 
@@ -38,9 +38,9 @@ Depending on the syntax of its name, the event handler will be looked up by this
 > ### Note:  
 > When specified without parameters, the event handler will be called with one argument, the event object. This object can be used to retrieve the event parameters documented by the control's respective event documentation.
 
+***
 
-
-### The `"this"` Context
+## The `"this"` Context
 
 As long as no event handler parameters are specified and regardless of where the function was looked up, it will be executed with the controller as the context object \(`this`\). This is also true for global event handlers and makes the implementation of generic global handlers easier that may need an easy way back to the controller/view in which they are actually used, for example, to call `createId` or `byId`. This should make the development of global event handlers more consistent with controller local event handlers.
 
@@ -60,11 +60,11 @@ By invoking the special JavaScript function .`call(...)` on your event handler f
 <Button core:require="{Helper:'path/to/Helper'}" text="Press Me" press="Helper.doSomething.call($controller, 'Hello World')"/>
 ```
 
-
+***
 
 <a name="loiob0fb4de7364f4bcbb053a99aa645affe__section_qzw_5bm_ndb"/>
 
-### Passing Parameters
+## Passing Parameters
 
 In XMLViewsand JSONViews \(**deprecated** as of UI5 version 1.120\) it is also possible to directly specify the parameters that should be passed into the event handler function. These parameters then are passed instead of the event object. The syntax mimics the JavaScript syntax for function calls:
 

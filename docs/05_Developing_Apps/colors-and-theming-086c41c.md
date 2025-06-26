@@ -1,12 +1,12 @@
 <!-- loio086c41c2441946219384197a6c82072b -->
 
-## Colors and Theming
+# Colors and Theming
 
 Theming is an important aspect for an OpenUI5 application. The different colors shown on the UI need to have a good contrast to each other in order to be easily distinguishable.
 
+***
 
-
-### General Recommendations
+## General Recommendations
 
 Different people perceive and interpret colors in different ways, which is something you must take into account when developing your applications. High-contrast themes are already available for all OpenUI5 controls.
 
@@ -49,13 +49,13 @@ Different people perceive and interpret colors in different ways, which is somet
 -   If a new theme is created, the color contrast between the elements should be checked. People with visual impairments and people using the application under less than ideal circumstances \(bad monitor, sunlight hitting the screen, window reflections\) may not be able to read the text easily if the contrast levels are insufficient. Specialized tools can help you to measure the color contrast. The different colors shown on the UI need to have a good contrast to each other in order to be easily distinguishable. Test results are best when the color values are known already and entered as hex in the color contrast testing tool. Picking results are best when picked from the original application, so use screenshots only if this cannot be avoided.
 
 
+***
 
+## DOs and DON'Ts
 
-### DOs and DON'Ts
+***
 
-
-
-#### DOs
+### DOs
 
 -   Use predefined CSS parameters in your CSS. You can find them in the following files within the OpenUI5 library:
 
@@ -73,9 +73,9 @@ Different people perceive and interpret colors in different ways, which is somet
 -   Don't forget the Retina display. You need to provide 2 versions for an icon \(`icon.png` and `icon@2x.png`\).
 
 
+***
 
-
-#### DON'Ts
+### DON'Ts
 
 -   Define a custom color.
 
@@ -86,9 +86,9 @@ Different people perceive and interpret colors in different ways, which is somet
 -   Define writing-modes \(left-to-right or right-to-left\), as this is handled by the OpenUI5 control itself.
 
 
+***
 
-
-### Tips for Testing
+## Tips for Testing
 
 Check the color contrasts.
 

@@ -1,18 +1,18 @@
 <!-- loio7e7cd0aed8bd469cbdd9b46035046dd8 -->
 
-## API Properties for Right-to-Left Support in Text-Displaying Controls
+# API Properties for Right-to-Left Support in Text-Displaying Controls
 
 Languages with right-to-left \(RTL\) text directionality keep the default directionality of numeric values and texts in left-to-right \(LTR\) mode. To ensure correct handling, two API properties have been introduced - `textDirection` and `textAlign`.
 
+***
 
-
-### Introduction
+## Introduction
 
 In Arabic, Hebrew and other languages that use the RTL text direction, when you see numerals or text from left-to-right languages \(like symbols\) on the UI, they are flipped to match the text direction. This common pitfall is visible when representing numerals \(phone numbers, dates, currency values, etc.\), which actually need to be displayed in LTR mode within the context of an RTL page.
 
+***
 
-
-### Solution
+## Solution
 
 Two new properites have been introduced to determine the directionality of the target content.
 
@@ -27,9 +27,9 @@ Two new properites have been introduced to determine the directionality of the t
 
 The naming of the properties varies based on the actual use case of the control. For example, the `sap.m.DisplayListItem` control has `label` and `value` properties for text representation and the most common use case is to display numeric data in the `value` part of the control. The naming of the new property is `valueTextDirection` and since the control forces text alignment, the `valueTextAlign` property is not needed.
 
+***
 
-
-### Examples
+## Examples
 
 The examples below illustrate the default behavior of numeric data in an RTL page context – the individual parts of the text are mixed:
 

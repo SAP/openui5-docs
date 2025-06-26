@@ -1,12 +1,12 @@
 <!-- loio2c5c84d207d246bc9f733f29df1ff892 -->
 
-## Working with Multiple Targets
+# Working with Multiple Targets
 
 If you want to navigate to multiple targets with the same hash, you can either assign multiple targets to a route, or define a parent for the target.
 
+***
 
-
-### Multiple Targets for the Same Route
+## Multiple Targets for the Same Route
 
 In the routing configuration, you can add multiple targets for the same route.
 
@@ -14,9 +14,9 @@ All target view or component instances are created and loaded in the order that 
 
 If you add multiple targets to a route, this builds a connection between the targets on the route level only. The targets can still be displayed separately if needed. Use this approach when the connection between the targets is only needed in some routes, but not always.
 
+***
 
-
-### Parent Relationship
+## Parent Relationship
 
 You can also define a parent for a target in the target definition. For the parent, you also create an entry in the `targets` configuration, but you don't have to create a corresponding route.
 
@@ -27,7 +27,7 @@ A parent relationship between targets tightly couples the two targets together. 
 > ### Note:  
 > There is also a `parent` property for the `route`. This property is only used when its parent exists in a parent component of the current component \(see [Enabling Routing in Nested Components](enabling-routing-in-nested-components-fb19f50.md)\). For all other types of parent-child relationships, either use multiple targets or a parent relationship in targets.
 
-
+***
 
 ## Example
 
@@ -72,5 +72,5 @@ The relationship between the target `employeeOverview` and `employeeOverviewTop`
   }
 ```
 
-For more information, see the tutorial [Step 11: Assign Multiple Targets](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/b01840ec42ef48e6bfd2bc12612f501f.html "In this step, we will add a new button to the home page to illustrate the usage of multiple targets for a route. When the button is pressed, a new page opens that contains two parts: a header part at the top and a content part. The content part displays a table of employees that can be sorted and searched. We will use the array notation in the routing configuration to assign multiple targets to a route - a feature that we have not yet introduced.") :arrow_upper_right:.
+For more information, see the tutorial [Step 11: Assign Multiple Targets](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/b01840ec42ef48e6bfd2bc12612f501f.html "In this step, we will add a new button to the home page to illustrate the usage of multiple targets for a route. When the button is pressed, a new page opens that contains two parts: a header part at the top and a content part. The content part displays a table of employees that can be sorted and searched. We will use the array notation in the routing configuration to assign multiple targets to a route - a feature that we have not yet introduced.") :arrow_upper_right:.
 

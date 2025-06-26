@@ -1,6 +1,6 @@
 <!-- loioadcbcf8b50924556ab3f321fcd9353ea -->
 
-## The `resources.json` File
+# The `resources.json` File
 
 The `resources.json` file lists all resources in a component or library folder. It resides next to each `manifest.json` in the generated results.
 
@@ -395,7 +395,7 @@ The OpenUI5 build determines this from the naming convention `**themes/<theme>/*
 </tr>
 </table>
 
-
+***
 
 ## Example
 

@@ -1,12 +1,12 @@
 <!-- loio902313063d6f45aeaa3388cc4c13c34e -->
 
-## Routing Configuration
+# Routing Configuration
 
 Routing configuration consists of `routes`, `targets`, `config`, and `owner`.
 
+***
 
-
-### Routes
+## Routes
 
 Preferably, an **array** of routes is added to the router. Each route defines a name, a pattern, and optionally one or more targets to which to navigate when the route has been matched. In the `routes` section, you define which patterns are available for navigation. Routes need to be defined in an array instead of an object, because their order in the array determines the sequence when matching against the browser hash.
 
@@ -27,9 +27,9 @@ The sequence of the routes in the `routes` definition is important. As soon as a
 
 For more information, see [API Reference: `sap.m.routing.Router`](https://ui5.sap.com/#/api/sap.m.routing.Router).
 
+***
 
-
-### Targets
+## Targets
 
 A target defines the view or component that is displayed. It is associated with one or more routes or it can be displayed manually from within the app. Whenever a target is displayed, the corresponding view or component is loaded and added to the aggregation configured with the `controlAggregation` option of the control. The target definition can contain the following parameters:
 
@@ -78,13 +78,13 @@ A target defines the view or component that is displayed. It is associated with 
 
 
 > ### Note:  
-> You can also use targets without routes to call a view directly.For more information, see the tutorial [Step 5: Display a Target Without Changing the Hash](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/d9efab307ecc42b180b12cc8956e22d7.html "In this step, you will learn more about targets and how to display a target from the routing configuration manually.") :arrow_upper_right: and [Step 10: Implement "Lazy Loading"](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/cdab0a1123514cc08cf2c8deb22f312e.html "In the previous steps, we have implemented a Resume view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a "lazy loading" feature that only loads the view and data when requested by the user.") :arrow_upper_right:, and the sample [Targets Without a Router](https://ui5.sap.com/#/entity/sap.ui.core.routing.Targets) in the *Samples* in the Demo Kit.
+> You can also use targets without routes to call a view directly.For more information, see the tutorial [Step 5: Display a Target Without Changing the Hash](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/d9efab307ecc42b180b12cc8956e22d7.html "In this step, you will learn more about targets and how to display a target from the routing configuration manually.") :arrow_upper_right: and [Step 10: Implement "Lazy Loading"](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/cdab0a1123514cc08cf2c8deb22f312e.html "In the previous steps, we have implemented a Resume view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a "lazy loading" feature that only loads the view and data when requested by the user.") :arrow_upper_right:, and the sample [Targets Without a Router](https://ui5.sap.com/#/entity/sap.ui.core.routing.Targets) in the *Samples* in the Demo Kit.
 
 For more information, see [API Reference: `sap.m.routing.Router`](https://ui5.sap.com/#/api/sap.m.routing.Router).
 
+***
 
-
-### Config
+## Config
 
 The `config` section contains the global router configuration and default values that apply for all routes and targets. The `config` section contains the following settings.
 
@@ -119,13 +119,13 @@ The `config` section contains the global router configuration and default values
 
 For more information, see [API Reference: `sap.m.routing.Router`](https://ui5.sap.com/#/api/sap.m.routing.Router).
 
+***
 
-
-### Owner
+## Owner
 
 The `owner` parameter defines the owner of all views that are created by the router. This is typically a `UIComponent`. This parameter is set automatically if the router instance is instantiated by a component.
 
-
+***
 
 ## Example
 
@@ -202,7 +202,7 @@ In this example, the `Home` view is always shown when the hash is empty. The `Ca
 
 [Working with Multiple Targets](working-with-multiple-targets-2c5c84d.md "If you want to navigate to multiple targets with the same hash, you can either assign multiple targets to a route, or define a parent for the target.")
 
-[Tutorial: Navigation and Routing](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/1b6dcd39a6a74f528b27ddb22f15af0d.html "SAPUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in SAPUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of SAPUI5 to your applications.") :arrow_upper_right:
+[Tutorial: Navigation and Routing](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/1b6dcd39a6a74f528b27ddb22f15af0d.html "SAPUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in SAPUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of SAPUI5 to your applications.") :arrow_upper_right:
 
 [Enabling Routing in Nested Components](enabling-routing-in-nested-components-fb19f50.md "Every OpenUI5 component can define routing configuration in its manifest and a UI5 router instance will be created automatically after the component is instantiated.")
 

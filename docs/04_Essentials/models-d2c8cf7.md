@@ -1,10 +1,10 @@
 <!-- copyd2c8cf7ae19d447aad5b5ce40e3b14e3 -->
 
-## Models
+# Models
 
 A model in the Model View Controller concept holds the data and provides methods to retrieve the data from the database and to set and update data.
 
-
+***
 
 ![UI5 provides the following models: JSON, XML, Resource (all client-side); OData V2 and OData V4 (both server-side).](images/loioa99f15722c0a4520b7809c3951362896_LowRes.png)
 

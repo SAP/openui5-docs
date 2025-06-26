@@ -1,10 +1,10 @@
 <!-- loio521cad948308479486ba50b3532b9f74 -->
 
-## What's New in OpenUI5 1.72
+# What's New in OpenUI5 1.72
 
 With this release OpenUI5 is upgraded from version 1.71 to 1.72.
 
-
+***
 
 ****
 
@@ -916,6 +916,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

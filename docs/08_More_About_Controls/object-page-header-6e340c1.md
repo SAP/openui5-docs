@@ -1,6 +1,6 @@
 <!-- loio6e340c119ddd4c778b315f65a0432420 -->
 
-## Object Page Header
+# Object Page Header
 
 Overview of the structure and features for `sap.uxap.ObjectPageLayout`'s dynamic header.
 
@@ -36,29 +36,29 @@ The Header Content can be pinnable \(`headerContentPinnable` is set to `true`\).
 
 ![](images/loioc959daa0867e4f209788cad289881dd4_LowRes.gif "Pinning the Header to Remain Expanded when Scrolling the Page")
 
-
+***
 
 <a name="loio6e340c119ddd4c778b315f65a0432420__section_cht_tws_sbb"/>
 
-### Header Title
+## Header Title
 
 To implement the dynamic header, the app developer needs to provide an instance of the `sap.uxap.ObjectPageDynamicHeaderTitle` control for the `headerTitle` aggregation of the `sap.uxap.ObjectPageLayout` control.
 
 The `sap.uxap.ObjectPageDynamicHeaderTitle` extends `sap.f.DynamicPageTitle`. It can hold any control and displays the most important information regarding the object that will always remain visible when scrolling.
 
-
+***
 
 <a name="loio6e340c119ddd4c778b315f65a0432420__section_z5r_q1t_sbb"/>
 
-### Header Content
+## Header Content
 
 To populate the header content area, provide an array of desired controls to the `headerContent` aggregation of the `sap.uxap.ObjectPageLayout` control. `sap.uxap.ObjectPageLayout` uses internally `sap.uxap.ObjectPageDynamicHeaderContent` to layout the controls.
 
-
+***
 
 <a name="loio6e340c119ddd4c778b315f65a0432420__section_q23_hsy_dfc"/>
 
-### Header Features
+## Header Features
 
 **Overview of the header features \(all being ObjectPageLayout properties\):**
 

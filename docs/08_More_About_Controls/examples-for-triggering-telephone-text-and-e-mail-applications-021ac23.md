@@ -1,6 +1,6 @@
 <!-- loio021ac23c547c48f087adfef85aca8413 -->
 
-## Examples for Triggering Telephone, Text and E-Mail Applications
+# Examples for Triggering Telephone, Text and E-Mail Applications
 
 Code samples for triggering telephone, text and e-mail applications.
 
@@ -20,11 +20,11 @@ var person = {
 
 You can trigger an external application at any time, but it is usually triggered as a reaction to a UI control throwing an event. The next sections illustrate some of the most typical use cases.
 
-
+***
 
 <a name="loio021ac23c547c48f087adfef85aca8413__section_N10021_N10011_N10001"/>
 
-### Click Button To Trigger Phone Call
+## Click Button To Trigger Phone Call
 
 The following button can be used to place a call.
 
@@ -39,11 +39,11 @@ new sap.m.Button({
 });
 ```
 
-
+***
 
 <a name="loio021ac23c547c48f087adfef85aca8413__section_N10038_N10011_N10001"/>
 
-### Click Image To Trigger E-mail
+## Click Image To Trigger E-mail
 
 The following code snippet gives an example for triggering an e-mail application. You can also set the subject and message of the e-mail application:
 
@@ -57,11 +57,11 @@ new sap.m.Image({
 });
 ```
 
-
+***
 
 <a name="loio021ac23c547c48f087adfef85aca8413__section_N1004A_N10011_N10001"/>
 
-### Inside List
+## Inside List
 
 `DisplayListItem` with active feedback is the most popular use case for the following example.
 

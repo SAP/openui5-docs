@@ -1,6 +1,6 @@
 <!-- loio4d1b9d44941f483f9b7f579873d38685 -->
 
-## Currency and Unit Customizing in OData V4
+# Currency and Unit Customizing in OData V4
 
 For amounts or measures, you may sometimes need different currencies or units than defined in the CLDR. The data types `sap.ui.model.odata.type.Currency` and `sap.ui.model.odata.type.Unit` enable you to use code lists with customizing for currency codes and units.
 

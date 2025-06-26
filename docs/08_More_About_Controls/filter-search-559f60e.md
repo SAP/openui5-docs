@@ -1,6 +1,6 @@
 <!-- loio559f60eaf71b47bb9f11a07622880f7c -->
 
-## Filter Search
+# Filter Search
 
 The popover and dialog displayed by `FacetFilter` contain an `sap.m.SearchField` control. This enables the user to search for specific items in the list.
 

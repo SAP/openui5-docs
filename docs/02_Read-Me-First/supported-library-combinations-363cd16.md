@@ -1,10 +1,10 @@
 <!-- loio363cd16eba1f45babe3f661f321a7820 -->
 
-## Supported Library Combinations
+# Supported Library Combinations
 
 OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.
 
-
+***
 
 In general, most library combinations are supported. However, restrictions apply for the following libraries:
 
@@ -17,7 +17,7 @@ In general, most library combinations are supported. However, restrictions apply
 
 These libraries can **only** be used in combination with the following libraries:
 
-
+***
 
 -   `sap.ui.core`
 
@@ -28,7 +28,7 @@ These libraries can **only** be used in combination with the following libraries
 -   `sap.ui.table`
 
 
-
+***
 
 **Related Information**  
 

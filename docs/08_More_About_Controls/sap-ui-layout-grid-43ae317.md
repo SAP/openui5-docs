@@ -1,14 +1,14 @@
 <!-- loio43ae317cf39640a88bc8be979d2671df -->
 
-## sap.ui.layout.Grid
+# sap.ui.layout.Grid
 
 A flexible layout that positions its items in a 12-column flow layout.
 
-
+***
 
 <a name="loio43ae317cf39640a88bc8be979d2671df__section_r1y_nf5_xfb"/>
 
-### Overview
+## Overview
 
 The `sap.ui.layout.Grid` is a powerful grid system that can be configured to display a variable number of columns depending on the available screen size. You can achieve complex but flexible layouts and line breaks for extra large, large, medium, and small-sized screens, such as desktop, tablet, and mobile.
 
@@ -16,17 +16,17 @@ With this control, you can define how many items are displayed per row depending
 
 The flow direction of the items is horizontal only. For example, if the control is configured to display six items per row, the seventh item is displayed on the next row.
 
-
+***
 
 <a name="loio43ae317cf39640a88bc8be979d2671df__section_py1_5f5_xfb"/>
 
-### Usage
+## Usage
 
 You can use the `sap.ui.layout.Grid` on its own or in combination with the `sap.ui.layout.GridData`. The APIs in the `sap.ui.layout.Grid` apply for all grid items while with the `sap.ui.layout.GridData` you can manipulate individual grid items.
 
+***
 
-
-#### Using `sap.ui.layout.Grid` on its own
+### Using `sap.ui.layout.Grid` on its own
 
 `defaultSpan` and `defaultIndent` are the main two properties that enable you to define a specific layout for the grid. The number of grid columns is always 12 but the span and indentation of the items determine how many are displayed in one row.
 
@@ -91,17 +91,17 @@ Defines the number of columns with which each item is indented for the different
 
 More properties are available for defining the horizontal and vertical spacing between the grid items, setting a specific width, defining the position for the grid as a whole, and so on.For more information, see the available properties in the [API Reference](https://ui5.sap.com/#/api/sap.ui.layout.Grid/controlProperties).
 
+***
 
-
-#### Using `sap.ui.layout.GridData` to manipulate individual grid items
+### Using `sap.ui.layout.GridData` to manipulate individual grid items
 
 To achieve a layout where the individual grid items have a different configuration, use `sap.ui.layout.GridData`.
 
 In addition to individual span and indentation, there is a large number of properties that allow for setting the visibility of items and adding line breaks.For more information, see the available properties in the [API Reference](https://ui5.sap.com/#/api/sap.ui.layout.GridData/controlProperties).
 
+***
 
-
-#### Examples
+### Examples
 
 
 <table>

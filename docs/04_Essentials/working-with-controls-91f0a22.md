@@ -1,6 +1,6 @@
 <!-- loio91f0a22d6f4d1014b6dd926db0e91070 -->
 
-## Working with Controls
+# Working with Controls
 
 Controls are used to define the appearance and behavior of screen areas.
 
@@ -35,9 +35,9 @@ Controls consist of:
 
 The base class for all controls in OpenUI5 is `sap.ui.core.Control`. To inherit and extend the functionality, specific controls can either inherit from the base class, or from another control.
 
+***
 
-
-### UI Control Constructors
+## UI Control Constructors
 
 A constructor is a special type of function that is called to create an object. The constructor uses values to set control properties, thus preparing the new object for use.
 
@@ -65,6 +65,24 @@ oText.setWidth("100px");
 ```
 
 The supported parameters are documented in the *API Reference* of the respective control.
+
+-   **[Using Web Components](using-web-components-1c80793.md "Web Components integrate seamlessly into OpenUI5. A Web Component, especially
+		a UI5 Web Component with its Custom Elements metadata, can be required and used like a regular OpenUI5 control.")**  
+Web Components integrate seamlessly into OpenUI5. A Web Component, especially a UI5 Web Component with its Custom Elements metadata, can be required and used like a regular OpenUI5 control.
+-   **[Custom Data - Attaching Data Objects to Controls](custom-data-attaching-data-objects-to-controls-91f0c3e.md "OpenUI5 provides the
+			data() method to attach data objects to controls.")**  
+OpenUI5 provides the `data()` method to attach data objects to controls.
+-   **[Using Predefined CSS Margin Classes](using-predefined-css-margin-classes-777168f.md "OpenUI5 gives you the option of adding spacing in between controls by adding a margin. A
+		margin clears an area around its respective control, outside of its border.")**  
+OpenUI5 gives you the option of adding spacing in between controls by adding a margin. A margin clears an area around its respective control, outside of its border.
+-   **[Using Container Content Padding CSS Classes](using-container-content-padding-css-classes-c71f6df.md "For many container controls in OpenUI5, such as a Dialog or a
+		Page, you can define whether the container should have a padding within the content area. A
+		padding clears the area between the container layout and the controls that are displayed in
+		the content area. ")**  
+For many container controls in OpenUI5, such as a Dialog or a Page, you can define whether the container should have a padding within the content area. A padding clears the area between the container layout and the controls that are displayed in the content area.
+-   **[Field Groups](field-groups-5b07753.md "Group of controls that belong together semantically. This group can be used, for
+		example, for validating the data consistency for the field group.")**  
+Group of controls that belong together semantically. This group can be used, for example, for validating the data consistency for the field group.
 
 **Related Information**  
 

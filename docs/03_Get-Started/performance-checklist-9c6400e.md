@@ -1,6 +1,6 @@
 <!-- loio9c6400eb7dc145b78e94a81e6e390780 -->
 
-## Performance Checklist
+# Performance Checklist
 
 Follow these steps to apply performance best practices to your application.
 

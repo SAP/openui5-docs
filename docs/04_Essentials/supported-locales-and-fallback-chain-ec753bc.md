@@ -1,6 +1,6 @@
 <!-- loioec753bc539d748f689e3ac814e129563 -->
 
-## Supported Locales and Fallback Chain
+# Supported Locales and Fallback Chain
 
 You can configure a list of supported locales and a fallback locale in your app's manifest to control the loading of resource bundles and avoid '404 Not Found' network responses.
 
@@ -15,11 +15,11 @@ You can configure a list of supported locales and a fallback locale in your app'
 > 
 > 5.  The language tags can use modern or legacy ISO639 language codes. Whatever language code is used in the list of `supportedLocales` will also be used when requesting a file from the server. If the locale contains a legacy language code like "iw" and the `supportedLocales` contains \[...,"he",...\], "he" will be used in the URL. This mapping works in both directions.
 
-
+***
 
 <a name="loioec753bc539d748f689e3ac814e129563__section_xqx_s3f_wqb"/>
 
-### Introduction
+## Introduction
 
 When developing apps and working with resource bundles for internationalization \(i18n\), you might run into the following problems:
 
@@ -28,11 +28,11 @@ When developing apps and working with resource bundles for internationalization 
 
 These issues occur most often when a text translated for the user's locale cannot be found in the resource bundle. The resource bundle then tries to load all potential locale-specific translation files using synchronous requests. This not only looks bad when checking the network trace but also comes at a price of poor performance and unwanted network traffic. Since OpenUI5 1.77 you can avoid this by providing the `supportedLocales` and `fallbackLocale` configuration in your app's manifest. This enables the client to know in advance which language bundles to request.
 
-
+***
 
 <a name="loioec753bc539d748f689e3ac814e129563__section_FallbackChain"/>
 
-### Fallback Chain and Fallback Locale
+## Fallback Chain and Fallback Locale
 
 > ### Note:  
 > A locale can be either a BCP47 language tag or a JDK-compatible locale string \(e.g. `"en-GB"`, `"en_GB"`, or `"en"`\).
@@ -70,11 +70,11 @@ fallback chain: "de_DE" -> "de" -> "en" -> ""
 > 
 > If specified, the `fallbackLocale` must be present in your list of `supportedLocales` \(see next section\).
 
-
+***
 
 <a name="loioec753bc539d748f689e3ac814e129563__section_SupportedLocales"/>
 
-### Supported Locales
+## Supported Locales
 
 Locale candidates obtained from the fallback chain are filtered using your entries in `supportedLocales`. In this way, only resource bundles for configured locales are requested. If this list is empty or not specified, **all** locales are supported.
 

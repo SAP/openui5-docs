@@ -1,6 +1,6 @@
 <!-- loiofbe1cb5613cf4a40a841750bf813238e -->
 
-## Server Messages in the OData V4 Model
+# Server Messages in the OData V4 Model
 
 The OData V4 model supports server messages sent via an OData V4 service.
 
@@ -162,23 +162,23 @@ End user messages contain the following information:
 
 The use of the fields in specific cases is described in the sections below.
 
-
+***
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_jrv_5wm_2fb"/>
 
-### Message Types
+## Message Types
 
 Messages are classified by two different categories: bound/unbound and state/transition.
 
+***
 
-
-#### Bound and unbound messages
+### Bound and unbound messages
 
 Messages are either bound or unbound: Bound messages are related to OData entities, whereas unbound messages are not related to OData entities. Unbound messages are identified by a missing, i.e. undefined, target in the OData V4 message. This is translated into an empty string in the UI5 message.
 
+***
 
-
-#### State and transition messages
+### State and transition messages
 
 Messages are either state or transition messages:
 
@@ -187,9 +187,9 @@ Messages are either state or transition messages:
 -   Transition messages refer to the current request and are not related to the state of a resource. They are only relevant for the request that was initiated, for example *System not available, business object could not be updated*. Optionally, transition messages can reference a business object, for example *Shipping address could not be changed due to missing authorization*. Transition messages are translated into persistent messages in the message model. The application is responsible for the handling of the lifecycle of such persistent messages. The OData V4 model will not remove persistent messages from the message model.
 
 
+***
 
-
-#### Combining state/transition and bound/unbound messages
+### Combining state/transition and bound/unbound messages
 
 Three different types of messages result from the possible combinations of the state/transition and bound/unbound categories. There cannot be unbound messages referring to the state of an OData entity.
 
@@ -248,11 +248,11 @@ Bound
 </tr>
 </table>
 
-
+***
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_phx_wdz_5fb"/>
 
-### Transport Channels for Messages
+## Transport Channels for Messages
 
 There are three different channels for transporting messages to the client:
 
@@ -266,9 +266,9 @@ There are three different channels for transporting messages to the client:
 > ### Note:  
 > In the success case, a bound transition message can either be transported in the `sap-messages` header or in the `message` property. A message sent in the `sap-messages` header must not be repeated in the `message` property, and vice versa.
 
+***
 
-
-#### Messages in error responses
+### Messages in error responses
 
 Only transition messages are transported in the error response. The messages may be bound or unbound. Error messages are always reported in the error response in JSON format, as described in the OData JSON Format Version 4.0 in Section *19 Error Response*, with the following additions:
 
@@ -321,9 +321,9 @@ A change set with multiple requests only has one error response. In this case, `
 > }
 > ```
 
+***
 
-
-#### The `sap-messages` header
+### The `sap-messages` header
 
 The response of a successful request may contain messages in the `sap-messages` header. Only transition messages are transported in the `sap-messages` header. These messages may be bound or unbound. The `sap-messages` header contains an array of objects that can include:
 
@@ -358,9 +358,9 @@ sap-messages:[
 > 
 > Result: `http://<server>:<port>/Messages(3)/LongText/$value`
 
+***
 
-
-#### The `message` property as part of the response payload
+### The `message` property as part of the response payload
 
 Bound messages may also be transported as a part of the OData entity to which they belong. These messages may be transition or state messages. The OData entity contains its bound messages as collection-valued property of the complex type specified in the description of `com.sap.vocabularies.Common.v1.Messages`. The `target` property specifies to which property the message is bound. The application needs to specify in the`$select` binding parameter whether messages should be returned by the server.
 
@@ -388,11 +388,11 @@ The `target` property may contain a path relative to the entity which contains t
 
 For bound messages, `longtextUrl` can be a relative or absolute path. Relative paths are treated as relative to the innermost context path \(`@odata.context`\) in the response, or to the request URL if there is no context path. Absolute paths are treated as relative to the server.
 
-
+***
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_LMFSM"/>
 
-### Lifecycle Management for State Messages
+## Lifecycle Management for State Messages
 
 The lifecycle management for state messages is optimized for a specific orchestration with the server. When messages are selected, the OData V4 server returns all bound messages for the respective entity and its subentities within the same business object. The business object is defined by the first path segment.
 
@@ -423,11 +423,11 @@ This concept has the following consequences:
 > ### Note:  
 > The OpenUI5 V4 ODataModel is agnostic to business objects. The application needs to take care of the proper setup.
 
-
+***
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_kxc_pp3_ffb"/>
 
-### Message Severity
+## Message Severity
 
 The table shows the supported severity values and their mapping to the specific `sap.ui.core.MessageType`.
 
@@ -520,30 +520,30 @@ Error - action is required
 </tr>
 </table>
 
-
+***
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_jsd_vwk_33b"/>
 
-### Accessing the Original Message
+## Accessing the Original Message
 
 The attribute `technicalDetails.originalMessage` of the message in the message model allows you to access the original message from the back end.
 
-
+***
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_httpStatus"/>
 
-### Accessing Additional Request Information
+## Accessing Additional Request Information
 
 The attribute `technicalDetails.httpStatus` of an error message in the message model provides the numerical HTTP status code of the corresponding back-end request that failed.
 
 -   In case of a 412 \("Precondition Failed"\) status code, either the functionality described in [Strict Handling](odata-operations-b54f789.md#loiob54f7895b7594c61a83fa7257fa9d13f__section_SH) takes effect, or `technicalDetails.isConcurrentModification` is set to `true`. An example of the latter is [sap.ui.model.odata.v4.Context\#delete](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/delete), which also uses this flag for the error instance that is used to reject its returned promise.
 -   In case of a 503 \("Service Unavailable"\) status code, `technicalDetails.retryAfter` is set to an absolute `Date` value corresponding to the value of the ["Retry-After" HTTP response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After), no matter if that header value is an HTTP date or a delay in seconds.
 
-
+***
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_highlighting_table_rows"/>
 
-### Highlighting Table Rows with Messages
+## Highlighting Table Rows with Messages
 
 To highlight table rows based on the criticality of the messages for that entity a formatter in controller code is needed. The `highlight` property of a table row is bound to the collection of messages in the message model and the entity displayed in the row. These binding parts are required to ensure that the formatter is called whenever a change occurs. The formatter itself calls the [`sap.ui.model.Context#getMessages`](https://ui5.sap.com/#/api/sap.ui.model.Context/methods/getMessages) method, which returns the messages sorted by severity. The following code snippets demonstrate binding and formatter:
 

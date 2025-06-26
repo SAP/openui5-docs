@@ -1,6 +1,6 @@
 <!-- loio322f55d0cf1e4b459cc1911c899b7a5f -->
 
-## Accessibility
+# Accessibility
 
 Accessibility features are essential for the usability of each application and essential for users with disabilities. In an ongoing approach, OpenUI5 controls aim to comply with various accessibility standards such as screen reader support, high contrast theming, and keyboard handling.
 
@@ -13,11 +13,11 @@ The following topics provide important accessibility information related to Open
 > 
 > Note that accessibility for web applications also depends on the browser and the operating system used. For more information, see the [SAP Accessibility Status Documents](https://www.sap.com/about/company/diversity/accessibility.html#product-information) section.
 
-
+***
 
 <a name="loio322f55d0cf1e4b459cc1911c899b7a5f__section_q4h_rvw_3sb"/>
 
-### Understanding Accessibility
+## Understanding Accessibility
 
 Accessibility refers to the possibility for everyone, including and especially people who are differently-abled, to access and use information technology products. It is a guiding principle in OpenUI5 design and development processes and integral part of the framework.
 
@@ -25,11 +25,11 @@ Accessibility is incorporated at two levels: framework and application level. Ma
 
 Depending on your use case please refer to the corresponding accessibility chapter in the Developing Controls or Developing Apps sections in Demo Kit.
 
-
+***
 
 <a name="loio322f55d0cf1e4b459cc1911c899b7a5f__section_mfg_vvw_3sb"/>
 
-### OpenUI5 Accessibility Building Blocks
+## OpenUI5 Accessibility Building Blocks
 
 -   Markup \(correct HTML\): When developing accessible applications, you need to pay attention to the correctness of the resulting HTML. Some vital accessibility features \(screen reader and keyboard support\) rely on a correct and meaningful structure of the application.
 
@@ -39,6 +39,12 @@ Depending on your use case please refer to the corresponding accessibility chapt
 -   Contrast: The different colors shown on the UI need to have a good contrast to each other, in order to be easily distinguishable.
 -   Resizing: Developers should always consider the fact that the application could be zoomed to 200%, and everything should still be visible.
 -   APIs: The framework provides APIs to help app developers improve the accessibility in the context of their application.
+
+-   **[OpenUI5 Accessibility Features](openui5-accessibility-features-7048ca9.md "OpenUI5 supports many
+		accessibility features on a framework level.")**  
+OpenUI5 supports many accessibility features on a framework level.
+-   **[Accessibility Support History](accessibility-support-history-accd68a.md "")**  
+
 
 **Related Information**  
 

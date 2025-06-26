@@ -1,6 +1,6 @@
 <!-- loio6ec0a7e1d3c64412a673b7dabe28c02b -->
 
-## Events Fired Centrally by the App or the NavContainer
+# Events Fired Centrally by the App or the NavContainer
 
 When `NavContainer.to(…)` or `NavContainer.back(…)` are called, the `NavContainer` triggers events and the application can register for this events. The `navigate` event is fired before the transition animation starts, and the `afterNavigate` event is fired when the animation has been completed.
 

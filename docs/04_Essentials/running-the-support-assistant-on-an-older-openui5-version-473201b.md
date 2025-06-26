@@ -2,23 +2,15 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-## Running the Support Assistant on an Older OpenUI5 Version
+# Running the Support Assistant on an Older OpenUI5 Version
 
 In some cases you may want to run the Support Assistant against a different version of OpenUI5. You can do so by following a few steps.
 
-
-
-<a name="loio473201b547734e0eb66612df5bae8553__prereq_jhq_pbl_n1b"/>
-
-### Prerequisites
+***
 
 The minimum OpenUI5 version in which the Support Assistant is available is 1.44.17.
 
-
-
-<a name="loio473201b547734e0eb66612df5bae8553__steps_efg_dsc_sz"/>
-
-### Procedure
+***
 
 1.  Open the *Technical Information Dialog* using the [shortcut](../02_Read-Me-First/keyboard-shortcuts-for-openui5-tools-154844c.md) [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [P\] .
 
@@ -54,11 +46,7 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
     ![](images/loiof976dcdee0de41fd957fc8c672356d17_LowRes.png "Support Assistant - Multi-Version Support")
 
 
-
-
-<a name="loio473201b547734e0eb66612df5bae8553__result_lcv_jxc_sz"/>
-
-### Results
+***
 
 You are now able to run the Support Assistant on the version that you selected.
 

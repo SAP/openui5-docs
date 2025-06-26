@@ -1,6 +1,6 @@
 <!-- loio91f203236f4d1014b6dd926db0e91070 -->
 
-## Item Navigation - Supporting Keyboard Handling in List-like Controls
+# Item Navigation - Supporting Keyboard Handling in List-like Controls
 
 The helper class `sap.ui.core.delegate.ItemNavigation` supports item navigation in lists.
 
@@ -14,4 +14,8 @@ If item navigation has to trigger a control before a focus is set, the `BeforeFo
 
 > ### Note:  
 > Using the item navigation does not prevent you from reacting on the events handled by the delegate in your control.
+
+-   **[Integrating Item Navigation](integrating-item-navigation-7e24524.md "To integrate the item navigation in your control, apply the delegate in the
+      onAfterRendering hook of your control.")**  
+To integrate the item navigation in your control, apply the delegate in the `onAfterRendering` hook of your control.
 

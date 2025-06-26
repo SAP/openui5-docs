@@ -1,6 +1,6 @@
 <!-- loio91f1539c6f4d1014b6dd926db0e91070 -->
 
-## Defining Controls \(deprecated\)
+# Defining Controls \(deprecated\)
 
 For declarative support, define the controls in your HTML document as HTML tags.
 

@@ -1,6 +1,6 @@
 <!-- loio153b357ccff14715af9973de9a045e38 -->
 
-## Debugging
+# Debugging
 
 For the debug levels `DEBUG` and `ALL`, the XML preprocessor writes a trace for what it exactly does.
 

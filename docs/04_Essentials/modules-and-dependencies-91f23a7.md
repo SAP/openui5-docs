@@ -1,6 +1,6 @@
 <!-- loio91f23a736f4d1014b6dd926db0e91070 -->
 
-## Modules and Dependencies
+# Modules and Dependencies
 
 The OpenUI5 framework has built-in support for modularizing comprehensive JavaScript applications. That means, instead of defining and loading one large bundle of JavaScript code, an application can be split into smaller parts which then can be loaded at runtime at the time when they are needed. These smaller individual files are called modules.
 
@@ -27,7 +27,7 @@ Modules have no predefined syntax or structure, but module developers can use th
     The dependency declarations can be evaluated at runtime, but can also be analyzed at build time or at deploy time on the server.
 
 
-
+***
 
 ## Example
 
@@ -60,11 +60,11 @@ sap.ui.require(['SomeClass'], function(SomeClass) {
 });
 ```
 
-
+***
 
 <a name="loio91f23a736f4d1014b6dd926db0e91070__section_ntl_h3h_yy"/>
 
-### Static and Dynamic Dependencies
+## Static and Dynamic Dependencies
 
 Adding each and every dependency to the `sap.ui.define` call can lead to many modules that have to be loaded before your module can be executed. Often, dependencies are not needed initially when the module is started. For rarely or not immediately used references, it might be overhead to load them in advance before executing your module.
 
@@ -107,11 +107,11 @@ Therefore, you have to decide whether you want to use static or dynamic dependen
 > ### Note:  
 > Many code samples in the OpenUI5 documentation use the `sap.ui.require` syntax even though we could also have used `sap.ui.define`.
 
-
+***
 
 <a name="loio91f23a736f4d1014b6dd926db0e91070__section_sjt_2x3_12c"/>
 
-### JavaScript Namespaces
+## JavaScript Namespaces
 
 OpenUI5 modules such as classes, components, and controls, should use a consistent qualified naming scheme. Each module should reside in a unique namespace.
 
@@ -137,4 +137,19 @@ sap.ui.define(["my/app/MyControl"], function(MyControl) {
 
 > ### Note:  
 > To avoid conflicts with other frameworks or developments, the `sap` namespace is reserved for SAP. Therefore, any non-OpenUI5 content, such as application code or custom controls, must **not** use namespaces starting with the `sap` prefix.
+
+-   **[Loading a Module](loading-a-module-d12024e.md "For loading (requiring) a module, OpenUI5, you use the
+			sap.ui.require function, which takes over the dependency resolution for
+		you.")**  
+For loading \(requiring\) a module, OpenUI5, you use the `sap.ui.require` function, which takes over the dependency resolution for you.
+-   **[Multiple Module Locations](multiple-module-locations-1dfab2e.md "OpenUI5 supports multiple
+		module locations by means of the sap.ui.loader.config function.")**  
+OpenUI5 supports multiple module locations by means of the `sap.ui.loader.config` function.
+-   **[Best Practices for Loading Modules](best-practices-for-loading-modules-00737d6.md "This section provides best practices for OpenUI5 module loading
+        patterns.")**  
+This section provides best practices for OpenUI5 module loading patterns.
+-   **[Adapting to the Modularization of the Core](adapting-to-the-modularization-of-the-core-b8fdf0c.md "Small, predefined modules for specific purposes, providing standalone functionality can
+		be used any time OpenUI5 is
+		loaded.")**  
+Small, predefined modules for specific purposes, providing standalone functionality can be used any time OpenUI5 is loaded.
 

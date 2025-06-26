@@ -1,6 +1,6 @@
 <!-- loioea08f53503da42c19afd342f4b0c9ec7 -->
 
-## CSS Classes for Theme Parameters
+# CSS Classes for Theme Parameters
 
 OpenUI5 provides a set of essential adjustable colors behind the generic predefined CSS rules that enable custom content to use the respective CSS classes for the required colors.
 
@@ -19,7 +19,7 @@ HTML content like that might be created as part of the following:
 
 To resolve this problem, you can use CSS classes. There is a number of predefined CSS classes that are supplied with color values by LESS CSS parameters of the current theme. These classes can be used in custom HTML content and in custom controls. The names of the CSS classes are generic and mostly derived from the respective theme parameter name. This makes it easier to use the classes, and the names created are not too long or conflict-prone.
 
-
+***
 
 ## Example
 
@@ -74,10 +74,13 @@ oRm.openStart("div", oControl);
 
 ```
 
+-   **[List of Supported CSS Classes](list-of-supported-css-classes-91a4946.md "Overview of the CSS classes currently supported by OpenUI5.")**  
+Overview of the CSS classes currently supported by OpenUI5.
+
 **Related Information**  
 
 
 [List of Supported CSS Classes](list-of-supported-css-classes-91a4946.md "Overview of the CSS classes currently supported by OpenUI5.")
 
-[Step 33: Custom Controls](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/d12d2ee6a5454d799358d425f9e7c4db.html "In this step, we are going to extend the functionality of SAPUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the SAPUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.") :arrow_upper_right:
+[Step 33: Custom Controls](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/d12d2ee6a5454d799358d425f9e7c4db.html "In this step, we are going to extend the functionality of SAPUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the SAPUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.") :arrow_upper_right:
 

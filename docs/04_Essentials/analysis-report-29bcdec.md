@@ -1,6 +1,6 @@
 <!-- loio29bcdec715a2428092666212bb6bb875 -->
 
-## Analysis Report
+# Analysis Report
 
 The information from the execution of the Support Assistant is available as a separate HTML document. It can be viewed from the *Report* dropdown menu.
 

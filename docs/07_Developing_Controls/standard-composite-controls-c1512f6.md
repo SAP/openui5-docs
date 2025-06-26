@@ -1,6 +1,6 @@
 <!-- loioc1512f6ce1454ff1913e3857bad56392 -->
 
-## Standard Composite Controls
+# Standard Composite Controls
 
 Composite controls are a means to save time and effort by reusing existing controls for the implementation.
 
@@ -9,17 +9,17 @@ For application developers, the composite control is a black box, therefore, an 
 > ### Note:  
 > If you do **not** intend to re-use a control in several places, a composite control may not be your best choice. Composite controls are best suited for \(massive\) re-use and for a public API that shields the application developer from its inner workings. If these are not your requirements, consider to use other techniques of factoring out common parts within your application. You can, for example, simply write an XML fragment or a function returning the root of some control tree.
 
+***
 
-
-### Simple Example: Search Field
+## Simple Example: Search Field
 
 To create a composite control, you start with crafting its API including properties, events, aggregations, and so on as you do it for any other control. Choose either element or control as base type. The following simple example combines an input field with a button that we call "search field". To the outside world, it offers an editable value and can fire a search event.
 
 ![](images/loiofd6475b8d1fd4b75bad61b7dc2e8ce3c_LowRes.png)
 
+***
 
-
-#### API
+### API
 
 As any other control, you can describe composite controls via the JavaScript control definition API, see [Developing Controls](developing-controls-8dcab00.md) and the following example.
 
@@ -45,15 +45,15 @@ Since OpenUI5 version 1.60, properties and associations can be configured with `
 
 The two aggregations with visibility set to `hidden` are defined in the code snippets above. These aggregations are used to hold the inner controls. Aggregations are used to define a parent-child relationship between a parent control and its children \(controls or elements\). The knowledge about this relationship is, for example, relevant for the OpenUI5 core to dispatch events properly, or to cleanup the children when the parent is destroyed. Hidden aggregations are control internal and are used especially to register the inner controls within the control hierarchy without making them publicly available. Because hidden aggregations are only used internally within a composite control for hidden aggregations, no typed `accessor` functions or `mutators` are generated, they are not cloned, and data binding is not enabled.
 
+***
 
-
-#### Behavior
+### Behavior
 
 The control implementation, that is, its behavior, contains the code for initialization and clean-up hooks as well as glue code for properties and events.
 
+***
 
-
-#### Init
+### Init
 
 The `init` function contains the composite's parts and stores references to them. If you want to hide the composite parts, you should **not** assign an ID to those parts, but rather let the framework compute the IDs automatically. This reduces the possibility that a composite's parts are accessed from outside via the `Element.getElementById(...)` function, where `Element` is required from module `sap/ui/core/Element`.
 
@@ -93,9 +93,9 @@ SearchField.prototype.init = function(){
 };
 ```
 
+***
 
-
-#### Exit
+### Exit
 
 You can use the `exit` function to clean up your control when it is destroyed. You do not need to destroy the inner controls. This is done automatically by the framework because the inner controls are kept in hidden aggregations.
 
@@ -108,9 +108,9 @@ SearchField.prototype.exit = function() {
 };
 ```
 
+***
 
-
-#### Properties
+### Properties
 
 Changes to settings in the API of a composite control are usually reflected in its parts. In the following example, the value property is propagated to the input part. To do so, the generated setter for that property is overwritten. Make sure that you include the proper implementation which generically sets a property inside the element base class, else you would have to override the getter also.
 
@@ -131,9 +131,9 @@ SearchField.prototype.setValue = function(sValue){
 
 Propagating the API settings to the parts is usually not as straightforward as shown in the example above. If intercepting the changes by overriding the setters is not sufficient or too complicated, an alternative approach might be to implement a single `updateAllParts` method and call it at the beginning of the renderer of the composite control or in the `onBeforeRendering` hook of the control itself..
 
+***
 
-
-#### Renderer
+### Renderer
 
 You can use markup for layouting in the renderer implementation. But at the heart of it, you simply delegate \(via the render manager\) to the composite parts' renderers. This is where you really benefit from re-using other controls with non-trivial renderers. If you have chosen the `updateAllParts` approach to keep the composite API settings and the settings of the parts in sync, make sure that you call `updateAllParts` before the real rendering starts.
 

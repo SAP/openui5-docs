@@ -1,6 +1,6 @@
 <!-- loio66e33f04bd084a36ad5a30fd30d25d88 -->
 
-## What's New in OpenUI5 1.108
+# What's New in OpenUI5 1.108
 
 With this release OpenUI5 is upgraded from version 1.107 to 1.108.
 
@@ -443,6 +443,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

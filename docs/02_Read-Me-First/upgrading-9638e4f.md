@@ -1,6 +1,6 @@
 <!-- loio9638e4fce1bd45f4bebf7c219672908c -->
 
-## Upgrading
+# Upgrading
 
 The following sections describe what you have to consider when upgrading to a new version of OpenUI5.
 
@@ -16,4 +16,14 @@ Before upgrading to a newer OpenUI5 version, you must generally first ensure tha
 See also our related guidelines at [Best Practices for Developers](../03_Get-Started/best-practices-for-developers-28fcd55.md).
 
 Afterwards, refer to the following version-specific sections that describe what else you have to consider:
+
+-   **[Upgrading from a Version Below 1.89](upgrading-from-a-version-below-1-89-89b14ce.md "")**  
+
+-   **[Upgrading from a Version Below 1.82](upgrading-from-a-version-below-1-82-147eef9.md "")**  
+
+-   **[Upgrading from a Version Below 1.40](upgrading-from-a-version-below-1-40-278a8e5.md "")**  
+
+-   **[Upgrading from a Version Below 1.38](upgrading-from-a-version-below-1-38-c1025c2.md "When upgrading to the current OpenUI5 version from a version below 1.38 (released in
+		June 2016), check whether the changes listed below influence your apps.")**  
+When upgrading to the current OpenUI5 version from a version below 1.38 \(released in June 2016\), check whether the changes listed below influence your apps.
 

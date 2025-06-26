@@ -1,6 +1,6 @@
 <!-- loio3459c372aaaa4c31ab87bb0e174adcc3 -->
 
-## OData Features Supported by the OData V2 Mock Server
+# OData Features Supported by the OData V2 Mock Server
 
 List of OData version 2.0 features supported or not supported by the mock server
 

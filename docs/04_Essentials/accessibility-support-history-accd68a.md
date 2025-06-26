@@ -1,6 +1,6 @@
 <!-- loioaccd68acd13a48eaa8aa02a639c84ba2 -->
 
-## Accessibility Support History
+# Accessibility Support History
 
 OpenUI5 is following the SAP 's design and development guidelines, as well as the testing procedures and accessibility reporting, that are based on WCAG 2.2.
 

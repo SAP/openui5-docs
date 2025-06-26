@@ -1,6 +1,6 @@
 <!-- loiob0f5c531e5034a27952cc748954cbe39 -->
 
-## Suspend and Resume
+# Suspend and Resume
 
 A suspended binding does not send data service requests nor does it fire change events. You can resume a suspended list or context binding with its `resume` method.
 

@@ -1,14 +1,14 @@
 <!-- loio6322164936f047de941ec522b95d7b70 -->
 
-## Hyphenation for Text Controls
+# Hyphenation for Text Controls
 
 OpenUI5 offers the possibility to hyphenate words in multiline texts when controls are in wrapping mode.
 
-
+***
 
 <a name="loio6322164936f047de941ec522b95d7b70__section_s33_lmb_ffb"/>
 
-### Overview
+## Overview
 
 The hyphenation feature is an intelligent wrapping capability for optimal visual rendering of multiline text. It is especially useful for longer text instances in any type of container.
 
@@ -21,15 +21,15 @@ It is enabled through the `wrappingType` property for the following controls:
 -   `sap.m.Label`
 
 
-
+***
 
 <a name="loio6322164936f047de941ec522b95d7b70__section_dtc_x2m_3fb"/>
 
-### Use Cases
+## Use Cases
 
+***
 
-
-#### Using the integrated hyphenation through the `wrappingType` property directly in the text controls
+### Using the integrated hyphenation through the `wrappingType` property directly in the text controls
 
 All three controls have a `wrapping` property that determines text wrapping. By default, it is set to `true` for the `sap.m.Text` control and to `false` for `sap.m.Label` and `sap.m.Title`. Setting the `wrapping` property of these controls to `true` allows you to use the `wrappingType` property which enables hyphenation. It's an `enum` property with two possible values:
 
@@ -50,9 +50,9 @@ new Label({
 
 ```
 
+***
 
-
-#### Using the `sap.ui.core.hyphenation.Hyphenation` API
+### Using the `sap.ui.core.hyphenation.Hyphenation` API
 
 This class provides methods to evaluate the possibility of using browser-native hyphenation or to initialize and use a third-party hyphenation module. Using this API you can check if browser-native hyphenation is supported for a particular language.
 
@@ -73,9 +73,9 @@ if (!oHyphenationApi.canUseNativeHyphenation("en")) {
 }
 ```
 
+***
 
-
-#### Manual control of hyphenation when third-party resources are loaded.
+### Manual control of hyphenation when third-party resources are loaded.
 
 By default, the text controls load any required third-party resources at a later state which can lead to flickering of the first visible text control between its unhyphenated and hyphenated states. To prevent this, you can prepare the third-party library before rendering your app.
 
@@ -90,11 +90,11 @@ Hyphenation.getInstance()
 
 ```
 
-
+***
 
 <a name="loio6322164936f047de941ec522b95d7b70__section_ksz_fsb_ffb"/>
 
-### How It Works for Text Controls
+## How It Works for Text Controls
 
 We've taken the following dynamic approach to hyphenation:
 
@@ -111,11 +111,11 @@ When the framework makes the choice whether browser-native hyphenation or third-
 
 ![](images/loio6992c16573754505aa2e008859207b91_LowRes.png "Hyphenation Workflow")
 
-
+***
 
 <a name="loio6322164936f047de941ec522b95d7b70__section_b4v_3rr_kfb"/>
 
-### Supported Languages
+## Supported Languages
 
 > ### Caution:  
 > Note that as the hyphenation feature uses third-party and browser-native tools, we are not responsible for any grammatical incorrectness or inconsistencies of the hyphenation. Also, the variety of supported languages is outside the scope of our control and may be subject to future changes.

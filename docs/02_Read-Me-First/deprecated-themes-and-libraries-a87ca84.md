@@ -1,12 +1,12 @@
 <!-- loioa87ca843bcee469f82a9072927a7dcdb -->
 
-## Deprecated Themes and Libraries
+# Deprecated Themes and Libraries
 
 As OpenUI5 evolves over time, some of the UI controls are replaced by others, or their concepts abandoned entirely. This chapter gives an overview of the most important deprecations at theme and library level. Individual control deprecations and more information about the controls replacing them can be found in the API reference within the Demo Kit.
 
+***
 
-
-### Themes that are no longer supported
+## Themes that are no longer supported
 
 The following themes have been deprecated and/or removed entirely:
 
@@ -174,9 +174,9 @@ n/a
 
 For a list of the available themes, see [Available Themes](../04_Essentials/available-themes-da0d2e7.md).
 
+***
 
-
-### Deprecated Libraries
+## Deprecated Libraries
 
 The following libraries have been deprecated and/or removed entirely:
 

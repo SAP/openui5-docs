@@ -1,6 +1,6 @@
 <!-- loio22f50c0f0b104bf3ba84620880793d3f -->
 
-## Concept and Basic Setup
+# Concept and Basic Setup
 
 To apply the test starter concept to your OpenUI5 project, you need to create a test suite and a generic test page that allows for the running of one or multiple test modules.
 
@@ -9,11 +9,11 @@ To apply the test starter concept to your OpenUI5 project, you need to create a 
 
 
 
-
+***
 
 <a name="loio22f50c0f0b104bf3ba84620880793d3f__section_v1s_4qg_vcc"/>
 
-### The UI5 Test Suite
+## The UI5 Test Suite
 
 A test suite configures the environment for the tests. It consists of a `*.qunit.html` page often named `testsuite.qunit.html` and a corresponding `*.qunit.js` module.
 
@@ -21,9 +21,9 @@ The default naming convention for the test suite is `testsuite.qunit.html` and `
 
 There can be multiple test suites in a project. When adding more test suites, the naming must follow the pattern `testsuite.<name>.qunit.html` / `testsuite.<name>.qunit.js`.
 
+***
 
-
-#### The UI5 Test Suite Page
+### The UI5 Test Suite Page
 
 The test suite page uses the `sap/ui/test/starter/createSuite.js` script to initialize the test suite in a way which is compliant to the content security policy, based on the externalized test configuration provided in the test suite module.
 
@@ -54,11 +54,11 @@ Unlike with the UI5 bootstrap, this script only accepts a limited set of configu
 
 ```
 
+***
 
+***
 
-
-
-#### The UI5 Test Suite Module
+### The UI5 Test Suite Module
 
 The test suite module represents the configuration file for the UI5 test suite. The module must return a configuration object in the following basic structure:
 
@@ -116,11 +116,11 @@ sap.ui.define(function () {
 
 The `tests` object is empty for now. For more information on how to add a defined test module to an existing test suite, see [Adding a QUnit Test Module to a Test Suite](creating-a-qunit-test-7080029.md#loio708002929ea548fd9433954a9275eb5f__section_hp4_xhn_vcc).
 
-
+***
 
 <a name="loio22f50c0f0b104bf3ba84620880793d3f__section_gts_ptg_vcc"/>
 
-### The Generic Test Page
+## The Generic Test Page
 
 The generic test page is used to run individual tests. Typically, this file is named `Test.qunit.html`.
 

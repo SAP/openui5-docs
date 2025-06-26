@@ -1,6 +1,6 @@
 <!-- loio91f21f176f4d1014b6dd926db0e91070 -->
 
-## Identifying the Language Code / Locale
+# Identifying the Language Code / Locale
 
 For the identification of languages, the framework uses a language code of type `string`.
 
@@ -239,11 +239,11 @@ These OpenUI5 configuration options accept the following formats:
     > If you don't make use of the SAP Fiori launchpad, you may have to explicitly implement the language handling. You can use the `sap/base/i18n/Localization.setLanguage()` method to provide both settings, a BCP 47 language code and the corresponding SAP-proprietary language, in one call. OpenUI5 will then use one of the two codes where appropriate \(e.g. BCP 47 for the retrieval of translated texts or in HTTP Accept Headers, but the proprietary SAP language code when propagating the `sap-language` URL parameter to an OData service\).
 
 
-
+***
 
 <a name="loio91f21f176f4d1014b6dd926db0e91070__section_6CAF7D95C27C487CB201CE83345AC370"/>
 
-### Current Language Code / Locale
+## Current Language Code / Locale
 
 > ### Note:  
 > The `lang` attribute for the current language is set at page level for the entire page. If a page contains text that is not in the current language \(for example, French elements on an English page\), this text cannot be labeled with a different language tag. OpenUI5 doesn't offer dedicated support to mark application parts, sections, etc. that are in a different language.

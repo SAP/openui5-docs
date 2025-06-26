@@ -1,6 +1,6 @@
 <!-- loiob229914587444025be986d81dcc77303 -->
 
-## Manifest for Libraries
+# Manifest for Libraries
 
 The manifest \(also known as descriptor\) for libraries contains a subset of the attributes in the manifest for applications and components.
 

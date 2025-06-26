@@ -1,12 +1,12 @@
 <!-- loioc69c61d7c9bc4514b9479b3998f61ef6 -->
 
-## Right-to-Left Support Guidelines for Control Development
+# Right-to-Left Support Guidelines for Control Development
 
 OpenUI5 developers have to consider the text directionality when implementing new controls. The following guidelines explain how this can be done and highlight what you need to focus on.
 
+***
 
-
-### General Guidelines
+## General Guidelines
 
 You should develop the control as usual, with only left-to-right \(LTR\) direction in mind.
 
@@ -21,15 +21,15 @@ You should develop the control as usual, with only left-to-right \(LTR\) directi
 
 You can find more detailed guidelines and specifics in the *Related Information* section.
 
+***
 
-
-### Turning on RTL Mode with the URL Parameter
+## Turning on RTL Mode with the URL Parameter
 
 You can test your control by setting the URL parameter `sap-ui-rtl` to `true`. This will display your control in RTL mode. The automatically converted stylesheets and mirrored images are used, and `dir=rtl` is set on the `<html>` tag.
 
+***
 
-
-### RTL Mode in Text-Displaying Controls
+## RTL Mode in Text-Displaying Controls
 
 Languages that have RTL text directionality keep the default directionality of numeric values and texts in LTR mode. In order to handle these cases, OpenUI5 uses two additional API properties - `textDirection` and `textAlign`. You can find detailed information on how to use these properties in the *Related Information* section.
 

@@ -1,14 +1,14 @@
 <!-- loio121b8e6337d147af9819129e428f1f75 -->
 
-## Controller
+# Controller
 
 A controller contains methods that define how models and views interact.
 
-
+***
 
 <a name="loio121b8e6337d147af9819129e428f1f75__section_cxl_h2d_y2c"/>
 
-### Defining and Referencing Controllers
+## Defining and Referencing Controllers
 
 You define a simple controller as follows:
 
@@ -59,11 +59,11 @@ The string in quotes specifies the controller name. The controller file should b
 > > 
 > > ```
 
-
+***
 
 <a name="loio121b8e6337d147af9819129e428f1f75__section_EF7E041513E34F3FAB23FCF5F5BB1F8B"/>
 
-### Lifecycle Hooks
+## Lifecycle Hooks
 
 OpenUI5 provides predefined lifecycle hooks for implementation. You can add event handlers or other functions to the controller and the controller can fire events, for which other controllers or entities can register.
 
@@ -100,11 +100,11 @@ OpenUI5 provides the following lifecycle hooks:
 > });
 > ```
 
-
+***
 
 <a name="loio121b8e6337d147af9819129e428f1f75__section_F8A9D332F0C347529B0C97330B1C9B2F"/>
 
-### Event Handlers and Other Functions
+## Event Handlers and Other Functions
 
 In addition to lifecycle hooks, a controller can define additional methods that serve as event handlers or additional functionality offered by the controller.
 
@@ -122,11 +122,11 @@ In addition to lifecycle hooks, a controller can define additional methods that 
 > });
 > ```
 
-
+***
 
 <a name="loio121b8e6337d147af9819129e428f1f75__section_vsy_gkm_n2b"/>
 
-### `Methods` Section in the Controller Metadata
+## `Methods` Section in the Controller Metadata
 
 By default, all methods that **do not** start with an underscore or with prefix "on", "init" or "exit" are public. You can get all public methods of a controller by using the `oController.getMetadata().getPublicMethods()` API.
 
@@ -179,11 +179,11 @@ The following sample code shows how to define an extension to an existing contro
 > 
 > ```
 
-
+***
 
 <a name="loio121b8e6337d147af9819129e428f1f75__section_nbl_l1p_42b"/>
 
-### Controller Extensions Implementation Guidelines
+## Controller Extensions Implementation Guidelines
 
 All public methods need to stay compatible:
 
@@ -201,13 +201,17 @@ All public methods need to stay compatible:
 > 
 > Functionality can be called by using `this.base.basePublicMethod()`.
 
-
+***
 
 For more information on how to use controller extensions, see [Using Controller Extension](using-controller-extension-21515f0.md).
 
+***
 
-
-### API Reference
+## API Reference
 
 [sap.ui.core.mvc.Controller](https://ui5.sap.com/#/api/sap.ui.core.mvc.Controller)
+
+-   **[Using Controller Extension](using-controller-extension-21515f0.md "Controller extensions allow you to add functionality to existing applications. They can be used for extensibility purposes, for example by
+        a customer wishing to extend SAP-delivered applications, or as a reusable part that is added to the original application.")**  
+Controller extensions allow you to add functionality to existing applications. They can be used for extensibility purposes, for example by a customer wishing to extend SAP-delivered applications, or as a reusable part that is added to the original application.
 

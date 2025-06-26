@@ -1,6 +1,6 @@
 <!-- loiof28025135e0e4527bdfb7c5441647391 -->
 
-## Enablement of Personalization \(With Variant Management\)
+# Enablement of Personalization \(With Variant Management\)
 
 The simple concept of personalization allows the user to personalize a control and to persist these settings using a `VariantManagement` control.
 
@@ -11,11 +11,11 @@ For more information about this control, see the [API Reference](https://ui5.sap
 
 Personalization currently supports, for example, defining the order of columns in a table and their visibility, sorting, and grouping. To enable this, the personalization engine can be used.
 
-
+***
 
 <a name="loiof28025135e0e4527bdfb7c5441647391__section_lfb_bsm_xwb"/>
 
-### Using the Engine
+## Using the Engine
 
 To use the personalization, the following artifacts are required:
 
@@ -44,11 +44,11 @@ To use the personalization, the following artifacts are required:
     Provides a UI to manage the view settings.
 
 
-
+***
 
 <a name="loiof28025135e0e4527bdfb7c5441647391__section_prf_hsm_xwb"/>
 
-### Registering a Control in the Engine
+## Registering a Control in the Engine
 
 When enabling a control for personalization, you need to register the control once using the `sap.m.p13n.Engine#register` method. `sap.m.p13n.MetadataHelper` is required to provide metadata-relevant information for the personalization engine. It needs to be initialized with an array of objects that have to provide the following information:
 
@@ -224,11 +224,11 @@ Engine.getInstance().register(oTable, {
 });
 ```
 
-
+***
 
 <a name="loiof28025135e0e4527bdfb7c5441647391__section_h42_r54_ywb"/>
 
-### Displaying a Personalization Popup
+## Displaying a Personalization Popup
 
 The personalization engine provides basic tools and functions to initialize and display a `sap.m.p13n.Popup` with the related panels for each registered controller.
 
@@ -246,11 +246,11 @@ Engine.getInstance().show(oTable, ["Columns", "Sorter", "Groups"], {
 });
 ```
 
-
+***
 
 <a name="loiof28025135e0e4527bdfb7c5441647391__section_g15_cv4_ywb"/>
 
-### Handling of State Changes
+## Handling of State Changes
 
 Whenever a personalization state changes \(most likely when the user creates changes in the personalization popup provided by `sap.m.p13n.Engine#show`\), an event is triggered by the engine. This event can then be used to create application-specific implementations by registering via `sap.m.p13n.Engine#attachStateChange`. This event will provide an object of the state after the user created personalization changes. An exampe implementation for a table might look as follows:
 
@@ -294,11 +294,11 @@ Engine.getInstance().attachStateChange(function(){
 });
 ```
 
-
+***
 
 <a name="loiof28025135e0e4527bdfb7c5441647391__section_lkw_wrp_ywb"/>
 
-### Programmatically Applying States
+## Programmatically Applying States
 
 The personalization engine also provides capabilities to programmatically apply personalization. For example, if there are other personalization functions outside the control, such as a custom button for making a sort function available.
 
@@ -412,13 +412,15 @@ Type
 </tr>
 </table>
 
-
+***
 
 <a name="loiof28025135e0e4527bdfb7c5441647391__section_t4w_bsp_ywb"/>
 
-### Persistence
+## Persistence
 
 Persistence is provided by using the `VariantManagement` control. When using the personalization engine, the engine will ensure that any related flexibility changes for persisting personalization changes are made.
+
+**Parent topic:**[Personalization](personalization-75c08fd.md "You can use the p13n namespace for personalization settings.")
 
 **Related Information**  
 

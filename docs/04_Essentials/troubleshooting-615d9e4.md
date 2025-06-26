@@ -1,6 +1,6 @@
 <!-- loio615d9e4aaa34447fbd4aa5f19dfde9b8 -->
 
-## Troubleshooting
+# Troubleshooting
 
 This section describes the various tools that are available for troubleshooting apps developed with OpenUI5
 
@@ -156,16 +156,49 @@ Identifies performance issues in your application by tracking the interaction th
 
 For help with specific problems see our [First-Aid Kit](first-aid-kit-dfe4f79.md).
 
-
+***
 
 <a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__section_sjf_1rz_s1b"/>
 
-### Get Help
+## Get Help
 
 If you're stuck and need help with a development task, you can also post a question in the OpenUI5-related forums, for example in the [SAP Community](https://community.sap.com/t5/c-khhcw49343/SAPUI5/pd-p/500983881501772639608291559920477) or on [Stack Overflow](https://stackoverflow.com/tags/sapui5/info).
+
+-   **[Debugging](debugging-c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab "When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.")**  
+When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.
+-   **[Logging and Tracing](logging-and-tracing-9f4d62c.md "Use the built-in OpenUI5
+		logging mechanisms to debug and analyze applications or framework errors.")**  
+Use the built-in OpenUI5 logging mechanisms to debug and analyze applications or framework errors.
+-   **[Technical Information Dialog](technical-information-dialog-616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9 "The Technical Information dialog shows details of the OpenUI5 version currently being
+		used in an app built with OpenUI5. You can use the Technical Information dialog to enable debug
+		resources and open additional support tools to debug your app.")**  
+The *Technical Information* dialog shows details of the OpenUI5 version currently being used in an app built with OpenUI5. You can use the *Technical Information* dialog to enable debug resources and open additional support tools to debug your app.
+-   **[Diagnostics](diagnostics-6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6 "The Diagnostics window available in OpenUI5 is a support tool that
+		runs within an existing OpenUI5
+		app. ")**  
+The *Diagnostics* window available in OpenUI5 is a support tool that runs within an existing OpenUI5 app.
+-   **[Support Assistant](support-assistant-57ccd7d.md "The Support Assistant enables developers to check whether their apps are built according
+		to the OpenUI5 best practices
+		and guidelines.")**  
+The Support Assistant enables developers to check whether their apps are built according to the OpenUI5 best practices and guidelines.
+-   **[Test Recorder](test-recorder-dac59fa.md "The Test Recorder tool supports app developers who write integration and system
+		tests.")**  
+The Test Recorder tool supports app developers who write integration and system tests.
+-   **[UI5 Inspector](ui5-inspector-b24e724.md "The UI5 Inspector is an open source Chrome DevTools extension that
+        helps app developers to inspect, analyze, and support OpenUI5-based apps. It is supported for apps based on OpenUI5 version 1.28 and
+            higher.")**  
+The UI5 Inspector is an open source Chrome DevTools extension that helps app developers to inspect, analyze, and support OpenUI5-based apps. It is supported for apps based on OpenUI5 version 1.28 and higher.
+-   **[Performance Measurement Using sap/ui/performance/Measurement Module](performance-measurement-using-sap-ui-performance-measurement-module-78880c0.md "You can use sap/ui/performance/Measurement to measure the
+		performance of your JavaScript code. ")**  
+You can use `sap/ui/performance/Measurement` to measure the performance of your JavaScript code.
+-   **[Interaction Tracking for Performance Measurement](interaction-tracking-for-performance-measurement-b2825ea.md "You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.")**  
+You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.
+-   **[First-Aid Kit](first-aid-kit-dfe4f79.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve
+		them.")**  
+This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.
 
 **Related Information**  
 
 
-[Troubleshooting Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/5661952e72df471b932eddc10350c081.html "In this tutorial, we will show you some tools that will help you if you run into problems with your SAPUI5 app.") :arrow_upper_right:
+[Troubleshooting Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/5661952e72df471b932eddc10350c081.html "In this tutorial, we will show you some tools that will help you if you run into problems with your SAPUI5 app.") :arrow_upper_right:
 

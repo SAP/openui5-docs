@@ -1,10 +1,10 @@
 <!-- loio68b9644a253741e8a4b9e4279a35c247 -->
 
-## Data Binding
+# Data Binding
 
 You use data binding to bind UI elements to data sources to keep the data in sync and allow data editing on the UI.
 
-
+***
 
 ![The different data models in UI5 are shown: Resource model, view model, device model, XML model, JSON model, and the
 							OData models.](images/loio544b09736447477198202b636048bab8_LowRes.png)
@@ -19,7 +19,7 @@ There are also internal data sources that are defined in the app for specific pu
 
 -   **View models** can be, for example, JSON models that communicate with a corresponding JSON object. JSON data can also be edited in the app, but they are not stored - as soon as you refresh the browser or restart the app, the changes are reset.
 
--   A JSON model can be used together with the `sap/ui/Device` module to create a **device model** that contains device-specific settings.For an example, see our Walkthrough tutorial, [Step 35: Device Adaptation](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/d63a15e5eebb45cdada317bae5f45bc2.html "We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the sap.ui.Device API and defining a device model we will make the app look great on many devices.") :arrow_upper_right:.
+-   A JSON model can be used together with the `sap/ui/Device` module to create a **device model** that contains device-specific settings.For an example, see our Walkthrough tutorial, [Step 35: Device Adaptation](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/d63a15e5eebb45cdada317bae5f45bc2.html "We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the sap.ui.Device API and defining a device model we will make the app look great on many devices.") :arrow_upper_right:.
 
 
 Most of the models are client-side models. This means that all data is initially loaded to the model when the app is started. All actions performed on the data are only executed on the client, and are only sent back to the data source when this is triggered by the app. Client-side models are therefore only recommended for small data sets.
@@ -29,13 +29,13 @@ The OData models \(V2 and V4\) are server-side models, which means that data is 
 In the view, you bind data by specifying the **binding path** for a control. You can use **data types** and **formatters** to validate and format the data on the UI.
 
 > ### Note:  
-> To learn more about data binding, take this tutorial: [Data Binding Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/e5310932a71f42daa41f3a6143efca9c.html "In this tutorial, we explain the concepts of data binding in SAPUI5.") :arrow_upper_right:.
+> To learn more about data binding, take this tutorial: [Data Binding Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/e5310932a71f42daa41f3a6143efca9c.html "In this tutorial, we explain the concepts of data binding in SAPUI5.") :arrow_upper_right:.
 
-
+***
 
 <a name="loio68b9644a253741e8a4b9e4279a35c247__section_BindingModes"/>
 
-### Binding Modes: One-way Binding, Two-way Binding, and One-time Binding
+## Binding Modes: One-way Binding, Two-way Binding, and One-time Binding
 
 The binding mode defines how the data sources are bound to the UI. OpenUI5 provides the following binding modes:
 
@@ -239,4 +239,22 @@ Resource model
 </table>
 
 For more information, see the [API Reference: `sap.ui.model.BindingMode`](https://ui5.sap.com/#/api/sap.ui.model.BindingMode). 
+
+-   **[Binding Types](binding-types-91f0d8a.md "Depending on the different use cases, you can use different binding types: Propety
+		binding, context binding, and list binding.")**  
+Depending on the different use cases, you can use different binding types: Propety binding, context binding, and list binding.
+-   **[Binding Syntax](binding-syntax-e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model
+		that represents the data source in the app.")**  
+You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.
+-   **[Formatting, Parsing, and Validating Data](formatting-parsing-and-validating-data-07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable
+        and fits to the locale of the user. On the other hand, data entered by the user has to be
+        parsed and validated to be understood by the data source. For this purpose, you use
+        formatters and data types.")**  
+Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.
+-   **[Models](models-e1b6259.md "A model in the Model View Controller concept holds the data and provides methods to
+		retrieve the data from the database and to set and update data.")**  
+A model in the Model View Controller concept holds the data and provides methods to retrieve the data from the database and to set and update data.
+-   **[Using Data Binding for Data Export](using-data-binding-for-data-export-f1ee7a8.md "Data binding supports the export of data in a specific format so that the data can be
+        used in other programs.")**  
+Data binding supports the export of data in a specific format so that the data can be used in other programs.
 

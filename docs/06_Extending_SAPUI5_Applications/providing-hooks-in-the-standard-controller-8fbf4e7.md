@@ -1,6 +1,6 @@
 <!-- loio8fbf4e728bd146fcb2053aeb6ca741f9 -->
 
-## Providing Hooks in the Standard Controller
+# Providing Hooks in the Standard Controller
 
 Hooks are extension points in the controller code that are used to make controller extensions more stable.
 
@@ -14,9 +14,9 @@ The process for this is as follows:
 4.  The customer can then configure a controller extension, implementing exactly this one function.
 5.  OpenUI5 runtime merges the new controller extension into the standard controller. If customizing is enabled, the new function can be executed.
 
+***
 
-
-### Example
+## Example
 
 By receiving the data object `oSomeData` from the server, the application enables you to access and modify the data object. The extension function name is `onDataReceived` and gets a reference to the data object as argument.
 

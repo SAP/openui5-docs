@@ -1,6 +1,6 @@
 <!-- loio91f225ce6f4d1014b6dd926db0e91070 -->
 
-## Resource Bundles
+# Resource Bundles
 
 A resource bundle file is a Java properties file \(as described in the Javadoc of class `java.util.Properties`\). It contains key-value pairs where the values are the language-dependent texts and the keys are language-independent and used by the application to identify and access the corresponding values.
 

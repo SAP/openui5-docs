@@ -1,6 +1,6 @@
 <!-- loio2e532e6288854e5897a819a2ab6cc910 -->
 
-## Implementing Your Own OData V2 Message Parser
+# Implementing Your Own OData V2 Message Parser
 
 A message parser is a simple interface that is implemented to allow the propagation of messages from back end services. For messages from OData V2 services, the `sap.ui.model.odata.ODataMessageParser` is used.
 

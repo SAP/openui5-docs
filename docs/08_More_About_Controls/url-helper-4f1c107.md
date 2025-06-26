@@ -1,6 +1,6 @@
 <!-- loio4f1c1075d88c41a5904389fa12b28f6b -->
 
-## URL Helper
+# URL Helper
 
 With `sap.m.URLHelper` you can easily trigger native mobile phone applications such as e-mail, telephone, and text messages.
 
@@ -67,6 +67,9 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 >     sap.m.URLHelper.normalizeSms( [Telephone Number] );
 >     sap.m.URLHelper.normalizeEmail( [Destination Email], [Subject], [Default Message Text], [CC], [BCC] );  
 >     ```
+
+-   **[Examples for Triggering Telephone, Text and E-Mail Applications](examples-for-triggering-telephone-text-and-e-mail-applications-021ac23.md "Code samples for triggering telephone, text and e-mail applications.")**  
+Code samples for triggering telephone, text and e-mail applications.
 
 **Related Information**  
 

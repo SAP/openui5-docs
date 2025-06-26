@@ -1,6 +1,6 @@
 <!-- loio2c677b574ea2486a8d5f5414d15e21c5 -->
 
-## XML Fragments
+# XML Fragments
 
 XML fragments are similar to XML views but have no <View\> tag as root element. Instead, there is an OpenUI5 control.
 

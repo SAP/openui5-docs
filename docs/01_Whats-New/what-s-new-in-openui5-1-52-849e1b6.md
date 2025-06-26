@@ -1,6 +1,6 @@
 <!-- loio849e1b678d324d129a84446d9c2841fb -->
 
-## What's New in OpenUI5 1.52
+# What's New in OpenUI5 1.52
 
 With this release OpenUI5 is upgraded from version 1.50 to 1.52.
 
@@ -1369,6 +1369,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

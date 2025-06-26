@@ -1,6 +1,6 @@
 <!-- loio24a9e0e2424245e4873c0f29f00144f4 -->
 
-## Layout Arrows
+# Layout Arrows
 
 Layout arrows are used to alter the current layout of the `FlexibleColumnLayout`.
 

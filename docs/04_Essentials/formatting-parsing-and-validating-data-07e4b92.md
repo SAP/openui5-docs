@@ -1,10 +1,10 @@
 <!-- loio07e4b920f5734fd78fdaa236f26236d8 -->
 
-## Formatting, Parsing, and Validating Data
+# Formatting, Parsing, and Validating Data
 
 Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.
 
-
+***
 
 ![When data is exchanged between the View and the Model, it often has to be converted by formatting, validating or
                             parsing.](images/loio40f0541313154bb0b5de72e2bd1c9207_LowRes.png)
@@ -18,11 +18,11 @@ If an error occurs during formatting or parsing, the following exception occurs:
 > ### Note:  
 > For some controls like `sap/m/Input` you can also use API properties that define the data type and add additional features like restricted input options, for example, <code>&lt;Input <b>type="Number"</b>/&gt;</code>.
 
-
+***
 
 <a name="loio07e4b920f5734fd78fdaa236f26236d8__section_rgn_hc5_xcb"/>
 
-### Formatters
+## Formatters
 
 > ### Note:  
 > When using formatter functions, the binding is automatically switched to "one-way". So you can't use a formatter function for "two-way" scenarios, but you can use [Data Types](formatting-parsing-and-validating-data-07e4b92.md#loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes).
@@ -60,9 +60,9 @@ You can load the formatter via the [`require`](require-modules-in-xml-view-and-f
 > ### Caution:  
 > The automatic type determination for OData V4 interacts with `targetType` and can, thus, influence a formatter's input values. For more information on type determination in OData V4, see [Type Determination](type-determination-53cdd55.md).
 
+***
 
-
-#### `this` Context for Formatter Functions
+### `this` Context for Formatter Functions
 
 By default, formatter functions are bound to the control instance unless explicitly specified otherwise. However, when a formatter is accessed via dot notation, the `this` context is bound to the parent object.
 
@@ -81,9 +81,9 @@ To ensure that the `this` context remains bound to the control instance, you can
 />
 ```
 
+***
 
-
-#### `.bind()` Syntax in Formatter Functions
+### `.bind()` Syntax in Formatter Functions
 
 The `.bind()` method allows you to explicitly set the `this` context in formatter functions. Note that the `.bind()` method accepts only a single argument when used in formatter strings.
 
@@ -96,15 +96,15 @@ The following aguments are accepted:
 > ### Note:  
 > Arguments other than `$control` and `$controller` must not start with a '`$`' character as this prefix is reserved by the framework. This restriction also applies to the keys defined in the `core:require` attribute.
 
-
+***
 
 <a name="loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes"/>
 
-### Data Types
+## Data Types
 
+***
 
-
-#### Simple Types
+### Simple Types
 
 If you also want to validate and parse input values, you use data types. All data types inherit from the abstract `sap.ui.model.Type` class.
 
@@ -144,9 +144,9 @@ For simple data types, you can generate the following parameters in the construc
 
 For a complete list of all simple types, see [API Reference: `sap.ui.model.Type`](https://ui5.sap.com/#/api/sap.ui.model.type/overview). 
 
+***
 
-
-#### OData Types
+### OData Types
 
 These types support OData V2 and V4 including relevant property facets as constraints. The OData types represent the OData EDM primitive types. For more information, see [Primitive Data Types in the OData documentation](http://www.odata.org/documentation/odata-version-2-0/overview/).
 
@@ -155,9 +155,9 @@ For a complete list of all OData types, see [API Reference: `sap.ui.model.odata.
 > ### Note:  
 > Also see the information on automatic type determination in OData V4 under [Type Determination](type-determination-53cdd55.md).
 
+***
 
-
-#### Custom Data Types
+### Custom Data Types
 
 You can also define a custom data type based on `sap.ui.model.SimpleType` by specifying a custom implementation for `formatValue`, `parseValue`, and `validateValue`:
 
@@ -179,7 +179,16 @@ sap.ui.define([
 ```
 
 > ### Example:  
-> [Step 5: Adding a Flag Button](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/69a25bf2f8a2478cbda4b8bbe64039de.html "Now that we have implemented the conversion tests, we add the corresponding functionality and show the button to flag a post in the app. The design team has specified that the flag feature should be implemented with a toggle button that has a flag icon.") :arrow_upper_right: of the *Testing* tutorial shows how to implement a custom data type.
+> [Step 5: Adding a Flag Button](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/69a25bf2f8a2478cbda4b8bbe64039de.html "Now that we have implemented the conversion tests, we add the corresponding functionality and show the button to flag a post in the app. The design team has specified that the flag feature should be implemented with a toggle button that has a flag icon.") :arrow_upper_right: of the *Testing* tutorial shows how to implement a custom data type.
+
+-   **[Dates, Times, Timestamps, and Time Zones](dates-times-timestamps-and-time-zones-6c9e61d.md "OpenUI5 applications often deal with timestamps, dates, and times. Typically,
+		these timestamps, dates and times are stored in a back-end system and communicated to the client via OData services. OpenUI5 offers a variety of UI5 data types and formatters for handling these
+		timestamps, dates and times.")**  
+OpenUI5 applications often deal with timestamps, dates, and times. Typically, these timestamps, dates and times are stored in a back-end system and communicated to the client via OData services. OpenUI5 offers a variety of UI5 data types and formatters for handling these timestamps, dates and times.
+-   **[Simple Data Types](simple-data-types-91f06be.md)**  
+
+-   **[Formatter Classes](formatter-classes-35cbd6c.md)**  
+
 
 **Related Information**  
 

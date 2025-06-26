@@ -1,6 +1,6 @@
 <!-- loio148892ff9aea4a18b912829791e38f3e -->
 
-## Tables: Which One Should I Choose?
+# Tables: Which One Should I Choose?
 
 The libraries provided by OpenUI5 contain various different table controls that are suitable for different use cases. The table below outlines which table controls are available, and what features are supported by each one.
 
@@ -549,11 +549,11 @@ Cell selection
 
 For more information, search for loading items and performance in the responsive table section in the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
 
-
+***
 
 <a name="loio148892ff9aea4a18b912829791e38f3e__section_ymw_zhx_y1c"/>
 
-### Table \(`sap.ui.mdc`\)
+## Table \(`sap.ui.mdc`\)
 
 [\(sap.ui.mdc.Table\)](https://ui5.sap.com/#/api/sap.ui.mdc.Table)
 

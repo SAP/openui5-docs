@@ -1,6 +1,6 @@
 <!-- loio62d9c4d8f5ad49aa914624af9551beb7 -->
 
-## Frame Options
+# Frame Options
 
 The `frame-options` configuration of OpenUI5 is a client-side feature that is used to prevent security vulnerabilities like clickjacking, that is, situations where a user could be misled to use the targeted application unintentionally.
 
@@ -255,9 +255,9 @@ Contains the domain allowlist, for example `[".example.com"]`, `["hana.ondemand.
 > ### Note:  
 > The `frame-options-config` cannot be set via URL. Wildcards are not supported.
 
+***
 
-
-### Example: `"deny"`
+## Example: `"deny"`
 
 If the application is not intended to run in a frame, set `frame-options` to `"deny"`:
 
@@ -269,9 +269,9 @@ If the application is not intended to run in a frame, set `frame-options` to `"d
 </script>
 ```
 
+***
 
-
-### Example: `"trusted"` with `callback` 
+## Example: `"trusted"` with `callback` 
 
 To restrict the embedding to same-origin domains, set `frame-options` to `trusted`. The `callback` in the following code sample is called with a boolean as success state and can be used to implement an application-specific behavior.
 
@@ -297,9 +297,9 @@ globalThis["sap-ui-config"] = {
 </script>
 ```
 
+***
 
-
-### Example: Allowlist Service
+## Example: Allowlist Service
 
 To allow that the OpenUI5 application is embedded in cross-origin domains, configure an allowlist service. The allowlist service checks whether the application can run in the parent origin, or not.
 
@@ -325,9 +325,9 @@ globalThis["sap-ui-config"] = {
 </script>
 ```
 
+***
 
-
-### Example: Allowlist Service via `<meta>` Tag
+## Example: Allowlist Service via `<meta>` Tag
 
 Alternatively, a `<meta>` tag can be used to configure the `sap-allowlist-service` and set the `sap-ui-frame-options` to `"trusted"`. This only applies if the `allowlist-service` or `frame-options` configuration is not set otherwise according to the [Configuration of the OpenUI5 Runtime](../04_Essentials/configuration-of-the-openui5-runtime-91f08de.md).
 

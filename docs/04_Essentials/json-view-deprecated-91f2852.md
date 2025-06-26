@@ -1,6 +1,6 @@
 <!-- loio91f285256f4d1014b6dd926db0e91070 -->
 
-## JSON View \(deprecated\)
+# JSON View \(deprecated\)
 
 The JSON view type is defined in a file. The file name has to either end with `.view.json` or as a JSON string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name within the modularization concept.
 
@@ -35,17 +35,17 @@ Nest the JSON objects analogous to the nesting of OpenUI5 controls and add the p
 > ### Note:  
 > You can use strings, Boolean values, and null in your JSON view.
 
-
+***
 
 <a name="loio91f285256f4d1014b6dd926db0e91070__section_37BCAE29E4604ABBA78979649D54CF04"/>
 
-### Aggregation Handling
+## Aggregation Handling
 
 You add child controls as arrays. This is shown in the example above where an image and a button have been added to the view content aggregation.
 
+***
 
-
-### Event Handling
+## Event Handling
 
 In JSON views, event handlers are bound as attributes with the attribute name as event name like `press` for a button and the attribute value as event handler name.
 
@@ -64,9 +64,9 @@ The following declaration causes `controller.doSomething()` to be executed when 
 
 The location in which an event handler is looked up, are similar to XML views \(see [Handling Events in XML Views](handling-events-in-xml-views-b0fb4de.md)\).
 
+***
 
-
-### Data Binding
+## Data Binding
 
 You can bind data in JSON views. To bind the texts of a control to a language-dependent resource bundle, define the resource bundle via name \(`resourceBundleName` property\) or a URL \(`resourceBundleUrl` property\) and assign an alias \(`resourceBundleAlias` property\) for the bundle within the view definition. The binding path is the same for all other OpenUI5 data bindings.
 

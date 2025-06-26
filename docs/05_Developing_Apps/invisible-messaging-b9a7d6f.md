@@ -1,18 +1,18 @@
 <!-- loiob9a7d6f607f049988797b68b65e60901 -->
 
-## Invisible Messaging
+# Invisible Messaging
 
 The Invisible Message class provides a way to grammatically expose dynamic content changes in a way that can be announced by screen readers.
 
-
+***
 
 The `sap.ui.core.InvisibleMessage` enables developers to specify the message to be announced when something dynamically changes on the user interface. In this manner, the class allows control and application developers to improve the usability of the applications, by sending dedicated messages to the screen reader users.
 
-
+***
 
 <a name="loiob9a7d6f607f049988797b68b65e60901__section_v25_cwt_3mb"/>
 
-### Usage
+## Usage
 
 This class is a singleton. The class instance can be retrieved via the static method `sap.ui.core.InvisibleMessage.getInstance()`. The sap.ui.core.InvisibleMessage is designed to be used both internally in the controls logic and from the applications.
 
@@ -25,11 +25,11 @@ Using the service, you have to specify the message to be announced by the screen
 
 The `sap.ui.core.InvisibleMessage` should be instantiated before the rest of the DOM tree \(controls\) get rendered, preferably in the `onBeforeRendering()` method of the control. Then, you should specify the text, that has to be announced by the screen reader, and the live region's mode using the announce method. Keep in mind that according to the ARIA standard, the live regions should be presented on page load and should be empty. Thus, we recommend to instantiate `sap.ui.core.InvisibleMessage` via `sap.ui.core.InvisibleMessage.getInstance()` as early as possible in the application logic – with the Component initialization, with the main Controller initialization, after Core initialization, ect.
 
-
+***
 
 <a name="loiob9a7d6f607f049988797b68b65e60901__section_p2p_cz1_lmb"/>
 
-### Example with dynamically generated `sap.m.MessageStrip`
+## Example with dynamically generated `sap.m.MessageStrip`
 
 You must implement `sap.ui.core.InvisibleMessage` when using dynamically generated `sap.m.MessageStrip` in order to achieve the standardized best accessibility practices. It will allow screen readers to announce the `sap.m.MessageStrip` text to the users in real-time, when it appears on the screen.
 

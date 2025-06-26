@@ -1,14 +1,14 @@
 <!-- loio648e360fa22d46248ca783dc6eb44531 -->
 
-## Data Reuse
+# Data Reuse
 
 The OData V4 model keeps data with respect to bindings. This allows different views on the same data but also means that data is not automatically shared between bindings. There are mechanisms for sharing data to avoid redundant requests and to keep the same data in different controls in sync.
 
-
+***
 
 <a name="loio648e360fa22d46248ca783dc6eb44531__section_relativeBindings"/>
 
-### Relative Bindings
+## Relative Bindings
 
 An OData V4 binding may or may not initiate own data requests. Data sharing between a parent binding and a dependent binding is possible if the dependent binding does not send its own data requests. Both bindings will then use the same data storage and may share data that is accessed by both bindings. To this end, the dependent binding has to be relative to a `sap.ui.model.odata.v4.Context`, and the dependent binding must not have any binding parameters. The only exception is the `$$noPatch` binding parameter of the OData V4 property binding.
 
@@ -91,11 +91,11 @@ onPatternMatched : function (oEvent) {
 
 -   See also our [demo app](https://ui5.sap.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.Draft).
 
-
+***
 
 <a name="loio648e360fa22d46248ca783dc6eb44531__section_g5j_v1r_mgb"/>
 
-### Return Values of Bound Actions
+## Return Values of Bound Actions
 
 The data of the returned entity is synchronized into the binding parameter of the bound action if the following conditions apply:
 
@@ -106,11 +106,11 @@ The data of the returned entity is synchronized into the binding parameter of th
 -   The returned entity has the same key predicate as the binding parameter.
 
 
-
+***
 
 <a name="loio648e360fa22d46248ca783dc6eb44531__section_uz4_fzq_xlb"/>
 
-### Shared Requests
+## Shared Requests
 
 The same data needs to be requested only once for use cases like value help controls where the following conditions apply:
 
@@ -147,11 +147,11 @@ For this, you may use the `$$sharedRequest` binding parameter for all the list b
 
 The `$$sharedRequest` binding parameter is used automatically for list bindings of [value list](value-lists-ab267a6.md) models. Note that you can also set the `$$sharedRequest` parameter on the model, which means that all list bindings created within this model receive `$$sharedRequest=true` by default. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel#Constructor`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel%23constructor). 
 
-
+***
 
 <a name="loio648e360fa22d46248ca783dc6eb44531__section_ELC"/>
 
-### Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection
+## Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection
 
 If, due to filtering or sorting of the list, the entity shown in the detail view is no longer part of the list, then the context pointing to this entity is destroyed. As a consequence, its data also vanishes inside the detail view. To prevent this drawback, `sap.ui.model.odata.v4.Context#setKeepAlive` can be used. This method allows you to extend the lifetime of a context, so that the context does not get destroyed when the corresponding entity is no longer part of the list.
 
@@ -194,11 +194,11 @@ If you want to get [server messages](server-messages-in-the-odata-v4-model-fbe1c
 
 A \(de-\)selected context may be kept alive in order to preserve its selection state. For more information, see [Selection](selection-ec55312.md)and [`v4.Context#setSelected`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context%23methods/setSelected).
 
-
+***
 
 <a name="loio648e360fa22d46248ca783dc6eb44531__section_APBS"/>
 
-### Absolute Property Bindings of Singletons
+## Absolute Property Bindings of Singletons
 
 In general, absolute property bindings raise their own data requests. Hence, a separate request is created for each property, and duplicate requests may occur. For absolute property bindings of singletons, however, the requests are merged, and duplicate requests are avoided.
 

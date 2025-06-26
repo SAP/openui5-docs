@@ -1,14 +1,14 @@
 <!-- loiocca5ee5d63ca44c89318f8496a58f9f2 -->
 
-## sap.f.GridContainer
+# sap.f.GridContainer
 
 The `GridContainer` allows you to align tiles, cards or other controls in configuration, such as an overview page.
 
-
+***
 
 <a name="loiocca5ee5d63ca44c89318f8496a58f9f2__section_gs3_qlx_hhb"/>
 
-### Overview
+## Overview
 
 The `GridContainer` allows the positioning of items \(Tiles, Cards, or others\) in a two-dimensional mesh. The mesh consists of rows with the same height and columns with the same width. Those height and width sizes along with the gap size are configurable.
 

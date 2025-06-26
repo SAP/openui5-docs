@@ -1,6 +1,6 @@
 <!-- loiofb19f501b16e4e4991eb6a017770945b -->
 
-## Enabling Routing in Nested Components
+# Enabling Routing in Nested Components
 
 Every OpenUI5 component can define routing configuration in its manifest and a UI5 router instance will be created automatically after the component is instantiated.
 
@@ -9,11 +9,11 @@ Using components as targets in routing presents another challenge: When multiple
 > ### Note:  
 > Using routing with nested components requires asynchronous routing in **all** used components. The routers of all components have to enable asynchronous routing in their configuration. For more information, see [Routing Configuration](routing-configuration-9023130.md).
 
-
+***
 
 <a name="loiofb19f501b16e4e4991eb6a017770945b__section_ovn_4cl_ngb"/>
 
-### Configure a Component as Routing Target
+## Configure a Component as Routing Target
 
 A target in OpenUI5 routing can load either a view, or a component. To load a component, you need to define the component in the `componentUsages` section of the owner component's `manifest.json`, see [Using and Nesting Components](using-and-nesting-components-346599f.md).
 
@@ -93,11 +93,11 @@ Use the following configuration to load the component from the target:
 }
 ```
 
-
+***
 
 <a name="loiofb19f501b16e4e4991eb6a017770945b__section_htm_scl_ngb"/>
 
-### Configure Hash Prefix for the Nested Component
+## Configure Hash Prefix for the Nested Component
 
 The hash from every router needs to be persisted in the browser hash. To identify the ownership of the hash segments from the browser hash, a prefix needs to be assigned to the component which is loaded by a `Target`. The prefix can be defined in the `Route` where the `Target` is used.
 
@@ -151,11 +151,11 @@ Instead of assigning the `target` option in a route with the name of a target wh
 }
 ```
 
-
+***
 
 <a name="loiofb19f501b16e4e4991eb6a017770945b__section_PropagateTitleChanged"/>
 
-### Propagate `titleChanged` Event from the Nested Component to the Parent Component
+## Propagate `titleChanged` Event from the Nested Component to the Parent Component
 
 When the nested component `myreuse` has routing enabled, the router instance within the `myreuse` component fires on its own a `titleChanged` event once the displayed target has the `title` property defined. It is easier for an application to react to a `titleChanged` event if any `titleChanged` event\(s\) fired in the nested component\(s\) can be propagated to the router in the root component. To enable this, the property `propagateTitle` can be set in two ways:
 

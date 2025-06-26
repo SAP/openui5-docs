@@ -1,12 +1,12 @@
 <!-- loio182879fc8cd84672a11826f63450f258 -->
 
-## Keyboard Handling for Value Help and Auto-Complete
+# Keyboard Handling for Value Help and Auto-Complete
 
 The following keys and key combinations are used for triggering and using the value help and auto-complete features.
 
+***
 
-
-### Auto-complete
+## Auto-complete
 
 Auto-complete is available for one dimensional editing only.
 
@@ -82,9 +82,9 @@ Move focus to next element. Take over autocomplete, if available.
 </tr>
 </table>
 
+***
 
-
-### Value Help
+## Value Help
 
 Use the following keys and key combinations to trigger value help:
 

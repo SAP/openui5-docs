@@ -1,14 +1,14 @@
 <!-- loio395392f30f2a4c4d80d110d5f923da77 -->
 
-## Facet Filter List and Facet Filter Item
+# Facet Filter List and Facet Filter Item
 
 The `sap.m.FacetFilter` control uses the `FacetFilterList` and the `FacetFilterItem` controls to model facets and their associated filters.
 
 The facet filter list aggregation is a collection of facet filter list objects, where each element in the collection represents a different facet. Likewise, the facet filter list items aggregation is a collection of facet filter item objects where each element in the collection represents a different filter items available for the facet.
 
+***
 
-
-### Facet Filter List
+## Facet Filter List
 
 The `FacetFilterList` control extends and supports all the features of the `sap.m.List` control, for example swipe for action, growing feature, remember selections and grouping.
 
@@ -97,9 +97,9 @@ The `allCount` value can be set to the number of filter matches in the target da
 > ### Note:  
 > The list of properties is not complete. For a complete list, refer to the API documentation.
 
+***
 
-
-### Facet Filter Item
+## Facet Filter Item
 
 The `FacetFilterItem` control extends and supports all features of `sap.m.ListItemBase`, for example item selection and counter. `FacetFilterItem` provides the following properties:
 
@@ -148,9 +148,9 @@ If `key` is not set, `text` is used as the key value.
 > ### Note:  
 > You must either set the `text` or the `key` property. Otherwise, the facet filter list can not properly maintain the selected state of the item and an error message is logged to the console.
 
+***
 
-
-### Example
+## Example
 
 The following example shows how you use the controls. To build the face filter in the figure, use the code below the figure:
 

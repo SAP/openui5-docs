@@ -1,6 +1,6 @@
 <!-- loio91f136c76f4d1014b6dd926db0e91070 -->
 
-## Declarative Support: Aggregations \(deprecated\)
+# Declarative Support: Aggregations \(deprecated\)
 
 Aggregation support is required to allow nested controls for layout containers and/or add elements to a control, for example, for `ComboBox`.
 

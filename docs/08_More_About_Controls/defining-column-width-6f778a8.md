@@ -1,6 +1,6 @@
 <!-- loio6f778a805bc3453dbb66e246d8271839 -->
 
-## Defining Column Width
+# Defining Column Width
 
 The `width` property of `sap.m.Column` can have any valid CSS size, for example, 100px, 6em, or 25%. The default value of the width is `empty`, which makes the column flexible by covering the available space.
 
@@ -21,11 +21,11 @@ There are a few things to keep in mind when defining the width of the column:
 
 For more information, see the [Sample](https://ui5.sap.com/#/sample/sap.m.sample.TableColumnWidth/preview).
 
-
+***
 
 <a name="loio6f778a805bc3453dbb66e246d8271839__section_sy2_2hg_5pb"/>
 
-### Strict Layout
+## Strict Layout
 
 There might be cases where you need to define a static width \(px, em, or %\) for all columns in the table. For these cases `sap.m.Table` offers a strict layout feature. To enable this feature, set `fixedLayout="Strict"` in the table. The `Strict` layout takes the defined column width for the columns into account and renders a placeholder column which occupies the remaining width of the table to ensure the column width is strictly applied.
 
@@ -33,9 +33,9 @@ There might be cases where you need to define a static width \(px, em, or %\) fo
 
 For more information, see the [Sample](https://ui5.sap.com/#/entity/sap.m.Table/sample/sap.m.sample.TableStrictLayout). 
 
+***
 
-
-### API Reference
+## API Reference
 
 -   [sap.m.Column](https://ui5.sap.com/#/api/sap.m.Column)
 -   [sap.m.ScreenSize](https://ui5.sap.com/#/api/sap.m.ScreenSize)

@@ -1,6 +1,6 @@
 <!-- loio7cdff73f308b4b10bdf7d83b7aba72e7 -->
 
-## Extended Change Detection
+# Extended Change Detection
 
 Extended change detection \(ECD\) offers fine-grained information on the actual data changes. This can be used, for example, to only update the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.
 
@@ -8,11 +8,11 @@ In aggregations \(such as lists\), ECD can be used by controls to only modify en
 
 The binding base class already offers a `change` event, which is fired whenever the bound data has been changed. This is sufficient for bindings like property and context binding. Since lists can contain a huge amount of data, you need more detailed information on the changes to avoid a complete rerendering of the whole list each time data has been changed on the UI.
 
-
+***
 
 <a name="loio7cdff73f308b4b10bdf7d83b7aba72e7__section_efm_hht_scb"/>
 
-### Calculation of Differences
+## Calculation of Differences
 
 When extended change detection is enabled, an algorithm is executed to compare the last returned context array with the current context array and the differences is attached to the array of contexts as an additional property named `diff` whenever the `getContexts` method is called. The following results are possible:
 
@@ -83,11 +83,11 @@ The difference between the previous and the current state of the list is provide
 > 
 > -   When a `ListBinding` is firing a `refresh` event, the call to `getContexts` caused by this event is used to inform the `ListBinding` on the `startIndex` and `length` of entries requested by the control. No difference calculation is done on this specific call, as controls do not use the result of this call but instead wait for the data returned by the server.
 
-
+***
 
 <a name="loio7cdff73f308b4b10bdf7d83b7aba72e7__section_a2g_vht_scb"/>
 
-### Using Extended Change Detection in App Development
+## Using Extended Change Detection in App Development
 
 If a control you want to use in your app to visualize list entries supports extended change detection, you should make sure that each entity of your model has a unique key to improve performance.
 
@@ -140,11 +140,11 @@ If a control you want to use in your app to visualize list entries supports exte
     </table>
     
 
-
+***
 
 <a name="loio7cdff73f308b4b10bdf7d83b7aba72e7__section_w1g_5ht_scb"/>
 
-### Using Extended Change Detection in Control Development
+## Using Extended Change Detection in Control Development
 
 Extended change detection is disabled by default. If your control is meant to have only a few children like a toolbar with buttons, you should not activate extended change detection because a copy of the previous state would then always be kept unnecessarily in the binding.
 

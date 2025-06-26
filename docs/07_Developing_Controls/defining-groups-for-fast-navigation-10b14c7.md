@@ -1,6 +1,6 @@
 <!-- loio10b14c7284ba48a185ae2046db470706 -->
 
-## Defining Groups for Fast Navigation
+# Defining Groups for Fast Navigation
 
 Adjacent controls within the tab chain can be grouped. Within such a group, [F6\] or [Ctrl\] + [Alt/Option\] + [Down\] skip all controls of the group and move the focus to the first control in the tab chain of the next group. [Shift\] + [F6\]  or [Ctrl\] + [Alt/Option\] + [Up\]  move the focus to the first control of the previous group. Adjacent tab chain elements between groups are automatically handled as one group. For nested groups, the most concrete group is used.
 
@@ -9,9 +9,9 @@ Basically, a fast navigation group is defined via the attribute `data-sap-ui-fas
 > ### Note:  
 > We recommend that you do **not** provide fast navigation support for small controls such as `Button` or `InputField`. The fast navigation feature is intended for large, more complex controls containing multiple "tab-able" elements to enable the user to quickly jump over controls if needed.
 
+***
 
-
-### Defining a Fast Navigation Group on Control or Element Root Level
+## Defining a Fast Navigation Group on Control or Element Root Level
 
 This is the preferred option and can be used for many use cases. If a control or an element with a DOM representation wants to define a fast navigation group on its root element, use the `CustomData` mechanism in the `init` function of the control or element to set the attribute.
 
@@ -26,9 +26,9 @@ init = function(){
 
 The `RenderManager` writes the attribute automatically during rendering when the `openStart` method is called \(new rendering API\) or when the `writeControlData` or `writeElementData` is called \(legacy rendering API\). The application can also change the custom data if desired.
 
+***
 
-
-### Defining a Fast Navigation Group Within a Control
+## Defining a Fast Navigation Group Within a Control
 
 During rendering of a control, the attribute can also be written to any arbitrary DOM element of the control.
 
@@ -46,9 +46,9 @@ render = function(oRm, oControl){
 > ### Note:  
 > In this case it is difficult for an application to adapt the behavior.
 
+***
 
-
-### Custom Fast Navigation Handling
+## Custom Fast Navigation Handling
 
 It may be necessary that a control has to provide a custom fast navigation handling, for example, if the DOM structure of the control does not allow to define suitable navigation groups with one of the options described above. The following picture shows how the central fast navigation handling \(a\) outside the control collaborates with the custom handling inside the control.
 

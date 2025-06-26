@@ -1,12 +1,12 @@
 <!-- loiod3234bc1b7b64af99a3d6990039f7eed -->
 
-## Table Design
+# Table Design
 
 The table design in OpenUI5 can be changed by using various table and column features, such as the pop-in design.
 
+***
 
-
-### Pop-in Design
+## Pop-in Design
 
 When displaying information in a pop-in, the information, typically a column header and the column \(cell\) content, can be displayed in an `Inline` or in a `Block` display style. The difference between these two can be seen in the following example.
 
@@ -48,9 +48,9 @@ The *Dimension* column is hidden, the *Weight* column is displayed in a pop-in w
 
 ![](images/loioec5a03af10ce4a289359b6f11307581f_LowRes.png)
 
+***
 
-
-#### Pop-in Design Layout
+### Pop-in Design Layout
 
 The described pop-in design is provided by a table by default. However, you can change the pop-in layout in the table by defining the relevant property like this: `popinLayout="GridSmall"` or `popinLayout="GridLarge"`. By default, `popinLayout="Block"` is set for a table. The pop-in columns are rendered as shown in the image above. With the `GridSmall` and `GridLarge` layouts, the pop-in columns are rendered next to each other if there is enough space available.
 
@@ -58,9 +58,9 @@ The described pop-in design is provided by a table by default. However, you can 
 
 For more information, see the [Sample](https://ui5.sap.com/#/entity/sap.m.Table/sample/sap.m.sample.Table). Use the `ComboBox` control provided in the table toolbar to switch between the different pop-in layouts and see the visual differences.
 
+***
 
-
-### Merging Duplicate Values
+## Merging Duplicate Values
 
 When you have repeated values in your table, you can use the `mergeDuplicate` feature of the `sap.m.Column` control. There are two properties that are related to merging duplicate values:
 
@@ -140,9 +140,9 @@ Here's an example of how to use the `mergeDuplicates` feature. We'll set up a ta
 
 ![](images/loio32ef8dc03ad44224994aeab8279bf5c6_LowRes.png)
 
+***
 
-
-### Highlighting Rows and Columns
+## Highlighting Rows and Columns
 
 You can use CSS to achieve striping for table rows, as you might do in other web-based applications, for example to highlight alternate rows in the table above so that it looks like this:
 
@@ -184,11 +184,11 @@ This highlights the *Price* column in our example table, as shown below:
 
 ![](images/loiod90af7b06b7b43e69ecfb9116b99da73_LowRes.png)
 
-
+***
 
 <a name="loiod3234bc1b7b64af99a3d6990039f7eed__section_qvp_n3z_z5b"/>
 
-### Grouping in a Table
+## Grouping in a Table
 
 For more information about the related data binding, see [Sorting, Grouping, and Filtering for List Binding](../04_Essentials/sorting-grouping-and-filtering-for-list-binding-ec79a5d.md).
 

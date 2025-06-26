@@ -1,16 +1,16 @@
 <!-- loiod12024e38385472a89c1ad204e1edb48 -->
 
-## Loading a Module
+# Loading a Module
 
 For loading \(requiring\) a module, OpenUI5, you use the `sap.ui.require` function, which takes over the dependency resolution for you.
 
 You can either load modules asynchronously or synchonously.
 
-
+***
 
 <a name="loiod12024e38385472a89c1ad204e1edb48__section_r1g_rlx_dz"/>
 
-### Asynchronous Loading
+## Asynchronous Loading
 
 If the arguments of the `sap.ui.require` call consist of an array of one or more strings \(module names\) and an optional callback function, the string array is interpreted as a list of dependent modules.
 
@@ -30,11 +30,11 @@ sap.ui.require(['sap/ui/model/json/JSONModel', 'sap/ui/core/UIComponent'], funct
 > ### Caution:  
 > If necessary, you can load a module synchronously. Be aware, that synchronous requests are already deprecated in some modern browsers and may not be supported in future. It is a better practice to load modules asynchronously.
 
-
+***
 
 <a name="loiod12024e38385472a89c1ad204e1edb48__section_cvl_zlx_dz"/>
 
-### Synchronous Retrieval of a Single Module Value
+## Synchronous Retrieval of a Single Module Value
 
 When calling `sap.ui.require` with a single string as argument, the respective module has to be loaded already.
 
@@ -48,35 +48,35 @@ By using `sap.ui.require`, you can synchronously access modules without triggeri
 var JSONModel = sap.ui.require("sap/ui/model/json/JSONModel");
 ```
 
-
+***
 
 <a name="loiod12024e38385472a89c1ad204e1edb48__section_r1s_5mx_dz"/>
 
-### Loading Dependencies
+## Loading Dependencies
 
 You can load dependencies at different points in time.
 
+***
 
-
-#### Constructor and `init`
+### Constructor and `init`
 
 If a module is needed during the constructor call or initialization of a class, you declare the dependency as a static dependency in the `sap.ui.define` call.
 
 If the dependency is required in the constructor, the instantiation is of course delayed until the dependency is loaded.
 
+***
 
-
-#### User interaction
+### User interaction
 
 Some modules can be required dynamically on user interaction. An example could be a dialog, which is not needed in most cases, but needs to be loaded only in case the user performs a certain interaction.
 
 Other modules might be required dynamically while a data request is running to minimize the overall load time, as the user has to wait on the data anyway.
 
-
+***
 
 <a name="loiod12024e38385472a89c1ad204e1edb48__section_a5y_knx_dz"/>
 
-### Checking the Availability of Modules
+## Checking the Availability of Modules
 
 The `sap.ui.require` function can not only be used to load modules, but also to check the availability of modules.
 
@@ -86,11 +86,11 @@ The return value of the following function call is either a reference on the alr
 var ModuleInQuestion = sap.ui.require("name/of/module/in/Question");
 ```
 
-
+***
 
 <a name="loiod12024e38385472a89c1ad204e1edb48__section_blt_qnx_dz"/>
 
-### `instanceof` Checks
+## `instanceof` Checks
 
 Since the above `sap.ui.require` call retrieves a module reference, you can use the reference not only to instantiate instances of classes but also to perform JavaScript instanceof checks.
 
@@ -105,11 +105,11 @@ sap.ui.define(['sap/ui/core/mvc/View', 'sap/ui/core/Fragment'], function(View, F
 });
 ```
 
-
+***
 
 <a name="loiod12024e38385472a89c1ad204e1edb48__section_f3y_tnt_3mb"/>
 
-### Checks for Dynamically Required Modules
+## Checks for Dynamically Required Modules
 
 You can use one of the following approaches to perform a type check on your module:
 

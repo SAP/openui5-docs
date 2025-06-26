@@ -1,6 +1,6 @@
 <!-- loiof218918b20e54cadb23e5e0b5bd9f9bb -->
 
-## What's New in OpenUI5 1.38
+# What's New in OpenUI5 1.38
 
 With this release OpenUI5 is upgraded from version 1.36 to 1.38.
 
@@ -1540,6 +1540,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

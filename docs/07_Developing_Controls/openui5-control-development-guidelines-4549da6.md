@@ -1,21 +1,21 @@
 <!-- loio4549da61e2d949d6a3d20ad8a9d17a6f -->
 
-## OpenUI5 Control Development Guidelines
+# OpenUI5 Control Development Guidelines
 
 Content developers developing OpenUI5 controls should follow the guidelines outlined below with regard to APIs, behavior, and themes/CSS.
 
+***
 
-
-### General Remarks
+## General Remarks
 
 -   Keep things simple! Keep the number of entities created for a new control minimal.
 
 -   Reuse is good, but carefully compare how many features of the reused control are needed, and how big the impact on performance would be. For example, if a control needs a clickable area, you can simply implement `onclick` and check where the click came from - this has zero impact on performance. Only if you need more features should you think about instantiating and aggregating. For example, you could use a `Button` control and use its `press` event, but this would cost performance.
 
 
+***
 
-
-### API
+## API
 
 For APIs, the following guidelines apply:
 
@@ -46,9 +46,9 @@ For APIs, the following guidelines apply:
 -   Be careful about initial dependencies. The `Input` control, for example, should not always load the table library just because some inputs may show a value help table after certain user interaction
 
 
+***
 
-
-### Behavior
+## Behavior
 
 For behavior-related development, the following guidelines apply:
 
@@ -73,9 +73,9 @@ For behavior-related development, the following guidelines apply:
 -   When you create HTML markup for a control outside a renderer, for example, by writing to the `innerHTML` property of a DOM element, or by calling `jQuery.html()` or similar helpers, make sure to escape any unchecked data first with the function provided by `sap/base/security/encodeXML`. This is mandatory to prevent cross-site scripting issues. For more information, see [Cross-Site Scripting](../05_Developing_Apps/cross-site-scripting-91f0bd3.md).
 
 
+***
 
-
-### Renderer
+## Renderer
 
 With regard to the renderer, the following guidelines apply:
 
@@ -103,4 +103,8 @@ With regard to the renderer, the following guidelines apply:
 
 -   `RenderManager.writeClasses()` must be called in the root HTML element of a control; otherwise `addStyleClass` does not work. this does not need to be used in subelements.
 
+
+-   **[Control Development Guidelines: Theming/CSS](control-development-guidelines-theming-css-5e08ff9.md "For themes and CSS for control development in OpenUI5, the following
+		guidelines apply.")**  
+For themes and CSS for control development in OpenUI5, the following guidelines apply.
 

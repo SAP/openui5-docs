@@ -1,6 +1,6 @@
 <!-- loiobcee26a4801748f39bf5698d83d903aa -->
 
-## Extending Input Rendering
+# Extending Input Rendering
 
 Example of an `Input` control with changed rendering.
 

@@ -1,6 +1,6 @@
 <!-- loio91f1f4536f4d1014b6dd926db0e91070 -->
 
-## Standard Variant for Bootstrapping
+# Standard Variant for Bootstrapping
 
 The standard variant for bootstrapping loads all JavaScript modules of a library in advance with one single request for performance reasons.
 

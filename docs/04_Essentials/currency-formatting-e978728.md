@@ -1,22 +1,22 @@
 <!-- loioe978728a6ef6490c971248948f9101e0 -->
 
-## Currency Formatting
+# Currency Formatting
 
 Data formatting is one of the key features in OpenUI5 and enables applications to display data according to the user locale. For this, OpenUI5 uses the Common Locale Data Repository \(CLDR\), a third-party library that provides locale-specific patterns. OpenUI5 uses these patterns to adapt to the conventions of different languages.
 
 One use case for data formatting is the ability to format and parse numbers including currency information. For this specific use case, the CLDR provides patterns with preconfigured currency information such as the number of decimals for a set of different currencies. It is also possible to define custom currencies by adding new custom currencies or reconfiguring existing currencies.
 
-
+***
 
 <a name="loioe978728a6ef6490c971248948f9101e0__section_uzt_q33_vgb"/>
 
-### Available Functions for Currency Formatting
+## Available Functions for Currency Formatting
 
 Use the `NumberFormat.getCurrencyInstance()` factory function for creating a currency format instance. On this instance, you can call the `format` and `parse` functions.
 
+***
 
-
-#### Creating a Currency Format Instance
+### Creating a Currency Format Instance
 
 The `sap.ui.core.format.NumberFormat.getCurrencyInstance()` function accepts two arguments:
 
@@ -41,9 +41,9 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 
 For more information, see [getCurrencyInstance](https://ui5.sap.com/#/api/sap.ui.core.format.NumberFormat/methods/sap.ui.core.format.NumberFormat.getCurrencyInstance).
 
+***
 
-
-#### `format` Function
+### `format` Function
 
 The currency formatter instance allows you to combine a number value with a localized currency string.
 
@@ -56,9 +56,9 @@ oCurrencyFormat.format(12345.678, "EUR"); // output: EUR 12,345.68
 
 For more information, see [format](https://ui5.sap.com/#/api/sap.ui.core.format.NumberFormat/methods/format)
 
+***
 
-
-#### `parse` Function
+### `parse` Function
 
 The `'parse'` function turns a string containing a number and a currency code \(EUR, USD\) or symbol \(€, $\) back into its raw parts: the number value and the currency code. The results are returned in an array.
 
@@ -74,9 +74,9 @@ For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.c
 
 For information on the validation of parsed numerical input, see [Parsing](number-format-91f2f28.md#loio91f2f2866f4d1014b6dd926db0e91070__section_NFP).
 
+***
 
-
-#### Formatting Options for Currency Formatting
+### Formatting Options for Currency Formatting
 
 The following formatting options for currency formatting are available:
 
@@ -102,17 +102,17 @@ oCurrencyFormat.parse("$1,234.57"); // returns [1234.57, "USD"]
 oCurrencyFormat.parse("¥1,235"); // returns [1235, "JPY"]
 ```
 
-
+***
 
 <a name="loioe978728a6ef6490c971248948f9101e0__section_u15_k33_vgb"/>
 
-### Custom Currencies
+## Custom Currencies
 
 As mentioned above, the Common Locale Data Repository \(CLDR\) provides patterns with preconfigured currency information according to the locale. It is possible, however, to add new custom currencies, or to reconfigure existing currencies. These custom currencies can be configured on currency format instances, or globally in the core configuration.
 
+***
 
-
-#### Custom Currencies Configuration on Currency Format Instances
+### Custom Currencies Configuration on Currency Format Instances
 
 The currency `NumberFormat` instance allows you to specify custom currencies which can be used for formatting and parsing. All you have to do is to add your custom currencies as an additional format option in the `sap.ui.core.format.NumberFormat.getCurrencyInstance()` factory.
 
@@ -166,9 +166,9 @@ oCurrencyFormat.format(1.21, "EUR"); // "": results in an empty string, as the c
 
 If you need both, CLDR predefined currencies and custom currencies, you create two separate number format instances, or use the second approach to define custom currencies as described in the next section.
 
+***
 
-
-#### Global Custom Currencies Configuration in Core Configuration
+### Global Custom Currencies Configuration in Core Configuration
 
 You can also add custom currencies via the formatting settings in the core configuration. Contrary to the custom currencies defined exclusively on a single currency-formatter instance, these custom currencies are available in all currency formatter instances for the current locale, except for if they also define a set of custom currencies as described in the previous section.
 

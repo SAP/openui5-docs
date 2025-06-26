@@ -1,6 +1,6 @@
 <!-- loiod04a6d41480c4396af16b5d2b25509ec -->
 
-## Allowlist Service
+# Allowlist Service
 
 SAPUI5 supports the configuration of a central allowlist service.
 

@@ -1,6 +1,6 @@
 <!-- loio05c0ffca736f4336ae135ca108a07234 -->
 
-## Events for Facet Filters
+# Events for Facet Filters
 
 Facet filters support several events, such as reset and list open.
 

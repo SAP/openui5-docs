@@ -1,12 +1,12 @@
 <!-- loio20f6ea7552c34e248ba7bd4a1d28565b -->
 
-## Troubleshooting
+# Troubleshooting
 
-
+***
 
 <a name="loio20f6ea7552c34e248ba7bd4a1d28565b__section_vzn_wkf_2fb"/>
 
-### How do I get the new Logger module on the browser console?
+## How do I get the new Logger module on the browser console?
 
 `jQuery.sap.log` is currently still available and the module `sap/base/Log` is not yet globally available. So, if a developer wants to set a log level with the new module on the console, additional code is required.
 
@@ -26,11 +26,11 @@ sap.ui.require("sap/base/Log").setLevel(3);
 var Log = sap.ui.require("sap/base/Log"); Log.setLevel(Log.Level.INFO);
 ```
 
-
+***
 
 <a name="loio20f6ea7552c34e248ba7bd4a1d28565b__section_unv_wkf_2fb"/>
 
-### How can I mock or spy the new modules?
+## How can I mock or spy the new modules?
 
 The new modules are no longer global. Spying or mocking them on `jQuery.sap.*` does not work. The module has to be loaded with `sap.ui.require`:
 

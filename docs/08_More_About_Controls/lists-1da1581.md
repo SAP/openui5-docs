@@ -1,12 +1,12 @@
 <!-- loio1da158152f644ba1ad408a3e982fd3df -->
 
-## Lists
+# Lists
 
 Lists have properties and events and they contain list items that inherit from `sap.m.ListItemBase`, which provides navigation, selection and event features. The list item type determines the way the list item interacts by providing additional features.
 
+***
 
-
-### List Properties
+## List Properties
 
 Lists can have the following properties:
 
@@ -25,15 +25,15 @@ Lists can have the following properties:
 -   The `showNoData` property \(default: `true` shows a text to the user if a list has no content. The default text is 'No data'. You can use the `noDataText` property to change the default text.
 -   The `noDataText` property \(default: 'No data'\) can be used to change the text that is displayed when the list has no content and the `showNoData` property is set to `true`.
 
+***
 
-
-### Swipe For Action
+## Swipe For Action
 
 A user can swipe left on a list item to bring in a control, such as a button, and initiate an action for this item. This control is defined through the `swipeContent` aggregation of the list and is displayed to the right or center of the list item. For more information, see [Swipe List for Action](swipe-for-action-a01822c.md).
 
+***
 
-
-### List Events
+## List Events
 
 Events are available for selecting, deleting and swiping in lists. The selection mode fires a `select` event and the deletion mode a `delete` event. A swipe left fires a `swipe` event. These events contain information about the list item that caused the event.
 
@@ -41,15 +41,15 @@ Events are available for selecting, deleting and swiping in lists. The selection
 -   `delete (listItem)` 
 -   `swipe (listItem)`, see [Events](events-e498329.md)
 
+***
 
-
-### Rerendering
+## Rerendering
 
 A list is rerendered together with all of its list items when the data of a bound model is changed. Due to the limited hardware resources of mobile devices, this may cause delays for lists that contain many list items. For this reason, we do **not** recommend using a list for these use cases.
 
+***
 
-
-### List Items
+## List Items
 
 All list items inherit from `ListItemBase`, which contains the features for navigation, selection, and event.
 
@@ -241,9 +241,9 @@ The following events are available for `ListItemBase`:
 -   `press`: This event is fired when the content of a list item is tapped.
 -   `detailPress`: This event is fired when the detail icon of a list item is tapped.
 
+***
 
-
-### List Item Types
+## List Item Types
 
 The following types are available for list items:
 
@@ -327,10 +327,15 @@ The following types are available for list items:
     ```
 
 
+***
 
-
-### API Reference
+## API Reference
 
 -   [sap.m.List](https://ui5.sap.com/#/api/sap.m.List)
 -   [sap.m.ListItemBase](https://ui5.sap.com/#/api/sap.m.ListItemBase)
+
+-   **[Custom List Item](custom-list-item-3e426f1.md "You can use the sap.m.CustomListItem control to create your own
+		layout if the other list items available in OpenUI5 do not fit your
+		needs.")**  
+You can use the `sap.m.CustomListItem` control to create your own layout if the other list items available in OpenUI5 do not fit your needs.
 

@@ -1,6 +1,6 @@
 <!-- loio7b52540d9d8c4e00b9723151622bbb64 -->
 
-## Defining the Control Metadata
+# Defining the Control Metadata
 
 Control metadata consists of properties, events, as well as aggregations and associations.
 
@@ -84,4 +84,10 @@ The control metadata is defined as follows:
 
 
 For a brief explanation of the differences between an aggregation and an association, see the *Control Metadata* section under [Working with Controls](../04_Essentials/working-with-controls-91f0a22.md). For a complete list of the possible settings, see [API Reference: `sap.ui.base.ManagedObject.extend`](https://ui5.sap.com/#/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend).
+
+-   **[Object Metadata and Implementation](object-metadata-and-implementation-91f29fe.md "OpenUI5 supports the extension of plain objects that are not elements or
+		controls.")**  
+OpenUI5 supports the extension of plain objects that are not elements or controls.
+-   **[Defining Control Properties](defining-control-properties-ac56d92.md "")**  
+
 

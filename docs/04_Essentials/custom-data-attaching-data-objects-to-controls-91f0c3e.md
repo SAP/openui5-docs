@@ -1,6 +1,6 @@
 <!-- loio91f0c3ee6f4d1014b6dd926db0e91070 -->
 
-## Custom Data - Attaching Data Objects to Controls
+# Custom Data - Attaching Data Objects to Controls
 
 OpenUI5 provides the `data()` method to attach data objects to controls.
 
@@ -12,11 +12,11 @@ The following additional options exist for attaching data to OpenUI5 controls:
 -   Using data binding, see [Data Binding](data-binding-68b9644.md)
 -   For strings only: Writing data to the HTML DOM as "data-\*" attribute, see [Writing Data to the HTML DOM as DATA-\* Attribute](writing-data-to-the-html-dom-as-data-attribute-1ef9fef.md)
 
-
+***
 
 <a name="loio91f0c3ee6f4d1014b6dd926db0e91070__section_BAD4FC9765174E0EB7264A423F7C4ED6"/>
 
-### Setting and Retrieving Data
+## Setting and Retrieving Data
 
 To set and retrieve data, use the following code:
 
@@ -29,11 +29,11 @@ var dataObject = myButton.data();  // a JS object containing ALL data
 alert(dataObject.myData);          // alerts "Hello"
 ```
 
-
+***
 
 <a name="loio91f0c3ee6f4d1014b6dd926db0e91070__section_798A4B993F764A04BAB08DEAACC5DFA9"/>
 
-### Binding Data: Use in a List Binding
+## Binding Data: Use in a List Binding
 
 For list bindings, use the following code:
 
@@ -69,11 +69,11 @@ oList.bindAggregation("items", "/questions", oItemTemplate);
 
 You can find a productive example in the OpenUI5 test suite by searching for `CustomData` in `sap.ui.core`.
 
-
+***
 
 <a name="loio91f0c3ee6f4d1014b6dd926db0e91070__section_CC5E82C4375146D9A40D05057ADFDB04"/>
 
-### Use in XML Views
+## Use in XML Views
 
 In XML views, `CustomData` objects can be written as normal aggregated objects. However, to reduce the amount of code and improve the readability, a shortcut notation has been introduced: You can directly write the data attributes into the control tags. Simply use the following namespace for the respective attributes:
 
@@ -107,11 +107,11 @@ The difference between this more formal namespace and the existing MVC namespace
 > </mvc:View>
 > ```
 
-
+***
 
 <a name="loio91f0c3ee6f4d1014b6dd926db0e91070__section_A34A9FCBC8DA4E8CB559743B7B48CDCE"/>
 
-### Use in JSON Views \(deprecated\)
+## Use in JSON Views \(deprecated\)
 
 > ### Caution:  
 > Deprecated as of UI5 version 1.120, replaced by [XML View](xml-view-91f2928.md).
@@ -164,9 +164,9 @@ var json =
   };
 ```
 
+***
 
-
-### Use in HTML Views \(deprecated\)
+## Use in HTML Views \(deprecated\)
 
 > ### Caution:  
 > Deprecated as of UI5 version 1.108, replaced by [XML View](xml-view-91f2928.md).
@@ -176,4 +176,7 @@ To add custom data objects to a control or an element in HTML views, use a speci
 ```html
 <div data-sap-ui-type="sap.m.Button" data-text="This button is added dynamically" data-custom-data:my-key="myValue" data-custom-data:my-bound-key="{/mypath}"></div>
 ```
+
+-   **[Writing Data to the HTML DOM as DATA-\* Attribute](writing-data-to-the-html-dom-as-data-attribute-1ef9fef.md "OpenUI5 supports writing custom data to the HTML DOM.")**  
+OpenUI5 supports writing custom data to the HTML DOM.
 

@@ -1,14 +1,14 @@
 <!-- loio3fc864acf926406194744375aa464fe7 -->
 
-## Rules Management
+# Rules Management
 
 The user interface of the Support Assistant lets you choose which rules you can load for a library. It also allows you to organize your Rules view according to your preference and to import and export predefined rule selections.
 
-
+***
 
 <a name="loio3fc864acf926406194744375aa464fe7__section_os3_cyq_32b"/>
 
-### Available and Additional Rulesets
+## Available and Additional Rulesets
 
 The *Available Rulesets* tab contains the list of the currently loaded rulesets used by your application. On the left, there is a list of the available rules per library. On the right, you can see more details on the currently selected rule. By selecting the checkbox in front of each rule, you determine which rules are executed in the analysis. The list of available rulesets is dynamic and changes based on the libraries used for the current state of your application.
 
@@ -16,7 +16,7 @@ The *Available Rulesets* tab contains the list of the currently loaded rulesets 
   
 **Support Assistant Available Rulesets**
 
-![](images/loiod7d49af739dd4b31a0ba2f457e03a331_LowRes.png "Support Assistant Available Rulesets")
+![](images/loiod7d49af739dd4b31a0ba2f457e03a331_HiRes.png "Support Assistant Available Rulesets")
 
 The *Additional Rulesets* tab shows rules for libraries that are not used by the application at the particular moment.
 
@@ -24,15 +24,15 @@ The *Additional Rulesets* tab shows rules for libraries that are not used by the
   
 **Support Assistant Additional Rulesets**
 
-![](images/loioc34ca5f09e244bdea0217b684adcb875_Source1.png "Support Assistant Additional Rulesets")
+![](images/loioc34ca5f09e244bdea0217b684adcb875_HiRes.png "Support Assistant Additional Rulesets")
 
 You can select the rules from the *Additional Rulesets* tab and choose *Load* to move them to the set of *Available Rulesets* and use them in your analysis.
 
-
+***
 
 <a name="loio3fc864acf926406194744375aa464fe7__section_jjd_pgp_y2b"/>
 
-### Rule Presets
+## Rule Presets
 
 The Support Assistant allows you to export and import subsets of preselected rules or *Rule Presets*. The rule presets are semantically grouped selection variants which you can export and save for future analyses of your apps. There are two general types of rule presets - *Custom Presets* and *System Presets*.
 
@@ -40,11 +40,11 @@ The Support Assistant allows you to export and import subsets of preselected rul
   
 **Support Assistant Rule Presets**
 
-![Support Assistant - Available Rulesets tab](images/loio562a49a871e04125867052231ec52660_Source1.png "Support Assistant Rule Presets")
+![Support Assistant - Available Rulesets tab](images/loio562a49a871e04125867052231ec52660_LowRes.png "Support Assistant Rule Presets")
 
+***
 
-
-#### Custom Presets
+### Custom Presets
 
 Custom presets are rule selections which you can group according to your particular analysis purposes and export as `.json` files. You can give the exported file a title, ID and description that are meaningful to you.
 
@@ -55,9 +55,9 @@ Once exported and saved, your rule presets can be imported and used again. They 
 > ### Tip:  
 > In *My Selection*![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) on the Support Assistant toolbar and tick the checkbox in front of *I agree to use local storage persistency for*.
 
+***
 
-
-#### System Presets
+### System Presets
 
 For your convenience, the Support Assistant is also equipped with ready-to-use system-defined rule presets. They contain selections of rules related within the context of a scenario, functional area, or other aspects of the app UI that can be verified using support rules. The first system preset which has been added is for Accessibility-related rules. You can find your most current selection of rules. To preserve it for your next analysis together with your choice of imported presets, go to the settings menu
 
@@ -69,11 +69,11 @@ You can't delete system presets but you have the option to modify and export the
 > ### Tip:  
 > You can use the Deprecations \(experimental\) system preset to check your application for usages of deprecated controls, properties, aggregations, and others.
 
-
+***
 
 <a name="loio3fc864acf926406194744375aa464fe7__section_e5c_sgp_y2b"/>
 
-### Columns Personalization
+## Columns Personalization
 
 You have the option to personalize the Rules view by choosing which columns to be displayed. Just click on the column header and select or deselect the columns you want to use. You can also sort the content of all four columns or filter by keyword.
 
@@ -81,16 +81,16 @@ You have the option to personalize the Rules view by choosing which columns to b
   
 **Support Assistant Columns Personalization**
 
-![](images/loio3d1206248735431fb4223c4724914997_Source1.png "Support Assistant Columns Personalization")
+![](images/loio3d1206248735431fb4223c4724914997_HiRes.png "Support Assistant Columns Personalization")
 
 > ### Note:  
 > Choosing *I agree to use local storage persistency for* from the settings menu ![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) will also preserve your choice of visible columns.
 
-
+***
 
 <a name="loio3fc864acf926406194744375aa464fe7__section_lj4_nnr_52b"/>
 
-### Creating Rules
+## Creating Rules
 
 Selecting the *Create Rule* button allows you to create a new rule. You can create a completely new rule \(*Create Rule*\) or use an existing one as a template by clicking the *Copy* \(![](images/loioafd526cfa67542abbe817b00440a0a45_HiRes.png)\) icon next to *Categories*. For each rule, you need to fill out the *ID*, *Categories*, *Audiences*, *Title*, *Description*, *Resolution*, *Min version* and, if available, *Resolution URLs* in the *Rule properties* tab. You also have the option to select if the *Async* value should be `true` or `false`. This value determines whether the rule check function will contain asynchronous operations. By default, it is set to `false`.
 
@@ -117,11 +117,11 @@ The newly created rule remains *temporary* until you submit and assign it to a l
 > ### Remember:  
 > Don't forget to copy and paste the resulting new rule and submit it separately in the IDE of your choice. You can select all the code from the *Code* tab.
 
-
+***
 
 <a name="loio3fc864acf926406194744375aa464fe7__section_u5s_vgp_y2b"/>
 
-### Executing Rules
+## Executing Rules
 
 Once you load your rulesets or select a rule preset, you can run an analysis with them. To do this, select *Analyze*. For more information about the execution scope, you can refer to [Execution Scope](execution-scope-e15067d.md)
 

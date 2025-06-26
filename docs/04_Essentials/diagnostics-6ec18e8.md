@@ -1,6 +1,6 @@
 <!-- loio6ec18e80b0ce47f290bc2645b0cc86e6 -->
 
-## Diagnostics
+# Diagnostics
 
 The *Diagnostics* window available in OpenUI5 is a support tool that runs within an existing OpenUI5 app.
 
@@ -15,7 +15,7 @@ To open *Diagnostics*, use the following [shortcuts](../02_Read-Me-First/keyboar
 
 <!-- loio452944574e64438fbe07276b3b4d4673 -->
 
-### Technical Information
+## Technical Information
 
 In this section you can view the technical details of the app and turn on the debug sources. It provides the same features as the Technical Information dialog. Additionally, the Technical Information dialog is available on mobile devices that support multi-touch. For more information, see [Technical Information Dialog](technical-information-dialog-616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9).
 
@@ -46,7 +46,7 @@ In addition, you can see the following information:
 
 <!-- loio790defe9ff8643bf8629c8567270e290 -->
 
-### Control Tree
+## Control Tree
 
 The control tree shows all controls that are used in the app. You can select controls either directly in the app by choosing [CTRL\] + [SHIFT\] + [Alt\] and clicking on the control, or by selecting the control in the control tree.
 
@@ -85,7 +85,7 @@ The following functions are available in the dialog:
 
 <!-- copyee6f8f5a976347cb9426bdf5e689bc11 -->
 
-### Breakpoints on the Object Level
+## Breakpoints on the Object Level
 
 In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on the object level.
 
@@ -112,7 +112,7 @@ In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on th
 
 <!-- loio7f4327d5aa274efda0c275d091c9d2f9 -->
 
-### Debugging
+## Debugging
 
 The *Diagnostics* window provides you with the following features that help you when debugging your app:
 
@@ -125,9 +125,9 @@ The *Diagnostics* window provides you with the following features that help you 
 
 <!-- copyf96072c32f20456b9d20da049800b515 -->
 
-### Switching the OpenUI5 Version
+## Switching the OpenUI5 Version
 
-
+***
 
 Open the *Diagnostics* window with the shortcut [CTRL\] + [SHIFT\] + [ALT\] + [S\].
 
@@ -145,7 +145,7 @@ This feature can be used to test an application against a newer or older version
 
 <!-- copy75d0c576f8e04a6aa3067ede31ebf8d4 -->
 
-### Breakpoints on the Class Level
+## Breakpoints on the Class Level
 
 In the *Debugging* section of the *Diagnostics* window, you can set breakpoints on the class level.
 
@@ -165,7 +165,7 @@ In the *Debugging* section of the *Diagnostics* window, you can set breakpoints 
 
 5.  Open the developer tools of your browser. Whenever the selected methods are called for any instance of the selected control, the code execution is paused in the debugger.
 
-    ![](images/loiof54ea7bfedff4501959df91b53697579_Source1.png)
+    ![](images/loiof54ea7bfedff4501959df91b53697579_LowRes.png)
 
     In the call stack you find the method for which you set a breakpoint.
 
@@ -178,17 +178,17 @@ In the *Debugging* section of the *Diagnostics* window, you can set breakpoints 
 
 <!-- loio1ecb6b9f3d044e7d8f5136447bd6d39e -->
 
-### XML View and Templating Support Tools
+## XML View and Templating Support Tools
 
 This section of *Diagnostics* shows the code of the loaded XML view exactly as you would see it in your development environment. This way, you can check and test your XML code without the need to switch environments. If your app is connected to a remote service or a back-end system, you can also view the XML metadata.
 
 Before you can use this feature, restart your app in Support Mode \(with the `sap-ui-support=true` URL parameter added to the URL or your app\).
 
-
+***
 
 <a name="loio1ecb6b9f3d044e7d8f5136447bd6d39e__section_frx_c2w_r1b"/>
 
-### XML Metadata
+## XML Metadata
 
 
 <table>
@@ -208,11 +208,11 @@ XML metadata of a service with three main entity sets: `Product`, `ProductCatego
 </tr>
 </table>
 
-
+***
 
 <a name="loio1ecb6b9f3d044e7d8f5136447bd6d39e__section_yy3_k2w_r1b"/>
 
-### XML Code
+## XML Code
 
 
 <table>
@@ -278,15 +278,15 @@ When you select a control in the code, the following information is displayed:
 
 <!-- loio2e698c47a18e4303af9c6e59b6dd69b5 -->
 
-### Visualizing User Interaction
+## Visualizing User Interaction
 
 With this feature, you can collect and visualize the performance data collected for the interaction steps in an easy and intuitive way. In addition, you can enable statistics for OData calls that give you information about the app processing time taken by the OData back end.
 
 ![](images/loioe6e8db41d1994b6f8ffb36e7fb6f5dd7_HiRes.png)
 
+***
 
-
-### Activation
+## Activation
 
 You can start the interaction data collection in the following ways:
 
@@ -299,9 +299,9 @@ You can start the interaction data collection in the following ways:
 -   You can enable the OData statistics by using query string URL parameter `sap-statistics=true`, or from the UI by selecting *Enable OData Statistics*.
 
 
+***
 
-
-### Output
+## Output
 
 -   **Interaction details** - Selecting an interaction step bar, opens a dialog with details about the selected interaction: end-to-end duration, total number of requests, the size of the transferred data, and so on.
 
@@ -317,9 +317,9 @@ You can start the interaction data collection in the following ways:
     ![](images/loio2c0df2f81d7540b98943eed368d1db0d_HiRes.png)
 
 
+***
 
-
-### Additional features
+## Additional features
 
 -   **Export** - Collected data can be exported as a ZIP archive for easy distribution through e-mail.
 

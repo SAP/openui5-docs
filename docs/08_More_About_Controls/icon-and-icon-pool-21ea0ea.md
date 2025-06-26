@@ -1,6 +1,6 @@
 <!-- loio21ea0ea94614480d9a910b2e93431291 -->
 
-## Icon and Icon Pool
+# Icon and Icon Pool
 
 The `sap-icon://` protocol supports the use of icons in your application based on the icon font concept, which uses an embedded font instead of a pixel image.
 
@@ -9,9 +9,9 @@ Compared to image-based icons, icon font is easily scalable and you can change t
 > ### Note:  
 > The icon font will not work if Web fonts are blocked for the user's operating system, for example, by the *Blocking Untrusted Fonts* feature in Microsoft Windows \(see [Block untrusted fonts in an enterprise](https://technet.microsoft.com/en-us/itpro/windows/keep-secure/block-untrusted-fonts-in-enterprise) in the Microsoft Windows IT Center\).
 
+***
 
-
-### Using Custom Icons
+## Using Custom Icons
 
 To display your custom icons in all browsers that OpenUI5 supports, you need the `woff2` version of your icon file. To use your own icon font file in the `Icon` control, the font file and the metadata for the icons in the font file need to be registered in the `IconPool`. You can register both of them by calling the `IconPool.registerFont` with a config object which contains the following options:
 
@@ -50,9 +50,9 @@ To display your custom icons in all browsers that OpenUI5 supports, you need the
 > }
 > ```
 
+***
 
-
-#### Theme-Dependent Icons
+### Theme-Dependent Icons
 
 Since UI5 version 1.117, a `config` section can be defined, into which the path configuration for the theme-dependent icon designs \(e.g. Horizon theme\) can be written. The **key** defines a regluar expression that matches the theme name, and the **value** represents the font file location for the respective theme. If the `config` property is defined, the mapping of the icons' names and hex codes must be defined under an `icons` property as shown below.
 
@@ -93,9 +93,9 @@ IconPool.registerFont({
 });
 ```
 
+***
 
-
-### Referencing Icons
+## Referencing Icons
 
 To reference icons, you assign the icon URI to a control by setting `sURI` for the control's corresponding property. To get the icon URI, the following two options exist:
 
@@ -117,9 +117,9 @@ To reference icons, you assign the icon URI to a control by setting `sURI` for t
     > You need the collection name only for custom icons. The URI for predefined icons does **not** need the collection name.
 
 
+***
 
-
-### Using Icons in Controls
+## Using Icons in Controls
 
 The following code snippet shows how the sap.m.Dialog control that already supported image URI has been adapted to also support icon URI. `IconPool.createControlByURI` returns an instance of `Icon` if `sURI` is an icon URI. Otherwise, the second parameter is called as a constructor method to create an instance. The `sURI` is set for the `src` property of the instance.
 
@@ -156,19 +156,19 @@ Font face is inserted into the style sheet dynamically when `Icon` or `writeIcon
 });
 ```
 
+***
 
-
-### Styling the Icon Control
+## Styling the Icon Control
 
 If you render the icon span directly in your control, or use icon font in your CSS, you have the maximal freedom to style the Icon control.
 
 If you use the icon by creating an instance of `Icon` within your control, however, use the CSS class `sapUiIcon` to add a new style to the icon. To avoid influencing the style of icons used elsewhere, wrap the icon CSS class with your control's root DOM class.
 
-
+***
 
 <a name="loio21ea0ea94614480d9a910b2e93431291__section_whp_y2l_mmb"/>
 
-### Consuming SAP Icon Font in a Non-UI5 Environment
+## Consuming SAP Icon Font in a Non-UI5 Environment
 
 You can consume the predefined `SAP-icons` icon font also in an environment where UI5 isn't available. An integration could look like the following:
 
@@ -198,7 +198,4 @@ You can consume the predefined `SAP-icons` icon font also in an environment wher
     </html>
     ```
 
-
-> ### Tip:  
-> You can test the implemented icons along with other interaction patterns and visual features of your app with an OPA integration test. for more information, see [Integration Testing with One Page Acceptance Tests \(OPA5\)](../04_Essentials/integration-testing-with-one-page-acceptance-tests-opa5-2696ab5.md).
 

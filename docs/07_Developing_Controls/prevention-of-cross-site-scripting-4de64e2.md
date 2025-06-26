@@ -1,6 +1,6 @@
 <!-- loio4de64e2e191f4a7297d4fd2d1e233a2d -->
 
-## Prevention of Cross-site Scripting
+# Prevention of Cross-site Scripting
 
 Cross-site scripting \(XSS\) can be prevented by ensuring that it is **not** possible to inject script code into an application page that runs in a browser.
 
@@ -15,9 +15,9 @@ Controls must prohibit writing scripts to the page that comes from the applicati
     Control developers must ensure that string control properties and other values coming from the application and not sufficiently typed to rule out script tags being contained are escaped when written to the HTML. For this, the `sap/ui/core/RenderManager` and OpenUI5 core provide helper methods.
 
 
+***
 
-
-### Avoiding XSS for a New Renderer
+## Avoiding XSS for a New Renderer
 
 To ensure maximum security for a renderer, note the following:
 

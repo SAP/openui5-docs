@@ -1,6 +1,6 @@
 <!-- loio91a4946b0dcf4356aaaedc4e502864f4 -->
 
-## List of Supported CSS Classes
+# List of Supported CSS Classes
 
 Overview of the CSS classes currently supported by OpenUI5.
 

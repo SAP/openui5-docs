@@ -1,6 +1,6 @@
 <!-- loiof5f6a475d58a4b39923465221b485d6c -->
 
-## Scrolling: Implementation Details
+# Scrolling: Implementation Details
 
 OpenUI5 embeds the open source library iScroll4 that takes care of scrolling in the application.
 
@@ -8,19 +8,19 @@ Scrolling support in mobile browsers is weak and inconsistent. Only the latest p
 
 For more information, see [sap.ui.core.delegate.ScrollEnablement](https://ui5.sap.com/#/api/sap.ui.core.delegate.ScrollEnablement) 
 
-
+***
 
 <a name="loiof5f6a475d58a4b39923465221b485d6c__section_N10028_N10011_N10001"/>
 
-### Do not use nested scrolling
+## Do not use nested scrolling
 
 We do not recommend to use nested levels of scrolling, for example, when a page with enabled vertical scrolling contains a scroll container that has vertical scrolling too. Such combinations may lead to behavior that is unexpected both for programmers and users.
 
-
+***
 
 <a name="loiof5f6a475d58a4b39923465221b485d6c__section_N10035_N10011_N10001"/>
 
-### Implement a custom scroll container
+## Implement a custom scroll container
 
 A custom control that needs to provide a scrollable area for its content should implement the following steps:
 
@@ -58,11 +58,11 @@ myCustomScroller.prototype.exit = function() {
 > ### Note:  
 > The Zynga scroller that is included in the OpenUI5 library is deprecated. The configuration parameter `oConfig.zynga=true` of the scrolling delegate should not be used.
 
-
+***
 
 <a name="loiof5f6a475d58a4b39923465221b485d6c__section_N10078_N10011_N10001"/>
 
-### Interaction with the scroll containers
+## Interaction with the scroll containers
 
 There are cases, when an embedded control controls scrolling of the parent container, if required:
 

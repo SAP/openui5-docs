@@ -1,6 +1,6 @@
 <!-- loio1c60212834c049ed9f65d743dfeb3d9a -->
 
-## Table Personalization \(deprecated\)
+# Table Personalization \(deprecated\)
 
 The simple concept of table personalization allows the user to personalize a table and to persist these settings.
 
@@ -9,9 +9,9 @@ The simple concept of table personalization allows the user to personalize a tab
 
 Personalization currently supports defining the order of columns and their visibility.
 
+***
 
-
-### Components Defining Personalization
+## Components Defining Personalization
 
 The table personalization concept is built upon three distinct artifacts:
 
@@ -19,9 +19,9 @@ The table personalization concept is built upon three distinct artifacts:
 -   A table personalization controller `sap.m.TablePersoController`
 -   A table personalization persistence service provider, based on abstract class `sap.m.TablePersoProvider`
 
+***
 
-
-### Table Personalization Dialog
+## Table Personalization Dialog
 
 The table personalization dialog `sap.m.TablePersoDialog` is a visual control that can be invoked within the context of the table personalization controller. The dialog shows the list of columns in the table, the order in which they appear, and whether their visibility is set to on or off. The user can then use this dialog to adjust these details.
 
@@ -120,9 +120,9 @@ Specifies whether the column is visible \(true\) or not \(false\)
 </tr>
 </table>
 
+***
 
-
-### Table Personalization Controller
+## Table Personalization Controller
 
 The table personalization controller `sap.m.TablePersoController` can be seen as a wrapper around three things:
 
@@ -162,9 +162,9 @@ The table personalization controller also offers a 'refresh' function. It re-loa
 
 Note the reference to "create your own" personalization service provider in the code example above. The unified shell provides a shell-based personalization persistence service provider \(see below\), but you are of course free to build your own. One simple example might be the use of browser local storage to read and write data.
 
+***
 
-
-### Table Personalization Persistence Service Provider
+## Table Personalization Persistence Service Provider
 
 The table personalization persistence service provider should be based on the abstract class `sap.m.TablePersoProvider`. Do not instantiate and use this `sap.m.TablePersoProvider` class directly as a provider; it merely describes the interface that a real persistence service provider should be built to.
 
@@ -191,15 +191,15 @@ A concrete implementation of the table personalization persistence service provi
 > ### Note:  
 > Please note that this is not part of the OpenUI5 framework. It is delivered separately, and you must check that this service is available in your application context.
 
+***
 
-
-### Sample
+## Sample
 
 For a detailed example of how table personalization works, see the [sample](https://ui5.sap.com/#/entity/sap.m.Table/sample/sap.m.sample.TablePerso).
 
+***
 
-
-### API Reference
+## API Reference
 
 -   [sap.m.TablePersoDialog](https://ui5.sap.com/#/api/sap.m.TablePersoDialog)
 -   [sap.m.TablePersoController](https://ui5.sap.com/#/api/sap.m.TablePersoController)

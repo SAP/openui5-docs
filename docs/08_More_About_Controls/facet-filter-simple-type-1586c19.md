@@ -1,6 +1,6 @@
 <!-- loio1586c19a9d854f6e82613fd75290c34f -->
 
-## Facet Filter: Simple Type
+# Facet Filter: Simple Type
 
 The simple type of the `FacetFilter` control is only available for desktop and tablets.
 

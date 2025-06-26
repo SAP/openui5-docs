@@ -1,16 +1,16 @@
 <!-- loio4a97a07ec8f5441d901994d82eaab1f5 -->
 
-## Semantic Page \(sap.m\)
+# Semantic Page \(sap.m\)
 
 The `sap.m.semantic.SemanticPage` is an enhanced `sap.m.Page`.
 
 For more information about this control, see the [API Reference](https://ui5.sap.com/#/api/sap.m.semantic.SemanticPage) and the [samples](https://ui5.sap.com/#/entity/sap.m.semantic.SemanticPage).
 
-
+***
 
 <a name="loio4a97a07ec8f5441d901994d82eaab1f5__section_egg_t4d_zz"/>
 
-### Features
+## Features
 
 The following categories give an overview of the internally defined semantic content that is supported:
 
@@ -69,15 +69,15 @@ The ordering logic of custom and semantic content is as follows from left to rig
 
 ![](images/loio4c04af6e10994ad1bce73d02630fe957_LowRes.png)
 
-
+***
 
 <a name="loio4a97a07ec8f5441d901994d82eaab1f5__section_gfg_hqd_zz"/>
 
-### Examples
+## Examples
 
+***
 
-
-#### Initialization
+### Initialization
 
 In the `sap.m` library, the semantic page controls are`sap.m.semantic.FullscreenPage`,`sap.m.semantic.MasterPage`, and `sap.m.semantic.DetailPage`. They have different purpose depending on the context:
 
@@ -128,9 +128,9 @@ displayBlock="true">
 </mvc:View>
 ```
 
+***
 
-
-#### Adding semantic content:
+### Adding semantic content:
 
 The three semantic pages inherit from the abstract `sap.m.semantic.SemanticPage` control and each supports content that semantically belongs to its list/detail/fullscreen context.
 
@@ -197,9 +197,9 @@ The `DetailPage` usually displays extended information for the item that was sel
 </SplitContainer>
 ```
 
+***
 
-
-#### Adding custom \(non-semantic\) content:
+### Adding custom \(non-semantic\) content:
 
 ```xml
 ...

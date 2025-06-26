@@ -1,12 +1,12 @@
 <!-- loioec79a5d5918f4f7f9cbc2150e66778cc -->
 
-## Sorting, Grouping, and Filtering for List Binding
+# Sorting, Grouping, and Filtering for List Binding
 
-
+***
 
 <a name="loioec79a5d5918f4f7f9cbc2150e66778cc__section_606348F7CECC432C9E18DACEFB3127CF"/>
 
-### Initial Sorting, Grouping and Filtering for List Binding
+## Initial Sorting, Grouping and Filtering for List Binding
 
 To provide initial **sorting and grouping** in an XML view, proceed as follows:
 
@@ -128,11 +128,11 @@ var oList = new sap.m.List({
 
 You can also use the other list binding possibilities \(for example `bindAggregation` or `bindItems`\) and provide the sorter and filters as parameters.
 
-
+***
 
 <a name="loioec79a5d5918f4f7f9cbc2150e66778cc__section_N100CF_N10013_N10001"/>
 
-### Manual Sorting and Filtering for List Binding
+## Manual Sorting and Filtering for List Binding
 
 You can sort or filter data manually after the list binding is complete by getting the corresponding binding and calling the sort/filter function:
 
@@ -149,11 +149,11 @@ oList.getBinding("items").filter([oFilterCity, oFilterRevenue]);
 
 For more information about the various sorting and filter methods and operators, see the documentation for Filter, Sorter, and Filter operations under [sap.ui.model](https://ui5.sap.com/#/api/sap.ui.model) in the *API Reference* part of the Demo Kit.
 
-
+***
 
 <a name="loioec79a5d5918f4f7f9cbc2150e66778cc__section_jxn_fmp_rcb"/>
 
-### Using Complex Syntax to Add Filters and Sorters
+## Using Complex Syntax to Add Filters and Sorters
 
 Complex syntax can be used to add filters and sorters for list binding. One or multiple objects can be defined.
 

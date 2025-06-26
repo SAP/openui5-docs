@@ -1,12 +1,12 @@
 <!-- loio84ec82e7498345ccbfcd754d4578313b -->
 
-## Sliders
+# Sliders
 
-
+***
 
 <a name="loio84ec82e7498345ccbfcd754d4578313b__section_dnk_kqr_pdb"/>
 
-### Control Overview
+## Control Overview
 
 A slider is a control that enables you to adjust values on a specified range. OpenUI5 has two controls of this type - `sap.m.Slider` and `sap.m.RangeSlider`. The slider allows you to choose a single value, whereas with the RangeSlider you can choose an interval with start and end within a given interval.
 
@@ -26,11 +26,11 @@ Technically, the RangeSlider extends `sap.m.Slider` and thus uses all its proper
 
 Both versions of the control support features for tickmarks, labels and advanced tooltips. If you only need a simple native browser tooltip, you can enable `handleTooltip` and show it on mouse hover. For more advanced cases, you can customize the labels and the tooltips for the slider handles.
 
-
+***
 
 <a name="loio84ec82e7498345ccbfcd754d4578313b__section_ggb_lqr_pdb"/>
 
-### Custom Scale
+## Custom Scale
 
 In the background, the sliders operate on floats, but some usecases may require that the range consists of other values, for example dates. In order to properly match your values to floats, you need to add custom scale and implement the `Iscale` interface.
 
@@ -77,11 +77,11 @@ var oSlider = new Slider({
 			})
 ```
 
-
+***
 
 <a name="loio84ec82e7498345ccbfcd754d4578313b__section_i4c_4qr_pdb"/>
 
-### Custom Tooltips
+## Custom Tooltips
 
 In order to create a custom tooltip, you should extend the class `sap.m.SliderTooltipBase` and override some methods. If you want to define your own content for the tooltip, you should override just the `renderTooltipContent` method. If you want to be notified when the Slider's value has been changed, you need to implement the `sliderValueChanged` which takes as an argument the new value of the Slider, so you can adjust the value of the tooltip.
 
@@ -98,11 +98,11 @@ renderTooltipContent: function (oRm, oControl) {
 							oRm.close("div")
 ```
 
-
+***
 
 <a name="loio84ec82e7498345ccbfcd754d4578313b__section_l3d_vkp_tdb"/>
 
-### Accessibility for Sliders
+## Accessibility for Sliders
 
 Depending on the type of slider, you may need different values to be read out by the screen reader. In the case of a simple numeric slider, the screen reader will read the current float value. If you have a slider with a custom scale with tickmarks, the screen reader will read the value returned by `getLabel()` of the scale. If you have custom tooltips, then the return value from the tooltip formatter will be read. The priority for these is the following: Custom tooltips overrule custom scale and custom scale overrules the generic slider.
 

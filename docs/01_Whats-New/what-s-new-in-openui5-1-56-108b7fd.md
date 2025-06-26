@@ -1,6 +1,6 @@
 <!-- loio108b7fde0df740258e8dc93f4f857eb5 -->
 
-## What's New in OpenUI5 1.56
+# What's New in OpenUI5 1.56
 
 With this release OpenUI5 is upgraded from version 1.54 to 1.56.
 
@@ -1191,7 +1191,7 @@ User Documentation
 
 **New Tutorial**
 
-We have a new tutorial: [Flexible Column Layout App Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/c4de2df385174e58a689d9847c7553bd.html "In this tutorial, we showcase how to structure your SAPUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.") :arrow_upper_right:. In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the latest SAP Fiori design guidelines.
+We have a new tutorial: [Flexible Column Layout App Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/c4de2df385174e58a689d9847c7553bd.html "In this tutorial, we showcase how to structure your SAPUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.") :arrow_upper_right:. In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the latest SAP Fiori design guidelines.
 
 <sub>Changed•User Documentation•Info Only•1.56</sub>
 
@@ -1258,6 +1258,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

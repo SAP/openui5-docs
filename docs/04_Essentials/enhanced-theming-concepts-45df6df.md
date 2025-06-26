@@ -1,14 +1,14 @@
 <!-- loio45df6dff504647c686ab9ba72af827f6 -->
 
-## Enhanced Theming Concepts
+# Enhanced Theming Concepts
 
 On top of pure CSS, OpenUI5 offers advanced theming concepts and functions which can be used optionally. These concepts are outlined in detail below.
 
-
+***
 
 <a name="loio45df6dff504647c686ab9ba72af827f6__section_CSS"/>
 
-### CSS Variables, Functions, and More
+## CSS Variables, Functions, and More
 
 OpenUI5 provides a set of [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) which allows you to make your application or custom controls theming-aware. The CSS custom properties are provided by the [SAP Theming Base Content](https://github.com/SAP/theming-base-content). It contains all necessary data to connect to the SAP global theming infrastructure. The content exposes the central set of colors, metrics, and resources of a theme. OpenUI5 applications or custom controls can easily make use of the CSS custom properties of the SAP Theming Base Content. This concept contributes to a consistent way of implementing and changing the styles. CSS provides a lot of additional features like calculations, nesting, and more.
 
@@ -39,9 +39,9 @@ Additional benefits of CSS custom properties are, for example:
 -   They can be used to generically build simple styling tools that allow for a limited degree of freedom \(=changing the CSS custom property values\). The UI theme designer is an example of such a tool.
 -   They can also be linked to metadata, for example, to which group of colors they belong, to which colors they need to have some visual contrast.
 
+***
 
-
-### Compilation of One CSS File
+## Compilation of One CSS File
 
 OpenUI5 CSS generation merges all CSS files of a control library into **one** file that is loaded at runtime, thus increasing the performance.
 
@@ -50,15 +50,15 @@ Here are some of the reasons why you would not want to have all styles defined w
 -   Clear separation between the styles for different controls, which helps to estimate and test the impact of a CSS modification
 -   Keeping the door open for future optimization regarding runtime performance and data transfer by tailoring CSS files on server side that only contain the CSS required on the current application page
 
+***
 
-
-### Optimization and Compression of CSS Size
+## Optimization and Compression of CSS Size
 
 For performance reasons, the OpenUI5 CSS generation can optionally remove all comments and unnecessary whitespace and can compress verbose declarations into a more compact format.
 
+***
 
-
-### Base Theme for Generic Style
+## Base Theme for Generic Style
 
 While some of the style and layout applied using CSS clearly depends on the current theme, and customers are likely to modify such style rules, there are other style rules that are required for a control to work properly and unlikely to differ for different themes. Examples are the overflow behavior, the positioning of popup elements, the mouse cursor type, the display mode, and others.
 
@@ -68,9 +68,9 @@ Themes are built upon this base style that defines their specific visual design 
 
 Any style declarations which are referencing CSS variables \(at least those common ones defined in the base theme\) can also be done in the base theme, and it is sufficient to do it only there: The CSS generation will apply the correct value for each respective theme. So this split between base theme and specific themes avoids duplicate creation and maintenance of CSS parts which are common for all themes and keeps the CSS files that need to be written for any new theme smaller.
 
+***
 
-
-### Generic Right-to-Left Support
+## Generic Right-to-Left Support
 
 For some countries, right-to-left \(RTL\) text mode needs to be supported. In order to avoid the need to create a completely new set of CSS files for those countries, OpenUI5 supports generic RTL generation. Basically, this involves switching the right and left margins and mirroring everything else \(including CSS3 rotations, and so on\).
 

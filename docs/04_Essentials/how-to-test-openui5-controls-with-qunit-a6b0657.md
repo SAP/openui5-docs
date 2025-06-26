@@ -1,12 +1,12 @@
 <!-- loioa6b0657d226343da81ad96632cd1bd83 -->
 
-## How to Test OpenUI5 Controls with QUnit
+# How to Test OpenUI5 Controls with QUnit
 
 Comprehensive overview of QUnit testing for controls.
 
+***
 
-
-### Dos and Don'ts
+## Dos and Don'ts
 
 -   When writing QUnits, always keep your tests atomic.
 -   Don't rely on the execution of previous tests.
@@ -31,9 +31,9 @@ Comprehensive overview of QUnit testing for controls.
 
 If you stick to these rules, you will find it much easier to refactor/maintain your tests. Keeping the tests atomic will make debugging much easier, because you will hit your breakpoints for the code being tested only. If you write QUnits without keeping to these rules, you may well not notice anything bad to begin with, but you **will** eventually end up in the middle of a maintenance nightmare!
 
+***
 
-
-### Arrange Act Assert Pattern
+## Arrange Act Assert Pattern
 
 Internally, we use three templates for testing. The one shown below is the general control template.
 
@@ -57,9 +57,9 @@ QUnit.test("Should do Something", function (assert) {
 });
 ```
 
+***
 
-
-#### Arrange
+### Arrange
 
 In `Arrange`, you should set up the dependencies and options you need for your `System under Test`.
 
@@ -69,37 +69,37 @@ Examples:
 -   Sinon spies/stubs and mocks \(dependencies of your System under Test\)
 -   Model
 
+***
 
-
-#### System under test
+### System under test
 
 In `System under Test`, you should create your control and you should also render it if you want to test the rendering.
 
+***
 
-
-#### Act
+### Act
 
 Ideally, this part is only one single line of code executing the function you want to test.
 
+***
 
-
-#### Assert
+### Assert
 
 This part may contain multiple statements of QUnit assertions, but ideally not too many in total.
 
 Make sure that you also test negative paths, not only the expected ones.
 
+***
 
-
-#### Optional: Cleanup
+### Optional: Cleanup
 
 Here you should destroy all the controls/models you created.
 
 If you don't use Sinon sandboxes, revert all the spies/stubs/mocks.
 
+***
 
-
-### What Should You Test?
+## What Should You Test?
 
 -   Test all the public functions you introduced.
 -   Test all the overwritten getters and setters.
@@ -112,21 +112,21 @@ If you don't use Sinon sandboxes, revert all the spies/stubs/mocks.
 -   Test how your control interacts with models \(OData + Json\).
 -   Test the destruction of your control when working with composites, test if all dependencies/events are unbound on destruction.
 
+***
 
-
-### What Should You NOT Test?
+## What Should You NOT Test?
 
 -   Never test non-overwritten getters and setters \(these are tested in the core of the framework\).
 -   Never test your complete CSS with computed styles: just check if the classes are set correctly. Focus on testing JavaScript.
 -   Never test other generic framework functionality. Focus on your control.
 
+***
 
+## Pitfalls
 
-### Pitfalls
+***
 
-
-
-#### Sinon fake timers
+### Sinon fake timers
 
 Using fake timers can be error-prone. Fake timers should only be used with care in specific scenarios. In order to avoid pitfalls using fake timers, see the following documentation:
 
@@ -134,11 +134,14 @@ Using fake timers can be error-prone. Fake timers should only be used with care 
 
 -   For using fake timers in combination with rendering: [Rendering and Re-rendering Controls Within Tests](cookbook-for-testing-controls-with-qunit-0ddcc60.md#loio0ddcc60b05ee40dea1a3be09e8fee8f7__section_REREN)
 
+***
 
-
-#### I've set a property on my control: Why aren't the changes in the DOM?
+### I've set a property on my control: Why aren't the changes in the DOM?
 
 The most likely reason for this is that it didn't wait for the `sap/ui/test/utils/nextUIUpdate` Promise. OpenUI5 does not render synchronously, but waiting for the Promise will proceed the test after the rendering is done.
 
 For more information, see [Rendering and Re-rendering Controls Within Tests](cookbook-for-testing-controls-with-qunit-0ddcc60.md#loio0ddcc60b05ee40dea1a3be09e8fee8f7__section_REREN)
+
+-   **[Cookbook for Testing Controls with QUnit](cookbook-for-testing-controls-with-qunit-0ddcc60.md "")**  
+
 

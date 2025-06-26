@@ -1,6 +1,6 @@
 <!-- loioab267a6b958e46a28f3437154b2a1b2f -->
 
-## Value Lists
+# Value Lists
 
 The OData V4 model supports the access to value list metadata and data.
 
@@ -68,11 +68,11 @@ Additionally, you can use the synchronous method `ODataPropertyBinding.getValueL
 ...
 ```
 
-
+***
 
 <a name="loioab267a6b958e46a28f3437154b2a1b2f__section_azb_gwg_jfb"/>
 
-### The `ValueList` Annotation
+## The `ValueList` Annotation
 
 There are three options to place the `ValueList` annotation:
 
@@ -105,11 +105,11 @@ There are three options to place the `ValueList` annotation:
     ```
 
 
-
+***
 
 <a name="loioab267a6b958e46a28f3437154b2a1b2f__section_x5d_lgq_kdc"/>
 
-### Other Annotations
+## Other Annotations
 
 You can add or overwrite any annotation for the value list service \(not only `ValueList` as described in the previous section\) in the [\(local\) annotation files](additional-annotation-files-fd715d9.md) of the data service. All annotations with a target in the namespace of the value list's schemas are copied.
 

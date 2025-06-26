@@ -1,6 +1,6 @@
 <!-- loio91f1dd0c6f4d1014b6dd926db0e91070 -->
 
-## noJQuery Variant for Bootstrapping
+# noJQuery Variant for Bootstrapping
 
 The noJQuery variant supports bootstrapping for an application that already integrates jQuery or uses a different jQuery version than OpenUI5.
 

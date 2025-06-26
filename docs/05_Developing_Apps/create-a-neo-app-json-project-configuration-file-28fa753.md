@@ -1,13 +1,13 @@
 <!-- loio28fa7538c67e4280a0b7708de2951278 -->
 
-## Create a neo-app.json Project Configuration File
+# Create a neo-app.json Project Configuration File
 
 The `neo-app.json` file contains all project settings for SAP Web IDE and is created in the root folder of your project. It is a JSON format file consisting of multiple configuration keys. The most important setting for you to configure is the path where the OpenUI5 runtime is located when starting the app.
 
 > ### Caution:  
 > SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](app-development-using-sap-business-application-studio-6bbad66.md).
 
-
+***
 
 You do this using the "routes" key and defining an array of resource objects. For running an OpenUI5 tutorial, you only need two entries - one that configures OpenUI5 to be available with the path `/resources`, and another one that configures the test resources needed for the SAP Fiori launchpad integration with the path `/test-resources`.
 
@@ -24,9 +24,9 @@ SAP Web IDE reads these settings automatically when running the app. You can see
 > 
 > If the version is too old for certain features of the tutorial, you have to add the `version` attribute to the target configuration entry and set the value to `snapshot`.
 
+***
 
-
-### Procedure
+## Procedure
 
 1.  Select the *New File* icon and enter `neo-app.json` as the file name.
 2.  Open the newly created file from the tree structure on the left side of the screen.

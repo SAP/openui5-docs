@@ -1,6 +1,6 @@
 <!-- loio37c3392c6c6c4925935a03f0df0eccc6 -->
 
-## Theming
+# Theming
 
 Theming is an important aspect when developing a new control.
 

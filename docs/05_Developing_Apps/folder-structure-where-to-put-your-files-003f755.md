@@ -1,12 +1,12 @@
 <!-- loio003f755d46d34dd1bbce9ffe08c8d46a -->
 
-## Folder Structure: Where to Put Your Files
+# Folder Structure: Where to Put Your Files
 
 The details described here represent a best practice for structuring an application that features one component, one OData service and less than 20 views. If you're building an app that has more components, OData services and views, you may have to introduce more folder levels than described here.
 
+***
 
-
-### The Main Folders
+## The Main Folders
 
 The main folders in an application are the root folder, the `webapp` folder and the `test` folder. You can name the root folder after your application, for example "ui5-app" in the example below.
 
@@ -30,9 +30,9 @@ The `test` folder contains all of the files needed for running automated tests f
 
 To achieve sound performance when loading your application, the code you deploy to your production servers should only contain a `Component-preload.js` and a `manifest.json` file. This means that when you create a package with a build, it is easier if all the files you really want to deploy are inside **one** folder. This is true no matter which build framework you use. We recommend using the `webapp` folder for this. None of the files inside the root folder are needed for running the app, so they won't be deployed on a production server serving your application. The content of the `test` folder has to be executed in design time and during the automated test execution on a central server. We choose to include it inside the `webapp` folder to be able to reference resources of the `webapp` folder relative to the `test` folder. This folder has to be excluded when you are building a `Component-preload.js`. You should never reference resources of the `test` folder from your application, because when you deploy to a productive environment, this resource cannot be loaded. For more information about the `manifest.json` file, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](../04_Essentials/manifest-descriptor-for-applications-components-and-libraries-be0cf40.md).
 
+***
 
-
-### The `webapp` Folder in Detail
+## The `webapp` Folder in Detail
 
 Aside from the `test` folder, the `webapp` folder contains 3 folders related to the MVC \(model, view, controller\) pattern used in OpenUI5, as well as a localization folder and a local-services folder used for emulating REST services. Each of these folders is outlined below.
 
@@ -77,9 +77,9 @@ For integration tests, it is helpful if you are able to mock your back end with 
 
 For information about mock server functionality for OData V4, see [OData V4 Mock Server](../04_Essentials/mock-server-69d3cbd.md#loio69d3cbd4150c4ffb884e788f7f60fd93__section_od4_mock_server).
 
+***
 
-
-### The `test` Folder in Detail
+## The `test` Folder in Detail
 
   
   

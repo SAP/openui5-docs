@@ -1,8 +1,8 @@
 <!-- loiofccfb2eb41414f0792c165e69a878717 -->
 
-## Initialization and Read Requests
+# Initialization and Read Requests
 
-
+***
 
 Bindings are called **absolute** if their path starts with a forward slash "/"; otherwise they are called **relative**. Relative bindings are initial meaning that they have no data as long as they have no context. They obtain a context either from a list binding where the context represents an entity for a certain index in an entity collection or from a context binding where the context represents the one entity of the context binding. The binding which created the context is called the **parent binding** of the relative binding; the relative binding is a **child binding** of its parent binding. Dependent bindings of a binding are the set of child bindings of the binding itself and the dependent bindings of its children. If the binding has no child bindings, it is the empty set.
 
@@ -37,9 +37,9 @@ You can delete the cache for an absolute binding using its `refresh` method. The
 
 You can refresh all bindings with `ODataModel.refresh`, see [ODataModel.refresh](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/refresh) in the Demo Kit.
 
+***
 
-
-#### Refresh a single entity
+### Refresh a single entity
 
 You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#refresh`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/refresh) or the bound context or return value context of an [`sap.ui.model.odata.v4.ODataListBinding`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding/overview) which corresponds to this entity. This also refreshes all dependent bindings of its contexts.
 
@@ -68,9 +68,9 @@ You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#r
 > 
 >     -   If you set a context at the relative binding, the new parent binding will report the pending changes again.
 
+***
 
-
-#### Allow removal of a single entity when refreshing
+### Allow removal of a single entity when refreshing
 
 After updating an entity, it may no longer match the query options for the collection which loaded the entity, in particular `$filter`. You can decide whether the refresh on the context of a list binding should ignore the query options or not: The corresponding context may be removed from the list binding for the collection by setting the parameter `bAllowRemoval` to `true`.
 
@@ -130,11 +130,11 @@ The above sample shows an absolute list binding: A table's `items` aggregation i
 
 The lower table for the line items has a relative binding. As it has parameters defined, it initiates its own data service request once it receives its binding context.
 
-
+***
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_fkt_g1r_mgb"/>
 
-### Property Binding to Metadata
+## Property Binding to Metadata
 
 You can use `##` in a property binding's path to branch from data into metadata.
 
@@ -152,11 +152,11 @@ You can use `##` in a property binding's path to branch from data into metadata.
 
 For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty).
 
-
+***
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_PBOV"/>
 
-### Property Binding With an Object Value
+## Property Binding With an Object Value
 
 A property binding can have an object value if the target type specified in the corresponding control property's binding info is "any" and the binding is relative or points to metadata. The binding's mode has to be `OneTime`, see [sap.ui.model.BindingMode](https://ui5.sap.com/#/api/sap.ui.model.BindingMode), unless the binding is for an action advertisement.
 
@@ -173,11 +173,11 @@ A `OneWay` binding mode is also supported for relative read-only data \(not meta
 
 For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty).
 
-
+***
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_PBAE"/>
 
-### Property Binding To an Array Element
+## Property Binding To an Array Element
 
 A property binding can target an array element inside a collection of primitive type via a hard-coded index. For a use case, see [Geography And Geometry Types](type-determination-53cdd55.md#loio53cdd55a77ce4f33a14bd0767a293063__section_GGT). In general, such a binding needs to be read-only, for example, because it belongs to a text control, involves a formatter function, or is an expression binding. There is no need to explicitly set its binding mode to `OneTime` or `OneWay`\(see [`sap.ui.model.BindingMode`](https://ui5.sap.com/#/api/sap.ui.model.BindingMode)\). Both [auto-`$expand/$select`](automatic-determination-of-expand-and-select-10ca58b.md) as well as automatic [Type Determination](type-determination-53cdd55.md) are supported.
 
@@ -194,11 +194,11 @@ You can also address the entire array, for example within an [Expression Binding
 > </FlexBox>
 > ```
 
-
+***
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_SE"/>
 
-### Side Effects
+## Side Effects
 
 Editing properties of an entity sometimes causes side effects on other properties within the same or a related entity. Normally, a `PATCH` request which sends the user's input to the server includes side effects for the same entity \(if relevant for the UI\) within its response. Sometimes, however, an application needs more control on how and when this happens, or needs side effects on related entities as well.
 
@@ -223,11 +223,11 @@ Consider using the binding-specific `$$patchWithoutSideEffects` parameter when u
 
 The `sap.ui.model.odata.v4.Context#requestSideEffects` API requires a single array as parameter, namely the concatenation of `TargetEntities` and `TargetProperties`.
 
-
+***
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_uz4_fzq_xlb"/>
 
-### Paging
+## Paging
 
 The OData V4 model automatically determines the system query options `$top` and `$skip` based on the data range requested by the control or the application. In the example below, the resulting first request is `GET People('angelhuffman')/Friends?$expand=Friends&$skip=0&$top=107`. The value for `$top` is calculated from the length of the requested data \(7\) plus the prefetch size provided by the control \(100\). Note that adding `$top` and`$skip` for a nested collection is not supported.
 
@@ -250,11 +250,11 @@ The OData V4 model automatically determines the system query options `$top` and 
 
 An additional paging mechanism is Server-Driven Paging, for which the server returns only a part of the requested data in order to limit the response size. This mechanism is supported by the OData V4 model since SAPUI5 1.72. The model will provide the data retrieved with the response to the control or application. A follow-up request is not initiated automatically but only once the control or application request additional data from the model.
 
-
+***
 
 <a name="loiofccfb2eb41414f0792c165e69a878717__section_ENPL"/>
 
-### Expensive Navigation Properties in Lists
+## Expensive Navigation Properties in Lists
 
 When working with collections, expanding certain navigation properties can significantly impact performance. This is especially true if these properties require the loading of large or complex datasets. To improve performance, the `ODataListBinding` provides the [`$$separate`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/bindList) binding parameter. This parameter lets you specify expensive navigation property names that are omitted from the main list request. These properties are loaded in parallel via separate batch requests. As a result, the main list loads more quickly, making the table interactive sooner. The expensive navigation properties are fetched in the background and merged as soon as their data becomes available.
 

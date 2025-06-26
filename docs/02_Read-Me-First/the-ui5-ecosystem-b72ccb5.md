@@ -1,6 +1,6 @@
 <!-- loiob72ccb50eda94ac9b9be454a03ca4213 -->
 
-## The UI5 Ecosystem
+# The UI5 Ecosystem
 
 This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
 
@@ -8,9 +8,9 @@ This page contains some of the complementary offerings from the UI5 ecosystem - 
 
 <!-- loiod8ab43d845cd42ceb0aa4e47b44a8fcc -->
 
-### UI5 Tooling
+## UI5 Tooling
 
-
+***
 
 UI5 Tooling is a state-of-the-art way to develop OpenUI5 projects by consuming OpenUI5 via npm. It's an open-source, modular, configurable, and extensible CLI for efficient development of applications, libraries, and reuse components with the OpenUI5 framework. Here's what you get with this build and development tooling:
 
@@ -20,9 +20,9 @@ UI5 Tooling is a state-of-the-art way to develop OpenUI5 projects by consuming O
 -   Enablement of modern language features
 -   Support for any IDE of your choice
 
+***
 
-
-#### Further Information
+### Further Information
 
 -   [UI5 Tooling on GitHub](https://sap.github.io/ui5-tooling/)
 
@@ -30,9 +30,9 @@ UI5 Tooling is a state-of-the-art way to develop OpenUI5 projects by consuming O
 
 <!-- loiof9c9470583b2455c94bed2bf934e0f1f -->
 
-### UI5 Linter
+## UI5 Linter
 
-
+***
 
 UI5 linter is a static code analysis tool for OpenUI5 projects. It checks JavaScript, TypeScript, XML, JSON, and other files in your project and reports findings.
 
@@ -45,9 +45,9 @@ UI5 linter scans your OpenUI5 project and detects issues that can prevent the pr
 -   Deprecated component and manifest configurations
 -   and many more
 
+***
 
-
-#### Further Information
+### Further Information
 
 -   [UI5 linter on GitHub](https://github.com/UI5/linter)
 
@@ -55,9 +55,9 @@ UI5 linter scans your OpenUI5 project and detects issues that can prevent the pr
 
 <!-- loio702f08a7481e46688c5603385b5bdc68 -->
 
-### Easy-UI5 Generator
+## Easy-UI5 Generator
 
-
+***
 
 Easy-UI5 is an open-source Yeoman generator that should be used by everybody working with CLI tools to create simpleOpenUI5-based web-apps and other OpenUI5-related projects within seconds.
 
@@ -65,9 +65,9 @@ This generator has been created to simplify the creation of OpenUI5 prototypes. 
 
 The purpose of this generator is to guide you through your first steps with OpenUI5 and SAP BTP deployments. Once you're familiar with those technologies, you might want to tweak the projects to adapt them for productive use cases \(such as continuous deployment pipelines and full i18n\).
 
+***
 
-
-#### Further Information
+### Further Information
 
 -   [Easy-UI5 on GitHub](https://github.com/SAP/generator-easy-ui5)
 -   [Easy-UI5 on NPMJS](https://www.npmjs.com/package/generator-easy-ui5)
@@ -77,19 +77,19 @@ The purpose of this generator is to guide you through your first steps with Open
 
 <!-- loioab4f18de7652442da85fc08b38a8a8ce -->
 
-### UI5-TypeScript
+## UI5-TypeScript
 
-
+***
 
 TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in many supporting code editors \(for example, through code completion and inline documentation\). Browsers can't execute TypeScript directly, it needs to be transpiled to JavaScript, which can then be executed as usual.
 
 For OpenUI5, we have published definition files that contain type definitions describing the OpenUI5 APIs and types. With the help of these definitions, you can write OpenUI5 apps in TypeScript and enjoy all the benefits that come with it.
 
-
+***
 
 <a name="loioab4f18de7652442da85fc08b38a8a8ce__section_grr_32p_k5c"/>
 
-### Related Information
+## Related Information
 
 [Main topic: TypeScript Support in UI5](typescript-support-a7ee961.md)
 
@@ -108,9 +108,9 @@ npm packages \(check the individual packages for licensing information\):
 
 <!-- loio6978a6087e8540c4a268fccafd8474da -->
 
-### UI5 Web Components
+## UI5 Web Components
 
-
+***
 
 **Web Components** \(`https://www.webcomponents.org/introduction`\) are custom HTML tags based on standard web APIs like Custom Elements and Shadow DOM, supported by all modern browsers and compatible with most HTML-based UI frameworks.
 
@@ -118,9 +118,9 @@ npm packages \(check the individual packages for licensing information\):
 
 OpenUI5 supports embedding UI5 Web Components, translating their metadata into OpenUI5 controls. This enables seamless integration, including properties, events, and methods, within OpenUI5 applications. For more information, see [Using Web Components](../04_Essentials/using-web-components-1c80793.md).
 
+***
 
-
-#### Further Information
+### Further Information
 
 -   [GitHub repository](https://github.com/SAP/ui5-webcomponents)
 
@@ -131,15 +131,15 @@ OpenUI5 supports embedding UI5 Web Components, translating their metadata into O
 
 <!-- loiof92b537272ba43abbfc157ba4ec8f010 -->
 
-### wdi5
+## wdi5
 
-
+***
 
 wdi5 is a Webdriver.IO service that uses OpenUI5's test API. It is designed to run cross-platform end-to-end tests on a OpenUI5 application with selectors that are compatible to OPA5.
 
+***
 
-
-#### Further Information
+### Further Information
 
 -   [wdi5 on GitHub](https://ui5-community.github.io/wdi5/#/)
 
@@ -150,17 +150,17 @@ wdi5 is a Webdriver.IO service that uses OpenUI5's test API. It is designed to r
 
 <!-- loio23a0a11a88df42578b5baae11c06a89b -->
 
-### Best of UI5
+## Best of UI5
 
 The Best of UI5 page lists a number projects related to the UI5 ecosystem. It includes UI5 tooling extensions \(tasks and middlewares\), Easy-UI5 subgenerators, custom UI5 libraries, as well as custom UI5 controls \(as standalone NPM packages\). It's the central place to find reusable projects around UI5.
 
 It's entirely comminuty-based, so any new additions are welcome!
 
+***
 
+***
 
-
-
-#### Further Information
+### Further Information
 
 -   [https://bestofui5.org/](https://bestofui5.org/)
 

@@ -1,6 +1,6 @@
 <!-- loio91f2c24b6f4d1014b6dd926db0e91070 -->
 
-## Right-to-Left Support in Controls
+# Right-to-Left Support in Controls
 
 OpenUI5 supports right-to-left directionality \(RTL\) in controls.
 
@@ -28,11 +28,11 @@ In a nutshell, this means the following:
 -   The algorithm for ordering blocks according to the base direction only covers one level of mixed directionality. To achieve deeper nesting, spans with a `dir` attribute can be used to define a sub-context with a different base direction.
 
 
-
+***
 
 <a name="loio91f2c24b6f4d1014b6dd926db0e91070__section_0B022A7E260F4CC4BAA335BBDBB43D3B"/>
 
-### General Algorithm
+## General Algorithm
 
 If OpenUI5 is configured for RTL mode, the OpenUI5 core performs the following steps:
 
@@ -53,4 +53,16 @@ If OpenUI5 is configured for RTL mode, the OpenUI5 core performs the following s
         > If images need to be mirrored, you need to manually provide the correct RTL version of the image and save it under the same name in the corresponding subfolder within the `img-RTL` folder. Otherwise, ensure that the folder contains no image with the same name.
 
 
+
+-   **[Right-to-Left Support Guidelines for Control Development](right-to-left-support-guidelines-for-control-development-c69c61d.md "OpenUI5 developers have to
+		consider the text directionality when implementing new controls. The following guidelines
+		explain how this can be done and highlight what you need to focus on. ")**  
+OpenUI5 developers have to consider the text directionality when implementing new controls. The following guidelines explain how this can be done and highlight what you need to focus on.
+-   **[Programmatic Access to RTL](programmatic-access-to-rtl-8bb4723.md "")**  
+
+-   **[Troubleshooting Common RTL Issues](troubleshooting-common-rtl-issues-5007967.md "The following table outlines some common issues that occur when implementing
+		right-to-left (RTL) support for OpenUI5
+		controls and
+		their solutions. ")**  
+The following table outlines some common issues that occur when implementing right-to-left \(RTL\) support for OpenUI5 controls and their solutions.
 

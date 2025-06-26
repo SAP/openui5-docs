@@ -1,12 +1,12 @@
 <!-- loioe54f729da8e3405fae5e4fe8ae7784c1 -->
 
-## Content Densities
+# Content Densities
 
 The devices used to run apps that are developed with OpenUI5 run on various different operating systems and have very different screen sizes. OpenUI5 contains different content densities for certain controls that allow your app to adapt to the device in question, allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse.
 
+***
 
-
-### Available Content Densities
+## Available Content Densities
 
 The table below shows the content densities that are available for the Quartz Light, Belize, Blue Crystal, and high-contrast themes:
 
@@ -102,9 +102,9 @@ The following two screenshots show the difference between the *Cozy* and *Compac
 
 ![](images/loio644ff9d3949e4f1895d4aadf2b107558_LowRes.png "Compact Density: Mainly for Mouse-Operated Devices (such as Desktops)")
 
+***
 
-
-### Checking Which Content Densities Are Supported for a Control
+## Checking Which Content Densities Are Supported for a Control
 
 If you need to know which content densities are supported for a particular control, the best place to look is the [Samples](https://ui5.sap.com/explored.html) section in the Demo Kit. After choosing a control from the list, look at the details in the Object Header area to see which density is supported. In the example shown below, the control supports both the *Compact* and *Cozy* content densities:
 
@@ -114,9 +114,9 @@ Alternatively, you can also use the filter function in the *Samples* in the Demo
 
 ![](images/loio18e87a860e0c426c894432634d81af22_LowRes.png)
 
+***
 
-
-### Setting Densities
+## Setting Densities
 
 You set the corresponding content density CSS class on the **container** for the part that you need to switch to the content density in question, not on the control itself. For a standalone scenario, we recommend that you set this at a high level, such as `<body>`, as in most cases you will want to set it for the whole app.
 
@@ -141,4 +141,9 @@ You can use densities in the following way:
 
     Also, keep in mind that the *Condensed* density has an effect on controls in the `sap.ui.table` library and their content only. If the density is set for controls outside of these tables, it will not have any effect on them.
 
+
+-   **[How to Use Densities for Controls](how-to-use-densities-for-controls-13e6f3b.md "How content densities are set and how they can be used in the SAP Fiori launchpad is
+		explained and shown in the following code samples (using the Compact
+		density as an example).")**  
+How content densities are set and how they can be used in the SAP Fiori launchpad is explained and shown in the following code samples \(using the *Compact* density as an example\).
 

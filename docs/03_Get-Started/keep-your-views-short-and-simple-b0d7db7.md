@@ -1,14 +1,14 @@
 <!-- loiob0d7db7930f64b9399dc2b4979293873 -->
 
-## Keep Your Views Short and Simple
+# Keep Your Views Short and Simple
 
 The view part of your app reflects what users can see and interact with. You should use a suitable set of UI controls that match your scenario and keep things simple.
 
-
+***
 
 <a name="loiob0d7db7930f64b9399dc2b4979293873__section_fsw_51z_yfb"/>
 
-### Use `sap.m` as the Default Namespace
+## Use `sap.m` as the Default Namespace
 
 Most bread-and-butter controls are located in the `sap.m` namespace, which makes it the perfect default namespace. If you want to add other controls and layouts, you can define an additional namespace. For your own namespaces, you should keep the alias short and simple as well. You will typically use it in many places, and a short alias keeps your code tidy.
 
@@ -26,11 +26,11 @@ Most bread-and-butter controls are located in the `sap.m` namespace, which makes
 -   Find out more: [Namespaces in XML Views](../04_Essentials/namespaces-in-xml-views-2421a2c.md)
 
 
-
+***
 
 <a name="loiob0d7db7930f64b9399dc2b4979293873__section_ek2_w1t_zfb"/>
 
-### Remove Clutter From Your Views
+## Remove Clutter From Your Views
 
 It's easy to save a few bytes and make your code a lot cleaner:
 
@@ -54,11 +54,11 @@ It's easy to save a few bytes and make your code a lot cleaner:
 </Panel>
 ```
 
-
+***
 
 <a name="loiob0d7db7930f64b9399dc2b4979293873__section_etr_ght_zfb"/>
 
-### Clean Up Your Aggregation Templates
+## Clean Up Your Aggregation Templates
 
 If you have bound aggregations, Avoid using complex or nested controls. Remember: The template below will be repeated for every entity in your data. If the template is more complex than necessary, this may lead to performance issues at runtime and slow down your app.
 
@@ -70,16 +70,16 @@ If you have bound aggregations, Avoid using complex or nested controls. Remember
 		description="{Text}"/>
 ```
 
--   Learn how: Data Binding Tutorial [Step 12: Aggregation Binding Using Templates](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/97830de2d7314e93b5c1ee3878a17be9.html "Aggregation binding, also known as "list binding", lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.") :arrow_upper_right:
+-   Learn how: Data Binding Tutorial [Step 12: Aggregation Binding Using Templates](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/97830de2d7314e93b5c1ee3878a17be9.html "Aggregation binding, also known as "list binding", lets a control bind to a list within the model data. This binding allows relative binding to the list entries by its child controls.") :arrow_upper_right:
 
 -   Find out more: [Aggregation Handling in XML Views](../04_Essentials/aggregation-handling-in-xml-views-19eabf5.md)
 
 
-
+***
 
 <a name="loiob0d7db7930f64b9399dc2b4979293873__section_r4k_bkt_zfb"/>
 
-### Think About View Modularization Early On
+## Think About View Modularization Early On
 
 Things may get a little messy as your app is growing with your requirements. Therefore, name your views semantically. If a view is getting too "heavy", you should outsource parts of it to a separate view. With XML fragments, you can flexibly reuse parts of your UI elsewhere.
 
@@ -91,16 +91,16 @@ Things may get a little messy as your app is growing with your requirements. The
 </App>
 ```
 
--   Learn how: Walkthrough tutorial [Step 15: Nested Views](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/df8c9c3d79b54c928855162bafcd88ee.html "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.") :arrow_upper_right:
+-   Learn how: Walkthrough tutorial [Step 15: Nested Views](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/df8c9c3d79b54c928855162bafcd88ee.html "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.") :arrow_upper_right:
 
 -   Find out more: [Reusing UI Parts: Fragments](../04_Essentials/reusing-ui-parts-fragments-36a5b13.md)
 
 
-
+***
 
 <a name="loiob0d7db7930f64b9399dc2b4979293873__section_dnf_hnt_zfb"/>
 
-### Choose Clever UI Patterns
+## Choose Clever UI Patterns
 
 OpenUI5 offers a huge collection of feature-rich UI controls, often giving you multiple implementation choices.
 

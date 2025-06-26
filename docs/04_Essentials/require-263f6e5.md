@@ -1,15 +1,15 @@
 <!-- loio263f6e5a915f430894ee290040e7e220 -->
 
-## require
+# require
 
 The `template:require` attribute can be used at the root element of an XML template view or fragment. You can specify a list of required modules as Unified Resource Names, similar to `sap.ui.require`, and assign aliases to them using a JSON-like syntax. The aliases can then be used to access the modules in the same way `<template:alias>` works. \(This requires that the view is loaded asynchronously.\)
 
 > ### Note:  
 > The aliases can be used for formatter references \(first `text` element in the code sample\) as well as for function calls inside an expression binding \(second `text` element in the code sample\).
 
+***
 
-
-### "require" Template
+## "require" Template
 
 ```xml
 
@@ -29,7 +29,7 @@ For compatibility reasons, especially if the view is loaded synchronously, the `
 
 You need to require`sap/ui/model/odata/AnnotationHelper` before use.
 
-
+***
 
 ## Example
 

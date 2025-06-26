@@ -1,6 +1,6 @@
 <!-- loio9113397cd27e4a1090590e1c4f6edf5f -->
 
-## Feature Files
+# Feature Files
 
 Feature files are human-readable specifications that are also machine-readable.
 
@@ -10,9 +10,9 @@ Each feature file contains exactly one feature, and this feature contains one or
 
 For example, for the "accepting money" feature, a test scenario might include steps such as \(1\) the user must insert enough money into the machine before \(2\) the machine serves coffee. You could create a second test scenario, where \(1\) the user doesn't insert enough money and \(2\) the machine does not serve coffee. In this example, each scenario is composed of two steps.
 
+***
 
-
-### Conventions for Feature Files
+## Conventions for Feature Files
 
 -   Use the file extension `.feature`
 
@@ -34,9 +34,9 @@ For example, for the "accepting money" feature, a test scenario might include st
 -   You can also just create a bulleted list of steps instead of using keywords
 
 
+***
 
-
-### Example
+## Example
 
 The following example shows the structure of a sample feature file :
 
@@ -63,4 +63,8 @@ Feature: this is the name of the feature
     * you can also just create a bulleted list of steps
     * instead of using keywords
 ```
+
+-   **[Additional Options for Feature Files](additional-options-for-feature-files-a509db4.md "We recommend that you familiarize yourself with the following advanced concepts in
+		behavior-driven development with Gherkin.")**  
+We recommend that you familiarize yourself with the following advanced concepts in behavior-driven development with Gherkin.
 

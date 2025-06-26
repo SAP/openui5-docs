@@ -1,6 +1,6 @@
 <!-- loioa075ed88ef324261bca41813a6ac4a1c -->
 
-## Replacement of Deprecated jQuery APIs
+# Replacement of Deprecated jQuery APIs
 
 Overview of the mapping of legacy APIs to the new APIs for the migration
 
@@ -9,11 +9,11 @@ The deprecation of the `jQuery.sap` APIs and some native jQuery APIs requires th
 > ### Note:  
 > For the deprecated native jQuery APIs, we only provide replacements for the most important and most frequently used ones. If you cannot find such a native jQuery API in any of the tables below, refer to the jQuery documentation.
 
+***
 
+***
 
-
-
-#### Replacement With New Modules
+### Replacement With New Modules
 
 To migrate the simple replacements, add the new module dependency and replace the call with the added argument name as shown in the following example:
 
@@ -2394,7 +2394,7 @@ Complex Replacement
 
 **Apps Used Within the SAP Fiori launchpad**
 
-Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md) and [Manifest Dependencies to Libraries and Components](manifest-dependencies-to-libraries-and-components-8521ad1.md).
+Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md) and [Descriptor Dependencies to Libraries and Components](descriptor-dependencies-to-libraries-and-components-8521ad1.md).
 
 **Standalone Apps**
 
@@ -2430,7 +2430,7 @@ Complex Replacement
 
 **Apps Used Within the SAP Fiori launchpad**
 
-Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md) and [Manifest Dependencies to Libraries and Components](manifest-dependencies-to-libraries-and-components-8521ad1.md).
+Register your local UI5 reuse components and UI5 libraries in the manifest.json under `sap.ui5/componentUsages` and `sap.ui5/dependencies/libs`, respectively. For more information, see [Manifest \(Descriptor for Applications, Components, and Libraries\)](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md) and [Descriptor Dependencies to Libraries and Components](descriptor-dependencies-to-libraries-and-components-8521ad1.md).
 
 **Standalone Apps**
 
@@ -3358,9 +3358,9 @@ Method changed
 </tr>
 </table>
 
+***
 
-
-#### Replacement with Native Browser APIs
+### Replacement with Native Browser APIs
 
 
 <table>
@@ -3682,9 +3682,9 @@ window.devicePixelRatio >= 2
 </tr>
 </table>
 
+***
 
-
-#### jQuery Extensions Dependencies
+### jQuery Extensions Dependencies
 
 jQuery extensions have been extracted into different modules. If the jQuery extension is required, it needs to be added to the module dependencies.
 

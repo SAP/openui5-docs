@@ -1,6 +1,6 @@
 <!-- loio933965ba8c0440308e1e3233be7bc52f -->
 
-## Main Methods
+# Main Methods
 
 Overview of the two main methods used in the `sap.f.FlexibleColumnLayoutSemanticHelper` class.
 

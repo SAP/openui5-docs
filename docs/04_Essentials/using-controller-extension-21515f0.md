@@ -1,14 +1,14 @@
 <!-- loio21515f09c0324218bb705b27407f5d61 -->
 
-## Using Controller Extension
+# Using Controller Extension
 
 Controller extensions allow you to add functionality to existing applications. They can be used for extensibility purposes, for example by a customer wishing to extend SAP-delivered applications, or as a reusable part that is added to the original application.
 
-
+***
 
 <a name="loio21515f09c0324218bb705b27407f5d61__section_p4y_nvy_32b"/>
 
-### Overview
+## Overview
 
 The following sample code shows how to define an extension for an existing controller.
 
@@ -64,9 +64,9 @@ sap.ui.define(['sap/ui/core/mvc/ControllerExtension', 'sap/ui/core/mvc/OverrideE
 
 For more detailed information on lifecycle hooks and controller metadata, see [Controller](controller-121b8e6.md).
 
+***
 
-
-#### Custom Lifecycle Events
+### Custom Lifecycle Events
 
 If you want to have additional lifecycle events like the standard `onInit` or `onExit` for developers extending the controller, you can define them as described in this section.
 
@@ -91,9 +91,9 @@ return ControllerExtension.extend("sap.my.ReuseExtension", {
 
 With `OverrideExecution.After`, the extensions are called in the order they are provided, with `OverrideExecution.Before` the order is reversed and the last extension is called first.
 
+***
 
-
-#### Final Methods in Controller Extensions
+### Final Methods in Controller Extensions
 
 Adding `"final": true` metadata to the public method makes it available for execution \(call\) but not for overriding in the next controller extension.
 
@@ -110,21 +110,21 @@ return ControllerExtension.extend("sap.my.ReuseExtension", {
 
 ```
 
+***
 
+***
 
-
-
-#### Accessing Controls in Controller Extensions
+### Accessing Controls in Controller Extensions
 
 Only controls that belong to an extension are accessible by the `byId` function in a controller extension. These controls must be prefixed by the namespace of the controller extension. The namespace can be retrieved by calling `getMetadata().getNamespace()`. Here is an example of a valid ID: `my.controller.extension.MyControlId`.
 
 Using the `byId` of the base controller allows the accessing of all controls of the corresponding view by calling `this.base.byId(myControlId)`.
 
-
+***
 
 <a name="loio21515f09c0324218bb705b27407f5d61__section_hrv_gcz_32b"/>
 
-### Integrating Controller Extensions into Controllers
+## Integrating Controller Extensions into Controllers
 
 Controller extensions can serve for reuse purposes. You can achieve this by including a controller extension to your controller as a member.
 
@@ -169,11 +169,11 @@ You can also override an extension directly in a controller.
 
 For information on integrating controller extensions into controllers in TypeScript, see *Assigning Controller Extensions* and *Overriding Controller Extension Behavior* in [Using Controller Extension with TypeScript](using-controller-extension-21515f0.md#loio21515f09c0324218bb705b27407f5d61__section_UCETS).
 
-
+***
 
 <a name="loio21515f09c0324218bb705b27407f5d61__section_UCETS"/>
 
-### Using Controller Extension with TypeScript
+## Using Controller Extension with TypeScript
 
 In UI5 JavaScript code, controller extensions may have an `override` definition block, containing methods like `onInit` which are to be overridden by the extension. In TypeScript, the presence of a definition block with the same name as a static member of an ES6 class would lead to a name clash with the static UI5 method `sap.ui.core.mvc.ControllerExtension.override`. Furthermore, specifying this block as a static member would not work — regardless of its name — because the[transformer](https://github.com/ui5-community/babel-plugin-transform-modules-ui5/) would assign this block as a static member to the transformed UI5 class instead of moving it **into** the definition block of `BaseClass.extend("ClassName", { ... })` where it is expected.
 
@@ -223,9 +223,9 @@ We therefore offer the `overrides` keyword as an additional name for this defini
 >         overridesToOverride: true
 > ```
 
+***
 
-
-#### Assigning Controller Extensions
+### Assigning Controller Extensions
 
 In JavaScript, when a controller uses a pre-defined controller extension, the respective extension class needs to be assigned to the `extend` object under an arbitrary property name. In TypeScript, however, the class property should contain an extension instance, as the controller code should interact with an instance — not the class — of the extension.
 
@@ -260,9 +260,9 @@ Behind the scenes, the `ControllerExtension.use(...)` method call is removed by 
 > 
 > -   Assign the extension right in the class definition using an equal sign \(not a colon as in JavaScript\).
 
+***
 
-
-#### Overriding Controller Extension Behavior
+### Overriding Controller Extension Behavior
 
 Some controller extensions allow implementing hooks or overriding their behavior. This can be done equally well in TypeScript:
 

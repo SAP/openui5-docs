@@ -1,6 +1,6 @@
 <!-- loio48b81b967af34ad08f1f88c962b4740a -->
 
-## Preprocessing XML Views
+# Preprocessing XML Views
 
 Applying preprocessing to views enables you to use features like XML templating. This feature is currently only enabled for XML views. On an abstract level, preprocessing means that a view can be modified during runtime before it is rendered. This makes it possible to use the templating syntax, as it is interpreted by the preprocessor. It also makes it possible to apply user customization.
 
@@ -23,9 +23,9 @@ The following figure shows the different stages of view initialization. There ar
 
 For preprocessor for view sources of type XML or ViewXML which create cacheable results, see [VML View Cache: Preprocessor Integration](xml-view-cache-3d85d5e.md#loio3d85d5eec1594be0a71236d5e61f89aa__ViewCache_Preprocessor).
 
+***
 
-
-### Using the Preprocessor
+## Using the Preprocessor
 
 First, you need a preprocessor implementation. SAPUI5 provides a default preprocessor for XML templating which can be enabled by default. You can also build your own preprocessor based on the `Preprocessor` interface.
 

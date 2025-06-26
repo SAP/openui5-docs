@@ -1,14 +1,14 @@
 <!-- loioe8fca3e4c68a4f289660299d806ba99e -->
 
-## Load Only What You Really Need
+# Load Only What You Really Need
 
 The amount of resources and data that your app loads will directly affect the performance of your app. You should declare all dependencies and remove unused libraries and classes from your code.
 
-
+***
 
 <a name="loioe8fca3e4c68a4f289660299d806ba99e__section_dvs_cvy_yfb"/>
 
-### Keep Your Library Dependencies Up To Date
+## Keep Your Library Dependencies Up To Date
 
 Always define the libraries you use in the manifest and remove all libraries that you do not intend to use in your code. If you have no manifest, you have to specify the used libraries in the OpenUI5 bootstrap. If you specify the used libraries in either place, they are loaded optimized. This means that all used controls, styles, etc. are not requested separately. For every mentioned library, the library preload file, the library styles, and the text translations are loaded once during the application startup. No further requests are necessary while using the application, because all needed artefacts are already included in the respective library preload file.
 
@@ -26,14 +26,14 @@ Always define the libraries you use in the manifest and remove all libraries tha
 }
 ```
 
--   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right:
+-   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right:
 -   Find out more: [Manifest \(Descriptor for Applications, Components, and Libraries\)](../04_Essentials/manifest-descriptor-for-applications-components-and-libraries-be0cf40.md)
 
-
+***
 
 <a name="loioe8fca3e4c68a4f289660299d806ba99e__section_pxb_zvy_yfb"/>
 
-### Declare Local Dependencies
+## Declare Local Dependencies
 
 In the JavaScript files of your app, define all dependencies to OpenUI5 framework classes and app resources via `sap.ui.define`. If you have unused dependencies, you should remove them right away.
 
@@ -48,18 +48,18 @@ sap.ui.define([
 	...
 ```
 
--   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right:
+-   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right:
 -   Find out more:
     -   [Modules and Dependencies](../04_Essentials/modules-and-dependencies-91f23a7.md)
     -   [https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/Cloud/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/Cloud/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html)
     -   [UI5 Tooling](https://sap.github.io/ui5-tooling/)
 
 
-
+***
 
 <a name="loioe8fca3e4c68a4f289660299d806ba99e__section_s3g_5yy_yfb"/>
 
-### Use Lazy Loading
+## Use Lazy Loading
 
 Use controls like `sap.m.List` or UI patterns that support displaying data selectively or with pagination. Make sure that your backend service is designed to deliver small chunks of data as well.
 
@@ -70,7 +70,7 @@ Use controls like `sap.m.List` or UI patterns that support displaying data selec
 	...>
 ```
 
--   Learn how: Testing Tutorial [Step 7: Changing the Table to a Growing Table](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/016e0d44f8ff47d2bdf4fdad9b7bf7cd.html "Let's switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.") :arrow_upper_right:
+-   Learn how: Testing Tutorial [Step 7: Changing the Table to a Growing Table](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/016e0d44f8ff47d2bdf4fdad9b7bf7cd.html "Let's switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.") :arrow_upper_right:
 
 -   Find out more: [Growing Feature for Table and List](../08_More_About_Controls/growing-feature-for-table-and-list-9164ba7.md)
 

@@ -1,14 +1,14 @@
 <!-- loio370b67986497463187336fa130aebbf1 -->
 
-## Anchor Bar
+# Anchor Bar
 
 Displays the titles of the sections and subsections in the `ObjectPageLayout` and allows the user to scroll to the respective content.
 
-
+***
 
 <a name="loio370b67986497463187336fa130aebbf1__section_zyk_srs_ncb"/>
 
-### Overview
+## Overview
 
 The anchor bar is an automatically generated internal menu that shows the titles of the sections and subsections and allows the user to scroll to the respective section and subsection content.
 
@@ -20,11 +20,11 @@ The anchor bar is an automatically generated internal menu that shows the titles
 
 When the user scrolls the page content, the anchor bar remains at the top of the screen.
 
-
+***
 
 <a name="loio370b67986497463187336fa130aebbf1__section_xxc_xc1_4cb"/>
 
-### Usage
+## Usage
 
 The anchor bar is displayed by default. You can hide it by using the `showAnchorBar` property:
 
@@ -56,9 +56,9 @@ JavaScript:
 oObjectPage.setUseIconTabBar(true);
 ```
 
+***
 
-
-### Custom Anchor Bar Buttons
+## Custom Anchor Bar Buttons
 
 By default, you don't need to specify anything for a `sap.uxap.ObjectPageSectionBase` to have its button included in the anchor bar. At runtime, the `ObjectPageLayout` control creates a button that has the same text as the corresponding section title. However, you may want to use your own control for rendering the anchor bar button instead of the default `sap.m.Button`. You can specify the custom control at `sap.uxap.ObjectPageSectionBase` level, as shown here:
 

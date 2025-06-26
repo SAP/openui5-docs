@@ -1,6 +1,6 @@
 <!-- loio39d25641086c42aaa745028e15562ba8 -->
 
-## Creating a Simple Container Control
+# Creating a Simple Container Control
 
 Example of a container control with arbitrary child controls that are rendered in a row and a colored box around each child
 

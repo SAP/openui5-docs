@@ -1,6 +1,6 @@
 <!-- loiobb2aca0957534dba8f0b4cfe689c30c9 -->
 
-## Facet Filter: Light Type
+# Facet Filter: Light Type
 
 The light type of the `FacetFilter` control is automatically enabled on smart phone devices and is also available for desktop and tablets.
 

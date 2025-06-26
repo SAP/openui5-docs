@@ -1,6 +1,6 @@
 <!-- loio94658aa4cfbe4fdfbd0981d78f6d9b3d -->
 
-## sap.ui.model.type.DateTimeInterval
+# sap.ui.model.type.DateTimeInterval
 
 The interval data types represent intervals between two date/time related properties.
 
@@ -13,11 +13,11 @@ Three new types are used to format two date related properties from a model for 
 -   `sap.ui.model.type.TimeInterval` - represents a time interval \(without date\) which transforms the source values into a formatted time interval string and the other way around
 
 
-
+***
 
 <a name="loio94658aa4cfbe4fdfbd0981d78f6d9b3d__section_vk3_114_fbb"/>
 
-### Usage with JSON, OData V2 or V4 models
+## Usage with JSON, OData V2 or V4 models
 
 > ### Note:  
 > The new date interval types can be used together with different types of model. However, there are some differences in the usage when the new date interval types get used with a JSON, OData V2 or V4 model.

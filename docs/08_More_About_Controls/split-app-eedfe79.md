@@ -1,6 +1,6 @@
 <!-- loioeedfe79e4c19462eafe8780aeab16a3c -->
 
-## Split App
+# Split App
 
 You can use the `sap.m.SplitApp` control to ensure that your UI automatically adapts to the size available on the respective device.
 

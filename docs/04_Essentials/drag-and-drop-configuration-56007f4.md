@@ -1,14 +1,14 @@
 <!-- loio56007f46e7db494bbaadbfa5e8d50ea8 -->
 
-## Drag-and-Drop Configuration
+# Drag-and-Drop Configuration
 
 To use drag and drop, you have to provide the required configuration using the `dragDropConfig` aggregation in `sap.ui.core.Element`.
 
-
+***
 
 <a name="loio56007f46e7db494bbaadbfa5e8d50ea8__section_rn3_w3g_x2b"/>
 
-### Overview
+## Overview
 
 The `dragDropConfig` aggregation with multiplicity `0..n` is enabled for all controls and elements in OpenUI5. However, it has to be defined in the metadata first.
 

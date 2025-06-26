@@ -1,6 +1,6 @@
 <!-- loio2421a2c9fa574b2e937461b5313671f0 -->
 
-## Namespaces in XML Views
+# Namespaces in XML Views
 
 The names of the OpenUI5 control libraries and the related subpackages are mapped to XML namespaces.
 

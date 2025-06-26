@@ -1,12 +1,12 @@
 <!-- loioe3038209d0e94f4487531956a60ef457 -->
 
-## Keyboard Handling
+# Keyboard Handling
 
 Keyboard handling enables users to access every UI element of the application with the keyboard and is therefore tightly connected to accessibility. Additionally, this aspect is coupled to the screen reader functionality.
 
+***
 
-
-### General Recommendations
+## General Recommendations
 
 **Accessibility of UI elements**
 
@@ -22,9 +22,9 @@ The reading order of the page is very important for the application user experie
 > ### Example:  
 > When you have to select a country and city from select boxes, the country should be focused first and after that the city.
 
+***
 
-
-### Tips for Testing
+## Tips for Testing
 
 Start the application and put away your mouse.
 
@@ -41,4 +41,7 @@ Start the application and put away your mouse.
 
 -   Can you execute all actions? \(Compare with what you can do with the mouse\)
 
+
+-   **[Fast Navigation](fast-navigation-d23e2cf.md "Adjacent controls within the tab chain can be grouped for fast navigation using keyboard shortcuts.")**  
+Adjacent controls within the tab chain can be grouped for fast navigation using keyboard shortcuts.
 

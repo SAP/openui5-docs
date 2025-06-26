@@ -1,12 +1,12 @@
 <!-- loio3e426f159c7a4ab5ae660aba288c94d2 -->
 
-## Custom List Item
+# Custom List Item
 
 You can use the `sap.m.CustomListItem` control to create your own layout if the other list items available in OpenUI5 do not fit your needs.
 
+***
 
-
-### Available List Items in OpenUI5
+## Available List Items in OpenUI5
 
 OpenUI5 contains several list items that are used with the `sap.m.List` control to serve different standard scenarios. These are outlined in the table below, along with `sap.m.ColumnListItem`, which is used together with the `sap.m.Table` control:
 
@@ -126,9 +126,9 @@ If none of the predefined list items \(the first seven entries in the table abov
 
 For more information about the different list items, refer to the corresponding [API documentation](https://ui5.sap.com/#/api/sap.m.List). 
 
+***
 
-
-### Structure of a List Item
+## Structure of a List Item
 
 A list item can be split into three parts, as shown in the following graphic:
 
@@ -138,9 +138,9 @@ The parts that are to the left and right of the dotted area are part of the `Lis
 
 The dotted area is the area in which the content of a list item is placed. If you are using `sap.m.CustomListItem`, **all** of the content will be placed there. The section below explains how to use `sap.m.CustomListItem` in more detail.
 
+***
 
-
-### Using the `sap.m.CustomListItem` Control
+## Using the `sap.m.CustomListItem` Control
 
 As mentioned above, you can either use `sap.m.CustomListItem` directly by adding any content via content aggregation, or you can create your own control that inherits from `sap.m.CustomListItem` if you need a more sophisticated list item featuring your own properties, styling, and complex layout. Below is an example showing how you can use the `sap.m.CustomListItem` together with `sap.m` controls.
 

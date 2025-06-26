@@ -1,16 +1,16 @@
 <!-- loio9c22d2ada0414d97837b845e1e85ab86 -->
 
-## Extensions for OPA5
+# Extensions for OPA5
 
 Extend OPA capabilities with custom extensions.
 
 You can provide application-aware assertions that are called from the test but operate in the context of the application being tested.
 
-
+***
 
 <a name="loio9c22d2ada0414d97837b845e1e85ab86__section_nng_x5k_b1b"/>
 
-### Interface
+## Interface
 
 The extension API is defined in the `sap.ui.test.OpaExtension` class. A custom extension should extend this class and implement the necessary methods. The extension class should be available in the application and loaded in the application frame.
 
@@ -21,21 +21,21 @@ The extension API is defined in the `sap.ui.test.OpaExtension` class. A custom e
 -   **`getAssertions()`** - called after extension initialization but before the test has started. It should return a map of assertion names and assertion functions. This map is merged in the default QUnit assertion object. The assertion function is called in the context of the application being tested and should return a promise that resolves with `QUnit.pushResult` object. The promise should be resolved for both passing and failing assertion and rejected only if the assertion evaluation fails. The assertion function could interact with the application under test and the test will wait for the returned promise to resolve before continuing. From the point of the view of the test, this assertion is consistent with the classical synchronous QUnit assertions. For more information, see [https://api.qunitjs.com/assert/pushResult](https://api.qunitjs.com/assert/pushResult).
 
 
-
+***
 
 <a name="loio9c22d2ada0414d97837b845e1e85ab86__section_nnd_y5k_b1b"/>
 
-### Lifecycle
+## Lifecycle
 
 To load an extension, the test should enable it by specifying extension class name as string in the key 'extensions' in the options object given to `Opa5.extendConfig()`. An array of extension names could be specified or the extension name `?opaExtensions=[my/custom/Extension]` could be given in the test URL. If the extension needs some application parameters, they could be provided in the `appParams`.
 
 For more information, see the *API Reference*: [`Opa5.extendConfig()`](https://ui5.sap.com/#/api/sap.ui.test.Opa5/methods/sap.ui.test.Opa5.extendConfig) 
 
-
+***
 
 <a name="loio9c22d2ada0414d97837b845e1e85ab86__section_oc2_y5k_b1b"/>
 
-### Example
+## Example
 
 Custom extension class:
 

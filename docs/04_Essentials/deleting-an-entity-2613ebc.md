@@ -1,6 +1,6 @@
 <!-- loio2613ebc835764abd9aefd2e6fa8b7392 -->
 
-## Deleting an Entity
+# Deleting an Entity
 
 The `v4.Context.delete` method deletes an entity on the server and updates the user interface accordingly.
 

@@ -1,14 +1,14 @@
 <!-- loiob2f563900ed2492b9b9003560e00ea9d -->
 
-## Git Guidelines
+# Git Guidelines
 
 For using Git for developing content for OpenUI5, rules and guidelines for the use of Git and the content of commit messages have been introduced.
 
 Set the `core.autocrlf` configuration property in Git to `false` and make sure to use Unix-style linebreaks \(LR-only\).
 
+***
 
-
-### Commit Message
+## Commit Message
 
 The commit message consists of two or three parts, which are separated by empty lines:
 
@@ -19,9 +19,9 @@ The commit message consists of two or three parts, which are separated by empty 
 -   Data section
 
 
+***
 
-
-#### Commit Summary
+### Commit Summary
 
 The summary should be 50-70 characters long.
 
@@ -31,9 +31,9 @@ Instead of `[FIX]` or `[FEATURE]` and at any other location in the commit messag
 
 Do not use any `[` or `]` within the summary but for the prefixes.
 
+***
 
-
-#### Description
+### Description
 
 Describe the problem you fix with this change. Whether your patch is a one-line bug fix or 5000 lines of a new feature, there must be an underlying problem that motivated you to do this work. Make the necessity of the fix clear to the reviewers, so they will continue reading.
 
@@ -41,9 +41,9 @@ Describe the effect that this change has from a user's point of view. App crashe
 
 After that, describe the technical details of what you changed. It is important to describe the change in a most understandable way so the reviewer is able to verify that the code is behaving as you intend it to.
 
+***
 
-
-#### Data section
+### Data section
 
 The data section consists of name-value pairs:
 
@@ -54,7 +54,7 @@ The data section consists of name-value pairs:
 -   `Change-Id` for Gerrit
 
 
-
+***
 
 ## Example
 

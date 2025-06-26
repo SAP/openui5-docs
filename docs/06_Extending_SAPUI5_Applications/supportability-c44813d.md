@@ -1,12 +1,12 @@
 <!-- loioc44813ddee80464985d62c1f852b4a17 -->
 
-## Supportability
+# Supportability
 
 In case of problems or errors in the custom application, several options exist that support you in resolving the issues.
 
+***
 
-
-### Disabling Extensions/Customizing
+## Disabling Extensions/Customizing
 
 If a customized application does not run properly, you can disable the customizing. In a support case, for example, you can set a breakpoint early in the `sap-ui-core.js` and then execute the following code in the browser developer tool console:
 
@@ -19,9 +19,9 @@ If a customized application does not run properly, you can disable the customizi
 > ### Note:  
 > For security reasons, it is not possible to use a URL parameter.
 
+***
 
-
-### Using the Log
+## Using the Log
 
 The console log contains information about the processing of customizing or extensibility information. Depending on the importance of the respective information, different log levels are used. To enable a certain log level, execute the following code in the browser console:
 

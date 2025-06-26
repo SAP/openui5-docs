@@ -1,6 +1,6 @@
 <!-- loio69a8e469fbde46e7b8916250080effbd -->
 
-## The Device API
+# The Device API
 
 The device API \(`sap.ui.Device`\) is an API which provides information about device specifics, like the operating system along with its version, the browser and browser version, screen size, current orientation and support for specific features like touch event support, orientation change and so on.
 

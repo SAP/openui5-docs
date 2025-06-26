@@ -1,6 +1,6 @@
 <!-- loio890fce16801640459e67ec64da4daa00 -->
 
-## What's New in OpenUI5 1.114
+# What's New in OpenUI5 1.114
 
 With this release OpenUI5 is upgraded from version 1.113 to 1.114.
 
@@ -259,6 +259,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

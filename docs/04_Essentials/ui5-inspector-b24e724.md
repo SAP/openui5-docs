@@ -1,6 +1,6 @@
 <!-- loiob24e72443eb34d0fb7bf6940f2d697eb -->
 
-## UI5 Inspector
+# UI5 Inspector
 
 The UI5 Inspector is an open source Chrome DevTools extension that helps app developers to inspect, analyze, and support OpenUI5-based apps. It is supported for apps based on OpenUI5 version 1.28 and higher.
 
@@ -17,15 +17,15 @@ Key features:
 -   Find relevant framework information for your OpenUI5 app
 
 
+***
 
-
-### How to get it?
+## How to get it?
 
 You can download the UI5 Inspector as a standard extension from the Chrome Web Store at [https://chrome.google.com/webstore/detail/ui5-inspector/bebecogbafbighhaildooiibipcnbngo?hl=en](https://chrome.google.com/webstore/detail/ui5-inspector/bebecogbafbighhaildooiibipcnbngo?hl=en).
 
+***
 
-
-### Features
+## Features
 
 Once installed, the UI5 Inspector is available in Chrome DevTools \(by choosing [F12\]\). It becomes active when an OpenUI5 app is loaded.
 

@@ -1,10 +1,10 @@
 <!-- loio19eabf5b13214f27b929b9473df3195b -->
 
-## Aggregation Handling in XML Views
+# Aggregation Handling in XML Views
 
 In XML views, aggregated child controls can be added as child tags.
 
-
+***
 
 Aggregations of the XML view itself and of the controls inside the view are handled in the same way. If a container control has marked one of its aggregations as the default aggregation, you can add children directly into that control. For example, `XMLView`'s `content` aggregation is marked as the default, so you can define content for the aggregation directly in the XML view, without adding a `content` tag. However, when a container control doesn't have a default aggregation, or when adding a child control into another one of its aggregations, you need to use an aggregation tag, for example, the `dependents` tag.
 

@@ -1,16 +1,16 @@
 <!-- loio91f2b4d66f4d1014b6dd926db0e91070 -->
 
-## Resource Handling: Modularization and Localization
+# Resource Handling: Modularization and Localization
 
 The handling of resources in OpenUI5 is divided in a client-side and a server-side part. The two parts are complementary and don't depend on each other.
 
 The server-side resource handling is an optional component to improve the client-server interaction by providing a server-side locale fallback instead of a client-side fallback with multiple requests. The server-side resource handling is mainly used in Eclipse to support the modularized development of OpenUI5 applications and libraries.
 
-
+***
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_866E1131207A4BD98456A7C2E53F12D3"/>
 
-### Client-Side Resource Handling
+## Client-Side Resource Handling
 
 OpenUI5 provides the following mechanism for handling resources on the client:
 
@@ -21,11 +21,11 @@ OpenUI5 provides the following mechanism for handling resources on the client:
 
 In both cases, OpenUI5 loads additional resources from a server. This server can be any kind of web server \(simple, Java, ABAP, ...\). Both do **not** depend on a specific server-side technology.
 
-
+***
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_6913A7D3F65341FBA039B6231078E45C"/>
 
-### Server-Side Resource Handling
+## Server-Side Resource Handling
 
 For the Java server and the integration into Eclipse, OpenUI5 provides a resource handler to improve the interaction between client and server, for example by providing a server-side locale fallback for the language to avoid multiple requests to get the correct language. It's also used to support modularized development of OpenUI5 applications and libraries. The Java resource handler is aligned with the concept of the JavaServer Faces. The following prerequisites apply:
 
@@ -58,11 +58,11 @@ The resource handler in OpenUI5 provides the following additional features:
     `messagebundle_en_US.properties > messagebundle_en.properties > messagebundle.properties` 
 
 
-
+***
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_A11484375D5A4FBBA47056785D2ECE32"/>
 
-### Resource Servlet
+## Resource Servlet
 
 For Java Servlet containers, OpenUI5 provides a `ResourceServlet` to manage the access to OpenUI5 resources within the web application and the various UI libraries in the classpath. The following snippet shows how to enable the resource servlet for OpenUI5:
 
@@ -101,11 +101,11 @@ For Java Servlet containers, OpenUI5 provides a `ResourceServlet` to manage the 
 
 Before you use it, make sure that the `ResourceServlet` is available in the classpath as JAR file.
 
-
+***
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_2478D35EAEE94B4A990BA8F6D7C02F98"/>
 
-### Configuration
+## Configuration
 
 The resource handler is configured via context parameters, which are defined in the `web.xml`. The following table gives an overview about configuration parameters:
 
@@ -235,11 +235,11 @@ Flag to enable caching of any resources in resource servlet; default: `true` \(d
 
 Configuration parameters are added as context parameters to the web.xml.
 
-
+***
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_4A80AABC6E614DBBB70B11702BE2FBBE"/>
 
-### Development Mode
+## Development Mode
 
 When you're starting to develop OpenUI5 controls and modules being located inside the servlet paths `resources/` or `test-resources/`, it makes the development process easier to disable the caching of such resources as well as to enable the resource browsing. To activate the development mode, add the following context parameter:
 
@@ -252,22 +252,22 @@ When you're starting to develop OpenUI5 controls and modules being located insid
   <!-- END: DEV MODE -->
 ```
 
-
+***
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_C8A8BF692B1C4DBE88D647F79CFD9F4F"/>
 
-### Resource Browsing
+## Resource Browsing
 
 If the development mode is active, you can browse resources as follows via the resource browser:
 
 -   `%SERVER_URL%!/resources/`
 -   `%SERVER_URL%/test-resources/`
 
-
+***
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_476438027C05487BBD11549BFA9580DC"/>
 
-### Tunneling a Remote Location
+## Tunneling a Remote Location
 
 You can use the `ResourceServlet` to tunnel/proxy requests to another server that provides SAPUI5 resources instead of referring to OpenUI5 from a remote location inside the bootstrap script tag and thus avoid cross domain issues. To activate the remote location tunneling/proxying, add the following context parameter to the web.xml of your application:
 
@@ -292,11 +292,11 @@ When in development mode, it's possible to verify that a resource was retrieved 
 x-sap-ResourceUrl = http://%server%:%port%/sap/public/bc/ui5_ui5/resources/sap-ui-core.js
 ```
 
-
+***
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_265C4412784443DE8C2F6C3326954707"/>
 
-### Resource Packaging
+## Resource Packaging
 
 Resource packaging for web applications and Java modules can be any kind of JAR file, for example OpenUI5 UI library that is available in the classpath of the web application.
 
@@ -325,11 +325,11 @@ Store the resources as follows:
     For custom JAR files, you need to apply to this on your own.
 
 
-
+***
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_EF657968B41745BCB39F62BB49AC7AFA"/>
 
-### OSGi Servlet Container
+## OSGi Servlet Container
 
 When you run OpenUI5 as an OSGi web bundle and reference the UI libraries as OSGi bundles, you need to determine the OpenUI5 OSGi bundles as follows:
 
@@ -342,4 +342,8 @@ When you run OpenUI5 as an OSGi web bundle and reference the UI libraries as OSG
     
     ```
 
+
+-   **[OpenUI5 Library Location Used for Testing](openui5-library-location-used-for-testing-61ee9ed.md "The location of the OpenUI5 library that is used for testing may differ depending on
+		several parameters.")**  
+The location of the OpenUI5 library that is used for testing may differ depending on several parameters.
 

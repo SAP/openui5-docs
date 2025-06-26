@@ -1,6 +1,6 @@
 <!-- loioc9b0f8cca852443f9b8d3bf8ba5626ab -->
 
-## Debugging
+# Debugging
 
 When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.
 
@@ -8,7 +8,7 @@ When developing apps, searching for bugs is an inevitable part of the process. T
 
 <!-- loio1ed4b5f9f18848b1badee9b72d4ac261 -->
 
-### Loading Debug Sources
+## Loading Debug Sources
 
 For performance reasons, the OpenUI5 files are loaded in a minified version, this means that all possible variable names are shortened and comments are removed. This makes debugging harder because the code is less readable.
 
@@ -43,9 +43,9 @@ Choose [Ctrl\] + [O\]  \(Windows\) or [Command\] + [O\]  \(macOS\) and type the 
 
 <!-- loioc57cb1c50c584fb1930d8da5f709b3ba -->
 
-### Switching the OpenUI5 Version
+## Switching the OpenUI5 Version
 
-
+***
 
 Open the *Diagnostics* window with the shortcut [CTRL\] + [SHIFT\] + [ALT\] + [S\].
 
@@ -63,7 +63,7 @@ This feature can be used to test an application against a newer or older version
 
 <!-- loio9d57287c155741e7ad15f42736605ffa -->
 
-### Setting Breakpoints
+## Setting Breakpoints
 
 Breakpoints are helpful when you debug the event handling of an OpenUI5 object. You can either set breakpoints in the developer tools of your browser, or use the *Diagnostics* window.
 
@@ -73,7 +73,7 @@ For more information, see [Diagnostics](diagnostics-6ec18e8.md#loio6ec18e80b0ce4
 
 <!-- loio549150aa11cf432780c1801a6e2dc3c4 -->
 
-### Breakpoints on the Class Level
+## Breakpoints on the Class Level
 
 In the *Debugging* section of the *Diagnostics* window, you can set breakpoints on the class level.
 
@@ -93,7 +93,7 @@ In the *Debugging* section of the *Diagnostics* window, you can set breakpoints 
 
 5.  Open the developer tools of your browser. Whenever the selected methods are called for any instance of the selected control, the code execution is paused in the debugger.
 
-    ![](images/loiof54ea7bfedff4501959df91b53697579_Source1.png)
+    ![](images/loiof54ea7bfedff4501959df91b53697579_LowRes.png)
 
     In the call stack you find the method for which you set a breakpoint.
 
@@ -106,7 +106,7 @@ In the *Debugging* section of the *Diagnostics* window, you can set breakpoints 
 
 <!-- loiob691c4e7e970484991007a4e30fcd6d0 -->
 
-### Breakpoints on the Object Level
+## Breakpoints on the Object Level
 
 In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on the object level.
 

@@ -1,6 +1,6 @@
 <!-- loioabd4d7c7548d4c29ab8364d3904a6d74 -->
 
-## Changes Compared to OData V2 Model
+# Changes Compared to OData V2 Model
 
 This section outlines the main differences between the OData V2 and OData V4 models.
 

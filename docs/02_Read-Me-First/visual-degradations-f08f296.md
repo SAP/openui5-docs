@@ -1,14 +1,14 @@
 <!-- loiof08f29636be1472dac8f35fe7918ee08 -->
 
-## Visual Degradations
+# Visual Degradations
 
 Depending on the combination of device and browser, visual degradations may occur in certain libraries.
 
 The following sections give an overview of the known degradations.
 
+***
 
-
-### `sap.m.TextArea`: Placeholder Property
+## `sap.m.TextArea`: Placeholder Property
 
 As there is no W3C specification for how to use the placeholder property, browser handling for this property varies. Some browsers use a native placeholder property, but for browsers that do not support this, SAP implements its own placeholder version.
 

@@ -1,6 +1,6 @@
 <!-- loio9ef211e569ed4f819af904ba360ea7f6 -->
 
-## Glossary
+# Glossary
 
 List of terms used in OpenUI5.
 

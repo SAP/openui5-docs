@@ -1,6 +1,6 @@
 <!-- loioaa93e1c6953a41b48cd912a7331eadee -->
 
-## View Modification
+# View Modification
 
 For modifying views, control properties of standard views can be changed.
 

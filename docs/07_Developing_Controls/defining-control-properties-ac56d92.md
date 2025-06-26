@@ -1,6 +1,6 @@
 <!-- loioac56d92162ed47ff858fdf1ce26c18c4 -->
 
-## Defining Control Properties
+# Defining Control Properties
 
 Control properties are defined as follows:
 
@@ -23,9 +23,9 @@ MyControl.prototype.setShowLogoutButton = function(show) {
 
 ```
 
+***
 
-
-### Allowed Property Types
+## Allowed Property Types
 
 **Built-in Types**
 
@@ -299,9 +299,9 @@ The default value for any array type is the empty array.
 </tr>
 </table>
 
+***
 
-
-### Runtime Behavior and API of Property Types
+## Runtime Behavior and API of Property Types
 
 At runtime, each type is represented as instance of the class `DataType` \(`sap/ui/base/DataType.js`\). A type can be looked up by its name by calling `DataType.getType(name)`. The framework treats all values for the above types as if they would be atomic. Changes inside a value \(e.g. changing the property of a value of type `object` or adding, removing, or changing members of an array\) are not detected by the framework and might lead to unexpected results. Instead, any change should be applied by setting a new \(or modified\) value with a call like `setText`, `setCaption`, `setColor`.
 

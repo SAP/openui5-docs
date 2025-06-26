@@ -1,6 +1,6 @@
 <!-- loioa254991b7bb040059a95b6a7f551ee51 -->
 
-## Control Structure
+# Control Structure
 
 The `sap.f.FlexibleColumnLayout` contains 3 instances of `sap.m.NavContainer` – one for each column.
 

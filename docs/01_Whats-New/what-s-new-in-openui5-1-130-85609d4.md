@@ -1,6 +1,6 @@
 <!-- loio85609d48f6954cf1a13724c1aaa78c63 -->
 
-## What's New in OpenUI5 1.130
+# What's New in OpenUI5 1.130
 
 With this release OpenUI5 is upgraded from version 1.129 to 1.130.
 
@@ -702,6 +702,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

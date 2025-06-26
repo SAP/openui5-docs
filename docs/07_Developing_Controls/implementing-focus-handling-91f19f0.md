@@ -1,6 +1,6 @@
 <!-- loio91f19f036f4d1014b6dd926db0e91070 -->
 
-## Implementing Focus Handling
+# Implementing Focus Handling
 
 OpenUI5 provides mechanisms for observing the moving focus in an application page for controls. This information is then preserved for refocusing elements after rerendering. The focus triggers event firing. However, due to the high degree of flexibility in control rendering, a functionality tailored to the respective controls is required. For this, the framework provides helper functions for the implementation of focus handling.
 
@@ -45,11 +45,11 @@ The base class for elements \(`Element.js`\) provides the following five methods
     > -   The overridden `onfocusfail` on the parent will not be called.
 
 
-
+***
 
 <a name="loio91f19f036f4d1014b6dd926db0e91070__section_52A752721BCF4CFBB9D724F17370144A"/>
 
-### Example
+## Example
 
 In the following example, the control would usually set the focus on the second child node of its root node. In this case, simply override the `getFocusDomRef` method:
 
@@ -156,9 +156,9 @@ sap.ui.define([
 });
 ```
 
+***
 
-
-### API Reference
+## API Reference
 
 [sap.ui.core.Element](https://ui5.sap.com/#/api/sap.ui.core.Element)
 

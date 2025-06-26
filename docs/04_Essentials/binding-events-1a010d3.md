@@ -1,12 +1,12 @@
 <!-- loio1a010d3b92c34226a96f202ec27e9217 -->
 
-## Binding Events
+# Binding Events
 
 The OData V4 model supports certain events intended for applications, and others that are to be used for controls, as outlined in this section.
 
+***
 
-
-### Events for Applications
+## Events for Applications
 
 For applications, the OData V4 model supports the following events:
 
@@ -46,9 +46,9 @@ For applications, the OData V4 model supports the following events:
     For more details, see the corresponding API documentation for the specific bindings [ODataContextBinding](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) and [ODataListBinding](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit.
 
 
+***
 
-
-### Events for Controls
+## Events for Controls
 
 The events `change` and `refresh` are meant for controls only, and not available for app development. They indicate that the respective binding has new data which can be accessed by the control:
 

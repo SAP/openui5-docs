@@ -1,12 +1,12 @@
 <!-- loio38ff8c27b022475a92b591bcf6262551 -->
 
-## Supported Combinations of Themes and Libraries
+# Supported Combinations of Themes and Libraries
 
 This chapter gives an overview of the possible combinations of themes and libraries for the OpenUI5 versions that are still in maintenance.
 
+***
 
-
-### Active Libraries
+## Active Libraries
 
 The following table shows the [Available Themes](../04_Essentials/available-themes-da0d2e7.md) for the active OpenUI5 libraries.
 
@@ -68,6 +68,11 @@ The following table shows the [Available Themes](../04_Essentials/available-them
 1.120
 
 </th>
+<th valign="top">
+
+1.136
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -103,6 +108,11 @@ n/a
 <td valign="top">
 
 n/a
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
@@ -172,6 +182,11 @@ n/a
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -226,6 +241,11 @@ n/a
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -246,6 +266,11 @@ n/a
 <td valign="top">
 
 n/a
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
@@ -330,6 +355,11 @@ n/a
 ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -357,6 +387,11 @@ n/a
 <td valign="top">
 
 n/a
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 </td>
 <td valign="top">
@@ -438,6 +473,11 @@ n/a
 ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -492,6 +532,11 @@ n/a
 ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -542,6 +587,11 @@ n/a
 <td valign="top">
 
 ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 </td>
 </tr>
@@ -596,16 +646,21 @@ n/a
 ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 </td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+</td>
 </tr>
 </table>
 
-![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) = Supported ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) = Not Supported
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) = Supported ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) = Not Supported ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) = Removed
 
-
+***
 
 <a name="loio38ff8c27b022475a92b591bcf6262551__section_yh3_vnz_zy"/>
 
-### Deprecated Libraries
+## Deprecated Libraries
 
 If you are, for example, still using `sap.ui.commons` and `sap.ui.ux3`, we recommend that you migrate your existing apps to actively developed libraries, such as `sap.m`, and use the most current theme as the default theme going forward.
 

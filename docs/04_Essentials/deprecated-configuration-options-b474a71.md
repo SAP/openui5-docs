@@ -1,6 +1,6 @@
 <!-- loiob474a712ca364d40a1b0a804baf2d734 -->
 
-## DeprecatedConfiguration Options
+# DeprecatedConfiguration Options
 
 The following tables show deprecatedconfiguration options.
 
@@ -10,11 +10,11 @@ The following tables show deprecatedconfiguration options.
 > ### Note:  
 > The OpenUI5 configuration options now follow a consistent naming scheme based on kebab-case notation. Configuration options in older framework versions or code samples \(especially those from before OpenUI5 1.120\) may follow the former camelCase notation. Typically, you should now use \(or search for\) the newer names, e.g. `log-level` instead of `logLevel`.
 
-
+***
 
 <a name="loiob474a712ca364d40a1b0a804baf2d734__section_ix3_4bv_fzb"/>
 
-### Deprecated Options
+## Deprecated Options
 
 The following configuration options are deprecated and should no longer be used in future-proof coding:
 

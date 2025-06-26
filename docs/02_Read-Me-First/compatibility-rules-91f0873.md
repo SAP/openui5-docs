@@ -1,6 +1,6 @@
 <!-- loio91f087396f4d1014b6dd926db0e91070 -->
 
-## Compatibility Rules
+# Compatibility Rules
 
 The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.
 
@@ -11,11 +11,11 @@ The following sections describe what SAP can change in major, minor, and patch r
 > 
 > -   Never use or override "private" functions that aren't part of the [API Reference](https://ui5.sap.com/#/api/sap.ui). Private functions are typically \(but not always\) prefixed with a preceding "\_". Always double-check the API Reference, private functions are not listed there.
 
-
+***
 
 <a name="loio91f087396f4d1014b6dd926db0e91070__section_4BED038D0A7E4237BE7AD473862AA281"/>
 
-### API Evolution
+## API Evolution
 
 Unless otherwise mentioned, the word "API" in this section refers to "public API", meaning functions, classes, namespaces, controls along with their declared properties, aggregations, and so on. The sole definition of the public API is the [API Reference](https://ui5.sap.com/#/api/sap.ui), which is included in the OpenUI5 Demo Kit. Features that are **not** mentioned there are **not** part of the API.
 
@@ -30,11 +30,11 @@ The following rules apply for introducing new APIs or making incompatible change
 > ### Note:  
 > Exceptions to these rules are possible, but only in very urgent cases such as security issues. Such exceptions are documented in the [Change Log](https://sdk.openui5.org/releasenotes.html).
 
-
+***
 
 <a name="loio91f087396f4d1014b6dd926db0e91070__section_N10074_N10013_N10001"/>
 
-### Compatible Changes
+## Compatible Changes
 
 The following changes to existing APIs are compatible and can be done anytime:
 
@@ -45,11 +45,11 @@ The following changes to existing APIs are compatible and can be done anytime:
 -   Adding new values to enumeration types; this means that when dealing with `enum` properties, always be prepared to accept new values, for example, by implementing a `"default"` or `"otherwise"` path when reacting on `enum` values.
 
 
-
+***
 
 <a name="loio91f087396f4d1014b6dd926db0e91070__section_N1009A_N10013_N10001"/>
 
-### Incompatible Changes
+## Incompatible Changes
 
 The following isn't part of the public API and may **change in patch and minor releases**:
 
@@ -87,9 +87,9 @@ The following changes to existing APIs are incompatible, but **can be done in a 
 -   Renaming or removing files
 
 
+***
 
-
-### Inheritance
+## Inheritance
 
 Inheriting from OpenUI5 objects \(e.g. by calling `extend` on a control class to add custom functionality\) may endanger the updatability of your code.
 
@@ -123,27 +123,27 @@ SAP might add, remove, or change the internal implementation of the parent class
 
 We recommend that you test inherited classes very carefully after updating OpenUI5 to make sure that the extended functionality is still working as expected.
 
+***
 
-
-### Deprecation
+## Deprecation
 
 If possible and appropriate, we mark old artifacts as deprecated and create new artifacts, instead of making incompatible changes. A deprecation comment in the corresponding API documentation, and perhaps also a log entry in the implementation, explain why and when an artifact has been deprecated and include tips on how to achieve the same results without using deprecated functionality.
 
-
+***
 
 <a name="loio91f087396f4d1014b6dd926db0e91070__experimental"/>
 
-### Experimental API
+## Experimental API
 
 Some features or controls delivered with the current OpenUI5 version are flagged as "experimental". These experimental features and controls are not part of the released scope of the delivered OpenUI5 version. Do not use experimental features or controls in a productive environment, or with data that has not been sufficiently backed up.
 
 Experimental features and controls can be changed or deleted at any time without notice, and without a formal deprecation process. They may also be incompatible to changes provided in an upgrade.
 
-
+***
 
 <a name="loio91f087396f4d1014b6dd926db0e91070__Open_Source"/>
 
-### Third-Party Open Source Libraries
+## Third-Party Open Source Libraries
 
 OpenUI5 contains and uses several third-party open source libraries, such as `jQuery`. These libraries can also be used by applications and/or custom control libraries, but the OpenUI5 compatibility rules described in this document do not apply to these third-party libraries.
 

@@ -1,6 +1,6 @@
 <!-- loio2359b636a11a4236bb754c2bbf31e97f -->
 
-## What's New in OpenUI5 1.120
+# What's New in OpenUI5 1.120
 
 With this release OpenUI5 is upgraded from version 1.119 to 1.120.
 
@@ -452,7 +452,7 @@ Feature
 
 You can now take the Walkthrough tutorial with UI5 Tooling as our preferred development environment; the sample code for all tutorial steps has been updated to work with UI5 Tooling out of the box. We also included features of modern ECMAScript and added an additional step showing how to build an application.
 
-For more information, see [Walkthrough Tutorial (JavaScript)](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/3da5f4be63264db99f2e5b04c5e853db.html "In this tutorial we will introduce you to all major development paradigms of SAPUI5.") :arrow_upper_right:.
+For more information, see [Walkthrough Tutorial (JavaScript)](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/3da5f4be63264db99f2e5b04c5e853db.html "In this tutorial we will introduce you to all major development paradigms of SAPUI5.") :arrow_upper_right:.
 
 <sub>Changed•Feature•Info Only•1.120</sub>
 
@@ -887,6 +887,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

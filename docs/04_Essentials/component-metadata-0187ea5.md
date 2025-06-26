@@ -1,6 +1,6 @@
 <!-- loio0187ea5e2eff4166b0453b9dcc8fc64f -->
 
-## Component Metadata
+# Component Metadata
 
 The component class provides specific metadata for components by extending the `ManagedObject` class. The `UIComponent` class provides additional metadata for the configuration of user interfaces or the navigation between views.
 
@@ -136,9 +136,9 @@ UIComponent.extend("some.sample.UIComponent", {
 }),
 ```
 
+***
 
-
-### Properties Section in Component Metadata
+## Properties Section in Component Metadata
 
 You can add a properties section to the metadata for all properties that can adopt different values during runtime. The getters and setters for these properties are generated automatically, but you can overwrite them if you require additional functionality. The following example contains two properties at the end of the metadata section.
 

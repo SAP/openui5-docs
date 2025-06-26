@@ -1,14 +1,14 @@
 <!-- loioa8bd1a8c4183412fb5ed6abb434a9ed2 -->
 
-## Don't Use Deprecated or Experimental Features
+# Don't Use Deprecated or Experimental Features
 
 To keep your apps future proof and up to date with the latest improvements, you should only use artifacts \(such as features, APIs, themes, etc.\) that are still actively developed.
 
-
+***
 
 <a name="loioa8bd1a8c4183412fb5ed6abb434a9ed2__section_dd2_pfb_rzb"/>
 
-### Deprecated Artifacts
+## Deprecated Artifacts
 
 If an artifact is no longer developed, we mark it as deprecated. Usually, the deprecated artifact is replaced by a newer and better alternative.
 
@@ -19,11 +19,11 @@ You can usually still use deprecated artifacts for a while - they will remain pa
 
 APIs that have been flagged as deprecated can be found in the API Reference: [API Reference: `deprecated`](https://ui5.sap.com/#/api/deprecated). To find more information on the topic of deprecations, check the **Related information** section.
 
-
+***
 
 <a name="loioa8bd1a8c4183412fb5ed6abb434a9ed2__section_g15_kvh_rzb"/>
 
-### Experimental APIs
+## Experimental APIs
 
 Some features delivered with OpenUI5 are flagged as **experimental**. These experimental features are not part of the officially delivered scope that is guaranteed for future releases. Their purpose is to get user feedback at an early point of time, allowing customers or partners to influence the potential future feature accordingly.
 

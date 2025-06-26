@@ -1,6 +1,6 @@
 <!-- loio3a4a9e562988456c9be0ef883ae7da50 -->
 
-## Lifecycle of Binding Templates
+# Lifecycle of Binding Templates
 
 The lifecycle of the binding templates differs from the lifecycle of controls that are contained in an aggregation. Whenever a control object is destroyed, any aggregating object is destroyed as well. For list binding templates, you specify the behavior by using the additional property [`templateShareable`](https://ui5.sap.com/#/api/sap.ui.base.ManagedObject.AggregationBindingInfo) in the parameter of the `bindAggregation` method of class `sap.ui.base.ManagedObject`.
 

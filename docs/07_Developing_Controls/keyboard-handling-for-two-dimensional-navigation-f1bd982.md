@@ -1,6 +1,6 @@
 <!-- loiof1bd982c780445c6ae2ccdf2b3f478da -->
 
-## Keyboard Handling for Two-Dimensional Navigation
+# Keyboard Handling for Two-Dimensional Navigation
 
 The following keys and key combinations are used for navigation in two-dimensional item containers \(for example, calendars and tables\).
 

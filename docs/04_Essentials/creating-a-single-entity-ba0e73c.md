@@ -1,17 +1,17 @@
 <!-- loioba0e73ce02824ceb96b6fd8ecc246f27 -->
 
-## Creating a Single Entity
+# Creating a Single Entity
 
 When a single-valued navigation property has a `null` value, you can create a new entity via a so-called "upsert" \(an **up**date that does an in**sert** \). Usually, no API is needed for this as two-way property bindings are sufficient.
 
 > ### Note:  
 > For creating a new entity inside a collection, that is, an entity set or a collection-valued navigation property, see [Creating an Entity in a Collection](creating-an-entity-in-a-collection-c9723f8.md).
 
-
+***
 
 <a name="loioba0e73ce02824ceb96b6fd8ecc246f27__section_DCR"/>
 
-### A Simple Example
+## A Simple Example
 
 Let's assume we have product entities with a collection of descriptive texts in different languages. Typically, only the text for the current UI language can be maintained by an end user. Suppose `Description` is thus a single-valued navigation property from the product entity to a description entity. Behind the scenes, a collection of descriptions is associated with a single product, but that is of no concern to us here. Also, the description entity may have more properties like the language it represents etc., but we are just interested in the actual `Text` property.
 
@@ -27,19 +27,19 @@ The following is an over-simplified XML view where the outer box represents an o
 > </FlexBox>
 > ```
 
-
+***
 
 <a name="loioba0e73ce02824ceb96b6fd8ecc246f27__section_ICR"/>
 
-### Advanced Usage
+## Advanced Usage
 
 In addition to two-way data binding, an upsert can also be caused via the [`v4.Context#setProperty`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/setProperty) API. To undo an upsert that has not yet been sent to the back end \(mostly due to [submit mode=API](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.SubmitMode)\), use [`v4.Context#resetChanges`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/resetChanges), [`v4.ODataModel#resetChanges`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/resetChanges), or the corresponding method at a [context](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/resetChanges), [list](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/resetChanges), or [property](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/resetChanges) binding. You cannot use [`v4.Context#delete`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/delete) for this purpose because the context itself should not be deleted, just the \(navigation\) property changes related to it. Setting the `Text` property to `null` again does not undo the upsert, and neither does setting `Description` to `null`.
 
-
+***
 
 <a name="loioba0e73ce02824ceb96b6fd8ecc246f27__section_CST"/>
 
-### State Diagram
+## State Diagram
 
 Suppose there is an object binding for the input field as follows. In a similar fashion, there might be an intermediate control bundling a number of input fields related to the same upsertable entity and again with an object binding to the corresponding single-valued navigation property. In such cases, we can have a closer look at the [`v4.Context`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context) related to that [`v4.ODataContextBinding`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) using `this.oView.byId("input").getBindingContext()`. Its state diagram is intentionally close to the one from [Creating an Entity in a Collection](creating-an-entity-in-a-collection-c9723f8.md).
 
@@ -65,11 +65,11 @@ If and when the entity has been successfully created in the back-end service, th
 
 ![](images/loiof359082361f445868c75940f778a8c2e_LowRes.png "State Diagram for Creating an Entity via Upsert")
 
-
+***
 
 <a name="loioba0e73ce02824ceb96b6fd8ecc246f27__section_x5l_k53_h2c"/>
 
-### Restrictions
+## Restrictions
 
 An upsert cannot happen in a collection that does not send own requests. For example, the list binding of an items table for `Products` with binding context `/Category('23')` needs to use [`$$ownRequest`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindList) in order to upsert descriptions per product.
 

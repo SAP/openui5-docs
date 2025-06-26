@@ -1,16 +1,16 @@
 <!-- loio147eef96aa5f4126ac99f10e25bac75e -->
 
-## Upgrading from a Version Below 1.82
+# Upgrading from a Version Below 1.82
 
+***
 
-
-### New jQuery Version Included
+## New jQuery Version Included
 
 With OpenUI5 1.82, the third-party library jQuery is upgraded from jQuery 2.2.3 to jQuery 3.5.1. Several measures have been implemented to make this new framework variant of jQuery as compatible to the previously contained version as feasible. In particular, we introduce a compatibility layer to ensure that most of your existing application or control code may not need adjustment. This could, however, introduce incompatibilites to the new jQuery version. **Please read the following information carefully** to understand any current and possible future impact.
 
+***
 
-
-#### Compatibility layer
+### Compatibility layer
 
 With the major version upgrade from jQuery 2.x to jQuery 3.x, a number of incompatible changes have been introduced \(see the breaking changes in the [jQuery 3.0 Core Upgrade Guide](https://jquery.com/upgrade-guide/3.0/)\).
 
@@ -26,9 +26,9 @@ This compatibility layer has the following properties:
 
 -   It restores several APIs that have been incompatibly changed in jQuery 3.x back to their old behavior in jQuery 2.x. Details on those changes can be found in the table below.
 
+***
 
-
-#### List of jQuery changes covered by OpenUI5 compatibility layer
+### List of jQuery changes covered by OpenUI5 compatibility layer
 
 The following table contains some important differences between jQuery 2.2.3 and jQuery 3.5.1. The rightmost column indicates whether such an incompatible change of jQuery 3.x was "rolled back" to the original jQuery 2.x behavior by our compatibility layer.
 
@@ -271,9 +271,9 @@ Function `A` is called after the current call stack is finished
 </tr>
 </table>
 
+***
 
-
-#### List of unpatched jQuery incompatibilities
+### List of unpatched jQuery incompatibilities
 
 Some incompatible changes that are introduced with jQuery 3.5.1 aren't restored to the old behavior of jQuery 2.2.3 by our compatibility layer. This is because we consider them reasonable improvements, for which we don't see any negative impact from our evaluation with existing applications.
 
@@ -492,9 +492,9 @@ the `htmlPrefilter()` method returns the passed string unmodified
 </tr>
 </table>
 
+***
 
-
-#### Changes in behavior for OpenUI5 versions above 1.81
+### Changes in behavior for OpenUI5 versions above 1.81
 
 Due to the above-mentioned jQuery incompatibilities, OpenUI5 behaves differently in certain cases after the jQuery update.
 
@@ -601,9 +601,9 @@ Properly closing non-void HTML elements in this way is backward-compatible to ol
 </tr>
 </table>
 
+***
 
-
-#### Known jQuery issues
+### Known jQuery issues
 
 At the time of writing, the following jQuery issues have been identified. They have been fixed in the jQuery variant `sap/ui/thirdparty/jquery.js` shipped with OpenUI5 1.82 and later:
 
@@ -626,9 +626,9 @@ At the time of writing, the following jQuery issues have been identified. They h
     The original implementation of `jQuery.fn.offsetParent` can handle this case correctly.
 
 
+***
 
-
-#### Remove the deprecated jQuery API from your code
+### Remove the deprecated jQuery API from your code
 
 You can activate an additional support rule with the [UI5 Support Assistant](../04_Essentials/support-assistant-57ccd7d.md). The rule `"Usage of deprecated jQuery API"` will show you warnings for all instances of deprecated jQuery 3.x API usage.
 

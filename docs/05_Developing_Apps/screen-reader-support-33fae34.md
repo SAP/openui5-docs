@@ -1,24 +1,24 @@
 <!-- loio33fae3482358438e93daea5232527093 -->
 
-## Screen Reader Support
+# Screen Reader Support
 
 OpenUI5 application developers need to be aware of how the screen reader reads out the contents of the UI. Labels, headings, and descriptions help you describe the contents and visual elements of an application.
 
+***
 
-
-### General Recommendations
+## General Recommendations
 
 The following rules and guidelines will help you avoid common pitfalls and show you best practices. You still need to be aware that there may be deviations between the interpretation of the markup by the different screen readers.
 
+***
 
-
-#### Generate valid HTML
+### Generate valid HTML
 
 The screen reader software gets the information about the page directly from the DOM. Therefore, if the DOM is invalid, the information presented to the user might be invalid as well. Ideally, if the DOM is correct, the screen reader software will interpret it correctly. The nesting of the elements is also important and plays role for the validity, and can be validated in the app context \(for example the heading levels\). When you need to create new controls or change the HTML structure of existing ones for some reason, you have to check the validity of the resulting HTML.
 
+***
 
-
-#### Use titles for complex components
+### Use titles for complex components
 
 Complex controls like pages, panels, and tables need a title to summarize the contents they hold. If you use the standalone `Title` control, make sure that it is associated with the element that needs the title.
 
@@ -40,9 +40,9 @@ Complex controls like pages, panels, and tables need a title to summarize the co
 > 
 > ```
 
+***
 
-
-#### Use labels
+### Use labels
 
 Make sure that all edit boxes, search fields, and column headers have labels. If not, use the `Label` control and add one. Labels have to be connected to each control, for example by using one of the following:
 
@@ -57,9 +57,9 @@ Make sure that all edit boxes, search fields, and column headers have labels. If
 -   `title="…"`
 
 
+***
 
-
-#### Titles in headings
+### Titles in headings
 
 For headings \(table toolbar, page header, form toolbar, panel toolbar\) the text should be in a `sap.m.Title` control \(make sure that it is associated with the element that needs the title and, if not, add the reference using `aria-labelledby`\).
 
@@ -87,9 +87,9 @@ For headings \(table toolbar, page header, form toolbar, panel toolbar\) the tex
 > 
 > ```
 
+***
 
-
-#### Labels and descriptions for input controls
+### Labels and descriptions for input controls
 
 When using `Input` controls, always provide a label \(make sure it is connected with the input\). You can also use the `description` property to add additional information. If you use `sap.m.Input`, the description is usually used for showing the unit of measurement \(for example. "EUR"\).
 
@@ -116,9 +116,9 @@ When using `Input` controls, always provide a label \(make sure it is connected 
 > 
 > ```
 
+***
 
-
-#### Empty labels in drop-down lists
+### Empty labels in drop-down lists
 
 In some cases, you may need to provide an empty option in a drop-down field such as `Select`. This way you want to indicate that none of the items in the drop-down is applicable, or offer the empty option as a way to clear the selection. In this case, you should properly label the empty option with *\(None\)* and not leave it blank.
 
@@ -129,9 +129,9 @@ The labeling on the empty option will be read by the screen reader and the end u
 
 For more information, see [Fiori Guidelines for Empty states](https://experience.sap.com/fiori-design-web/designing-for-empty-states/).
 
+***
 
-
-#### List with info toolbar
+### List with info toolbar
 
 When using the `List` control with visible non-active info toolbar with plain text content, you need to associate the `aria-labelledby` of the list with the text content of the `infoToolbar` aggregation.
 
@@ -150,9 +150,9 @@ When using the `List` control with visible non-active info toolbar with plain te
 > ...
 > ```
 
+***
 
-
-#### Provide additional information when there are changes in the screen
+### Provide additional information when there are changes in the screen
 
 Make sure to provide additional information to the user, when changes in the screen are done, based on user interaction. You can use one of the following informative techniques:
 
@@ -167,9 +167,9 @@ Make sure to provide additional information to the user, when changes in the scr
 
 -   The `sap.ui.core.InvisibleMessage` enables developers to specify the message to be announced when something dynamically changes on the user interface. For more information, see [Invisible Messaging](invisible-messaging-b9a7d6f.md).
 
+***
 
-
-### Tips for Testing
+## Tips for Testing
 
 Start a screen reader, start the application, walk through the application using the keyboard and listen. For example, you can also use *Reading mode* or similar functions of your screen reader because some elements do not need to have the focus to be readable by screen readers.
 
@@ -194,11 +194,11 @@ Start a screen reader, start the application, walk through the application using
 -   Are screen updates like application messages, dialogs \(popups\), and similar dynamic content read correctly and at the right time?
 
 
-
+***
 
 <a name="loio33fae3482358438e93daea5232527093__section_tnc_dcl_w2c"/>
 
-### Language Support
+## Language Support
 
 The `lang` attribute for the current language is set at page level for the entire page. If a page contains text that is not in the current language \(for example, French elements on an English page\), this text cannot be labeled with a different language tag. OpenUI5 doesn't offer dedicated support to mark application parts, sections, etc. that are in a different language.
 
@@ -208,4 +208,19 @@ For more information, see:
 
 -   [Declaring Language in HTML](https://www.w3.org/International/questions/qa-html-language-declarations.en)
 -   [The lang and xml:lang attributes](https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes)
+
+-   **[Landmark API](landmark-api-fd7f9d4.md "The landmark API allows app developers to set different roles and labels that allow
+		users to access the sections of the page using the screen reader
+		functions/shortcuts.")**  
+The landmark API allows app developers to set different roles and labels that allow users to access the sections of the page using the screen reader functions/shortcuts.
+-   **[Labeling and Tooltips](labeling-and-tooltips-329a029.md "The following guidelines help you properly label your controls in order to have good
+		accessibility.")**  
+The following guidelines help you properly label your controls in order to have good accessibility.
+-   **[Invisible Messaging](invisible-messaging-b9a7d6f.md "The Invisible Message class provides a way to grammatically expose dynamic content
+		changes in a way that can be announced by screen readers.")**  
+The Invisible Message class provides a way to grammatically expose dynamic content changes in a way that can be announced by screen readers.
+-   **[Dialogs, Popups, and Popovers](dialogs-popups-and-popovers-5709e73.md "OpenUI5 dialog controls can
+		serve different purposes within the application and are therefore handled differently by the
+		screen reader. ")**  
+OpenUI5 dialog controls can serve different purposes within the application and are therefore handled differently by the screen reader.
 

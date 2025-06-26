@@ -1,6 +1,6 @@
 <!-- loiob11d853a8e784db6b2d210ef57b0f7d7 -->
 
-## Require Modules in XML View and Fragment
+# Require Modules in XML View and Fragment
 
 Modules can be required in XML views and fragments and assigned to aliases which can be used as variables in properties, event handlers, and bindings.
 
@@ -26,11 +26,11 @@ The aliases can then be used to access the modules' static functions. The alias 
 > ### Note:  
 > When you use the view in combination with fragments, keep in mind that the alias does not work in embedded fragments. In this case, define a separate `core:require` inside the fragments.
 
-
+***
 
 <a name="loiob11d853a8e784db6b2d210ef57b0f7d7__section_msm_sk3_43b"/>
 
-### Example With Event Handler
+## Example With Event Handler
 
 You can use the XML `require` to reference static functions of a module which can serve as event handlers. This works with static strings as well as with any model data. For a description how this is done, see [Handling Events in XML Views](handling-events-in-xml-views-b0fb4de.md). As the `Box` module is defined on the root element, it can be used in the whole view.
 
@@ -48,11 +48,11 @@ You can use the XML `require` to reference static functions of a module which ca
 > ### Note:  
 > `$controller`, `$event`, `$parameters`, and `$source` are reserved keywords for resolving an event handler. Avoid using these keywords as aliases for the required modules with `core:require`.
 
-
+***
 
 <a name="loiob11d853a8e784db6b2d210ef57b0f7d7__section_zxd_xk3_43b"/>
 
-### Example With Data Binding
+## Example With Data Binding
 
 You can also use the `require` module with data binding. Formatters and factory functions can be defined with the `require` modules, as well as expression bindings. The following code extract also shows, that the `Factory` module, which is defined on the List element, can only be used there, and not in sibling or parent controls:
 
@@ -71,11 +71,11 @@ You can also use the `require` module with data binding. Formatters and factory 
 </mvc:View>
 ```
 
-
+***
 
 <a name="loiob11d853a8e784db6b2d210ef57b0f7d7__section_jnp_zk3_43b"/>
 
-### `core:require` in Fragments
+## `core:require` in Fragments
 
 `core:require` can be used in fragments and set on every element, including `FragmentDefinition`. However, `core:require` on `FragmentDefinition` node does not have any effect in the following use cases:
 

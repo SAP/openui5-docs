@@ -1,16 +1,16 @@
 <!-- loio8521ad1955f340f9a6207d615c88d7fd -->
 
-## Manifest Dependencies to Libraries and Components
+# Descriptor Dependencies to Libraries and Components
 
-Description of the performance-relevant attributes that are available for the manifest \(also known as descriptor for applications, components and libraries\).
+Description of the performance-relevant attributes that are available for the descriptor for applications, components and libraries
 
-The performance-relevant attributes have been introduced with the version 3 of the manifest.
+The performance-relevant attributes have been introduced with the version 3 of the descriptor for applications, components, and libraries.
 
-
+***
 
 <a name="loio8521ad1955f340f9a6207d615c88d7fd__section_DEPLIB"/>
 
-### Dependencies to Libraries
+## Dependencies to Libraries
 
 The following dependencies to libraries can be implemented:
 
@@ -73,11 +73,11 @@ sap.ui.define(['sap/ui/core/Lib'], function(Library) {
 > ### Tip:  
 > Execute the `load` method before any resource of the library is required to preload the complete library instead of loading each resource individually.
 
-
+***
 
 <a name="loio8521ad1955f340f9a6207d615c88d7fd__section_qkj_sdf_3mb"/>
 
-### Dependencies to Components
+## Dependencies to Components
 
 **Scenario 1:** UI library contains multiple components
 
@@ -124,9 +124,9 @@ var pReuseComponentPromise = this.createComponent("myReuseComponent");
 
 The full list of options for the `createComponent` factory method can be found in the [API Reference](https://ui5.sap.com/#/api/sap.ui.core.Component%23methods/createComponent). 
 
+***
 
-
-#### Nested components
+### Nested components
 
 As of Version 1.56 it is sufficient to declare the `sap.ui5/componentUsages` and indicate whether the component should be loaded lazily or not. The declaration of the component as a separate dependency is not recommended and should be avoided in this case.
 

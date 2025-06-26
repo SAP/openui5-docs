@@ -1,6 +1,6 @@
 <!-- loio91f2f9396f4d1014b6dd926db0e91070 -->
 
-## sap.ui.model.type.Boolean
+# sap.ui.model.type.Boolean
 
 The `Boolean` data type represents a string.
 

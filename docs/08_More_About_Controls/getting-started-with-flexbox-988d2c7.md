@@ -1,6 +1,6 @@
 <!-- loio988d2c7652684dea98f9d6dbc94000c0 -->
 
-## Getting Started With FlexBox
+# Getting Started With FlexBox
 
 For a flexible box layout, create a `FlexBox` control and add any kind of controls to it.
 
@@ -37,11 +37,11 @@ The following figure gives an example how the result looks like if used inside a
 
 ![SAPUI5 Mobile FlexBox Buttons](images/loioe6a78df297d448fb88f8280e81a50b9a_LowRes.png)
 
-
+***
 
 <a name="loio988d2c7652684dea98f9d6dbc94000c0__section_N1003F_N10011_N10001"/>
 
-### Layout properties
+## Layout properties
 
 Some properties that affect the layout need to be set in the `FlexBox` control. Other properties can be attached to the controls which are placed inside the `FlexBox` by means of the `layoutData` aggregation. The layout direction, for example is set in the `FlexBox` as follows:
 

@@ -1,14 +1,14 @@
 <!-- loiod2f58695fce3476f92fdfc07c9e8f7c6 -->
 
-## App Initialization: What Happens When an App Is Started?
+# App Initialization: What Happens When an App Is Started?
 
 When a user starts an app \(in the SAP Fiori launchpad \(FLP\) or using an HTML page\), several steps will be performed in the background.
 
-
+***
 
 ![](images/loioa2285aecc0aa4e7dac6c7fb889b82907_LowRes.png)
 
-
+***
 
 > ### Note:  
 > When a user closes the app, the `destroy` function of the component is called. All models and the router are destroyed. The router will take care of destroying the views.

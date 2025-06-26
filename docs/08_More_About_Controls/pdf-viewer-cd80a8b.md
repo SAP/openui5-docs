@@ -1,14 +1,14 @@
 <!-- loiocd80a8bca4ac450b86547d78f0653330 -->
 
-## PDF Viewer
+# PDF Viewer
 
 PDF viewer is used to display PDF documents within your app, that enables your users to preview PDF documents before printing or downloading them.
 
-
+***
 
 <a name="loiocd80a8bca4ac450b86547d78f0653330__section_eqr_vr3_yz"/>
 
-### Overview
+## Overview
 
 The `PDFViewer` control displays PDF documents right inside your app. It can be embedded into your page layout, or you can set it to open in a popup dialog. In addition, this control allows you to download the PDF documents it displays.
 
@@ -16,11 +16,11 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 
 For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.PDFViewer) and the [Sample](https://ui5.sap.com/#/entity/sap.m.PDFViewer).
 
-
+***
 
 <a name="loiocd80a8bca4ac450b86547d78f0653330__section_xwt_xr3_yz"/>
 
-### Details
+## Details
 
 **PDF File Source**
 
@@ -32,11 +32,11 @@ Optionally, you can set the `source` property to a data URI or a blob URL in all
 
 PDF documents displayed in the PDF viewer may or may not be cached, depending on the app that uses the PDF viewer control. It's up to you to decide how often the content should be refreshed and whether to use caching or not.
 
-
+***
 
 <a name="loiocd80a8bca4ac450b86547d78f0653330__section_j2j_csg_h1b"/>
 
-### Constraints
+## Constraints
 
 **Supported Device Types**
 

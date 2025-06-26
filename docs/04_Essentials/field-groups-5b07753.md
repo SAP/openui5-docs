@@ -1,14 +1,14 @@
 <!-- loio5b0775397e394b1fb973fa207554003e -->
 
-## Field Groups
+# Field Groups
 
 Group of controls that belong together semantically. This group can be used, for example, for validating the data consistency for the field group.
 
 Field groups are built by means of a common `fieldGroupIds` array for a group that can be set for each control. When the user changes the focus to a control with a different `fieldGroupIds` array, the `validateFieldGroup` event is raised and bubbled in the control hierarchy, that is, the event is propagated to the parent control until it reaches the top most control, or the event is handled and `oEvent.bCancelBubble` is set to `true`. The application developer can now validate the fields within the group. The `validateFieldGroup` event is also raised if the user presses Enter in a field without any modifier keys.
 
+***
 
-
-### Validation of Credit Card Information
+## Validation of Credit Card Information
 
 Depending on the credit card vendor, different validation rules can be implemented for a field group, for example:
 
@@ -19,9 +19,9 @@ Depending on the credit card vendor, different validation rules can be implement
 
 Plenty of other validation rules for vendors exist. In addition to this, the expiry date must not be in the past and, in case of Vendor 1, is only allowed to be 4 years in the future.
 
+***
 
-
-### Defining a Field Group ID
+## Defining a Field Group ID
 
 `fieldGroupIds` is a property of all `sap.ui.core.Control` instances and can be set there as an array of strings. The developer has to make sure that the ID is unique. Field group IDs can be added as a comma-separated string as it is usually done in an xml view declaration.
 
@@ -36,9 +36,9 @@ myInput2 = new sap.m.Input({fieldGroupIds:["MyGroup","MyGroup2"]);
 <input fieldGroupIds="MyGroup,MyGroup2" /> 
 ```
 
+***
 
-
-### Validating Field Groups
+## Validating Field Groups
 
 The `validateFieldGroup` event is raised on the control that lost the focus and at least one field group was left. The event bubbles up the control hierarchy. In the example below, the surrounding `VerticalLayout` is handling the event for its fields.
 
@@ -52,9 +52,9 @@ var myVerticalLayout = new sap.ui.layout.VerticalLayout({content:[myInput1, myIn
 }});
 ```
 
+***
 
-
-### Accessing Controls in a Field Group
+## Accessing Controls in a Field Group
 
 In some scenarios, it is required to find all controls that belong to a specific field group, or to all controls with a `fieldGroupId`. For this, the control implements the public `getControlsByFieldGroupId` method that gets a list of child controls in the application code.
 
@@ -72,9 +72,9 @@ var aMyGroupControls             = Control.getControlsByFieldGroupId("MyGroup");
 
 ```
 
+***
 
-
-### Using the `fieldGroupId` With Composite Controls
+## Using the `fieldGroupId` With Composite Controls
 
 Composite controls that derive from control base class automatically support setting a `FieldGroupId`. Nevertheless, the `FieldGroupId` is not propagated to inner controls of the composite control as they are unknown to the SAPUI5 framework. Therefore, a composite control needs to propagate the `FieldGroupId` on its own. For all internally aggregated controls, the `FieldGroupId` should be propagated as follows:
 
@@ -85,9 +85,9 @@ MyCompositeControl.prototype.setFieldGroupIds = function(vValue, bSuppressInvali
 } 
 ```
 
+***
 
-
-### Note
+## Note
 
 For a control with a `fieldGroupId` that currently has the focus, the following applies:
 

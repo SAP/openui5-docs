@@ -1,6 +1,6 @@
 <!-- loio53cdd55a77ce4f33a14bd0767a293063 -->
 
-## Type Determination
+# Type Determination
 
 The property binding automatically determines the appropriate type depending on the property's metadata, unless a type is specified explicitly. For example, the binding `"{DeliveryDate}"` will determine the type `sap.ui.model.odata.type.DateTimeOffset` \(assuming the metadata specifies "Edm.DateTimeOffset" for this property\), but `"{path : 'DeliveryDate', type : 'sap.ui.model.odata.type.String'}"` uses the hardcoded type `sap.ui.model.odata.type.String` instead \(and does not require metadata\). You cannot specify format options or constraints unless you also hardcode the type.
 
@@ -27,11 +27,11 @@ For more information, see the [sap.ui.model.odata.type](https://ui5.sap.com/#/ap
 > 
 > In rare cases, you might also want to specify a different `targetType`, for example `string`, `boolean`, `int`, or `float`. For more information how these values relate to OData types, see the [sap.ui.model.odata.type](https://ui5.sap.com/#/api/sap.ui.model.odata.type) API documentation or explore the [XML Templating: UI5 OData Types](https://ui5.sap.com/#/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.types) sample in the Demo Kit. For more information about `targetType`, see the [sap.ui.base.ManagedObject\#bindProperty](https://ui5.sap.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty) API documentation in the Demo Kit.
 
-
+***
 
 <a name="loio53cdd55a77ce4f33a14bd0767a293063__section_GGT"/>
 
-### Geography And Geometry Types
+## Geography And Geometry Types
 
 [Auto-`$expand/$select`](automatic-determination-of-expand-and-select-10ca58b.md) as well as automatic type determination also support the following types: "Edm.Geography", "Edm.GeographyPoint", "Edm.GeographyLineString", "Edm.GeographyPolygon", "Edm.GeographyMultiPoint", "Edm.GeographyMultiLineString", "Edm.GeographyMultiPolygon"," Edm.Geometry", "Edm.GeometryPoint", "Edm.GeometryLineString", "Edm.GeometryPolygon", "Edm.GeometryMultiPoint", "Edm.GeometryMultiLineString", "Edm.GeometryMultiPolygon". These are complex types that do not have and do not need UI5 type counterparts. Rather, they are structured with an `Edm.String` "type" property and two `Collection(Edm.Double)` properties, namely "bbox" \(optional\) and "coordinates" \(required\). **Read-only** bindings can simply address numbers inside these arrays, and `sap.ui.model.odata.type.Double` will be used automatically. For more information, see [Property Binding To an Array Element](initialization-and-read-requests-fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_PBAE).
 

@@ -1,16 +1,16 @@
 <!-- loio91f3768f6f4d1014b6dd926db0e91070 -->
 
-## URL List Validation
+# URL List Validation
 
 The OpenUI5 framework provides a client-side API to manage allowed URLs using the `URLListValidator`. It can be used to validate arbitrary URLs.
 
 Internal examples of controls that use this feature are controls which accept arbitrary HTML content, such as `sap.ui.core.HTML`. This control uses the `URLListValidator` to perform a check \(sanitization\) on the content. URLs inside their content are then automatically removed, unless they are allowed by the `URLListValidator`. The option to sanitize the content can be enabled or disabled in the respective control via the property `HTML.sanitizeContent`. For the HTML control it is disabled by default. When adding a path to the allowed URLs in the `URLListValidator`, make sure to add "/" as path prefix if necessary, for example "/index.epx" instead of "index.epx". The last example below shows this.
 
-
+***
 
 <a name="loio91f3768f6f4d1014b6dd926db0e91070__section_16EB929B857E45C2B245F2E97E9E5E8D"/>
 
-### Maintaining the `URLListValidator`
+## Maintaining the `URLListValidator`
 
 The allowed URLs can be maintained with the following API:
 
@@ -35,11 +35,11 @@ URLListValidator.add(undefined, "sap.de", "1080");
 URLListValidator.add("https", "community.sap.de", undefined, "/topics");
 ```
 
-
+***
 
 <a name="loio91f3768f6f4d1014b6dd926db0e91070__section_D3F15D5E106B41C0A037A91D5EAD13DC"/>
 
-### Validating a URL
+## Validating a URL
 
 A URL can be validated by using the following API: `sap/base/security/URLListValidator.validate`.
 

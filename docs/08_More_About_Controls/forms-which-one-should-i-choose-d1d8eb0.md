@@ -1,6 +1,6 @@
 <!-- loiod1d8eb099d714566becf0af75697d073 -->
 
-## Forms: Which One Should I Choose?
+# Forms: Which One Should I Choose?
 
 To display and edit data in a form, OpenUI5 offers various form controls that are suitable for different use cases. This documentation outlines which form controls are available, and what features are supported by each one.
 
@@ -164,15 +164,15 @@ Granular structure of a form control
 -   ![No](../02_Read-Me-First/images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif): Feature is not supported for this form type
 
 
-
+***
 
 <a name="loiod1d8eb099d714566becf0af75697d073__section_ohd_n2p_dzb"/>
 
-### Use Cases
+## Use Cases
 
+***
 
-
-#### Form
+### Form
 
 Use `sap.ui.layout.form.Form` if you want to do the following:
 
@@ -187,9 +187,9 @@ Use `sap.ui.layout.form.Form` if you want to do the following:
 -   Manage the responsiveness of the form yourself
 
 
+***
 
-
-#### Simple Form
+### Simple Form
 
 Use `sap.ui.layout.form.SimpleForm` if you want to do the following:
 
@@ -200,27 +200,27 @@ Use `sap.ui.layout.form.SimpleForm` if you want to do the following:
 -   Use a form that is automatically responsive
 
 
-
+***
 
 <a name="loiod1d8eb099d714566becf0af75697d073__section_vtp_3xq_dzb"/>
 
-### Recommendations
+## Recommendations
 
+***
 
-
-#### Do not nest layouts and forms
+### Do not nest layouts and forms
 
 Nesting can lead to undesired issues.
 
+***
 
-
-#### Do not use other forms or layout controls
+### Do not use other forms or layout controls
 
 Using any other form or layout control \(for example,  `HBox`\) as children of a form can lead to issues with accessibility or the responsive design. This applies to all form controls mentioned.
 
+***
 
-
-#### Use different form controls for different application requirements
+### Use different form controls for different application requirements
 
 Use the `Form` for performance-critical applications and also to have the most flexible design. Use the `SimpleForm` if you want the least complexity.
 

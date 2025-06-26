@@ -1,16 +1,16 @@
 <!-- loio676b636446c94eada183b1218a824717 -->
 
-## Use Asynchronous Loading
+# Use Asynchronous Loading
 
 Asynchronous loading is the way to go: It makes your applications a lot faster and, through that, better to use.
 
 As OpenUI5 is evolving, the loading processes in the background were significantly improved. To get the best out of these changes in the core and to speed up your app, we recommend that you switch on asynchronous loading. With asynchronous loading, files are retrieved in parallel. This is much quicker than synchronous loading, where files are retrieved sequentially. You have several options to do that:
 
-
+***
 
 <a name="loio676b636446c94eada183b1218a824717__section_EALB"/>
 
-### Enable Asynchronous Loading in the Bootstrap
+## Enable Asynchronous Loading in the Bootstrap
 
 Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. It enables the runtime to load all the modules and preload files for declared libraries asynchronously if an asynchronous API is used.
 
@@ -66,15 +66,15 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 **Additional Information:**
 
 -   For more information about bootstrap attributes, see [Bootstrapping: Loading and Initializing](../04_Essentials/bootstrapping-loading-and-initializing-a04b0d1.md)
--   Walkthrough tutorial, [Step 2: Bootstrap](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/fe12df2e338e43598977d09f3d191b7b.html "Before we can do something with SAPUI5, we need to load and initialize it. This process of loading and initializing SAPUI5 is called bootstrapping. Once this bootstrapping is finished, we simply display an alert.") :arrow_upper_right:
+-   Walkthrough tutorial, [Step 2: Bootstrap](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/fe12df2e338e43598977d09f3d191b7b.html "Before we can do something with SAPUI5, we need to load and initialize it. This process of loading and initializing SAPUI5 is called bootstrapping. Once this bootstrapping is finished, we simply display an alert.") :arrow_upper_right:
 -   [Standard Variant for Bootstrapping](../04_Essentials/standard-variant-for-bootstrapping-91f1f45.md)
 -   [Best Practices for Asynchronous Loading in UI5](https://blogs.sap.com/2018/12/18/ui5ers-buzz-41-best-practices-for-async-loading-in-ui5/)
 
-
+***
 
 <a name="loio676b636446c94eada183b1218a824717__section_RootViewRoutingConfiguration"/>
 
-### Ensure that Root View and Routing are Configured to Load Targets Asynchronously
+## Ensure that Root View and Routing are Configured to Load Targets Asynchronously
 
 Please check the `rootView` of the application's `manifest.json` file for an `async=true` parameter. This allows the root view to be loaded asynchronously.
 
@@ -106,11 +106,11 @@ To configure the targets for asynchronous loading, please also check the [Routin
 
 -   Set the rootView and routing to async via [`sap.ui.core.IAsyncContentCreation`](https://ui5.sap.com/#/api/sap.ui.core.IAsyncContentCreation)
 
-
+***
 
 <a name="loio676b636446c94eada183b1218a824717__section_AsyncInterface"/>
 
-### Make Use of the `sap.ui.core.IAsyncContentCreation` Interface
+## Make Use of the `sap.ui.core.IAsyncContentCreation` Interface
 
 The [`sap.ui.core.IAsyncContentCreation`](https://ui5.sap.com/#/api/sap.ui.core.IAsyncContentCreation) interface allows a subclass of `sap.ui.core.UIComponent` to be created fully asynchronously. Implementing this interface sets the component's `rootView` and router configuration implicitly to `async: true`. Nested views will then also be handled asynchronously.
 
@@ -134,13 +134,13 @@ For more information on how `sap.ui.core.IAsyncContentCreation` affects the comp
 
 **Additional Information:**
 
--   Walkthrough tutorial, [Step 10: Descriptor for Applications](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right:
+-   Walkthrough tutorial, [Step 10: Descriptor for Applications](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right:
 
-
+***
 
 <a name="loio676b636446c94eada183b1218a824717__section_AsyncModuleLoading"/>
 
-### Make Use of Asynchronous Module Loading \(AMD Style\)
+## Make Use of Asynchronous Module Loading \(AMD Style\)
 
 If modules follow the Asynchronous Module Definition \(AMD\) standard and the bootstrap flag `data-sap-ui-async` is set to `true`, custom scripts and other modules can also be loaded asynchronously when a preload is not available. It will help you in the future to enable asynchronous loading of individual modules combined with the usage of HTTP/2 or AMD-based module bundlers. It also ensures proper dependency tracking between modules.
 

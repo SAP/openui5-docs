@@ -1,10 +1,10 @@
 <!-- loio7a9269ffe51c4ee7bc8529e120480d78 -->
 
-## What's New in OpenUI5 1.96
+# What's New in OpenUI5 1.96
 
 With this release OpenUI5 is upgraded from version 1.95 to 1.96.
 
-
+***
 
 ****
 
@@ -246,7 +246,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 -   You can now specify `$select` in addition to the `$$inheritExpandSelect` binding parameter of [OData Operations](../04_Essentials/odata-operations-b54f789.md).
 
--   We have complemented the [OData V4 Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/bcdbde6911bd4fc68fd435cf8e306ed0.html "In this tutorial, we explore how features of OData V4 can be used in SAPUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.") :arrow_upper_right: with additional chapters showing how to reuse data in a list-detail scenario.
+-   We have complemented the [OData V4 Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/bcdbde6911bd4fc68fd435cf8e306ed0.html "In this tutorial, we explore how features of OData V4 can be used in SAPUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.") :arrow_upper_right: with additional chapters showing how to reuse data in a list-detail scenario.
 
 -   You can now use [`Common.ValueListWithFixedValues`](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.xml#L672:~:text=%3CTerm%20Name=%22-,ValueListWithFixedValues,-%22) in combination with [`Common.ValueListRelevantQualifiers`](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.xml#L666:~:text=%3CTerm%20Name=%22-,ValueListRelevantQualifiers,-%22) if only one value list qualifier is relevant at a time. The `sap.ui.model.odata.v4.ODataMetaModel#requestValueListInfo` method returns the relevant value list for the `""` qualifier and provides the original qualifier as the `$qualifier` property of the value list mapping.
 
@@ -396,6 +396,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

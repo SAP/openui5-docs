@@ -1,6 +1,6 @@
 <!-- loioae448243822448d8ba04b4784f4b09a0 -->
 
-## Test Automation
+# Test Automation
 
 To make sure your code is always tested thoroughly before its inclusion in a productive project, you should use a test runner that automates tests. The test runner can be included in your project setup so that it is called whenever code changes are submitted.
 

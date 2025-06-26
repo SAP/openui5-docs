@@ -1,6 +1,6 @@
 <!-- loio91f2eba36f4d1014b6dd926db0e91070 -->
 
-## Date Format
+# Date Format
 
 The `sap.ui.core.format.DateFormat` class can be used to parse a string representing a date, time, or the combination of date and time into a JavaScript date object and vice versa \(also known as format\).
 
@@ -10,9 +10,9 @@ An `sap.ui.core.format.DateFormat` instance takes the time zone from `sap/base/i
 
 If no time zone is configured, the browser's local time zone is used.
 
+***
 
-
-### Instantiation
+## Instantiation
 
 You instantiate of `sap.ui.core.format.DateFormat` by calling the `getter` defined on the `DateFormat` \(and not by calling the constructor\):
 
@@ -26,17 +26,17 @@ var oDateTimeWithTimezoneFormat = sap.ui.core.format.DateFormat.getDateTimeWithT
 var oTimeFormat = sap.ui.core.format.DateFormat.getTimeInstance();
 ```
 
-
+***
 
 <a name="loio91f2eba36f4d1014b6dd926db0e91070__section_params"/>
 
-### Parameters
+## Parameters
 
 There are several parameters which affect the final result of formatting and parsing a date. If no parameter is set, the default setting defined in the current locale is used to format and parse the date.
 
+***
 
-
-#### Date Pattern
+### Date Pattern
 
 `format` \(recommended\):
 
@@ -445,9 +445,9 @@ time zone as IANA time zone ID, e.g. "America/New\_York"
 </tr>
 </table>
 
+***
 
-
-#### Style
+### Style
 
 This can be set with either `empty`, `short`, `medium` or `long`. If no pattern is given, a locale-dependent default date pattern of that style is used which is extracted from the current locale.
 
@@ -455,9 +455,9 @@ If in addition to `style` `pattern` or `format` is defined, the `style` is ignor
 
 If you use the `datetime` instance by calling `getDateTimeInstance`, you can define different styles for `date` and `time`. For example, `medium/short` defines medium style for the `date` and short style for the `time`.
 
+***
 
-
-#### Format with IANA time zone ID
+### Format with IANA time zone ID
 
 When using `DateFormat.getDateTimeWithTimezoneInstance`, the time zone can be specified in the `format` method:
 
@@ -467,9 +467,9 @@ var oDateTimeWithTimezoneFormat = sap.ui.core.format.DateFormat.getDateTimeWithT
 oDateTimeWithTimezoneFormat.format(UI5Date.getInstance(), "America/New_York") // Returns "10.02.2022, 10:01:14 America, New York"
 ```
 
+***
 
-
-#### Mapping of Deprecated Time Zones
+### Mapping of Deprecated Time Zones
 
 The [IANA](https://www.iana.org/time-zones) standard classifies certain time zone IDs as deprecated and defines substitutes for them. With [CLDR version 46](https://cldr.unicode.org/downloads/cldr-46#supplemental-data-changes), these time zones are removed, and locale-specific time zone name translations are no longer available for them. To remain backward-compatible, OpenUI5 maps deprecated IANA time zone IDs to the related preferred IANA time zone IDs when formatting or parsing time zones. For example, in an English-language locale the translated text `Americas, Nipigon` is now formatted to `Americas, Toronto`. In case of parsing, the translated texts cannot be parsed anymore as they are no longer available, e.g. in an English-language locale `Americas, Nipigon` could no longer be parsed. If a time zone ID is entered for parsing, the mapped equivalent would be parsed, e.g. if `America/Nipigon` is entered for parsing, it would now be parsed as `America/Toronto`.
 
@@ -605,9 +605,9 @@ Preferred time zone
 </tr>
 </table>
 
+***
 
-
-#### Relative Format
+### Relative Format
 
 Relative format on "day"' level is only supported by the date instance but not the date time or the time instance.
 
@@ -633,9 +633,9 @@ oDate = UI5Date.getInstance(Date.now() + 7 * nMS);
 oDateFormat.format(oDate); // isn't returned in relative format because the default value of relativeRange is [6|-6,]
 ```
 
+***
 
-
-#### Interval
+### Interval
 
 `interval`: If this is set to `true`, the `DateFormat` is capable to format two dates as an interval. The `format` method expects an array with two dates as the first argument.
 
@@ -653,9 +653,9 @@ oFormat.format([oDate1, oDate2]);
 // string in locale en "Apr 11 – May 11, 2017"  
 ```
 
+***
 
-
-#### Parsing
+### Parsing
 
 ```js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance({

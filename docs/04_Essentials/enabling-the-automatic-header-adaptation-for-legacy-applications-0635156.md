@@ -1,12 +1,12 @@
 <!-- loio0635156f3950494885ca314a13e15e29 -->
 
-## Enabling the Automatic Header Adaptation for Legacy Applications
+# Enabling the Automatic Header Adaptation for Legacy Applications
 
 Application developers can enable automatic adaptation of legacy applications from the `manifest.json` file also known as descriptor for applications, components and libraries.
 
+***
 
-
-### The Automatic Header Adapter
+## The Automatic Header Adapter
 
 The SAP Fiori design guidelines provide recommendations with regards to the headers of applications and the SAP Fiori launchpad. If your application has a header, it needs to be merged into the standardized SAP Fiori header.
 
@@ -45,9 +45,9 @@ You can see how the elements are moved and transformed from the legacy version t
 > ### Note:  
 > These adaptations are primarily valid only for **fullscreen** apps. Other floorplans, like List-Detail, are affected differently and the adaptation there will not be the same.
 
+***
 
-
-### Enabling the Adaptation in the Manifest
+## Enabling the Adaptation in the Manifest
 
 You can override the adapter default behavior for a single application by adding an entry in the manifest in the `sap.ui5/config` section. Setting `sapFiori2Adaptation` to **true** enables the full functionality of the adapter.
 

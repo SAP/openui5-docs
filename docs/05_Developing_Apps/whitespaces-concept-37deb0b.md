@@ -1,6 +1,6 @@
 <!-- loio37deb0bee3e2474887f1521cc583ab69 -->
 
-## Whitespaces Concept
+# Whitespaces Concept
 
 Whitespace characters represent the empty space between all the characters that you can see on the screen.
 

@@ -1,12 +1,10 @@
 <!-- loio234320f8d8ee45b39c60893116d60351 -->
 
-## Instantiating Fragments in Declarative Views
+# Instantiating Fragments in Declarative Views
 
 Example how both types of fragments can be instantiated in an XML view.
 
-
-
-### Context
+***
 
 In XML views, fragments are used like regular controls, or more precisely, like views.
 

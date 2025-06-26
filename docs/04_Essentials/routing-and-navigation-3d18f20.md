@@ -1,6 +1,6 @@
 <!-- loio3d18f20bd2294228acb6910d8e8a5fb5 -->
 
-## Routing and Navigation
+# Routing and Navigation
 
 OpenUI5 offers hash-based navigation, which allows you to build single-page apps where the navigation is done by changing the hash. In this way the browser does not have to reload the page; instead there is a callback to which the app and especially the affected view can react. A hash string is parsed and matched against patterns which will then inform the handlers.
 
@@ -30,9 +30,9 @@ You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(se
 > ### Note:  
 > You can also define only routes or only targets, but then just have to make sure that you implement the counterpart elsewhere.
 
+***
 
-
-### Routing Patterns
+## Routing Patterns
 
 Whenever a hash is added to a URL, the router checks whether there is a route with a matching pattern. The first matching route is taken and the corresponding target view is called. The data provided with the hash are passed on to the target.
 
@@ -42,7 +42,7 @@ You can use the following kinds of patterns:
 
     The pattern matches the hash exactly. For example, when a pattern is defined as `product/settings`, this pattern matches only if the hash is `product/settings` and no data is passed on to the events of the route.
 
-    For more information, see the tutorial [Step 6: Navigate to Routes with Hard-Coded Patterns](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/782aac08f2de4003a2fcbdd39d27f374.html "In this step, we'll create a second button on the home page, with which we can navigate to a simple list of employees. This example illustrates how to navigate to a route that has a hard-coded pattern.") :arrow_upper_right:.
+    For more information, see the tutorial [Step 6: Navigate to Routes with Hard-Coded Patterns](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/782aac08f2de4003a2fcbdd39d27f374.html "In this step, we'll create a second button on the home page, with which we can navigate to a simple list of employees. This example illustrates how to navigate to a route that has a hard-coded pattern.") :arrow_upper_right:.
 
 -   **Route with mandatory parameter**:
 
@@ -50,7 +50,7 @@ You can use the following kinds of patterns:
 
     For example, if you define the pattern `product/{id}`, the hashes `product/5` and `product/3` \(where 3 and 5 are product IDs\) match the pattern. The matched event handler gets `5` or `3` passed on with the key `id` in its arguments. But hash `product/` does not match the pattern because the mandatory parameter is missing.
 
-    For more information, see the tutorial [Step 7: Navigate to Routes with Mandatory Parameters](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/f96d2522a5ca4382a274ae3c6d002ca0.html "In this step, we implement a feature that allows the user to click on an employee in the list to see additional details of the employee. A route pattern can have one or more mandatory parameters to identify objects in an app.") :arrow_upper_right:.
+    For more information, see the tutorial [Step 7: Navigate to Routes with Mandatory Parameters](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/f96d2522a5ca4382a274ae3c6d002ca0.html "In this step, we implement a feature that allows the user to click on an employee in the list to see additional details of the employee. A route pattern can have one or more mandatory parameters to identify objects in an app.") :arrow_upper_right:.
 
 -   **Route with optional parameter**:
 
@@ -64,7 +64,7 @@ You can use the following kinds of patterns:
 
     The matched value will be converted into an object saved with the parameter name as the key when passed to the event handler.
 
-    For more information, see the tutorial [Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/b8561ff6f4c34c85a91ed06d20814cd3.html "The resume view contains four tabs as we have seen in the previous steps. However, when the user navigates to the resume page, only the first tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is not yet supported in our current app.") :arrow_upper_right:.
+    For more information, see the tutorial [Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/b8561ff6f4c34c85a91ed06d20814cd3.html "The resume view contains four tabs as we have seen in the previous steps. However, when the user navigates to the resume page, only the first tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is not yet supported in our current app.") :arrow_upper_right:.
 
 -   **"rest as string" parameter**:
 
@@ -76,15 +76,43 @@ You can use the following kinds of patterns:
 > ### Tip:  
 > For a better understanding about how patterns work and what matched parameters look like, see the following page in the *Samples* in the Demo Kit: [sap.ui.core.sample.PatternMatching/preview](https://ui5.sap.com/#/entity/sap.ui.core.routing.Route/sample/sap.ui.core.sample.PatternMatching).
 
-
+***
 
 > ### Note:  
 > OpenUI5 uses Crossroads.js for parsing the hash and the Hasher framework for manipulating the hash.
 
+-   **[Routing Configuration](routing-configuration-9023130.md "Routing configuration consists of routes, targets,
+			config, and owner.")**  
+Routing configuration consists of `routes`, `targets`, `config`, and `owner`.
+-   **[Methods and Events for Navigation](methods-and-events-for-navigation-516e477.md "OpenUI5 provides a method
+		and events for navigation.")**  
+OpenUI5 provides a method and events for navigation.
+-   **[Initializing and Accessing a Routing Instance](initializing-and-accessing-a-routing-instance-acdb6cd.md "This topic describes how to initialize routing in a component and access the routing functions.")**  
+This topic describes how to initialize routing in a component and access the routing functions.
+-   **[Working with Multiple Targets](working-with-multiple-targets-2c5c84d.md "If you want to navigate to multiple targets with the same hash, you can either assign
+		multiple targets to a route, or define a parent for the target.")**  
+If you want to navigate to multiple targets with the same hash, you can either assign multiple targets to a route, or define a parent for the target.
+-   **[Using the title Property in Targets](using-the-title-property-in-targets-1238d70.md "Routing in OpenUI5 allows
+        you to define titles declaratively in the configuration. The title can be set with valid
+        binding syntax which is then resolved under the scope of the target to which it belongs.
+        This means that the title can be translated when it's bound to the i18n model or resolved
+        dynamically under the current binding context.")**  
+Routing in OpenUI5 allows you to define titles declaratively in the configuration. The title can be set with valid binding syntax which is then resolved under the scope of the target to which it belongs. This means that the title can be translated when it's bound to the i18n model or resolved dynamically under the current binding context.
+-   **[Enabling Routing in Nested Components](enabling-routing-in-nested-components-fb19f50.md "Every OpenUI5 component
+        can define routing configuration in its manifest and a UI5 router instance will be created
+        automatically after the component is instantiated.")**  
+Every OpenUI5 component can define routing configuration in its manifest and a UI5 router instance will be created automatically after the component is instantiated.
+-   **[Navigate with Nested Components](navigate-with-nested-components-8e9d6e4.md "The navTo method in the sap.ui.core.routing.Router
+		class enables you to define a set of parameters to navigate to a specific route.")**  
+The `navTo` method in the `sap.ui.core.routing.Router` class enables you to define a set of parameters to navigate to a specific route.
+-   **[Navigate with Dynamic Targets](navigate-with-dynamic-targets-856d6c6.md "The addTarget method in the sap.ui.core.routing.Targets class enables you to add targets to the router
+		dynamically at runtime. Components or views can serve as dynamic targets.")**  
+The `addTarget` method in the `sap.ui.core.routing.Targets` class enables you to add targets to the router dynamically at runtime. Components or views can serve as dynamic targets.
+
 **Related Information**  
 
 
-[Tutorial: Navigation and Routing](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/1b6dcd39a6a74f528b27ddb22f15af0d.html "SAPUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in SAPUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of SAPUI5 to your applications.") :arrow_upper_right:
+[Tutorial: Navigation and Routing](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/1b6dcd39a6a74f528b27ddb22f15af0d.html "SAPUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in SAPUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of SAPUI5 to your applications.") :arrow_upper_right:
 
 [API Reference: `sap.ui.core.routing`](https://ui5.sap.com/#/api/sap.ui.core.routing)
 

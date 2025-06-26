@@ -1,6 +1,6 @@
 <!-- loio512e545ba66f4214ba0de1eb56f319e1 -->
 
-## repeat
+# repeat
 
 The `<template:repeat` instruction iterates the `sap.ui.model.ListBinding` given by the `list` attribute.
 

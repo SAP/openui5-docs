@@ -1,6 +1,6 @@
 <!-- loio3b9f760da5b64adf8db7f95247879086 -->
 
-## Types of Layout
+# Types of Layout
 
 Overview of the possible layouts for an `sap.f.FlexibleColumnLayout`, as defined in the `sap.f.LayoutType` enumeration.
 

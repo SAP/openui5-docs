@@ -1,6 +1,6 @@
 <!-- loiofde40159afce478eb488ee4d0f9ebb99 -->
 
-## Scrolling: Pull to Refresh
+# Scrolling: Pull to Refresh
 
 The OpenUI5 mobile library supports the pull down to refresh functionality that allows users to refresh lists or page content with fresh data from server.
 
@@ -26,11 +26,11 @@ The application should request new data on the refresh event and call the hide m
 > ### Note:  
 > `PullToRefresh` control is part of the scroll area and therefore its height is reflected in the scroll bar calculation and display. The user can see that the page can be scrolled down to reveal the pull-down area.
 
-
+***
 
 <a name="loiofde40159afce478eb488ee4d0f9ebb99__section_N10030_N10011_N10001"/>
 
-### Carousel
+## Carousel
 
 Pull to Refresh does not work with a Carousel if both are contained in a page: in order to make Pull to Refresh work, the page has to enable scrolling which leads to problems with the Carousel \(Carousel not visible\). Suggested Workaround: Add a `sap.m.PullToRefresh` instance to each page that you add to your Carousel.
 

@@ -1,24 +1,24 @@
 <!-- loio7f29fb3ce5964d8090038a9d3cdf5060 -->
 
-## Meta Model for OData V4
+# Meta Model for OData V4
 
 Each OData V4 model offers access via `getMetaModel` to a corresponding metadata model `sap.ui.model.odata.v4.ODataMetaModel`, which is read-only and offers access to OData V4 metadata in a streamlined JSON format \(see links under Related Information for more details\). Only one-time bindings are supported by this model because the metadata is immutable.
 
+***
 
-
-### Synchronous vs. Asynchronous Access
+## Synchronous vs. Asynchronous Access
 
 Access to metadata is basically asynchronous \(e.g. `requestObject`\) to allow for dynamic loading of metadata. There is also a corresponding method for synchronous access \(e.g. `getObject`\) which returns `undefined` if metadata is not yet available. It should only be used in situations where metadata has already been loaded asynchronously before. Loading happens individually for each document, i.e. each $metadata document is loaded and processed as a whole and is available thereafter. Includes and references to other $metadata documents are not supported, only the service root's initial $metadata document can be used.
 
+***
 
-
-### Path Syntax
+## Path Syntax
 
 The `requestObject` API documentation in the Demo Kit explains how metadata is accessed and the supported path syntax in great detail. The basic idea is that every path described in the specification [OData Version 4.0 Part 3: Common Schema Definition Language, 14.2.1 Attribute Target](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html) is a valid absolute path within the metadata model if a leading slash is added; for example `"/"` + `"MySchema.MyEntityContainer/MyEntitySet/MyComplexProperty/MyNavigationProperty"`. For more information, see the [requestObject](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject) API documentation in the Demo Kit.
 
+***
 
-
-### Annotations
+## Annotations
 
 The main API for both programmatic access from JavaScript and declarative access from XML templating is `sap.ui.model.odata.v4.ODataMetaModel#getObject`. It works together with `sap.ui.model.odata.v4.ODataMetaModel#resolve` \(for `<template:with>`\) and `sap.ui.model.odata.v4.ODataMetaModel#bindList` \(for `<template:repeat>`\) in order to provide convenient access to annotations, inline as well as external targeting.
 
@@ -128,11 +128,11 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 </mvc:View>
 ```
 
-
+***
 
 <a name="loio7f29fb3ce5964d8090038a9d3cdf5060__section_AnnoHelp"/>
 
-### AnnotationHelper
+## AnnotationHelper
 
 The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following computed annotations; require it as shown in the example above:
 
@@ -176,6 +176,12 @@ Alternatively it can be called on an annotation holding an <code><a href="http:/
 ```
 
 The first `<template:with>` defines `entityType` to be the type of the set `BusinessPartnerList`. The `<template:repeat>` iterates over its annotation`com.sap.vocabularies.UI.v1.LineItem` \(a collection of records with type `com.sap.vocabularies.UI.v1.DataField`\). The record's property `Value` is assumed to be an `edm:Path` pointing to a property of the entity type. For this path the value list type is determined.
+
+-   **[OData V4 Metadata JSON Format](odata-v4-metadata-json-format-87aac89.md "The OData V4 model provides access to metadata in a streamlined JSON format which is
+		described in the section below.")**  
+The OData V4 model provides access to metadata in a streamlined JSON format which is described in the section below.
+-   **[Additional Annotation Files](additional-annotation-files-fd715d9.md "The OData V4 model supports loading of additional annotation files.")**  
+The OData V4 model supports loading of additional annotation files.
 
 **Related Information**  
 

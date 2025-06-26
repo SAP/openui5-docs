@@ -1,6 +1,6 @@
 <!-- loio9f4d62c6648a423d85aaf2bfc2c7ddfe -->
 
-## Logging and Tracing
+# Logging and Tracing
 
 Use the built-in OpenUI5 logging mechanisms to debug and analyze applications or framework errors.
 
@@ -217,11 +217,11 @@ Messages of all severity categories are written to the console
 </tr>
 </table>
 
-
+***
 
 <a name="loio9f4d62c6648a423d85aaf2bfc2c7ddfe__section_wmr_fnd_xz"/>
 
-### Tracing Errors
+## Tracing Errors
 
 During development, or when you're troubleshooting application errors, you can increase the log level for debugging . When you enable debug mode, for example in the *Technical Information* dialog, the log level is automatically increased to 4 \(`DEBUG`\) and you will see messages in the console that might be helpful for finding bugs.
 
@@ -233,17 +233,17 @@ A dash separates the log message and the component \(or feature\) that logged it
 
 To find out which messages are related to a specific error, you can filter the messages in the console. Narrow down the log messages by selecting a severity or doing a full-text search, for example for a specific keyword or an OpenUI5 component.
 
-
+***
 
 <a name="loio9f4d62c6648a423d85aaf2bfc2c7ddfe__section_g5r_gnd_xz"/>
 
-### Adding Your Own Log Messages
+## Adding Your Own Log Messages
 
 You can define your own log messages in your code to help tracing errors and understanding the application flow. You can use the `Log` API to create and manage log entries \(see the [API Reference: `sap/base/log`](https://ui5.sap.com/#/api/module%3Asap%2Fbase%2FLog)\).
 
+***
 
-
-#### Generic Log Entries
+### Generic Log Entries
 
 To log a message, simply call `Log.*` with the specific method that corresponds to the log levels described above. The following code line issues a log statement with severity *Error*. The browser highlights the statement in red to indicate an application error:
 
@@ -259,9 +259,9 @@ The next code line issues a log statement with severity *Information*. The brows
 Log.info("Something has happened");
 ```
 
+***
 
-
-#### Component Logging
+### Component Logging
 
 The log statements above do not contain the component. A log component can be used to semantically group log entries that belong to the same software component \(or feature\).
 
@@ -276,9 +276,9 @@ this._oLogger.info("Something has happened");
 > ### Note:  
 > The log entries can also be accessed programmatically. You can also register a listener to the log that will be notified whenever a new entry is added to the log.
 
+***
 
-
-#### Assertions
+### Assertions
 
 For logical checks in your application flow, you can use assertions. With `sap/base/assert` an error message is logged when a given condition is not met.
 
@@ -295,5 +295,5 @@ assert(aValues.length === 10, "There are 10 values stored in the array")
 
 [Debugging](debugging-c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab "When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.")
 
-[Troubleshooting Tutorial Step 1: Browser Developer Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/eadd60ae907646bbb838866566b23182.html "In this step, you will learn how to use your browser's developers tools to troubleshoot your SAPUI5 app.") :arrow_upper_right:
+[Troubleshooting Tutorial Step 1: Browser Developer Tools](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/eadd60ae907646bbb838866566b23182.html "In this step, you will learn how to use your browser's developers tools to troubleshoot your SAPUI5 app.") :arrow_upper_right:
 

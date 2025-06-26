@@ -1,6 +1,6 @@
 <!-- loio1ef9fefa2a574735957dcf52502ab8d0 -->
 
-## Writing Data to the HTML DOM as DATA-\* Attribute
+# Writing Data to the HTML DOM as DATA-\* Attribute
 
 OpenUI5 supports writing custom data to the HTML DOM.
 

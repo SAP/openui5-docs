@@ -1,6 +1,6 @@
 <!-- loio154844c3ac2a4675a37aeb6259a5e034 -->
 
-## Keyboard Shortcuts for OpenUI5 Tools
+# Keyboard Shortcuts for OpenUI5 Tools
 
 OpenUI5 provides tools for information, diagnostics and testing purposes that are accessible via keyboard shortcuts.
 

@@ -1,6 +1,6 @@
 <!-- loio04129b2798c447368f4c8922c3c33cd7 -->
 
-## Instantiation of Fragments
+# Instantiation of Fragments
 
 OpenUI5 provides two options to instantiate a fragment: If it is instantiated inside a controller extending `sap.ui.core.mvc.Controller`, the `loadFragment()` function is the way to go. However, if it is instantiated in a non-controller artefact, the generic function `sap.ui.core.Fragment.load()` can be used.
 
@@ -8,11 +8,11 @@ When comparing fragments to views, a key difference is that fragments are no con
 
 For example, if a fragment containing a button is instantiated, the result is simply the button itself.
 
-
+***
 
 <a name="loio04129b2798c447368f4c8922c3c33cd7__section_lby_wsx_lqb"/>
 
-### Instantiation of Fragments in a Controller
+## Instantiation of Fragments in a Controller
 
 Since 1.93, the `loadFragment()` function is available on every controller instance extending `sap.ui.core.mvc.Controller`. This API has several advantages over the generic `sap.ui.core.Fragment.load()` function:
 
@@ -25,9 +25,9 @@ Since 1.93, the `loadFragment()` function is available on every controller insta
 -   Addition to the `dependents` aggregation: By default, the fragment content is added to the `dependents` aggregation of the view. This offers two major advantages: First, all models and element bindings which are available on the view instance are also available automatically on the fragment content. Second, if the view is destroyed, the fragment content is destroyed also. This option can be disabled by passing `false` to the `addToDependents` parameter. In this case, the application developer has to ensure that the fragment content is destroyed when the view is destroyed. If not, duplicate ID issues might occur.
 
 
+***
 
-
-#### Loading XML Fragments
+### Loading XML Fragments
 
 To load an XML fragment, use the following syntax:
 
@@ -40,9 +40,9 @@ this.loadFragment({
 > ### Note:  
 > The `loadFragment()` API uses "XML" as the default fragment type. In this example, the XML fragment is identified by a resource name that maps to the resource path `myapp/fragments/MyXMLFragment.fragment.xml`. This should not be confused with its actual file location, which is typically `webapp/fragments/MyXMLFragment.fragment.xml`.
 
+***
 
-
-#### Loading JS Fragments
+### Loading JS Fragments
 
 For JS fragments, use the module name syntax:
 
@@ -55,11 +55,11 @@ this.loadFragment({
 > ### Note:  
 > In this example, the JS fragment is identified by the resource name `myapp/fragments/MyJSFragment.js`. This should not be confused with its actual file location, which is typically `webapp/fragments/MyJSFragment.js`.
 
-
+***
 
 <a name="loio04129b2798c447368f4c8922c3c33cd7__section_wcr_5sx_lqb"/>
 
-### Generic Instantiation of Fragments
+## Generic Instantiation of Fragments
 
 The generic function `sap.ui.core.Fragment.load()` can be called with either the name, the type, and optionally a controller, or with a configuration object and an optional controller; for more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load). 
 
@@ -87,6 +87,21 @@ The different methods used for the instantiation of a fragment have the followin
 >    }
 > });
 > ```
+
+-   **[Programmatically Instantiating JS Fragments](programmatically-instantiating-js-fragments-3cff5d0.md "For each fragment type, OpenUI5 provides a method that
+		can be used to programmatically instantiate a fragment.")**  
+For each fragment type, OpenUI5 provides a method that can be used to programmatically instantiate a fragment.
+-   **[Programmatically Instantiating XML Fragments](programmatically-instantiating-xml-fragments-d6af195.md "For each fragment type, OpenUI5 provides a method that can be used to programmatically
+		instantiate a fragment.")**  
+For each fragment type, OpenUI5 provides a method that can be used to programmatically instantiate a fragment.
+-   **[Instantiating Fragments in Declarative Views](instantiating-fragments-in-declarative-views-234320f.md "Example how both types of fragments can be instantiated in an XML view.")**  
+Example how both types of fragments can be instantiated in an XML view.
+-   **[Using Other Objects Instead of Controllers](using-other-objects-instead-of-controllers-c24ea6d.md "For the instantiation of fragments, the oController object must not necessarily be a
+		controller. It can also be another object.")**  
+For the instantiation of fragments, the oController object must not necessarily be a controller. It can also be another object.
+-   **[Inline Definition and Instantiation of Fragments](inline-definition-and-instantiation-of-fragments-b807931.md "Instead of defining fragments externally in a separate file, they can also be defined
+		inline and can be instantiated immediately.")**  
+Instead of defining fragments externally in a separate file, they can also be defined inline and can be instantiated immediately.
 
 **Related Information**  
 

@@ -1,6 +1,6 @@
 <!-- loio58cf64cbb951496a99ac94e01a0905b2 -->
 
-## with
+# with
 
 The `<template:with>` instruction can be used to change a variable's value or to add a variable with a new name.
 
@@ -13,9 +13,9 @@ This changed variable is available only within the scope of the `with` instructi
 
 If you omit the "var" attribute, the same model name will be reused; for example, "meta" in our example, and the `with` instruction changes the binding context locally. A new variable name improves readability.
 
+***
 
-
-### "with" Template
+## "with" Template
 
 ```xml
 
@@ -25,7 +25,7 @@ If you omit the "var" attribute, the same model name will be reused; for example
 
 ```
 
-
+***
 
 A helper can be called from a `with` instruction. It receives an `sap.ui.model.Context` object identifying the model and path from the instruction's "path" property and may return one of the following:
 
@@ -44,9 +44,9 @@ The example titled **"with" Template Including Helper** assumes that "field" is 
 
 It returns a path inside the meta model which refers to the corresponding property's meta data, such as `"/dataServices/schema/<i>/entityType/<j>/property/<k>"`. This result is in turn assigned by the `with` instruction to the variable named "target".
 
+***
 
-
-### "with" Template Including Annotation Helper
+## "with" Template Including Annotation Helper
 
 ```xml
 

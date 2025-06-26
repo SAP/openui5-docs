@@ -1,6 +1,6 @@
 <!-- loio65da02badf704e03a4fd6bd4c5aba8f4 -->
 
-## XML Fragments
+# XML Fragments
 
 OpenUI5 fragments of type XML are used in the context of XML templating to provide reuse parts for templates.
 

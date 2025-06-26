@@ -1,10 +1,10 @@
 <!-- loio5ee3be4727864bb08b991414e0428e38 -->
 
-## Control Properties and Associations in XML Views
+# Control Properties and Associations in XML Views
 
+***
 
-
-### Properties
+## Properties
 
 Property values for controls in XML views are specified as attributes of the XML element tag of the control. The name of the attribute corresponds to the name of the property in the API reference, for example, the property `text` of a the `sap.m.Text` control is specified as <code>text="<i>value</i>"</code>.
 
@@ -39,9 +39,9 @@ Attributes in XML views use the same binding syntax as constructors of controls.
 > ### Note:  
 > Properties of type `function` can be specified similar to [event handlers in XML views](handling-events-in-xml-views-b0fb4de.md). However, the legacy syntax of function names without dots is not supported.
 
+***
 
-
-### Associations
+## Associations
 
 -   Associations of **cardinality `1`**: Define the ID of the associated element in an attribute that has the same name as the association in the XML view.
 

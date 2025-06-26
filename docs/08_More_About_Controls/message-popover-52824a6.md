@@ -1,12 +1,12 @@
 <!-- loio52824a6c316a413dbd7bd5f29522dce2 -->
 
-## Message Popover
+# Message Popover
 
 Message Popover is used to show a summarized list of different types of messages \(errors, warnings, success and information\). It provides a handy and systemized way to navigate and explore details for every message.
 
+***
 
-
-### Control Overview
+## Control Overview
 
 The `MessagePopover` control shows a list of messages which can be further drilled down to reveal more details. Typically, it will be placed in the footer and can be expanded when clicking on its icon. As it inherits from the `Popover` control, it can also be placed relative to any other OpenUI5 control using the `placement` property and its respective values:
 
@@ -31,9 +31,9 @@ The `MessagePopover` also features two modes - collapsed \(showing only the type
 
 ![](images/loiobd94678ddbbe47468b27398aac05963d_LowRes.png "Message Popover Collapsed")
 
+***
 
-
-### Handling Links in Long-Text Messages
+## Handling Links in Long-Text Messages
 
 The `MessagePopover` control allows app developers to provide a long-text description for a message, which can include markup and formatting of the content. When this is the case, the control will automatically, and by default, invalidate links and will not allow clicking on them. This is due to security reasons and it is part of the app developer's responsibility to check the links for possible vulnerabilities, exploits and access policies. App developers are provided with an asynchronous function property that should be used for this matter - `asyncURLHandler`.
 

@@ -1,6 +1,6 @@
 <!-- loio104135dda5524696ba641001f54c3a95 -->
 
-## File Names and Encoding
+# File Names and Encoding
 
 Some target platforms of OpenUI5 impose technical restrictions on the naming or structure of resources \(files\).For this, rules for file names and encoding have been introduced.
 

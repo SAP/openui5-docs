@@ -1,27 +1,27 @@
 <!-- loiod6fc40bab9b549828782ba4846298417 -->
 
-## sap.ui.layout.cssgrid.CSSGrid
+# sap.ui.layout.cssgrid.CSSGrid
 
 The `CSSGrid` is a flexible layout, based on the two-dimensional, browser-native grid system, using the standard CSS property `display` with value `grid`. It allows for flexible positioning of user interface elements, inside horizontal and vertical grid structures.
 
-
+***
 
 <a name="loiod6fc40bab9b549828782ba4846298417__section_r1y_nf5_xfb"/>
 
-### Overview
+## Overview
 
-
+***
 
 The `CSSGrid` is a powerful grid system that can be configured to display a variable number of columns and rows, depending on the available space. You can achieve complex but flexible layouts for both full-page and in-container page layouts. With the `CSSGrid` control, you can define a logical two-dimensional grid structure.
 
-
+***
 
 > ### Note:  
 > You can use the `CSSGrid` layout to divide a page into regions or define the size, position, and layer between parts of a control, and easily align elements into columns and rows.
 > 
 > For more information, see [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Grid\_Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
-
+***
 
 You can achieve the desired layout, using a flexible set of configuration properties, including responsive positioning of grid cells along different container break-point sizes.
 
@@ -29,11 +29,11 @@ The grid cells created by the grid layout are empty containers that can be fille
 
 ![](images/loio69776c2a45394ddfbcd17efd5c3b2357_LowRes.png)
 
-
+***
 
 <a name="loiod6fc40bab9b549828782ba4846298417__section_py1_5f5_xfb"/>
 
-### Usage
+## Usage
 
 The grid layout allows for the placement of multiple elements on the user interface to display structured content. This helps to maintain one coherent experience within pages as well as across all pages and/or layouts.
 

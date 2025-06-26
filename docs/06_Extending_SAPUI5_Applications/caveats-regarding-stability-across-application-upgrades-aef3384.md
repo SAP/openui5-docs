@@ -1,6 +1,6 @@
 <!-- loioaef3384510724522a07df94ec90d1351 -->
 
-## Caveats Regarding Stability Across Application Upgrades
+# Caveats Regarding Stability Across Application Upgrades
 
 There are a few restrictions in the compatibility of custom applications that have to be considered when extending OpenUI5 standard applications.
 

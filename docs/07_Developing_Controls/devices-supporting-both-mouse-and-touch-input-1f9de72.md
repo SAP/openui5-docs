@@ -1,6 +1,6 @@
 <!-- loio1f9de72bea734beaafa86b80c2c4222c -->
 
-## Devices Supporting both Mouse and Touch Input
+# Devices Supporting both Mouse and Touch Input
 
 Devices such as touch-enabled laptops support simultaneous mouse and touch input. As a control developer you have to take this into consideration.
 
@@ -9,9 +9,9 @@ Devices such as touch-enabled laptops support simultaneous mouse and touch input
 
 When you develop your own controls, consider the following:
 
+***
 
-
-### Background: How OpenUI5 handles events
+## Background: How OpenUI5 handles events
 
 With the introduction of touch-enabled devices, touch is becoming part of the expected desktop experience. In the past, UI5 statically detected whether the running environment supported touch events. Then the assumption was made that only touch \(and not mouse\) events need to be supported. This assumption became faulty with the emerging of touch-enabled laptops and desktop PCs. The fact that touch events are supported does not mean that users won't use other input devices as well. Therefore, "support touch" is no longer equal to "doesn't need mouse support". We don't switch between touch and mouse - we now support both at the same time!
 
@@ -29,9 +29,9 @@ A desktop control is defined as a control that listens to mouse events, whereas 
 
 So it is ensured that all events can be handled and no event is triggered twice.
 
+***
 
-
-### Support mouse and touch events together
+## Support mouse and touch events together
 
 Touch interfaces try to emulate mouse/click events, because they need to interact with applications that previously only interacted with mouse events. For a single tap on touch interfaces, the following events are fired in the given order:
 
@@ -42,6 +42,12 @@ Touch interfaces try to emulate mouse/click events, because they need to interac
 5.  `click`
 
 If we support mouse and touch input together, the event handler is called twice for a single tap, because there are additional `touchstart` and `mousedown` events fired by the browser. Fortunately, we have found a way to set a flag on emulated mouse events from touch interfaces and suppress those events when they reach the event handler.
+
+-   **[Adapting Event Handling for Devices Supporting both Mouse and Touch Input](adapting-event-handling-for-devices-supporting-both-mouse-and-touch-input-b54d7d7.md "OpenUI5 event delegation
+        automatically handles both mouse and touch events simultaneously. If you are using jQuery or
+        native browser API (domElement.addEventListener) to handle events, you have
+        to adapt your coding to support both.")**  
+OpenUI5 event delegation automatically handles both mouse and touch events simultaneously. If you are using jQuery or native browser API \(`domElement.addEventListener`\) to handle events, you have to adapt your coding to support both.
 
 **Related Information**  
 

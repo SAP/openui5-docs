@@ -1,10 +1,10 @@
 <!-- loio50079678e0cc4c8298f764580fc223d3 -->
 
-## Troubleshooting Common RTL Issues
+# Troubleshooting Common RTL Issues
 
 The following table outlines some common issues that occur when implementing right-to-left \(RTL\) support for OpenUI5 controls and their solutions.
 
-
+***
 
 **RTL Issues and Solutions**
 

@@ -1,6 +1,6 @@
 <!-- loiof2f843d375384d56bbf955a80ee66ab6 -->
 
-## Structuring OPA Tests With Page Objects
+# Structuring OPA Tests With Page Objects
 
 The page object design pattern supports UI-based tests with improved readability, fostering the *don't repeat yourself* \(DRY\) principle of software development that is aimed at reducing repetition of any kind of information.
 

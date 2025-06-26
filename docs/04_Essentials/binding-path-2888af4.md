@@ -1,6 +1,6 @@
 <!-- loio2888af49635949eca14fa326d04833b9 -->
 
-## Binding Path
+# Binding Path
 
 Binding paths address the different properties and lists in a model and define how a node in the hierarchical data tree can be found.
 

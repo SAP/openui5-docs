@@ -1,6 +1,6 @@
 <!-- loioa3ab54ecf7ac493b91904beb2095d208 -->
 
-## Demo Apps
+# Demo Apps
 
 With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.
 
@@ -15,11 +15,11 @@ We have the following categories of demo apps:
 
 The following tables give an overview of what each demo app shows.
 
-
+***
 
 <a name="loioa3ab54ecf7ac493b91904beb2095d208__section_jyz_br2_j1b"/>
 
-### Features, Layouts, and Specific Topics
+## Features, Layouts, and Specific Topics
 
 
 <table>
@@ -245,11 +245,11 @@ Formatting
 </tr>
 </table>
 
-
+***
 
 <a name="loioa3ab54ecf7ac493b91904beb2095d208__section_cp4_nd2_j1b"/>
 
-### Controls
+## Controls
 
 
 <table>

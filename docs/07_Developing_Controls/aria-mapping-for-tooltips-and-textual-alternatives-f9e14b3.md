@@ -1,18 +1,18 @@
 <!-- loiof9e14b33a62d48ca82a3a9134258ade5 -->
 
-## ARIA Mapping for Tooltips and Textual Alternatives
+# ARIA Mapping for Tooltips and Textual Alternatives
 
 Tooltips and semantic colors are important aspects in apps. They have to be interpreted correctly by the screen reader and require some special ARIA labeling.
 
+***
 
-
-### Tooltips
+## Tooltips
 
 Currently tooltips have to be disabled for all controls. An exception is made for images \(stand-alone or as part of controls, such as buttons with icons/images but without text on the button itself\).
 
+***
 
-
-### Graphics and Colors
+## Graphics and Colors
 
 All images and icons must have a textual explanation that the screen reader can read. This is done with the attributes `alt` or `aria-label`. Text and content colored with semantic colors need to have a textual alternative describing the semantics. Interactive graphics, like charts, need to follow these requirements:
 

@@ -1,6 +1,6 @@
 <!-- loio2edc3f99883e4a068f040d9e844f14fa -->
 
-## Localized Texts for Extended Apps
+# Localized Texts for Extended Apps
 
 You can add custom localized text files that contain additional texts or texts that overwrite the original texts to the `sap.ui.model.resource.ResourceModel` 
 

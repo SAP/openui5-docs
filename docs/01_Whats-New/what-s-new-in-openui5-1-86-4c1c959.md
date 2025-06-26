@@ -1,10 +1,10 @@
 <!-- loio4c1c95953602429798faec98065f2096 -->
 
-## What's New in OpenUI5 1.86
+# What's New in OpenUI5 1.86
 
 With this release OpenUI5 is upgraded from version 1.85 to 1.86.
 
-
+***
 
 ****
 
@@ -572,6 +572,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

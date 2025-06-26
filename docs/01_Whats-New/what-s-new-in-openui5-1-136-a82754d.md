@@ -1,6 +1,6 @@
 <!-- loioa82754df6c39412389991ff3175b3726 -->
 
-## What's New in OpenUI5 1.136
+# What's New in OpenUI5 1.136
 
 With this release OpenUI5 is upgraded from version 1.135 to 1.136.
 

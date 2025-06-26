@@ -1,6 +1,6 @@
 <!-- loio9860cd2b183540f48ee054bcef44a8b5 -->
 
-## Mobile Events
+# Mobile Events
 
 In addition to the general browser and control events you can access specific events for touch-enabled devices.
 
@@ -8,11 +8,11 @@ When implementing OpenUI5 controls, some browser events can be handled very easi
 
 On touch-enabled platforms additional browser and pseudo events are available:
 
-
+***
 
 <a name="loio9860cd2b183540f48ee054bcef44a8b5__section_N1001C_N10011_N10001"/>
 
-### Additional Mobile Browser Events
+## Additional Mobile Browser Events
 
 On touch-enabled platforms the following events are also provided within UI5 controls to be handled in `on<eventName>` methods:
 
@@ -21,11 +21,11 @@ On touch-enabled platforms the following events are also provided within UI5 con
 -   `touchmove` 
 -   `touchcancel` 
 
-
+***
 
 <a name="loio9860cd2b183540f48ee054bcef44a8b5__section_N1004E_N10011_N10001"/>
 
-### Additional Mobile Pseudo Events
+## Additional Mobile Pseudo Events
 
 jQuery mobile event handling is used in OpenUI5 when running on touch-enabled devices. From the basic browser events it creates semantically richer events. Some of them are also provided automatically in OpenUI5 controls:
 
@@ -38,9 +38,9 @@ jQuery mobile event handling is used in OpenUI5 when running on touch-enabled de
 
 For more information, see [jQuery mobile](http://api.jquerymobile.com/).
 
+***
 
-
-### Devices Supporting both Mouse and Touch Input
+## Devices Supporting both Mouse and Touch Input
 
 A number of devices allow user interaction by both mouse and touch input. To be able to react to both kind of events, some additional functionality has been introduced.
 

@@ -1,6 +1,6 @@
 <!-- loio28fcd55b04654977b63dacbee0552712 -->
 
-## Best Practices for Developers
+# Best Practices for Developers
 
 This page is a good starting point for you to ensure your code bases, specifically your OpenUI5 applications and libraries, are ready for the future and won't become outdated.
 
@@ -12,11 +12,11 @@ This page is a good starting point for you to ensure your code bases, specifical
 -   [Library Development](best-practices-for-developers-28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_libdev)
 -   [Testing](best-practices-for-developers-28fcd55.md#loio28fcd55b04654977b63dacbee0552712__section_tst)
 
-
+***
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_blfc"/>
 
-### Best Practices for Legacy-Free Code
+## Best Practices for Legacy-Free Code
 
 The OpenUI5 framework is always evolving to benefit from newer features in web browsers \(like ECMAScript support\) or to account for their end of maintenance \(like the end of IE11 support\). This is a continuous journey towards future major framework versions and improvements.
 
@@ -25,9 +25,9 @@ It is therefore important that you keep applying best practices. To help you, we
 > ### Note:  
 > The following information is a preliminary yet practical collection of best practices to ensure legacy-free OpenUI5 development. We're continuously improving it to reflect our latest recommendations. It will be further enhanced to both help transform existing code bases and provide guidance for creating new code.
 
+***
 
-
-#### Goals
+### Goals
 
 The main objectives when migrating existing code or keeping it up to date with framework best practices are:
 
@@ -48,23 +48,23 @@ The main objectives when migrating existing code or keeping it up to date with f
     This reduces the API surface for easier usage and maintenance.
 
 
+***
 
-
-#### Prerequisites
+### Prerequisites
 
 Before attempting to migrate or upgrade to a higher OpenUI5 version, make sure that your development does **not** use any undocumented internal framework resources. Also, double check that all compatibility guidelines have been followed, such as those mentioned in [Upgrading](../02_Read-Me-First/upgrading-9638e4f.md).
 
 To build and serve your project in accordance with best practices, we recommend using the latest version of [UI5 Tooling](https://sap.github.io/ui5-tooling/).
 
+***
 
-
-#### Supporting Tool - UI5 Linter
+### Supporting Tool - UI5 Linter
 
 [UI5 linter](https://github.com/UI5/linter) is a command-line tool to identify legacy code in your OpenUI5 project. It checks JavaScript, TypeScript, XML, JSON, and other files in your project and reports findings if legacy code is used. UI5 linter is our state-of-the-art tool to get and keep your OpenUI5 project legacy-free.
 
+***
 
-
-#### Deprecated APIs
+### Deprecated APIs
 
 In general, **you must not use deprecated APIs** anymore, such as `sap.ui.getCore()`. You can find deprecated APIs in the [API Reference](https://ui5.sap.com/#/api/deprecated), in the [What's New Viewer](https://help.sap.com/whats-new/67f60363b57f4ac0b23efd17fa192d60?Type=Deleted%3BDeprecated), and in the reports by our [Support Assistant](../04_Essentials/support-assistant-57ccd7d.md) and [UI5 linter](https://github.com/UI5/linter). For new projects, we recommend the use of TypeScript, because usage of deprecated APIs can then be detected easily.
 
@@ -85,9 +85,9 @@ Using the native web API `XMLHttpRequest#open` with `false` as the third argumen
 -   [Deprecated Factories Replacement](../04_Essentials/deprecated-factories-replacement-491bd9c.md)
 -   [Synchronous `XMLHttpRequest`](https://xhr.spec.whatwg.org/#the-open()-method)
 
+***
 
-
-#### Third-Party Libraries
+### Third-Party Libraries
 
 Do not use any third-party libraries unless they are explicitly documented for usage by applications, for example in the [Test Starter](../04_Essentials/test-starter-032be2c.md) documentation. For more information, see [Third-Party Open Source Libraries](../02_Read-Me-First/compatibility-rules-91f0873.md#loio91f087396f4d1014b6dd926db0e91070__Open_Source).
 
@@ -95,9 +95,9 @@ The integrated QUnit and Sinon libraries can be used via the [Test Starter](../0
 
 Do not use jQuery APIs; use OpenUI5 APIs or native browser APIs instead.
 
+***
 
-
-#### Modules
+### Modules
 
 **Defining and Requiring Modules**
 
@@ -120,17 +120,17 @@ When requiring third-party libraries that export global names and support AMD at
 
 Identify and resolve cyclic dependencies with the help of the OpenUI5 configuration parameter `sap-ui-xx-debug-module-loading=true`. Identified modules are logged in the browser console \([F12\]\) with the message '**cycle detected**'. Ensure that the console shows all levels of logs incl. "Verbose" ones to see this message.
 
-
+***
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_appdev"/>
 
-### App Development
+## App Development
 
 In the following we'll focus on crucial aspects of app development, specifically on asynchronous loading and best practices around Components, Controllers, Views, Fragments, Models, and ResourceBundles.
 
+***
 
-
-#### Asynchronous Loading
+### Asynchronous Loading
 
 -   Use asynchronous loading for views, fragments, components, and resource bundles to enhance performance; see, for example, [Deprecated Factories Replacement](../04_Essentials/deprecated-factories-replacement-491bd9c.md).
 -   Implement the `sap.ui.core.IAsyncContentCreation` marker interface in your [Component.js file](../04_Essentials/component-controller-27ce0e4.md) to allow the content to be created fully asynchronously and for a stricter handling of certain types of errors during its view processing.
@@ -144,9 +144,9 @@ In the following we'll focus on crucial aspects of app development, specifically
 -   [Load Only What You Really Need](load-only-what-you-really-need-e8fca3e.md)
 -   [Performance: Speed Up Your App](../05_Developing_Apps/performance-speed-up-your-app-408b40e.md)
 
+***
 
-
-#### OpenUI5 Object Creation
+### OpenUI5 Object Creation
 
 When creating instances of OpenUI5 controls programmatically \(i.e. not declaratively via XML View or Fragment\), then:
 
@@ -157,9 +157,9 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 
 -   [Use Stable IDs](use-stable-ids-79e910e.md)
 
+***
 
-
-#### Data Binding
+### Data Binding
 
 -   When creating data binding programmatically, add the data types to the dependency list and create instances on your own. Do **not** specify their global names.
 
@@ -178,9 +178,9 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 -   [Require Modules in XML View and Fragment](../04_Essentials/require-modules-in-xml-view-and-fragment-b11d853.md)
 -   [XML Templating](../04_Essentials/xml-templating-5ee619f.md)
 
+***
 
-
-#### Standalone Apps
+### Standalone Apps
 
 -   During OpenUI5 bootstrapping, assign `module:sap/ui/core/ComponentSupport` or a separate JavaScript file to `data-sap-ui-on-init`.
 
@@ -191,9 +191,9 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 
 -   [Declarative API for Initial Components](../04_Essentials/declarative-api-for-initial-components-82a0fce.md)
 
+***
 
-
-#### Component / `manifest.json`
+### Component / `manifest.json`
 
 **Component Creation**
 
@@ -226,9 +226,9 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 -   For third-party libraries that have to define variables globally or must be exempted from being modified \(e.g. due to legal or license reasons\), [exclude them from the bundle](https://sap.github.io/ui5-tooling/v3/pages/Configuration/#excludes).
 
 
+***
 
-
-#### Controller / Views / Fragments
+### Controller / Views / Fragments
 
 -   Don't use views of type `HTMLView`, `JSView`, or `JSONView` as they are deprecated. Use `XMLView` or [Typed View](../04_Essentials/typed-view-e6bb33d.md) instead.
 
@@ -254,9 +254,9 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 -   [Programmatically Instantiating XML Fragments](../04_Essentials/programmatically-instantiating-xml-fragments-d6af195.md)
 -   [Formatting, Parsing, and Validating Data](../04_Essentials/formatting-parsing-and-validating-data-07e4b92.md)
 
+***
 
-
-#### Models
+### Models
 
 -   Take care of destroying programmatically created models to prevent memory leaks.
 
@@ -286,9 +286,9 @@ Prevent bundling modules \(`Component-preload.js`\) into strings.
 -   [Meta Model for OData V4](../04_Essentials/meta-model-for-odata-v4-7f29fb3.md)
 -   OData V2 Model: [Creating Entities](../04_Essentials/odata-v2-model-6c47b2b.md#loio4c4cd99af9b14e08bb72470cc7cabff4)
 
+***
 
-
-#### Strict Error Handling
+### Strict Error Handling
 
 Implement strict error handling to address critical issues.
 
@@ -301,15 +301,15 @@ Implement strict error handling to address critical issues.
 -   Starting with OpenUI5 2.0, critical findings will throw exceptions by default, requiring prior resolution.
 
 
-
+***
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_ctrldev"/>
 
-### Control Development
+## Control Development
 
+***
 
-
-#### Control Rendering
+### Control Rendering
 
 -   Ensure a dependency on the renderer or embed it within the control class.
 
@@ -327,15 +327,15 @@ Implement strict error handling to address critical issues.
 -   [`RenderManager`](https://ui5.sap.com/#/api/sap.ui.core.RenderManager)
 -   [OpenUI5 Control Development Guidelines](../07_Developing_Controls/openui5-control-development-guidelines-4549da6.md)
 
-
+***
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_libdev"/>
 
-### Library Development
+## Library Development
 
+***
 
-
-#### Library Dependency and Init
+### Library Dependency and Init
 
 -   Don't use `sap.ui.getCore().initLibrary` to initialize the library as it's deprecated. Use the import of `sap/ui/core/Lib` and call its [`Lib.init()`](https://ui5.sap.com/#/api/sap.ui.core.Lib%23methods/sap.ui.core.Lib.init) instead.
 
@@ -347,7 +347,7 @@ Implement strict error handling to address critical issues.
 
 -   Define the `appData/manifest/i18n` section in the `.library` file or the `sap.app/i18n` section in the `manifest.json`, so that the framework can load resource bundles in advance.
 
--   Properly define library dependencies in all places where it is required. For more information, see [Dependencies to Libraries](../04_Essentials/manifest-dependencies-to-libraries-and-components-8521ad1.md#loio8521ad1955f340f9a6207d615c88d7fd__section_DEPLIB).
+-   Properly define library dependencies in all places where it is required. For more information, see [Dependencies to Libraries](../04_Essentials/descriptor-dependencies-to-libraries-and-components-8521ad1.md#loio8521ad1955f340f9a6207d615c88d7fd__section_DEPLIB).
 
 
 **Additional Information:**
@@ -356,9 +356,9 @@ Implement strict error handling to address critical issues.
 -   [Defining Control Properties](../07_Developing_Controls/defining-control-properties-ac56d92.md)
 -   [Manifest \(Descriptor for Applications, Components, and Libraries\)](../04_Essentials/manifest-descriptor-for-applications-components-and-libraries-be0cf40.md)
 
+***
 
-
-#### Bundling
+### Bundling
 
 Prevent bundling modules \(`library-preload.js`\) into strings.
 
@@ -369,11 +369,11 @@ Prevent bundling modules \(`library-preload.js`\) into strings.
 -   For third-party libraries, set `requiresTopLevelScope="false"` to the `/library/appData/packaging/raw-module` tag within the `.library` file, **provided that** the third-party library is allowed to be bundled together and does not require access to the global scope. Otherwise, consider [excluding the third-party library from the bundle](https://sap.github.io/ui5-tooling/v3/pages/Configuration/#excludes_1).
 
 
-
+***
 
 <a name="loio28fcd55b04654977b63dacbee0552712__section_tst"/>
 
-### Testing
+## Testing
 
 -   When replacing deprecated APIs with their successors, additional care has to be taken in the test code. Sometimes, deprecated APIs have been handled via spies or stubs in tests. As the OpenUI5 framework also replaces calls to deprecated APIs, such **stubs or spies might no longer achieve what they're expected to achieve**. As creating spies or stubs usually involves a different syntax than that for normal calls, alternative search patterns might be required to identify such spies or stubs
 
@@ -385,4 +385,34 @@ Prevent bundling modules \(`library-preload.js`\) into strings.
 -   Migrate an existing QUnit and OPA test setup to the [Test Starter](../04_Essentials/test-starter-032be2c.md) concept.
 -   Transform existing QUnit tests that are based on the outdated QUnit 1 version to using QUnit 2.
 -   Do not rely on the outdated Blanket.js \(`qunit-coverage.js`\) anymore. As of OpenUI5 1.113, code coverage measurement via IstanbulJS \(`qunit-coverage-istanbul.js`\) is the recommended option. For more information, see [Code Coverage Measurement](../04_Essentials/code-coverage-measurement-7ef3242.md).
+
+-   **[Don't Use Deprecated or Experimental Features](don-t-use-deprecated-or-experimental-features-a8bd1a8.md "To keep your apps future proof and up to date with the latest improvements, you should
+		only use artifacts (such as features, APIs, themes, etc.) that are still actively
+		developed.")**  
+To keep your apps future proof and up to date with the latest improvements, you should only use artifacts \(such as features, APIs, themes, etc.\) that are still actively developed.
+-   **[Load Only What You Really Need](load-only-what-you-really-need-e8fca3e.md "The amount of resources and data that your app loads will directly affect the performance of your app. You should declare all dependencies
+		and remove unused libraries and classes from your code.")**  
+The amount of resources and data that your app loads will directly affect the performance of your app. You should declare all dependencies and remove unused libraries and classes from your code.
+-   **[Use the MVC Concept](use-the-mvc-concept-07afcf4.md "MVC (Model-View-Controller) is a concept for structuring your software. It makes it easier to maintain and to extend your
+		apps.")**  
+MVC \(Model-View-Controller\) is a concept for structuring your software. It makes it easier to maintain and to extend your apps.
+-   **[Keep Your Views Short and Simple](keep-your-views-short-and-simple-b0d7db7.md "The view part of your app reflects what users can see and interact with. You should use a suitable set of UI controls that match your
+		scenario and keep things simple.")**  
+The view part of your app reflects what users can see and interact with. You should use a suitable set of UI controls that match your scenario and keep things simple.
+-   **[Use Stable IDs](use-stable-ids-79e910e.md "If you keep the IDs of controls, elements, and components stable, you can be sure that other OpenUI5 features will be able to identify them correctly during
+		processing.")**  
+If you keep the IDs of controls, elements, and components stable, you can be sure that other OpenUI5 features will be able to identify them correctly during processing.
+-   **[Make Your App CSP Compliant](make-your-app-csp-compliant-1f81a09.md "CSP stands for Content Security Policy and is a security standard to prevent cross-site scripting or other code injection
+		attacks.")**  
+CSP stands for Content Security Policy and is a security standard to prevent cross-site scripting or other code injection attacks.
+-   **[Use Asynchronous Loading](use-asynchronous-loading-676b636.md "Asynchronous loading is the way to go: It makes your applications a lot faster and, through that, better to use.")**  
+Asynchronous loading is the way to go: It makes your applications a lot faster and, through that, better to use.
+-   **[Use Only Public APIs](use-only-public-apis-b0d5fe2.md "OpenUI5 APIs are classified into different types. Only APIs of type
+			public should be used by application developers.")**  
+OpenUI5 APIs are classified into different types. Only APIs of type `public` should be used by application developers.
+-   **[Is Your Application Ready for Asynchronous Loading?](is-your-application-ready-for-asynchronous-loading-493a15a.md "Find a collection of information that helps you to find out if your application is ready
+		for asynchronous loading.")**  
+Find a collection of information that helps you to find out if your application is ready for asynchronous loading.
+-   **[Performance Checklist](performance-checklist-9c6400e.md "Follow these steps to apply performance best practices to your application.")**  
+Follow these steps to apply performance best practices to your application.
 

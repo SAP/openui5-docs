@@ -1,6 +1,6 @@
 <!-- loio91f2d03b6f4d1014b6dd926db0e91070 -->
 
-## Configuration Options and URL Parameters
+# Configuration Options and URL Parameters
 
 The following tables show available configuration options.
 
@@ -16,11 +16,11 @@ Some configuration options can also be set via URL parameters, which is indicate
 
 Typically, configuration options are evaluated when booting OpenUI5. After that, all changes to these options are ignored. For some configuration options, specific APIs exist that allow you to modify their values at runtime. This is indicated by an entry in the corresponding column in the tables below, which usually also provides a link to the respective API method.
 
-
+***
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_mpr_v1v_fzb"/>
 
-### Localization
+## Localization
 
 
 <table>
@@ -171,11 +171,11 @@ For more information, see [Date Format](date-format-91f2eba.md).
 </tr>
 </table>
 
-
+***
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_ins_2bv_fzb"/>
 
-### Formatting
+## Formatting
 
 
 <table>
@@ -401,11 +401,11 @@ Specifies one of the ABAP number formats.
 </tr>
 </table>
 
-
+***
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_svv_cbv_fzb"/>
 
-### Theming
+## Theming
 
 
 <table>
@@ -543,11 +543,11 @@ Specifies a list of UI libraries using the same syntax as the `libs` property, f
 </tr>
 </table>
 
-
+***
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_c33_gbv_fzb"/>
 
-### Control Behavior and UI Integration
+## Control Behavior and UI Integration
 
 
 <table>
@@ -655,11 +655,11 @@ Prefix to be used for automatically generated control IDs; must be chosen carefu
 </tr>
 </table>
 
-
+***
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_trk_3bv_fzb"/>
 
-### Security
+## Security
 
 
 <table>
@@ -793,11 +793,11 @@ For more information, see [Security Token Handling](model-instantiation-and-data
 </tr>
 </table>
 
-
+***
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_zy1_kbv_fzb"/>
 
-### Supportability
+## Supportability
 
 
 <table>
@@ -1039,11 +1039,11 @@ Options: `true | silent | window`
 </tr>
 </table>
 
-
+***
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_dq2_mbv_fzb"/>
 
-### Loading and Integration
+## Loading and Integration
 
 
 <table>
@@ -1327,11 +1327,11 @@ For more information, see the [API Reference: `sap.ui.loader.config`](https://ui
 </tr>
 </table>
 
-
+***
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_TVT"/>
 
-### Types
+## Types
 
 The table below lists the possible types for configuration options and their corresponding valid values.
 
@@ -1455,11 +1455,11 @@ Any value which is part of the respective enumeration for the corresponding conf
 </tr>
 </table>
 
-
+***
 
 <a name="loio91f2d03b6f4d1014b6dd926db0e91070__section_dfr_j2x_fzb"/>
 
-### Related Information
+## Related Information
 
 For alist of deprecated configuration options, see [Deprecated Configuration Options](deprecated-configuration-options-b474a71.md).
 

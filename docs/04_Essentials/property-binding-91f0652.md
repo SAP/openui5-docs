@@ -1,6 +1,6 @@
 <!-- loio91f0652b6f4d1014b6dd926db0e91070 -->
 
-## Property Binding
+# Property Binding
 
 With property binding, you can initialize properties of a control automatically and update them based on the data of the model.
 
@@ -102,11 +102,11 @@ oTextField.unbindProperty("value");
 
 You can also bind multiple paths by combining them as parts of a binding. For more information, see [Composite Binding](composite-binding-a2fe8e7.md).
 
-
+***
 
 <a name="loio91f0652b6f4d1014b6dd926db0e91070__section_N10078_N10013_N10001"/>
 
-### Formatting Property Values
+## Formatting Property Values
 
 Values in data are often represented in an internal format and need to be converted to an external format for visual representation, especially numbers, dates, and times with locale-dependent external formats. OpenUI5 provides two different options for converting data. You can use both options for each binding, you don't have to use one option consistently throughout your app:
 
@@ -117,9 +117,9 @@ Values in data are often represented in an internal format and need to be conver
     Data types can be used to parse user input in addition to formatting values.
 
 
+***
 
-
-#### Using a Formatter Function
+### Using a Formatter Function
 
 If you define the property binding in the **XML view**, you need to define a formatter function \(`roundToMillion`\) in the view controller:
 
@@ -173,9 +173,9 @@ oImage.bindProperty("src", {
 > ### Caution:  
 > The framework only updates a binding when one of the properties included in the binding changes. If the formatter uses another property value that is not part of the binding definition, the framework won't know that the result depends on that additional property and could miss necessary updates. Therefore, make sure that you declare a composite binding referencing all necessary properties \(maybe even from different models\).
 
+***
 
-
-#### Using Data Types
+### Using Data Types
 
 The data type system enables you to format and parse data, as well as to validate whether the entered data lies within any defined constraints. OpenUI5 comes with several predefined and ready-to-use types, referred to as simple types. For more information, see [Formatting, Parsing, and Validating Data](formatting-parsing-and-validating-data-07e4b92.md).
 
@@ -299,11 +299,11 @@ You can use your custom types in XML views or JavaScript in the same way as you 
 </mvc:View>
 ```
 
-
+***
 
 <a name="loio91f0652b6f4d1014b6dd926db0e91070__section_N100DE_N10013_N10001"/>
 
-### Changing the Binding Mode
+## Changing the Binding Mode
 
 By default, all bindings of a model instance have the default binding mode of the model, but you can change this behavior if needed. When creating a `PropertyBinding`, you can specify a different binding mode, which is then used exclusively for this specific binding. Of course, a binding can only have a binding mode that is supported by the model in question.
 
@@ -334,7 +334,7 @@ In the example above, two `Input` fields are created and their `value` property 
 **Related Information**  
 
 
-[Data Binding Tutorial Step 3: Create Property Binding](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/d70e9894c09b4c27a98d4850d4e90f2c.html "Although there is no visible difference, the text on the screen is now derived from model data.") :arrow_upper_right:
+[Data Binding Tutorial Step 3: Create Property Binding](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/d70e9894c09b4c27a98d4850d4e90f2c.html "Although there is no visible difference, the text on the screen is now derived from model data.") :arrow_upper_right:
 
 [API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://ui5.sap.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty)
 

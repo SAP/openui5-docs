@@ -1,6 +1,6 @@
 <!-- loiofef5340250134900843a23329c90097b -->
 
-## Application Cache Buster: Index File
+# Application Cache Buster: Index File
 
 The index file includes all files that should use the cache buster.
 

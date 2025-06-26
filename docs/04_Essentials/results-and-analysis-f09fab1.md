@@ -1,10 +1,10 @@
 <!-- loiof09fab15373b4735a36cbc3cace0c1f4 -->
 
-## Results and Analysis
+# Results and Analysis
 
 After an analysis run, you can view a list of all triggered rules, their description, resolution steps, and a control tree with highlighted problematic elements.
 
-
+***
 
 Below you can see an example of how the results are displayed.
 
@@ -14,17 +14,17 @@ Below you can see an example of how the results are displayed.
 
 ![](images/loio78c90c54cda34b0091c96424bba7a55e_HiRes.png "Support Assistant Issues View")
 
+***
 
-
-### Issues List
+## Issues List
 
 The left side shows a list of the triggered rules sorted by severity \(High, Medium, Low\). You can use the dropdown menus to filter on *Severity*, *Category*, or *Audience*. You can clear your filtering by choosing *Clear Filtering* \(![](../01_Whats-New/images/loio4a0cf3bc3f7244549cf95901077aa6ae_HiRes.png)\).
 
 Selecting *Report* generates an HTML report with the current set of rules and scope. You can view it in a new tab or download it as a `.ZIP` file.
 
+***
 
-
-### Issue Details
+## Issue Details
 
 The middle part shows a detailed view of the selected rule. It contains the following:
 
@@ -39,9 +39,9 @@ The middle part shows a detailed view of the selected rule. It contains the foll
 -   Element ClassName and ID - the namespace of the element
 
 
+***
 
-
-### Element Tree
+## Element Tree
 
 The right side shows the element tree of the application. The root of the tree is called `<WEBPAGE>`. All rules that are not specific for a given control are mapped to this element. If these rules are triggered, the resulting issues will be mapped to the `<WEBPAGE>` element.
 

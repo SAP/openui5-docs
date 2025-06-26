@@ -1,12 +1,12 @@
 <!-- loio0ec25a16ec9c4e86a1a0d03f1b01e25e -->
 
-## Feed Input
+# Feed Input
 
 With this control you can enter and post text for a new feed entry.
 
+***
 
-
-### Overview
+## Overview
 
 The `sap.m.FeedInput` control allows you to enter and send plain text. It complements the `sap.m.FeedListItem` control to create a simple feed. You can use the `FeedInput` control if you need to input small amounts of text without formatting.
 

@@ -1,6 +1,6 @@
 <!-- loio1ab4f62de6ab467096a2a98b363a1373 -->
 
-## Parameters
+# Parameters
 
 When creating a binding, you can provide a parameter map which can contain the following:
 

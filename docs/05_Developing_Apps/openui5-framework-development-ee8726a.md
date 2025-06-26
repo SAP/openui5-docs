@@ -1,6 +1,6 @@
 <!-- loioee8726adfdb34d748ed199f0275472f8 -->
 
-## OpenUI5 Framework Development
+# OpenUI5 Framework Development
 
 This UI5 Developer's Guide contains information relevant for UI5 app developers. Information for framework developers is maintained on GitHub.
 

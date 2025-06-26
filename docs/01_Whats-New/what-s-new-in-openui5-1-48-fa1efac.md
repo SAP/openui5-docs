@@ -1,6 +1,6 @@
 <!-- loiofa1efaca7d674995a0dc3a95ba0a4d08 -->
 
-## What's New in OpenUI5 1.48
+# What's New in OpenUI5 1.48
 
 With this release OpenUI5 is upgraded from version 1.46 to 1.48.
 
@@ -138,7 +138,7 @@ The main features of the tool are:
 
 For more information, see [Support Assistant](../04_Essentials/support-assistant-57ccd7d.md).
 
-We have also redesigned the other support tools, *Technical Information Dialog* and *Diagnostics*, reworked the [Troubleshooting](../04_Essentials/troubleshooting-615d9e4.md) documentation section under *Essentials*, and created a [Troubleshooting Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/5661952e72df471b932eddc10350c081.html "In this tutorial, we will show you some tools that will help you if you run into problems with your SAPUI5 app.") :arrow_upper_right: tutorial.
+We have also redesigned the other support tools, *Technical Information Dialog* and *Diagnostics*, reworked the [Troubleshooting](../04_Essentials/troubleshooting-615d9e4.md) documentation section under *Essentials*, and created a [Troubleshooting Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/5661952e72df471b932eddc10350c081.html "In this tutorial, we will show you some tools that will help you if you run into problems with your SAPUI5 app.") :arrow_upper_right: tutorial.
 
 <sub>New•Feature•Info Only•1.48</sub>
 
@@ -1196,7 +1196,7 @@ User Documentation
 
 In addition to the documentation for new features, the following changes have been applied to the documentation:
 
--   New tutorial: [Troubleshooting Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/5661952e72df471b932eddc10350c081.html "In this tutorial, we will show you some tools that will help you if you run into problems with your SAPUI5 app.") :arrow_upper_right:
+-   New tutorial: [Troubleshooting Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/5661952e72df471b932eddc10350c081.html "In this tutorial, we will show you some tools that will help you if you run into problems with your SAPUI5 app.") :arrow_upper_right:
 
 -   Reworked [Troubleshooting](../04_Essentials/troubleshooting-615d9e4.md) section
 
@@ -1216,6 +1216,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

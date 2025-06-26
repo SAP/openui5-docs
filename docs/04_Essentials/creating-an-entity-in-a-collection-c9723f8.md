@@ -1,6 +1,6 @@
 <!-- loioc9723f8265f644af91c0ed941e114d46 -->
 
-## Creating an Entity in a Collection
+# Creating an Entity in a Collection
 
 The `sap.ui.model.odata.v4.ODataListBinding#create` method creates a new entity inside a collection. Users can interact with a newly created entity even before it has been sent to the server.
 
@@ -87,17 +87,17 @@ If you have called [`ODataListBinding#create`](https://ui5.sap.com/#/api/sap.ui.
 
 The `promise` returned by [`Context#created`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is resolved when the entity represented by this context has been created in the backend. Once the promise is resolved, [`sap.ui.model.Context#getPath`](https://ui5.sap.com/#/api/sap.ui.model.Context/methods/getPath) returns a path including the key predicate of the new entity. For returning the path including the key predicates, all key properties need to be available.
 
-
+***
 
 <a name="loioc9723f8265f644af91c0ed941e114d46__section_DCR"/>
 
-### Deep Create
+## Deep Create
 
 It is also possible to create nested entities in a navigation property with a single request together with their parent entity \(so-called "deep create"; the request itself is called "deep insert" in the [OData specification](http://docs.oasis-open.org/odata/odata/v4.01/os/part1-protocol/odata-v4.01-os-part1-protocol.html#sec_CreateRelatedEntitiesWhenCreatinganE)\).
 
+***
 
-
-#### Nested Collection
+### Nested Collection
 
 Bind the list for the nested collection relative to the transient context of the created main entity. A [`create`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) in the nested table then creates a row which contributes to the POST request of the main entity. A deep create is not restricted to one level; it is also possible that a nested entity has a nested collection itself.
 
@@ -179,9 +179,9 @@ Canceling a deep create or deleting the top-level entity removes the request, th
 
 As long as the parent context is still transient, requesting data from the server does not make sense. Hence, API functions leading to a server request \(like `refresh`, `sort`, `filter`, `requestSideEffects`\) are forbidden. When the parent entity including its nested entities has been created, the binding is fully functional.
 
+***
 
-
-#### Nested Single Entity
+### Nested Single Entity
 
 No API is required here. Simply bind the properties of the nested entity relative to the transient context of the created main entity. If the user enters a value in such a field, this value is automatically added to the payload of the POST request, making it a deep create.
 
@@ -201,21 +201,21 @@ In this \(unrealistic\) example, it is possible to create the business partner t
 
 It is also possible to have this navigation property in the initial data.
 
-
+***
 
 <a name="loioc9723f8265f644af91c0ed941e114d46__section_ICR"/>
 
-### Inline Creation Rows
+## Inline Creation Rows
 
 In some applications users need to be able to quickly enter a large amount of new records. A "Create" button or the related keyboard shortcut that needs to be explicitly pressed would slow down the user. To avoid this, the application could provide multiple **inline creation rows** in the table that are initially filled with default values and are not persisted in the back end.
 
 You can create such an inline creation row by calling [`sap.ui.model.odata.v4.ODataListBinding#create`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) with the `bInactive` parameter. Call it multiple times for multiple rows. These rows are called inactive because they are not sent to the server. Once the user modifies a property of such an inactive row, and the modification passes the client-side validation, a [`v4.ODataListBinding.createActivate`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23events/createActivate) event is fired and the row will be sent to the server with the next batch for the binding's update group. You could use the event for additional custom validation, and it supports calling [`sap.ui.base.Event#preventDefault`](https://ui5.sap.com/#/api/sap.ui.base.Event/methods/preventDefault) to prevent the row from being sent to the server. You could use this, for example, to require certain properties to be set before sending the row to the server. You could also reset the row back to the initial state via [`Context#resetChanges`](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.Context/methods/resetChanges). The event can also be used to create a new inline creation row. While inactive, an inline creation row does not count as a pending change and does not contribute to the collection's count.
 
-
+***
 
 <a name="loioc9723f8265f644af91c0ed941e114d46__section_CST"/>
 
-### Context States
+## Context States
 
 -   `persisted`: An already existing entity that was read from the server.
 -   `inactive`: An inline creation row without any property update yet; it is waiting for a property change before adding a POST to the batch queue.

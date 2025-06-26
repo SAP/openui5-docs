@@ -1,10 +1,10 @@
 <!-- loiob506da7781ca487195bc7177a8dea9d2 -->
 
-## What's New in OpenUI5 1.87
+# What's New in OpenUI5 1.87
 
 With this release OpenUI5 is upgraded from version 1.86 to 1.87.
 
-
+***
 
 ****
 
@@ -656,6 +656,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

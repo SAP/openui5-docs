@@ -1,6 +1,6 @@
 <!-- loio4527729576cb4a4888275b6935aad03a -->
 
-## Object Page Blocks
+# Object Page Blocks
 
 The contents of the subsections in the `ObjectPageLayout` control are organized into blocks.
 
@@ -39,9 +39,9 @@ Any control can be a block. However, the blocks that extend `sap.uxap.BlockBase`
 -   Column layout: Blocks provide information to the subsection only on the width they should be using for an optimal experience
 
 
+***
 
-
-### Blocks API & Guidelines
+## Blocks API & Guidelines
 
 Blocks that are used in an `ObjectPageLayout` have to comply with the following rules regarding their API. They must:
 
@@ -133,9 +133,9 @@ In one backend service, goals may be a navigation property of employees, but in 
 > ### Note:  
 > This model mapping is not mandatory as models used in a view can also be provided by standard OpenUI5 techniques \(model inheritance, setModel\).
 
+***
 
-
-### Standard Block Implementation
+## Standard Block Implementation
 
 The standard block implementation is to extend the `sap.uxap.BlockBase` control and inherit the default implementation of `setMode` and rendering. `setMode` in `BlockBase` supports two different ways of building blocks:
 

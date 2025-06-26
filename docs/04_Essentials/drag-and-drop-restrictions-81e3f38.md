@@ -1,6 +1,6 @@
 <!-- loio81e3f38f5e3e4194bb32675c86b49ba2 -->
 
-## Drag-and-Drop Restrictions
+# Drag-and-Drop Restrictions
 
 There are some known restrictions when using drag and drop.
 

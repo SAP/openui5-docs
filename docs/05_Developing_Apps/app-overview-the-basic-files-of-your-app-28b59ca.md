@@ -1,14 +1,14 @@
 <!-- loio28b59ca857044a7890a22aec8cf1fee9 -->
 
-## App Overview: The Basic Files of Your App
+# App Overview: The Basic Files of Your App
 
 We recommend creating at least three files for your app: the descriptor \(`manifest.json`\), the component \(`Component.js`\), and the main view of the app \(`App.view.xml`\).
 
 ![](images/loioeeae30fe7983476a9777e809a8820147_LowRes.png)
 
+***
 
-
-### Descriptor \(`manifest.json`\)
+## Descriptor \(`manifest.json`\)
 
 We recommend that you use the `manifest.json` file to configure the app settings and put all important information needed to run the app in there. Using this approach means you need to write less application code, and you can already access the information before the app is instantiated.
 
@@ -25,9 +25,9 @@ The most important configuration settings are:
 -   **Routing** configuration that defines the navigation between views.
 
 
+***
 
-
-### Root View \(`App.view.xml`\)
+## Root View \(`App.view.xml`\)
 
 The `App.view.xml` file defines the root view of the app. In most cases, it contains an `App` control or a `SplitApp` control as a root control.
 
@@ -35,9 +35,9 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript, JSON\). We recomme
 
 We also recommend creating a separate view file for each view you want to use in your app.
 
+***
 
-
-### Component \(`Component.js`\)
+## Component \(`Component.js`\)
 
 The `Component.js` file holds the app setup. The `init` function of the component is automatically started by OpenUI5 when the component is instantiated.
 
@@ -46,9 +46,9 @@ The `Component.js` file holds the app setup. The `init` function of the componen
 
 In the metadata section of the component, you define a reference to the descriptor file. When the component is instantiated, the descriptor is loaded and parsed automatically.
 
+***
 
-
-### HTML Page
+## HTML Page
 
 All apps are started using an HTML page that loads OpenUI5 and the component. You have two options: You can build an app for the FLP or build a standalone app.
 

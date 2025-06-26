@@ -1,6 +1,6 @@
 <!-- loio5a0e1f79c4cf4772a177310e7a9c7ba0 -->
 
-## What's New in OpenUI5 1.60
+# What's New in OpenUI5 1.60
 
 With this release OpenUI5 is upgraded from version 1.58 to 1.60.
 
@@ -1163,7 +1163,7 @@ User Documentation
 
 **Accessibility Improvements in Demo Apps and in the Walkthrough Tutorial**
 
-We have improved the accessibility of our demo apps. In addition, we have updated our *Walkthrough* tutorial and added a new step. Developers can improve the accessibility of their Walkthrough app by adding ARIA elements \(landmarks\). For more information, see [Step 37: Accessibility](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/ff7cab1f271a4181a86e5aa5c2f8d421.html "In this step we're going to improve the accessibility of our app.") :arrow_upper_right:.
+We have improved the accessibility of our demo apps. In addition, we have updated our *Walkthrough* tutorial and added a new step. Developers can improve the accessibility of their Walkthrough app by adding ARIA elements \(landmarks\). For more information, see [Step 37: Accessibility](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/ff7cab1f271a4181a86e5aa5c2f8d421.html "In this step we're going to improve the accessibility of our app.") :arrow_upper_right:.
 
 <sub>Changed•User Documentation•Info Only•1.60</sub>
 
@@ -1180,6 +1180,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

@@ -1,6 +1,6 @@
 <!-- loio468b05d592344ed5bcbf62c9bace2d6c -->
 
-## What's New in OpenUI5 1.42
+# What's New in OpenUI5 1.42
 
 With this release OpenUI5 is upgraded from version 1.40 to 1.42.
 
@@ -1136,9 +1136,9 @@ The documentation for QUnit testing has been updated and aligned with the new QU
 
 We have updated the following tutorials:
 
--   [Data Binding Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/e5310932a71f42daa41f3a6143efca9c.html "In this tutorial, we explain the concepts of data binding in SAPUI5.") :arrow_upper_right:
+-   [Data Binding Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/e5310932a71f42daa41f3a6143efca9c.html "In this tutorial, we explain the concepts of data binding in SAPUI5.") :arrow_upper_right:
 
--   [Walkthrough Tutorial (JavaScript)](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/3da5f4be63264db99f2e5b04c5e853db.html "In this tutorial we will introduce you to all major development paradigms of SAPUI5.") :arrow_upper_right:
+-   [Walkthrough Tutorial (JavaScript)](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/3da5f4be63264db99f2e5b04c5e853db.html "In this tutorial we will introduce you to all major development paradigms of SAPUI5.") :arrow_upper_right:
 
 
 <sub>Changed•User Documentation•Info Only•1.42</sub>
@@ -1156,6 +1156,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

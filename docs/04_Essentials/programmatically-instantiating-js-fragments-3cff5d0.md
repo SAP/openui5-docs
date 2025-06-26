@@ -1,12 +1,10 @@
 <!-- loio3cff5d0fa6754c0d9fdacd80653b81fb -->
 
-## Programmatically Instantiating JS Fragments
+# Programmatically Instantiating JS Fragments
 
 For each fragment type, OpenUI5 provides a method that can be used to programmatically instantiate a fragment.
 
-
-
-### Context
+***
 
 To give an example of a programmatic instantiation of a JS fragment, you first have to define one. The following code presents an example definition:
 

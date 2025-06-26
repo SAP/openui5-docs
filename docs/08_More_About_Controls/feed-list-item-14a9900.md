@@ -1,12 +1,12 @@
 <!-- loio14a9900bcb514f89877c115046da4ff7 -->
 
-## Feed List Item
+# Feed List Item
 
 This control provides a set of properties for a feed, such as text, sender information and timestamp.
 
+***
 
-
-### Overview
+## Overview
 
 The `sap.m.FeedListItem` control is capable of displaying text accompanied by an optional user image.
 

@@ -1,6 +1,6 @@
 <!-- loio91f322a06f4d1014b6dd926db0e91070 -->
 
-## sap.ui.model.type.Time
+# sap.ui.model.type.Time
 
 The `Time` data type represents a time \(without date\).
 

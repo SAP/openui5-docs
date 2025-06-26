@@ -1,6 +1,6 @@
 <!-- loio91f08de06f4d1014b6dd926db0e91070 -->
 
-## Configuration of the OpenUI5 Runtime
+# Configuration of the OpenUI5 Runtime
 
 OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available configuration options are described in detail.
 
@@ -22,11 +22,11 @@ For more information see [Bootstrapping: Loading and Initializing](bootstrapping
 
 You can provide additional configuration information in the following ways:
 
-
+***
 
 <a name="loio91f08de06f4d1014b6dd926db0e91070__section_ACO"/>
 
-### Available Configuration Options
+## Available Configuration Options
 
 UI5 supports different possibilities to provide values for the available configuration parameters. Options 2 to 7 require you to provide them before the application boots up. They are technically equivalent, however at runtime they will be evaluated in the order given below. The list below is therefore sorted in ascending order of precedence:
 
@@ -51,23 +51,23 @@ As the configuration is evaluated during bootstrap, the configuration object mus
 
 The comprehensive list of [Configuration Options and URL Parameters](configuration-options-and-url-parameters-91f2d03.md) has descriptions of each configuration option.
 
-
+***
 
 <a name="loio91f08de06f4d1014b6dd926db0e91070__section_z1g_zkg_plb"/>
 
-### Setting Configuration Values
+## Setting Configuration Values
 
+***
 
-
-#### \[1\] Effective default values
+### \[1\] Effective default values
 
 The easiest way to specify a configuration value is **not to specify** it. The OpenUI5 runtime contains a default value for each configuration option. As long as you don't have to change the value, simply don't specify it.
 
 The effective default values can be found in the complete list of [Configuration Options and URL Parameters](configuration-options-and-url-parameters-91f2d03.md).
 
+***
 
-
-#### \[2\] Global configuration object
+### \[2\] Global configuration object
 
 The global configuration object is a property in the `globalThis` object with the property name `sap-ui-config`. The property must be a simple object, where each property represents the configuration option of the corresponding name.
 
@@ -113,18 +113,18 @@ The following code snippets show an example how to add a configuration before bo
 > ### Caution:  
 > The existing list of property names in `globalThis["sap-ui-config"]` must not be extended with undocumented custom names. Applications must not access the global configuration object directly either.
 
+***
 
-
-#### \[3\] `sap-ui-config.json` \(deprecated\)
+### \[3\] `sap-ui-config.json` \(deprecated\)
 
 This option is activated by setting `globalThis["sap-ui-config"]` to an arbitrary string value.
 
 > ### Note:  
 > The use of an `sap-ui-config.json` file is deprecated; be sure to use one of the other available configuration options instead.
 
+***
 
-
-#### \[4\] Configuration string in the `data-sap-ui-config` attribute \(deprecated\)
+### \[4\] Configuration string in the `data-sap-ui-config` attribute \(deprecated\)
 
 The bootstrap attribute `data-sap-ui-config` enables you to provide a single attribute with the configuration information for the OpenUI5 runtime.
 
@@ -143,9 +143,9 @@ You can use this attribute instead of attaching individual options with individu
 </script>
 ```
 
+***
 
-
-#### \[5\] Individual <code>data-sap-ui-&lt;<i>UI5-supported-config-option</i>&gt;</code> attributes of the bootstrap tag
+### \[5\] Individual <code>data-sap-ui-&lt;<i>UI5-supported-config-option</i>&gt;</code> attributes of the bootstrap tag
 
 For each configuration option, you can have one attribute in the bootstrap script tag. These attributes must provide the following information:
 
@@ -168,9 +168,9 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     ```
 
 
+***
 
-
-#### \[6\] Individual meta tag attributes
+### \[6\] Individual meta tag attributes
 
 For each configuration option, you can add a meta tag. These attributes must provide the following information:
 
@@ -190,9 +190,9 @@ For each configuration option, you can add a meta tag. These attributes must pro
     ```
 
 
+***
 
-
-#### \[7\] URL parameters
+### \[7\] URL parameters
 
 Configuration parameters can be added to the URL of an app.
 
@@ -205,13 +205,25 @@ The value of a URL parameter is of type `string` and the same type mapping as fo
 
 For security reasons, only some configuration options can be set via URL parameters. An application can set the `ignore-url-parameters` option to `true` to disable URL configuration parameters completely.
 
+***
 
-
-#### \[8\] Specific APIs
+### \[8\] Specific APIs
 
 The configuration options above are evaluated when booting OpenUI5. After that, all changes to these parameters are ignored.
 
 For a limited set of configuration options, specific APIs exist that allow you to modify these options at runtime.
 
 You can find these APIs in [Configuration Options and URL Parameters](configuration-options-and-url-parameters-91f2d03.md).
+
+-   **[Configuration Options and URL Parameters](configuration-options-and-url-parameters-91f2d03.md "The following tables show available configuration options.")**  
+The following tables show available configuration options.
+-   **[Deprecated Configuration Options](deprecated-configuration-options-b474a71.md "The following tables show
+			deprecated configuration options.")**  
+The following tables show deprecatedconfiguration options.
+-   **[Deprecated Configuration API](deprecated-configuration-api-2acafbf.md "This page describes important aspects of the deprecation of the sap.ui.core.Configuration API facade. It shows a
+		migration path away from the deprecated legacy APIs and towards their future-proof alternatives, provided the functionality is still meant for
+		productive usage.")**  
+This page describes important aspects of the deprecation of the `sap.ui.core.Configuration` API facade. It shows a migration path away from the deprecated legacy APIs and towards their future-proof alternatives, provided the functionality is still meant for productive usage.
+-   **[Compatibility Version Information](compatibility-version-information-9feb96d.md "Compatibility version flags were introduced to allow applications to react to incompatible changes in OpenUI5.")**  
+Compatibility version flags were introduced to allow applications to react to incompatible changes in OpenUI5.
 

@@ -1,15 +1,15 @@
 <!-- loio328a340e3ab14029afbeb8901376030a -->
 
-## Controls with Built-In Device Adaptation
+# Controls with Built-In Device Adaptation
 
 OpenUI5 comes with several controls which are already able to react to the available screen real estate and resolution by themselves. Some require particular properties to be set, and with some, everything just works out of the box.
 
 > ### Note:  
 > This list does not claim to be comprehensive, but shows some widely used examples outlining the steps you can take to make use of this functionality. For more details, browse through the [Samples](https://ui5.sap.com/#/controls) in the Demo Kit and see what OpenUI5 has in store for your app.
 
+***
 
-
-### sap.m.SplitApp
+## sap.m.SplitApp
 
 The `SplitApp` is a control that can act as a root element of an application for mobile and desktop devices. It is designed to be used as the base for applications following the list-detail pattern.
 
@@ -21,9 +21,9 @@ As the `SplitApp` control inherits from `sap.m.SplitContainer`, you can alter th
 
 For more information about the `SplitContainer`, see the [sap.m.SplitContainer](https://ui5.sap.com/#/entity/sap.m.SplitContainer) samples and [sap.m.SplitContainer](https://ui5.sap.com/#/api/sap.m.SplitContainer) in the *API Reference* in the Demo Kit.
 
+***
 
-
-### sap.m.Table \(also called the "Responsive Table"\)
+## sap.m.Table \(also called the "Responsive Table"\)
 
 One control that is widely used across all kinds of different applications is `sap.m.Table`, which has several features you can use for device adaptation. On smaller devices, for example, you can set certain properties that will make particular columns pop in instead of being displayed as a normal column, or show and hide columns completely.
 
@@ -31,9 +31,9 @@ For example, you can set a `minScreenWidth` for the columns. This will cause col
 
 Setting the additional property `demandPopin` to `true` for a column will also react to the `minScreenWidth` you specify. In such a case, the column will be shown as a popin on smaller screens, instead of being completely hidden. For more information about responsive tables and their columns, see the [sap.m.Table](https://ui5.sap.com/#/entity/sap.m.Table) and [sap.m.Column](https://ui5.sap.com/#/entity/sap.m.Column) samples and [sap.m.Table](https://ui5.sap.com/#/api/sap.m.Table) in the *API Reference* in the Demo Kit.
 
+***
 
-
-### sap.m.ResponsivePopover
+## sap.m.ResponsivePopover
 
 The `ResponsivePopover` is actually a combination of the functionality offered by a `sap.m.Dialog` and a `sap.m.Popover`. Depending on the device it is displayed on, it will either act as the former \(on a phone\) or as the latter \(on tablets and desktop\). For reuse, it is best placed within a fragment, which will be instantiated and displayed on demand, like when a user clicks a certain button, for example.
 
@@ -41,9 +41,9 @@ The `ResponsivePopover` does not need any additional properties to achieve prope
 
 For more details on these properties, see the documentation and sample for [sap.m.ResponsivePopover](https://ui5.sap.com/#/entity/sap.m.ResponsivePopover) in the *Samples* and [sap.m.ResponsivePopover](https://ui5.sap.com/#/api/sap.m.ResponsivePopover) in the *API Reference* in the Demo Kit.
 
+***
 
-
-### sap.m.OverflowToolbar
+## sap.m.OverflowToolbar
 
 The `OverflowToolbar` is a special type of toolbar that allows you to decide if elements within should go into an overflow area when space on the screen is limited. All elements going into the overflow area can then be reached by clicking the overflow button.
 
@@ -51,9 +51,9 @@ As a developer, you can decide if there are elements that will never or always g
 
 For detailed examples and more information about the `OverflowToolbar`, see the [sap.m.OverflowToolbar](https://ui5.sap.com/#/entity/sap.m.OverflowToolbar) samples and [sap.m.OverflowToolbar](https://ui5.sap.com/#/api/sap.m.OverflowToolbar) in the *API Reference* in the Demo Kit.
 
+***
 
-
-### sap.m.PullToRefresh
+## sap.m.PullToRefresh
 
 The `PullToRefresh` control allows users to trigger an update operation with touch or mouse interaction. On touch-enabled devices, the control will automatically be hidden, and users can swipe down the page to trigger it. On mouse-operated devices, the control will always be shown and can be clicked in order to trigger the functionality.
 
@@ -61,9 +61,9 @@ To use this control, it first needs to be placed within the content of any scrol
 
 To see a full example and read more information about `PullToRefresh`, see the [sap.m.PullToRefresh](https://ui5.sap.com/#/entity/sap.m.PullToRefresh) samples and [sap.m.PullToRefresh](https://ui5.sap.com/#/api/sap.m.PullToRefresh) in the *API Reference* in the Demo Kit.
 
+***
 
-
-### sap.ui.layout.form.Form
+## sap.ui.layout.form.Form
 
 `sap.ui.layout.form.Form` is a form that can also adapt to the available screen size, particularly when used with the corresponding `ResponsiveGridLayout`. A form consists of `FormContainers`, which in turn contain the fields and their labels. You can define general layout data for a form. For instance, you can decide how many columns you want to display depending on the available screen size, as shown here:
 

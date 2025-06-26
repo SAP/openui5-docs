@@ -2,11 +2,11 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-## Content Security Policy
+# Content Security Policy
 
 Content Security Policy \(CSP\) adds an additional layer of security that can detect and mitigate certain types of attacks, such as cross-site scripting and data injection.
 
-
+***
 
 CSP restricts the sources from which the browser is allowed to load resources, such as scripts, fonts, and images:
 
@@ -19,17 +19,17 @@ CSP is either enabled via a configuration in the web server to return the Conten
 
 For generic information about CSP, see [https://www.w3.org/TR/CSP2/](https://www.w3.org/TR/CSP2/).
 
-
+***
 
 <a name="loiofe1a6dba940e479fb7c3bc753f92b28c__section_chc_tmq_crb"/>
 
-### CSP for OpenUI5 - Dos and Don'ts
+## CSP for OpenUI5 - Dos and Don'ts
 
 For OpenUI5, we recommend that developers build their apps CSP-compliant, in particular regarding the loading of resources and the use of inline scripts.
 
+***
 
-
-#### Policies Without `script-src 'unsafe-inline'`
+### Policies Without `script-src 'unsafe-inline'`
 
 To build CSP-compliant OpenUI5 without inline scripts, avoid the following:
 
@@ -42,9 +42,9 @@ To build CSP-compliant OpenUI5 without inline scripts, avoid the following:
 -   `document.write()`, `createElement('script')`, and so on, if they are used to create inline scripts. Creating script references, such as `<script src="..."></script>`, or non-script content with them is okay.
 
 
+***
 
-
-#### Policies Without `script-src 'unsafe-eval'`
+### Policies Without `script-src 'unsafe-eval'`
 
 `eval()` is currently still required in some parts of OpenUI5 for synchronous loading and other functionality. However, we recommend loading JavaScript resources asynchronously, which also avoids the use of `eval()`. For more information about asynchronous loading, see [Modules and Dependencies](../04_Essentials/modules-and-dependencies-91f23a7.md).For more information about avoiding synchronous APIs that might lead to synchronous loading, see [Deprecated Factories Replacement](../04_Essentials/deprecated-factories-replacement-491bd9c.md).
 
@@ -61,22 +61,22 @@ For a CSP policy that doesn't allow `eval()` you must also avoid the following e
     This will be ignored silently and not create a repeated timer without `'unsafe-eval'`, that is, the `<non-fn>` is never executed. `setInterval(<fn>)` works with and without the `'unsafe-eval'`.
 
 
-
+***
 
 <a name="loiofe1a6dba940e479fb7c3bc753f92b28c__section_spl_4p3_2rb"/>
 
-### Test Your Policies with `Report-Only`
+## Test Your Policies with `Report-Only`
 
 > ### Note:  
 > CSP is a complex subject with many interdependencies and dynamics. Example: A CSP-compliant control or function in your app might have a dependency to a deprecated API that is not fully CSP-compliant. In this case you may need to add `'unsafe-eval'` to the `script-src` directive. That's why it's important to test your policies to check this.
 
 To test policies without enforcing them, set up CSP with the `Content-Security-Policy-Report-Only` response header and test with the **most restrictive** policy. Monitor the reports to add missing sources \(see [Directives](content-security-policy-fe1a6db.md#loiofe1a6dba940e479fb7c3bc753f92b28c__directives). When you have found the desired policy, replace the `Content-Security-Policy-Report-Only` header with `Content-Security-Policy` to enforce the policy.
 
-
+***
 
 <a name="loiofe1a6dba940e479fb7c3bc753f92b28c__directives"/>
 
-### Directives
+## Directives
 
 To run an app in an environment in which CSP has been enabled, OpenUI5 requires the following CSP directives and source entries:
 
@@ -419,11 +419,11 @@ Requires `'self'` for loading application resources.
 
 \*\*`child-src` is still required for browsers that don't support `worker-src` yet.
 
-
+***
 
 <a name="loiofe1a6dba940e479fb7c3bc753f92b28c__section_c1k_gt3_2rb"/>
 
-### Specific Restrictions
+## Specific Restrictions
 
 The following functions and features require additional CSP source entries or have certain restrictions:
 

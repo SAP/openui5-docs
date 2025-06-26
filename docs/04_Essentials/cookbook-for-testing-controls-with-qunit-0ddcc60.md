@@ -1,10 +1,10 @@
 <!-- loio0ddcc60b05ee40dea1a3be09e8fee8f7 -->
 
-## Cookbook for Testing Controls with QUnit
+# Cookbook for Testing Controls with QUnit
 
+***
 
-
-### Test Cases
+## Test Cases
 
 You can use a factory function. To keep this pointer and have a descriptive message, you should use the test inside of the function and pass a test name to it.
 
@@ -53,9 +53,9 @@ renderBarInPageTestCase("Should render the header context", {
 });
 ```
 
+***
 
-
-### Testing User Interactions
+## Testing User Interactions
 
 When testing user interactions, you can use `sap.ui.test.qunit` to trigger events.
 
@@ -106,11 +106,11 @@ QUnit.test("Should close the popup menu if it is open and you press escape", asy
 });
 ```
 
-
+***
 
 <a name="loio0ddcc60b05ee40dea1a3be09e8fee8f7__section_REREN"/>
 
-### Rendering and Re-rendering Controls within Tests
+## Rendering and Re-rendering Controls within Tests
 
 In the rendering tests part, you have to place your control in the DOM. The best place to put it is the `qunit-fixture` div, since its content gets deleted after every test.
 
@@ -218,9 +218,9 @@ QUnit.test("Should suppress rerendering when tooltip is set", async(assert) => {
 });
 ```
 
+***
 
-
-### Testing with Server-Side Models
+## Testing with Server-Side Models
 
 For bindable properties of your control, it should be possible to bind them to server-side models, i.e. models for which not all data is available on the client but is loaded asynchronously from a server. This is especially important for more complex controls, e.g. with an aggregation which may be bound to a collection loaded using paging. A typical example for server-side models are UI5's OData models. When testing with models, you need to make sure that you also set up/destroy the model itself inside your test. In the following, we will show an example using the OData V2 mock server:
 
@@ -330,11 +330,11 @@ QUnit.test("Should do something with the model", async(assert) => {
 });
 ```
 
-
+***
 
 <a name="loio0ddcc60b05ee40dea1a3be09e8fee8f7__section_ljv_b3r_rzb"/>
 
-### Testing for a Theme Change
+## Testing for a Theme Change
 
 ```js
 sap.ui.require(["sap/ui/core/Theming"], (Theming) => {

@@ -1,10 +1,10 @@
 <!-- loioc22208a351a04399bf6b1c9614febb4e -->
 
-## What's New in OpenUI5 1.74
+# What's New in OpenUI5 1.74
 
 With this release OpenUI5 is upgraded from version 1.73 to 1.74.
 
-
+***
 
 ****
 
@@ -994,6 +994,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

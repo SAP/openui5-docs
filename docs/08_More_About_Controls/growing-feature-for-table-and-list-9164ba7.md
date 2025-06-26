@@ -1,6 +1,6 @@
 <!-- loio9164ba7047b74a25a19baf9c5bb986ae -->
 
-## Growing Feature for Table and List
+# Growing Feature for Table and List
 
 `sap.m.ListBase` provides growing-related properties, which can be used for tables and lists.
 
@@ -57,9 +57,9 @@ If you want the user to have to scroll down to see more items \(by setting the `
 
 ```
 
+***
 
-
-### Sample
+## Sample
 
 For more information, see the [sample](https://ui5.sap.com/#/entity/sap.m.List/sample/sap.m.sample.ListGrowing) in the Demo Kit.
 

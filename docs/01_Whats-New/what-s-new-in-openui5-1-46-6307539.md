@@ -1,6 +1,6 @@
 <!-- loio6307539826e946eda7b619f2e679569a -->
 
-## What's New in OpenUI5 1.46
+# What's New in OpenUI5 1.46
 
 With this release OpenUI5 is upgraded from version 1.44 to 1.46.
 
@@ -1173,6 +1173,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

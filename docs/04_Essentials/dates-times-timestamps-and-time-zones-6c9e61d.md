@@ -1,6 +1,6 @@
 <!-- loio6c9e61dc157a40c19460660ece8368bc -->
 
-## Dates, Times, Timestamps, and Time Zones
+# Dates, Times, Timestamps, and Time Zones
 
 OpenUI5 applications often deal with timestamps, dates, and times. Typically, these timestamps, dates and times are stored in a back-end system and communicated to the client via OData services. OpenUI5 offers a variety of UI5 data types and formatters for handling these timestamps, dates and times.
 
@@ -28,11 +28,11 @@ For testing purposes, you can use the `sap-timezone` URL parameter to switch fro
 
 This topic describes the different OData Edm types and the corresponding OpenUI5 data type, how to display timestamps in a specific time zone, a list of best practices for handling timestamps, dates, and times in OpenUI5, and a list of common pitfalls.
 
-
+***
 
 <a name="loio6c9e61dc157a40c19460660ece8368bc__section_nrw_4x3_dwb"/>
 
-### Timestamps, Dates, and Times in OData
+## Timestamps, Dates, and Times in OData
 
 OData provides different Edm types for handling timestamps, dates, and times. For these Edm types, OpenUI5 provides corresponding [OpenUI5 data types](formatting-parsing-and-validating-data-07e4b92.md) to be used with data binding for formatting and parsing timestamps, dates and times. The following table shows which OpenUI5 data type belongs to which Edm type, and which meaning these types have:
 
@@ -249,11 +249,11 @@ Dates and times are time zone-independent, so OData V4 uses strings like "2014-0
 
 When using dates and times, we strongly recommend to use data bindings with the corresponding OpenUI5 data types. If data is retrieved or sent via OData, e.g. for filtering, **make sure to use data types from the `sap.ui.model.odata.type` namespace. This is also valid for data bindings with non-OData-models, such as JSON models.** For examples, see [Best Practices](dates-times-timestamps-and-time-zones-6c9e61d.md#loio6c9e61dc157a40c19460660ece8368bc__section_BP).
 
-
+***
 
 <a name="loio6c9e61dc157a40c19460660ece8368bc__section_jrv_5wm_2fb"/>
 
-### Displaying Timestamps in a Specific Time Zone
+## Displaying Timestamps in a Specific Time Zone
 
 Displaying timestamps in a specific time zone provided by the back end is done using the composite type [`sap.ui.model.odata.type.DateTimeWithTimezone`](https://ui5.sap.com/#/api/sap.ui.model.odata.type.DateTimeWithTimezone). The first part of the composite binding contains the timestamp as an `Edm.DateTimeOffset`, and the second part contains the IANA time zone ID.
 
@@ -331,11 +331,11 @@ Displaying timestamps in a specific time zone provided by the back end is done u
 >      }" />
 > ```
 
-
+***
 
 <a name="loio6c9e61dc157a40c19460660ece8368bc__section_odr_ryd_jxb"/>
 
-### Configuration-Specified Time Zones in OpenUI5
+## Configuration-Specified Time Zones in OpenUI5
 
 As of Version 1.114.0,  enables you to set a time zone that's different from the browser's time zone.
 
@@ -344,11 +344,11 @@ As of Version 1.114.0,  enables you to set a time zone that's different from the
 
 For more information, see the `timezone` configuration parameter in [Configuration Options and URL Parameters](configuration-options-and-url-parameters-91f2d03.md).
 
-
+***
 
 <a name="loio6c9e61dc157a40c19460660ece8368bc__section_ui5date"/>
 
-### `sap.ui.core.date.UI5Date`
+## `sap.ui.core.date.UI5Date`
 
 The [`sap.ui.core.date.UI5Date`](https://ui5.sap.com/#/api/module:sap/ui/core/date/UI5Date) class is a subclass of JavaScript `Date`. Regardless of whether a time zone is configured or not, the `UI5Date` class is meant to replace the JavaScript `Date` entirely within OpenUI5. Therefore, make sure to always use [`UI5Date.getInstance`](https://ui5.sap.com/#/api/module:sap/ui/core/date/UI5Date/methods/sap/ui/core/date/UI5Date.getInstance) where `Date`s are required.
 
@@ -381,17 +381,17 @@ The [`sap.ui.core.date.UI5Date`](https://ui5.sap.com/#/api/module:sap/ui/core/da
 > 
 > ```
 
-
+***
 
 <a name="loio6c9e61dc157a40c19460660ece8368bc__section_BP"/>
 
-### Best Practices
+## Best Practices
 
 **Use data binding with the corresponding OData types against the string-based property \(`value`\) of the control** used to display the date, time, timestamp, or a date range.
 
+***
 
-
-#### Value initialization with `getModelValue`
+### Value initialization with `getModelValue`
 
 If an application has to create new entities for a model and initialize them with date, time, and timestamp values, you must ensure that they are in a valid model format. We provide the `getModelValue` method for this use case, which is implemented by the following `sap.ui.model.odata.type` types:
 
@@ -501,9 +501,9 @@ You don't necessarily have to take the type from the binding or the metadata; yo
 
 To ensure consistency and reduce the number of type instances during runtime, we recommend to get the type via a binding or metadata.
 
+***
 
-
-#### `sap.m.DatePicker` with `Edm.Date` or `Edm.DateTime`
+### `sap.m.DatePicker` with `Edm.Date` or `Edm.DateTime`
 
 > ### Example:  
 > **Using `sap.m.DatePicker` with an OData V4 date in an XML view**
@@ -537,9 +537,9 @@ To ensure consistency and reduce the number of type instances during runtime, we
 >     <DatePicker value="{path: '/V2/Date1', type: 'DateTime', constraints: {displayFormat: 'Date'}}" />
 > ```
 
+***
 
-
-#### `sap.m.TimePicker` with `Edm.TimeOfDay` or `Edm.Time`
+### `sap.m.TimePicker` with `Edm.TimeOfDay` or `Edm.Time`
 
 > ### Example:  
 > **Using `sap.m.TimePicker` with an OData V4 TimeOfDay in an XML view**
@@ -573,9 +573,9 @@ To ensure consistency and reduce the number of type instances during runtime, we
 >    <TimePicker value="{path: '/V2/Time', type: 'Time'}"/>
 > ```
 
+***
 
-
-#### `sap.m.DateTimePicker` with `Edm.DateTimeOffset`
+### `sap.m.DateTimePicker` with `Edm.DateTimeOffset`
 
 > ### Example:  
 > **Using `sap.m.DateTimePicker` with an OData V4 DateTimeOffset in an XML view**
@@ -611,9 +611,9 @@ To ensure consistency and reduce the number of type instances during runtime, we
 >     <DateTimePicker value="{path: '/V2/DateTimeOffset', type: 'DateTimeOffset'}"/>
 > ```
 
+***
 
-
-#### `sap.m.DateRangeSelection` with `Edm.Date` or `Edm.DateTime`
+### `sap.m.DateRangeSelection` with `Edm.Date` or `Edm.DateTime`
 
 With a `DateRangeSelection` control the user can select two dates, a start date and an end date. The control has the two properties `dateValue` and `secondDateValue` for these values, which expect a JS `Date` object, but there is only one property `value`, which expects a string property. For binding the `value` against a start date and an end date, the composite type `sap.ui.model.type.DateInterval` has to be used.
 
@@ -684,9 +684,9 @@ With a `DateRangeSelection` control the user can select two dates, a start date 
 >         }" />
 > ```
 
+***
 
-
-#### Data transfer between an OData and a JSON model
+### Data transfer between an OData and a JSON model
 
 JSON models can also be used if the data is stored in the JSON model in the same way as in the corresponding OData model. If you already have the values in an OData model, you can transfer them to a JSON model. Dates, times and timestamps in the OData V2 model are stored as objects, so take care to clone these objects before transferring the values to a JSON model.
 
@@ -773,15 +773,15 @@ If an OData V4 model is used, cloning is not necessary, as the model representat
 
 When binding an OData V4 property via an OData V4 model, type information is automatically determined, and there is no need to specify a type in the binding information. If you bind an OData V4 property via a JSON model, however, you have to specify the type.
 
-
+***
 
 <a name="loio6c9e61dc157a40c19460660ece8368bc__section_CP"/>
 
-### Common Pitfalls
+## Common Pitfalls
 
+***
 
-
-#### Controls are used with the JavaScript `Date` object
+### Controls are used with the JavaScript `Date` object
 
 **To display or modify dates, times or timestamps, we recommend to bind the `value` property of the control with the corresponding data type.** The OpenUI5 framework then takes care that the values are properly displayed and sent to the back end.
 
@@ -790,9 +790,9 @@ When binding an OData V4 property via an OData V4 model, type information is aut
 
 Use data binding with the corresponding OData types, so that the framework takes care to properly display the dates, times and timestamps and sends them properly to the back end.
 
+***
 
-
-#### Unexpected type in `$metadata` document
+### Unexpected type in `$metadata` document
 
 Instead of using Edm types for dates/times, an Edm.String type is used, especially when using function import parameters. The application then has to take care that the date/time values are properly sent to the back end.
 

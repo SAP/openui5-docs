@@ -1,6 +1,6 @@
 <!-- loio5ee619fc1370463ea674ee04b65ed83b -->
 
-## XML Templating
+# XML Templating
 
 The XML templating concept enables you to use an XML view as a template. This template is transformed by an XML preprocessor on the source level, the XML DOM, at runtime just before an OpenUI5 control tree is created from the XML source.
 
@@ -43,9 +43,9 @@ If the view is loaded asynchronously, fragments and required modules are loaded 
 
 In the example, `sPath = "/ProductSet('HT-1021')/ToSupplier"` and the corresponding meta context point to `"/dataServices/schema/0/entityType/0"` \(the entity type `BusinessPartner`\). The resulting view is bound to the data path within the OData model in order to display the supplier of that product.
 
+***
 
-
-### Calling the XML Preprocessor
+## Calling the XML Preprocessor
 
 ```js
 1   View.create({
@@ -77,7 +77,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 -   The preprocessing instructions `<template:with>`, `<template:if>` and `<template:repeat>` are processed.
 
 
-
+***
 
 ## Example
 
@@ -102,7 +102,7 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 > 
 > For more information, see the Help topic, [Sample Service - Basic](http://help.sap.com/saphelp_nw74/helpdata/en/59/283fc4528f486b83b1a58a4f1063c0/frameset.htm).
 
-**To run the sample with UI5 Tooling:** 
+**To run the sample with UI5 Tooling \(recommended\):** 
 
 1.  [Create an account on the SAP Gateway Demo System \(ES5\)](https://developers.sap.com/tutorials/gateway-demo-signup.html).
 
@@ -110,36 +110,11 @@ See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.
 
 3.  Extract the project folder to a desired location on your local machine.
 
-4.  **If you use UI5 Tooling \(recommended\):** At your chosen location, open a new shell in your app root folder and execute `npm install`.
+4.  At your chosen location, open a new shell in your app root folder and execute `npm install`.
 
-5.  Execute `npm i -D ui5-middleware-simpleproxy` to install [ui5-middleware-simpleproxy](https://bestofui5.org/#/packages/ui5-middleware-simpleproxy) as a new development dependency in your `package.json`.
-6.  Configure the proxy in the `ui5.yaml` file by adding the following lines:
+5.  After all dependencies have been installed, enter `npm start` to start the development server.
 
-    ```
-    specVersion: '4.0'
-    metadata:
-      name: sap-ui-core-sample--view-template-tiny
-    type: application
-    framework:
-      name: OpenUI5
-      version: "1.138.0"
-      libraries:
-        - name: themelib_sap_horizon
-        - name: sap.m
-        - name: sap.ui.core
-        - name: sap.ui.layout
-    server:
-      customMiddleware:
-      - name: ui5-middleware-simpleproxy
-        afterMiddleware: compression
-        mountPath: /sap/opu/odata/IWBEP/GWSAMPLE_BASIC/
-        configuration:
-          baseUri: "https://sapes5.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/"
-    ```
-
-7.  After all dependencies have been installed, enter `npm start` to start the development server.
-
-8.  Open `index.html` in your browser. You will need to enter the username and password for your ES5 account from Step 1.
+6.  Open `index.html` in your browser. You will need to enter the username and password for your ES5 account from Step 1.
 
 
 **Component.js** 
@@ -309,9 +284,9 @@ The result is equivalent to the following handwritten XML view. Any references t
 </mvc:View>
 ```
 
+***
 
-
-### Summary
+## Summary
 
 Overall, XML templating is based on:
 
@@ -328,6 +303,16 @@ Overall, XML templating is based on:
 
 > ### Note:  
 > XML Templating works almost the same for OData V4 as for OData V2; for the differences see the *Annotations* section in [Meta Model for OData V4](meta-model-for-odata-v4-7f29fb3.md).
+
+-   **[Preprocessing Instructions](preprocessing-instructions-c27d49c.md "Preprocessing intructions are processed by the XML preprocessor when it traverses the
+		view's XML DOM.")**  
+Preprocessing intructions are processed by the XML preprocessor when it traverses the view's `XML DOM`.
+-   **[Annotation Helper](annotation-helper-dbec058.md " A collection of methods which help to consume OData Version 4.0 annotations in XML
+		template views.")**  
+ A collection of methods which help to consume OData Version 4.0 annotations in XML template views.
+-   **[Debugging](debugging-153b357.md "For the debug levels DEBUG and ALL, the XML
+		preprocessor writes a trace for what it exactly does.")**  
+For the debug levels `DEBUG` and `ALL`, the XML preprocessor writes a trace for what it exactly does.
 
 **Related Information**  
 

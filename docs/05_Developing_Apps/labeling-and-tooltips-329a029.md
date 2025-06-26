@@ -1,14 +1,14 @@
 <!-- loio329a029f39e249a1bf89e3ffc006c8e1 -->
 
-## Labeling and Tooltips
+# Labeling and Tooltips
 
 The following guidelines help you properly label your controls in order to have good accessibility.
 
-
+***
 
 <a name="loio329a029f39e249a1bf89e3ffc006c8e1__section_ujj_dpb_t2b"/>
 
-### General Considerations
+## General Considerations
 
 Top 5 things to do for better screen reader support for labels
 
@@ -31,11 +31,11 @@ Top 5 things to do for better screen reader support for labels
 -   Provide accessible alternatives and describe how to use them \(for example in the documentation of the application\).
 
 
-
+***
 
 <a name="loio329a029f39e249a1bf89e3ffc006c8e1__section_ujb_dpb_t2b"/>
 
-### Rules and Guidelines for Labeling and Tooltips
+## Rules and Guidelines for Labeling and Tooltips
 
 -   Non-decorative `sap.m.Image`/`sap.ui.core.Icon` should provide a meaningful alternative explanation in the `alt` property.
 

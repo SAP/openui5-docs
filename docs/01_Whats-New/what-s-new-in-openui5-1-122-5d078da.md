@@ -1,6 +1,6 @@
 <!-- loio5d078da3eec34ab59c7c28a30c93cf59 -->
 
-## What's New in OpenUI5 1.122
+# What's New in OpenUI5 1.122
 
 With this release OpenUI5 is upgraded from version 1.121 to 1.122.
 
@@ -240,7 +240,7 @@ Feature
 
 We have reworked the Data Binding tutorial, offering you state-of-the-art usage of data binding in OpenUI5.
 
-For more information, see [Data Binding Tutorial](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/e5310932a71f42daa41f3a6143efca9c.html "In this tutorial, we explain the concepts of data binding in SAPUI5.") :arrow_upper_right:.
+For more information, see [Data Binding Tutorial](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/e5310932a71f42daa41f3a6143efca9c.html "In this tutorial, we explain the concepts of data binding in SAPUI5.") :arrow_upper_right:.
 
 <sub>Changed•Feature•Info Only•1.122</sub>
 
@@ -592,6 +592,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

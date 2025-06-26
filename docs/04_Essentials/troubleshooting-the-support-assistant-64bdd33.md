@@ -1,10 +1,10 @@
 <!-- loio64bdd33d236340908fe2659162492b39 -->
 
-## Troubleshooting the Support Assistant
+# Troubleshooting the Support Assistant
 
 There are certain scenarios in which the Support Assistant does not behave as expected. In this section you can find tips on how to recognize and resolve some of these cases.
 
-
+***
 
 
 <table>

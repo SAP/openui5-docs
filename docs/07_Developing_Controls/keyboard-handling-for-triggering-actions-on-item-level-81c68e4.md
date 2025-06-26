@@ -1,6 +1,6 @@
 <!-- loio81c68e4654994da5935add669e48f20c -->
 
-## Keyboard Handling for Triggering Actions on Item Level
+# Keyboard Handling for Triggering Actions on Item Level
 
 The following keys and key combinations are used for triggering events of clickable elements.
 
@@ -49,7 +49,7 @@ If focus is on an item, trigger the item event immediately after the key press.
 </tr>
 </table>
 
-
+***
 
 Use the following keys to trigger additional actions \(if supported\):
 

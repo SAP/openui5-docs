@@ -1,6 +1,6 @@
 <!-- loio85738e3ac3bb407d9e1cfeb8bb9268cb -->
 
-## Normal Methods
+# Normal Methods
 
 Normal or public methods comprise all methods that do not belong to one of the special method types.
 

@@ -1,6 +1,6 @@
 <!-- loiode31215b9b134a408b574344462c9619 -->
 
-## Reacting to Layout Changes
+# Reacting to Layout Changes
 
 The `FlexibleColumnLayout` control provides the `stateChange` event.
 

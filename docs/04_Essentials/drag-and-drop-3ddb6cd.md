@@ -1,24 +1,24 @@
 <!-- loio3ddb6cde6a8d416598ac8ced3f5d82d5 -->
 
-## Drag and Drop
+# Drag and Drop
 
 Drag and drop allows you to easily move, rearrange, and restructure items, for example, in a list or hierarchy structure.
 
-
+***
 
 <a name="loio3ddb6cde6a8d416598ac8ced3f5d82d5__section_qkm_jpf_x2b"/>
 
-### Overview
+## Overview
 
 Drag and drop in OpenUI5 enhances the standard browser events. A drag session \(`DragSession`\) is created that contains all information relevant for the drag-and-drop operation.
 
 The central `DragAndDrop` handler manages the drag-and-drop scenarios of an application. The handler also creates the drag session for the data transfer and supports the custom dragging ghost element. The handler plugs into the pre- and post-event processing of the UI area to enhance native HTML5 drag-and-drop events.
 
-
+***
 
 <a name="loio3ddb6cde6a8d416598ac8ced3f5d82d5__section_rck_nxz_w2b"/>
 
-### Use
+## Use
 
 You can use drag and drop in various scenarios, for example, if you want to do the following:
 
@@ -33,11 +33,11 @@ You can use drag and drop in various scenarios, for example, if you want to do t
 -   Move files from one application to another, for example, during a spreadsheet export or a file upload
 
 
-
+***
 
 <a name="loio3ddb6cde6a8d416598ac8ced3f5d82d5__section_cm2_cpn_x2b"/>
 
-### Details
+## Details
 
 To drag an HTML element in HTML5, the draggable attribute must be set to `true`. This is done by `sap.ui.core.RenderManager` while the element data is being written to the Document Object Model \(DOM\) tree.
 
@@ -59,6 +59,16 @@ If `dragEnter` is allowed, the user can now drop an object by releasing the mous
 
 > ### Note:  
 > The `DragAndDrop` handler does not provide any default drop handler implementation. This is up to the application developers.
+
+-   **[Drag-and-Drop Configuration](drag-and-drop-configuration-56007f4.md "To use drag and drop, you have to provide the required configuration using the
+			dragDropConfig aggregation in
+		sap.ui.core.Element.")**  
+To use drag and drop, you have to provide the required configuration using the `dragDropConfig` aggregation in `sap.ui.core.Element`.
+-   **[Drag-and-Drop Metadata](drag-and-drop-metadata-da7f3fc.md "To influence the drag-and-drop behavior, use the metadata definition of a
+		control.")**  
+To influence the drag-and-drop behavior, use the metadata definition of a control.
+-   **[Drag-and-Drop Restrictions](drag-and-drop-restrictions-81e3f38.md "There are some known restrictions when using drag and drop.")**  
+There are some known restrictions when using drag and drop.
 
 **Related Information**  
 

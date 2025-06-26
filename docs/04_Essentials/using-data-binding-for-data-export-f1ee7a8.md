@@ -1,6 +1,6 @@
 <!-- loiof1ee7a8b2102415bb0d34268046cd3ea -->
 
-## Using Data Binding for Data Export
+# Using Data Binding for Data Export
 
 Data binding supports the export of data in a specific format so that the data can be used in other programs.
 
@@ -119,9 +119,9 @@ oExport.saveFile().always(function() {
 
 ```
 
+***
 
-
-### Export Types
+## Export Types
 
 You can use the CSV export type out of the box, or define other export types. The concept is similar to custom notepad controls, see [Developing Controls](../07_Developing_Controls/developing-controls-8dcab00.md). The generate method is called and should return the created file as a string.
 
@@ -301,9 +301,9 @@ var oModel = new JSONModel([
 
 ```
 
+***
 
-
-### Integration in Controls
+## Integration in Controls
 
 `sap/ui/table/Table`
 

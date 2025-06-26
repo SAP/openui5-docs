@@ -1,10 +1,10 @@
 <!-- loio3a8dd1312c374a2983056247096772de -->
 
-## What's New in OpenUI5 1.82
+# What's New in OpenUI5 1.82
 
 With this release OpenUI5 is upgraded from version 1.81 to 1.82.
 
-
+***
 
 ****
 
@@ -323,6 +323,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

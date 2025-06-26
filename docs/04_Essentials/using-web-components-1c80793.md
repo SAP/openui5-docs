@@ -1,14 +1,14 @@
 <!-- loio1c80793df5bb424091954697fc0b2828 -->
 
-## Using Web Components
+# Using Web Components
 
 Web Components integrate seamlessly into OpenUI5. A Web Component, especially a UI5 Web Component with its Custom Elements metadata, can be required and used like a regular OpenUI5 control.
 
-
+***
 
 <a name="loio1c80793df5bb424091954697fc0b2828__section_BAD4FC9765174E0EB7264A423F7C4ED6"/>
 
-### General Concepts Compared to OpenUI5 Controls
+## General Concepts Compared to OpenUI5 Controls
 
 To use Web Components, it's important to understand the different concepts and their mapping. While there are some differences between Web Components and OpenUI5 controls, the basic concepts of Web Components map easily to OpenUI5 nomenclature:
 
@@ -137,9 +137,9 @@ Associations are a UI5-only concept. Any Web Component property that takes an HT
 </tr>
 </table>
 
+***
 
-
-#### API-Specific Differences
+### API-Specific Differences
 
 Besides the nomenclature for the basic concepts, several additional naming differences need to be considered to harmonize the usage together with OpenUI5 controls:
 
@@ -152,11 +152,11 @@ Besides the nomenclature for the basic concepts, several additional naming diffe
 -   Event names that contain a dash \(e.g. `selected-item`\) are exposed under a camelCased name in OpenUI5, e.g. `selectedItem`.
 
 
-
+***
 
 <a name="loio1c80793df5bb424091954697fc0b2828__section_798A4B993F764A04BAB08DEAACC5DFA9"/>
 
-### Using UI5 Web Components in OpenUI5 Applications
+## Using UI5 Web Components in OpenUI5 Applications
 
 This section explains how to integrate UI5 Web Components into existing OpenUI5 applications. We'll cover the following topics:
 
@@ -164,9 +164,9 @@ This section explains how to integrate UI5 Web Components into existing OpenUI5 
 2.  [Usage of UI5 Web Components in XML views](using-web-components-1c80793.md#loio1c80793df5bb424091954697fc0b2828__subsection_XML)
 3.  [Usage of UI5 Web Components in JavaScript/TypeScript, e.g. in controllers](using-web-components-1c80793.md#loio1c80793df5bb424091954697fc0b2828__subsection_JSTS)
 
+***
 
-
-#### 1. Preparing Your Project
+### 1. Preparing Your Project
 
 Before using external Web Components packages in your application, prepare your project by adding the `ui5-tooling-modules` UI5 Tooling extension and configuring your `ui5.yaml`.
 
@@ -232,9 +232,9 @@ Your `package.json` should now contain the following entries in the `dependencie
 > ### Note:  
 > Web Component packages must be installed as a `dependency` to ensure that `ui5-tooling-modules` can resolve their modules.
 
+***
 
-
-#### 2. Using UI5 Web Components in XML Views
+### 2. Using UI5 Web Components in XML Views
 
 **Declaring the Namespace**
 
@@ -353,9 +353,9 @@ As before, use the corresponding **namespace and class name** to define the UI5 
 > 
 > However, there are exceptions if the [official UI5 Web Component documentation](https://sap.github.io/ui5-webcomponents/) states otherwise. This applies, for example, to the `<ui5-avatar-group>`, which can only hold `<ui5-avatar>` UI5 Web Components in its [default slot](https://sap.github.io/ui5-webcomponents/components/AvatarGroup/#default) and `content` aggregations.
 
+***
 
-
-#### 3. Using UI5 Web Components in JavaScript/TypeScript \(e.g. in Controllers\)
+### 3. Using UI5 Web Components in JavaScript/TypeScript \(e.g. in Controllers\)
 
 UI5 Web Components can easily be used in JavaScript by requiring the corresponding classes. Their usage is identical to any other traditional OpenUI5 control. You can create instances via constructor calls and then aggregate them into other UI5 Web Components or OpenUI5 controls.
 

@@ -1,6 +1,6 @@
 <!-- loioac5751f89cb142b7a6d53eaf8a0f6339 -->
 
-## alias
+# alias
 
 The `<template:alias>` instruction can be used to define a shortcut alias name for a JavaScript value, for example a static helper class, a formatter function, or a helper function.
 
@@ -8,9 +8,9 @@ The shortcut alias is only available in the scope of the `alias` instruction. Ea
 
 A proper relative name must be used. This proper name must not contain or consist of a dot. The value to which the alias refers to can be any JavaScript object or property including a function that is available at that point. Exisiting alias names can be used in new alias definitions to refer to values, for example, `<template:alias name="format" value="AH.format">`. Aliases are inherited into fragments, but of course a fragment may \(re\)define its own set of aliases. For compatibility reasons, aliases can also start with a dot, both in definition and in references.
 
+***
 
-
-### "alias" Template
+## "alias" Template
 
 ```xml
 <template:alias name="AH" value="AnnotationHelper">

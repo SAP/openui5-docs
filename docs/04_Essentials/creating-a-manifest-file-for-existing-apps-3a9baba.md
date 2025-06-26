@@ -1,6 +1,6 @@
 <!-- loio3a9babace121497abea8f0ea66e156d9 -->
 
-## Creating a Manifest File for Existing Apps
+# Creating a Manifest File for Existing Apps
 
 Detailed description of the steps needed to create a manifest \(also known as descriptor\) V2 for applications file for an existing transactional app created by the customer based on SAP Fiori.
 
@@ -543,9 +543,9 @@ Detailed description of the steps needed to create a manifest \(also known as de
     Return to the `manifest.json` file and make sure there are **no more** placeholders within it \(`<...>`\). If the file still contains placeholders, remove the corresponding sections.
 
 
+***
 
-
-### Code Changes
+## Code Changes
 
 1.  Adapt the `Component.js` file.
 
@@ -704,9 +704,9 @@ Detailed description of the steps needed to create a manifest \(also known as de
 
 
 
+***
 
-
-### Smoke Test
+## Smoke Test
 
 To verify that your app works as before, perform checks to make sure the following is true:
 
@@ -718,4 +718,9 @@ To verify that your app works as before, perform checks to make sure the followi
 
 -   Navigation works as before
 
+
+-   **[Migration Information for Upgrading the Manifest File](migration-information-for-upgrading-the-manifest-file-a110f76.md "Information how to add new attributes of manifest (also known as descriptor) versions
+		higher than V2 (OpenUI5 1.30) to
+		the manifest file.")**  
+Information how to add new attributes of manifest \(also known as descriptor\) versions higher than V2 \(OpenUI5 1.30\) to the manifest file.
 

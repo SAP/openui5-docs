@@ -1,14 +1,14 @@
 <!-- loio2e61ab6c68a2480eb666c1927a707658 -->
 
-## Object Page Layout
+# Object Page Layout
 
 The `ObjectPageLayout` control provides a layout that allows apps to easily display information related to a business object.
 
-
+***
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_hby_mpx_mcb"/>
 
-### Overview
+## Overview
 
 The `ObjectPageLayout` layout is composed of a header \(title and content\), an optional anchor bar, and block content wrapped in sections and subsections that structure the information.
 
@@ -18,11 +18,11 @@ The `ObjectPageLayout` layout is composed of a header \(title and content\), an 
 
 ![](images/loio6b015871feac4b62a1111c73ba78c86f_LowRes.png "ObjectPageLayout Main Structure")
 
-
+***
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_xy2_fsx_mcb"/>
 
-### Header \(Title and Content\)
+## Header \(Title and Content\)
 
 The `ObjectPageLayout`'s header consists of two parts: header title and header content.
 
@@ -69,11 +69,11 @@ oObjectPage.addHeaderContent(new sap.m.Label({text:"Personal description"}));
 oObjectPage.addHeaderContent(new sap.m.Text({value:"some KPI info"}));
 ```
 
-
+***
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_hd5_ysx_mcb"/>
 
-### Sections, Subsections, Blocks
+## Sections, Subsections, Blocks
 
 The content of the page that appears below the header is composed of blocks structured into sections and subsections.
 
@@ -120,11 +120,11 @@ var oSubSection1 = new sap.uxap.ObjectPageSubSection({title:"sub payroll title"}
     oObjectPage.addSection(oSection1);
 ```
 
-
+***
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_olf_1cr_ncb"/>
 
-### Layout Options
+## Layout Options
 
 The `subSectionLayout` property provides information on how all the underlying subsections arrange the blocks within their internal grid. The default is set to `titleOnTop`, which arranges the blocks content in columns where the first column is below the section and subsection titles.
 
@@ -175,11 +175,11 @@ The *See more* button is only displayed for subsections that contain one of the 
 -   Visible `BlockBase` block that has the `showSubSectionMore` property set to `true`
 
 
-
+***
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_jzh_b2r_ncb"/>
 
-### Additional Rules for Displaying Sections and Subsections
+## Additional Rules for Displaying Sections and Subsections
 
 The following additional rules are internally applied to display the contents of the `ObjectPageLayout` correctly. Each rule is applied to the output of the preceding rule.
 
@@ -194,11 +194,11 @@ The following additional rules are internally applied to display the contents of
 5.  If there are more than one sections, the first one doesn't have a title.
 
 
-
+***
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_q1l_f2r_ncb"/>
 
-### Lazy Loading OpenUI5
+## Lazy Loading OpenUI5
 
 The lazy loading mechanism allows you to load data only when the subsection blocks are inside or near the visible area on the screen. This way, you avoid sending too many requests from the start of the page loading.
 

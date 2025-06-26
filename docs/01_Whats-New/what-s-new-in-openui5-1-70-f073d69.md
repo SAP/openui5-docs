@@ -1,6 +1,6 @@
 <!-- loiof073d69bba21455bb31bdb0d08025ab9 -->
 
-## What's New in OpenUI5 1.70
+# What's New in OpenUI5 1.70
 
 With this release OpenUI5 is upgraded from version 1.69 to 1.70.
 
@@ -475,6 +475,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

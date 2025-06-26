@@ -1,18 +1,18 @@
 <!-- loioe6bb33d076dc4f23be50c082c271b9f0 -->
 
-## Typed View
+# Typed View
 
 A view can also be defined by extending the `sap.ui.core.mvc.View` class. Such a view is referred to as a typed view. This means the view definition represents its own view class.
 
-
+***
 
 A typed view implements its own `View#createContent` method. It must either return one or several root controls that will be rendered as content of the view or a promise resolving with the view content.
 
-
+***
 
 <a name="loioe6bb33d076dc4f23be50c082c271b9f0__section_fx1_wqz_y4b"/>
 
-### View Definition
+## View Definition
 
 The following example shows the definition of a view of type `myapp.views.MyView`:
 
@@ -54,11 +54,11 @@ In addition to the `createContent` method, a view can implement the `getControll
 > ### Caution:  
 > Contrary to `JSView`s, Typed Views are modeled as classes extending the `sap/ui/core/mvc/View` base class. When migrating `JSView`s to Typed Views, make sure that your corresponding Controller does not use the same fully qualified class name. For a best practice recommendation on structuring an application project, see [Folder Structure: Where to Put Your Files](../05_Developing_Apps/folder-structure-where-to-put-your-files-003f755.md).
 
-
+***
 
 <a name="loioe6bb33d076dc4f23be50c082c271b9f0__section_w3x_msz_y4b"/>
 
-### View Instantiation
+## View Instantiation
 
 The preferred way of instantiating a typed view is via the factory function [`sap.ui.core.mvc.View#create`](https://ui5.sap.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) . When the `viewName` starts with the `module:` prefix, the remainder of the name is assumed to be the name of a module that exports a typed view \(a subclass of `sap.ui.core.mvc.View`\). The module name must use the same syntax as for `sap.ui.define` or `sap.ui.require`, respectively, i.e. use slashes for separation.
 
@@ -71,11 +71,11 @@ const oView = await View.create({
 oView.placeAt("content");
 ```
 
-
+***
 
 <a name="loioe6bb33d076dc4f23be50c082c271b9f0__section_wjs_psz_y4b"/>
 
-### View Declaration in XML
+## View Declaration in XML
 
 A typed view in XML can be declared via the class `sap.ui.core.mvc.View`. Using this class requires a `module:` prefix in the `viewName` attribute.
 
@@ -85,11 +85,11 @@ A typed view in XML can be declared via the class `sap.ui.core.mvc.View`. Using 
 <mvc:View viewName="module:myapp/views/MyView" />
 ```
 
-
+***
 
 <a name="loioe6bb33d076dc4f23be50c082c271b9f0__section_gjh_kdr_k1c"/>
 
-### View Declaration in `manifest.json`
+## View Declaration in `manifest.json`
 
 A typed view can be described in a manifest in a fashion similar to the instantiation shown above.
 

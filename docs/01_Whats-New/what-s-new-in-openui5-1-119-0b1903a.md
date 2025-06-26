@@ -1,6 +1,6 @@
 <!-- loio0b1903a1fcf04cb588985d7f01b0796e -->
 
-## What's New in OpenUI5 1.119
+# What's New in OpenUI5 1.119
 
 With this release OpenUI5 is upgraded from version 1.118 to 1.119.
 
@@ -616,6 +616,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

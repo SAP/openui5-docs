@@ -1,6 +1,6 @@
 <!-- loio7d24d94d6bbe4a988265994a4a41eff6 -->
 
-## What's New in OpenUI5 1.131
+# What's New in OpenUI5 1.131
 
 With this release OpenUI5 is upgraded from version 1.130 to 1.131.
 
@@ -588,6 +588,8 @@ Info Only
 </td>
 </tr>
 </table>
+
+**Parent topic:**[Previous Versions](previous-versions-6660a59.md "")
 
 **Related Information**  
 

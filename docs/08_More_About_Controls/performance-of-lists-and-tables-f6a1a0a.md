@@ -1,6 +1,6 @@
 <!-- loiof6a1a0ad49ca4d9facac222c4d372726 -->
 
-## Performance of Lists and Tables
+# Performance of Lists and Tables
 
 Mobile devices usually have a limited memory and processing power. Complex web pages may therefore have a negative impact on the application performance. This also depends on the mobile device and affects most likely the `sap.m.List` and `sap.m.Table` controls.
 

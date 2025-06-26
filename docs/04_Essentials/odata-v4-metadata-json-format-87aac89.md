@@ -1,6 +1,6 @@
 <!-- loio87aac894a40640f89920d7b2a414499b -->
 
-## OData V4 Metadata JSON Format
+# OData V4 Metadata JSON Format
 
 The OData V4 model provides access to metadata in a streamlined JSON format which is described in the section below.
 
@@ -8,9 +8,9 @@ It is different to the $metadata service's JSON format \(see [OData JSON Format 
 
 In the sections below, angled brackets indicate variable parts. The numbers next to each expression correspond to the numbered sections in the official specification, see [OData Version 4.0 Part 3: Common Schema Definition Language \(CSDL\) Plus Errata 03](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html). Comments highlight optional properties, especially those that have certain default values.
 
+***
 
-
-### Design Rationale
+## Design Rationale
 
 We have prefixed constant property names with `"$"` as this is a legal first character for JavaScript identifiers, but not for OData simple identifiers. This way, **inline annotations** can be added via `"@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <value>` everywhere without name clashes. This is shortly shown as `"@..." : <value>` below.
 
@@ -62,9 +62,9 @@ We use the <code>"&lt;<b>key</b>&gt;@&lt;14.3.1 Annotation Term&gt;#&lt;14.3.2 A
 > > oMetaModel.getObject('/Customer/$NavigationPropertyBinding/Set%2FParameters')
 > > ```
 
+***
 
-
-### Metadata JSON Structure
+## Metadata JSON Structure
 
 The following JSON file represents the metadata document which corresponds to `GET <serviceRoot>/$metadata`.
 
@@ -242,9 +242,9 @@ The following JSON file represents the metadata document which corresponds to `G
 }
 ```
 
+***
 
-
-### Constant and Dynamic Expressions
+## Constant and Dynamic Expressions
 
 **Constant Expressions**
 

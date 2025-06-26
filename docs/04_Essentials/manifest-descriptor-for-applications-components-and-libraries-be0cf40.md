@@ -1,6 +1,6 @@
 <!-- loiobe0cf40f61184b358b5faedaec98b2da -->
 
-## Manifest \(Descriptor for Applications, Components, and Libraries\)
+# Manifest \(Descriptor for Applications, Components, and Libraries\)
 
 The manifest \(also known as descriptor for applications, components, and libraries, in short: app descriptor\) is inspired by the WebApplication Manifest concept introduced by the W3C. The manifest provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.
 
@@ -8,11 +8,11 @@ In general, the manifest describes the behavior of an app through attributes. It
 
 The data of the manifest is stored in JSON format in the `manifest.json` file. The developer creates the file with attributes in different namespaces. It contains, for example, the app ID, the version, the data sources used, along with the required components and libraries. The existence of the `manifest.json` file must be declared in the component metadata, which is then delivered as part of the application archive. After delivery, the file is read-only.
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_mkz_dgh_1cb"/>
 
-### General Information
+## General Information
 
 There is a new version of the manifest when the schema is changed. In the following table, you can see how the OpenUI5 version is related to the manifest version and the value of `_version.`
 
@@ -1303,25 +1303,25 @@ Version 76
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Manifest File](migration-information-for-upgrading-the-manifest-file-a110f76.md)
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_manifest2"/>
 
-### Manifest 2.0
+## Manifest 2.0
 
 As of OpenUI5 1.136, we support a new manifest version 2.0.0. Using this version has the following implications for a Component:
 
+***
 
-
-#### Root View and Routing Configuration
+### Root View and Routing Configuration
 
 The synchronous root view creation and routing configuration are not supported anymore.
 
 The `async` flag for both the `rootView` and the `routing` configuration is now implicitly `true` and must no longer be specified.
 
+***
 
-
-#### Deprecated Manifest Entries
+### Deprecated Manifest Entries
 
 Deprecated manifest entries managed by the OpenUI5 framework cannot be used anymore and will cause errors. This has the following consequences:
 
@@ -1329,15 +1329,15 @@ Deprecated manifest entries managed by the OpenUI5 framework cannot be used anym
 -   The routing properties `viewId`, `viewName`, `viewPath`, and `viewLevel` cannot be used anymore. Please use the documented alternatives instead, i.e. replace them with the properties `id`, `name`, `path`, and `level`, respectively, alongside adding the `type: "View"`. For more information, see [Routing Configuration](routing-configuration-9023130.md).
 -   Supported themes cannot be specified via the `sap.ui/supportedThemes` section.
 
+***
 
-
-#### Error Validation
+### Error Validation
 
 Manifest version 2.0.0 also enables a stricter error handling for views and fragments. Syntactical errors \(e.g. broken binding strings\) will now lead to errors being thrown. Programmatically created views will reject the factory promise accordingly.
 
+***
 
-
-#### `IAsyncContentCreation`
+### `IAsyncContentCreation`
 
 While the Manifest 2.0.0 behavior regarding root view and routing configuration is similar to the behavior of the [`sap.ui.core.IAsyncContentCreation`](https://ui5.sap.com/#/api/sap.ui.core.IAsyncContentCreation) interface, they are not interchangeable. For compatibility reasons, the manifest version 2.0.0 does **not** enforce the implementation of this interface. In order to use an asynchronous `sap/ui/core/UIComponent#createContent` implementation in your subclasses, the `sap.ui.core.IAsyncContentCreation` interface must be implemented explicitly.
 
@@ -1345,11 +1345,11 @@ Please also be aware that the implementation of the `sap.ui.core.IAsyncContentCr
 
 We recommend any Component or UIComponent to implement the `sap.ui.core.IAsyncContentCreation` interface whenever possible.
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__manifirst"/>
 
-### Manifest First Function
+## Manifest First Function
 
 The component factory function [`Component.create`](https://ui5.sap.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create), as introduced with 1.58, loads the `manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
 
@@ -1402,11 +1402,11 @@ The `manifest` option allows you to configure when and from where the manifest i
 > ### Note:  
 > When you enable `manifest`, all legacy component metadata needs to be migrated into the manifest for applications/components. Only those entries in the manifest for components will be respected by the component and all other entries will be ignored.
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_rmc_3xj_mmb"/>
 
-### Special `ui5://` URLs
+## Special `ui5://` URLs
 
 Inside the manifest, you can use special URLs prefixed with `ui5://`. These URLs will be resolved automatically during component startup before any models are created.
 
@@ -1417,9 +1417,9 @@ The `ui5://` URLs have the following properties:
 -   `sap.ui5/resourceRoots` can be part of a `ui5://` URL,
 -   the component factory [`Component.create`](https://ui5.sap.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create) takes care of defining the resource roots before any `ui5://` URLs are resolved.
 
+***
 
-
-#### Example
+### Example
 
 One common use case is the resolution of local annotation files. By default the local annotation files are resolved relative to the manifest. When using a `ui5://` URL, you can enforce a different resolution, e.g. to a server-absolute URL.
 
@@ -1473,11 +1473,11 @@ is resolved to:
 http://localhost:8080/this/url/is/reachable/annotations.xml
 ```
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_mhs_vdp_znb"/>
 
-### Manifest Content
+## Manifest Content
 
 > ### Note:  
 > You can find an example `manifest.json` file with sample code for the manifest content [here](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_example).
@@ -1496,11 +1496,11 @@ The content for the is contained in the following namespaces: `without`, `sap.ap
 
 [`_version`](manifest-descriptor-for-applications-components-and-libraries-be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_version)
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_nonamespace"/>
 
-### No Namespace
+## No Namespace
 
 **Attributes in the without namespace**
 
@@ -1544,11 +1544,11 @@ JSON schema URI
 </tr>
 </table>
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_app"/>
 
-### `sap.app`
+## `sap.app`
 
 **Attributes in the mandatory sap.app namespace**
 
@@ -1611,7 +1611,7 @@ It's used as a reference point for most operations involving the manifest. If th
 
 A mandatory attribute. The following values are possible:
 
--   `application`: use if your `manifest.json` describes a **UI5 application**.For an example how to use a `manifest.json` for UI5 applications, see [Step 10: Descriptor for Applications](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right: in the Walkthrough Tutorial.
+-   `application`: use if your `manifest.json` describes a **UI5 application**.For an example how to use a `manifest.json` for UI5 applications, see [Step 10: Descriptor for Applications](https://help.sap.com/viewer/93953b95df5f4e938c8eb421cef56319/1.138_SAPUI5_ABAP/en-US/8f93bf2b2b13402e9f035128ce8b495f.html "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.") :arrow_upper_right: in the Walkthrough Tutorial.
 
 -   `component`: use if your `manifest.json` describes a **reuse component** that is used in several apps. For further reuse component-specific configuration options, see [Manifest for Components \(Inside Libraries\)](manifest-for-components-inside-libraries-7701636.md).
 
@@ -1888,11 +1888,11 @@ For a description of `resources.json`, see [The resources.json File](the-resourc
 </tr>
 </table>
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui"/>
 
-### `sap.ui`
+## `sap.ui`
 
 **Attributes in the mandatory sap.ui namespace**
 
@@ -1967,11 +1967,11 @@ Mandatory; contains objects with device types on which the app is running, such 
 </tr>
 </table>
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui5"/>
 
-### `sap.ui5`
+## `sap.ui5`
 
 The `sap.ui5` namespace is aligned with the former concept of component metadata and contributes the following OpenUI5-specific attributes for the manifest, see [Migrating from Component Metadata to Manifest](migrating-from-component-metadata-to-manifest-e282db2.md) for more details.
 
@@ -2034,7 +2034,7 @@ Mandatory; specifies the external dependencies that are loaded by the OpenUI5 co
 -   `components`: ID \(namespace\) of the components that the OpenUI5 core should load for use in your component. If your app requires a minimum version of the component, specify the `minVersion` for information purposes. Specify `lazy` to indicate that the component shall be lazy loaded.
 
 
-For more information, see [Manifest Dependencies to Libraries and Components](manifest-dependencies-to-libraries-and-components-8521ad1.md).
+For more information, see [Descriptor Dependencies to Libraries and Components](descriptor-dependencies-to-libraries-and-components-8521ad1.md).
 
 </td>
 </tr>
@@ -2281,11 +2281,11 @@ The name of the command that contains the `shortcut` definition acts as a prereq
 </tr>
 </table>
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_card"/>
 
-### `sap.card`
+## `sap.card`
 
 **Attributes in the sap.card namespace**
 
@@ -2341,30 +2341,30 @@ Specifies the type-dependent card content
 </tr>
 </table>
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_version"/>
 
-### `_version`
+## `_version`
 
 -   On root level \(no namespace\): Describes the manifest format version \(mandatory\). Needs to be updated when migrating to a new manifest format version, see [Migrating from Component Metadata to Manifest](migrating-from-component-metadata-to-manifest-e282db2.md)
 
 -   Inside namespace: Describes the namespace format version \(optional from version 1.38 on\)
 
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_descriptor_schema"/>
 
-### Manifest Schema
+## Manifest Schema
 
 The newest flattened JSON schema is available on the SAP Open Source GitHub at [https://github.com/sap/ui5-manifest/](https://github.com/sap/ui5-manifest/) under Apache-2.0 License. It can be used to enable schema validation, code completion, and documentation.
 
-
+***
 
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_example"/>
 
-### Example
+## Example
 
 Current version of the `manifest.json`
 
@@ -2551,9 +2551,9 @@ For the following namespaces, the indicated teams are responsible:
 -   sap.card - in SAPUI5 responsibility
 
 
+***
 
-
-### Declaration in Component Metadata
+## Declaration in Component Metadata
 
 The component declares the existence of the manifest by specifying `manifest: "json"` in the component metadata. Setting this flag makes the component load the `manifest.json` file and read the relevant entries for OpenUI5. This metadata is used to define the dependencies that need to be loaded in order to start the component. The following code snippet shows how to add the manifest link:
 
@@ -2573,9 +2573,9 @@ sap.ui.define([
 });
 ```
 
+***
 
-
-### OpenUI5 API
+## OpenUI5 API
 
 At runtime, the manifest content can be accessed from the component via the following `sap.ui.core.Component` APIs:
 
@@ -2585,6 +2585,33 @@ oComponent.getManifest(); // returns reference to the entire manifest object if 
 oComponent.getManifestEntry("sap.app"); // returns reference to the configuration section of the manifest
 oComponent.getManifestEntry("/sap.ui5/dependencies/libs"); // returns reference or value of the manifest configuration by path; the syntax must start with a slash
 ```
+
+-   **[Migrating from Component Metadata to Manifest](migrating-from-component-metadata-to-manifest-e282db2.md "Overview, how the component metadata are mapped to the manifest (descriptor for
+		applications, components and libraries). ")**  
+Overview, how the component metadata are mapped to the manifest \(descriptor for applications, components and libraries\).
+-   **[Manifest for Libraries](manifest-for-libraries-b229914.md "The manifest (also known as descriptor) for libraries contains a subset of the
+		attributes in the manifest for applications and components.")**  
+The manifest \(also known as descriptor\) for libraries contains a subset of the attributes in the manifest for applications and components.
+-   **[Manifest for Components \(Inside Libraries\)](manifest-for-components-inside-libraries-7701636.md "The manifest (also known as descriptor) for components contains a subset of the
+		attributes in the manifest for applications ")**  
+The manifest \(also known as descriptor\) for components contains a subset of the attributes in the manifest for applications
+-   **[The resources.json File](the-resources-json-file-adcbcf8.md "The resources.json file lists all resources in a component or library folder. It resides next to each
+			manifest.json in the generated results.")**  
+The `resources.json` file lists all resources in a component or library folder. It resides next to each `manifest.json` in the generated results.
+-   **[Creating a Manifest File for Existing Apps](creating-a-manifest-file-for-existing-apps-3a9baba.md "Detailed description of the steps needed to create a manifest (also known as
+        descriptor) V2 for applications file for an existing transactional app
+            created by the customer based on SAP Fiori.")**  
+Detailed description of the steps needed to create a manifest \(also known as descriptor\) V2 for applications file for an existing transactional app created by the customer based on SAP Fiori.
+-   **[Descriptor Dependencies to Libraries and Components](descriptor-dependencies-to-libraries-and-components-8521ad1.md "Description of the performance-relevant attributes that are available for the descriptor
+		for applications, components and libraries")**  
+Description of the performance-relevant attributes that are available for the descriptor for applications, components and libraries
+-   **[Manifest Model Preload](manifest-model-preload-26ba6a5.md "The preload flag  enables a preload mode for a model, thus improving
+		the startup performance of an app or component.")**  
+The `preload` flag enables a preload mode for a model, thus improving the startup performance of an app or component.
+-   **[Enabling the Automatic Header Adaptation for Legacy Applications](enabling-the-automatic-header-adaptation-for-legacy-applications-0635156.md "Application developers can enable automatic adaptation of legacy applications from
+		the manifest.json file also known as descriptor for applications,
+		components and libraries.")**  
+Application developers can enable automatic adaptation of legacy applications from the `manifest.json` file also known as descriptor for applications, components and libraries.
 
 [sap.ui.core.UIComponent](https://ui5.sap.com/#/api/sap.ui.core.UIComponent)
 

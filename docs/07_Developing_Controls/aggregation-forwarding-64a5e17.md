@@ -1,14 +1,14 @@
 <!-- loio64a5e1775bf04d4883db18c9de7d83bd -->
 
-## Aggregation Forwarding
+# Aggregation Forwarding
 
 A mechanism used for aggregations of composite controls.
 
-
+***
 
 <a name="loio64a5e1775bf04d4883db18c9de7d83bd__section_kyq_3m5_scb"/>
 
-### Overview
+## Overview
 
 Aggregration forwarding is used when application developers want to add child controls to an aggregation of a composite control, but the composite control does not keep these controls as direct children. Instead, it moves or forwards them to an aggregation of one of its internal controls.
 
@@ -22,11 +22,11 @@ This technique is often used when a control with an aggregation is wrapped by a 
 > ### Note:  
 > Sometimes the controls that have been added to an aggregation of a composite control have to be transformed into different controls, which are then added to an aggregation of an internal control. This is a different use case and not covered by aggregation forwarding. With aggregation forwarding, aggregated child controls are moved **without** transforming them.
 
-
+***
 
 <a name="loio64a5e1775bf04d4883db18c9de7d83bd__section_vlk_km5_scb"/>
 
-### Configuration
+## Configuration
 
 Aggregation forwarding requires a simple additional setting in the definition of a control aggregation. OpenUI5 needs to know to which internal control all aggregated children need to be forwarded and to which aggregation of this internal control.
 
@@ -43,11 +43,11 @@ The `forwarding` property can be set as an object defining the following:
 
 When such a forwarding definition is done, OpenUI5 moves all aggregated child controls to the target control. All calls to `addAggregation`, `removeAggregation`, `indexOfAggregation` and so on are forwarded. When asked for the forwarded child control, both the composite control and the forwarding target act like the child control belongs to their aggregation. However, the inner forwarding target control is the actual parent of all forwarded children.
 
-
+***
 
 <a name="loio64a5e1775bf04d4883db18c9de7d83bd__section_pmd_qm5_scb"/>
 
-### Examples
+## Examples
 
 Here is an example that demonstrates aggregation forwarding: The new `FilterableList` control is supposed to display a list of items with an input field above the list. The list items are filtered while the user is entering the input. This `FilterableList` control can be implemented as a composite control, using the `sap.m.List` and `sap.m.Input` controls as inner controls to take advantage of their existing implementation, design, and set of features. Application developers using `FilterableList` cannot change all attributesof the inner `List` control. However, they should be able to provide the actual list items. Hence, the new `FilterableList` composite control has an `items` aggregation and forwards all items to the inner `sap.m.List` control, so, for example, the layouting, events, and selection can be handled there.
 
@@ -74,11 +74,11 @@ aggregations: {
 	 }},
 ```
 
-
+***
 
 <a name="loio64a5e1775bf04d4883db18c9de7d83bd__section_fbk_l3q_ddb"/>
 
-### Aggregation Forwarding in XML Composite Controls \(Deprecated\)
+## Aggregation Forwarding in XML Composite Controls \(Deprecated\)
 
 If you use aggregation forwarding with `idSuffix` for an XML composite control \(deprecated\), you define this as follows:
 
@@ -115,11 +115,11 @@ In this case, the fragment definition XML file looks like this:
 > ### Note:  
 > `myInternalVBox` is prefixed with `--`. Other than that, the coding looks exactly the same as the one for aggregation forwarding for standard composite controls.
 
-
+***
 
 <a name="loio64a5e1775bf04d4883db18c9de7d83bd__section_b14_ym5_scb"/>
 
-### Dos and Don'ts
+## Dos and Don'ts
 
 If you use aggregation forwarding, you have to keep the following in mind:
 

@@ -1,12 +1,12 @@
 <!-- loioe7027747b8ef4ef483cadeeec4cffb1e -->
 
-## Dependent Facets
+# Dependent Facets
 
 Applications can have dependencies between facets where selection of filter items in one facet list limits the list of valid filters in another facet list.
 
 For example, an application displays a list of products and uses a facet filter with two facets: Categories and Products. If users select a category filter, they should only be able to filter products from that selected category. Facet filter does **not** explicitly handle dependencies between facets. Instead, use `FacetFilterList` events in the application.
 
-
+***
 
 ## Example
 

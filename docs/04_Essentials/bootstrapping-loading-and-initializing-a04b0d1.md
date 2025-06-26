@@ -1,6 +1,6 @@
 <!-- loioa04b0d10fb494d1cb722b9e341b584ba -->
 
-## Bootstrapping: Loading and Initializing
+# Bootstrapping: Loading and Initializing
 
 To use OpenUI5 features in your HTML page, you have to load and initialize the SAPUI5 library.
 
@@ -23,11 +23,11 @@ The following code snippet shows a typical bootstrap script tag:
 
 In addition to the above snippet, you can specify a set of OpenUI5 libraries with `data-sap-ui-libs="sap.m, sap.ui.layout, sap.ui.unified, ..."` if there is no manifest.json to declare dependent libraries. More options that can be configured with `data-` can be found in [Configuration Options and URL Parameters](configuration-options-and-url-parameters-91f2d03.md).
 
-
+***
 
 <a name="loioa04b0d10fb494d1cb722b9e341b584ba__section_sct_d5h_4bc"/>
 
-### `Core.ready` State
+## `Core.ready` State
 
 After bootstrapping, if `sap-ui-on-init` has not been configured already, you can use the `sap/ui/core/Core` singleton to either `await` the Core's `ready` state or provide a callback function:
 
@@ -49,11 +49,11 @@ sap.ui.require(["sap/ui/core/Core"], async (Core) => {
 > 
 > The `sap.ui.core.Core` class must not be instantiated, except by the framework itself.
 
-
+***
 
 <a name="loioa04b0d10fb494d1cb722b9e341b584ba__section_OBBU"/>
 
-### Overview of Bootstrap Base URLs
+## Overview of Bootstrap Base URLs
 
 OpenUI5 provides several bootstrap URLs for different use cases. The following table gives an overview of the most important bootstrap base URLs:
 
@@ -135,11 +135,11 @@ Productive applications with available cache buster deployed
 
 1\) The sample mentions `sap-ui-core.js` as a bootstrap file. An overview of more bootstrap files is given in [Overview of Bootstrap Files](bootstrapping-loading-and-initializing-a04b0d1.md#loioa04b0d10fb494d1cb722b9e341b584ba__section_OBF).
 
-
+***
 
 <a name="loioa04b0d10fb494d1cb722b9e341b584ba__section_OBF"/>
 
-### Overview of Bootstrap Files
+## Overview of Bootstrap Files
 
 OpenUI5 provides several bootstrap files for different use cases. The following table gives an overview of the most important resources and the respective use cases. The resource names refer to the `resources/` folder in the OpenUI5 installation. You can find possible base URLs in [Overview of Bootstrap Base URLs](bootstrapping-loading-and-initializing-a04b0d1.md#loioa04b0d10fb494d1cb722b9e341b584ba__section_OBBU).
 
@@ -220,4 +220,26 @@ File names that match this pattern are reserved for custom merged files used by 
 </td>
 </tr>
 </table>
+
+-   **[Standard Variant for Bootstrapping](standard-variant-for-bootstrapping-91f1f45.md "The standard variant for bootstrapping loads all JavaScript modules of a library in
+		advance with one single request for performance reasons.")**  
+The standard variant for bootstrapping loads all JavaScript modules of a library in advance with one single request for performance reasons.
+-   **[Variant for Bootstrapping from Content Delivery Network](variant-for-bootstrapping-from-content-delivery-network-2d3eb2f.md "OpenUI5 can either be
+            loaded locally with a relative path from a Web server or externally from a Content
+            Delivery Network (CDN).
+    ")**  
+OpenUI5 can either be loaded locally with a relative path from a Web server or externally from a Content Delivery Network \(CDN\). 
+-   **[noJQuery Variant for Bootstrapping](nojquery-variant-for-bootstrapping-91f1dd0.md "The noJQuery variant supports bootstrapping for an application that already
+        integrates jQuery or uses a different jQuery version than OpenUI5.")**  
+The noJQuery variant supports bootstrapping for an application that already integrates jQuery or uses a different jQuery version than OpenUI5.
+-   **[Initialization Process](initialization-process-91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070 "The initialization process starts after OpenUI5 runtime is
+		loaded.")**  
+The initialization process starts after OpenUI5 runtime is loaded.
+-   **[Deprecated Core API](deprecated-core-api-798dd9a.md "This page describes important aspects of the deprecation of the sap.ui.core.Core API facade, as most of its
+                methods have been deprecated. It shows a migration path away from the deprecated legacy APIs and towards their future-proof
+                alternatives.")**  
+This page describes important aspects of the deprecation of the `sap.ui.core.Core` API facade, as most of its methods have been deprecated. It shows a migration path away from the deprecated legacy APIs and towards their future-proof alternatives.
+-   **[Configuration of the OpenUI5 Runtime](configuration-of-the-openui5-runtime-91f08de.md "OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available
+		configuration options are described in detail.")**  
+OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available configuration options are described in detail.
 

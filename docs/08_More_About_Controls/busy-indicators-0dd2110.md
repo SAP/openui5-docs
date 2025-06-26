@@ -1,6 +1,6 @@
 <!-- loio0dd211065c714c0d8a35cecb5fea8557 -->
 
-## Busy Indicators
+# Busy Indicators
 
 You use busy indicators to inform users that something is going on in the background, for example, some data is being fetched from the back end and the user has to wait. As long as the busy indicator is shown, either all or a specific part of the UI is blocked, and no user interaction is possible.
 
@@ -15,9 +15,9 @@ You can choose between the following busy indicators, depending on your use case
 -   `sap.m.BusyIndicator`
 
 
+***
 
-
-### Blocking the Whole UI
+## Blocking the Whole UI
 
 You can use the `sap.ui.core.BusyIndicator` busy indicator to block the whole UI. You can set the delay in ms by specifying the number:
 
@@ -35,9 +35,9 @@ BusyIndicator.hide();
 
 [API Reference: `sap.ui.core.BusyIndicator`](https://ui5.sap.com/#/api/sap.ui.core.BusyIndicator)
 
+***
 
-
-### Busy Indication with Dialog
+## Busy Indication with Dialog
 
 With the `sap.m.BusyDialog` busy indicator, you can block the whole UI like you do with `sap.ui.core.BusyIndicator`, but you can also show a dialog box. In this dialog box, you can also include a *Cancel* button that users can choose to stop the activity that's running in the background.
 
@@ -45,9 +45,9 @@ With the `sap.m.BusyDialog` busy indicator, you can block the whole UI like you 
 
 [API Overview and Samples: `sap.m.BusyDialog`](https://ui5.sap.com/#/entity/sap.m.BusyDialog)
 
+***
 
-
-### Busy Indication on Control Level
+## Busy Indication on Control Level
 
 The `sap.m.BusyIndicator` busy indicator blocks specific UI areas that are defined by a control. For example, if a table in a complex UI is loading, only the table is blocked - the user can still carry on working with the rest of the UI.
 

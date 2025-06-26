@@ -1,6 +1,6 @@
 <!-- loio84f3d52f492648d5b594e4f45dca7727 -->
 
-## Semantic Pages
+# Semantic Pages
 
 The semantic page controls help the app designers and developers implement and comply with the SAP Fiori design guidelines more easily.
 
@@ -16,4 +16,11 @@ There are two separate and non-dependent `semantic` namespaces in the main OpenU
 
 
 Both of them extend and enhance the base pages of the library they are in - `sap.m.Page` and `sap.f.DynamicPage`. They allow app developers to quickly add controls to the page that correspond to common operations, such as add, delete and filter. They only have to specify the action type, and the required styling and positioning is automatically added internally.
+
+-   **[Semantic Page \(sap.f\)](semantic-page-sap-f-47dc868.md "The sap.f.semantic.SemanticPage is an enhanced
+			sap.f.DynamicPage.")**  
+The `sap.f.semantic.SemanticPage` is an enhanced `sap.f.DynamicPage`.
+-   **[Semantic Page \(sap.m\)](semantic-page-sap-m-4a97a07.md "The sap.m.semantic.SemanticPage is an enhanced
+			sap.m.Page.")**  
+The `sap.m.semantic.SemanticPage` is an enhanced `sap.m.Page`.
 

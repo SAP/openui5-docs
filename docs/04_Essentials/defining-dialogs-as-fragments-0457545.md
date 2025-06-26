@@ -1,12 +1,10 @@
 <!-- loio04575456e15e426d81054805990c7a53 -->
 
-## Defining Dialogs as Fragments
+# Defining Dialogs as Fragments
 
 You can use fragments for the definition of dialogs.
 
-
-
-### Context
+***
 
 To use fragments for defining popups, just let the root control of the fragment be a dialog or similar control.
 
