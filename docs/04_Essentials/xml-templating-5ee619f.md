@@ -79,6 +79,8 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
 ***
 
+<a name="loio5ee619fc1370463ea674ee04b65ed83b__section_example"/>
+
 ## Example
 
 See the [sap.ui.core.sample.ViewTemplate.tiny](https://ui5.sap.com/#/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.tiny) XML Templating sample. This sample is based on OData Version 4.0 annotations. It contains the following files worth noting:
