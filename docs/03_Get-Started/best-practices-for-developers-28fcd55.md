@@ -206,6 +206,7 @@ When creating instances of OpenUI5 controls programmatically \(i.e. not declarat
 
 **`manifest.json`**
 
+-   Migrate to Manifest 2.0. For more information, see [Manifest 2.0](../04_Essentials/manifest-descriptor-for-applications-components-and-libraries-be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_manifest2).
 -   Don't use the section `sap.ui5/resources/js` as it's deprecated. Use regular dependencies in the `Component.js` file instead.
 
 -   Unless the component intends to load specific OpenUI5 libraries manually on demand, avoid adding `{ lazy: true }` to the `sap.ui5/dependencies/libs` section.

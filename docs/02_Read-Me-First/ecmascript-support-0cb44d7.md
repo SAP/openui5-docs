@@ -2,18 +2,18 @@
 
 # ECMAScript Support
 
-You have to consider certain restrictions when using modern ECMAScript with your OpenUI5 project.
+Consider certain restrictions when using modern ECMAScript with your OpenUI5 project.
 
-What features of modern ECMAScript a particular OpenUI5 framework version might use depends upon the features supplied by the browsers supported by that framework version. For more information, see [Browser and Platform Support](browser-and-platform-support-74b59ef.md).
+Which of the features of modern ECMAScript a particular OpenUI5 framework version might use depends on the feature set provided by the browsers supported by that framework version. For more information, see [Browser and Platform Support](browser-and-platform-support-74b59ef.md).
 
-Whether you can use a particular feature of modern ECMAScript in OpenUI5 application development depends upon the following:
+Whether you can use a particular feature of modern ECMAScript in OpenUI5 application development depends on the following:
 
--   Is the feature supplied by all the browsers intended to run your code?
+-   Is the feature provided by all the browsers intended to run your code?
 -   Does the OpenUI5 runtime permit the usage of the feature? For details, see the sections below.
 -   Is the feature supported by your tooling?
 
 > ### Caution:  
-> The restrictions described here apply to the usage of modern ECMAScript features in projects that are written in native JavaScript. If your project is written in TypeScript, you must make sure that the listed constraints are met by the transpiled code.
+> The restrictions described here apply to the usage of modern ECMAScript features in projects written in native JavaScript. If your project is written in TypeScript, make sure that the listed constraints are met by the transpiled code.
 
 ***
 

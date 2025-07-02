@@ -14,8 +14,9 @@ OpenUI5 offers many powerful enterprise features to support your entire app deve
 -   **[The UI5 Ecosystem](the-ui5-ecosystem-b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213 "This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community
 		projects.")**  
 This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
--   **[ECMAScript Support](ecmascript-support-0cb44d7.md " You have to consider certain restrictions when using modern ECMAScript with your OpenUI5 project.")**  
- You have to consider certain restrictions when using modern ECMAScript with your OpenUI5 project.
+-   **[ECMAScript Support](ecmascript-support-0cb44d7.md " Consider certain restrictions when using modern ECMAScript with your OpenUI5
+		project.")**  
+ Consider certain restrictions when using modern ECMAScript with your OpenUI5 project.
 -   **[TypeScript Support](typescript-support-a7ee961.md "TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type
 		checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.")**  
 TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.
